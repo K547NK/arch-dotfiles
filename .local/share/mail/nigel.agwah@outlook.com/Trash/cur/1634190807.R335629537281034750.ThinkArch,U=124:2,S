@@ -1,0 +1,488 @@
+Received: from DB8EUR05HT243.eop-eur05.prod.protection.outlook.com
+ (2603:10b6:806:f2::8) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with HTTPS
+ via SN7PR04CA0003.NAMPRD04.PROD.OUTLOOK.COM; Sat, 21 Aug 2021 20:27:42 +0000
+Received: from DB8EUR05FT066.eop-eur05.prod.protection.outlook.com
+ (2a01:111:e400:fc0f::41) by
+ DB8EUR05HT243.eop-eur05.prod.protection.outlook.com (2a01:111:e400:fc0f::202)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4436.19; Sat, 21 Aug
+ 2021 20:27:40 +0000
+Authentication-Results: spf=pass (sender IP is 63.214.246.229)
+ smtp.mailfrom=customeremailnotifications.com; outlook.com; dkim=none (message
+ not signed) header.d=none;outlook.com; dmarc=bestguesspass action=none
+ header.from=customeremailnotifications.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of
+ customeremailnotifications.com designates 63.214.246.229 as permitted sender)
+ receiver=protection.outlook.com; client-ip=63.214.246.229;
+ helo=customeremailnotifications.com;
+Received: from customeremailnotifications.com (63.214.246.229) by
+ DB8EUR05FT066.mail.protection.outlook.com (10.233.239.30) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4436.19 via Frontend Transport; Sat, 21 Aug 2021 20:27:39 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:1FCCF7A91DD184A394AC36CA6122D792DB7D7A56C196FEF620720021896873A1;UpperCasedChecksum:BEBC83699FE56AE3DD3D685F8AF1CD9AD91B827712C120D4BD9E0C26C3888796;SizeAsReceived:718;Count:13
+Received: from APPSERVER4 [10.0.2.94] by customeremailnotifications.com with ESMTP
+  (SMTPD-12.5.8.41) id 974b0014189b4cc6; Sat, 21 Aug 2021 15:27:38 -0500
+Date: Sat, 21 Aug 2021 15:27:38 -0500
+Message-ID: <E3E2B5779CF190C53F959FAB4B733269C94103E0@APPSERVER4>
+Content-Type: multipart/alternative;
+ boundary="------------090408000102020508050700"
+To: nigel.agwah@outlook.com
+From: Spectrum <spectrum@customeremailnotifications.com>
+Subject: Changes were recently made to your account
+X-ESMS-iEmailID: 44416587
+X-ESMS-iESMSInstanceID: 3
+Organization: Spectrum
+X-CTCH-RefID: str=0001.0A742F22.612120D9.0039,ss=3,sh,re=0.000,recu=0.000,reip=0.000,cl=3,cld=1,fgs=0
+X-IncomingHeaderCount: 13
+Return-Path: spectrum@customeremailnotifications.com
+X-MS-Exchange-Organization-ExpirationStartTime: 21 Aug 2021 20:27:40.2056
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ ca8d0465-a5d2-49f6-e8ea-08d964e21f69
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DB8EUR05FT066.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/21/2021 5:22:32 PM
+X-MS-Office365-Filtering-Correlation-Id: ca8d0465-a5d2-49f6-e8ea-08d964e21f69
+X-MS-TrafficTypeDiagnostic: DB8EUR05HT243:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 63.214.246.229
+X-SID-PRA: SPECTRUM@CUSTOMEREMAILNOTIFICATIONS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Aug 2021 20:27:39.7469
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: ca8d0465-a5d2-49f6-e8ea-08d964e21f69
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DB8EUR05FT066.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8EUR05HT243
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.4413776
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4436.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90005022)(91005020)(91035115)(91044021)(91045095)(9050020)(9100335)(5061607266)(5061608174)(4900115)(2008001114)(2008000189)(2008120379)(2008019284)(2008021020)(58390106)(98390106)(8390246)(8377080)(8386120)(8391040)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdczcrSHTkalT9NdXOwrt2Rmx6snGu6NzQQabhyS611JbzlpFb9A1kCenV7q+S2DLcmM0/rVa0XFBqc7271WTpipHs0OFxmzoEojUmyISEk9tgS0ikOENNYMFRQ/gAuv5qSZPOX9zWpSVjuNcuEm6+Pu/Mke0B/u611OvICn/StN5TSehkWvWAP/1UEKSIlLVECczFals17hRg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?windows-1256?Q?glJ8KlwYsluzEp81AKBwcSFmzNGep8ddObyBgvSZhb8H82i8x8D1JD5B?=
+ =?windows-1256?Q?Nzyo3Az27S/LfYx2CinBECr4iBUUx9+fNbidDZnmhcyNZpedn+DV+rg9?=
+ =?windows-1256?Q?hh35zbcHBNfQnAX5cYSnkL9ps4GkKa7oO1KOeJUDvc4ON7kjamFpZOgF?=
+ =?windows-1256?Q?dSd7Sv8IPrbLuTWxGJs9/1bKEK/fhfwIj11PpB0QslBtxipJoBaREJ2r?=
+ =?windows-1256?Q?OuWTZ49kY01j5wkVCZ028mYlWZjP16afhiUxgLMvQJ9CSsR/fLAesj7X?=
+ =?windows-1256?Q?Sih6enpkaj68D424FGMn+e0oTy8ShEHJgBFZtQ1OT5IkFxMZujREDVKa?=
+ =?windows-1256?Q?WU/zPhXa4EjAh4TJ5OOmD4EmgClIQuJPcHlFwQCe52zfe+Z61QSDJumu?=
+ =?windows-1256?Q?mhBt0GfGZxsrHE6xr6ZCP/zrXbTEfT8utMs/eYVhMGTKcFw+Jcf+SR0+?=
+ =?windows-1256?Q?FlsK5wqo4MjdJ0wFkf66+A+Fyz/hUR42RtDU44l1NqcqHftGt1+Ipguh?=
+ =?windows-1256?Q?ru8wJf0h41oHlnLD51Xd4+s0N9piH1+MiI3/2XCfRhsCpU9K/zK5+FCb?=
+ =?windows-1256?Q?tEdBLGytdm9TSfyUoRwmBg+LypO1t/lzgEg6dgCcgHkurZZdW+ATSM3F?=
+ =?windows-1256?Q?VViCRQNK/PapuLXHwi2g6XxVU1VR4npOqHpjerADHVZ+T8zIA//GZAQL?=
+ =?windows-1256?Q?u0+syw9XbpAjabww6N2jACrF2MGurvzupffrJw1G9IpwnRaNP12nBSaE?=
+ =?windows-1256?Q?zkAoKpT6oPTe6eo9Z0dvXDtFGgOu+hmflPlXmg3a0R+W5HylYrKuiFo+?=
+ =?windows-1256?Q?kOeNXQ6s8fj1EAaMtHk5nrj8PCBuZR5WaVod5+L/0OBG76Mskeh7ANw7?=
+ =?windows-1256?Q?pqRl/thMtw3Bt/LyMGXgpU0lRUYGPRhAkdv1vSMtbFz7mqUSOfN2RC7p?=
+ =?windows-1256?Q?H9tRsE9iO0td6cMvI9h5KaZA1FpDCK0m0yk43hMHsumnzWzWAnQeog6F?=
+ =?windows-1256?Q?9HcVjf+DZ919i/4RaHv+TX3e4fLdr3ylsjGszNO7RLjLV15F+Whczw/x?=
+ =?windows-1256?Q?0D3JqUcoTXZ9ANMVtW4cxwX24Hbb74g/ke29nbEKbGXHy6abTeu6GlX5?=
+ =?windows-1256?Q?8JG8dgxgpRlfSCsfHOaEDAK34nKFlKepW0DKL8U+9cRFmCvkwvJE7pNY?=
+ =?windows-1256?Q?P9dqoMOHD4Eal4DCPIqeNENWgmqW7EgcHyN/BjobRq3UHzpRTohMNuui?=
+ =?windows-1256?Q?fSEOSsREQLwVfniCJ0hpb+S1dPMuselZBkaViYxZScHD08lv12UEIniI?=
+ =?windows-1256?Q?49217g+sjJRlTVSD/keZ8X0yFTmX3XRdd5oAlIivg+0yXnyi?=
+MIME-Version: 1.0
+X-TUID: KHEr8dqZ6fgX
+
+--------------090408000102020508050700
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset=us-ascii
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,700,700italic,800" rel="stylesheet" type="text/css">
+    <title>Spectrum</title>
+    <style type="text/css">
+      body {
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+      }
+      img {
+      border: 0 !important;
+      outline: none !important;
+      }
+      p {
+      Margin: 0px !important;
+      padding: 0px !important;
+      }
+      table {
+      border-collapse: collapse;
+      mso-table-lspace: 0px;
+      mso-table-rspace: 0px;
+      }
+      td {
+      border-collapse: collapse;
+      mso-line-height-rule: exactly;
+      }
+      a {
+      border-collapse: collapse;
+      mso-line-height-rule: exactly;
+      }
+      span {
+      border-collapse: collapse;
+      mso-line-height-rule: exactly;
+      }
+      .ExternalClass * {
+      line-height: 100%;
+      }
+      span.MsoHyperlink {
+      mso-style-priority: 99;
+      color: inherit;
+      }
+      span.MsoHyperlinkFollowed {
+      mso-style-priority: 99;
+      color: inherit;
+      }
+      .em_defaultlink a {
+      color: inherit !important;
+      text-decoration: none !important;
+      }
+      .em_gray a {
+      color: #999999;
+      text-decoration: none;
+      }
+      td[class=em_show], table[class=em_show], span[class=em_show], br[class=em_show] {
+      display: none !important;
+      }            
+      @media only screen and (max-width:480px) {
+      span[class=em_bodylg] {
+      	font-size: 14px !important;
+      }      
+			td[class=em_prehead] {
+			height: 8px !important;
+			}                
+      table[class=em_wrapper] {
+      width: 100% !important;
+      }
+      table[class=em_main_table] {
+      width: 100% !important;
+      }
+      td[class=em_aside] {
+      padding: 0px 8px !important;
+      }
+      td[class=em_hide], table[class=em_hide], span[class=em_hide], br[class=em_hide] {
+      display: none !important;
+      }
+      span[class=em_show], br[class=em_show] {
+      	display: inline !important;
+      }
+      td[class=em_show] {
+      	display: table-cell !important;
+      }
+      table[class=em_show] {
+      	display: table !important;
+      }         
+      img[class=em_full_img] {
+      width: 100% !important;
+      height: 8px !important;
+      }
+      td[class=em_side] {
+      width: 15px !important;
+      }  
+      td[class=em_center] {
+      text-align: center !important;
+      }
+      td[class=em_spc_20] {
+      height: 20px !important;
+      }
+      td[class=em_gap_bottom] {
+      padding-bottom: 20px !important;
+      }
+      span[class=em_clr] {
+      color: #808285!important;
+      }
+      td[class=em_leftalign] {
+      padding-left:10px !important;
+	  text-align: left !important;
+	  height:auto !important;
+      }
+      td[class=em_side1] {
+      width: 20px !important;
+      }   
+      div[class=em_hide_desktop] {
+      display: table !important;
+      float: none !important;
+      width: 100% !important;
+      overflow: visible !important;
+      height: auto !important;
+      }
+      td[class=em_w150]
+      {
+      width:150px !important;	
+      border-right:1px #b2b2b4 solid !important;
+	  padding-right:5px !important;
+	  height: auto !important;
+      }
+      }
+      @media only screen and (min-width:481px) and (max-width:599px) {
+      span[class=em_bodylg] {
+      	font-size: 14px !important;
+      }      
+      table[class=em_wrapper] {
+      width: 100% !important;
+      }
+      table[class=em_main_table] {
+      width: 100% !important;
+      }
+      td[class=em_aside] {
+      padding: 0px 8px !important;
+      }
+      td[class=em_hide], table[class=em_hide], span[class=em_hide], br[class=em_hide] {
+      display: none !important;
+      }
+      img[class=em_full_img] {
+      width: 100% !important;
+      height: 8px !important;
+      }
+      td[class=em_side] {
+      width: 15px !important;
+      }
+      td[class=em_side1] {
+      width: 20px !important;
+      }
+      td[class=em_center] {
+      text-align: center !important;
+      }
+      td[class=em_spc_20] {
+      height: 20px !important;
+      }
+      td[class=em_gap_bottom] {
+      padding-bottom: 20px !important;
+      }
+      span[class=em_clr] {
+      color: #808285!important;
+      }
+      td[class=em_leftalign] {
+		padding-left:10px !important;
+      text-align: left !important;
+	  height: auto !important;
+      }
+		td[class=em_w150]
+      {
+      width:150px !important;	
+      border-right:1px #b2b2b4 solid !important;
+	  padding-right:5px !important;
+	  height:auto !important;
+      }   
+	  div[class=em_hide_desktop] {
+      display: table !important;
+      float: none !important;
+      width: 100% !important;
+      overflow: visible !important;
+      height: auto !important;
+      }
+	     }
+	    @media only screen and (max-width:580px) {
+				td[class=em_boxside] {
+				width: 20px !important;
+				}
+				img[class=em_boxtop] {
+					width: 100% !important;
+					height: 11px !important;
+				}
+				img[class=em_boxbottom] {
+					width: 100% !important;
+					height: 17px !important;
+				} 
+      }  
+    </style>
+  </head>
+  <body style="margin:0px; padding:0px;" bgcolor="#ffffff">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+      <tr>
+        <td valign="top" align="center">
+          <table width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout:fixed;" class="em_main_table">
+            <tr>
+              <td style="line-height:0px; font-size:0px;" width="640" class="em_hide"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMURGNjY1RTM2NTQxMUUzOEQyQkY4NUU5MUZBQkQxNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMURGNjY1RjM2NTQxMUUzOEQyQkY4NUU5MUZBQkQxNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjMxREY2NjVDMzY1NDExRTM4RDJCRjg1RTkxRkFCRDE2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMxREY2NjVEMzY1NDExRTM4RDJCRjg1RTkxRkFCRDE2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAAAsAAAAAAEAAQAAAgJEAQA7" height="1" width="640" style="max-height:1px; min-height:1px; display:block; width:640px; min-width:640px;" border="0" alt=""></td>
+            </tr>
+            <!--header section -->
+            <tr>
+              <td align="center" valign="top">
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="10">&nbsp;</td>
+                    <td align="center" valign="top">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="13" class="em_prehead" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                              <tr>
+                                <td valign="top">
+                                  <table width="100%" class="em_wrapper" align="left" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="13" class="em_prehead" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td width="10">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--//header section --> 
+            <!--logo section -->
+            <tr>
+              <td align="center" valign="top" bgcolor="#003057">
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="7" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="10">&nbsp;</td>
+                          <td align="left" valign="top"><a href="https://www.spectrum.net/" target="_blank" style="text-decoration:none;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAaCAIAAAC1jKx+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUU4NjVBODQ2MEJDMTFFNjhFNTZEMkE5RkFDODNCNzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUU4NjVBODU2MEJDMTFFNjhFNTZEMkE5RkFDODNCNzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFRTg2NUE4MjYwQkMxMUU2OEU1NkQyQTlGQUM4M0I3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFRTg2NUE4MzYwQkMxMUU2OEU1NkQyQTlGQUM4M0I3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuZT+VoAAAffSURBVHja7Fl5WI1p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" width="92" height="26" alt="Spectrum" style="display:block; font-family:Arial, sans-serif; font-size:11px; line-height:26px; color:#ffffff; background-color:#003057; font-weight:bold;text-align:left;" border="0"></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="7" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--//logo section -->
+            <tr>
+              <td height="15" style="line-height:1px; font-size:1px;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="31" class="em_side">&nbsp;</td>
+                    <td align="left" valign="top" style="font-family: 'Open Sans', Arial,  sans-serif; font-size:24px; line-height:26px; font-weight:normal; color:#0099D8;">CHANGES TO <br style="display:none;" class="em_show">YOUR ACCOUNT
+                    <br>HAVE BEEN MADE.
+                    </td>
+                    <td width="31" class="em_side">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="15" style="line-height:1px; font-size:1px;">&nbsp;</td>
+            </tr>
+            <tr>
+
+              <td align="center" valign="top">
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="22" class="em_side" style="line-height:0px;font-size:0px;"></td>
+                    <td align="center" valign="top" style="line-height:0px;font-size:0px;"><img src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QMraHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ4OEY0MkQzMDg4NDExRTZBOThDQjZBMDkxOTA2MzNDIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQ4OEY0MkQ0MDg4NDExRTZBOThDQjZBMDkxOTA2MzNDIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDg4RjQyRDEwODg0MTFFNkE5OENCNkEwOTE5MDYzM0MiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDg4RjQyRDIwODg0MTFFNkE5OENCNkEwOTE5MDYzM0MiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAAIAlMDAREAAhEBAxEB/8QAhAAAAgMBAQEAAAAAAAAAAAAAAwQBAgUGAAoBAQAAAAAAAAAAAAAAAAAAAAAQAAACBgQGDgcGBwAAAAAAAAEDABECBAUIITGTBkFh0hNUGFFxgaGxwRIiosJDg0SUkUIjM2PTB9EykrLDNGJyglNzFIQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APvqeXEp5ZFltdOPZXhrwoHJP9w4Y/CImA0sdgR+1A5h4+jsBeOVywbpAfXaBfSBAxTvoNdw4ecDf42spAyjZcrsmrWJmHtW8P8AUNKBmmSy3XMXSbStftDA3Q51aAgZKzdVtdJtNftTMrAgImSnXVb9Y6lfambnr4EBRuUW6zXrnYwA0z00tAgJmSfXWaXzzqalGmb6mkBRuTe67dPLPtTVbvPQFW5MLsNU5w/azxuUgLtyVXZaqMPClfvjMtAA1JPdsajT7YxQ9NAXakju4PavFqbwg0gAbkfu61UceOD3xohX/MCABqRu7wgPtngKB7Y0OugLtSM3eGjPH7eeMFXobQBDItABqeHgMeeO4OUgCakUgI1PB1scv8yAJqRGBj4g/bE82jpCgDGRCC6Qfbm5YIAxkOgoj+4PtjQ64oFGpDIOqh5PDvzuJtYIAhkLg+B4Ptj8oECmoZCNKPDFnjeNtAqMhcJwPR/mDstSAMZCYUNb08D/ANBnDnECmoRCw8SfiU8Hb/PQK6hEM0p4tzstAjUHhWkn2x2UgVGQWF4Ht4Dvjh66BXUFhuln252UgRqCw3Snge/O420CNQWG6U8+YODgbQPagkOwPTz5g8f1AQI1BIdpbxbn/NQPagkO0t4tz/moHtQSHaW8W5/zUCdQWG6U8+ZO+YgTqDQ7Sni3Ny0CdQWG6WfbnZSBOoLDML48Wx2WCBYJBoUHingds87KUgW1CIWFT08Wx2UgSEhML0k8cf8AsHB6eepAuEhEKwvJ/mDR3hMQLhIVCsL08eYN4mxQLhIXCNKPtzR4W0C4SFwjSD1bOeO4mxQCMyGQcB/cnq/zncbQAgE1DYMHiD7c4eBtAIEh8F0g+2ND9RAuzIhAwreDx783KQDBInAg8QfunHbymxQCBIrAA8Q8K2M8cHWQCsyMXeCkTzx702jpoB2JGrv0+2eMHbmDwNoB2ZHbvB2p+4aav86AwzJFdv8AvHj3xo9YEA7Ekt2wpzrxbGL2vvgoEA7MlF2QEBE0+2My0BhmS67AK9oeCvjG8TSAyxJpddntD6PjG5SA2XJ5dZlS2z6AV702npCgOMShXWZVzzg71vK2EBtiUq6rNbRuCo0yr8WFAdLlVuqxhO2xNMq2KGhrQHy5YLrF1CbR8QxasS2sKA+TLbdgtShMo+I2ujbFA1CZfrtkqVyxEBX7xrjaQNh3+il3yagMoUrntcTSB0Ln9M4O6CAsA1R/EOLGtSB2DlAnVyAALXRjEd4UDYzTGwNSq8a0D//Z" class="em_full_img" width="595" height="8" alt=" "></td>
+                    <td width="23" class="em_side" style="line-height:0px;font-size:0px;"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--1 col section -->
+            <tr>
+              <td align="center" valign="top">
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="30" class="em_side1">&nbsp;</td>
+                    <td align="center" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="8" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" class="" valign="top" style="font-family:'Open Sans', Arial,  sans-serif; font-size:12px; line-height:18px; color:#3f3f45;">
+															<span class="em_bodylg">Dear <span style="color: #ec008c;">NIGEL AGWAH</span>,<br>
+                              <br>
+                              Thank you for choosing Spectrum! This message is a confirmation of recent changes to your account. 
+                              <br><br>
+                              <span style="color: #ec008c;">Your password was changed.</span>
+                              <br><br>
+															If you did not request these changes, please have the primary account holder contact a Spectrum Representative at <b>1-855-70-SPECTRUM</b> (1-855-707-7328). 
+															</span>
+                            </td>
+                          </tr>
+                        <tr>
+                          <td height="17" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>                                                                                             
+                      </table>
+                    </td>
+                    <td width="27" class="em_side1">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--//2 coloumn section --> 
+
+            <!--footer section -->
+            <tr>
+              <td align="center" valign="top" bgcolor="#e9e9ea">
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="18" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="left" class="em_gray" valign="top" style="font-family:'Open Sans', Arial,  sans-serif; font-size:10px; line-height:11px; color:#808285;">&copy; 20&#8204;20 Charter Communications. All rights reserved.  &nbsp;|&nbsp; <a href="https://www.charter.com/browse/content/your-privacy-rights" target="_blank" style="text-decoration:none; color:#808285;">Privacy Policy</a><br>
+                            <br>
+                            This message was sent by Charter Communications. Please do not reply to this email as this email address is not monitored.<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="19" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td width="30" class="em_side1">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--//footer section -->
+          </table>
+        </td>
+      </tr>
+    </table>
+    <div style="display:none; white-space:nowrap; font:20px courier; color:#ffffff; background-color:#ffffff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+  </body>
+</html>
+--------------090408000102020508050700--

@@ -1,0 +1,322 @@
+Received: from DF4PR8401MB0650.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7609::20) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Tue, 12 Oct 2021 14:17:03 +0000
+Received: from AM6PR10CA0095.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:209:8c::36)
+ by DF4PR8401MB0650.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7609::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.18; Tue, 12 Oct
+ 2021 14:17:02 +0000
+Received: from AM5EUR02FT042.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:209:8c:cafe::89) by AM6PR10CA0095.outlook.office365.com
+ (2603:10a6:209:8c::36) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.21 via Frontend
+ Transport; Tue, 12 Oct 2021 14:17:01 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.60.140)
+ smtp.mailfrom=email.dropbox.com; outlook.com; dkim=pass (signature was
+ verified) header.d=dropbox.com;outlook.com; dmarc=pass action=none
+ header.from=dropbox.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of email.dropbox.com
+ designates 54.240.60.140 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.60.140;
+ helo=a60-140.smtp-out.us-west-2.amazonses.com;
+Received: from a60-140.smtp-out.us-west-2.amazonses.com (54.240.60.140) by
+ AM5EUR02FT042.mail.protection.outlook.com (10.152.9.106) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4587.18 via Frontend Transport; Tue, 12 Oct 2021 14:17:01 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:AF7097BFBABEE75782D02696002CCE354694ACDF826AD418B3BE57EBABC417CF;UpperCasedChecksum:21BF7994B3991F1AE4E803D3ABB7132D163936CDA7E1A5853AE54B3FD0581987;SizeAsReceived:1484;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=b55ck4kgrdgjxhl3qlcrbmzyg4d26eak; d=dropbox.com; t=1634048220;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID;
+	bh=XasmYvCBH63tCbZ8UBvkL24N0nEoZbD3VWjkHNDOYuE=;
+	b=IWLfqIfse9HdRDTEowVfTWE3/jDG+Xsx4TgCLEAQpRYkpzsWIevA4r0p4CGKsq8c
+	8hbacIk2iekOJLdEvNC3GlOFrepkb7jEuG3vcsggKTZX19WTSwtMGUt00VIuDNwPdc5
+	3+ji574/lj5iM5ZQxP0wCCRB08XMdU89k+b4p12g=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1634048220;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID:Feedback-ID;
+	bh=XasmYvCBH63tCbZ8UBvkL24N0nEoZbD3VWjkHNDOYuE=;
+	b=bEINm4HwNASE3hEVyBMYKgeL4fAvDfqUbFFMGrqcd+qvc1CJkFhJxZr/WYtGE7Jz
+	F7tKWTLPHSa3sRzvZ+UEWjyW0SSOHz/2g/UL8mfXu0hMl0gVDp/7+cfmjPfoxede0eV
+	uhWbo6J6OfPHYPny0qdbeXVInpH+XcWUNmiRN6/0=
+Content-Type: multipart/alternative;
+ boundary="===============5047510798186896040=="
+From: Dropbox <no-reply@dropbox.com>
+To: nigel.agwah@outlook.com
+CC:
+Subject: =?utf-8?q?=E2=9D=97_COURTESY_REQUEST=3A_We=27re_contacting_you_about_your?=
+ =?utf-8?q?_Dropbox_capacity!?=
+Date: Tue, 12 Oct 2021 14:17:00 +0000
+Message-ID: <0101017c74dd1e1b-3fd822b3-3e61-40e4-aac3-95331cb1dd10-000000@us-west-2.amazonses.com>
+X-Dropbox-Message-ID: 6831149827350001615
+Feedback-ID: 1.us-west-2.C1J9pRCK9rJULWC8wBKFbk8/mhlW6tSneJoML9ymcSA=:AmazonSES
+X-SES-Outgoing: 2021.10.12-54.240.60.140
+X-IncomingHeaderCount: 13
+Return-Path:
+ 0101017c74dd1e1b-3fd822b3-3e61-40e4-aac3-95331cb1dd10-000000@email.dropbox.com
+X-MS-Exchange-Organization-ExpirationStartTime: 12 Oct 2021 14:17:01.6719
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b9a2518b-8e0f-4174-f302-08d98d8af5b1
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM5EUR02FT042.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/8/2021 2:42:16 PM
+X-MS-Office365-Filtering-Correlation-Id: b9a2518b-8e0f-4174-f302-08d98d8af5b1
+X-MS-TrafficTypeDiagnostic: DF4PR8401MB0650:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.60.140
+X-SID-PRA: NO-REPLY@DROPBOX.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Oct 2021 14:17:01.1781
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b9a2518b-8e0f-4174-f302-08d98d8af5b1
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM5EUR02FT042.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DF4PR8401MB0650
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5549337
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4587.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100337)(4900116)(98391031)(4910005)(9560002)(9320001)(4920091)(6515079)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeq8LmROz4S0gQU70TrpLbJAwrN0leuVRXH/oDgRCAgilPQx81MV/nbJEKKd1VUnJ9QnzmEYDSbUndkm5bRajO951+lCRYUgCAi70g++0eAQfqVMqOGX+hbjunZc/6fC+TD/159sMsFgHhWTWlny3El4DRVZGhuHJEsMGA3Ia0BBNS52j7l7r04Eh9tgFRXTUvhLE4qAU0E0w==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bHNINFFmRXpwNk9Ham9lQjlTeVRPaUN0blZGYW9xTzJJTjJ5SnkzUFA3am5Q?=
+ =?utf-8?B?cDlOb3dCQlN4Vk1rQXk0TVdnNkFURXZVMmFRcytLdWF4SWNtQ0FOeDRTbmM0?=
+ =?utf-8?B?SnlhVzV0ckVOMDdycDUwY0x4eEQzSUlSdDl0d2t4aTdScUVKMHNQZW0zYk9z?=
+ =?utf-8?B?c0xGZVNUT21rMVl6R1VrMW5ReUtkMEI5SGc4L2xnRkh1UzkvN1dhVG9ZZDZV?=
+ =?utf-8?B?WWRTemF0ZGZqM2VSQW5aOXBHWnNGSGVCNTdZL3pqVkF1cXh6eEhueGhnSXNS?=
+ =?utf-8?B?Y1V6dytpQlRSVVQ0VGVra2d2S2w1d2RHUmN0NkR5NllOczlQOFgwNTllaTZD?=
+ =?utf-8?B?T0w1UXR1UkgvZkJPajhQSTNSYXJESXlVL0lKNllZWkV3RXRmb2Z0WTRDTzdV?=
+ =?utf-8?B?RDZ2azVsY0Y2bUMrWGlUTjJZWEE5UzJ2bytvNzBkWTVyZmVLd3E1NDlEZTNk?=
+ =?utf-8?B?YmNHTW8yUHlpenpzdDk3VjdPayt5azdpNDhRVFdOREI5MkVhbWhBK3J2TWNk?=
+ =?utf-8?B?WFl5SkZxYWM4WExKcWZqWEY2NkVrK2hHamRQa0drS3h3bElUeFpwVTFTa2x1?=
+ =?utf-8?B?NVFmK2JBaEY4VVFheEYwUHJLeFBMMG5YYUFlTnBuUUpRTXJNdjBjaTAvanpE?=
+ =?utf-8?B?SGZuQnZPK2RYbWdTZXV2Z2cwdElJM3dnV0l4SnF0WmFITVNURllqSnZYM3NZ?=
+ =?utf-8?B?aE5ra2NzUnJ2UEJUd1lNYmo0a3YxWWVJdGFpMS9lWENzWTZKQ0lJL2MzcTd5?=
+ =?utf-8?B?Q1RrTXpHNlQyUzlTeHUwc3Nmd3pXTm9iTjgrclZIT1VBa0MwekxtRjFSak4y?=
+ =?utf-8?B?R2hBOE9jVkRWOFpKY216MENMUWNaQVl0eGlMRmszRGFzcDd5Nk1oRGh5bm42?=
+ =?utf-8?B?VXl0M2tmU0ZjT3dvUzB6VTJCYklRUEtCSi8rUWN5ZU4xamNYWU1NZ3lHZytL?=
+ =?utf-8?B?YlpYSllVcXEwU2p4RlVLWmdDNVh1bGRmMFVRbGR0aXlVcXhacENQVHFMR0d4?=
+ =?utf-8?B?QnRaMWlyU0N1WXdWWDUvOEo4dWVJdnhtalZsV2FJNy90bkg3UG5BZUptZVJy?=
+ =?utf-8?B?VWFFZ09MalVvMEc5c3BYTFZLOEpzeFJCODRpcHQ4VG5sQk95S1NxSytkditE?=
+ =?utf-8?B?WjByMUpGTWoyZDlkY3NlVVJFTG05V1BLbXN2ZXAzYS9URTduWVFQeTF3cVlJ?=
+ =?utf-8?B?SWRRQ1B6WUZ3QmdjckV0TFBQeDFvZFN4a1RUU2l1R01WbDN4dHR0MVBoaG96?=
+ =?utf-8?B?eW9DU2JUSEdCbHJ5M2dwdFZRaDlqci9kOUlURDgrbDB2cmh6Yld0Y0ZVenhY?=
+ =?utf-8?B?Y25jc2xhS3VEaDJDMXRGUThlSm53d2RRSklzNVZHZEhxTWZhRU1hSGsxYjdP?=
+ =?utf-8?B?bUNMZGpUckltMUdHYTh3VnNBd0pXa2I2Z2xIbG5tWjkvcUM5Y1NodzhUdUFV?=
+ =?utf-8?B?ZDBWZktjOEluTHhSUTRraStzeVg1Q2lIbWxndjhQUmFndHNERWRYSy9mdDJy?=
+ =?utf-8?B?RjhUVmxCb0tjclMyM1RiR3ZNU0JZdThGcWFnT2tadHM5VjdlOUNTY0RQTEhZ?=
+ =?utf-8?B?QmN6bFVmMmNmS2wyZElQOXZ4NTFMVy9xMGlwSDBrM3RSM2tNVHpJUmdKUzQ4?=
+ =?utf-8?B?MTMzclJTbmZjeU9vaHRUOWhVK1plR1JSZE5Gbzc5TG91SmtzeVFrbEtFM1V1?=
+ =?utf-8?B?Y0l2NVNVZUFhNzZjN2VKQUMrNmtRWlgweTBJeXU4Q0VlMllyT0pmbENGVExK?=
+ =?utf-8?B?QTZ2Nk1zYUpLdHhnZTNNcDVGV1dYNXl4ejRmM0ZjcWRCZGZ3TjMxdmNmdEJP?=
+ =?utf-8?B?VTlveGdKY210eU9pQTdSbW5OVWFmS1V4N1Njb2xsZ1Z0MXE3Y1JvL1B5WWRi?=
+ =?utf-8?B?U1NEK3F5UEZ5d0pmMFpSZHBEcDhBR1dPRlZzQkxMVGlYL052bnQzUXB0bkJM?=
+ =?utf-8?Q?SAFzoLYaBSY6YLuyr21YSHf159ssWXls?=
+MIME-Version: 1.0
+X-TUID: AoG5sdmUAGUf
+
+--===============5047510798186896040==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Keep your files up to date and access them anywhere =C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0      =
+ It=E2=80=99s time to upgrade your account  We noticed your Dropbox is almo=
+st full. Your files will stop syncing once you reach maximum capacity.   Vi=
+ew your options[1]   =
+
+
+____________________________________________________
+ Dropbox, Inc. =
+
+ PO Box 77767, San Francisco, CA 94107 =
+
+View Privacy Policy[2] | Unsubscribe[3]
+
+[1]: https://www.dropbox.com/l/AAAUeERLqysiW5aAmmJA9XrtJVAOPoIMFVg/buy
+[2]: https://www.dropbox.com/l/AABgmrfj1I3rqMbmTZgH2rR4FYFEqUDkscM/privacy#=
+privacy
+[3]: https://www.dropbox.com/l/AABm7eXh9z2woqHmRvKFngbCHtYFWHWscUI
+--===============5047510798186896040==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html xmlns=3D"http://www.w3.org/1999/xhtml"=
+><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style></style>
+</head> <body marginheight=3D"0" marginwidth=3D"0" style=3D"padding: 0; wid=
+th: 100% !important; -webkit-text-size-adjust: 100%; margin: 0 auto; -ms-te=
+xt-size-adjust: 100%; background-color: #FFF;"><table align=3D"center" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"max-width: 7=
+20px; width: 100% !important; border: 1px #f7f8f8 solid; margin: 0 auto;">
+<tr><td align=3D"left" style=3D"padding: 20px 25px 10px"><img catalogid=3D"=
+dbx_masthead_default_png" src=3D"https://cfl.dropboxstatic.com/static/image=
+s/emails/dbx_masthead_default.png" style=3D"max-width: 150px; display: bloc=
+k;" width=3D"150"></td></tr>
+<tr><td><table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" wi=
+dth=3D"100%"><tr><td style=3D"font-size: 20px; font-weight: 300; color: #00=
+0; padding: 15px 0; width: 720px; font-family: Atlas Grotesk, Open Sans, He=
+lveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, =
+Lucida Grande, sans-serif; line-height: 1.45em;"><table cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"max-width:720px;" width=3D"=
+100%">
+<div>
+<div style=3D"color: #ffffff !important;; display: none !important;">Keep y=
+our files up to date and access them anywhere</div>
+<div style=3D"color: #ffffff !important;; display: none !important;"><span>=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;</span></div>
+</div>
+<tr><td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"ma=
+x-width:720px;" width=3D"100%"><tr><td style=3D"padding:20px 0 ">
+<div style=3D"width: 350px;float:left"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tr><td><a href=3D"https://www.dropbox.c=
+om/l/AACTN-EC7OGhTvDND2Q2As2AJ7Y1vqJUaks/buy" style=3D"border:0;text-decora=
+tion:none;"><img src=3D"https://assets.dropbox.com/email/en/quota/near-quot=
+a/nq_hero_00.png" style=3D"display:block; width:100%; max-width:350px; bord=
+er: 0" width=3D"350"></a></td></tr></table></div>
+<div style=3D"width:320px;float:left"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" style=3D"margin:0 0 0 10px;" width=3D"100%">
+<tr><td align=3D"left" style=3D"color: #000000; font-family: 'Atlas Grotesk=
+','Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode=
+',Tahoma,'Sans Serif','Proxima Nova',Georgia; font-size: 32px; font-weight:=
+ 500; line-height: 38px; padding:15px 20px 0; max-width:320px;min-width:310=
+px"><b>It=E2=80=99s time to upgrade your account</b></td></tr>
+<tr><td><table cellpadding=3D"0" cellspacing=3D"0" width=3D"310"><td align=
+=3D"left" style=3D"color: #000000; font-family: 'Atlas Grotesk','Open Sans'=
+,'Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'San=
+s Serif','Proxima Nova',Georgia; font-size: 16px; font-weight: 300; line-he=
+ight: 27px; padding:25px 20px 20px ; max-width:310px;min-width:270px">We no=
+ticed your Dropbox is almost full. Your files will stop syncing once you re=
+ach maximum capacity.</td></table></td></tr>
+<tr><td align=3D"left" style=3D"padding: 25px 20px 0;width:500px;"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width:500px"><=
+tr><td style=3D"background-color:#0061ff;text-align:center"><a href=3D"http=
+s://www.dropbox.com/l/AACTN-EC7OGhTvDND2Q2As2AJ7Y1vqJUaks/buy" style=3D"bor=
+der-radius:0px;font-size: 16px;color:#fff;padding:11px 50px;max-width:500px=
+;font-family:Atlas Grotesk,Open Sans,HelveticaNeue-Light,Helvetica Neue Lig=
+ht,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;border:0px solid=
+ #0061ff;text-align:center;text-decoration:none;font-weight:300;display:blo=
+ck;background-color:#0061ff;">View your options</a></td></tr></table></td><=
+/tr>
+</table></div>
+</td></tr></table></td></tr>
+</table></td></tr></table></td></tr>
+<tr><td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"min-height: 70px; margin-top: 22px; max-width: 720px; f=
+ont-family: Atlas Grotesk, Open Sans, HelveticaNeue-Light, Helvetica Neue L=
+ight, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; margin: =
+0 auto; background-color: #f7f8f8; text-align: left;" width=3D"100%"><tr cl=
+ass=3D"footer"><td style=3D"font-size: 11px; color: #adb1b4; border-collaps=
+e: collapse; padding: 0 22px; -webkit-text-size-adjust: none; font-family: =
+Atlas Grotesk, Open Sans, HelveticaNeue-Light, Helvetica Neue Light, Helvet=
+ica Neue, Helvetica, Arial, Lucida Grande, sans-serif; line-height: 1.6em;"=
+>
+<span>Dropbox, Inc.</span><br><span>PO Box 77767, San Francisco, CA 94107</=
+span><br><a href=3D"https://www.dropbox.com/l/AAD_iZkNDxj1Hyxrcf1zYbsLNcatJ=
+6Vw6Ag/privacy#privacy">View Privacy Policy</a> | <a href=3D"https://www.dr=
+opbox.com/l/AABeg4w6kQwYmRasW6XvLJZXcC77fUgGquM">Unsubscribe</a>
+</td></tr></table></td></tr>
+</table></body>
+</html><img height=3D"1" src=3D"https://www.dropbox.com/l/AAA1lyMK0UnjvA1OE=
+U8N_rSZhnzD7d8FJCE" width=3D"1">=
+
+--===============5047510798186896040==--

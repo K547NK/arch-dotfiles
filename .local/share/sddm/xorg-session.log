@@ -1,0 +1,322 @@
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+dbus-update-activation-environment: error: unable to connect to D-Bus: Using X11 for dbus-daemon autolaunch was disabled at compile time, set your DBUS_SESSION_BUS_ADDRESS instead
+[ 10/12/2021 19:28:02.986 session_init WARN ] This compositor has been renamed to "picom", the "compton" binary will not be installed in the future.
+sh: /home/nigel/.config/i3/benq.sh: No such file or directory
+/bin/sh: line 1: dunst: command not found
+/bin/sh: line 1: mbsync: command not found
+/bin/sh: -c: line 1: syntax error near unexpected token `&'
+/bin/sh: -c: line 1: `&  --bar_id=bar-0 --socket="/tmp/i3-nigel.RmMXhA/ipc-socket.4893"'
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|error: module/alsa: Module was not stopped before deconstructing.
+polybar|error: Disabling module "alsa" (reason: Cannot find simple element)
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+[5008:5032:1012/192822.444617:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192822.444730:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192822.464123:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192822.464184:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[5043:5043:1012/192822.516878:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[5008:5032:1012/192822.519709:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192822.519785:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5109:1012/192822.620107:ERROR:object_proxy.cc(642)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5008:5109:1012/192822.620569:ERROR:object_proxy.cc(642)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5008:5109:1012/192822.621714:ERROR:object_proxy.cc(642)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5008:5030:1012/192824.901555:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[5008:5030:1012/192824.901596:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[5008:5030:1012/192824.901607:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[5008:5030:1012/192825.048195:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+[5008:5008:1012/192828.598085:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 18.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/192828.598202:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 18.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+Fontconfig error: Cannot load default config file: No such file: (null)
+[5008:5059:1012/192848.271723:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5032:1012/192851.118011:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118104:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118134:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118162:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118187:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118213:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118239:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118264:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118288:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118330:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118357:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118385:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118409:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.118434:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.169407:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.169477:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.169508:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5027:1012/192851.290001:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5032:1012/192851.404906:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192851.404970:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5027:1012/192856.188781:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5026:1012/192908.956758:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5032:1012/192909.887771:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192909.887843:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192909.887879:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192922.003414:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/192922.003566:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5008:1012/192929.033907:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 38.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/192929.034027:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 38.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5026:1012/192929.830064:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5059:1012/192944.175506:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5008:1012/192952.675418:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 40.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/192952.675998:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 40.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/192952.676087:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 40.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/193001.504220:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 41.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/193001.504402:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 41.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[5008:5008:1012/193001.510569:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 41.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+
+(arandr:5626): Gdk-CRITICAL **: 19:30:34.065: gdk_atom_intern: assertion 'atom_name != NULL' failed
+
+(arandr:5626): Gdk-CRITICAL **: 19:30:34.065: gdk_atom_intern: assertion 'atom_name != NULL' failed
+[5008:5032:1012/193135.736779:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.736892:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.736923:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.889466:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.889531:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.889560:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.895437:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.895493:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193135.895542:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+urxvt: unable to calculate font width for 'Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Courier New:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Andale Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=False:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'FreeMono:slant=0:weight=100:pixelsize=18:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Courier New:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Andale Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=False:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'FreeMono:slant=0:weight=100:pixelsize=18:autohint=True:minspace=True', ignoring.
+[5008:5032:1012/193713.035538:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193713.035631:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/193713.035660:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|error: Undefined bar: left. Available bars: center, main
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|error: Undefined bar: right. Available bars: center, main
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+[5008:5032:1012/194043.973306:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194043.973356:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194043.994695:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194043.994735:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194043.994750:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5786:1012/194044.486512:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5786:1012/194048.469180:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5008:5032:1012/194136.390707:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194136.390796:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194136.390812:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194136.427331:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194136.427387:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194144.512574:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/194144.512704:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Watched config file changed config.ini
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/nigel/.config/polybar/config.ini
+polybar|notice:  Loaded font "Iosevka-Bold:size=9:antialias=true" (name=Iosevka, offset=2, file=/usr/share/fonts/TTF/iosevka-regular.ttc)
+polybar|notice:  Loaded font "FontAwesome5Free:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Free, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Free-Solid-900.otf)
+polybar|notice:  Loaded font "FontAwesome5Brands:style=Solid:pixelsize=12:antialias=true" (name=Font Awesome 5 Brands, offset=4, file=/home/nigel/.local/share/fonts/fontawesome5/otfs/Font Awesome 5 Brands-Regular-400.otf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+[ 10/12/2021 19:48:45.757 win_mark_client ERROR ] Failed to get client window attributes (X error 3 WINDOW request 3 minor 0 serial 535080)
+[ 10/12/2021 19:48:45.758 win_mark_client ERROR ] Failed to get client window attributes (X error 3 WINDOW request 3 minor 0 serial 535094)
+[ 10/12/2021 19:48:45.758 win_mark_client ERROR ] Failed to get client window attributes (X error 3 WINDOW request 3 minor 0 serial 535108)
+/bin/sh: -c: line 1: syntax error near unexpected token `&'
+/bin/sh: -c: line 1: `&  --bar_id=bar-0 --socket="/tmp/i3-nigel.h7gmBX/ipc-socket.4893"'
+[5008:5032:1012/195001.442649:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195001.442714:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195001.442742:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195107.522777:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195107.522831:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195107.522848:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195107.724470:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195107.724537:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195125.136986:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195125.137126:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195125.137155:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5786:1012/195128.356677:ERROR:database.cc(1761)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason )VALUES(?,?,?,?)
+[5043:5043:1012/195128.566929:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[5043:5043:1012/195128.580355:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[5008:5032:1012/195148.432828:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195148.432878:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/195148.432905:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+
+(arandr:6247): Gdk-CRITICAL **: 19:55:12.098: gdk_atom_intern: assertion 'atom_name != NULL' failed
+
+(arandr:6247): Gdk-CRITICAL **: 19:55:12.098: gdk_atom_intern: assertion 'atom_name != NULL' failed
+[ 10/12/2021 19:59:48.328 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0020007b (nigel@ThinkArch:~)
+[ 10/12/2021 19:59:48.336 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0020007b (nigel@ThinkArch:~)
+[ 10/12/2021 19:59:48.489 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0020007b (nigel@ThinkArch:~)
+urxvt: unable to calculate font width for 'Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Courier New:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Andale Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=False:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'FreeMono:slant=0:weight=100:pixelsize=18:autohint=True:minspace=True', ignoring.
+/bin/sh: -c: line 1: syntax error near unexpected token `&'
+/bin/sh: -c: line 1: `&  --bar_id=bar-0 --socket="/tmp/i3-nigel.3RsLae/ipc-socket.4893"'
+[5008:5032:1012/200326.461816:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/200326.461877:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/200326.461905:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+/home/nigel/.config/i3/lock.sh: line 2: scrot: command not found
+/home/nigel/.config/i3/lock.sh: line 2: scrot: command not found
+[5008:5032:1012/200725.428930:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/200725.428986:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/200725.429002:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+urxvt: unable to calculate font width for 'Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Courier New:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Andale Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=False:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'FreeMono:slant=0:weight=100:pixelsize=18:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Courier New:slant=0:weight=100:pixelsize=18:antialias=False:autohint=True:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'Andale Mono:slant=0:weight=100:pixelsize=18:antialias=False:autohint=False:minspace=True', ignoring.
+urxvt: unable to calculate font width for 'FreeMono:slant=0:weight=100:pixelsize=18:autohint=True:minspace=True', ignoring.
+[5008:5032:1012/201028.678435:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/201028.678506:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[5008:5032:1012/201028.678538:ERROR:bus.cc(392)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+Fontconfig error: Cannot load default config file: No such file: (null)
+[libi3] ../i3-4.19.1/libi3/font.c Using Pango font monospace, size 8
+[libi3] ../i3-4.19.1/i3-nagbar/main.c Found primary output on position x = 0 / y = 0 / w = 1600 / h = 900.
+[ 10/12/2021 20:14:20.518 x_fetch_region ERROR ] Failed to fetch rectangles (No error)
+X connection to :0 broken (explicit kill or server shutdown).
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+[5043:5043:1012/201420.523508:ERROR:connection.cc(66)] X connection error received.
+[5043:5076:1012/201420.523508:ERROR:connection.cc(66)] X connection error received.

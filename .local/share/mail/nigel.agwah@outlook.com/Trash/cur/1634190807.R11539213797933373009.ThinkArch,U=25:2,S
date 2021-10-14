@@ -1,0 +1,331 @@
+Received: from BN7NAM10HT024.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:806:123::8) by DF4PR8401MB1323.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7P220CA0003.NAMP220.PROD.OUTLOOK.COM; Sun, 6 Jun 2021 18:55:00
+ +0000
+Received: from BN7NAM10FT058.eop-nam10.prod.protection.outlook.com
+ (2a01:111:e400:7e8f::49) by
+ BN7NAM10HT024.eop-nam10.prod.protection.outlook.com (2a01:111:e400:7e8f::139)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4195.18; Sun, 6 Jun
+ 2021 18:55:00 +0000
+Authentication-Results: spf=pass (sender IP is 185.189.236.140)
+ smtp.mailfrom=bnc3.mailjet.com; outlook.com; dkim=pass (signature was
+ verified) header.d=2fa.warframe.com;outlook.com; dmarc=bestguesspass
+ action=none header.from=2fa.warframe.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of bnc3.mailjet.com
+ designates 185.189.236.140 as permitted sender)
+ receiver=protection.outlook.com; client-ip=185.189.236.140;
+ helo=o140.p25.mailjet.com;
+Received: from o140.p25.mailjet.com (185.189.236.140) by
+ BN7NAM10FT058.mail.protection.outlook.com (10.13.156.161) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4195.18 via Frontend Transport; Sun, 6 Jun 2021 18:54:59 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:B9C21B46E36DD2CC50EEB53882418EF937B31091E9143B29B032D5AF4FC97C03;UpperCasedChecksum:D5C5B06B21F90591DDD0039C15CCAA9ABF2F72A870BA7EAB7A93AB2EDD52CD76;SizeAsReceived:1696;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; q=dns/txt;
+  d=2fa.warframe.com; i=no-reply@2fa.warframe.com; s=mailjet;
+  h=message-id:from:to:subject:date:list-unsubscribe:list-unsubscribe-post:
+  feedback-id:x-campaignid:x-csa-complaints:x-mj-mid:x-report-abuse-to:
+  mime-version:content-type;
+  bh=Pni5PwsIM1RXdkRwlfvORwcWhELwOagPfMzxfG+GlAE=;
+  b=hgeh96NkF2xVTTS1hRFQ5SO21LscNKFEQWcZrLp7dpAH8SlaD4aPV6NaV
+ y6c/lB48u1G3/jWTzoqWuyUWKfcNwblJsSeHpLEe5tQtnVivZu7NKKukHQRp
+ 85uYSQhvLVra+4BUAQw651YUfcC4lVFrUrH/lgsRUFenHpJedFg9rQ=
+Return-Path:
+ fa32e89c.BAAAAdJ9W2wAAcppvgoAAJFAPpwAAAACs_0AAAAAAAoACABgvRoC@bnc3.mailjet.com
+Message-Id: <fa32e89c.BAAAAdJ9W2wAAcppvgoAAJFAPpwAAAACs_0AAAAAAAoACABgvRoC@mailjet.com>
+From: "no-reply@2fa.warframe.com" <no-reply@2fa.warframe.com>
+To: "nigel.agwah@outlook.com" <nigel.agwah@outlook.com>
+Subject: Your Warframe Account : Access from new computer
+Date: Sun, 6 Jun 2021 18:54:58 +0000
+List-Unsubscribe:
+ <mailto:unsub-fa32e89c.qpl6.vps66tn97hnz@bnc3.mailjet.com>,
+	<https://qpl6.mjt.lu/unsub2?m=BAAAAdJ9W2wAAcppvgoAAJFAPpwAAAACs_0AAAAAAAoACABgvRoC5F9j72ZpTnyAKUxZVU5lxAAJfZc&b=fa32e89c&e=38e3f07f&x=Pd2n9SzQQZy_-bRgRopmll5ED23P-zQv7znKmmpxObo>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-Id: 2FA.58cc1d503ade7f84ee89ce6c.655368.621975:MJ
+X-CampaignID: WF-game-send-auth-22-2021
+X-CSA-Complaints: csa-complaints@eco.de
+X-MJ-Mid:
+ BAAAAdJ9W2wAAcppvgoAAJFAPpwAAAACs_0AAAAAAAoACABgvRoC5F9j72ZpTnyAKUxZVU5lxAAJfZc
+X-REPORT-ABUSE-TO: Message sent by Mailjet please report to
+	abuse@mailjet.com with a copy of the message
+Content-Type: multipart/alternative; boundary="=-KeBuI7VP3LxSN0vUO0QG"
+X-IncomingHeaderCount: 16
+X-MS-Exchange-Organization-ExpirationStartTime: 06 Jun 2021 18:55:00.2922
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 5fb1723f-00fb-4284-7166-08d9291c960d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN7NAM10FT058.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/6/2021 6:49:27 PM
+X-MS-Office365-Filtering-Correlation-Id: 5fb1723f-00fb-4284-7166-08d9291c960d
+X-MS-TrafficTypeDiagnostic: BN7NAM10HT024:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 185.189.236.140
+X-SID-PRA: NO-REPLY@2FA.WARFRAME.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jun 2021 18:54:59.9954
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5fb1723f-00fb-4284-7166-08d9291c960d
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT058.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7NAM10HT024
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.9552713
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4195.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100293)(5061607266)(5061608174)(4900115)(98392012)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdf8tUV3l5XE6jBwNN9Sh6Wu3FlxYt3AIT8k0zKmNnUfV4j9KMEb8lFi4z9MZDyCoZ7UENg9hvPqntamhb8Qqure/9Tuy86ZXjJ/6SNfllEx4+md0s7dnNX1FpXXphKMA21DjZk7h46TAfV+pnl5dgqqojvHs7TV7Hq4AUF6zkkfqarWYxRuLlxuA2pdVeXtsDHLT8YuFYh5mQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VkZaeGF2cXlaNWEwMWx4SHFIaXJzQUU3RzVWRFQ2dzhSMSs1WDJsNEV5VUFG?=
+ =?utf-8?B?OXRoSmkvbkJnY0E1YWZzV3ZGczJNK2J5bVl5c0lXejRPMFZDbVJad211a3hj?=
+ =?utf-8?B?dk1UZ0ZzczhwQmhnNUxtTE4vRHpHaW5zRnA2SGt2Y0lIVitBWDFuN2pEa1kx?=
+ =?utf-8?B?b29CckJvNUtSWkhOL0NZTzlmZGRXVmd3WDBXYmliQVFjekppMk5Tc0JDbEcw?=
+ =?utf-8?B?VDZVcnJ4cDc2MlpIQ0kzMnBJblgvRXEwKzQ3bGh2U3lvZEVJNlgxaU9GWmhD?=
+ =?utf-8?B?R0s4akdPLytHdW1RMDVkUkh1VGVqNmtIekNWK3hqdW9JMnZDN2c1UUlhMkg1?=
+ =?utf-8?B?M0QxMmIvRTV2a0VGOU81NzRoV0IvOElRWFIxQnZ4MmM2V1JSZVZvNXNCbDdx?=
+ =?utf-8?B?T1FiRjNBSTVMaXJ1MGszTnE4TnlMZTNoeHU1dFZHU2IxVmhReC9Jdi9rTUtk?=
+ =?utf-8?B?Sk9BVG10UXhFQmdpY1hNYUZJV0I4MnZXbXNQdXZRKzZwaWVvcjA1U05iRUxo?=
+ =?utf-8?B?NTYzcnVJRlNQL2ZiUWhBUG1DMWx2S1NHL21zTGp3dE5GOEJMZ1I0SHV0M2tT?=
+ =?utf-8?B?NElmTWVrMmN4c2U1TUJyRzBYQVhXcEhUR2I3bnZsamQwb0M1Q0w2RS9kQUV5?=
+ =?utf-8?B?YndxMzR5QXR6bFNXZTNDck9lTjNFeGVvQlNmdzBrcUxPNW43YjRVcHN0a01x?=
+ =?utf-8?B?NGdRQVFJdVF5QUtJcGtnclJiU2w2TndBTlQ4UTk0RnVRK0RxWmlpdDYrWVEy?=
+ =?utf-8?B?dXRWU1lHb1JZdno4UkxTdnE5b1BMTjBZeVBuRHUyTm5FR1QyNExHdm5WbWNZ?=
+ =?utf-8?B?UWZiWkZhd2ZLbkpYOG1yZUJ4NjVXZ1RqaExNRDllRFVjRGtGQjN1UXUyTTFQ?=
+ =?utf-8?B?VHFGeTRGOE5LNk9aWjBCbkpKS2lVakk4MHI3N2prQVVEOVlHWEloRUozekJO?=
+ =?utf-8?B?MktCejN0TUdwZWpaMGNBdmJJWnJLRHRtY1I2ODl2TUxWbGhpbytYSmwzOEVE?=
+ =?utf-8?B?UjJrbU5tb0lnVmxienduUTVldHNOdmwyUVFKZDFmOVBkYXBUZHVNTW9SbDBQ?=
+ =?utf-8?B?SUZKcmdhSWloTTVLUUwyTEdtQTRDM1NiMDczVUNtbUJhUnBmeTFDb0dCbkpP?=
+ =?utf-8?B?MktPQklXUndrNWhnTnl5VXV5T0czc2RyL094aE42aWIxQU03RitPQVJ5R3Y4?=
+ =?utf-8?B?SStnTVBmdnRXekZBb2R1T0N0dS91VmRzTUtJQVBnZVUxUWVwdzRsZlhkUzBH?=
+ =?utf-8?B?VVNENTlYQ0lkNnRlQm5CTmVNYVNia3BKSzZvWGUrajUyQVNpQlVENm1lNndw?=
+ =?utf-8?B?Vm5FKzhoMW9GbFpHWEdRUTE3dWJNbXNMWk9XZ0ZGcURwV0FtOWJGV2ltUTNa?=
+ =?utf-8?B?TktoL3NRUFBLNE8ybHQzVktGTXd5OVZxYythZWwrVVZJNWxIQzJJdjlJL3dJ?=
+ =?utf-8?B?UDVhYklEOVNJMXd1QlZXNXVZQVo5YldyVWszUUYwTnUrTE1HY2NBZm5pUklw?=
+ =?utf-8?B?SXNDalpBWnpNaHpPSlE2RGdTRm9FK1p4elkwcWh4SkZlNVJWVE5Kd1RnTHR0?=
+ =?utf-8?B?am1BdUJqY0E3ZGZBNVpVWEpGZUllTGtWWjNrWHhqOEYvSHA0NTNTa0w4bFQ1?=
+ =?utf-8?B?aHJBbEFXektSR2laVlVIYjBvcnRYdUlVQk9rcndhV1JBVTFOUnZiS1NtN1ZW?=
+ =?utf-8?B?aXYwR2c5ckFxSEdIOGFJWXVHOEJrZ01yQUxraEEyK01sTkZ4VUVydURocjkw?=
+ =?utf-8?B?RXVQWENRUEtROUQ5VnlWaDV6aTM0TGNyQ3ZxMXdoSDVJK201N2hHTGVERzRX?=
+ =?utf-8?B?WHQ5WFQyRnUwTGFES25RUk9pZTJHeUMyNkdBek5IQk5CYmxPdzNKWE4xUVFz?=
+ =?utf-8?B?eEdsRXRsMjdEV3ZUcGplL3AwMXV2eS9VbXJodDh4Mm11OGlYRWxBQ2FWZ3lW?=
+ =?utf-8?B?QXBUREYyWUQxeFhoajEwS29uZVYwV1RBaVJzVS9iRmpCZGxuK1lwaUJZazIx?=
+ =?utf-8?B?VG1YeVUvRm5mWkZ0K1hsaE5PVElWRGJUNGdWMFdrUFZ0VlhJeDRiZWx3Vlkw?=
+ =?utf-8?B?NXFNZjRtc3FpM0llNVVJNS8vWC9JREE5bGEzV2xOQTNnVmRPZFlYRCtCV3gx?=
+ =?utf-8?Q?AqInlmagwSRjTghCPN0UDREMh?=
+MIME-Version: 1.0
+X-TUID: lsg8WxRkGAsr
+
+--=-KeBuI7VP3LxSN0vUO0QG
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "ht=
+tp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <style></style>
+    </head>
+    <body>
+                    <p>Hello K547NK,</p>
+            <p>We've received a request to access your Warframe account fro=
+m a new computer located at <b>2600:6c40:6b00:cc2a:51ad:f085:e5c4:d0db</b> =
+from <b>UNITED STATES</b></p>
+            <p>To verify this new computer please enter the following code =
+upon logging in</p>
+            <br><font style=3D'font-size: large;font-weight: bold;color: #2=
+D1600;'> 49243</font><br><br>
+            <p>If you did not attempt this action, please change your passw=
+ord immediately.</p>
+            <p>This email is auto-generated. If you have a concern, please =
+contact us at <a href=3D"http://support.warframe.com" target=3D"_blank">htt=
+p://support.warframe.com.</a></p>
+            <p>Thank you, Tenno!</p>
+            <p>Warframe</p>
+
+   =20
+
+    </body>
+</html>=
+
+--=-KeBuI7VP3LxSN0vUO0QG
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Warframe Activation Test</title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <!--<![endif]-->
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<style type=3D"text/css">
+  #outlook a { padding: 0; }
+  .ReadMsgBody { width: 100%; }
+  .ExternalClass { width: 100%; }
+  .ExternalClass * { line-height:100%; }
+  body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; }
+  table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; }
+  img { border: 0; height: auto; line-height: 100%; outline: none; text-dec=
+oration: none; -ms-interpolation-mode: bicubic; }
+  p { display: block; margin: 13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=3D"text/css">
+  @media only screen and (max-width:480px) {
+    @-ms-viewport { width:320px; }
+    @viewport { width:320px; }
+  }
+</style>
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+  .outlook-group-fix {
+    width:100% !important;
+  }
+</style>
+<![endif]-->
+<style type=3D"text/css">
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100 { width:100%!important; }
+  }
+</style>
+</head>
+<body style=3D"background: #F4F4F4;">
+ =20
+  <div class=3D"mj-container" style=3D"background-color:#F4F4F4;"><!--[if m=
+so | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"600" align=3D"center" style=3D"width:600px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table ro=
+le=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:=
+0px;width:100%;" align=3D"center" border=3D"0"><tbody><tr><td style=3D"text=
+-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0=
+px;padding-bottom:0px;padding-top:0px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+        <tr>
+          <td style=3D"vertical-align:top;width:600px;">
+      <![endif]--><div class=3D"mj-column-per-100 outlook-group-fix" style=
+=3D"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;te=
+xt-align:left;width:100%;"><table role=3D"presentation" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td style=3D"word-w=
+rap:break-word;font-size:0px;"><div style=3D"font-size:1px;line-height:30px=
+;white-space:nowrap;">&nbsp;</div></td></tr><tr><td style=3D"word-wrap:brea=
+k-word;font-size:0px;padding:10px 25px;padding-top:0px;padding-bottom:0px;p=
+adding-right:0px;padding-left:0px;" align=3D"center"><table role=3D"present=
+ation" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collaps=
+e;border-spacing:0px;" align=3D"center" border=3D"0"><tbody><tr><td style=
+=3D"width:600px;"><img alt=3D"" title=3D"" height=3D"auto" src=3D"http://qp=
+l6.mjt.lu/tplimg/qpl6/b/u8k4/25y2.jpeg" style=3D"border:none;border-radius:=
+;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;=
+height:auto;" width=3D"600"></td></tr></tbody></table></td></tr></tbody></t=
+able></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"600" align=3D"center" style=3D"width:600px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--><div style=3D"margin:0px auto;max-width:600px;background:=
+#ffffff;"><table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"font-size:0px;width:100%;background:#ffffff;" align=3D"center" bor=
+der=3D"0"><tbody><tr><td style=3D"text-align:center;vertical-align:top;dire=
+ction:ltr;font-size:0px;padding:20px 0px 20px 0px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+        <tr>
+          <td style=3D"vertical-align:top;width:600px;">
+      <![endif]--><div class=3D"mj-column-per-100 outlook-group-fix" style=
+=3D"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;te=
+xt-align:left;width:100%;"><table role=3D"presentation" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td style=3D"word-w=
+rap:break-word;font-size:0px;"><div style=3D"font-size:1px;line-height:30px=
+;white-space:nowrap;">&nbsp;</div></td></tr><p style=3D"padding:10px;">
+=EF=BB=BF<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "ht=
+tp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <style></style>
+    </head>
+    <body>
+                    <p>Hello K547NK,</p>
+            <p>We've received a request to access your Warframe account fro=
+m a new computer located at <b>2600:6c40:6b00:cc2a:51ad:f085:e5c4:d0db</b> =
+from <b>UNITED STATES</b></p>
+            <p>To verify this new computer please enter the following code =
+upon logging in</p>
+            <br><font style=3D"font-size: large;font-weight: bold;color: #2=
+D1600;"> 49243</font><br><br>
+            <p>If you did not attempt this action, please change your passw=
+ord immediately.</p>
+            <p>This email is auto-generated. If you have a concern, please =
+contact us at <a href=3D"http://qpl6.mjt.lu/lnk/BAAAAdJ9W2wAAcppvgoAAJFAPpw=
+AAAACs_0AAAAAAAoACABgvRoC5F9j72ZpTnyAKUxZVU5lxAAJfZc/1/qDyx6D_O0yCqSrt2Ht7x=
+Vw/aHR0cDovL3N1cHBvcnQud2FyZnJhbWUuY29t" target=3D"_blank">http://support.w=
+arframe.com.</a></p>
+            <p>Thank you, Tenno!</p>
+            <p>Warframe</p>
+
+   =20
+
+   =20
+<br><img src=3D"http://qpl6.mjt.lu/oo/BAAAAdJ9W2wAAcppvgoAAJFAPpwAAAACs_0AA=
+AAAAAoACABgvRoC5F9j72ZpTnyAKUxZVU5lxAAJfZc/d40e4201/e.gif" height=3D"1" wid=
+th=3D"1" alt=3D"" border=3D"0" style=3D"height:1px;width:1px;border:0;">
+</body>
+</html>
+</p></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></div>
+
+<br><img src=3D"http://qpl6.mjt.lu/oo/BAAAAdJ9W2wAAcppvgoAAJFAPpwAAAACs_0AA=
+AAAAAoACABgvRoC5F9j72ZpTnyAKUxZVU5lxAAJfZc/d40e4201/e.gif" height=3D"1" wid=
+th=3D"1" alt=3D"" border=3D"0" style=3D"height:1px;width:1px;border:0;">
+</body>
+</html>=
+
+--=-KeBuI7VP3LxSN0vUO0QG--

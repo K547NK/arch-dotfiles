@@ -1,0 +1,214 @@
+Received: from TU4PR8401MB0926.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7711::20) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Fri, 10 Sep 2021 18:31:25 +0000
+Received: from BN6PR14CA0020.namprd14.prod.outlook.com (2603:10b6:404:79::30)
+ by TU4PR8401MB0926.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7711::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4500.14; Fri, 10 Sep
+ 2021 18:31:24 +0000
+Received: from BN7NAM10FT036.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:404:79:cafe::ea) by BN6PR14CA0020.outlook.office365.com
+ (2603:10b6:404:79::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4500.14 via Frontend
+ Transport; Fri, 10 Sep 2021 18:31:24 +0000
+Authentication-Results: spf=pass (sender IP is 208.85.50.18)
+ smtp.mailfrom=bounce.e.myecp.com; outlook.com; dkim=pass (signature was
+ verified) header.d=e.myecp.com;outlook.com; dmarc=pass action=none
+ header.from=e.myecp.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.e.myecp.com
+ designates 208.85.50.18 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.85.50.18; helo=mail9936.e.myecp.com;
+Received: from mail9936.e.myecp.com (208.85.50.18) by
+ BN7NAM10FT036.mail.protection.outlook.com (10.13.156.142) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4500.14 via Frontend Transport; Fri, 10 Sep 2021 18:31:24 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:8F261C2F3FEE2163E0420CC4F7611BA37DF42E4B460C03D8F01C9FF99BAB82EB;UpperCasedChecksum:E84259F4B87A720F39DEA1528EDD053CBCA8B335DC872DBCF6744E20AE0A64B2;SizeAsReceived:1440;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=spop1024; d=e.myecp.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ X-CSA-Complaints:List-Unsubscribe; i=MilitaryStar@e.myecp.com;
+ bh=FlvqSEWqViBMReSIPA7HLD2euBeWX6tygvRqXsnniTk=;
+ b=oAotO9Bz8MjYloWhI+FszP32taqDSUVSeWvosq2OURex2Zo2DjKI+8uTV1+ZfKpueUde4J5Lf//Q
+   Q9r3opYYo1hIOSwmOazcoOZo2OmYbFCPrfcm5ggH6NHGEqIuivU7cEY1eI+m2mG0LFy0OZpifVD5
+   y+TSbyy+rBNELkyzuR4=
+Received: by mail9936.e.myecp.com id h7ei7o2r7aop for <nigel.agwah@outlook.com>; Fri, 10 Sep 2021 18:31:02 +0000 (envelope-from <v-cabndgb_empalmbflh_hikhmpfh_hikhmpfh_a@bounce.e.myecp.com>)
+Date: Fri, 10 Sep 2021 18:31:02 +0000 (GMT)
+From: Military Star <MilitaryStar@e.myecp.com>
+Reply-To: DoNotReply@e.myecp.com
+To: nigel.agwah@outlook.com
+Message-ID: <1519501201.506662841631298662315.JavaMail.app@rbg11.atlis1>
+Subject: Uniform Financing Options With MILITARY STAR
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_647949_236602312.1631298661049"
+x-mid: 33674081
+X-CSA-Complaints: csa-complaints@eco.de
+x-rpcampaign: sp33674081
+x-job: 33674081
+x-orgId: 3496
+List-Unsubscribe: <http://links.e.myecp.com/luoo/v1/NHBScExMRHExTFNzQlpONDlUM3Z0L1UrNGQ4WVhMVkhqUkU5NVU1M0U0c3NweHZ4YmdrcGZrekFJRDVGZzhvWlhDN2QxV1BadlNnZXREZzhBcUplcXBhbk5SN0JNdlhyS0>, <mailto:v-cabndgb_empalmbflh_hikhmpfh_hikhmpfh_a@bounce.e.myecp.com?subject=Unsubscribe>
+X-IncomingHeaderCount: 16
+Return-Path: v-cabndgb_empalmbflh_hikhmpfh_hikhmpfh_a@bounce.e.myecp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 10 Sep 2021 18:31:24.6315
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b2699e22-56b9-4485-c369-08d9748931e8
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN7NAM10FT036.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/10/2021 4:21:39 AM
+X-MS-Office365-Filtering-Correlation-Id: b2699e22-56b9-4485-c369-08d9748931e8
+X-MS-TrafficTypeDiagnostic: TU4PR8401MB0926:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.85.50.18
+X-SID-PRA: MILITARYSTAR@E.MYECP.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Sep 2021 18:31:24.5186
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b2699e22-56b9-4485-c369-08d9748931e8
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT036.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TU4PR8401MB0926
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.0228457
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4500.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000283)(90000117)(90012020)(91020020)(91040095)(91044021)(91045095)(9050020)(9100336)(5061607266)(5061608174)(4900116)(8300001)(4920091)(6383003)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdcvAJXd7d15ldtl7aOEoHMxu/5KPpqHf4mFTaUIEbrWSTcCCB6GSRuOmo9ck9mfrBev/FAja8smxemZdJH0FWRrQNMda6f3yU3YSO7fxzT31mj3aX9r//aN33z9TroQAyAb5svtE8AnDiChdcAR/evhMQKS5BcfweqKN9LEio40w1cd/cvTHKllW41DSuSAeqWp5gOQckT8vA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?V2VkSDQ2VDVSZm50QmZoNE1hRUlDYW9kSGZsTTQ4bEdYV0d3dHBJNE9BV09R?=
+ =?utf-8?B?TnFFOFNNMHRrKzFZQk1CRFluWlJpV3gvSWwyYW9wdG81a3o5Vlo2dnRhRFVS?=
+ =?utf-8?B?VnJBWUdCbWk1RkFza29qWTV2dHJKQXQrREZYYjV5VFl2c3VPczBoOXZmTklI?=
+ =?utf-8?B?dHg0UUdZb29SekQ4cHh3WHNkZ0I2ZVBUSFdGWW9xb2Q4VXZLaVFQc1BNQUx4?=
+ =?utf-8?B?d0s3R1hOOEc1cE5qRm5PYTBhenYyekx4QUVFRm1sT2ptTGw4STBSVG5Ub2lw?=
+ =?utf-8?B?RG92U1ppd3JHdjJTZlN1VU5vSTJBQkNQNlFic1ZGQWJBcXMrNWNpNFlvUE1n?=
+ =?utf-8?B?WlhsODBud3UxdjdDUHJzbG5MQ0hoQzFtbVdFTDUwNTQ1a2JlVVdocHo4aDF0?=
+ =?utf-8?B?eENRNi81RUZ6K1E3UXhkQk9mdjZrNkkrVUszYXgxSStlejRHQVkzajhuSkNE?=
+ =?utf-8?B?SzdQZHd3Q2h4S0JveVFNUk5qZG0xUUhuUG0rV0xBaU1MZXVvdXIxMGNRcWUz?=
+ =?utf-8?B?UDMvRXhJd0ZmVFZxc2lVSzRiUFBHQkVod0lrRmdWSkJKdlYrRDQ3bUt5bjkr?=
+ =?utf-8?B?RFA4ejVRbk0yTUhSM2FvajVPam0wUUhNQmRqM3N5SWJVY1BMOWI1aDJNc1JH?=
+ =?utf-8?B?NVkreDF3VVlvWUtVdXI1NDNjallNSklHZGsrcU9GeDQ3Y2dQdnpWSUhZZ0Fl?=
+ =?utf-8?B?NzcyQWRmSXpZS1kxUzhrVHdZMklQUzN4SW9KZGJQQ3R2cnBaR2NmaUVFU0pX?=
+ =?utf-8?B?NjBrN2lTdzRIZ0dMTTZ4ZldwVmFqdWNTejZGZ0p1VFFpNmFzVUNlME9nUkJx?=
+ =?utf-8?B?bGF6Syt0aVRLNElZbDV3TXNhTEpDWnpvRlgzY3VUeGZPaExLaFVIOHAxOUNU?=
+ =?utf-8?B?akFnZTRjOVNhNkxKcHI5WDNpenBHTCt0QURXR2pGc2VTa0E5Z2xTeUd6anVw?=
+ =?utf-8?B?elRtcVVmY2VtcFVpaHRjdVM5T3dUZDBRRmlFa2YyQ1VhMURReHNsWWs0OXpI?=
+ =?utf-8?B?eGlDNm0xalY2aE9qY1I1VjFmaDJ1SmptWXNHclJXZmQ4MkVYRzVjV0tuSEND?=
+ =?utf-8?B?eG10TjI0bTBsWE5Idm9nZ080Qjg2b3VlbEZrSmo4aHM1NE1IcVl0cjE0S0lp?=
+ =?utf-8?B?UUVsM2dvcW84Z3VjTWxSVENvZVN2MEhrdGJRN2NTcU5IWmhKa25rT2lkTWg2?=
+ =?utf-8?B?NVdod3l5cEZ3YlFIS0lMN3MrSEdoNE9GN1lvRkhoZUt4c3k5RHllY1o3Q1J4?=
+ =?utf-8?B?cFV1elZ4NFB6cHhNZmdlcVY2YVFUZUdnVWM2cnRkbGNiNkNkUU9MdVEyejBv?=
+ =?utf-8?B?TXNnN0huSzFSMWp6K0ZlbzZqcUMrWUw1bWJpTFVycjc3KzRreFIzb0tleklO?=
+ =?utf-8?B?L3BmNFFrQlIybUY3T2pIa1l0Mm9ubW9sN0t0QnV0ZDRPcFBIUnlPcCtCUDE1?=
+ =?utf-8?B?VHZWZXhtZDloZnd2VjRwRXBMZFd1N0xudFlTc3RHcEUzV2ppaDVKKzdNa3VJ?=
+ =?utf-8?B?TVMxc0c5ak9sR1Rvd3NXTlJ6YlZFZlN5K2pQdFVwb0ZYZHJteGdnZU9Dejg3?=
+ =?utf-8?B?MnpUZHNjNE1MZVI5a29QSlU0ZitveDEzREQwNGRYeHZlaHVNZG1GWmowR0hG?=
+ =?utf-8?B?cnRzVHZheGdYOGIwVVRoZkNMc2dPeVExcjVMZFY4eWhHZW9TZkJwRnRTUzJy?=
+ =?utf-8?Q?tZ5yzgcNPXCMW2QflSr5?=
+MIME-Version: 1.0
+X-TUID: JikfVc59t1qh
+
+------=_Part_647949_236602312.1631298661049
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+	
+</head>
+<body><center><font size="1" color="#000000" face="ARIAL">This message contains graphics.  If you do not see the graphics, <a href="http://links.e.myecp.com/servlet/MailView?ms=MzM2NzQwODES1&amp;r=MzMwNDU2MzcyNjYzS0&amp;j=MjAyNDI2MzUxMQS2&amp;mt=1&amp;rt=0">click here to view</a>.</font><font face="ARIAL" color="#808080" size="2"><br></font></center>&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" src="http://www.aafes.com/Emailimages/images/MilitaryStar/MyECPBANNER.jpg" width="419"></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#314B5B;" width="419">
+							
+								<tr>
+									<td width="419">
+									<center><font color="#003d77"><span style="font-size: 25px;"><b>Uniform Financing Options With<br>
+									MILITARY STAR<span style="font-size:10px;">®</span></b></span></font></center>
+
+									<center style="text-align: left;"><br>
+									<span style="color:#000000;">The Pay Your Way program is a financing option with a fixed 9.99% interest rate for purchases of $300 or more. There are three monthly payment* options, all with the same low interest rate.</span></center>
+
+									<center><br>
+									<img border="0" height="99" src="http://contentz.mkt10535.com/ra/2021/3496/09/33674081/PYW%20Top%205%20Reasons2.jpg" width="333"><br>
+									&nbsp;</center>
+
+									<center style="text-align: left;"><span style="color:#000000;">Some of the advantages of the Pay Your Way program include longer terms which result in smaller payments, and there is no credit limit. Scan the QR code to estimate your monthly payments and see what option is best for you.</span><br>
+									&nbsp;</center>
+
+									<center><span style="color:#000000;"></span></center>
+
+									<center style="text-align: left;"><span style="color:#000000;">Use Pay Your Way and MILITARY STAR for your uniform purchases and Look Sharp Now!</span></center>
+
+									<center><span style="color:#000000;"><br>
+									Thank you for proudly serving our country.</span><br>
+									<br>
+									<img border="0" height="51" src="http://contentz.mkt10535.com/ra/2021/3496/09/33674081/Our%20Honor%20To%20Serve%20You.png" style="float: right;" width="182"></center>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	
+		<tr>
+			<td>*MILITARY STAR promotions subject to credit approval. Interest will be charged on promotional purchases from the purchase date at a reduced 9.99% APR and fixed monthly payments are required until promotion is paid in full. Failure to make minimum payments for three billing cycles will cancel promotional rate. Standard account terms apply to non-promotional purchases. As of March 16, 2020, a variable 10.24% APR applies to non-promotional purchases, and a variable 18.24% APR applies to accounts subject to penalty APR. Existing cardholders should see their credit card agreement for applicable terms.<br>
+			<br>
+			†Monthly payment for a 36-month promotion is calculated as follows: 0.0323 of initial promotion purchase and rounded to the next cent. PL#90036<br>
+			<br>
+			††Monthly payment for a 48-month promotions is calculated as follows: 0.0254 of initial promotion purchase and rounded to the next cent. PL#90048.<br>
+			<br>
+			†††Monthly payment for a 60-month promotion is calculated as follows: 0.0212 of initial promotion purchase and rounded to the next cent. PL#90060.<br>
+			<br>
+			This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US. You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email. To unsubscribe from future marketing emails, <a href="https://www.pages01.net/militarystar/optout/MktgOptOut?spMailingID=33674081&amp;spUserID=MzMwNDU2MzcyNjYzS0&amp;spJobID=MjAyNDI2MzUxMQS2&amp;spReportId=MjAyNDI2MzUxMQS2" name="Opt Out" target="_blank" xt="LPWEBFORMOPTIN" xtwebform="9413601">click here</a>.</td>
+		</tr>
+	
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom><img src="http://links.e.myecp.com/eos/v1/dllsRVdLN1ljZzlXRS9oVzBTMjBwK0tibE1veEUyQU1GeG0yNmlpTVJDUUdUaGlxSldjN0hUY09FUUR2bXd0aFoxWjkxNkhKdTJ4bExOTGtvMG93YU1FT3dOVGVmYWhka2VMSW1MdWJpWWxnN1o1UnFLMCtoZ0E2SVVRWlljdmRnR0gwb29TT2FCeXZGeFpvYjlXU0M5R3NLNzRrekczVjkvQnE3RXJNd3h4Smk5MkNoV2NTM0E9PQS2" style="display: none"></body>
+</html>
+
+
+
+------=_Part_647949_236602312.1631298661049--

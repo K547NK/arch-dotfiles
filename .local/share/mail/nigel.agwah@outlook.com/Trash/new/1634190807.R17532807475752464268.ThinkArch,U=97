@@ -1,0 +1,203 @@
+Received: from BN7NAM10HT233.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:806:f2::34) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7PR04CA0029.NAMPRD04.PROD.OUTLOOK.COM; Fri, 13 Aug 2021 16:00:50
+ +0000
+Received: from BN7NAM10FT026.eop-nam10.prod.protection.outlook.com
+ (2a01:111:e400:7e8f::43) by
+ BN7NAM10HT233.eop-nam10.prod.protection.outlook.com (2a01:111:e400:7e8f::80)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4415.14; Fri, 13 Aug
+ 2021 16:00:48 +0000
+Authentication-Results: spf=pass (sender IP is 208.85.50.18)
+ smtp.mailfrom=bounce.e.myecp.com; outlook.com; dkim=pass (signature was
+ verified) header.d=e.myecp.com;outlook.com; dmarc=pass action=none
+ header.from=e.myecp.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.e.myecp.com
+ designates 208.85.50.18 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.85.50.18; helo=mail9936.e.myecp.com;
+Received: from mail9936.e.myecp.com (208.85.50.18) by
+ BN7NAM10FT026.mail.protection.outlook.com (10.13.157.151) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4415.14 via Frontend Transport; Fri, 13 Aug 2021 16:00:48 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:37D80643FE739D36735F197A8D41962BABD15FC8F9DAABD8EF483BD782794709;UpperCasedChecksum:860B11A6ABBEB3BC80F021C20BD82697311774524086D6A2652FBAF2E55E8FA9;SizeAsReceived:1448;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=spop1024; d=e.myecp.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ X-CSA-Complaints:List-Unsubscribe; i=MilitaryStar@e.myecp.com;
+ bh=L/BdozmJVX0Gheqr+OykwsuhdSof5yXTjNoTu5uBifg=;
+ b=KS2Wyi6nG7fc28DUluiqt5BSr9+1OMS/8kDLnHVITYfRpnCj8f0IcCPcGYDNIjo8rmEvsDU0ThgX
+   c2lLAP+u9yZirgXAXUkbCj5sIsy8ZJwLmZX6IoE84EYe9p3n0wVl3FIjeGgRAglMeHOuoMM9AN8X
+   mG+/0GQD/PefkdbHcYs=
+Received: by mail9936.e.myecp.com id h2qbj02r7aot for <nigel.agwah@outlook.com>; Fri, 13 Aug 2021 16:00:42 +0000 (envelope-from <v-caaipcj_empalmbflh_hhhedbaj_hhhedbaj_a@bounce.e.myecp.com>)
+Date: Fri, 13 Aug 2021 16:00:42 +0000 (GMT)
+From: Military Star <MilitaryStar@e.myecp.com>
+Reply-To: DoNotReply@e.myecp.com
+To: nigel.agwah@outlook.com
+Message-ID: <1160435971.141031591628870442866.JavaMail.app@rbg13.atlis1>
+Subject: Back to School Triple Points Offer Ends August 15th
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_133800_2062428449.1628870441066"
+x-mid: 33591081
+X-CSA-Complaints: csa-complaints@eco.de
+x-rpcampaign: sp33591081
+x-job: 33591081
+x-orgId: 3496
+List-Unsubscribe: <http://links.e.myecp.com/luoo/v1/elVFclI2ZUs2Z3FKd0hHa1hBYkIzZzJFN0ladnBVV0Qya1I2QVZmT1ByNEJ6NFNtaitvd0grQjZ2b1ZDa1VjNlRsVnlQVWs1RmtYUi8zMUpGa05SeHlwUWxtK2Q1cFVXS0>, <mailto:v-caaipcj_empalmbflh_hhhedbaj_hhhedbaj_a@bounce.e.myecp.com?subject=Unsubscribe>
+X-IncomingHeaderCount: 16
+Return-Path: v-caaipcj_empalmbflh_hhhedbaj_hhhedbaj_a@bounce.e.myecp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 13 Aug 2021 16:00:48.3727
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 3767aa11-a7d6-4013-16ce-08d95e738450
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN7NAM10FT026.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/12/2021 3:59:36 AM
+X-MS-Office365-Filtering-Correlation-Id: 3767aa11-a7d6-4013-16ce-08d95e738450
+X-MS-TrafficTypeDiagnostic: BN7NAM10HT233:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.85.50.18
+X-SID-PRA: MILITARYSTAR@E.MYECP.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Aug 2021 16:00:48.2797
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3767aa11-a7d6-4013-16ce-08d95e738450
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT026.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7NAM10HT233
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0152340
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4415.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9050020)(9100335)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdcxfSAjqbF1Y/qn/I6nZ+eN0zYqAPwonS5m9xVds220417xK/PTAmHLwFg5eivccOptpUGBTOBeN/oVJ+OX0/UVlPBXcMJjlCb/T0MTGj84d4hHdM7MDWfbzQirSJvywvMWYFdhPew+k4gd2FCxnH/fH0gz5Wc9VOysWWoK9hJsZl3j5h8pVPqVMdKCrDXZjXrcS9SfywAluQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?MTlIRlNuNTZTbG9JRHpQZ0EzQ1RvbEpWa1M2d2k3Zjhydm1WVVoySmxrTW8x?=
+ =?utf-8?B?SGdZL01tWVVLT0ovamhlQ3R6YTZabXBxWDRSTmZ4MXk3UDF5aE40d28zUjBG?=
+ =?utf-8?B?R1FMbHp3NUFYYXhKMVM0OUtZcFlZTWZHSDFoV2lsTytpb0dQd2I4VVVHSGRt?=
+ =?utf-8?B?QytOdDFYOXdRdUVOeDVoS3NhS2pvc1JjZkhlUStua2Nra3NPM2tZTThzZVIr?=
+ =?utf-8?B?MVZWZzVQdVFGQUJnL1d5bVpZUUQ1aFB1SEZoekhWOWZkRjBWN3RrNHp3Um5i?=
+ =?utf-8?B?MzBMdUtoWVFvcGk2eGxveDA2QTJ2Rm0vNXRuTlY0SEdCQzBWaFdNc2NMQmN6?=
+ =?utf-8?B?bXdjUlRQSGp5U204c01aRVRjVXRjb0VYWkQvQVY0NHU2UGpuM0xLUnFYWVkz?=
+ =?utf-8?B?RWtNemFYaXRlTFJQQWJqKzhVU1RZMmNUOTc2N090SldYM2JvUGREZytTNXBD?=
+ =?utf-8?B?dEVvRi9maS84YUc0MDlWNnBpeFJsZnFTa2IzMmE5aXNCbzVnV3QyUUxwKzBP?=
+ =?utf-8?B?WVVEMENwbi9HT0JyUEtmYXdGRUtNdGloTVRWWm1mdXVNTVNpTE53algzUGcv?=
+ =?utf-8?B?U2EvZStlWWoyQ2RRMTZFbi93N2RLZCtnU21yMFNEbzBDZm1CeFN6V0xmd1Zn?=
+ =?utf-8?B?by9wVURPYmlvTmFKblJTb3QzSm9WcWh4UTMrV1VWWVUyNy80L0hyWXFFRC9C?=
+ =?utf-8?B?bnJiQ2lRZmsyOVJnc083UGpZaFRXMVBBRDdVODBSOHdqL1V1VUpiVTVXQXkz?=
+ =?utf-8?B?NDJOZDZiTWpMYnA1R2xXSDhBanl5TVVCUjdXb0xRcVQ3VTJmTkFNdEcxT3Zm?=
+ =?utf-8?B?QSsvZ3JHUW02dFl0U2doNnphSVBSZzh3aDRyTVBuNlBzMlNkVEpXMTN0U2Uy?=
+ =?utf-8?B?WDZRZ0NCWURHd0hOY0tjeXRMaHNidU1SbjBrNzJ4eC9uZm94MjFUT01iRVUv?=
+ =?utf-8?B?d05kRTJDKzdsZm9yZEQrNHA3WnMxcVNqM2hPaTM4c3hYNER2MjdmeGZVVWR3?=
+ =?utf-8?B?WTU3elh4V0Z6UTdMcklwWkIzakdNUE83K0dKSlNPTmNWdTRXblNBMmpjSi9D?=
+ =?utf-8?B?Q1VhdytiU0ExMUV4QkVhaE5KRWZELzgveEEreDdCUHljN0ZscUljbW9tU2Ry?=
+ =?utf-8?B?aXZaSU9XMGUxVjlTSXFpc1o4WFZQSVVZaEZYWU9rbTRIMnZwNitLOHpHWVJX?=
+ =?utf-8?B?TzZYWHRVMmljZ3RTR2ZwU3dLSE95Yjg5TDhBUTN1akExT2gxUzEwUUJueVc1?=
+ =?utf-8?B?dE5GdE02MFk2aEZsSFhXTmI4WVQxRFBYR3A4WlYyWC9hZkFCbis2bjlyamh5?=
+ =?utf-8?B?cGp6MDVTeW9KbEROejZxbmgyVlFJK3hKemhUNmR1cGhVUUhwUkdwaDhjczhO?=
+ =?utf-8?B?YXNud0lhY3gvZFdnRXg4T2prZ2JtOURVRUgrVDhmd3gvUExTNHJFYUoyTDNO?=
+ =?utf-8?B?eXd0UENiYVVIOTMzNUJOSllnM2N5V3pKOERwd0RNV1dnK1lmdGVObTVhc2po?=
+ =?utf-8?B?M2Z5Vm8wb2xNeG45NEhUdzBlTWtLazZ2RUwwRlovZm8vN05tTVVRMUtUdFFX?=
+ =?utf-8?B?TWJ3VHk0WVBYelZGMm9aVnp6K2hjQll0SFlBTU41eGZEQ1ZQQmYvQ3dTTC96?=
+ =?utf-8?B?WTVONzB6Sm4xd2c3eGtJS3g5ajlNY0E9PQ==?=
+MIME-Version: 1.0
+X-TUID: 7okT5IF5CcTM
+
+------=_Part_133800_2062428449.1628870441066
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+	
+</head>
+<body><center><font size="1" color="#000000" face="ARIAL">This message contains graphics.  If you do not see the graphics, <a href="http://links.e.myecp.com/servlet/MailView?ms=MzM1OTEwODES1&amp;r=MzMwNDU2MzcyNjYzS0&amp;j=MjAwNDEwMzQzMwS2&amp;mt=1&amp;rt=0">click here to view</a>.</font><font face="ARIAL" color="#808080" size="2"><br></font></center><br>
+<br>
+&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" src="http://www.aafes.com/Emailimages/images/MilitaryStar/MyECPBANNER.jpg" width="419"></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#314B5B;" width="419">
+							
+								<tr>
+									<td width="419">
+									<center><font color="#003d77"><span style="font-size: 25px;"><b>Exclusive Back To School Offer Ends August 15th</b></span></font><br>
+									&nbsp;</center>
+
+									<p style="color: rgb(49, 75, 91); font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);">Just a quick reminder that your exclusive triple point offer ends Sunday.&nbsp;<br>
+									<br>
+									Shop both the Exchange and <a href="http://links.e.myecp.com/els/v2/k_7ZQ2jX6why/M1pka0ZqRnlYamJ2N3BTeWdaeFJiNmtXNXlSVW1ZZkVjYy9HdHdib01TOHF2NmlJOVkyYURwK3lWK1BrbFRoc2ZuY2pGdTg1ZFRrcldkU1ZTWDZiVjZSUTFBV0V0amVZYmxoc3ptOG5ZSjA9S0/" name="Hyperlink_20210723_135314092" target="_blank">Commissary</a>&nbsp;on the same day and spend at least $199* with your MILITARY STAR card and we will give you TRIPLE points. You earn 6% in rewards**,&nbsp;that's 6 points per dollar!<br>
+									<br>
+									Purchases must be made by&nbsp;August 15, 2021. This offer is exclusive to you and can not be shared.<br>
+									<br>
+									This offer may be combined with other Military Star promotions. Visit <a href="http://links.e.myecp.com/els/v2/-LDmF~X_Veh-/M1pka0ZqRnlYamJ2N3BTeWdaeFJiNmtXNXlSVW1ZZkVjYy9HdHdib01TOHF2NmlJOVkyYURwK3lWK1BrbFRoc2ZuY2pGdTg1ZFRrcldkU1ZTWDZiVjZSUTFBV0V0amVZYmxoc3ptOG5ZSjA9S0/" name="Hyperlink_20210726_113014101" target="_blank">MyECP.com</a> for a list of our current promotions.</p>
+
+									<p style="color: rgb(49, 75, 91); font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); text-align: center;"><strong><em>Maximize your savings with MILITARY STAR.</em></strong>&nbsp;</p>
+
+									<p style="color: rgb(49, 75, 91); font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); text-align: center;"><a href="http://links.e.myecp.com/els/v2/PwvPFbLKkVfr/M1pka0ZqRnlYamJ2N3BTeWdaeFJiNmtXNXlSVW1ZZkVjYy9HdHdib01TOHF2NmlJOVkyYURwK3lWK1BrbFRoc2ZuY2pGdTg1ZFRrcldkU1ZTWDZiVjZSUTFBV0V0amVZYmxoc3ptOG5ZSjA9S0/" name="Hyperlink_20210723_134634829" target="_blank"><img border="0" height="68.586" src="http://contentz.mkt10535.com/ra/2021/3496/08/33591081/Commissary%20logo.png" width="100"></a>&nbsp; &nbsp;&nbsp;<img border="0" height="66.057" src="http://contentz.mkt10535.com/ra/2021/3496/08/33591081/Military%20Star%20card2.png" width="100"></p>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	
+		<tr>
+			<td>*Valid through August 15, 2021 at any Army &amp; Air Force Exchange Service facility <strong>and</strong> Commissary. Must be minimum combined purchases of $199 on the same day. Excludes <em>shopmyexchange.com</em>. Offer is exclusive to cardholder and cannot be shared. .<br>
+			**Rewards exclude military clothing line of credit. Six percent Rewards is equal to<br>
+			6 points per $1 spent. Points earned during a billing cycle are not available for redemption until they are posted on your billing statement. Points for transactions made on or near the end of your billing cycle may take up to one billing cycle to post on your billing statement.<br>
+			This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US.<br>
+			You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email.<br>
+			To unsubscribe from future marketing emails,&nbsp;<a href="https://www.pages01.net/militarystar/optout/MktgOptOut?spMailingID=33591081&amp;spUserID=MzMwNDU2MzcyNjYzS0&amp;spJobID=MjAwNDEwMzQzMwS2&amp;spReportId=MjAwNDEwMzQzMwS2" name="Hyperlink_20210726_110255920" target="_blank" xt="LPWEBFORMOPTIN" xtwebform="9413601">click here</a>.</td>
+		</tr>
+	
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom><img src="http://links.e.myecp.com/eos/v1/WkZuam9NUmNxNW9zZitENEJjZXlFQTNSZWlyNklRbm1jOFR0Qy93K3RkTTBVQnpQVStTVXY2bmxYaUsyRVhOT2JFMHJNV0JDcWd4YW0wa3NQaTFscWM1WnlQVmZoTms5ZzJYelZrSkJuR1cvV29Gb3lBWFlZNWJWQ2xhTGRTUG1VeDZSWDJTR0pvbzFXUXZVcGtHT05BdzBtTTVMVW10TWN5aUFTT21CNFZBSTZZKzd2ODduV1E9PQS2" style="display: none"></body>
+</html>
+
+
+
+------=_Part_133800_2062428449.1628870441066--

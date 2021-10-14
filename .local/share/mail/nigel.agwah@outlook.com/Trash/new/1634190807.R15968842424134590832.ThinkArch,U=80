@@ -1,0 +1,233 @@
+Received: from AM6EUR05HT130.eop-eur05.prod.protection.outlook.com
+ (2603:10b6:806:131::28) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0143.NAMPRD11.PROD.OUTLOOK.COM; Wed, 21 Jul 2021 22:38:48
+ +0000
+Received: from AM6EUR05FT067.eop-eur05.prod.protection.outlook.com
+ (2a01:111:e400:fc11::4a) by
+ AM6EUR05HT130.eop-eur05.prod.protection.outlook.com (2a01:111:e400:fc11::460)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4352.24; Wed, 21 Jul
+ 2021 22:38:47 +0000
+Authentication-Results: spf=pass (sender IP is 167.89.32.113)
+ smtp.mailfrom=mail.snapchat.com; outlook.com; dkim=pass (signature was
+ verified) header.d=snapchat.com;outlook.com; dmarc=pass action=none
+ header.from=snapchat.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.snapchat.com
+ designates 167.89.32.113 as permitted sender)
+ receiver=protection.outlook.com; client-ip=167.89.32.113;
+ helo=o6.mail.snapchat.com;
+Received: from o6.mail.snapchat.com (167.89.32.113) by
+ AM6EUR05FT067.mail.protection.outlook.com (10.233.240.63) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4352.24 via Frontend Transport; Wed, 21 Jul 2021 22:38:46 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:2A0D96D9582E9047D95F31CD317B3C7717AAD81D1B43D97EDFC92DE1D719A0FC;UpperCasedChecksum:9DBCF4D3839B243F34E7CF06C675B617DAB61FE6CF274C1E8BBA8F9077E27D54;SizeAsReceived:1754;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=snapchat.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=m1; bh=nEVnoZB+7ME72CuGcDzRquTLIcO80l+zAQZdgKCU5bo=;
+	b=QmpHDrr5gzRLrBsLVO335SMmG3RfKvtaUiVZrwSoxrIpnSOtdhRl9f11ZaCy8VGAFEDs
+	KFXMP+1Sby3i+kAtTG8aBmefcih688XsPR4Y/vurajvBcND4A6h+FZXloA3MFPBHytq827
+	IfqbggS3ZSWj5q3BdFYbg20RZhQSRUoz8=
+Received: by filterdrecv-78b4d5c4d4-zzvcb with SMTP id filterdrecv-78b4d5c4d4-zzvcb-1-60F8A1F4-7C
+        2021-07-21 22:38:44.810709084 +0000 UTC m=+445837.644390725
+Received: from NTA4NjAzNg (unknown)
+	by geopod-ismtpd-3-0 (SG) with HTTP
+	id lq6hZw_sTku8UOZhwtx5RA
+	Wed, 21 Jul 2021 22:38:44.782 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 21 Jul 2021 22:38:44 +0000 (UTC)
+From: Team Snapchat <no_reply@snapchat.com>
+Message-ID: <lq6hZw_sTku8UOZhwtx5RA@geopod-ismtpd-3-0>
+Subject: Nouvelle connexion =?UTF-8?B?w6A=?= Snapchat
+X-SG-EID:
+ =?us-ascii?Q?tZ5lMlOwv4qvkJKB+uUUpY97Xbef2YO8lP1XO6yQyMj3IQpB8HZOTAoMTsglDv?=
+ =?us-ascii?Q?oZcB2AQ8vWigjm=2FfzRAxNIBUSmRV25Fa4hbjjSV?=
+ =?us-ascii?Q?UKQwcV3PM2ZONvrOJduW6JbQehFjnvRwLW0q66j?=
+ =?us-ascii?Q?CuxwPOUMXHN2icENblYcbG4+V+AN8H7cAcrieyy?=
+ =?us-ascii?Q?ap2R4sBg2Bu+pMJ0jqMrxkj4A554vK3SbVmiZBQ?=
+ =?us-ascii?Q?KFuW=2FJBGCGSle0fW2VMgWI93ytMPKhYP3AiKGb?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb6zxDCp38J38LG9+GSyGMbtHcceBgQDADIHABYHgab?=
+ =?us-ascii?Q?TmDaRITN0sQMbJcb=2FeOOVLmmSSMXR3HljUCz890?=
+ =?us-ascii?Q?cNyojEXtt99W2OWV32iFxDdCl1tc1Gs9a+wBqFf?=
+ =?us-ascii?Q?a9My1DBUCfebz2c8WRtHFV5YDQsryFhKA7SUXD7?=
+ =?us-ascii?Q?MbhZQCDK9UyJB?=
+To: nigel.agwah@outlook.com
+X-Entity-ID: 6IR8Gz2NtZ2A9KpMfBMamw==
+X-IncomingHeaderCount: 14
+Return-Path: bounces+5086036-7362-nigel.agwah=outlook.com@mail.snapchat.com
+X-MS-Exchange-Organization-ExpirationStartTime: 21 Jul 2021 22:38:47.1155
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 858f97cb-cd3c-46aa-d7cb-08d94c984da6
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM6EUR05FT067.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/18/2021 10:19:06 PM
+X-MS-Office365-Filtering-Correlation-Id: 858f97cb-cd3c-46aa-d7cb-08d94c984da6
+X-MS-TrafficTypeDiagnostic: AM6EUR05HT130:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 167.89.32.113
+X-SID-PRA: NO_REPLY@SNAPCHAT.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Jul 2021 22:38:46.4799
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 858f97cb-cd3c-46aa-d7cb-08d94c984da6
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM6EUR05FT067.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6EUR05HT130
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.8016043
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4352.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9050020)(9100329)(5061607266)(5061608174)(4900115)(2008001114)(2008000189)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkde4hgCRD//qo95RIDfy3KjicmYecbDSQVVraL5WTkXPp8pgZq5PCfbpzwSYQhHOEUic2rjAj7NefWH/B37czxlxqUb7G6cI4wbJ5uAMsxeC/VK35Zm1ii2TyI8G/pPWKdetyTab9hUV30cXiDgi8qHTsSRQgZHyLNn6PmLqi8m5uTzzYMinRbPC5wqpvxmqFOQ10ymlN48nbA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?iso-8859-1?Q?0awNm0PXb20tb/1aqNYDfIVZoMHdHpgR/AXl0qtoy+6ApzeCQcMJq6CMHW?=
+ =?iso-8859-1?Q?DGMJkJ0Q+j/qgIVk1sWHXSCFShWZCVV4mhAf8WwopQn6PiAd9taJZc97W/?=
+ =?iso-8859-1?Q?QCF/Brk6wj2wG0KgAZ0s+Vm1WHipFPqjwe+Iqh/oZtY5W3d9mGn1xzrpWM?=
+ =?iso-8859-1?Q?6pd8eHF7gKgnkk0HweDpbDbFPmz/QjiUF6wUYh1SthkiFxG3aqFMUkOdKC?=
+ =?iso-8859-1?Q?8GKqFa0zu8pmeRDi9OV8kEmdwa064rR/05KdPC25FrZtbLMne1vUBTIZCU?=
+ =?iso-8859-1?Q?LGrQ4Wz3c7YA5an1sEC6l2e/9PkwkK6ob9TIzb0yuVs4RISDZ7eXKuiFjY?=
+ =?iso-8859-1?Q?WPnIZVK08IWuGuVUhr/njMrAvFgBcyhJXHp//kwDyByH1W+qTBaP+nHXvY?=
+ =?iso-8859-1?Q?YKKwUHySI1X8xFcW8Anlihrz+pRCOIyQYKq6riMrjQWp4vlMfvXMIPr/mT?=
+ =?iso-8859-1?Q?46heAtBp6+qGSSOB5XEwjs99eS/oW8POO2/nyz23YZtJOJJyK7okF/++58?=
+ =?iso-8859-1?Q?olSNv+/WEVbPzdZk2PJ3uBqBXixQEqJGZzlQgrQJrXrtQ1U6tAYjhgMgly?=
+ =?iso-8859-1?Q?74mzmYNx/9mM/rvo506vWIx71hdCRvKG4qKN9gJX89JAQfoxbvL+IVbSCX?=
+ =?iso-8859-1?Q?S7bj4357sneTYUhZLcvyjRt0KdGdbzLWSEAALAoDCmtHWpuJpsBsK9lTDc?=
+ =?iso-8859-1?Q?RSbVQJP1pY/HGPGj/YFMdweaQ1iBa8Tayj/apSdNeLY4haILF18oJZt5E3?=
+ =?iso-8859-1?Q?JEL3fRqmpFIWYtoYkP7A/QjXW1oMoIzGcifUpA9fKb9vZLhxXN8CKb07Tj?=
+ =?iso-8859-1?Q?pBUpOzWKbBAwpE+f6FMxvZdwaTTIb8ZpsxtMeTa8vUa+zsziRkt5yH7mOz?=
+ =?iso-8859-1?Q?y9VxZ9mkYH45elZ9hzlotWtRKBABV773L8FJ+sGxuBGqtq5qscsqi2lZp3?=
+ =?iso-8859-1?Q?fEKB+Y7JXkxNHwWRPs2LKChCmAcpDML1yCqCK0RBjRCmb6BLSnJR0TR3Js?=
+ =?iso-8859-1?Q?PTjIEEER6cGg+u6PDNSnEfgKQJ+QkSh3Ivb50MHB+ty3+vA9VPO3xMqkgB?=
+ =?iso-8859-1?Q?ru+pMkvFAfqZy8c17oNiDXpGJv2Y0SpdUJdQ1DfcfTNl6Resrjeubk/uy0?=
+ =?iso-8859-1?Q?m0ckTKDcwAJyR9ESux23H9vi0eR4tvbTO/HSRJGKBALRqB/TsVuJvCN2lW?=
+ =?iso-8859-1?Q?pgYeWgvidUA20ymFCciK+kHZqJjmmBzewcI=3D?=
+MIME-Version: 1.0
+X-TUID: YHTWPtpWbFhO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+</head>
+<body style=3D"background-color:#F6F6F6; color:#000000;">
+<center>
+    <table width=3D"620" style=3D"max-width:620px; border-collapse:collapse=
+;margin:0 auto 0 auto;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+        <tbody>
+        <tr>
+            <td>
+                <table border=3D"0" width=3D"580" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"max-width:580px;padding-left:20px;padding-right:20px;">
+                    <tbody>
+                    <tr style=3D"height:50px;"></tr>
+                    <tr>
+                        <td align=3D"center" style=3D"line-height:0;">
+                            <img src=3D"https://storage.googleapis.com/emai=
+l-media/Hijack_Email_Header.png">
+                        </td>
+                    </tr>
+                    <tr style=3D"background:#FFFFFF;">
+                        <td align=3D"center" style=3D"font-family:AvenirNex=
+t-Regular,Droid Sans monospace,Roboto,Arial,sans-serif;">
+                            <p style=3D"font-size:45px;color:#000000;letter=
+-spacing:-1.5px;" dir=3D"ltr">
+                                Nouvelle connexion&nbsp;!</p>
+                        </td>
+                    </tr>
+                    <tr style=3D"background:#FFFFFF;">
+                        <td border=3D"0" style=3D"padding-left:20px;padding=
+-right:20px;padding-top:29.8px;font-size:22px;color:#000000;letter-spacing:=
+0;line-height:37px;font-family:AvenirNext-Regular,Droid Sans monospace,Robo=
+to,Arial,sans-serif;">
+                            <p>
+                                <span style=3D"display: block;" dir=3D"ltr"=
+>Bonjour k547nk,<br><br>Il semblerait que quelqu'un se soit connect=E9 =E0 =
+votre compte =E0 partir de l'appareil &quot;<span style=3D"font-family:Aven=
+irNext-DemiBold,'Droid Sans monospace',Roboto,Arial,sans-serif;font-weight:=
+bold;">iPhone 7 Plus</span>&quot; le <span style=3D"font-family:AvenirNext-=
+DemiBold,'Droid Sans monospace',Roboto,Arial,sans-serif;font-weight:bold;">=
+21 juillet 2021</span> =E0 <span style=3D"font-family:AvenirNext-DemiBold,'=
+Droid Sans monospace',Roboto,Arial,sans-serif;font-weight:bold;">22:38 UTC<=
+/span>. La connexion a eu lieu pr=E8s de <span style=3D"font-family:AvenirN=
+ext-DemiBold,'Droid Sans monospace',Roboto,Arial,sans-serif;font-weight:bol=
+d;">Sedalia, US, =C9tats-Unis</span>, (IP =3D <span style=3D"font-family:Av=
+enirNext-DemiBold,'Droid Sans monospace',Roboto,Arial,sans-serif;font-weigh=
+t:bold;">97.88.95.253</span>).<br><br>Si vous =EAtes =E0 l'origine de cette=
+ connexion, merci d'ignorer cet e-mail. Aucune action de votre part n'est n=
+=E9cessaire.<br><br>Si vous n'=EAtes pas =E0 l'origine de cette connexion, =
+veuillez changer votre mot de passe directement dans l'application Snapchat=
+ ou sur notre site d'assistance <a href=3D"https://accounts.snapchat.com/ac=
+counts/change_password?h=3D499f52ae-85f7-485f-99f7-468c21436ca5">ici</a>. <=
+br><br>Si vous pensez que votre compte a =E9t=E9 pirat=E9, rendez-vous <a h=
+ref=3D"https://support.snapchat.com/a/hacked-howto">ici</a>.<br><br>Merci,<=
+br>La Team Snapchat<br></span>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=3D"center">
+                            <img src=3D"https://storage.googleapis.com/emai=
+l-media/Hijack_Email_Footer.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=3D"center" style=3D"margin-top:0;margin-b=
+ottom:0;color:#262626;font-size:17px;padding-top:30px;padding-bottom:70px;l=
+etter-spacing:0;line-height:35px;font-family:AvenirNext-Regular,Droid Sans =
+monospace,Roboto,Arial,sans-serif;">
+                            <p>
+                                <span style=3D"display: block;" dir=3D"ltr"=
+>=A9 Snap Inc. 2021 &nbsp;&nbsp;|&nbsp;&nbsp; <a href=3D"https://snap.com/t=
+erms" style=3D"text-decoration:none;color:#0EADFF;" target=3D"_blank">Condi=
+tions d'utilisation du service</a></span>
+                                <span style=3D"display: block;" dir=3D"ltr"=
+><a href=3D"https://support.snapchat.com" style=3D"text-decoration:none;col=
+or:#000000;" target=3D"_blank">https://support.snapchat.com</a></span>
+                                <span style=3D"display: block;">Snap Inc., =
+3000 31st Street, Santa Monica, CA 90405</span>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</center>
+<img src=3D"https://u5086036.ct.sendgrid.net/wf/open?upn=3D0mwXn0caUjhhJsla=
+-2FkVFKCQlhJqD0AYaLKoZUbYGiHIpEfiNGChqoxdjh2bh4XcbYvwDoyKx3h83tQBGrezlasjKx=
+77Wc7xpwL1hSF3P5ocplxRdxjeMnlclO7vaXJVnB9Uw1UxVkWXmm6nRnhd9eD5LTRANeOpZWYEN=
+-2FX-2FwdYcijaukyb6A2VqkgYwxYOVkLsMdC1hAfkJIrjfD9HXth4nbynyP6yIXqW7zD2YwVbB=
+YtY39r7FatTgP6878HfOiaRIiSFYuMjOOpL4rxrZOuT3XcEMYMmQnMLy3QgkmRqrFHbV7-2B4rM=
+u-2FuSdk3TM12pHg7eqLaWGFZAepgozzIaUo08hXRKQFQIbV4-2BAXfgnTVx1wIAa23nDrbeplO=
+MhpSow9V6bfmJQh1EVHMWCj6gCw-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"></bod=
+y>
+</html>

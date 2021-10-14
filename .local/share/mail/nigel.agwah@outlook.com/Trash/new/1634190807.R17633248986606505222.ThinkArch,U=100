@@ -1,0 +1,1135 @@
+Received: from DF4PR8401MB1147.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:760a::15) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Sat, 9 Oct 2021 23:36:06 +0000
+Received: from AS8PR04CA0142.eurprd04.prod.outlook.com (2603:10a6:20b:127::27)
+ by DF4PR8401MB1147.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:760a::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.22; Sat, 9 Oct
+ 2021 23:36:05 +0000
+Received: from VI1EUR06FT007.eop-eur06.prod.protection.outlook.com
+ (2603:10a6:20b:127:cafe::8f) by AS8PR04CA0142.outlook.office365.com
+ (2603:10a6:20b:127::27) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.18 via Frontend
+ Transport; Sat, 9 Oct 2021 23:36:04 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.41.98)
+ smtp.mailfrom=mailer.netflix.com; outlook.com; dkim=pass (signature was
+ verified) header.d=netflix.com;outlook.com; dmarc=pass action=none
+ header.from=mailer.netflix.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mailer.netflix.com
+ designates 54.240.41.98 as permitted sender) receiver=protection.outlook.com;
+ client-ip=54.240.41.98; helo=a41-98.smtp-out.amazonses.com;
+Received: from a41-98.smtp-out.amazonses.com (54.240.41.98) by
+ VI1EUR06FT007.mail.protection.outlook.com (10.13.6.219) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4587.18 via Frontend Transport; Sat, 9 Oct 2021 23:36:03 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:A4D8970753E0B53D5B8E5CF330066E3450CBDF9463E13539800EB3311F3FF573;UpperCasedChecksum:F16DEFD0DB5C22C099819D135A9A771CA75190DA121B282A7D385FD521EFBEC6;SizeAsReceived:2540;Count:23
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=emotixlbezkp6gpvmko5lunmgwd5syff; d=netflix.com; t=1633822562;
+	i=@mailer.netflix.com;
+	h=Date:From:Sender:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=9mXaVCEWhMSY+lbAdM4nSxTtNKJcqCgFY7/n20N8Ry4=;
+	b=8EXjYVjSj7U2R/dx4RfhL916V7gUrL5J4xqX9RL/G6FHavwrkcVkQaLYDVSIWovG
+	opVcY0GurJviWyKPXsAABnwxH81Y3w54suxbpeqH8l9KBO7TXZENjoO4GBqv1fQqRET
+	d8IlwpxzWboS+tHhiCheheJ7ERGdGxQ9gdymuCJQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1633822562;
+	h=Date:From:Sender:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=9mXaVCEWhMSY+lbAdM4nSxTtNKJcqCgFY7/n20N8Ry4=;
+	b=f4H+wuks4hQlngaA/CZVN+QepQXtQGSd9blH7KUaXbQinMy291LuUJqM3IsuV5Zu
+	g2qZx1ppT5Rjz7rD8eD59g94sODPl6QPqAivtb2dbzdgxBA+rDZcVRZlDZ4h7FZNREP
+	jfs5Nx8a6ZQ2D6qcHr1GG+Tzeeo4g5F7UQQwi82Q=
+Date: Sat, 9 Oct 2021 23:36:02 +0000
+From: Netflix <info@mailer.netflix.com>
+Sender: Netflix <info@mailer.netflix.com>
+To: nigel.agwah@outlook.com
+Message-ID: <0100017c6769d8b3-0770fb51-ada0-4aa4-a3b8-aaeae27308e3-000000@email.amazonses.com>
+Subject: Confirm your request
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_206002_1565210472.1633822562459"
+X-To: nigel.agwah@outlook.com
+Precedence: bulk
+X-AppInfo: Netflix Mercury S s.00ec173.6594
+X-ProcEnc: BQAtAAEBEKWk9Q2OknJGoNeuj+/5uQQgdQJhhLCqlVxOWWZodjNv/fnpio2nICRLBGdLtdaUspc=
+X-MailingID: mercury::LOW_RISK::16052::4DA69C07C0701036EC02931A6245B731645568C5::B7C5A6C7E0DF34BB85DA9F73B7F6E61164529736::<17C6769D89B@netflix.com>
+X-GroupId: 4
+X-localeCountry: en::US
+X-ProcInfo: dudbolt::dudbolt::mercuryecsqs::mercuryecsqs-default-i-08287bc5d2955e514::mercurymp-transactional-i-0a08d10bddcb8e00b::00:00:00:00.103
+X-EvCacheKey: 16052.EMAIL.EDR_REQUEST_VERIFICATION_EMAIL.-0005.-5.en.US
+X-Version: 3266
+List-Unsubscribe: <mailto:N0xIQTVRUkJCRkNDUko0VVBRT0JYU0EyNU0xNTdC@unsubscribe.netflix.com>, <https://www.netflix.com/EmailUnsubscribe?id=BQE0AAEBEKbbdHp9Zl%2FvXzZWkB0aPZWAkKjgbsahMQ%2FWLN%2BTO%2By8MTWimeGaE3xg%2FAArJO8lgEq8Ql8GJra2PLxsBo%2FFU6fv1YuW9F3vbDmXSHq10GBJRLR3Hxji7iBZARSF1WpH7x64FvTKd5hSwzn9FHkWAf6OBHRW0c6gpMegqjaB5Qb%2BG%2BxXnwUvQQfBJrkCjN2%2F01C1%2FJk4ryqvFu60n6q9IjSV4A%3D%3D&lnktrk=EMP&g=B7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&lkid=unsubscribe_link>
+Feedback-ID: 1.us-east-1.TW2kQXBPKzEfHzcyZOUFPUd4i/tuZQjQCCDIsBA/Brk=:AmazonSES
+X-SES-Outgoing: 2021.10.09-54.240.41.98
+X-IncomingHeaderCount: 23
+Return-Path:
+ 0100017c6769d8b3-0770fb51-ada0-4aa4-a3b8-aaeae27308e3-000000@mailer.netflix.com
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Oct 2021 23:36:03.8919
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 4b701531-cfea-46d4-4ba8-08d98b7d8f2d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR06FT007.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/8/2021 2:42:16 PM
+X-MS-Office365-Filtering-Correlation-Id: 4b701531-cfea-46d4-4ba8-08d98b7d8f2d
+X-MS-TrafficTypeDiagnostic: DF4PR8401MB1147:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.41.98
+X-SID-PRA: INFO@MAILER.NETFLIX.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Oct 2021 23:36:03.5790
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4b701531-cfea-46d4-4ba8-08d98b7d8f2d
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR06FT007.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DF4PR8401MB1147
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.8395193
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4587.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:1;pcwl:1;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:TrustedSenderList;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100337)(4900116)(8300001)(4910005)(9910001)(9530002)(9415002)(9310003)(9240001)(4920091)(6253095)(4950132)(530109);
+X-Message-Info:
+	5vMbyqxGkdccvPlPiZtMEPzRtZMjbZWzGZgYK9pw8ybFlFBaDbes8xiQD8bAC46mGw1Clh5/A3cARNyXGIb+zLqpNhHy/7fVd51/mxQFj3I5AJNnitPyt+/vG4KP9wMl7b5WX3MfQCwsMghXkD5Sqw5uAZSFSiceIyK8AoDz4/VQdZkAmZpMKzhgITlIIFHwc5LzhnMqz03Ee6EhFrYTig==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?OUN5WWRYWjVUUkV3MUM2R1VOdXdOVGxXWjBUK0dsc2RSWlFuaExJMDduQ0Jq?=
+ =?utf-8?B?WEsrSTQvNGZjZ1QwOFNFUGpsM2g1U2ZQYUdGRWRicUFUb2dtamJwRWw0Q0JO?=
+ =?utf-8?B?OW53U0dzS0ZQTlM1MFNTUytWVFdYbStyN3pRaTByeGhEbzN4QkZseWJuOFJr?=
+ =?utf-8?B?UWdoaExTTjlianFGeXM4bWpUeVNEQlJIeUtyUnAySkgvUGhQdExRdENQdmY4?=
+ =?utf-8?B?NXRJWFZhNnVCV2dtT1RaY24wT3lmbEg2cnBRZUtsVXA3NDNENm1yVEtwK1Vz?=
+ =?utf-8?B?bzJvMU90UUNkSjk2MnJDMTZveUpjZjA1OE9ML3ZWQjJyUTd5V1lxcFgweEpY?=
+ =?utf-8?B?T0JGRHd5Q2tObnNiZi8zVjRBNVpQbEUzNjN1TW5ocVBpOU1HK0swK055eEhj?=
+ =?utf-8?B?S28zWTY2TzJiNEh6SFVmR2t3N041d2N5cVNGWkNXNHM5Qm5xbkdCV1BIMGVo?=
+ =?utf-8?B?VFRzRUU3VGZFMk1TQ0VoS3JmOWExNzJKZC84Qnh3OXRCS1RwWFU3YlIrVlR5?=
+ =?utf-8?B?RS9VYnJkM1QvejI4Z0xUOXJNbEQ0VDVCZ0dwU0ZSUW5kYk5TYTlNQjg1ZmpG?=
+ =?utf-8?B?c3FFRXFVd2MxRmlrRmt1VGJ0Ym9kbXVXZmpud1Fpck1IR2l1S3UyQXZ3YS95?=
+ =?utf-8?B?Y2xVeU8weGdUOXBvaEVSWm0zeXdLb05vdFRIQTZTTC9xRDFzOUtWU2M3ckhx?=
+ =?utf-8?B?eCtHa3FXVjQ5YlUxWFdxNWZVUmY2by9sSy9TY0swVlFZNmVpRGZlYkkzSGQz?=
+ =?utf-8?B?MExadWQ3c0l2Qkgrcm5aeFZaSkVxemdqSFdsYlBtRHhrZ2hqVlVKRmNSb0c3?=
+ =?utf-8?B?TWRqVHR3bk85Z2MvWXhEeVlPQWZvWXRhWnJqdjkvVWxaeU5qTmxzakU3bmRW?=
+ =?utf-8?B?bnR2TWJTNm9JWWFMaVZ5Qm9XZFFxOERFZTJ4N0IyWmdRZW9zRXNYS3ZUMmcv?=
+ =?utf-8?B?YzBicXovYnAvak1MekZZNkRxZHFhaW5lMVVKSWNuZDB3RVU0VjI1TDZWS3g5?=
+ =?utf-8?B?MG1DYmh5TVZFalEyZTBFL0c2SDNlUCtLaCt6eFgxSDRBUGtVZWsvM0cweEhq?=
+ =?utf-8?B?b2pJbGlWaTJja291N1BWcS9ubUpCWUFqZjVncWdjMGJtcTB2M2lDcHluQXYr?=
+ =?utf-8?B?YmFQaFBlODQ5YVR6ZytjZzNtMUo2UXdYbStaWDNNRWR1U1ZSV1F5QmY0Sklt?=
+ =?utf-8?B?ZXJIS1I2OGFxZVFCc0lmMUtyY0RQYWx6MzFRVzN1RzJydGlCSUl6ODBvOHE5?=
+ =?utf-8?B?T1F5OVZOVzZVVnZJSkhaY1dVa2ZNZlBYYU1QYWZRMFdWQ3F0VFc2Z2U0T1Jk?=
+ =?utf-8?B?TThsamhSNVBHMFVoSnRhVTRoR2J3ejdyQXJ2UzRkME1LSmkwT1FOeFRJZjU4?=
+ =?utf-8?B?dStxdmtHc2RoZmdxclFCeUgwU0toT3hjNUl2bnpmSXZ1ZzhnS1kvZVVKRlB0?=
+ =?utf-8?B?KzJFaEFTSHNNTTBzc1JubTYzRWJSRzRqWjhYcWZkczRDV0pJQ0Z1bkE2MlZt?=
+ =?utf-8?B?cUpDUGVXRXAzVDdPTnM3ZlFjbzZ2cWpEQ0pSYVVNVTJuVFlmemJOUHlIZ00x?=
+ =?utf-8?B?YmNXVDRTZUZJVFVya1UzeFRMeVU4SUF2enYyUXpWMjdiVFBERysrU1RtUmVI?=
+ =?utf-8?B?d1pqWm1QSmZyLzVwL0tTaDZhZnhZZVF6bDFOOElDczQ5V1doem5PeFF1ZG96?=
+ =?utf-8?B?S2crbGtNcWdKZGNEb1pSRncvb25sa1o2U1hpWE02TFBlSE91eWFWOWFtT21F?=
+ =?utf-8?B?eUw3MVhXaVIraHBKbjh0Si9kb3pyYUZqc0JtdnYwaHNhTEhzYWFmcUpEbndI?=
+ =?utf-8?B?eGE2dFJjTGtpemNpZUx4S3pqMGRVYlBwY0Evam1KV3JHNHVwNFpoVldjZTJ6?=
+ =?utf-8?B?VkdzQzMwRGdlRWxxVnNmYVZtQks2UHE2KzFvNlU2Z3JyRGwrZ0RlbmdOMEx6?=
+ =?utf-8?B?eGpGeERpWUd3Qmx0L2NybWRBWStmU0hWdEFRYmx0ayt3MkRmeEdVakRqSFYx?=
+ =?utf-8?B?eWxOZ1gzQmV4Sk5RcXpVMmlrK1NHSjhoQXdWQVRDSW1vVTNjL2hIdHNOaTVn?=
+ =?utf-8?B?TnF5UUhEdG9WUXFvSlhPdHpMMnU1WVIyVVh2ell6RFZyYnZNOVBBd1pBNmo4?=
+ =?utf-8?B?RnJEbVByRlZDU25DTWlDK3FCZ0t3czFFTW5tMUgvYm9qeWdtUHJhUW52b3gy?=
+ =?utf-8?Q?VUcc4ozAy6gHW95tn0oXZkcDuGXn8EdFU8C2UXH/XxEj?=
+MIME-Version: 1.0
+X-TUID: e1gqUq98H8rh
+
+------=_Part_206002_1565210472.1633822562459
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Confirm your personal information request=20
+Hi NIGEL,
+
+You=E2=80=99re getting this email because there=E2=80=99s been a request to=
+ download a copy of your Netflix personal information.
+
+If you didn=E2=80=99t initiate this request, please follow these steps to s=
+ecure your account ("https://help.netflix.com/support/13243?nftoken=3DBQAbA=
+AEBEPiuxuxRkvdNhm4fgzwn6P2AkJJ7jIsIiHNTEOJHQi2%2FMZPMbUDKtd13btwUQ%2FQRnKQf=
+cJEGn1o%2FnkHsPH0qEX8qafDlrguiHJy%2BU7XkT9saj0n6kl9QfxeCsjmK7yj5WQHvewIxqsJ=
+tx5jZaEG1imu3rrorMAZD%2BsBDaSTn%2FdbYdb7431YMKaDIpFTRylh8S2TeGYrIo%2FtE4tE7=
+y2DWy1g1sQ%3D%3D&lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&=
+lkid=3DURL_HELP").
+
+Confirm Request : https://www.netflix.com/account/getmyinfo?action=3Dapprov=
+e&edr_id=3D69ecd5ac-ad7e-4d9b-a80a-ab62f65ace1b&msg_token=3DEQIAmQABAYEAi%2=
+BpdQpgC9ETnFIEvOuq7JvE97638WUHN68q5eqd4GD7mxnYnUiZYTNNgn6YILrn19knMxcxobMGe=
+xLOUYsKq%2BP55LTJCgxfG%2Fu4J%2Fsf%2BHAkmuPR6Lpa%2FenGW2b03tCcAmArtxAGfXjx0u=
+yPR9ekjralZ%2B2LugpYerYrI1Gpl6iAsJxTBHXP7IJNZG0dYj%2B07l9assw7IKzKEjJQmDENp=
+KJF1Cpxbups98ICadroNGobb56ccm3eR8Qsvzr%2FeLSq%2FxFnu4hDvvT2DkdqH%2F%2FNPjKu=
+hygSKrwo0AF%2B4Be6XuKr23%2BHf3sELHmDEIeTvkA7St%2BvpPoOf%2F3dZ3f2jI7krKgjuMY=
+E%3D&nftoken=3DBQAbAAEBEPiuxuxRkvdNhm4fgzwn6P2AkJJ7jIsIiHNTEOJHQi2%2FMZPMbU=
+DKtd13btwUQ%2FQRnKQfcJEGn1o%2FnkHsPH0qEX8qafDlrguiHJy%2BU7XkT9saj0n6kl9Qfxe=
+CsjmK7yj5WQHvewIxqsJtx5jZaEG1imu3rrorMAZD%2BsBDaSTn%2FdbYdb7431YMKaDIpFTRyl=
+h8S2TeGYrIo%2FtE4tE7y2DWy1g1sQ%3D%3D&lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9=
+F73B7F6E61164529736&lkid=3DURL_EDR_APPROVE
+
+We're here to help if you need it. Visit the Help Center ( https://help.net=
+flix.com/support/100624?lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164=
+529736&lkid=3DURL_HELP_2 ) for more info or contact us ( https://help.netfl=
+ix.com/contactus?lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&=
+lkid=3DURL_CONTACT ).
+
+-Your friends at Netflix
+
+-----------------------
+
+
+Questions? Call 1-844-505-2993
+100 Winchester Circle, Los Gatos, CA 95032, U.S.A.
+Communication Settings: https://www.netflix.com/ManageSubscriptions?id=3DBQ=
+E0AAEBEKbbdHp9Zl%2FvXzZWkB0aPZWAkKjgbsahMQ%2FWLN%2BTO%2By8MTWimeGaE3xg%2FAA=
+rJO8lgEq8Ql8GJra2PLxsBo%2FFU6fv1YuW9F3vbDmXSHq10GBJRLR3Hxji7iBZARSF1WpH7x64=
+FvTKd5hSwzn9FHkWAf6OBHRW0c6gpMegqjaB5Qb%2BG%2BxXnwUvQQfBJrkCjN2%2F01C1%2FJk=
+4ryqvFu60n6q9IjSV4A%3D%3D&mid=3Dnone&lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9=
+F73B7F6E61164529736&lkid=3DURL_COMM_SETTINGS | Terms of Use: https://www.ne=
+tflix.com/TermsOfUse?lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529=
+736&lkid=3DURL_TERMS | Privacy: https://www.netflix.com/PrivacyPolicy?lnktr=
+k=3DEMP&g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&lkid=3DURL_PRIVACY | H=
+elp Center: https://help.netflix.com/help?lnktrk=3DEMP&g=3DB7C5A6C7E0DF34BB=
+85DA9F73B7F6E61164529736&lkid=3DURL_HELP_5
+
+This message was mailed to [nigel.agwah@outlook.com] by Netflix as part of =
+your Netflix=C2=A0membership.
+SRC: 16052_en_US
+
+
+------=_Part_206002_1565210472.1633822562459
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3=
+.org/1999/xhtml" xmlns:o=3D"urn:schemas-microsoft-com:office:office" style=
+=3D"margin-top:0;padding:0;margin:0;background-color:rgb(234, 234, 234);"><=
+head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">=20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+  <meta name=3D"format-detection" content=3D"telephone=3Dno">=20
+  <style type=3D"text/css">
+     =20
+  /* START ENVELOPE CSS */
+ =20
+  @media (max-width: 500px) {
+    /* Gmail iOS hack */
+    u + .body .inbox-fix, u + .body .content-shell-table,
+    u + .body .footer-shell-table, u + .body .footer {
+      min-width: calc(100vw - 8.5vw) !important;
+    }
+   =20
+    .mobile-hide, .ios-hide {
+      display: none !important;
+    }
+    .desktop-hide, .desktop-hide img {
+      display: initial !important;
+    }
+    table.desktop-hide {
+      display: table !important;
+    }
+    .mobile-100w {
+      width: 100% !important;
+    }
+    .mobile-block {
+      display: block !important;
+    }
+    .mobile-left {
+      float: left !important;
+    }
+    .mobile-right {
+      float: right !important;
+    }
+    .mobile-center {
+      margin: 0 auto;
+      text-align: center !important;
+    }
+    .content-padding {
+      padding-left: 5.6% !important;
+      padding-right: 5.6% !important;
+    }
+    .inner-padding {
+      padding-left: 6% !important;
+      padding-right: 6% !important;
+    }
+    .outside-padding {
+      padding-left: 11.199999809265137% !important;
+      padding-right: 11.199999809265137% !important;
+    }
+  }
+
+  /*turn off border for iOS mobile*/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 500=
+px) {
+    .container.main-border {
+      padding: 0 !important;
+    }
+    .content-shell {
+      border: none !important;
+    }
+  }
+
+  .hide, .hide div, .hide table, .hide td, .hide tr, .hide a, .hide img {
+    display: none !important;=20
+    width: 0 !important;=20
+    height: 0 !important;=20
+    max-height: 0 !important;=20
+    line-height: 0 !important;=20
+    mso-hide: all !important;=20
+    overflow: hidden !important;=20
+    visibility: hidden !important;
+  }
+  .pixel img {
+    overflow: hidden;
+    position: fixed;
+    visibility: hidden !important;
+    height: 1px !important;
+    width: 1px !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  @media yahoo {
+    table {
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    table table {
+      table-layout: auto;
+    }
+  }
+  * [data-term] {
+    border-bottom: none !important;
+    pointer-events: none !important;
+  }
+  .ii a {
+    color: inherit !important;
+    text-decoration:none !important;
+  }
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+  table {
+    -wings-cellpadding: 0;
+    -wings-cellspacing: 0;
+    -wings-border: 0;
+    border-spacing: 0;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+    border: none;
+    outline: none;
+    border-collapse: collapse;
+  }
+  .empty {
+    font-size: 0;
+    line-height: 0;
+  }
+  .desktop-hide, .desktop-hide img, .desktop-hide-max, .desktop-hide-max im=
+g {
+    display:none;
+    mso-hide:all;
+  }
+  .content-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .inner-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .outer-radius {
+    border-radius: 8px;
+  }
+  .outside-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .inner-radius {
+    border-radius: 4px;
+  }
+  .gmail-fix-no-inline {
+    display:none;
+    display:none !important;
+  }
+  a {
+    color: inherit;
+  }
+  a img {
+    border-style: none;
+  }
+  .hide-link a, .iosnonlink a, .hide-link {
+    text-decoration: none !important;
+    cursor: text;
+  }
+
+  body, .container, html {
+    margin-top: 0;
+  }
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*Color Themes*/
+  body, .container, html, .container-table {
+    background-color: #EAEAEA;
+  }
+  .content-shell-table {
+    background-color: #FFFFFF;
+  }
+
+  /*Below 4 classes dynamically assigned via envelope prop for border*/
+  .container.main-border {
+    padding: 19px 0 20px 0;
+  }
+  .container.main-border .content-shell {
+    border: 2px solid #EAECED;
+    border-radius: 8px;
+  }
+  .container.main-border .content-shell-table {
+    border-radius: 8px;
+  }
+  .container.main-border #gem-footer {
+    border-radius: 0 0 8px 8px;
+  }
+
+ =20
+ =20
+/*envelope styles*/
+/*more styles*/
+.footer-shell-table {
+background-color: #FFFFFF;
+}
+@media (max-width: 499px) {
+.mobile-hide-max, .ios-hide-max {
+display: none !important;
+}
+.inbox-fix {
+display: none;
+}
+.desktop-hide-max, .desktop-hide-max img {
+display: initial !important;
+}
+table.content-shell-table, table.footer-shell-table, .footer {
+width: 100% !important;
+}
+}
+
+  /* END ENVELOPE CSS */
+  .gem-single-button a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gem-single-button td {
+  mso-padding-left-alt: 20px;
+  mso-padding-right-alt: 20px;
+}
+.gem-single-button.button-1-table {
+  width: 100%;
+}
+.gem-single-button.button-1-text.button-text-light {
+  color: #FFFFFF !important;
+}
+.gem-single-button.button-1-text.button-text-dark {
+  color: #000000 !important;
+}
+.gem-single-button.button-1-text a.button-text-light {
+  color: #FFFFFF !important;
+}
+.gem-single-button.button-1-text a.button-text-dark {
+  color: #000000 !important;
+}
+.gem-single-button.button-1-text {
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  text-decoration: none !important;
+  text-align:center;
+  padding: 13px 0 13px 0;
+  width: 100%;
+}
+a.gem-single-button.button-1-link {
+  text-decoration: none !important;
+}
+
+
+
+@media(max-width: 500px) {
+  .gem-single-button-shell.button-mobile-flex {
+    width: 100%;
+  }
+  .gem-single-button-table {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  .fixed-button-padding {
+  	padding-left: 5.6% !important;
+  	padding-right: 5.6% !important;
+  }
+}
+.gem-element-nflxLogo img {display:block;}
+.gem-footer .icon {
+  padding-right: 22px;
+}
+
+.gem-footer .icon.nonMember {
+  padding-bottom: 20px;
+}
+
+.gem-footer .address {
+  padding-bottom: 20px;
+}
+
+.gem-footer .footer-links {
+  padding-bottom: 20px;
+}
+
+#gem-footer .questions {
+  font-family: NetflixSans-Medium,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 500;
+}
+
+.gem-footer .footer-links a {
+  font-family: NetflixSans-Light,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+#gem-footer .gem-legal, .gem-legal a, #gem-footer .hide-link, #gem-footer .=
+hide-link a,
+#gem-footer .footer-links a, #gem-footer .footer-links,
+#gem-footer .questions, #gem-footer .questions a {
+  color: #A4A4A4;
+}
+
+.gem-legal a {
+  text-decoration: underline;
+}
+
+#gem-footer .address {
+  color: #A4A4A4;
+  text-decoration: none !important;
+  cursor: text;
+}
+
+/*Conditional elements CSS*/
+.gem-legal.legal-top, .gem-legal.legal-bottom {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 499px) {
+  .gem-footer {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .gem-footer .outer-padding {
+    padding: 0  5.6% !important;
+  }
+}
+.spacer {
+  font-size: 0;
+  line-height: 0;
+}
+
+@media (max-width: 500px) {
+  .mobile-block {
+    display: block !important;
+  }
+}
+/**** Global Font Styles ****/
+.gem-h0, .gem-h1, .gem-h2, .gem-h3, .gem-h4, .gem-h5, .gem-h6, .eyebrow, .h=
+0, .h1, .h2, .h3, .h4, .h5 {
+  font-family: NetflixSans-Bold,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+.-important .bold, .gem-bold, b {
+  font-family: NetflixSans-Bold,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+.gem-p1, .gem-p2, .gem-legal, .gem-p3, .gem-p, .p1, .p2, .p3, .p, .lrg-numb=
+er {
+  font-family: NetflixSans-Light,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 300;
+}
+
+.-important .light, .gem-light {
+  font-family: NetflixSans-Light,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 300;
+}
+
+.-important .medium {
+  font-family: NetflixSans-Medium,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+.gem-h0, .h0 {
+  font-size: 44px;
+  line-height: 51px;
+  letter-spacing: -1px;
+}
+
+.gem-h1, .h1 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -1px;
+}
+
+.gem-h2, .h2 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+}
+
+.gem-h3, .h3 {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.5px;
+}
+
+.gem-h4, .h4 {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+}
+
+.gem-h5, .h5 {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.2px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: -0.25px;
+}
+
+.gem-p, .p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.gem-p1, .p1 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
+
+.gem-p2, .p2 {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.12px;
+}
+
+.gem-legal, .gem-p3, .p3 {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.1px;
+}
+
+.lrg-number {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 6px;
+}
+
+.italic {
+  font-style: italic; =20
+}
+
+.underline {
+  text-decoration: underline; =20
+}
+.button-shell {
+  padding: 22px 40px 0 40px;
+}
+.button td {
+  padding:10px 16px;
+  max-width:265px;
+  border-radius: 2px;
+}
+.button {
+  border-radius: 2px;
+}
+.button .button-link {
+  font-size:16px;
+  line-height: 24px;
+  font-weight:normal;
+  text-align:center;
+  text-decoration:none;
+  font-family: Helvetica Neue,Helvetica,Roboto,Segoe UI,sans-serif;
+  letter-spacing: .025em;
+}
+@media (max-width: 500px){
+  .button-shell {
+    padding: 20px 5.6% 0 5.6% !important;
+  }
+  .button td {
+    padding: 0 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .button {
+    width: 100% !important;
+  }
+  .button a.button-link {
+    display: block !important;
+    padding: 16px 30px !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+  }
+}
+.copy a {
+  text-decoration: underline;
+}
+@media (max-width: 500px) {
+  .copy {
+    padding: 20px 5.6% 0 5.6% !important;
+  }
+}
+@media (max-width: 500px) {
+  .escape-hatch-neutral-shell {
+    padding: 8px 8% 0 8% !important;
+  }
+}
+
+ =20
+  /* Add overrides for mobile styles */
+ =20
+  @media screen {@font-face {font-family: NetflixSans-Medium;src: url('http=
+s://assets.nflxext.com/us/email/fonts/NetflixSans-Medium-Opt.woff2');}@font=
+-face {font-family: NetflixSans-Light;src: url('https://assets.nflxext.com/=
+us/email/fonts/NetflixSans-Light-Opt.woff2');}@font-face {font-family: Netf=
+lixSans-Bold;src: url('https://assets.nflxext.com/us/email/fonts/NetflixSan=
+s-Bold-Opt.woff2');}}
+
+	/* ACCOUNT SPECIFIC STYLE OVERRIDES */
+  .gem-copy a {
+    text-decoration: underline;
+  }
+
+  .-important .gem-p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+    </style>=20
+ </head>=20
+ <body class=3D"body" style=3D"margin-top:0;padding:0;margin:0;background-c=
+olor:rgb(234, 234, 234);">=20
+  <!--/* 100% Size Container -->=20
+  <!-- Preview Text -->=20
+  <div class=3D"hide" style=3D"display:none;width:0;height:0;max-height:0;l=
+ine-height:0;mso-hide:all;overflow:hidden;visibility:hidden;">
+   Confirm your personal information request
+   <!-- preview text hack -->=20
+   <div class=3D"hide" style=3D"display: none; max-height: 0px; overflow:hi=
+dden;display:none;width:0;height:0;max-height:0;line-height:0;mso-hide:all;=
+overflow:hidden;visibility:hidden;">
+    &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C=20
+   </div>
+  </div>=20
+  <!-- End Preview Text -->=20
+  <table class=3D"container-table -important" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;background-col=
+or:rgb(234, 234, 234);">=20
+   <tbody>
+    <tr>=20
+     <td class=3D"container " align=3D"center" style=3D"margin-top:0;backgr=
+ound-color:rgb(234, 234, 234);">=20
+      <!--/* Hero + Content -->=20
+      <table class=3D"content-shell-table" width=3D"500" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;background-color:r=
+gb(255, 255, 255);">=20
+       <tbody>
+        <tr>=20
+         <td class=3D"pixel">=20
+          <!--legal_content_footer--> <img src=3D"https://beaconimages.netf=
+lix.net/img/BAQgBEAEa8AJ2THSsgosiINnMMOKPnivW4ZEJ4jn0rDUz9RUf9SH4orHJgqg3ak=
+o1eyLVqI9FGW9f_qt-rz0ryybmC5a4V3PONQdardPnVGRz4IowUmPA45lCPmvzcBlcCCjnos6Hj=
+m9GW71_Kfm-RCmPjiMFxFfMbPHmsq2ptNJ53muCYLBGyZ_krp-l1up9nNI5jr3-k_bTWT4ThqtP=
+QAsxvRYzt6jCqot0DofdQgK1aj9Lk9O-ufQETYfs38xolMKCpHDkZ0MzAvZR9v0pKcnMCcZCv8n=
+p5P9Q5p2NAupXkj8cwkk68FT8sHNN7Fa5-eJnZwkgu108nY8aDQ3StkJGAsRaSXIKKigVdpwhzq=
+itLA61f_UjJS_mQraTWln22YhgVW4DMrWqYVp3uYfH22FT3qI6I8feX7O2bG0SWeFHNktWXh7-L=
+X7BKL_8fqy1-J7dwS8JBN3gvf9YThwyCCC6uH2JUVurzr_7CuuhZgZKfPLGpziufQ.." style=
+=3D"display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;b=
+order-collapse:collapse;overflow:hidden;position:fixed;visibility:hidden;he=
+ight:1px;width:1px;border:0;margin:0;padding:0;" border=3D"0"> </td>=20
+        </tr>=20
+        <!--/* Content -->=20
+        <tr>=20
+         <td class=3D"content-shell" align=3D"center">=20
+          <table class=3D"gem-element-nflxLogo" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:20px;paddin=
+g-left:40px;padding-right:40px;" align=3D"left"> <a href=3D"https://www.net=
+flix.com/browse?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E611645297=
+36&amp;lkid=3DURL_HOME" target=3D"_blank" style=3D"color:inherit;"> <img al=
+t=3D"Netflix" src=3D"https://assets.nflxext.com/us/email/gem/nflx.png" widt=
+h=3D"24" border=3D"0" style=3D"display:block;-ms-interpolation-mode:bicubic=
+;border:none;outline:none;border-collapse:collapse;border-style:none;"> </a=
+> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-copy-table" align=3D"left" width=3D"100%" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-copy content-padding gem-h1 " align=3D"left" =
+style=3D"padding-top:20px; color:#221F1F;font-family:NetflixSans-Bold, Helv=
+etica, Roboto, Segoe UI, sans-serif;font-weight:700;padding-left:40px;paddi=
+ng-right:40px;font-size:36px;line-height:42px;letter-spacing:-1px;"> Confir=
+m your personal information request </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-copy-table" align=3D"left" width=3D"100%" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-copy content-padding gem-p " align=3D"left" s=
+tyle=3D"padding-top:20px; color:#221F1F;padding-left:40px;padding-right:40p=
+x;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;fo=
+nt-weight:300;font-size:16px;line-height:21px;font-size:16px;line-height:21=
+px;"> Hi NIGEL, </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-copy-table" align=3D"left" width=3D"100%" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-copy content-padding gem-p " align=3D"left" s=
+tyle=3D"padding-top:20px; color:#221F1F;padding-left:40px;padding-right:40p=
+x;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;fo=
+nt-weight:300;font-size:16px;line-height:21px;font-size:16px;line-height:21=
+px;"> You=E2=80=99re getting this email because there=E2=80=99s been a requ=
+est to download a copy of your Netflix personal information. </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-copy-table" align=3D"left" width=3D"100%" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-copy content-padding gem-p " align=3D"left" s=
+tyle=3D"padding-top:20px; color:#221F1F;padding-left:40px;padding-right:40p=
+x;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;fo=
+nt-weight:300;font-size:16px;line-height:21px;font-size:16px;line-height:21=
+px;"> If you didn=E2=80=99t initiate this request, please <a href=3D"https:=
+//help.netflix.com/support/13243?nftoken=3DBQAbAAEBEPiuxuxRkvdNhm4fgzwn6P2A=
+kJJ7jIsIiHNTEOJHQi2%2FMZPMbUDKtd13btwUQ%2FQRnKQfcJEGn1o%2FnkHsPH0qEX8qafDlr=
+guiHJy%2BU7XkT9saj0n6kl9QfxeCsjmK7yj5WQHvewIxqsJtx5jZaEG1imu3rrorMAZD%2BsBD=
+aSTn%2FdbYdb7431YMKaDIpFTRylh8S2TeGYrIo%2FtE4tE7y2DWy1g1sQ%3D%3D&amp;lnktrk=
+=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&amp;lkid=3DURL_HELP=
+" style=3D"text-decoration:underline;color:inherit;">follow these steps to =
+secure your account</a>. </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-single-button-shell button-mobile-flex " widt=
+h=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-single-button button-1-shell content-padding"=
+ style=3D"padding-top:20px;padding-left:40px;padding-right:40px;" align=3D"=
+center">=20
+              <table class=3D"gem-single-button button-1-table " cellpaddin=
+g=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;width:100%=
+;">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"gem-single-button button-1-text gem-h5 button=
+-text-light" style=3D"background-color: #e50914; border:solid 1px #e50914;f=
+ont-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-w=
+eight:700;color:rgb(255, 255, 255);mso-padding-left-alt:20px;mso-padding-ri=
+ght-alt:20px;-webkit-border-radius:4px;border-radius:4px;text-decoration:no=
+ne;text-align:center;padding:13px 0 13px 0;width:100%;font-size:14px;line-h=
+eight:17px;letter-spacing:-0.2px;"> <a class=3D"gem-single-button gem-fille=
+d-button-a button-text-light gem-h5" href=3D"https://www.netflix.com/accoun=
+t/getmyinfo?action=3Dapprove&amp;edr_id=3D69ecd5ac-ad7e-4d9b-a80a-ab62f65ac=
+e1b&amp;msg_token=3DEQIAmQABAYEAi%2BpdQpgC9ETnFIEvOuq7JvE97638WUHN68q5eqd4G=
+D7mxnYnUiZYTNNgn6YILrn19knMxcxobMGexLOUYsKq%2BP55LTJCgxfG%2Fu4J%2Fsf%2BHAkm=
+uPR6Lpa%2FenGW2b03tCcAmArtxAGfXjx0uyPR9ekjralZ%2B2LugpYerYrI1Gpl6iAsJxTBHXP=
+7IJNZG0dYj%2B07l9assw7IKzKEjJQmDENpKJF1Cpxbups98ICadroNGobb56ccm3eR8Qsvzr%2=
+FeLSq%2FxFnu4hDvvT2DkdqH%2F%2FNPjKuhygSKrwo0AF%2B4Be6XuKr23%2BHf3sELHmDEIeT=
+vkA7St%2BvpPoOf%2F3dZ3f2jI7krKgjuMYE%3D&amp;nftoken=3DBQAbAAEBEPiuxuxRkvdNh=
+m4fgzwn6P2AkJJ7jIsIiHNTEOJHQi2%2FMZPMbUDKtd13btwUQ%2FQRnKQfcJEGn1o%2FnkHsPH=
+0qEX8qafDlrguiHJy%2BU7XkT9saj0n6kl9QfxeCsjmK7yj5WQHvewIxqsJtx5jZaEG1imu3rro=
+rMAZD%2BsBDaSTn%2FdbYdb7431YMKaDIpFTRylh8S2TeGYrIo%2FtE4tE7y2DWy1g1sQ%3D%3D=
+&amp;lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&amp;lkid=
+=3DURL_EDR_APPROVE" style=3D"text-decoration:none;display:block;padding-lef=
+t:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, =
+Segoe UI, sans-serif;font-weight:700;color:inherit;color:rgb(255, 255, 255)=
+;font-size:14px;line-height:17px;letter-spacing:-0.2px;">Confirm Request</a=
+> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-copy-table" align=3D"left" width=3D"100%" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-copy content-padding gem-p " align=3D"left" s=
+tyle=3D"padding-top:20px; color:#221F1F;padding-left:40px;padding-right:40p=
+x;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;fo=
+nt-weight:300;font-size:16px;line-height:21px;font-size:16px;line-height:21=
+px;"> We're here to help if you need it. Visit the <a href=3D"https://help.=
+netflix.com/support/100624?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F=
+6E61164529736&amp;lkid=3DURL_HELP_2" style=3D"text-decoration:underline;col=
+or:inherit;">Help Center</a> for more info or <a href=3D"https://help.netfl=
+ix.com/contactus?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529=
+736&amp;lkid=3DURL_CONTACT" style=3D"text-decoration:underline;color:inheri=
+t;">contact us</a>. </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-copy-table" align=3D"left" width=3D"100%" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-copy content-padding gem-h5 " align=3D"left" =
+style=3D"padding-top:20px; color:#221F1F;font-family:NetflixSans-Bold, Helv=
+etica, Roboto, Segoe UI, sans-serif;font-weight:700;padding-left:40px;paddi=
+ng-right:40px;font-size:14px;line-height:17px;letter-spacing:-0.2px;"> The =
+Netflix team </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- Spacer -->=20
+          <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"spacer-1 spacer" style=3D"padding: 25px 0 0 0;fon=
+t-size:0;line-height:0;"> &nbsp; </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- End Spacer -->=20
+          <table class=3D"gem-divider " width=3D"100%" cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:0;padding-l=
+eft:40px;padding-right:40px;">=20
+              <table align=3D"left" width=3D"100%" cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"empty" style=3D"border-top: 2px solid #221F1F=
+;font-size:0;line-height:0;"> &nbsp; </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"=
+border-spacing:0;">=20
+          </table>
+          <table id=3D"gem-footer" class=3D"gem-footer mobile-100w" bgcolor=
+=3D"#FFFFFF" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:40px;paddin=
+g-left:40px;padding-right:40px;">=20
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"icon" width=3D"1%" valign=3D"top" style=3D"pa=
+dding-right:22px;"> <a href=3D"https://www.netflix.com/browse?lnktrk=3DEMP&=
+amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&amp;lkid=3DURL_HOME_2" tar=
+get=3D"_blank" style=3D"color:inherit;"> <img alt=3D"Netflix" src=3D"https:=
+//assets.nflxext.com/us/email/gem/nflx.png" width=3D"24" border=3D"0" style=
+=3D"-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse=
+:collapse;border-style:none;"> </a> </td>=20
+                 <td>=20
+                  <table class=3D"footer-shell" width=3D"100%" valign=3D"to=
+p" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing=
+:0;">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-p1 questions" style=3D"font-family:Ne=
+tflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;f=
+ont-size:14px;line-height:18px;letter-spacing:-0.25px;font-family:NetflixSa=
+ns-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb=
+(164, 164, 164);"> Questions? Call 1-844-505-2993 </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-legal address" style=3D"font-size:11p=
+x;line-height:14px;letter-spacing:-0.1px;font-family:NetflixSans-Light, Hel=
+vetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb(164, 164, 16=
+4);text-decoration:none;cursor:text;color:rgb(164, 164, 164);padding-bottom=
+:20px;"> <span class=3D"hide-link" style=3D"text-decoration:none;cursor:tex=
+t;color:rgb(164, 164, 164);"><a href=3D"https://www.netflix.com/browse?lnkt=
+rk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&amp;lkid=3DURL_HO=
+ME_3" style=3D"text-decoration:none;cursor:text;text-decoration:underline;c=
+olor:rgb(164, 164, 164);color:inherit;">100 Winchester Circle, Los Gatos, C=
+A 95032, U.S.A.</a></span> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"footer-links" style=3D"padding-bottom:20p=
+x;color:rgb(164, 164, 164);"> <a class=3D"footer-link nowrap" href=3D"https=
+://www.netflix.com/ManageSubscriptions?id=3DBQE0AAEBEKbbdHp9Zl%2FvXzZWkB0aP=
+ZWAkKjgbsahMQ%2FWLN%2BTO%2By8MTWimeGaE3xg%2FAArJO8lgEq8Ql8GJra2PLxsBo%2FFU6=
+fv1YuW9F3vbDmXSHq10GBJRLR3Hxji7iBZARSF1WpH7x64FvTKd5hSwzn9FHkWAf6OBHRW0c6gp=
+MegqjaB5Qb%2BG%2BxXnwUvQQfBJrkCjN2%2F01C1%2FJk4ryqvFu60n6q9IjSV4A%3D%3D&amp=
+;mid=3Dnone&amp;lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E611645297=
+36&amp;lkid=3DURL_COMM_SETTINGS" style=3D"font-family:NetflixSans-Light, He=
+lvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:12px;line-h=
+eight:20px;text-decoration:underline;color:rgb(164, 164, 164);color:inherit=
+;">Communication Settings</a><br><a class=3D"footer-link nowrap" href=3D"ht=
+tps://www.netflix.com/TermsOfUse?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9=
+F73B7F6E61164529736&amp;lkid=3DURL_TERMS" style=3D"font-family:NetflixSans-=
+Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:12=
+px;line-height:20px;text-decoration:underline;color:rgb(164, 164, 164);colo=
+r:inherit;">Terms of Use</a><br><a class=3D"footer-link nowrap" href=3D"htt=
+ps://www.netflix.com/PrivacyPolicy?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85D=
+A9F73B7F6E61164529736&amp;lkid=3DURL_PRIVACY" style=3D"font-family:NetflixS=
+ans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-siz=
+e:12px;line-height:20px;text-decoration:underline;color:rgb(164, 164, 164);=
+color:inherit;">Privacy</a><br><a class=3D"footer-link nowrap" href=3D"http=
+s://help.netflix.com/help?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6=
+E61164529736&amp;lkid=3DURL_HELP_5" style=3D"font-family:NetflixSans-Light,=
+ Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:12px;lin=
+e-height:20px;text-decoration:underline;color:rgb(164, 164, 164);color:inhe=
+rit;">Help Center</a> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-legal mail-to" style=3D"font-size:11p=
+x;line-height:14px;letter-spacing:-0.1px;font-family:NetflixSans-Light, Hel=
+vetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb(164, 164, 16=
+4);"> This message was mailed to <span class=3D"hide-link ignore-diff" styl=
+e=3D"text-decoration:none;cursor:text;color:rgb(164, 164, 164);"><a href=3D=
+"https://www.netflix.com/browse?lnktrk=3DEMP&amp;g=3DB7C5A6C7E0DF34BB85DA9F=
+73B7F6E61164529736&amp;lkid=3DURL_HOME_4" style=3D"text-decoration:none;cur=
+sor:text;text-decoration:underline;color:rgb(164, 164, 164);color:inherit;"=
+>[nigel.agwah@outlook.com]</a></span> by Netflix as part of your Netflix&nb=
+sp;membership.<br> SRC: <a href=3D"https://help.netflix.com/help?lnktrk=3DE=
+MP&amp;g=3DB7C5A6C7E0DF34BB85DA9F73B7F6E61164529736&amp;lkid=3DURL_HELP_8" =
+class=3D"footer-no-link hide-link ignore-diff" style=3D"text-decoration:non=
+e;cursor:text;text-decoration:underline;color:rgb(164, 164, 164);color:inhe=
+rit;">16052_en_US</a> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <!-- Spacer -->=20
+              <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"spacer-2 spacer" style=3D"padding: 40px 0 0 0=
+;font-size:0;line-height:0;"> &nbsp; </td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <!-- End Spacer --> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+       </tbody>
+      </table> </td>=20
+    </tr>=20
+   </tbody>
+  </table>=20
+  <!-- Fix for Gmail on iOS -->=20
+  <div class=3D"mobile-hide-max gmail-fix-no-inline" style=3D"white-space:n=
+owrap; font:15px courier; line-height:0;">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+  </div>  =20
+ </body>
+</html>=
+
+------=_Part_206002_1565210472.1633822562459--

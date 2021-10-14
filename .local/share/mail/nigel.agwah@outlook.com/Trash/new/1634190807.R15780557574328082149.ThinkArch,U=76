@@ -1,0 +1,659 @@
+Received: from DB8EUR06HT048.eop-eur06.prod.protection.outlook.com
+ (2603:10b6:806:24::12) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA9PR13CA0097.NAMPRD13.PROD.OUTLOOK.COM; Wed, 21 Jul 2021 00:15:06
+ +0000
+Received: from DB8EUR06FT059.eop-eur06.prod.protection.outlook.com
+ (2a01:111:e400:fc35::42) by
+ DB8EUR06HT048.eop-eur06.prod.protection.outlook.com (2a01:111:e400:fc35::409)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4331.21; Wed, 21 Jul
+ 2021 00:15:05 +0000
+Authentication-Results: spf=pass (sender IP is 168.245.127.104)
+ smtp.mailfrom=sendgrid.net; outlook.com; dkim=pass (signature was verified)
+ header.d=sendgrid.net;outlook.com; dmarc=none action=none
+ header.from=spectrumemails.com;compauth=pass reason=105
+Received-SPF: Pass (protection.outlook.com: domain of sendgrid.net designates
+ 168.245.127.104 as permitted sender) receiver=protection.outlook.com;
+ client-ip=168.245.127.104; helo=o8.email.spectrumemails.com;
+Received: from o8.email.spectrumemails.com (168.245.127.104) by
+ DB8EUR06FT059.mail.protection.outlook.com (10.233.253.77) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4352.24 via Frontend Transport; Wed, 21 Jul 2021 00:15:04 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:F789C95325EEC551F95083C3A87D84A1C756858DFB1D76DD82ABFC489428F3BA;UpperCasedChecksum:06C6886664BF69602665D938410F3C46F5CB2B9957DF6491CE19B2B9D31C225F;SizeAsReceived:1666;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net;
+	h=content-type:from:mime-version:subject:to;
+	s=smtpapi; bh=Bc/IDZcSgBjg2gzPQ32FKXd/hK9xSWRneCpP8CnAtbU=;
+	b=sTF6jyzPd3GDnhpzNy5tgw22W30RtnM8ujU3Cy5l/l5JpujdyXq8zwyWrlInbsLxRDtn
+	AkF69ClcvoWqmQhkxUNI6OoUdXtytTOaOTABkfKVJxq/uddU/Lbk4bZ1LYxm6LuwWdxWJW
+	IddDQY6znoozFyPHTki1hVdRWGkKos0tQ=
+Received: by filterdrecv-7f48cbfb7d-j8wcg with SMTP id filterdrecv-7f48cbfb7d-j8wcg-1-60F76707-5
+        2021-07-21 00:15:03.056569088 +0000 UTC m=+365136.630128497
+Received: from NTQ4NDU3OQ (unknown)
+	by ismtpd0151p1iad2.sendgrid.net (SG)
+	with HTTP
+	id anoYluH5SAiQpZ19Cjc4Zw
+	Wed, 21 Jul 2021 00:15:03.027 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=06517dc83ef7ef29af1ee4b12984466baf9d85d6a3749a8ba98095b4ee8b
+Date: Wed, 21 Jul 2021 00:15:03 +0000 (UTC)
+From: Spectrum <Myaccount@spectrumemails.com>
+Message-ID: <anoYluH5SAiQpZ19Cjc4Zw@ismtpd0151p1iad2.sendgrid.net>
+Subject: Your Spectrum statement is ready
+X-SG-EID:
+ =?us-ascii?Q?poKw1gd1l+4g9fPLvJ9Zr5HcYFRRvk8V1sh5lrm7cbPJIamIkquNsM3l6y=2F5sQ?=
+ =?us-ascii?Q?5uluqbQ4rlwRs7eRjnatzYaexIAJ6+aFXdpmzJ4?=
+ =?us-ascii?Q?b3HvmfqjuCU+mZX6YlQpNLdZRgCgGIq4TUj7cTp?=
+ =?us-ascii?Q?FdYJDyrtfEz8Tk9S2hk2OTRNrzByJJt8HYxx2CT?=
+ =?us-ascii?Q?tWDWPe9a0ViXhAwhfX3xaWpVnR9kjcq8JxDaOJ3?=
+ =?us-ascii?Q?0GGK3enfwmaJypn33FAOuWej4xD42927VHP3AV?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FJAI2uyftf5OsayWSxSBQ?=
+ =?us-ascii?Q?jJ+3iSYera09sk8BzgYXzujaICrKKhcmlXRh2Qc?=
+ =?us-ascii?Q?Nd3Zn44H4RvpN+c=2Fr4iKmZNq26r?=
+To: nigel.agwah@outlook.com
+X-Entity-ID: +hkKWWU2eMP6GPlZ8u/MpQ==
+X-IncomingHeaderCount: 13
+Return-Path: bounces+5484579-f9b3-nigel.agwah=outlook.com@sendgrid.net
+X-MS-Exchange-Organization-ExpirationStartTime: 21 Jul 2021 00:15:05.0985
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 8407a64b-676b-405d-55fb-08d94bdc972f
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DB8EUR06FT059.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/18/2021 10:19:06 PM
+X-MS-Office365-Filtering-Correlation-Id: 8407a64b-676b-405d-55fb-08d94bdc972f
+X-MS-TrafficTypeDiagnostic: DB8EUR06HT048:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 168.245.127.104
+X-SID-PRA: MYACCOUNT@SPECTRUMEMAILS.COM
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Jul 2021 00:15:04.5249
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8407a64b-676b-405d-55fb-08d94bdc972f
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DB8EUR06FT059.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8EUR06HT048
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7571074
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4331.034
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;psp:1;auth:0;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9050020)(9100315)(5061607266)(5061608174)(4900115)(98392012)(210498285)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddbHVl68g2w37GKbXYzHnlHlMGpsZ8T8zuMKEvJ2qAz0HvCbOApzZoG5+aJErwBO6IPznZTMjFKexT96uBep+VUBFuUkMx0pwObkod9K5sNBdb6CCvLgaaDtaVS/3Z+GgcCMV5iQd9f/Mdgmh6UsCXlmzUZoGHMQMioG4/cY7i/UAdKE+mKPn/WETKfQTfk7ZMuKN/h896fYA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?iso-8859-1?Q?/EWDZnHX3+5ARTEGBTNX/vQJw2fsmX5jJaDQabUzIF7TJSd1SsQCWCw3ho?=
+ =?iso-8859-1?Q?T7TsBPL79IfgoDWtuzhNBwEeVP8o/3AjRuqqHKPLc4yZ1e8NQ1tAfne850?=
+ =?iso-8859-1?Q?TIvTyxYpuYzC7rmbEJLh1Sx8EpU4uxfiKbyKqyHCKpJ18wjtwzJKQlbXoP?=
+ =?iso-8859-1?Q?r44CWKOSd5DYkrDoN4Bi8EYh60chu4RMzIRetKsLfs9veWJRiJh7O3zUws?=
+ =?iso-8859-1?Q?Pn9e8fiSImkMBPKFWBQG+3vg4Zxg10efJUlI21iC/S+dF2tQOkEsz1p2zT?=
+ =?iso-8859-1?Q?Rt8toGQxPnxiJ0PvFFvjj996mh/gVKhpVomHUT0UoXj1mmu5Rs+GCouECG?=
+ =?iso-8859-1?Q?KXQMLNm1TS7d6Ux004OUaf00Oe5Rgoga1gE+t9y3VPKhWvl16TeWOHK88S?=
+ =?iso-8859-1?Q?vxeF1D+2mkTHtVQc9TJ42ejZnPx/fi+l9Ezj3mKDztfzZhnXmFwlAoE4Ax?=
+ =?iso-8859-1?Q?cyqiqLqAKsHOQzgg7rZOCGWpWCKt8riFJdKyqujDim5Dbzr8CxVEB9q53v?=
+ =?iso-8859-1?Q?1LczvT9hX245LcI4IpOqKv6ovU3OwgXBdq66G+HezjH7CfE8mS2HxJZLXv?=
+ =?iso-8859-1?Q?DtKSaVCig97OQSl7Y3OI8tcjB2MyRtAkmuXxa8op2ZpVTOU6nB805od/J3?=
+ =?iso-8859-1?Q?UJPCQ3cNMm24DfmeFe/+sVYR+O0i4uyXqf5spsdEdXTvic090aI85twnEV?=
+ =?iso-8859-1?Q?YkE7ynPU5KJPYEWFFvtVNyLWIVGkUDN9l6A4Olth1TB8EUscgEKv6v4bfa?=
+ =?iso-8859-1?Q?58XXJTkPU0wgSK5JyA0Bqh6JB4P4NxnRFKyZy+DpcnZ0nfwNFMNW3TtQ51?=
+ =?iso-8859-1?Q?bzILb9JncpT90VEkmbMgImOxYAZt6aj7fCwkqig+/YCZf5idWA3tOH5gHy?=
+ =?iso-8859-1?Q?2X7AnJxWva9d3+NclMog0RY7w7wUNlmFhaOkvJnDuBq0Hi3Cm1vF4TGivD?=
+ =?iso-8859-1?Q?zerftNq6WagLfu/LrpA1rKnsJK2LPfWQKDWSRempxFlKzV7ScU0FYkxVzI?=
+ =?iso-8859-1?Q?uDG+E85uvYkWh/WIKzSzubVQxOdHgH8UGTVVqhweZoXFIMYDm94QGeZ6uG?=
+ =?iso-8859-1?Q?NiuvVaJ+7Dcbqb/U1CZTpQMaVMWk6RDHrD1baj3MyliViCqH+CtBY9PxbG?=
+ =?iso-8859-1?Q?KVTXhGKoLZhP8s+g9ucagH3/7W/ozur8zucKL9MokFefTzSTdXux6CRHEe?=
+ =?iso-8859-1?Q?lduFwnfCCBo2dIgk/0wzJsj8YfeDV3ayDr36rszclZD5Z/YmJlZoPyHq?=
+MIME-Version: 1.0
+X-TUID: uhTPzEdBhcTA
+
+--06517dc83ef7ef29af1ee4b12984466baf9d85d6a3749a8ba98095b4ee8b
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+
+
+
+
+
+
+
+Your most recent Spectrum bill is available online.
+--06517dc83ef7ef29af1ee4b12984466baf9d85d6a3749a8ba98095b4ee8b
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce" lang=3D"en" xml:lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><title>Stmt_Ready_Resi_Email</title>    <meta http-equiv=3D"X-UA-Compati=
+ble" content=3D"IE=3Dedge">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, maximum-scale=3D1">
+    <meta name=3D"x-apple-disable-message-reformatting">
+
+	  <style type=3D"text/css">
+	    #outlook a {
+	      padding: 0;
+	    }
+	=20
+	    .ReadMsgBody {
+	      width: 100%;
+	    }
+	   =20
+	    .ExternalClass {
+	      width: 100%;
+	    }
+	   =20
+	    .ExternalClass * {
+	      line-height: 100%;
+	    }
+	=20
+	   body {
+	      margin: 0;
+	      padding: 0;
+	      -webkit-text-size-adjust: 100%;
+	      -ms-text-size-adjust: 100%;
+	    }
+	   =20
+=09
+	=20
+	    table,
+	    td {
+	      border-collapse: collapse;
+	      mso-table-lspace: 0pt;
+	      mso-table-rspace: 0pt;
+	      font-size: inherit;
+		  font-weight: inherit;
+		  font-style: inherit;
+		  font-variant: inherit;
+	    }
+	   =20
+	    img {
+	      border: 0;
+	      height: auto;
+	      line-height: 100%;
+	      outline: none;
+	      text-decoration: none;
+	      -ms-interpolation-mode: bicubic;
+	    }
+	   =20
+	    p,
+	    ul {
+	      display: block;
+	      margin: 0;
+	    }
+	=20
+	    div,
+	    a,
+	    tr,
+	    table,
+	    body,
+	    span,
+	    img {
+	        -webkit-text-size-adjust: none;
+	        -ms-text-size-adjust: none;
+	        -moz-text-size-adjust: none;
+	        text-size-adjust: none;
+	        mso-line-height-rule: exactly !important;
+	    }
+	   =20
+	    * {
+	        -webkit-font-smoothing: antialiased !important;
+	    }
+=09
+	   =20
+	   =20
+	     .mobileonly {
+	         display: none;
+	     }
+	    =20
+	     .ecxExternalClass * {
+	         line-height: 100%
+	     }
+	    =20
+	     .applelinksGrey a {
+	         color: #9a9a9a !important;
+	         text-decoration: none;
+	     }
+	    =20
+	     .applelinksDarkGrey a {
+	         color: #444444 !important;
+	         text-decoration: none;
+	     }
+	    =20
+	     .applelinksWhite a {
+	         color: #ffffff !important;
+	         text-decoration: none;
+	     }
+	    =20
+	     .applelinksBlue a {
+	         color: #3388cc !important;
+	         text-decoration: none;
+	     }
+	       =20
+	       =20
+	    @media only screen and (min-width: 480px) {
+	      .email-col-17 {
+	        width: 17% !important;
+	      }
+	      .email-col-25 {
+	        width: 25% !important;
+	      }
+	      .email-col-34 {
+	        width: 34% !important;
+	      }
+	      .email-col-33 {
+	        width: 33% !important;
+	      }
+	      .email-col-50 {
+	        width: 50% !important;
+	      }
+	      .email-col-66 {
+	        width: 66% !important;
+	      }
+	      .email-col-100 {
+	        width: 100% !important;
+	      }
+	      .desktop {
+	      	display: none !important;
+	      }
+	      .desktopBorder {
+	      	border: none !important;
+	      }
+	    }
+	   =20
+	    @media only screen and (max-width: 480px) {
+	      img.fullwidth {
+	        max-width: 100% !important;
+	      }
+	      .email-col-17 ,
+	      .email-col-25 ,
+	      .email-col-34 ,
+	      .email-col-33 ,
+	      .email-col-50,
+	      .email-col-66 ,
+	      .email-col-100 {
+	        width: 100% ;
+	      }
+	      .mobile {
+	      	display: none !important;
+	      }
+	      .mobileBorder {
+	      	border: none !important;
+	      }
+	      .desktopScreen {
+	      	background-color: transparent !important;
+	      }
+	    }
+=09
+    a {
+    	text-decoration: inherit !important;
+    	color: inherit ;
+    }	 =20
+=09
+	  </style>
+=20
+	 <!--[if (mso)|(IE)]>
+		<xml:namespace ns=3D"urn:schemas-microsoft-com:vml" prefix=3D"v" />
+			<style>v\: * { behavior:url(#default#VML); display:inline-block }</style=
+>
+			<!<![endif]-->
+			<!--[if (gte mso 9)|(IE)]>
+			<style>
+			.hide {
+				display: none;
+			}
+			</style>
+	<![endif]-->=20
+=09
+	  <!--[if mso]>
+		<xml>
+			<o:OfficeDocumentSettings>
+				<o:AllowPNG/>
+				<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+	  <![endif]-->
+	<!--[if mso]>
+		<style type=3D"text/css">
+		  ul li {
+		    list-style:disc inside;
+		    mso-special-format:bullet;
+		  }
+		</style>
+	<![endif]-->
+	<!--[if lte mso 11]>
+		<style type=3D"text/css">
+		  .outlook-group-fix {
+		    width:100% !important;
+		  }
+		</style>
+	<![endif]-->
+</head><body style=3D"text-align:center;font-family:arial,helvetica,sans-se=
+rif;font-size:13px;color:#757575!important;" class=3D"desktopScreen"><div s=
+tyle=3D"text-align:center;font-family:arial,helvetica,sans-serif;font-size:=
+13px;color:#757575!important;" class=3D"desktopScreen"><!--[if mso | IE]><s=
+tyle type=3D'text/css' media=3D'all'> body , table, td { font-family:arial,=
+helvetica,sans-serif;font-size:13px;color:#757575!important; }</style> <tab=
+le role=3D'presentation' align=3D'center' style=3D'text-align: center; widt=
+h: 600px;'><tr><td><![endif]--><!--[if !mso | IE]--><div style=3D" display:=
+ inline-block; width:100%;background-color:#FFFFFF;font-family:arial,helvet=
+ica,sans-serif;font-size:13px;max-width:600px;">  <!--[endif]--><table role=
+=3D"presentation" style=3D"text-align:center;margin: 0; width:100%; padding=
+:0; background-color:#FFFFFF;"><tr><td style=3D"width:100%;padding-top:0px;=
+padding-right:0px;padding-left:0px;padding-bottom:0px;" valign=3D"end"><tab=
+le role=3D"presentation" valign=3D"end" style=3D"text-align:center;margin: =
+0; padding: 0;width:100%; "><tr><td style=3D"text-align:center;vertical-ali=
+gn:top;direction:ltr;vertical-align:top;"><!--[if mso | IE]> <table role=3D=
+'presentation' width=3D'100%'><tr><![endif]--><!--[if mso | IE]><td style=
+=3D'vertical-align:top' width=3D'100%'><![endif]--> <div style=3D"float:lef=
+t;vertical-align:top;display:inline-block;direction:ltr;" class=3D"email-co=
+l-100"><table role=3D"presentation" style=3D"table-layout: fixed;" width=3D=
+"100%"><tr><td style=3D"overflow-wrap: break-word;padding-top:0px;padding-r=
+ight:0px;padding-left:0px;padding-bottom:0px;" align=3D"center"><div style=
+=3D"line-height:null%;" align=3D"center"><p style=3D"line-height: inherit;"=
+><span style=3D"font-size: 10px;"><span style=3D"color: #000000;">To view t=
+his email as a web page, go</span> <span style=3D"font-size: 10px;"><span s=
+tyle=3D"font-size: 10px;"><a style=3D"color: #00ccff; text-decoration: unde=
+rline;" href=3D"http://click.sc.spectrumemails.com/ls/click?upn=3DtnITcEM9B=
+yYy77dyuQMGtkZ6QSX3SKzHfjEU9sYHBBPNPnGqhawIa7j5-2BPStrr8Rnd14HCYoLIdJtylBsJ=
+ZTMdmOMXYDzZoeGqERbyxUWeoYukQn5fVVWsQj5V1HxrJzHy3zsfdZRyTgIe5h1AwMypF9pcxlD=
+KmKQKUnxKTtZoWKaT2BmVhKD9VsCWySXO5phAZ9_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6=
+wbA-2FD1w5I-2BwU50uQr-2FHFc-2F5Ko9Hzhwxt7s7Ra5Q88SBWqQB-2FUtGoIlV9fx02CROEL=
+Dv4NDgDdN5hqCoJO1NURo1OkzyYz4Og6CG5yU2MyJCGOZzgy3mMqSLhWloBMm4P2HoyI4zwiDUJ=
+jPwY25f7uALnYpZP-2BGz0lTkvZRfpYs7M2igU828y8L3lNydKYcWABplJaev5a2D7VXpCDDB0x=
+xGci6Hfcsp3aJ78nslQecXhpjfdpDwOks4K2H-2F29qE35P7tGuOmI4-3D">here</a></span>=
+</span><span style=3D"font-size: 10px;">.</span></span></p></div></td></tr>=
+</table></div> <!--[if mso | IE]></td><![endif]--><!--[if mso | IE]> </tr><=
+/table><![endif]--></td></tr></table></td></tr></table><table role=3D"prese=
+ntation" style=3D"text-align:center;margin: 0; width:100%; padding:0; backg=
+round-color:#FFFFFF;"><tr><td style=3D"width:100%;padding-top:0px;padding-r=
+ight:0px;padding-left:0px;padding-bottom:0px;"><table role=3D"presentation"=
+ style=3D"text-align:center;margin: 0; padding: 0;width:100%; "><tr><td sty=
+le=3D"text-align:center;vertical-align:top;direction:ltr;vertical-align:top=
+;"><!--[if mso | IE]> <table role=3D'presentation' width=3D'100%'><tr><![en=
+dif]--><!--[if mso | IE]><td style=3D'vertical-align:top' width=3D'100%'><!=
+[endif]--> <div style=3D"float:left;vertical-align:top;display:inline-block=
+;direction:ltr;" class=3D"email-col-100"><table role=3D"presentation" style=
+=3D"table-layout: fixed;" width=3D"100%"><tr><td style=3D"padding-top:0px;p=
+adding-right:0px;padding-left:0px;padding-bottom:0px;text-align:center;"><i=
+mg src=3D"https://svp.skycreek.com/images/7001/Spectrum_Residential_banner.=
+jpg" alt=3D"" style=3D"width:100%;" width=3D"100%"></td></tr></table></div>=
+ <!--[if mso | IE]></td><![endif]--><!--[if mso | IE]> </tr></table><![endi=
+f]--></td></tr></table></td></tr></table><table role=3D"presentation" style=
+=3D"text-align:center;margin: 0; width:100%; padding:0; background-color:#F=
+FFFFF;"><tr><td style=3D"width:100%;padding-top:0px;padding-right:15px;padd=
+ing-left:15px;padding-bottom:0px;"><table role=3D"presentation" style=3D"te=
+xt-align:center;margin: 0; padding: 0;width:100%; "><tr><td style=3D"text-a=
+lign:center;vertical-align:top;direction:ltr;vertical-align:top;"><!--[if m=
+so | IE]> <table role=3D'presentation' width=3D'100%'><tr><![endif]--><!--[=
+if mso | IE]><td style=3D'vertical-align:top' width=3D'100%'><![endif]--> <=
+div style=3D"float:left;vertical-align:top;display:inline-block;direction:l=
+tr;" class=3D"email-col-100"><table role=3D"presentation" style=3D"table-la=
+yout: fixed;" width=3D"100%"><tr><td style=3D"overflow-wrap: break-word;pad=
+ding-top:10px;padding-right:0px;padding-left:0px;padding-bottom:0px;" align=
+=3D"center"><div style=3D"color:#00629b!important;line-height:null%;" align=
+=3D"center"><p style=3D"text-align: left;"><span style=3D"background-color:=
+ #ffffff; font-size: 25px; color: #00629b;">Your Spectrum Statement is Read=
+y</span></p></div></td></tr></table></div> <!--[if mso | IE]></td><![endif]=
+--><!--[if mso | IE]> </tr></table><![endif]--></td></tr></table></td></tr>=
+</table><table role=3D"presentation" style=3D"text-align:center;margin: 0; =
+width:100%; padding:0; background-color:#FFFFFF;"><tr><td style=3D"width:10=
+0%;padding-top:15px;padding-right:15px;padding-left:15px;padding-bottom:5px=
+;"><table role=3D"presentation" style=3D"text-align:center;margin: 0; paddi=
+ng: 0;width:100%; "><tr><td style=3D"text-align:center;vertical-align:top;d=
+irection:ltr;vertical-align:top;"><!--[if mso | IE]> <table role=3D'present=
+ation' width=3D'100%'><tr><![endif]--><!--[if mso | IE]><td style=3D'vertic=
+al-align:top' width=3D'100%'><![endif]--> <div style=3D"float:left;vertical=
+-align:top;display:inline-block;direction:ltr;" class=3D"email-col-100"><ta=
+ble role=3D"presentation" style=3D"table-layout: fixed;" width=3D"100%"><tr=
+><td style=3D"padding-top:0px;padding-right:0px;padding-left:0px;padding-bo=
+ttom:0px;text-align:center;"><img src=3D"http://image.csginteractions.com/l=
+ib/fefb1c707c6506/i/2/ede3e84b-8.jpg" alt=3D"" style=3D"width:90%;" width=
+=3D"90%"></td></tr></table></div> <!--[if mso | IE]></td><![endif]--><!--[i=
+f mso | IE]> </tr></table><![endif]--></td></tr></table></td></tr></table><=
+table role=3D"presentation" style=3D"text-align:center;margin: 0; width:100=
+%; padding:0; background-color:#FFFFFF;"><tr><td style=3D"width:100%;paddin=
+g-top:0px;padding-right:15px;padding-left:15px;padding-bottom:0px;"><table =
+role=3D"presentation" style=3D"text-align:center;margin: 0; padding: 0;widt=
+h:100%; "><tr><td style=3D"text-align:center;vertical-align:top;direction:l=
+tr;vertical-align:top;"><!--[if mso | IE]> <table role=3D'presentation' wid=
+th=3D'100%'><tr><![endif]--><!--[if mso | IE]><td style=3D'vertical-align:t=
+op' width=3D'50%'><![endif]--> <div style=3D"float:left;vertical-align:top;=
+display:inline-block;direction:ltr;" class=3D"email-col-50"><table role=3D"=
+presentation" style=3D"table-layout: fixed;" width=3D"100%"><tr><td style=
+=3D"overflow-wrap: break-word;padding-top:0px;padding-right:0px;padding-lef=
+t:0px;padding-bottom:0px;" align=3D"center"><div style=3D"line-height:null%=
+;" align=3D"center"><p style=3D"line-height: inherit; text-align: left;"><s=
+pan style=3D"color: #000000; font-size: 12px;">Dear <strong>NIGEL AGWAH,</s=
+trong></span></p><p style=3D"line-height: inherit; text-align: left;"><br><=
+/p><p style=3D"text-align: left;"><span style=3D"color: #000000; font-size:=
+ 12px;">Your most recent Spectrum bill is available online.</span></p><p st=
+yle=3D"text-align: left;"><br><span style=3D"color: #000000; font-size: 12p=
+x;">To view your statement, pay your bill, or enroll in Auto Pay, sign in t=
+o <span style=3D"color: #00ccff;"><span style=3D"text-decoration: underline=
+;"><span style=3D"font-size: 12px;"><a style=3D"color: #00ccff; text-decora=
+tion: underline;" href=3D"http://click.sc.spectrumemails.com/ls/click?upn=
+=3DtnITcEM9ByYy77dyuQMGtkbg4MEnaLafIyEZMQpFKT49X9sElgQ1r0zl9dowG-2F1oKI-2FP=
+bRqmD9kcYICDmVotQTW1OL-2FzXUh8QLWNawWc-2BNw-3Di_jZ_7KaMwkvSy4fTkKE-2By2MWNb=
+vDwrLHFxQm6wbA-2FD1w5I-2BwU50uQr-2FHFc-2F5Ko9Hzhwxt7s7Ra5Q88SBWqQB-2FUtGoIl=
+V9fx02CROELDv4NDgDdN5hqCoJO1NURo1OkzyYz4Og6CG5yU2MyJCGOZzgy3mMm9h1VgFkBj1Ei=
+V7wHt-2BpE5JDcEKMM3k1-2B99YMdbQta4XZuS3oElS2mKkNiIVrv8cPlFRrtqS65beTiALmdGS=
+Z-2FNV2PB07t0CuQUgIUHrtccqROdOEewD276OWbeFQaSTY74l2Jj5UIbw3ha2jbVP78-3D" ta=
+rget=3D"_blank" rel=3D"noopener">Spectrum.net</a></span></span>&nbsp;</span=
+>as Head of Household or Admin.</span></p><p style=3D"text-align: left;"><b=
+r></p><p style=3D"text-align: left;"><span style=3D"color: #000000;"></span=
+></p><p style=3D"text-align: left;"><br></p><p style=3D"text-align: left;">=
+<span style=3D"color: #000000;"><span style=3D"font-size: 12px;"><span styl=
+e=3D"text-decoration: underline; color: #00ccff;"><span style=3D"text-decor=
+ation: underline;"><a style=3D"color: #00ccff; text-decoration: underline;"=
+ href=3D"http://click.sc.spectrumemails.com/ls/click?upn=3DtnITcEM9ByYy77dy=
+uQMGtkbg4MEnaLafIyEZMQpFKT4l235BKluG1HB8VEJVvEguWYoAovEm3XKziRjPZKQiOU3aQcR=
+GJn1AiemhQtQ3WmU-3Ding2_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BwU=
+50uQr-2FHFc-2F5Ko9Hzhwxt7s7Ra5Q88SBWqQB-2FUtGoIlV9fx02CROELDv4NDgDdN5hqCoJO=
+1NURo1OkzyYz4Og6CG5yU2MyJCGOZzgy3mMmR-2ByFHJfJkhWNE2Dj-2B3ABJp-2BCnQvG6gwB1=
+9ajNkVCHSlhQeMZul-2F1TVnuZE7BZws2DiKArP1adojU1uOO-2F2jYgZ3WVQ7K6HNWLt-2F11Y=
+9MDcK6ILCmKPK5Tldeh5AbllvrSwgVkI30CfIXODN5dkACs-3D" target=3D"_blank" rel=
+=3D"noopener">Learn more</a></span></span> about your billing statement.</s=
+pan></span></p><p style=3D"text-align: left;"><br></p><p style=3D"text-alig=
+n: left;"><span style=3D"color: #000000;"><span style=3D"font-size: 12px;">=
+</span></p></div></td></tr></table></div> <!--[if mso | IE]></td><![endif]-=
+-><!--[if mso | IE]><td style=3D'vertical-align:top' width=3D'50%'><![endif=
+]--> <div style=3D"float:left;vertical-align:top;display:inline-block;direc=
+tion:ltr;" class=3D"email-col-50"><table role=3D"presentation" style=3D"tab=
+le-layout: fixed;" width=3D"100%"><tr><td align=3D"center"><table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"border-collapse:collapse; padding:0; margin:0 0 0 -10px; color:#=
+000000">
+  <tr>
+    <td align=3D"left" valign=3D"top" width=3D"220" style=3D"padding-top:5p=
+x; padding-left:10px; padding-right:10px;">
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"border-collapse:collapse; padding:0; margin:0px;">
+        <tr>
+          <td valign=3D"bottom" style=3D"margin-bottom:0; font-size:0">
+		    <img alt=3D" " id=3D"image-placeholder" width=3D"285" src=3D"https://=
+res.cloudinary.com/demoskycreek/image/upload/v1545325043/7001/e2411426-8379=
+-417e-a746-2ccde4997ec31193979621318877535gray-top.jpg" border=3D"0">
+		  </td>
+		</tr>
+        <tr valign=3D"top">
+          <td align=3D"left" style=3D"font-family:arial; padding-left:13px;=
+ background-color: #F6F4F5;">
+            <table role=3D"presentation" align=3D"left" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"color:#000000; paddin=
+g-right:10px; background-color: #F6F4F5;">
+		      <tr>
+			    <td style=3D"color:#000000; padding-bottom:5px; font-family:arial; f=
+ont-size:12px; background-color: #F6F4F5;" align=3D"left" colspan=3D"2">
+				  <strong>Account Information</strong>
+				</td>
+              </tr>
+              <tr>
+        	    <td style=3D"background-color:#F6F4F5;">
+        		  <table role=3D"presentation" align=3D"left" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"color:#000000; paddin=
+g-right:10px; background-color: #F6F4F5;">
+					<tr>
+						<td style=3D"color:#000000; font-family:arial; font-size:12px; white-=
+space:nowrap; background-color: #F6F4F5;" align=3D"left">Account Number:</t=
+d>
+						<td style=3D"color:#000000; font-family:arial; font-size:12px; white-=
+space:nowrap; margin:0; padding-right:10px; padding-left:10px; background-c=
+olor: #F6F4F5;" align=3D"right"> 8750160011037139</td>
+					</tr>
+					<tr>
+						<td style=3D"color:#000000; font-family:arial; font-size:12px; white-=
+space:nowrap; background-color: #F6F4F5;" align=3D"left">Statement Amount:<=
+/td>
+						<td style=3D"color:#000000; font-family:arial; font-size:12px; white-=
+space:nowrap; margin:0; padding-right:10px; padding-left:10px; background-c=
+olor: #F6F4F5;" align=3D"right"> $64.99</td>
+					</tr>
+				=09
+
+                   =20
+					<tr>
+						<td style=3D"color:#000000; font-family:arial; font-size:12px; white-=
+space:nowrap; background-color: #F6F4F5;" align=3D"left">Payment Due:</td>
+						<td style=3D"color:#000000; font-family:arial; font-size:12px; white-=
+space:nowrap; margin:0; padding-right:10px; padding-left:10px; background-c=
+olor: #F6F4F5;" align=3D"right">AUTOPAY </td>
+					</tr>=20
+        		  </table>
+        	    </td>
+              </tr>
+ 	        </table>       =20
+          </td>
+		</tr>
+		<tr>
+          <td valign=3D"top" style=3D" margin-bottom:0; margin-top:0; font-=
+size:0"><img id=3D"image-placeholder" width=3D"285" src=3D"https://res.clou=
+dinary.com/demoskycreek/image/upload/v1545325225/7001/5c11ff97-1278-45c2-90=
+bf-ee560eb9dc935593725560443129026gray-bottom.jpg" order=3D"0" thid=3D"1320=
+520" style=3D" margin-bottom:0; font-size:0; line-height:0 " alt=3D""> </td=
+>
+		</tr>
+	  </table>
+	</td>
+  </tr>
+</table>
+</td></tr></table></div> <!--[if mso | IE]></td><![endif]--><!--[if mso | I=
+E]> </tr></table><![endif]--></td></tr></table></td></tr></table><table rol=
+e=3D"presentation" style=3D"text-align:center;margin: 0; width:100%; paddin=
+g:0; background-color:#FFFFFF;"><tr><td style=3D"width:100%;padding-top:15p=
+x;padding-right:15px;padding-left:15px;padding-bottom:10px;" valign=3D"star=
+t"><table role=3D"presentation" valign=3D"start" style=3D"text-align:center=
+;margin: 0; padding: 0;width:100%; "><tr><td style=3D"text-align:center;ver=
+tical-align:top;direction:ltr;vertical-align:top;"><!--[if mso | IE]> <tabl=
+e role=3D'presentation' width=3D'100%'><tr><![endif]--><!--[if mso | IE]><t=
+d style=3D'vertical-align:top' width=3D'100%'><![endif]--> <div style=3D"fl=
+oat:left;vertical-align:top;display:inline-block;direction:ltr;" class=3D"e=
+mail-col-100"><table role=3D"presentation" style=3D"table-layout: fixed;" w=
+idth=3D"100%"><tr><td style=3D"overflow-wrap: break-word;padding-top:0px;pa=
+dding-right:0px;padding-left:0px;padding-bottom:0px;" align=3D"start"><div =
+style=3D"line-height:null%;" align=3D"start"><p style=3D"line-height: inher=
+it; text-align: left;" data-mce-style=3D"line-height: inherit; text-align: =
+left;"><span style=3D"font-size: 13px; color: #000000;" data-mce-style=3D"f=
+ont-size: 13px; color: #000000;">Thank you for choosing Spectrum,</span><br=
+><br><span style=3D"font-size: 13px; color: #000000;" data-mce-style=3D"fon=
+t-size: 13px; color: #000000;">Spectrum Support Team&nbsp;</span></p></div>=
+</td></tr></table></div> <!--[if mso | IE]></td><![endif]--><!--[if mso | I=
+E]> </tr></table><![endif]--></td></tr></table></td></tr></table><table rol=
+e=3D"presentation" style=3D"text-align:center;margin: 0; width:100%; paddin=
+g:0; background-color:#FFFFFF;"><tr><td style=3D"width:100%;padding-top:10p=
+x;padding-right:15px;padding-left:15px;padding-bottom:0px;"><table role=3D"=
+presentation" style=3D"text-align:center;margin: 0; padding: 0;width:100%; =
+"><tr><td style=3D"text-align:center;vertical-align:top;direction:ltr;verti=
+cal-align:top;"><!--[if mso | IE]> <table role=3D'presentation' width=3D'10=
+0%'><tr><![endif]--><!--[if mso | IE]><td style=3D'vertical-align:top' widt=
+h=3D'100%'><![endif]--> <div style=3D"float:left;vertical-align:top;display=
+:inline-block;direction:ltr;" class=3D"email-col-100"><table role=3D"presen=
+tation" style=3D"table-layout: fixed;" width=3D"100%"><tr><td style=3D"over=
+flow-wrap: break-word;padding-top:0px;padding-right:0px;padding-left:0px;pa=
+dding-bottom:0px;" align=3D"center"><div style=3D"line-height:null%;" align=
+=3D"center"><p style=3D"text-align: left;"><em><span style=3D"font-size: 11=
+px; color: #000000;">Please do not reply to this message. Replies to this m=
+essage are routed to an unmonitored mailbox. If we can be of further assist=
+ance, please visit </span><span style=3D"font-size: 11px; color: #00ccff;">=
+<a style=3D"color: #00ccff;text-decoration: underline;" href=3D"http://clic=
+k.sc.spectrumemails.com/ls/click?upn=3DMO84NJWg57NxL9fuAJ5Bi4cB97Xa01ljOKWm=
+TxvIKXRQjhejzHPy8SOxFDjJ4pwe1KdU_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD=
+1w5I-2BwU50uQr-2FHFc-2F5Ko9Hzhwxt7s7Ra5Q88SBWqQB-2FUtGoIlV9fx02CROELDv4NDgD=
+dN5hqCoJO1NURo1OkzyYz4Og6CG5yU2MyJCGOZzgy3mMhlY3PQ0Emknmy3VHdtanD2cmBnps9UW=
+cbkjoXgTZPI6DXBb7YsXjmSVpyoBRwke0yiOU6fsXYhFb-2BnUtpuI9rUrYw46mHosIBH54dn3j=
+JWMt41M0p-2BAb62acSLgQtFzq8K2Lz-2Bcbcg71ISdMhGFpqc-3D" target=3D"_blank" re=
+l=3D"noopener"><span style=3D"font-size: 11px;"><span style=3D"font-size: 1=
+1px;">Spectrum Support</span></span></a></span></em><span style=3D"color: #=
+00ccff;">.</span></p><p style=3D"text-align: left;" data-mce-style=3D"text-=
+align: left;"><br></p><p style=3D"text-align: center;" data-mce-style=3D"te=
+xt-align: center;"><span style=3D"font-size: 13px;" data-mce-style=3D"font-=
+size: 11px;"><span style=3D"color: #000000;" data-mce-style=3D"font-size: 1=
+1px;">This email was sent to:</span> <a style=3D"color: #00ccff; text-decor=
+ation: underline;" href=3D"nigel.agwah@outlook.com" target=3D"_blank" rel=
+=3D"noopener" data-mce-style=3D"color: #00ccff; text-decoration: underline;=
+">nigel.agwah@outlook.com</a></span><span style=3D"color: #000000;" data-mc=
+e-style=3D"font-size: 11px;"><br><br>If you received this email in error, p=
+lease <a style=3D"color: #00ccff; text-decoration: underline;" target=3D"_b=
+lank" href=3D"http://click.sc.spectrumemails.com/ls/click?upn=3DtnITcEM9ByY=
+y77dyuQMGtkf7LYFhdCFwDzJrxvtwUxLoo5txC12T0dTv7wOJMmt6CVJS2sVfkH46Hy-2Fc02BJ=
+5IqVCDtjlzE9nLGsnQj34aR0ypTB8QO9ey4y2TP-2BJqumZMGvLxvOQi3GgRFrQV3RsyqPkQXMW=
+SURTS6zd08TqwKBunTzFjzRckkjmLJWf5ukGZpDIYGnDqHQiG9noZBISq73-2BOKTbeY5DGnQsA=
+VySCA-3DhdPc_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BwU50uQr-2FHFc=
+-2F5Ko9Hzhwxt7s7Ra5Q88SBWqQB-2FUtGoIlV9fx02CROELDv4NDgDdN5hqCoJO1NURo1OkzyY=
+z4Og6CG5yU2MyJCGOZzgy3mMi4evwC1s1qfTckLl-2F-2BOGymcpaLL3I-2Fa3Kk5k0TOZVzhKs=
+6T6oTJIFPPRa4F-2BAN9tAuCMBQQ6gd7c0Clhqz-2BwXkCZFeP3PW2Y471DyZbwmcjjfRW83nJ7=
+QErzmFKq86slCRBsgXztgLI7ZLKLBXDX1I-3D">let us know</a></span></p><p style=
+=3D"text-align: center;" data-mce-style=3D"text-align: center;"><br></p><p =
+style=3D"text-align: center;" data-mce-style=3D"text-align: center;"><span =
+style=3D"font-size: 13px;" data-mce-style=3D"font-size: 11px;"><span style=
+=3D"color: #000000;" data-mce-style=3D"font-size: 11px;">=A92021 Charter Co=
+mmunications. All rights reserved |</span>&nbsp;<a style=3D"color: #00ccff;=
+ text-decoration: underline;" href=3D"http://click.sc.spectrumemails.com/ls=
+/click?upn=3DtnITcEM9ByYy77dyuQMGtgMGkVJoNjBkBvvAkYBbOm4z4BMhVE2BrMv9oVXE8I=
+v-2FK7XrcNdo6jo0K3R6h6bmwA-3D-3DQBdN_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA=
+-2FD1w5I-2BwU50uQr-2FHFc-2F5Ko9Hzhwxt7s7Ra5Q88SBWqQB-2FUtGoIlV9fx02CROELDv4=
+NDgDdN5hqCoJO1NURo1OkzyYz4Og6CG5yU2MyJCGOZzgy3mMnW-2BLLWlzpkkoHfmeFWNXPbpqM=
+wo8nUkj6irzwJsK9ty4jVZaVluZ04VuLMfbmA-2F2l1DW9SOAU48pGAOmVOzQi8Pf2ou7lG31xf=
+GerSnN3MJ5gO46MGtBJ2aPdGdhbwHdCz6P2Wv5-2Fo-2F-2BMnLKEACL-2Bk-3D" target=3D"=
+_blank" rel=3D"noopener" data-mce-style=3D"color: #00ccff;">Privacy Policy<=
+/a></span></p><p style=3D"text-align: center;" data-mce-style=3D"text-align=
+: center;"><br></p><p style=3D"text-align: center;" data-mce-style=3D"text-=
+align: center;"><span style=3D"font-size: 11px;" data-mce-style=3D"font-siz=
+e: 11px;"><span style=3D"font-size: 13px; color: #000000;" data-mce-style=
+=3D"font-size: 11px;">This message was sent by Charter Communications</span=
+><span style=3D"font-size: 11px;" data-mce-style=3D"font-size: 11px;"><span=
+ style=3D"font-size: 11px;" data-mce-style=3D"font-size: 11px;"><br></span>=
+</span></span></p></div></td></tr></table></div> <!--[if mso | IE]></td><![=
+endif]--><!--[if mso | IE]> </tr></table><![endif]--></td></tr></table></td=
+></tr></table><!--[if !mso | IE]--></div><!--[endif]--><!--[if mso | IE]> <=
+/td></tr></table></td></tr></table><![endif]--></div><img src=3D"http://cli=
+ck.sc.spectrumemails.com/wf/open?upn=3D0mwXn0caUjhhJsla-2FkVFKCQlhJqD0AYaLK=
+oZUbYGiHLZMjv86xcvgfMkNDCKhpNFloDRKwQ-2BpxfBn4Q8sBj3MzBLeg70hk8uq9tfecerxzm=
+X-2FRqWKR-2BRA8v2av-2FgUYnvrJl4X8TuHhPHRkQ8qVHWuOKEtJTu4hYKZ-2Bd5HXeLZqLIzy=
+8tEY6Lw7Ujn-2F2ylTaQb0R8K3WHqMgx9mdmJLE1VcdiAwWfttdsqgxzi6O3riMoeJWWvt2NGHz=
+WXM43iiXeVZAatdEoLKwI-2BEK1zYiPcIXhoD9OSudCm-2BuYUt-2BvMV0-3D" alt=3D"" wid=
+th=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px=
+ !important;border-width:0 !important;margin-top:0 !important;margin-bottom=
+:0 !important;margin-right:0 !important;margin-left:0 !important;padding-to=
+p:0 !important;padding-bottom:0 !important;padding-right:0 !important;paddi=
+ng-left:0 !important;"></body></html>=
+
+--06517dc83ef7ef29af1ee4b12984466baf9d85d6a3749a8ba98095b4ee8b--

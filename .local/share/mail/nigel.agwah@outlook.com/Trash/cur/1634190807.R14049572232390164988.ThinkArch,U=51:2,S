@@ -1,0 +1,457 @@
+Received: from AT5PR8401MB0722.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7422::23) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Sun, 3 Oct 2021 01:42:57 +0000
+Received: from BN6PR19CA0103.namprd19.prod.outlook.com (2603:10b6:404:a0::17)
+ by AT5PR8401MB0722.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7422::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.21; Sun, 3 Oct
+ 2021 01:42:56 +0000
+Received: from BN8NAM12FT060.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:404:a0:cafe::50) by BN6PR19CA0103.outlook.office365.com
+ (2603:10b6:404:a0::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.14 via Frontend
+ Transport; Sun, 3 Oct 2021 01:42:56 +0000
+Authentication-Results: spf=pass (sender IP is 159.253.181.159)
+ smtp.mailfrom=bumble.com; outlook.com; dkim=pass (signature was verified)
+ header.d=bumble.com;outlook.com; dmarc=pass action=none
+ header.from=bumble.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bumble.com designates
+ 159.253.181.159 as permitted sender) receiver=protection.outlook.com;
+ client-ip=159.253.181.159; helo=cluster2098.monopost.com;
+Received: from cluster2098.monopost.com (159.253.181.159) by
+ BN8NAM12FT060.mail.protection.outlook.com (10.13.183.174) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4587.8 via Frontend Transport; Sun, 3 Oct 2021 01:42:56 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:20117813EA01109F19356B40D049EEDF9D1693BD7554685FF1FCA754F18045B8;UpperCasedChecksum:D705BF489DAE5725FD6A85AE3E942DDE0693F694F3C088A52EF2F486665E7324;SizeAsReceived:1328;Count:15
+Received: from localhost (cloud85.ulan [10.20.25.86])
+	by cluster2098.monopost.com (Postfix) with ESMTP id 32DC6380069D
+	for <nigel.agwah@outlook.com>; Sun,  3 Oct 2021 01:42:56 +0000 (UTC)
+DKIM-Filter: OpenDKIM Filter v2.11.0 cluster2098.monopost.com 32DC6380069D
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=bumble.com;
+	s=m23uiy45; t=1633225376;
+	bh=8mjlsL+KnYiukfiYUz5bERBqHACwRZfrj1/p5ZIpYlo=;
+	h=Date:To:Reply-to:From:List-Unsubscribe:Subject;
+	b=SleeLl84E1tkVFjZ8fTr5hkIuwWk8H5eDP8AABBtX/X5rTXVXmCvbcDYm9i15WOdF
+	 m2IKgREgIpBX951R1MaGbM6u6L0ruJcGU4XtEWB4hUWn8eLdHWVYBtwjy6ifderkB4
+	 26L5MT4xWq0MIvxupN3Wlf+1RaGTt6OZxCdK5YN0=
+Date: Sun, 03 Oct 2021 01:42:56 +0000
+To: nigel.agwah@outlook.com
+Reply-to: noreply@bumble.com
+From: Bumble <noreply@bumble.com>
+X-campaignid: badoo 106.612.3.211003
+List-Unsubscribe: <mailto:unsubscribe+612.813951941717111333.106.61590a9f.6e3b3f@badoo.com?subject=c7TUyLL6PD91WTMJi3mcUrjpW5LJBymTAzrupTRGcqMiRY8>
+Message-Id: <d53SrCb5mfZd6ygk4lzawHWXF66moJGtHjwR0ciys8u31Ud2wv03HZj4k5MnADYDx1u9KX3j8ChPwi@monopost.com>
+X-Recipient-User-Id: zAgUACjE1MTM4MTQ1MTQAIBkoAF9y8tESwfY-iHO8wsFB0pO8h8vPAQmF1XJNGerF
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Subject: Agwah, You Have 1 New Bumble Notification
+X-IncomingHeaderCount: 15
+Return-Path: noreply@bumble.com
+X-MS-Exchange-Organization-ExpirationStartTime: 03 Oct 2021 01:42:56.4802
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ a1eff4a2-653c-4598-d605-08d9860f1fbd
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM12FT060.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/2/2021 6:46:21 PM
+X-MS-Office365-Filtering-Correlation-Id: a1eff4a2-653c-4598-d605-08d9860f1fbd
+X-MS-TrafficTypeDiagnostic: AT5PR8401MB0722:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 159.253.181.159
+X-SID-PRA: NOREPLY@BUMBLE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Oct 2021 01:42:56.4172
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a1eff4a2-653c-4598-d605-08d9860f1fbd
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM12FT060.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AT5PR8401MB0722
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2960380
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4566.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100337)(4900116)(98391031)(4910005)(9560002)(9320001)(4920091)(6515079)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeboCFqiw/W+UaYUlUbVNhNNBuVv7X8UsqFQtlqMYArp2o+1TgoG6S89e2F8zn8owVGzAZ8174IrtohpPZFXl+BWPWFC0yUf1GwY927vcFLZEbANHlbQZSCcAHGYHmZlf5Zl2DqlCz/BbtvlZbko2zRNgvBYlqbhBIYCu10DQGNCpyItoNCn/3JJhixuSNMrjluXfowRCwJcQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?V1pqc1k0YzhIR0lzbHBPc0diekZ5YkJPOXZnZFRXaUhrM3FHYXQzVnY1YmJx?=
+ =?utf-8?B?bmIxTXYrSEdsZk9PeTcrdjlTcExJaGJhNTBhYnE4Y1c5T2ludUVkbU11SVM3?=
+ =?utf-8?B?MWY0dkxaWWpJZjVIS2xOZklsUjYrNkNJMFh5V0RlUUoxKzhXaWtGM3FZL3E5?=
+ =?utf-8?B?dEdyZUFXNWVmN3VOdEpVYmxLZVRyb3lBdGZZMzQ1ejduZ1prSEhCcVdVODc1?=
+ =?utf-8?B?ZWFjaURTR0xXbXVNUzZabC9NNlZ2NDlLTXV0WHZEQUUxbmp3R2VGeGVnOEds?=
+ =?utf-8?B?WG53TTlxaERTeTUxRDI1Z1EzWm1PMGQzekl2Y05rQUJFaHgwL25tU1k5c1lU?=
+ =?utf-8?B?dlVmYUR3c255Z0xVYS96VVFSYmxEMEw5ZmxLTTBaZ2ZmVy9ydlUvVFZNckhL?=
+ =?utf-8?B?OUdHQXpQR2x4ZndnTllsbVUyYW1oY1VOV1dGQWRRSVF2S2xjRG5BQjY3MUIv?=
+ =?utf-8?B?WmExZzBTN0k5KzloRXh6eWVxZHBVOE14SGtEelg4ZDhRUDVRbzBpU25YdExh?=
+ =?utf-8?B?QnNVUXAzWjdXaGZHVmhBR3NxRm8wMFRPdzNWWWxuTUNhL3Bib1g5WDlSa2tG?=
+ =?utf-8?B?d0VYaGQxWUM0Z0JSOS92cXhFMVFGWWEva25lTTJlbXJhMVBxRU10emFBR1E5?=
+ =?utf-8?B?Wm0vY1ZkY2gyWlJJSmpvOXRxcEZXMGQ2ZE9sM2U5R0swY094Ujk3amdLbkRK?=
+ =?utf-8?B?MldFV2IzRk5NNDg0L2Q4STJJNHNCcGtSSm1zd1g2THFaejkwU29LWnRMb3Nn?=
+ =?utf-8?B?YTV3dDVmZ0lMQ28rMXBHU1B0R3hFeDY4YlZmd1JHV0dKV3J1eGtra1BXU2kz?=
+ =?utf-8?B?SVZXWkFaRnVhWkNYVkY5SmFpSW5Lb0VmRk1FTDBSMDYyY09IOG5CdGlYYUZQ?=
+ =?utf-8?B?Z1JtditpVVlkcHZkRmsrUnRpOGFNZ0gwdGRFY2F0M05nZENzY2Nzc3Z3VVRT?=
+ =?utf-8?B?SlJuTksvYllHZnpKVFBkaU9Od043cVo1SlZrTXJXV09QL05rdzhXQUpDK3pD?=
+ =?utf-8?B?TFRMRlIvM3JyRy9LTkJZb24vQjg0WlRzdzM2b3plV1NEbi9TMUtSOVhKNm53?=
+ =?utf-8?B?cDJKN0EzcHhZcHgwQ0dFZ0R2TmIvR2NVYmluTXBpT1JsYTAxR2c4WExENHdX?=
+ =?utf-8?B?YVBFQm9MdCtnWmNhV1RCQnRIUGVSemxWOEhMbk9BekxyMXgvaXJJRXBXaU5V?=
+ =?utf-8?B?UmtRemFHUjdiWWU2VFJSQ1NPeXBXM2E0SlJBcXhzR0FueWhVV1BNS1cyanRz?=
+ =?utf-8?B?RlU4UDZUWGRpL25rVlV1VEc5OTlEdytkUysrSnd0SVpsWkpFQzhKZ3BoQmZu?=
+ =?utf-8?B?alB3aVJ0L1hRR2QxRUJwUHppVFE3ZGd3NFRWMlYwbHhkemVEMlBYYlZuNzI1?=
+ =?utf-8?B?Y1o2TkRFL0hPKzF5SXoxSDlibXRDV3JTVGdPWlM1WmJqWG1pNzQ3eGtlZEJW?=
+ =?utf-8?B?ZE9yY0JRSURJVXlyVmUvRERSZ2NFcGNOamJDUGR0VDVoY2FCb20vSmh2M3VH?=
+ =?utf-8?B?RVFEWEhKRFQ0L0NyVjdIYy9lVzBhM1Z1QmNzRjBxQ2ZSc1NLc3N0Ty82eWtQ?=
+ =?utf-8?B?Z1RIWTErcFpuMWlSbVlnN3dsdFNILzFCRDRSYnF2Ris1TVZRT3RBcnY0akY1?=
+ =?utf-8?B?RDJJbWdLbkxIQjQrZ211aW1QYysyalFYMzVQdWxlZitWaWFHN3pqazVqK09J?=
+ =?utf-8?B?SVdDYkJNeEwvWWhXd2FsajhCQ1JreERaQUp4dlp5czhTMmZRcW9Eek1qZGV3?=
+ =?utf-8?B?OVN3b3FGVlZOWTM4YkxJUW1QcVhzdmtoUUhYUDRIYTRYckhtMXBXRms1WUI1?=
+ =?utf-8?B?MkExc2dlWjdrM2hTUDJBdz09?=
+MIME-Version: 1.0
+X-TUID: gIbTbm2phUqJ
+
+<!DOCTYPE html><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=
+=0A=
+=0A=
+    <title>Agwah, You Have 1 New Bumble Notification</title>=0A=
+=0A=
+    <style>=0A=
+    @media only screen and (min-width: 620px) {=0A=
+        .page__head {=0A=
+            padding-bottom: 60px !important;=0A=
+        }=0A=
+=0A=
+        .page__main {=0A=
+            padding: 0 20p !important;=0A=
+        }=0A=
+=0A=
+        .logo-desktop {=0A=
+            display: inline-block !important;=0A=
+            max-height: none !important;=0A=
+            max-width: none !important;=0A=
+            line-height: 100% !important;=0A=
+            width: 80px !important;=0A=
+            height: auto !important;=0A=
+            overflow: visible !important;=0A=
+        }=0A=
+=0A=
+        .main {=0A=
+            font-size: 16px !important;=0A=
+            line-height: 22px !important;=0A=
+        }=0A=
+=0A=
+        .section__icon {=0A=
+            padding: 0 40px 10px !important;=0A=
+        }=0A=
+=0A=
+        .section__promo {=0A=
+            padding-left: 20px !important;=0A=
+            padding-right: 20px !important;=0A=
+        }=0A=
+=0A=
+        .section__title {=0A=
+            padding-left: 40px !important;=0A=
+            padding-right: 40px !important;=0A=
+        }=0A=
+=0A=
+        .section__title--main {=0A=
+            padding-bottom: 10px !important;=0A=
+        }=0A=
+=0A=
+        section__title--tip {=0A=
+            padding-bottom: 10px !important;=0A=
+        }=0A=
+=0A=
+        .section__text {=0A=
+            padding-left: 40px !important;=0A=
+            padding-right: 40px !important;=0A=
+        }=0A=
+=0A=
+        .section__footer {=0A=
+            padding-left: 40px !important;=0A=
+            padding-right: 40px !important;=0A=
+        }=0A=
+=0A=
+        .section-title {=0A=
+            font-size: 24px !important;=0A=
+            line-height: 32px !important;=0A=
+        }=0A=
+=0A=
+        .section-text {=0A=
+            font-size: 16px !important;=0A=
+            line-height: 22px !important;=0A=
+        }=0A=
+    }=0A=
+</style>=0A=
+</head>=0A=
+<body lang=3D"en" dir=3D"ltr" style=3D"margin: 0;">=0A=
+<table class=3D"page" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" bgcolor=3D"#fff" style=3D"direction: ltr; min-width: 320px; text=
+-align: center; color: #292c2e; font-family: -apple-system, BlinkMacSystemF=
+ont, Helvetica, Arial, sans-serif;">=0A=
+    <tr>=0A=
+        <td class=3D"page__head page_head" style=3D"padding: 20px 0 40px; c=
+olor: #fff;">=0A=
+            <img src=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/i/email/sz__=
+_size__/logo-buzz@2x.80df19317fce30fc6d0b.png" class=3D"logo" width=3D"195"=
+ style=3D"vertical-align: top; font-size: 28px; color: #fff; -ms-interpolat=
+ion-mode: bicubic;" alt=3D"Bumble">=0A=
+        </td>=0A=
+    </tr>=0A=
+    <tr>=0A=
+        <td class=3D"page__main page_main" style=3D"padding: 0 10px; text-a=
+lign: center;">=0A=
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"max-width: 470px; margin: 0 auto;">=0A=
+                <tr>=0A=
+                    <td class=3D"main" style=3D"text-align: center; color: =
+#636363; font-size: 15px; line-height: 20px;">=0A=
+                        <table bgcolor=3D"#ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">=0A=
+    <tr>=0A=
+        <td class=3D"main__section" style=3D"padding-bottom: 20px;">=0A=
+            <table class=3D"section" bgcolor=3D"#ffffff" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"padding: 0 0 30px; t=
+ext-align: center;">=0A=
+                <tr>=0A=
+                    <td class=3D"section__icon" style=3D"padding: 0 20px; t=
+ext-align: center;">=0A=
+                        <div class=3D"logo-desktop" style=3D"display: none;=
+ font-size: 0; line-height: 0; mso-hide: all; max-height: 0; max-width: 0; =
+width: 0; overflow: hidden; vertical-align: top; padding-bottom: 10px; text=
+-align: center; margin: 0 auto;">=0A=
+                            <img class=3D"logo-desktop" src=3D"https://pd1u=
+s.bumbcdn.com/i/v2/-/moxie/i/email/new/daily-digest/sz___size__/icon-digest=
+@2x.2755e53171bba8b1be5d.png" width=3D"80" height=3D"80" style=3D"display: =
+none; font-size: 0; line-height: 0; mso-hide: all; max-height: 0; max-width=
+: 0; width: 0; vertical-align: top; color: #000; -ms-interpolation-mode: bi=
+cubic;" alt=3D"Bumble">=0A=
+                        </div>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__title section__title--main" style=
+=3D"padding: 0 20px 20px; text-align: center;">=0A=
+                        <span class=3D"section-title" style=3D"color: #2828=
+28; font-weight: 600; font-size: 22px; line-height: 27px;">We=E2=80=99re so=
+ lucky to have you on Bumble!</span>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__text" style=3D"padding: 0 20px 30=
+px; text-align: center;">=0A=
+                        <span class=3D"section-text" style=3D"text-align: c=
+enter; color: #616161; font-size: 15px; line-height: 20px;">You=E2=80=99re =
+creating quite the buzz, and there=E2=80=99s still time to meet new people!=
+</span>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__footer" style=3D"padding: 0 20px =
+0; text-align: center;">=0A=
+                        <a href=3D"https://bum.bb/u/ed%21open?m=3D612&amp;g=
+=3D6-0-4&amp;mid=3D0425b2497efabc4b0b61590a9f000002645a3af9f200060000eed46a=
+4d37" target=3D"_blank" class=3D"btn" style=3D"display: inline-block; paddi=
+ng: 9px 20px 11px; background-color: #ffc629; text-decoration: none; border=
+-radius: 19px; color: #fff; font-weight: 400; font-size: 15px; line-height:=
+ 20px; text-align: center;">Open Bumble</a>=0A=
+                    </td>=0A=
+                </tr>=0A=
+            </table>=0A=
+        </td>=0A=
+    </tr>=0A=
+    <tr>=0A=
+        <td class=3D"main__section" style=3D"padding-bottom: 30px;">=0A=
+            <table class=3D"section section--digest" bgcolor=3D"#ffffff" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"padd=
+ing: 20px 0 30px; border-radius: 10px; border: #e7e7e7 1px solid; border-wi=
+dth: .5px;">=0A=
+                <tr>=0A=
+                    <td class=3D"section__icon" style=3D"padding: 0 20px 10=
+px; text-align: center;">=0A=
+                        <img src=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/=
+i/email/new/daily-digest/sz___size__/icon-match@2x.ba9fc7d07ebad55b07f0.png=
+" width=3D"40" height=3D"40" style=3D"vertical-align: top; font-size: 28px;=
+ color: #000; -ms-interpolation-mode: bicubic;" alt=3D"Bumble">=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__title" style=3D"padding: 0 20px 2=
+0px; text-align: center;">=0A=
+                        <span class=3D"section-subtitle" style=3D"color: #2=
+82828; font-weight: 600; font-size: 19px; line-height: 23px;">Your likes</s=
+pan>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__promo" style=3D"padding: 0 10px 2=
+0px; text-align: center;">=0A=
+                        <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"margin: 0 auto;">=0A=
+                            <tr>=0A=
+                                <td>=0A=
+                                    <table cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"border-collapse: separate; margin: 0 5px;">=0A=
+                                        <tr>=0A=
+                                            <td class=3D"userpic" width=3D"=
+70" bgcolor=3D"#efefef" style=3D"border-radius: 50%; font-size: 0; position=
+: relative;" align=3D"left">=0A=
+                                                <div style=3D"width: 0; dis=
+play: inline-block; vertical-align: top;">=0A=
+                                                    <img width=3D"70" src=
+=3D"https://pd1us.bumbcdn.com/p538/hidden?euri=3DxNxJt5.wMLrqJAUjFyFjYWaN.5=
+awqCyIu0-Se1ZnQnkd5jskZYiBdrPtBdi.x3TGBdZ0CzEDeW9fSBMhhC62s6r4xizDvJ7BNxSRB=
+BHBfj0qAjKo3VHd0GmydjcvgxmJ.gdDd5tPLn7JWv3.-oNJvmGNXsVcZSpl&amp;size=3D__si=
+ze__&amp;h=3DNUl&amp;gs=3D1" style=3D"min-height: 70px; vertical-align: top=
+; border-radius: 50%;" alt=3D"" border=3D"0">=0A=
+                                                </div>=0A=
+                                            </td>=0A=
+                                        </tr>=0A=
+                                    </table>=0A=
+                                </td>=0A=
+                            </tr>=0A=
+                        </table>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__text" style=3D"padding: 0 20px 30=
+px; text-align: center;">=0A=
+                        <span class=3D"section-text" style=3D"text-align: c=
+enter; color: #616161; font-size: 15px; line-height: 20px;">Someone on Bumb=
+le thinks you might have what they=E2=80=99re looking for. Now=E2=80=99s th=
+e time to see if it=E2=80=99s mutual.</span>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"section__footer" style=3D"padding: 0 20px =
+0; text-align: center;">=0A=
+                        <a href=3D"https://bum.bb/u/ed%21open?m=3D612&amp;g=
+=3D6-1-4&amp;mid=3D0425b2497efabc4b0b61590a9f000002645a3af9f200060000eed46a=
+4d37" target=3D"_blank" class=3D"btn" style=3D"display: inline-block; paddi=
+ng: 9px 20px 11px; background-color: #ffc629; text-decoration: none; border=
+-radius: 19px; color: #fff; font-weight: 400; font-size: 15px; line-height:=
+ 20px; text-align: center;">See Your Likes</a>=0A=
+                    </td>=0A=
+                </tr>=0A=
+            </table>=0A=
+        </td>=0A=
+    </tr>=0A=
+</table>=0A=
+=0A=
+                    </td>=0A=
+                </tr>=0A=
+                <tr>=0A=
+                    <td class=3D"footer" style=3D"padding-top: 10px; paddin=
+g-bottom: 40px; text-align: center;">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"margin: 0 auto;">=0A=
+                            <tr>=0A=
+                                <td style=3D"padding-bottom: 40px; text-ali=
+gn: center;">=0A=
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#fff" style=3D"margin: 0 auto;">=0A=
+                                        <tr>=0A=
+                                            <td style=3D"width: 50%;"><div =
+style=3D"height: 1px; height: .5px; width: 100%; background: #e7e7e7;"></di=
+v></td>=0A=
+                                            <td style=3D"padding: 0 10px; m=
+in-width: 250px;">=0A=
+                                                <a href=3D"https://www.face=
+book.com/bumbleapp/?fref=3Dts" style=3D"width: 40px; display: inline-block;=
+ vertical-align: top; margin: 0 5px">=0A=
+                                                    <img width=3D"40" src=
+=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/i/email/cosmos/sz___size__/badge=
+-provider-facebook-inactive.48a105c0791b752adb68.png" style=3D"vertical-ali=
+gn: top;" border=3D"0" alt=3D"Facebook">=0A=
+                                                </a><!--=0A=
+                                                --><a href=3D"https://twitt=
+er.com/bumble" style=3D"width: 40px; display: inline-block; vertical-align:=
+ top; margin: 0 5px;">=0A=
+                                                    <img width=3D"40" src=
+=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/i/email/cosmos/sz___size__/badge=
+-provider-twitter-inactive.4089298033290337685c.png" style=3D"vertical-alig=
+n: top;" border=3D"0" alt=3D"Twitter">=0A=
+                                                </a><!--=0A=
+                                                --><a href=3D"https://www.i=
+nstagram.com/bumble/" style=3D"width: 40px; display: inline-block; vertical=
+-align: top; margin: 0 5px;">=0A=
+                                                    <img width=3D"40" src=
+=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/i/email/cosmos/sz___size__/badge=
+-provider-instagram-inactive.466d7fb698aea51b4dca.png" style=3D"vertical-al=
+ign: top;" border=3D"0" alt=3D"Instagram">=0A=
+                                                </a><!--=0A=
+                                                --><a href=3D"https://www.p=
+interest.com/bumbleapp/" style=3D"width: 40px; display: inline-block; verti=
+cal-align: top; margin: 0 5px;">=0A=
+                                                    <img width=3D"40" src=
+=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/i/email/cosmos/sz___size__/badge=
+-provider-pinterest-inactive.bc54a580be27f5742893.png" style=3D"vertical-al=
+ign: top;" border=3D"0" alt=3D"Pinterest">=0A=
+                                                </a><!--=0A=
+                                                --><a href=3D"https://www.l=
+inkedin.com/company/bumble-app" style=3D"width: 40px; display: inline-block=
+; vertical-align: top; margin: 0 5px;">=0A=
+                                                    <img width=3D"40" src=
+=3D"https://bumbcdn.com/i/0425b2497efabc4b0b61590a9f000002645a3af9f20006000=
+0eed46a4d37-0-0-0_0/v2/-/moxie/i/email/cosmos/sz___size__/badge-provider-li=
+nkedin-inactive.3b4f1861df01b2ef7e1e.png" style=3D"vertical-align: top;" bo=
+rder=3D"0" alt=3D"Linkedin">=0A=
+                                                </a>=0A=
+                                            </td>=0A=
+                                            <td style=3D"width: 50%;"><div =
+style=3D"height: 1px; height: .5px; width: 100%; background: #e7e7e7;"></di=
+v></td>=0A=
+                                        </tr>=0A=
+                                    </table>=0A=
+                                </td>=0A=
+                            </tr>=0A=
+                        </table>=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">=0A=
+    <tr>=0A=
+        <td class=3D"footer__txt footer_txt" style=3D"color: #aeaeae; font-=
+size: 12px; line-height: 18px; text-align: center;">=0A=
+            <p class=3D"footer__p" style=3D"margin-top: 0; margin-bottom: 0=
+;">Copyright (c) 2021 Bumble, all rights reserved.</p>=0A=
+            <p class=3D"footer__p" style=3D"margin-top: 0;">Feedback? <a hr=
+ef=3D"mailto:support@team.bumble.com" style=3D"color: #aeaeae;">support@tea=
+m.bumble.com</a></p>=0A=
+            <p class=3D"footer__p" style=3D"margin-top: 0;"><span>You=E2=80=
+=99re receiving this email because you created an account with Bumble.</spa=
+n> <span>If you prefer not to receive emails like this, you may unsubscribe=
+ <a href=3D"https://us1.bumble.com/unsubscribe?uid=3DzAgUACjE1MTM4MTQ1MTQAI=
+BkoAF9y8tESwfY-iHO8wsFB0pO8h8vPAQmF1XJNGerF&amp;m=3D612&amp;mid=3D0425b2497=
+efabc4b0b61590a9f000002645a3af9f200060000eed46a4d37&amp;g=3D0-0-4" style=3D=
+"color: #aeaeae;">here</a></span></p>=0A=
+            <p class=3D"footer__p" style=3D"margin-top: 0; margin-bottom: 0=
+;">Bumble Trading LLC is a company registered in the United States with its=
+ registered office at 1105 W 41st Street, Austin, TX 78756</p>=0A=
+        </td>=0A=
+    </tr>=0A=
+</table>=0A=
+=0A=
+                    </td>=0A=
+                </tr>=0A=
+            </table>=0A=
+        </td>=0A=
+    </tr>=0A=
+</table>=0A=
+</body>=0A=
+</html>
+

@@ -1,0 +1,1036 @@
+Received: from MW2NAM04HT082.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:806:f2::7) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with HTTPS
+ via SN7PR04CA0002.NAMPRD04.PROD.OUTLOOK.COM; Mon, 28 Jun 2021 14:30:37 +0000
+Received: from MW2NAM04FT012.eop-NAM04.prod.protection.outlook.com
+ (2a01:111:e400:7e84::4b) by
+ MW2NAM04HT082.eop-NAM04.prod.protection.outlook.com (2a01:111:e400:7e84::308)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4264.18; Mon, 28 Jun
+ 2021 14:30:36 +0000
+Authentication-Results: spf=pass (sender IP is 149.72.183.21)
+ smtp.mailfrom=send.airfordable.com; outlook.com; dkim=pass (signature was
+ verified) header.d=airfordable.com;outlook.com; dmarc=pass action=none
+ header.from=airfordable.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of send.airfordable.com
+ designates 149.72.183.21 as permitted sender)
+ receiver=protection.outlook.com; client-ip=149.72.183.21;
+ helo=o596.obm.klaviyomail.com;
+Received: from o596.obm.klaviyomail.com (149.72.183.21) by
+ MW2NAM04FT012.mail.protection.outlook.com (10.13.31.127) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4264.18 via Frontend Transport; Mon, 28 Jun 2021 14:30:35 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:7BB28F0EF853382A2C93841466AEF41C622BAE6BAABEF7D36DD930216B246479;UpperCasedChecksum:D89ED38978C11C4AC40E14542F4D7E9790DB72C9445A28623E0CC2B871519AD1;SizeAsReceived:2242;Count:18
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=airfordable.com;
+	h=content-type:from:mime-version:subject:list-unsubscribe:to;
+	s=s1; bh=HzA8H6FxBXHDFpYu4Lp3/kM16lKL9NS8Z//rpZ4W3IY=;
+	b=q0OBui9lFwD2sFWjMrfV9LpxyhH88lC7bb9tpzDu3yq2z9+n0i7t8D/6ID28ay0O1qzs
+	ZlFMM8JcOCdlsWxb9GrNGKdmKUaVoTv57gdMwpNIuQP8v4N1/EtqEF8E+o1w6O/aiafUEJ
+	XMimNIvs/dmZWVYMXXntZrQ0AKLjnG14g=
+Received: by filterdrecv-c8c5888c4-ts2nm with SMTP id filterdrecv-c8c5888c4-ts2nm-1-60D9DD0A-16F
+        2021-06-28 14:30:34.477345092 +0000 UTC m=+818560.370110910
+Received: from MTI1NDI4Nzk (unknown)
+	by ismtpd0131p1iad2.sendgrid.net (SG)
+	with HTTP
+	id SObPF55kSAGkXXCYmq_PGg
+	Mon, 28 Jun 2021 14:30:34.375 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=e4ce247b7ca6a85618b009073ef516f3f4d7e42d3502a154e357761330bc
+Date: Mon, 28 Jun 2021 14:30:34 +0000 (UTC)
+From: Airfordable <team@airfordable.com>
+Message-ID: <SObPF55kSAGkXXCYmq_PGg@ismtpd0131p1iad2.sendgrid.net>
+Subject: Summer has arrived =?UTF-8?B?4piA77iPYW5k?= we're feeling the heat on
+ social media!
+List-Unsubscribe:
+ =?us-ascii?Q?=3Chttps=3A=2F=2Fmanage=2Ekmail-lists=2Ecom=2Fsubscriptions=2Funsubscribe=3Fa=3DPr?=
+ =?us-ascii?Q?F5YL&c=3DHWgU4e&k=3D443d2ae14ca7d788641871b?=
+ =?us-ascii?Q?715ef000b&g=3DTtYZx4&m=3DRYy9du&r=3DEpuxEPF=3E?=
+X-Kmail-Ops: HWgU4e
+X-Kmail-Message: RYy9du
+X-Kmail-Account: PrF5YL
+X-Kmail-Relay: [577852.krelaymail.com]:587
+X-SG-EID:
+ =?us-ascii?Q?EoBastJFyELqYtfwQTsurVkR=2FwbvsoIJW05MAgiXRhofHMVyLtnaNvEdCxvX46?=
+ =?us-ascii?Q?xeCr4qqsD8CNmf5LJMsMc=2FUTrMBGCrBy0871=2FBb?=
+ =?us-ascii?Q?Q6m+x5aBc7YSVJy7eO2BbOp2p=2FUnt=2FARGYQTC2r?=
+ =?us-ascii?Q?Nyvbe2k+s72Qx4EjQ2l5j6r2l+uJAyTLgYVzOcU?=
+ =?us-ascii?Q?PzmQqNCwhjPHgnpbG7ZbWkE27H0HwTrl=2FbLCQ4P?=
+ =?us-ascii?Q?wOg8jWbMoy250eN6cBs+Ej+IPRDfteBy27EMSB?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb3WdckyvbC2eFaxvdDHn8D1nndBBW0fUClUlZF2fTQ?=
+ =?us-ascii?Q?6KqyPP9hJkhc9sj9acuKeKpbFRcShau6LuPy6Ke?=
+ =?us-ascii?Q?d7w0p+v4BkPOlvWbrCA44OdgeIeLiLVX43J72H3?=
+ =?us-ascii?Q?rv6wSLgfWv1EOgVZGgcYuRbIfmNHeSP3kpe4qbL?=
+ =?us-ascii?Q?o8=2F9mb3K4CxljaYB4gcu58pTo=2FuS1UT2QEg=3D=3D?=
+To: Nigel Agwah <nigel.agwah@outlook.com>
+X-Entity-ID: 3ph+K0M4wKiNKggA4yamEQ==
+X-IncomingHeaderCount: 18
+Return-Path:
+ bounces+12542879-8f85-nigel.agwah=outlook.com@send.airfordable.com
+X-MS-Exchange-Organization-ExpirationStartTime: 28 Jun 2021 14:30:36.1796
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b31d366f-3315-4142-75e6-08d93a414b64
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM04FT012.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/28/2021 5:28:00 AM
+X-MS-Office365-Filtering-Correlation-Id: b31d366f-3315-4142-75e6-08d93a414b64
+X-MS-TrafficTypeDiagnostic: MW2NAM04HT082:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 149.72.183.21
+X-SID-PRA: TEAM@AIRFORDABLE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:2;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Jun 2021 14:30:35.7188
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b31d366f-3315-4142-75e6-08d93a414b64
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM04FT012.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW2NAM04HT082
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6593941
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4264.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90005022)(91005020)(91035115)(91045095)(9000001)(9010001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(98391011)(58390106)(98390106)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdeV3Jvi7GPp8/0IasDTRzEm49vYLASp3etiZOAv7nEnWg0BKrYs2mhWyznKvbrV9faqVx21SQswANPNG6VQEASCOjYmy1m/WdNyitgfL2hDXU40xKp7x/JJ/sE/BgMTR74lrFVzTo9s6jGV+MAnX3qk/tVenBVm9IjHLBWZrcpUkS0DusltMuGl59EH9GOql4/sK2DsdVy9QA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?UHE5RGhkbFpZMGtITG9IdHFoMzlVTTlQMEJFT3dPRjRnOEJENXdTRVB3bU13?=
+ =?utf-8?B?RzNxTG13M0M5NDZzK0p2NHRGTlhrei83QjhqeFNTSkNnaDd6cUJoM3dBRjF0?=
+ =?utf-8?B?SE9KVkhGK1VPNERBZ0V3VEdGTkZ4OVpYTGkyczVTZFJDQUF6OU1FY0xOSWs0?=
+ =?utf-8?B?YStmVXpQSk15R2xaQkF1eVVVMStnVUFvL0VIWnFENDNrVU5RZnlXeGlRYjgw?=
+ =?utf-8?B?NmxuY2pIZlJCWVZGKzVqemNrK2NmSHdJZ2swZlNtamViVVg3TnQ0NFlxc3Z4?=
+ =?utf-8?B?WlNmQzZiTDZuRGtPNjZPT1pLTE9nL011bmxWYW9aSGRDLys1ZnJnd0ZsQmFa?=
+ =?utf-8?B?Tk13MHVOMlU4VWgyaUxSZDk3aDR0R2JrUXVLSGx2cjEyYjlQNWEvcEJpQUg2?=
+ =?utf-8?B?Z0FQSnN6cnVLeXRkY3F5K0lEMExUS1hlaDRYb0xNUzlocDdoVkJ5S2tWeEEr?=
+ =?utf-8?B?NVBkOGVuR0NmN2NqdkZoWUlHSkdzZjZjOFExeXIxMWtWSVBlSWNla2toMDNa?=
+ =?utf-8?B?VzMxYXZoTG5XTStzVitiMUtHemNhWUR4RHJ1K1RlRG9IT0RTaStVR1cyTDBu?=
+ =?utf-8?B?K04wcFhzYzBrdG5vVnNtRVRKSzRFaW5ib1lXZmo0ZTE1enAzZFlDWWpsbnhS?=
+ =?utf-8?B?QmY0ckxFL3g2bjRhQkxzcXhLMVhqaG1Da0ZXYzFDQ1d4SGMxSGFRMUoxaDJv?=
+ =?utf-8?B?QlQvTkRxM01RM2M1a212SklQUUJ4emM2b0U4SGYzSG8yZHZvaDlXb1Btb2Mr?=
+ =?utf-8?B?UHZQU1JWeTgwN0pRMklTWFNxbHRCV0E0UnZzTWNKRUJlNmt5Rk13NW9WcWQx?=
+ =?utf-8?B?cVJFT0pEZHN0MXNFYnc2NUVibEtCNUQ5cUt3Slg2bE5oY1IzYlg3ditlQTBv?=
+ =?utf-8?B?RGdvMkFvMlJBOFcwck5yQmYyd2JCRFpjWUErZkIrYisrMDNidXNiUjVQZXBm?=
+ =?utf-8?B?NGY0UFFKdjVidVRFUzhzcXkrSkZ0L2xVbkpVQmw2MmFWbUpIbWZiN295R21t?=
+ =?utf-8?B?V0lzU1l6M3BBRndqRHQrTFpYZm1XR2xUUGRTbm1vczVNUDlBK3BBV1pTMWts?=
+ =?utf-8?B?WjVtOWtFblRrY3VMS3VXSXg3SFNudGE4UkFGbEg3ZVdPVlVRT0g1cEwrK09t?=
+ =?utf-8?B?TlkydDJJNmVhSGpWYzR5WUxraXVzaEFZbEI4WTdyRVplaHREMnpWRDVrZWFG?=
+ =?utf-8?B?RWVud0Y4WjhadStrdCtZaFFnUmZvTENKS0VnNGxRWTdCTjZnSjlvVmVNLzBO?=
+ =?utf-8?B?OXp1TDMyclZwQ3lQaExGeEN0eE8wb1hweXJFUjQ5NTdlNDdqcDBPKzFlRDJq?=
+ =?utf-8?B?VXZQdktNdXkxVTlya1R0bFZhSm9pL2VQSFg4U1pSK2lBeWF3SURmcXhldUpZ?=
+ =?utf-8?B?SjFjWHF5NFIzaksxSkhsbjdPVlBoVEltWmNHc0xFMkwwSyt1QTR2c0lyWGxT?=
+ =?utf-8?B?Z01DNGxEYzFhSE13VXYvdnRXclFrVnM1RlVPOVAwTERHRFV6ZjBHdnNob085?=
+ =?utf-8?B?UDdoOGY5WnBEeWRzT2tMajdGVWh3cFFIR3FhM0g5VzJkVlJTdlVzN2ttSGJ3?=
+ =?utf-8?Q?2RyJy+TWfFo5LstzCtQaxURj8=3D?=
+MIME-Version: 1.0
+X-TUID: GS356pCIdam+
+
+--e4ce247b7ca6a85618b009073ef516f3f4d7e42d3502a154e357761330bc
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+
+Hi Nigel,
+
+Over the past few weeks, we've been receiving a TON of love all over social=
+ media ever since a tweet went viral. The tweet recognized the life changin=
+g value we've been providing to travelers over the years. It has been rewar=
+ding and refreshing to see our community of travelers come together and con=
+tinuously share their positive Airfordable booking experiences on social. W=
+e're forever grateful for all of our new and existing customers! =E2=9D=A4=
+=EF=B8=8F
+
+With summer officially here, we are excited to share some of our favorite t=
+ravel ideas for July and see more stories of your adventures like Jen, who =
+is seen below. She's one of our loyal and avid travelers who has been globe=
+trotting around the world [here](https://www.instagram.com/p/CP6Dm1fBO4q/?u=
+tm_source=3Dig_web_copy_link) with the help of Airfordable since 2016!
+
+https://www.instagram.com/p/CP6Dm1fBO4q/?utm_source=3Dig_web_copy_link
+
+On to some travel ideas for July to kick off your summer:
+
+=C2=A0
+
+Let freedom ring on 4th of July =F0=9F=87=BA=F0=9F=87=B8
+
+Independence Day festivals are bound to be extra celebratory anywhere you g=
+o this year as cities become fully re-opened. To promote social distancing,=
+ New York City is spreading people apart by having its fireworks and festiv=
+ities occur over several nights this upcoming weekend. While freedom may no=
+t be free, Nashville=E2=80=99s "Let Freedom Sing!" musical event is! Music =
+City is coming out in full force for this festival with the largest firewor=
+ks show in Nashville's history including performances by the Nashville Symp=
+hony, and a set by a host of legendary musicians.
+
+Shout =E2=80=9Cvive la France=E2=80=9D this Bastille Day =F0=9F=97=BC=C2=A0
+French food, French cinema, French art, French wine, French Bulldogs...we l=
+ove all things French. Unfortunately, it=E2=80=99s still tricky to travel t=
+o Europe, so this year we will be getting our French fix by celebrating the=
+ French National Day F=C3=AAte nationale (aka Bastille Day) on July 14th in=
+ the States. You can book a stay at Paris Las Vegas casino and hotel for so=
+me Parisian poker, or channel Bordeaux while samping world class food and w=
+ine=C2=A0in Napa, CA. Of course, nothing can beat spending the day soaking =
+in the culture and history of the New Orleans French Quarter. Berets, beign=
+ets, and bayous, c=E2=80=99est tres bien!
+
+=C2=A0
+Celebrate friendship! =F0=9F=91=AF=E2=80=8D=E2=99=80=EF=B8=8F
+
+Created by Hallmark in 1919 as an excuse for friends to send each other gre=
+eting cards, International Friendship is set to be on July 30th this year. =
+The holiday is meant to encourage friends from all over the world to reconn=
+ect however they see fit. After a year of social distancing and limited tra=
+vel, we think it=E2=80=99s time to reconnect IRL with a besties trip to you=
+r favorite vacation spot. Soak in the sun in one of 11 towns named Friendsh=
+ip in Jamaica, or pig out on lobster in Friendship, ME.=C2=A0
+
+=C2=A0
+
+Keeping you traveling is what keeps us going! So let's be friends on social=
+ media [here](https://linktr.ee/airfordable) and tag us in your travel post=
+s.  Remember, wherever you go this summer, we=E2=80=99re here to help you g=
+et there!
+
+[Book a Trip](https://www.airfordable.com/booking/new)
+
+Happy Travels! =E2=9C=88=EF=B8=8F
+
+The Airfordable Team
+
+This message was mailed to you=C2=A0at nigel.agwah@outlook.com from Airford=
+able as part of your Airfordable account. To change your email preferences =
+at any time, please visit the [Communication Settings](https://www.airforda=
+ble.com/account?email_settings_for=3D57c10eb6fa3a10af01d6fed6) page for you=
+r account
+
+Have questions? Check out our [FAQ](https://www.airfordable.com/faqs) for a=
+nswers.
+
+The use of the Airfordable service and website is subject to our [Terms of =
+Use](https://www.airfordable.com/terms) and [Privacy Statement.](https://ww=
+w.airfordable.com/privacy)
+
+Airfordable, 1658 Milwaukee Ave #100-3682 Chicago, IL 60647
+
+=E2=80=8C
+
+You received this email from Airfordable. If you would like to unsubscribe,=
+ [click here](https://manage.kmail-lists.com/subscriptions/unsubscribe?a=3D=
+PrF5YL&c=3DHWgU4e&k=3D443d2ae14ca7d788641871b715ef000b&g=3DTtYZx4&m=3DRYy9d=
+u&r=3DEpuxEPF).
+--e4ce247b7ca6a85618b009073ef516f3f4d7e42d3502a154e357761330bc
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta content=3D"width=3Ddevice-width, initial-scale=3D1" name=3D"viewport"=
+>
+<title></title>
+<style type=3D"text/css">@media only screen and (max-width:480px){body,tabl=
+e,td,p,a,li,blockquote{-webkit-text-size-adjust:none !important}body{width:=
+100% !important;min-width:100% !important}#bodyCell{padding:10px !important=
+}table.kmMobileHide{display:none !important}table.kmDesktopOnly,td.kmDeskto=
+pOnly,th.kmDesktopOnly,tr.kmDesktopOnly,td.kmDesktopWrapHeaderMobileNone{di=
+splay:none !important}table.kmMobileOnly{display:table !important}tr.kmMobi=
+leOnly{display:table-row !important}td.kmMobileOnly,td.kmDesktopWrapHeader,=
+th.kmMobileOnly{display:table-cell !important}tr.kmMobileNoAlign,table.kmMo=
+bileNoAlign{float:none !important;text-align:initial !important;vertical-al=
+ign:middle !important;table-layout:fixed !important}tr.kmMobileCenterAlign{=
+float:none !important;text-align:center !important;vertical-align:middle !i=
+mportant;table-layout:fixed !important}td.kmButtonCollection{padding-left:9=
+px !important;padding-right:9px !important;padding-top:9px !important;paddi=
+ng-bottom:9px !important}td.kmMobileHeaderStackDesktopNone,img.kmMobileHead=
+erStackDesktopNone,td.kmMobileHeaderStack{display:block !important;margin-l=
+eft:auto !important;margin-right:auto !important;padding-bottom:9px !import=
+ant;padding-right:0 !important;padding-left:0 !important}td.kmMobileWrapHea=
+der,td.kmMobileWrapHeaderDesktopNone{display:inline-block !important}td.kmM=
+obileHeaderSpacing{padding-right:10px !important}td.kmMobileHeaderNoSpacing=
+{padding-right:0 !important}table.kmDesktopAutoWidth{width:inherit !importa=
+nt}table.kmMobileAutoWidth{width:100% !important}table.kmTextContentContain=
+er{width:100% !important}table.kmBoxedTextContentContainer{width:100% !impo=
+rtant}td.kmImageContent{padding-left:0 !important;padding-right:0 !importan=
+t}img.kmImage{width:100% !important}td.kmMobileStretch{padding-left:0 !impo=
+rtant;padding-right:0 !important}table.kmSplitContentLeftContentContainer,t=
+able.kmSplitContentRightContentContainer,table.kmColumnContainer,td.kmVerti=
+calButtonBarContentOuter table.kmButtonBarContent,td.kmVerticalButtonCollec=
+tionContentOuter table.kmButtonCollectionContent,table.kmVerticalButton,tab=
+le.kmVerticalButtonContent{width:100% !important}td.kmButtonCollectionInner=
+{padding-left:9px !important;padding-right:9px !important;padding-top:9px !=
+important;padding-bottom:9px !important}td.kmVerticalButtonIconContent,td.k=
+mVerticalButtonTextContent,td.kmVerticalButtonContentOuter{padding-left:0 !=
+important;padding-right:0 !important;padding-bottom:9px !important}table.km=
+SplitContentLeftContentContainer td.kmTextContent,table.kmSplitContentRight=
+ContentContainer td.kmTextContent,table.kmColumnContainer td.kmTextContent,=
+table.kmSplitContentLeftContentContainer td.kmImageContent,table.kmSplitCon=
+tentRightContentContainer td.kmImageContent{padding-top:9px !important}td.r=
+owContainer.kmFloatLeft,td.rowContainer.kmFloatLeft,td.rowContainer.kmFloat=
+Left.firstColumn,td.rowContainer.kmFloatLeft.firstColumn,td.rowContainer.km=
+FloatLeft.lastColumn,td.rowContainer.kmFloatLeft.lastColumn{float:left;clea=
+r:both;width:100% !important}table.templateContainer,table.templateContaine=
+r.brandingContainer,div.templateContainer,div.templateContainer.brandingCon=
+tainer,table.templateRow{max-width:600px !important;width:100% !important}h=
+1{font-size:40px !important;line-height:1.1 !important}h2{font-size:32px !i=
+mportant;line-height:1.1 !important}h3{font-size:24px !important;line-heigh=
+t:1.1 !important}h4{font-size:18px !important;line-height:1.1 !important}td=
+.kmTextContent{font-size:14px !important;line-height:1.3 !important}td.kmTe=
+xtBlockInner td.kmTextContent{padding-right:18px !important;padding-left:18=
+px !important}table.kmTableBlock.kmTableMobile td.kmTableBlockInner{padding=
+-left:9px !important;padding-right:9px !important}table.kmTableBlock.kmTabl=
+eMobile td.kmTableBlockInner .kmTextContent{font-size:14px !important;line-=
+height:1.3 !important;padding-left:4px !important;padding-right:4px !import=
+ant}}</style>
+<!--[if mso]>
+    <style>
+     =20
+      .templateContainer {
+        border: 1px solid #AAAAAA;
+        background-color: #FFFFFF;
+       =20
+          border-radius: 11px;
+       =20
+      }
+      #brandingContainer {
+        background-color: transparent !important;
+        border: 0;
+      }
+     =20
+     =20
+      .templateContainerInner {
+        padding: 0px;
+      }
+     =20
+    </style>
+  <![endif]-->
+<style>span.yshortcuts:hover {background-color:none !important;border:none =
+!important}
+span.yshortcuts:active {background-color:none !important;border:none !impor=
+tant}
+span.yshortcuts:focus {background-color:none !important;border:none !import=
+ant}
+.rowContainer .kmTextContent a:link {color:#15C;font-weight:normal;text-dec=
+oration:underline}
+.rowContainer .kmTextContent a:visited {color:#15C;font-weight:normal;text-=
+decoration:underline}
+.kmTable .kmTableRow:last-child > td {border-bottom:none !important}</style=
+></head>
+<body style=3D"margin:0; padding:0; background-color:#FFF">
+
+
+<center>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" da=
+ta-upload-file-url=3D"/ajax/email-editor/file/upload" data-upload-files-url=
+=3D"/ajax/email-editor/files/upload" id=3D"bodyTable" style=3D"border-colla=
+pse:collapse; mso-table-lspace:0; mso-table-rspace:0; table-layout:auto; ma=
+rgin:0; padding:0; background-color:#FFF; height:100%; width:100%" width=3D=
+"100%">
+<tbody>
+<tr>
+<td align=3D"center" id=3D"bodyCell" style=3D"border-collapse:collapse; mso=
+-table-lspace:0; mso-table-rspace:0; table-layout:auto; margin:0; border-to=
+p:0; padding-bottom:20px; padding-left:20px; padding-right:20px; padding-to=
+p:30px; height:100%; width:100%" valign=3D"top">
+<!--[if !mso]><!-->
+<div class=3D"templateContainer" style=3D"background-color:#FFF; border:1px=
+ solid #AAA; border-radius:11px; border-collapse:separate; display:table; w=
+idth:600px">
+<div class=3D"templateContainerInner" style=3D"padding:0">
+<!--<![endif]-->
+<!--[if mso]>
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"templateContainer"  width=3D"600" style=3D"border-collapse:collapse;mso=
+-table-lspace:0;mso-table-rspace:0;">
+              <tbody>
+                <tr>
+                  <td class=3D"templateContainerInner" style=3D"border-coll=
+apse:collapse;mso-table-lspace:0;mso-table-rspace:0;">
+            <![endif]-->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-col=
+lapse:collapse; mso-table-lspace:0; mso-table-rspace:0; table-layout:fixed"=
+ width=3D"100%">
+<tr>
+<td align=3D"center" style=3D"border-collapse:collapse; mso-table-lspace:0;=
+ mso-table-rspace:0; table-layout:fixed" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"templateRo=
+w" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"rowContainer kmFloatLeft" style=3D"border-collapse:collapse; m=
+so-table-lspace:0; mso-table-rspace:0; table-layout:fixed" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmTextBloc=
+k" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody class=3D"kmTextBlockOuter">
+<tr>
+<td class=3D"kmTextBlockInner" style=3D"border-collapse:collapse; mso-table=
+-lspace:0; mso-table-rspace:0; table-layout:fixed" valign=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmTextContentContainer" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"kmTextContent" style=3D"border-collapse:collapse; mso-table-ls=
+pace:0; mso-table-rspace:0; table-layout:fixed; color:#222; font-family:&qu=
+ot;Helvetica Neue&quot;, Arial; font-size:14px; letter-spacing:0; line-heig=
+ht:1.3; max-width:100%; text-align:left; word-wrap:break-word; padding-top:=
+0; padding-bottom:0; padding-left:18px; padding-right:18px" valign=3D"top">
+<div style=3D"padding: 0;">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse:collapse; mso-table-lspace:0;=
+ mso-table-rspace:0; table-layout:fixed" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"templateRo=
+w" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"rowContainer kmFloatLeft" style=3D"border-collapse:collapse; m=
+so-table-lspace:0; mso-table-rspace:0; table-layout:fixed" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmTextBloc=
+k" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody class=3D"kmTextBlockOuter">
+<tr>
+<td class=3D"kmTextBlockInner" style=3D"border-collapse:collapse; mso-table=
+-lspace:0; mso-table-rspace:0; table-layout:fixed" valign=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmTextContentContainer" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"kmTextContent" style=3D"border-collapse:collapse; mso-table-ls=
+pace:0; mso-table-rspace:0; table-layout:fixed; color:#222; font-family:&qu=
+ot;Helvetica Neue&quot;, Arial; font-size:14px; letter-spacing:0; line-heig=
+ht:1.3; max-width:100%; text-align:left; word-wrap:break-word; padding-top:=
+0; padding-bottom:0; padding-left:18px; padding-right:18px" valign=3D"top">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmTextBloc=
+k" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody class=3D"kmTextBlockOuter">
+<tr>
+<td class=3D"kmTextBlockInner" style=3D"border-collapse:collapse; mso-table=
+-lspace:0; mso-table-rspace:0; table-layout:fixed; background-color:#FFF" v=
+align=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmTextContentContainer" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"kmTextContent" style=3D"border-collapse:collapse; mso-table-ls=
+pace:0; mso-table-rspace:0; table-layout:fixed; color:#222; font-family:&qu=
+ot;Helvetica Neue&quot;, Arial; font-size:14px; letter-spacing:0; line-heig=
+ht:1.3; max-width:100%; text-align:left; word-wrap:break-word; border-style=
+:solid; padding-bottom:11px; border-color:#FFF; padding-right:1px; padding-=
+left:1px; padding-top:11px; border-width:30px" valign=3D"top">
+<h4 style=3D"display:block; font-family:&quot;Helvetica Neue&quot;, Arial; =
+font-size:18px; font-style:normal; font-weight:italic; letter-spacing:0; li=
+ne-height:1.1; margin-bottom:9px; margin-left:0; margin-right:0; margin-top=
+:0; text-align:left; color:#222"><span id=3D"docs-internal-guid-b23dca84-7f=
+ff-65bc-67b3-966571bb8b55"></span></h4>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:11pt; padding-bottom:1em; line-height:1.38; padding:0 0 11pt"><span=
+ style=3D"color:#000000;"><span id=3D"docs-internal-guid-b23dca84-7fff-65bc=
+-67b3-966571bb8b55"><span style=3D"font-size: 11pt; font-family: Roboto, sa=
+ns-serif; background-color: transparent; font-variant-numeric: normal; font=
+-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wra=
+p;">Hi Nigel,</span></span></span></p>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:11pt; padding-bottom:1em; line-height:1.38; padding:0 0 11pt"><span=
+ style=3D"background-color: transparent;"><font color=3D"#000000" face=3D"A=
+rial"><span style=3D"font-size: 11pt; white-space: pre-wrap;">Over the past=
+ few weeks, we've been receiving a TON of love all over social media ever s=
+ince a tweet went viral. The tweet recognized the life changing value we've=
+ been providing to travelers over the years. It has been rewarding and refr=
+eshing to see our community of travelers come together and continuously sha=
+re their positive Airfordable booking experiences on social. </span><span s=
+tyle=3D"font-size: 14.6667px; white-space: pre-wrap;">We're forever gratefu=
+l for all of our new and existing customers! </span><span style=3D"font-siz=
+e: 11pt; white-space: pre-wrap;">=E2=9D=A4=EF=B8=8F</span></font></span></p=
+>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:11pt; padding-bottom:1em; line-height:1.38; padding:0 0 11pt"><span=
+ style=3D"background-color: transparent; color: rgb(0, 0, 0); font-family: =
+Arial; font-size: 11pt; white-space: pre-wrap;"></span><span style=3D"backg=
+round-color: transparent; color: rgb(0, 0, 0); font-family: Arial; font-siz=
+e: 11pt; white-space: pre-wrap;">With summer officially here, we are excite=
+d to share some of our favorite travel ideas for July and see more stories =
+of your adventures like Jen, who is seen below. She's one of our loyal and =
+avid travelers who has been globetrotting around the world </span><a href=
+=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQdjtNuMX9XLARjyLQP=
+XnDgfkeWnxyNCEMSRmYtMtbhkHP3LzFHlEZBPrC77Ie6ckVADCNSPZDCXiAiKSIcGFSM3mp1fQ7=
+mXvicrX5PuPgsAbXeRgbuN-2B6zvI6j4bX76sdbbhFbmFth7yVByQ2b1U4mEuSORFA1SYGrs-2F=
+bkYyx227ZnhhZLq46_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb265Jss6=
+8TplXqckFlh37R393AsdNuAuJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2HWrrqwe=
+SOVUMZTSwaafG7TafrnQVUo35fR8ZwECluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJRa4kn4o=
+YVioy7aFEXZiuk-2FKXfDNfgjgJij3boyVvNYcuHrNfAPfG7Trq-2BuV6vlLZPptqEgdBOaIw2q=
+UjqXeiHBwo49i90cQ7BiI9Z7tA1hG5tOnlfKGU2bjMxHiDdKbrphzQfxAA61xe5XR6xOwCIuN4F=
+-2B1O2qsNsFST4U6eZMozFf1MLAujmxOa5Dl5YO8D-2FDo1Urk6hRs0m51UeSK3TTa94w-3D-3D=
+" style=3D"max-width:100%; color:#15C; font-weight:normal; text-decoration:=
+underline; word-wrap:break-word; background-color:transparent; font-family:=
+Arial; white-space:pre-wrap; font-size:14.6667px">here</a><span style=3D"ba=
+ckground-color: transparent; color: rgb(0, 0, 0); font-family: Arial; font-=
+size: 11pt; white-space: pre-wrap;"> with the help of Airfordable since 201=
+6!</span></p>
+<div><span id=3D"docs-internal-guid-d916f5a3-7fff-16fa-0093-bf278763e5ca"><=
+span style=3D"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); bac=
+kground-color: transparent; font-variant-numeric: normal; font-variant-east=
+-asian: normal; vertical-align: baseline; white-space: pre-wrap;"></span></=
+span></div>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:0; padding-bottom:1em; line-height:1.38"><span><span style=3D"font-=
+size: 11pt; font-family: Roboto, sans-serif; color: rgb(17, 17, 17); font-v=
+ariant-numeric: normal; font-variant-east-asian: normal; vertical-align: ba=
+seline; white-space: pre-wrap;"></span></span><span style=3D"background-col=
+or: transparent; color: rgb(52, 54, 58); font-family: Roboto, sans-serif; f=
+ont-size: 11pt; white-space: pre-wrap;"></span></p>
+<div><span id=3D"docs-internal-guid-87fbae18-7fff-e1b3-749e-2901ca1da5c3"><=
+span style=3D"font-size: 11pt; font-family: Roboto, sans-serif; color: rgb(=
+52, 54, 58); background-color: transparent; font-variant-numeric: normal; f=
+ont-variant-east-asian: normal; vertical-align: baseline; white-space: pre-=
+wrap;"></span></span></div>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:0; padding-bottom:0; line-height:1.38"><span style=3D"background-co=
+lor: transparent; color: rgb(52, 54, 58); font-family: Roboto, sans-serif; =
+font-size: 11pt; white-space: pre-wrap;"></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmImageBlo=
+ck" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace=
+:0; table-layout:fixed; min-width:100%" width=3D"100%">
+<tbody class=3D"kmImageBlockOuter">
+<tr>
+<td class=3D"kmImageBlockInner" style=3D"border-collapse:collapse; mso-tabl=
+e-lspace:0; mso-table-rspace:0; table-layout:fixed; padding:0; padding-left=
+:9; padding-right:9" valign=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmImageContentContainer" style=3D"border-collapse:collapse; mso-table-=
+lspace:0; mso-table-rspace:0; table-layout:fixed; min-width:100%" width=3D"=
+100%">
+<tbody>
+<tr>
+<td class=3D"kmImageContent" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed; font-size:0; padding:0; te=
+xt-align:center" valign=3D"top">
+<a href=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQdjtNuMX9XL=
+ARjyLQPXnDgfkeWnxyNCEMSRmYtMtbhkHP3LzFHlEZBPrC77Ie6ckVADCNSPZDCXiAiKSIcGFSM=
+3mp1fQ7mXvicrX5PuPgsAbXeRgbuN-2B6zvI6j4bX76sdbbhFbmFth7yVByQ2b1U4mEuSORFA1S=
+YGrs-2FbkYyx227ZnhhZKcgC_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb=
+265Jss68TplXqckFlh37R393AsdNuAuJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2=
+HWrrqweSOVUMZTSwaafG7TafrnQVUo35fR8ZwECluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJ=
+Ra4kn4oYVioy7aFEXZiuk-2FKXfIde6P6YN8cuL-2BNKmbhfKweATuT-2BErs58eFMuZIWcflxU=
+q9EFP74IUSblu0vh1ROqv0NC-2FjV-2BATUF4RTRMQZb4JmCSgq8CdTa1YeatTlhZo-2FCqUK0o=
+zEGk-2F1qKBwQ4IHQCrzh5CDkaTulzTBcSLPw5q5ZOSyABKix9l-2BT6ZrFV-2BRLbaZm8-2FXr=
+KdsRo003f6rVA-3D-3D" style=3D"max-width:100%; word-wrap:break-word" target=
+=3D"_self">
+<img align=3D"center" alt=3D"" class=3D"kmImage" src=3D"https://d3k81ch9hvu=
+ctc.cloudfront.net/company/PrF5YL/images/76f223db-e99b-45f1-a37d-e2e1e029e6=
+70.gif" style=3D"border:0; height:auto; line-height:100%; max-width:432px; =
+outline:none; text-decoration:none; font-size:12px; padding-bottom:0; verti=
+cal-align:top; width:100%; border-radius:10px 10px 0 0; display:inline; pad=
+ding:0; border-width:0" width=3D"432">
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmTextBloc=
+k" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody class=3D"kmTextBlockOuter">
+<tr>
+<td class=3D"kmTextBlockInner" style=3D"border-collapse:collapse; mso-table=
+-lspace:0; mso-table-rspace:0; table-layout:fixed; background-color:#FFF" v=
+align=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmTextContentContainer" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"kmTextContent" style=3D"border-collapse:collapse; mso-table-ls=
+pace:0; mso-table-rspace:0; table-layout:fixed; color:#222; font-family:&qu=
+ot;Helvetica Neue&quot;, Arial; font-size:14px; letter-spacing:0; line-heig=
+ht:1.3; max-width:100%; text-align:left; word-wrap:break-word; border-style=
+:solid; padding-bottom:11px; border-color:#FFF; padding-right:1px; padding-=
+left:1px; padding-top:11px; border-width:30px" valign=3D"top">
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em"><span id=3D"docs-internal-guid-948c4a69-7fff-afa6-d44b-0=
+1d507a9bb09"></span><span style=3D"color: rgb(0, 0, 0); font-family: Arial;=
+ font-size: 14.6667px; white-space: pre-wrap;">On to some travel ideas for =
+July to kick off your summer: </span></p>
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em">&nbsp;</p>
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em"><span style=3D"background-color: transparent; font-size:=
+ 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700; font-vari=
+ant-numeric: normal; font-variant-east-asian: normal; vertical-align: basel=
+ine; white-space: pre-wrap;">Let freedom ring on 4th of July </span><span s=
+tyle=3D"background-color: transparent; font-size: 11pt; font-family: Arial;=
+ color: rgb(0, 0, 0); font-variant-numeric: normal; font-variant-east-asian=
+: normal; vertical-align: baseline; white-space: pre-wrap;">=F0=9F=87=BA=F0=
+=9F=87=B8</span></p>
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em"><span style=3D"background-color: transparent; font-size:=
+ 11pt; font-family: Arial; color: rgb(0, 0, 0); font-variant-numeric: norma=
+l; font-variant-east-asian: normal; vertical-align: baseline; white-space: =
+pre-wrap;">I</span><font color=3D"#000000" face=3D"Arial"><span style=3D"fo=
+nt-size: 14.6667px; white-space: pre-wrap;">ndependence</span></font><span =
+style=3D"background-color: transparent; color: rgb(0, 0, 0); font-family: A=
+rial; font-size: 11pt; white-space: pre-wrap;"> Day festivals are bound to =
+be extra celebratory anywhere you go this year as cities become fully re-op=
+ened. To promote social distancing, New York City is spreading people apart=
+ by having its fireworks and festivities occur over several nights this upc=
+oming weekend. While freedom may not be free, Nashville=E2=80=99s &quot;Let=
+ Freedom Sing!&quot; musical event is! Music City is coming out in full for=
+ce for this festival with the largest fireworks show in Nashville's history=
+ including performances by the Nashville Symphony, and a set by a host of l=
+egendary musicians.</span></p>
+<div><span id=3D"docs-internal-guid-948c4a69-7fff-afa6-d44b-01d507a9bb09"><=
+span style=3D"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); bac=
+kground-color: transparent; font-variant-numeric: normal; font-variant-east=
+-asian: normal; vertical-align: baseline; white-space: pre-wrap;"></span></=
+span></div>
+<div><span style=3D"background-color: transparent; font-size: 11pt; font-fa=
+mily: Arial; color: rgb(0, 0, 0); font-weight: 700; font-variant-numeric: n=
+ormal; font-variant-east-asian: normal; vertical-align: baseline; white-spa=
+ce: pre-wrap;">Shout =E2=80=9Cvive la France=E2=80=9D this Bastille Day</sp=
+an><span style=3D"background-color: transparent; font-size: 11pt; font-fami=
+ly: Arial; color: rgb(0, 0, 0); font-variant-numeric: normal; font-variant-=
+east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> </sp=
+an><span style=3D"background-color: transparent; font-size: 21pt; font-fami=
+ly: &quot;Helvetica Neue&quot;, sans-serif; color: rgb(0, 0, 0); font-varia=
+nt-numeric: normal; font-variant-east-asian: normal; vertical-align: baseli=
+ne; white-space: pre-wrap;">=F0=9F=97=BC</span><span style=3D"background-co=
+lor: transparent; font-size: 21pt; font-family: &quot;Helvetica Neue&quot;,=
+ sans-serif; color: rgb(0, 0, 0); font-weight: 700; font-variant-numeric: n=
+ormal; font-variant-east-asian: normal; vertical-align: baseline; white-spa=
+ce: pre-wrap;">&nbsp;</span></div>
+<div><span><span style=3D"font-size: 21pt; font-family: &quot;Helvetica Neu=
+e&quot;, sans-serif; color: rgb(0, 0, 0); background-color: transparent; fo=
+nt-weight: 700; font-variant-numeric: normal; font-variant-east-asian: norm=
+al; vertical-align: baseline; white-space: pre-wrap;"></span></span><span s=
+tyle=3D"background-color: transparent; font-size: 11pt; font-family: Arial;=
+ color: rgb(0, 0, 0); font-variant-numeric: normal; font-variant-east-asian=
+: normal; vertical-align: baseline; white-space: pre-wrap;">French food, Fr=
+ench cinema, French art, French wine, French Bulldogs...we love all things =
+French. Unfortunately, it=E2=80=99s still tricky to travel to Europe, so th=
+is year we will be getting our French fix by celebrating the French Nationa=
+l Day </span><span style=3D"font-size: 10.5pt; font-family: Arial; color: r=
+gb(32, 33, 34); font-weight: 700; font-style: italic; font-variant-numeric:=
+ normal; font-variant-east-asian: normal; vertical-align: baseline; white-s=
+pace: pre-wrap;">F=C3=AAte nationale</span><span style=3D"background-color:=
+ transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; vertical-align:=
+ baseline; white-space: pre-wrap;"> (aka Bastille Day) on July 14th in the =
+States. You can book a stay at Paris Las Vegas casino and hotel for some Pa=
+risian poker, or channel Bordeaux while samping world class food and wine&n=
+bsp;in Napa, CA. Of course, nothing can beat spending the day soaking in th=
+e culture and history of the New Orleans French Quarter. Berets, beignets, =
+and bayous, c=E2=80=99est tres bien!</span></div>
+<div>
+<div><span id=3D"docs-internal-guid-9fadb3ad-7fff-2de2-04d7-13e7ef1dce00"><=
+span style=3D"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); bac=
+kground-color: transparent; font-variant-numeric: normal; font-variant-east=
+-asian: normal; vertical-align: baseline; white-space: pre-wrap;"></span></=
+span></div>
+<div>&nbsp;</div>
+<div><span style=3D"background-color: transparent; font-size: 11pt; font-fa=
+mily: Arial; color: rgb(0, 0, 0); font-weight: 700; font-variant-numeric: n=
+ormal; font-variant-east-asian: normal; vertical-align: baseline; white-spa=
+ce: pre-wrap;">Celebrate friendship!</span><span style=3D"background-color:=
+ transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; vertical-align:=
+ baseline; white-space: pre-wrap;"> =F0=9F=91=AF=E2=80=8D=E2=99=80=EF=B8=8F=
+</span></div>
+<div>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:0; padding-bottom:1em; line-height:1.38"><span><span style=3D"font-=
+size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: tran=
+sparent; font-variant-numeric: normal; font-variant-east-asian: normal; ver=
+tical-align: baseline; white-space: pre-wrap;"></span></span><span style=3D=
+"background-color: transparent; color: rgb(0, 0, 0); font-family: Arial; fo=
+nt-size: 11pt; white-space: pre-wrap;">Created by Hallmark in 1919 as an ex=
+cuse for friends to send each other greeting cards, International Friendshi=
+p is set to be on July 30th this year. The holiday is meant to encourage fr=
+iends from all over the world to reconnect however they see fit. After a ye=
+ar of social distancing and limited travel, we think it=E2=80=99s time to r=
+econnect IRL with a besties trip to your favorite vacation spot. Soak in th=
+e sun in one of 11 towns named Friendship in Jamaica, or pig out on lobster=
+ in Friendship, ME.&nbsp;</span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:0; padding-bottom:1em; line-height:1.38"><span id=3D"docs-internal-=
+guid-2a336bfb-7fff-57eb-865e-4d51a25aa549"><span style=3D"font-size: 11pt; =
+font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; vertical-align:=
+ baseline; white-space: pre-wrap;">Keeping you traveling is what keeps us g=
+oing! S</span></span><span style=3D"background-color: transparent; color: r=
+gb(0, 0, 0); font-family: Arial; font-size: 11pt; white-space: pre-wrap;">o=
+ let's</span><span style=3D"background-color: transparent; color: rgb(0, 0,=
+ 0); font-family: Arial; font-size: 11pt; white-space: pre-wrap;"> be frien=
+ds on social media </span><span style=3D"background-color: transparent; col=
+or: rgb(0, 0, 0); font-family: Arial; font-size: 11pt; white-space: pre-wra=
+p;"><a href=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQdjtNuJ=
+ZUl4dP-2FZov-2BNlKIf7Fdpbp8mmQYkip7tZKaPqj154n53uMRoPX8CfhqEUoPWlxcEbn2FXzW=
+T9SVGoykTeV5Ukn1zetXpi3Blu-2F0vpFk1ThFIWibuEeIkxKiMgQzBCEcA-3D-3Dv5oM_7KaMw=
+kvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb265Jss68TplXqckFlh37R393AsdNuA=
+uJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQVUo=
+35fR8ZwECluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXfLjl=
+tZbsZbXyXUylIecb32GLO2k4NTupJitrvV4h-2FRuoR0goThjHJUfXkZMPfPMWi36E13EDOuwkp=
+ARN44NjQmsOlDU2EHFGHh7btMzZkuPfjxqt43wEf2Oq-2FyBBZTivgJiWD82tUmlW4V5-2Fqy-2=
+BzSxR0UUOduf0t64r5IzAA0SZBGP163-2FhSLqJ-2Bjqi9oEmZhg-3D-3D" style=3D"max-wi=
+dth:100%; color:#15C; font-weight:normal; text-decoration:underline; word-w=
+rap:break-word">here</a> and </span><span style=3D"background-color: transp=
+arent; color: rgb(0, 0, 0); font-family: Arial; font-size: 11pt; white-spac=
+e: pre-wrap;">tag us in your travel posts. </span><span style=3D"background=
+-color: transparent; color: rgb(0, 0, 0); font-family: Arial; font-size: 11=
+pt; white-space: pre-wrap;"> Remember, wherever you go this summer, we=E2=
+=80=99re here to help you get there!</span></p>
+<div><span id=3D"docs-internal-guid-2a336bfb-7fff-57eb-865e-4d51a25aa549"><=
+span style=3D"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); bac=
+kground-color: transparent; font-variant-numeric: normal; font-variant-east=
+-asian: normal; vertical-align: baseline; white-space: pre-wrap;"></span></=
+span></div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmButtonBl=
+ock" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspac=
+e:0; table-layout:fixed; width:100%" width=3D"100%">
+<tbody class=3D"kmButtonBlockOuter">
+<tr>
+<td align=3D"center" class=3D"kmButtonBlockInner" style=3D"border-collapse:=
+collapse; mso-table-lspace:0; mso-table-rspace:0; table-layout:fixed; min-w=
+idth:60px; padding:9px 18px; padding-top:9; padding-bottom:9; padding-left:=
+18; padding-right:18" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmButtonCo=
+ntentContainer" style=3D"border-collapse:separate; mso-table-lspace:0; mso-=
+table-rspace:0; table-layout:fixed; background-color:#15c; border-bottom-le=
+ft-radius:5px; border-bottom-right-radius:5px; border-top-left-radius:5px; =
+border-top-right-radius:5px; border-radius:5px; min-width:100%" width=3D"10=
+0%">
+<tbody>
+<tr>
+<!--[if !mso]><!-->
+<td align=3D"center" class=3D"kmButtonContent" style=3D"border-collapse:col=
+lapse; mso-table-lspace:0; mso-table-rspace:0; table-layout:fixed; color:#F=
+FF; font-family:&quot;Helvetica Neue&quot;, Arial; font-size:16px; letter-s=
+pacing:0; font-weight:bold" valign=3D"middle">
+<a class=3D"kmButton" href=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFp=
+mnA0nTIVQdjtNuLKh0vqYb632uoXT-2F6e7o2oJ-2BT0StPJdussBwmB2T-2FN28zHM0yt6o5hY=
+iW-2BhJQ7NESqd-2BVub-2FqLA17o5eS5JrbLkUL-2Fos8EzZcHDI-2FxLuJ6WxySTnscsQ-2BM=
+gVSapzgrgvg-3D-3Dc1lH_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb265=
+Jss68TplXqckFlh37R393AsdNuAuJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2HWr=
+rqweSOVUMZTSwaafG7TafrnQVUo35fR8ZwECluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJRa4=
+kn4oYVioy7aFEXZiuk-2FKXfAYeFj142oXXz-2FW2dWgCNT4aLSUsoCNiMOHcU4FaQ-2F-2FSD-=
+2BaWM1NpL7DU711Vs5ftRnnm-2BOE-2FqFZrIwN5L5-2BRmWvdHilGwADblhslmlh-2B7JY7eeM=
+B0q15ZpX8dLyfyArpkBnGcvUfPxN2jxUDF2-2FkKreMTiY1C6orVSHRBgmXU4TkRP30w6T0acM0=
+hBS7CjWziw-3D-3D" style=3D"max-width:100%; color:#FFF; font-family:&quot;He=
+lvetica Neue&quot;, Arial; font-size:16px; font-weight:bold; line-height:10=
+0%; text-align:center; text-decoration:none; word-wrap:break-word; display:=
+inline-block; width:100%; padding-top:15px; padding-bottom:15px; letter-spa=
+cing:0" target=3D"_self" title=3D""> Book a Trip</a>
+</td>
+<!--<![endif]-->
+<!--[if mso]>
+<td align=3D"center" valign=3D"middle" class=3D"kmButtonContent"
+  style=3D"padding:15px; padding-top:15px;padding-bottom:15px;font-size:16p=
+x;color:#FFFFFF;letter-spacing:0px;font-weight:bold;padding-left:15px;paddi=
+ng-right:15px;font-family:&quot;Helvetica Neue&quot;, Arial;">
+  <a class=3D"kmButton" title=3D"" href=3D"http://trk.klclick.com/ls/click?=
+upn=3DLWnUDFpmnA0nTIVQdjtNuLKh0vqYb632uoXT-2F6e7o2oJ-2BT0StPJdussBwmB2T-2FN=
+28zHM0yt6o5hYiW-2BhJQ7NESqd-2BVub-2FqLA17o5eS5JrbLkUL-2Fos8EzZcHDI-2FxLuJ6W=
+xySTnscsQ-2BMgVSapzgrgvg-3D-3DIVjS_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2=
+FD1w5I8kXb265Jss68TplXqckFlh37R393AsdNuAuJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYW=
+Bo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQVUo35fR8ZwECluQyn5wjoWdK7psagjKr2nY7yO=
+re-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXfO0AudmCxUHXK-2B7FcEQEu7W-2BbXHJVhwVzyj=
+OAicGIhXhRjqr-2FH9Dc9Jw-2F8dovlmQWaRGMcWlNgRCD3XpTm1nnfECe1c9RILnjb23hZL3fk=
+XHl0Y88JwBc9w-2B9RW40pHbWdxqbPvYJrsr6LhNyKwaKUDc-2BBdIphXDIvfZM-2FU5CZwz1g3=
+nfuVOUdwRd6aSpQUtlw-3D-3D" target=3D"_self" style=3D'text-decoration:none;p=
+adding-top:15px;padding-bottom:15px;font-size:16px;color:#FFFFFF;letter-spa=
+cing:0px;font-weight:bold;padding-left:15px;padding-right:15px;font-family:=
+"Helvetica Neue", Arial;; margin-top:-15px;margin-bottom:-15px;margin-left:=
+-15px;margin-right:-15px;'> Book a Trip</a>
+</td>
+<![endif]-->
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmTextBloc=
+k" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody class=3D"kmTextBlockOuter">
+<tr>
+<td class=3D"kmTextBlockInner" style=3D"border-collapse:collapse; mso-table=
+-lspace:0; mso-table-rspace:0; table-layout:fixed; background-color:#FFF" v=
+align=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmTextContentContainer" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"kmTextContent" style=3D"border-collapse:collapse; mso-table-ls=
+pace:0; mso-table-rspace:0; table-layout:fixed; color:#222; font-family:&qu=
+ot;Helvetica Neue&quot;, Arial; font-size:14px; letter-spacing:0; line-heig=
+ht:1.3; max-width:100%; text-align:left; word-wrap:break-word; border-style=
+:solid; padding-bottom:11px; border-color:#FFF; padding-right:1px; padding-=
+left:1px; padding-top:11px; border-width:30px" valign=3D"top">
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em"><span id=3D"docs-internal-guid-da6a8cf9-7fff-352d-154f-e=
+1c47a2b385c"></span></p>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:11pt; padding-bottom:1em; line-height:1.38; padding:0 0 11pt"><span=
+ style=3D"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-siz=
+e: 11pt; white-space: pre-wrap;">Happy Travels! =E2=9C=88=EF=B8=8F</span></=
+p>
+<div><span id=3D"docs-internal-guid-ec73d8f8-7fff-fb2e-ecf7-ea4b98db7f04"><=
+span style=3D"font-size: 11pt; font-family: Roboto, sans-serif; color: rgb(=
+52, 54, 58); background-color: transparent; font-variant-numeric: normal; f=
+ont-variant-east-asian: normal; vertical-align: baseline; white-space: pre-=
+wrap;"></span></span></div>
+<p dir=3D"ltr" style=3D"margin-bottom:0; margin-left:0; margin-right:0; mar=
+gin-top:0; padding-bottom:1em; line-height:1.38; padding:0 0 11pt"><span id=
+=3D"docs-internal-guid-b23dca84-7fff-65bc-67b3-966571bb8b55"><span style=3D=
+"font-size: 11pt; font-family: Roboto, sans-serif; color: rgb(52, 54, 58); =
+background-color: transparent; font-variant-numeric: normal; font-variant-e=
+ast-asian: normal; vertical-align: baseline; white-space: pre-wrap;"></span=
+></span></p>
+<p dir=3D"ltr" style=3D"margin-bottom:11pt; margin-left:0; margin-right:0; =
+margin-top:0; padding-bottom:1em; line-height:1.38"><span id=3D"docs-intern=
+al-guid-b23dca84-7fff-65bc-67b3-966571bb8b55"><span style=3D"font-size: 11p=
+t; font-family: Roboto, sans-serif; color: rgb(52, 54, 58); background-colo=
+r: transparent; font-variant-numeric: normal; font-variant-east-asian: norm=
+al; vertical-align: baseline; white-space: pre-wrap;">The Airfordable Team =
+</span></span></p>
+<p dir=3D"ltr" style=3D"margin-bottom:11pt; margin-left:0; margin-right:0; =
+margin-top:0; padding-bottom:1em; line-height:1.38"><span id=3D"docs-intern=
+al-guid-da6a8cf9-7fff-352d-154f-e1c47a2b385c"><span style=3D"font-size: 11p=
+t; font-family: Roboto, sans-serif; color: rgb(52, 54, 58); background-colo=
+r: transparent; font-variant-numeric: normal; font-variant-east-asian: norm=
+al; vertical-align: baseline; white-space: pre-wrap;"></span></span></p>
+<div><span id=3D"docs-internal-guid-da6a8cf9-7fff-352d-154f-e1c47a2b385c"><=
+span style=3D"font-size: 11pt; font-family: Roboto, sans-serif; color: rgb(=
+52, 54, 58); background-color: transparent; font-variant-numeric: normal; f=
+ont-variant-east-asian: normal; vertical-align: baseline; white-space: pre-=
+wrap;"></span></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"kmTextBloc=
+k" style=3D"border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:=
+0; table-layout:fixed" width=3D"100%">
+<tbody class=3D"kmTextBlockOuter">
+<tr>
+<td class=3D"kmTextBlockInner kmMobileStretch" style=3D"border-collapse:col=
+lapse; mso-table-lspace:0; mso-table-rspace:0; table-layout:fixed" valign=
+=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"kmTextContentContainer" style=3D"border-collapse:collapse; mso-table-l=
+space:0; mso-table-rspace:0; table-layout:fixed" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"kmTextContent" style=3D"border-collapse:collapse; mso-table-ls=
+pace:0; mso-table-rspace:0; table-layout:fixed; color:#AAA; font-family:&qu=
+ot;Helvetica Neue&quot;, Arial; font-size:13px; letter-spacing:0; line-heig=
+ht:1.3; max-width:100%; text-align:left; word-wrap:break-word; border-style=
+:solid; padding-bottom:0; border-color:#000; padding-right:0; padding-left:=
+0; padding-top:0; border-width:0" valign=3D"top">
+<div style=3D"border: solid 30px #000000; background-color: #000000; border=
+-radius: 0 0 10px 10px">
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em">This message was mailed to you&nbsp;at <a style=3D"max-w=
+idth:100%; color:#aaa; font-weight:bold; text-decoration:none; word-wrap:br=
+eak-word">nigel.agwah@outlook.com</a> from Airfordable as part of your Airf=
+ordable account. To change your email preferences at any time, please visit=
+ the <a href=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQdjtNu=
+LKh0vqYb632uoXT-2F6e7o2on8eLWOAOIQuTFGdiG08Wq9HS-2Frw3DDk2hcsMubit6LoGD-2Ff=
+hDH50-2Fr8UbWBJaqkV8gnBmqOszrPbzSEZ-2BfeZIBAiC2zaBApa70gWLg-2B9IC4UL38NdL1A=
+6VaMbAdFWAVJcm9t9eZ1f8wmQx2dof2G4nrhdmappH0DqytIYlSvL5A-3D-3DqgKf_7KaMwkvSy=
+4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb265Jss68TplXqckFlh37R393AsdNuAuJl-=
+2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQVUo35fR=
+8ZwECluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXfDxFtwlT=
+kBjH8FZja3MZy4lsNah3e-2FAm2GSxtk9H7TkoK2y68JgCAYqrYz5gLlLQJCmK2VcmVhWax1yYY=
+blSHk33VK68N8ZPaDDHCtiHgJndLSJBotmQ5HdCkfGmqLleXc9iudqw5J81CC7WMf-2FnVxrEXg=
+uw8AQTzztmRw7QR-2FPtYOSu99S2dHDDJTRFZ-2BstUw-3D-3D" style=3D"max-width:100%=
+; color:#aaa; font-weight:normal; text-decoration:underline; word-wrap:brea=
+k-word">Communication Settings</a> page for your account</p>
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em">Have questions? Check out our <a href=3D"http://trk.klcl=
+ick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQdjtNuLKh0vqYb632uoXT-2F6e7o2qwCDy13K=
+TVDwFvTJ6n1w66uB17KWo-2FySKz8gGD-2F8ddkm7rki19jsd-2F9kZlY76NDjJ5Icdco-2BjRo=
+iNfwPtix4PsOBB5BNZ2u7rn7GLygjxk2A-3D-3D4j2B_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHF=
+xQm6wbA-2FD1w5I8kXb265Jss68TplXqckFlh37R393AsdNuAuJl-2BPnRUzSqmF3b-2FpCv7CW=
+U-2FQ2KYWBo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQVUo35fR8ZwECluQyn5wjoWdK7psag=
+jKr2nY7yOre-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXfO9pPYO3TwlYXfuQjdgCiQtytHeypJ=
+5nfo1GBDOYqInb0Anb8Id-2BH5cJIrS7x1Fa1YSCbTG-2FAgdpoL8-2FYGeVZLnUpNdxadXnN1A=
+92IWgkR54h5-2FW1Ue6aQRA2xIhE1MTQP9W877O2OyqSUZJlAQxWucG9QKZRbx6ve7h4Q2EVzIY=
+tXeeEEEzkXjN5dQavv-2FG5g-3D-3D" style=3D"max-width:100%; color:#aaa; font-w=
+eight:normal; text-decoration:underline; word-wrap:break-word">FAQ</a> for =
+answers.</p>
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:1em">The use of the Airfordable service and website is subjec=
+t to our <a href=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQd=
+jtNuLKh0vqYb632uoXT-2F6e7o2qmMmI5CbLrQE8JWDbxcDZju1qcYuyZursHC0ejXM4XX9CbCS=
+5XfsAlRRuKMwBYIpHp-2BQCFoYPYE4J2qXElgI0imuuwidbqJLXH8SmCiaCbEQ-3D-3D80sd_7K=
+aMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb265Jss68TplXqckFlh37R393Asd=
+NuAuJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQ=
+VUo35fR8ZwECluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXf=
+AOLNeyKN1dp78QW6ZyM0dTurt9-2BDD14MCoD-2FLFSR-2FPJKEJ7v33NeXMYHI9JQzMr-2Btqj=
+scREWITNs6oXMOPohKTFIB3ri9Y-2Fu5coDSAUq53fg3j2TrPArPnMWygfpO80YBfFWPq5DrJt0=
+j7Gx5dfOLKjZSDdraKyd7MPaTIHedldzctZoqqIxUfdrlu-2BHbG3pA-3D-3D" style=3D"max=
+-width:100%; color:#aaa; font-weight:normal; text-decoration:underline; wor=
+d-wrap:break-word">Terms of Use</a> and <a href=3D"http://trk.klclick.com/l=
+s/click?upn=3DLWnUDFpmnA0nTIVQdjtNuLKh0vqYb632uoXT-2F6e7o2ph-2BCsVauENbPO-2=
+FWotLWoq9ILybw-2Fc-2BYECkWjg8z08GMEpRjjCfUmWtHn2dbctI-2FARADMSU7F5kRux4sig3=
+GdFzNtHpaZV7yedS4uJkdfXPgQ-3D-3DmDZH_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA=
+-2FD1w5I8kXb265Jss68TplXqckFlh37R393AsdNuAuJl-2BPnRUzSqmF3b-2FpCv7CWU-2FQ2K=
+YWBo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQVUo35fR8ZwECluQyn5wjoWdK7psagjKr2nY7=
+yOre-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXfLUVaghgdaspi6f9P0KsMFfUkP-2Bg0nlHmVL=
+x0iEDE5F9JWjEjgBC7oV4r0Z0r-2FIBFaUhx1oiJFPyHdEFsAb7J2QBKjmWvFC90-2B1Q8neqrr=
+UeB-2F2znLosCw1xCsB9Z1uoUtIrvG76MoMeSHS8vsqGNs2eQi94sELe7Q1U3q7AHoAZK9-2Fdk=
+qGMR8RWloT5HdjErw-3D-3D" style=3D"max-width:100%; color:#aaa; font-weight:n=
+ormal; text-decoration:underline; word-wrap:break-word">Privacy Statement.<=
+/a></p>
+<p style=3D"margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; p=
+adding-bottom:0">Airfordable, 1658 Milwaukee Ave #100-3682 Chicago, IL 6064=
+7</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</div>
+</div>
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=E2=80=8C</div>
+<!--<![endif]-->
+<!--[if mso]>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            <![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<center>
+    <br><br><br><br><br>
+    <table align=3D"center" style=3D"text-align:center;background:#fafafa;w=
+idth:100%;" width=3D"100%">
+    <tr>
+        <td align=3D"center" valign=3D"top" style=3D"color:#444;font-family=
+:Helvetica,Arial,sans-serif;font-size:12px;line-height:110%;padding:20px 0;=
+text-align:center;">
+            You received this email from Airfordable.<br>
+            If you would like to unsubscribe, <a class=3D"unsubscribe-link"=
+ style=3D"color:#1155CC;font-weight:normal;text-decoration:underline;" href=
+=3D"http://trk.klclick.com/ls/click?upn=3DLWnUDFpmnA0nTIVQdjtNuCh-2ByWf-2Fy=
+fsAbsbKLxkxVIK3jGgwb2sGUG5Hri9crmhttBPy1TtJyXogETiezGkaiXq-2FjagGw-2FW6wDmP=
+UttyAOIM8-2FPBLkqGLXqT4IaBaH-2BlLO2w7ghOWdqmnhPh-2F7uoBX-2BJ7vSToKy124cWXl5=
+AzarMf0aJ5yPbTd-2BG9WDE9m4ep8-2BUNPUQJ2aafpVjnMfgDA-3D-3D5ZK__7KaMwkvSy4fTk=
+KE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I8kXb265Jss68TplXqckFlh37R393AsdNuAuJl-2BPn=
+RUzSqmF3b-2FpCv7CWU-2FQ2KYWBo5IRyRIU2HWrrqweSOVUMZTSwaafG7TafrnQVUo35fR8ZwE=
+CluQyn5wjoWdK7psagjKr2nY7yOre-2BnzRHJRa4kn4oYVioy7aFEXZiuk-2FKXfP6tBatKVYZN=
+NVoV0qZyTFzifIqRzpbylbHE9G-2B9-2F3jtB9l3kSDgbkuvUi8YEQ13tXlXSo0uWkbnnn8Lbr2=
+yR3PNzlRgqCVXg5LP8DWbcOjaO7mkVsDT49xVPSOMTshE05oWy05BRix-2F8CQFjFb-2BsdrxiW=
+bYASODGWbpelUNB4GOR-2FZyZEk5u38VyRQgMcu5ww-3D-3D">click here</a>.
+        </td>
+    </tr>
+    </table>
+</center>
+<img src=3D"http://trk.klclick.com/wf/open?upn=3D0mwXn0caUjhhJsla-2FkVFKCQl=
+hJqD0AYaLKoZUbYGiHLAjHTSIrbeysNPzp-2F-2BVv-2BwjUEt0BrhdB4m-2FWOdxG-2FEAxVO-=
+2BPmZJc-2BHM4CJo3wIFk-2B90iMVEbw-2BLVShY0r6NVymKMwS2MoNIJXpUr-2FlSfl4PX2fP6=
+sFmIW9-2FHJvn6eyDN2ctX0juPAoLCxC-2B4O-2BI5EZ0rfUkXtkpo6MMBy-2Bd0WdwmiSd6GdS=
+9Nr9hbUxkSE7Cm7OfgLn76rHpiT6nfvwSCMwXuWWXUGkDMQg45yaRNnD5d-2B5-2FGXv2EBKXBC=
+lLi3TRCupN3izYGa-2Fy3l6wLMseKnb-2B08NfZDCcicUbEQHjg9p6KFx8lDHhdxqhLZTRDXEGc=
+LlzK-2FNSAyCJR1MaDviznYdDAj13SP0bYNHAHdZNM8-2Fg-3D-3D" alt=3D"" width=3D"1"=
+ height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !import=
+ant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !impo=
+rtant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !imp=
+ortant;padding-bottom:0 !important;padding-right:0 !important;padding-left:=
+0 !important;"></body>
+</html>=
+
+--e4ce247b7ca6a85618b009073ef516f3f4d7e42d3502a154e357761330bc--

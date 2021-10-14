@@ -1,0 +1,2145 @@
+Received: from VE1EUR03HT066.eop-EUR03.prod.protection.outlook.com
+ (2603:10b6:806:123::8) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7P220CA0003.NAMP220.PROD.OUTLOOK.COM; Mon, 21 Jun 2021 20:26:29
+ +0000
+Received: from VE1EUR03FT042.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:e400:7e09::48) by
+ VE1EUR03HT066.eop-EUR03.prod.protection.outlook.com (2a01:111:e400:7e09::393)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4242.16; Mon, 21 Jun
+ 2021 20:26:26 +0000
+Authentication-Results: spf=pass (sender IP is 167.89.58.174)
+ smtp.mailfrom=mail.announcements.soundcloud.com; outlook.com; dkim=pass
+ (signature was verified) header.d=announcements.soundcloud.com;outlook.com;
+ dmarc=pass action=none header.from=announcements.soundcloud.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ mail.announcements.soundcloud.com designates 167.89.58.174 as permitted
+ sender) receiver=protection.outlook.com; client-ip=167.89.58.174;
+ helo=o128.mail.announcements.soundcloud.com;
+Received: from o128.mail.announcements.soundcloud.com (167.89.58.174) by
+ VE1EUR03FT042.mail.protection.outlook.com (10.152.19.62) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4242.16 via Frontend Transport; Mon, 21 Jun 2021 20:26:26 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:CC2461EBCC10DBF3991A278010CCC0796B9C9CDF7FA0318ED27964B32847A4F1;UpperCasedChecksum:17995358AAD94D500BD499198B11642FF78C75F554057B072327CFF0A1A7F951;SizeAsReceived:4137;Count:15
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=announcements.soundcloud.com;
+	h=content-type:from:mime-version:subject:reply-to:list-unsubscribe:to;
+	s=s1; bh=PTzYFAFPVNJ8W7GDQRnWDR5G7iPS63VUVRLAvyzloyo=;
+	b=RUx0S76nuxIMUSWF8dH9MhySDaiGSQnbY4DxjFTc+Dcc9lQzVSG1WFyyo1rOVUCA8suH
+	2cXMKFtvosWGMU46MwE4ElbCAyH10RiKgV2rkLY6kC2ihKVtRWd3EaNXeI4hbwkXzYKk18
+	sY8oQAR5ZOW0yFVfzk8BV0S26gASsjFK8=
+Received: by filterdrecv-7879496bf5-bhrwx with SMTP id filterdrecv-7879496bf5-bhrwx-1-60D0F5F0-1C
+        2021-06-21 20:26:24.213445581 +0000 UTC m=+234210.484301732
+Received: from MjIwMzE4Ng (unknown)
+	by geopod-ismtpd-6-2 (SG) with HTTP
+	id e3Lr_9L7R6enTWIiE07qqQ
+	Mon, 21 Jun 2021 20:26:24.169 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=798a9383c331c42fa60619a99212491dd8e45c258384c6b5e2b8910ec9c5
+Date: Mon, 21 Jun 2021 20:26:24 +0000 (UTC)
+From: SoundCloud <no-reply@announcements.soundcloud.com>
+Message-ID: <e3Lr_9L7R6enTWIiE07qqQ@geopod-ismtpd-6-2>
+Subject: Fresh Pressed: new tracks from Moonshine, Duma and more
+Reply-To: no-reply@announcements.soundcloud.com
+List-Unsubscribe:
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40mail=2Eannouncements=2Esoundcloud=2Ecom=3Fsubject=3D?=
+ =?us-ascii?Q?https=3A=2F=2Flinks=2Eannouncements=2Esoundcloud=2E?=
+ =?us-ascii?Q?com=2Fasm=2Funsubscribe=2F*q*user=5Fid=3D2203186*?=
+ =?us-ascii?Q?a*data=3D-F3030d0OYj8m=5FFmbfVwo23Bx-GK6DLh?=
+ =?us-ascii?Q?aTSW3UAiEqIMwts-P6zPU0ZlIwPE9AeqCoX6m3n?=
+ =?us-ascii?Q?pkwlknPoEpbPngD8PvgKGyIpoewATlppaOFkKNj?=
+ =?us-ascii?Q?7Gfq-wPZ04Nu5sL9A3f3phfWUSLaSpK25vsHTQH?=
+ =?us-ascii?Q?wqrlVGf5SUX-12MWAcZ=5FR0GHiEM=5F434AvB60JvJ?=
+ =?us-ascii?Q?q-4zohawG1YLUD2UqEv=5FAWrpqt1wbY3KYbuK8Lm?=
+ =?us-ascii?Q?1K=5F9hbnIkyJ9Su1koAjj07igKniT4uUqv=5F8dQfc?=
+ =?us-ascii?Q?36BFsMdT2Xdx4d7=5FtkvYXwn2Oo71y6ctBMrKmVu?=
+ =?us-ascii?Q?HifR17M6ZyLAb=5FxtIoDjv1cOpKMlV-oqT9aYKUz?=
+ =?us-ascii?Q?Eltakys-IC5k6qCLJPV-DqI0syr1gZgjGHU2rli?=
+ =?us-ascii?Q?K=5FHSne8fA0mGMYcezEuCtxqiqvtZ5q7XmmPW6DW?=
+ =?us-ascii?Q?MCsofTrsnAzSU9XJimIlHX39GyNTwksn3l0HMwi?=
+ =?us-ascii?Q?KWp0zbWqVYP0R=5FPJ8y0v5zI8JOACBluCbzaZ5gh?=
+ =?us-ascii?Q?P0Gzg=5Fg=5F2hck5iXXMuwweZdE3GHz-Gspx86fOC2?=
+ =?us-ascii?Q?2oI0RwJSdSQgIyLNxtujML0Ghq9gAQ4wTd-Wojf?=
+ =?us-ascii?Q?8TjL1xM9CLxV2Ciz7gN6mfJM=5FKoxXxRKFCBy4wd?=
+ =?us-ascii?Q?KptHaKwuXaO4vHv4Gc6Hj7ZQkywMssGGgPfBdf4?=
+ =?us-ascii?Q?fJHzOI0prqv7L1gCooNUCWyFWmsX5hodolrbnch?=
+ =?us-ascii?Q?=5FL0lx6eQdmOdfwr2GWuierNkDgXm8kvkW6XGbCz?=
+ =?us-ascii?Q?F6rfoeldCxvYux8rs2C2q1=5FJT7w59XJH9ZZUrMG?=
+ =?us-ascii?Q?PgLKr51DeuK3azpKX6cOR5d1s6uTWC-y0mwMhPZ?=
+ =?us-ascii?Q?Aop5ZCzawss=5FyVJbl2QZ0r3JPYHb1MLKAS=5F1D-8?=
+ =?us-ascii?Q?nsfZAgvvQlzazIkymbFGuFuLE0ZdB41bjDPwDhG?=
+ =?us-ascii?Q?q3QH45Jp6v8FTr8Z7e02bi5Gxa2sw2WRcy0UrTp?=
+ =?us-ascii?Q?zHZ=5FQx2rtA=3D=3E?=
+X-SG-EID:
+ =?us-ascii?Q?+PzjPBi3b9zT6VagSVbn647JkRgVFRc+vzL3R2NHPJqTtliNvA1P9tHeNsMSWj?=
+ =?us-ascii?Q?WHT6ahiuMUjUg1r2AeTHmLpvexwzsyZ40qj+yti?=
+ =?us-ascii?Q?0HUTUBmnrLwaw1+7c4=2FRC7WSn+=2FU8PFGc+hIEZJ?=
+ =?us-ascii?Q?Q0VXovELfH6Ie48AElcCKonYYJFIhwhp83zfMGu?=
+ =?us-ascii?Q?0EST+FuMEdJ8FwSXoDJd=2FCURN4RfscZB7uwVl+I?=
+ =?us-ascii?Q?ARnwvwIRkCD0SIyeXHtHl3rjxJEeo2vfZx=2FyYpz?=
+ =?us-ascii?Q?b4nXEzFtHV1awoknpXnLg=3D=3D?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FJz5ru8+Yo2zQvO4T7bSn?=
+ =?us-ascii?Q?mPLliPkaehfg1hq1E1Vf4rbUqJedoke34RXH5DR?=
+ =?us-ascii?Q?+FkTojl3bK87jaHNMhyb9W45Yrbkf=2FtwMtDiSH+?=
+ =?us-ascii?Q?BpiclA9d7QIOvSbZdXLmhmJ=2Fyewc+a2CCUejCa+?=
+ =?us-ascii?Q?ljDFBR5=2FQA8TVeZ5lrgzv2xjzlBgwQURH8NU78C?=
+ =?us-ascii?Q?kvGyi=2Fi1KGT5xWXEBq8curCW63wSIBccftM=2FNa6?=
+ =?us-ascii?Q?gFeXJpQF+zFht00RFsMxQbUBYK2DjUCr=2FyINir3?=
+ =?us-ascii?Q?VH0O631q9P=2F2PaJuVhmN=2FnRTnXN4dXCxyqksLf0?=
+ =?us-ascii?Q?f+eP6ssDtX5amQRKbDnaXL9GSIT5O3YIMyQfr7b?=
+ =?us-ascii?Q?d0og5c4R1PeLAtzN3e0jTSICVZvo2bFHUyvJKRr?=
+ =?us-ascii?Q?KPn7b4cBQBLeMnEh7pfEWu=2FJKa7LMzV=2FL7Ia2la?=
+ =?us-ascii?Q?+rcZjCiCW3FPjaEQPCU0oMoTHReqeHwov=2FL9QbD?=
+ =?us-ascii?Q?LIi+5nvc8gwOTm5ySFceLZ40JHy=2FD93b0576igd?=
+ =?us-ascii?Q?wbGg=3D=3D?=
+To: nigel.agwah@outlook.com
+X-Entity-ID: cayQo5Qt0JhWBZVn4T0hOg==
+X-IncomingHeaderCount: 15
+Return-Path:
+ bounces+2203186-83e4-nigel.agwah=outlook.com@mail.announcements.soundcloud.com
+X-MS-Exchange-Organization-ExpirationStartTime: 21 Jun 2021 20:26:26.6539
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 81090fb9-a7d5-438f-0c3d-08d934f2d860
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VE1EUR03FT042.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/21/2021 3:50:55 AM
+X-MS-Office365-Filtering-Correlation-Id: 81090fb9-a7d5-438f-0c3d-08d934f2d860
+X-MS-TrafficTypeDiagnostic: VE1EUR03HT066:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 167.89.58.174
+X-SID-PRA: NO-REPLY@ANNOUNCEMENTS.SOUNDCLOUD.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Jun 2021 20:26:26.0172
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 81090fb9-a7d5-438f-0c3d-08d934f2d860
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VE1EUR03FT042.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR03HT066
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.0950265
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4242.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdczep2TV3+CLDeyHrcyTa7zx5VCw0kR8Y8mkdTvhOPlptbt6qnQGEmf1aQgQZfX5Fw/jP3mGwVpUzJrbSz7Zl3Eygt0TTqXf5AOPvI9dECXdBdslVyxkKNJhoQ+ZW853x2WFbxUv39l+Vt45hiqtvtZFNgXWwU48rgTAyCSvpiRt2Pb0G9Nsf2Wzmg5W+O6BKx+T6lmJjyDAg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?RWhZcGgwelgwdXF3Y3Uxd3JTSE9reDBNMkV4TkkvS3VhK1ZUOEd5V0xTcWFR?=
+ =?utf-8?B?VGtNdFdNbGUzd3pjRkdPMUJLNE5MMXhvSktBdE8yOTFsRlNnNDF3RElqRk5u?=
+ =?utf-8?B?WGNNRUFYa211OWsxY1lvelV0WHZlSDZwbFIrVlMwK2MrT3E3a0tEMzVjQzM0?=
+ =?utf-8?B?Y0tncXcvbDhmUXpISnNaczVSSUx4Y0hpbmRSQjNBdDJLUVNqVmpKN3hXTnoz?=
+ =?utf-8?B?ZjFyUncydGRpaEJLWTA1ckNrZWUySC9XOW1vMzJBWnU2NlJvZ2lEWjhSdkV6?=
+ =?utf-8?B?OUU5c1VkdTJWREJIVzA5aEkwS3MzbjBld0JRUzR3SUF6MVE2bDAyTmlwWmRj?=
+ =?utf-8?B?N2xvNGYvdmdEelBzYWRGWGIwcHBqZUZWUXdTS1BJOWpxN1hpb3NRUHJTVG1l?=
+ =?utf-8?B?ajkxNGpqUS9kYTdUR1ZmemJPTUI1N3ozTnZHNGgvSG8yR0NXK2dUbm1pS2V1?=
+ =?utf-8?B?Ykh6Tm5rSDFvS1RPRWd6V1Z4cHlQMU5BWnNyK3NqdmU2NFR4MmVpVk4zVWtX?=
+ =?utf-8?B?Rm9uUEdBTWUxZlBtTEcwQkNSQ2dKMUo1T2dpbWdnQitwM1hJaVRqY01IcDFQ?=
+ =?utf-8?B?c0xYNFhZOCtzbWVqdlFackQxNFZTcVprWm50SGp4REVDallJcHJqNVltNUZh?=
+ =?utf-8?B?cEljY3ZyZERPaC9oYU55VDhHczc2TEZDTkROcFJ1b1pYblFsdC9ZbFVzdnRN?=
+ =?utf-8?B?cC9ERTBSS0xrNldaYXV2ODRQMWx5dkVxMURHRkVPMWFKdGdjd25XNnl0TFhm?=
+ =?utf-8?B?Z1BVMDVWcEt6RTJWTlE3bFpNRmxrV01mZUhibXhHQ1RRQjVLZTNqemRlNFBV?=
+ =?utf-8?B?UVF6b1NhMlVLTnZhc3V2eW9XbmVCWXRERFNsV0JrdUphMU1RM2EzYVhDcVI3?=
+ =?utf-8?B?dXUwcUx4ektsMTlpU0YrcXR3c0FjNW42WkIxNXFPaUJTV2JoMGVlSzV4Nmp2?=
+ =?utf-8?B?Slo0dnNweCtXUmU0VitmNUNuelVkOWUwN290V1pRVlZzY0VpczBrNllkSFdh?=
+ =?utf-8?B?K1grYzcyZzhXVE50d1dWMCtZaW45c3Q4WWlXTXI0bHdJMzdPcExGeno2NEt5?=
+ =?utf-8?B?bUpnMTEzV3pqV3FSS0N6VlJxR3U4bFd1Zm16UldhRXBabGdKdVBiMVZMSVo4?=
+ =?utf-8?B?ZWFFcjZzdEtCdmNLNER5VWoxUmNWNFExT2lsSGpaUWpyN0h2dEIyeGpwS29x?=
+ =?utf-8?B?TzE1aERPNGlFSklNTlNRUkVNYmw0TWJ1V2o2MS9jTGJpa0NCZzNoeXhRQlg4?=
+ =?utf-8?B?VmpiTkRxTWpHY0ZaN2ZjWmhER0NWWGR4ZFNGMS9pc1RQSzZUNVlBcGFsMGx3?=
+ =?utf-8?B?cWc0MzBvc0l3SzF3MjV0T0NGME9nQXkzeXdvY2NxNFR0dGkwakdaUWc2aVpZ?=
+ =?utf-8?B?WkN3YlVteDVmTHlMOEtxQVZJem1WWEJzRWVpeTVXK0U3SFZhN2xkc1ZtQnFV?=
+ =?utf-8?B?TU1RQWpDWFVOYVJLM0Nna0RlR1NYcmZ4aWNUMTUrUWJ3YzE2ZXhURjFGdmQv?=
+ =?utf-8?B?c1gybnZ4aklSRUtabUpPRlpUa2JaTFdLMWdhd0dWb1p3RXhZd3J1M2ZRQWFJ?=
+ =?utf-8?B?dGpSZnJmelpabGlKY1l2L283M2xEMEF5YkxXYlZHOEtqSE9pcEpOK1pHUDJ5?=
+ =?utf-8?B?NjFWTUxaZXpUU1l0RlFyVnpRNHNJZFFxbTRDckx6MmkvVnQzNElzbGNGbzdN?=
+ =?utf-8?B?NGRjYXI3TE9Rd3Z0SnIwbDdKNjJtWjJUblBDNzNXa1NUT1phTUpCK1hYVVhW?=
+ =?utf-8?B?My94N0dvdnlOcnhpU21rYjNCN3A3eWxWbGg0d0ovSFpQNHo3Mmsyc0NSaUJv?=
+ =?utf-8?B?ekVwWUVjVm5wM25WbVF5ZFdMWXVYcGNXdVA5UXJxcDJDQ2NLK3B1Ykw0OStH?=
+ =?utf-8?B?TUdWSDFqL1NiQ1pUbXpuNDUzTnpVanl0MkU3cVdYcm9YV2J3TVVCYjJlUjRS?=
+ =?utf-8?B?RGtWYm5qL0hHcURuNEptQkR1SlMvd2dCblRNSjQ4ZUsweHczdFM2ZkpFSDFk?=
+ =?utf-8?B?VU1aTEhYSW0yMzcrT0RuQW5FS1dRdC9MMTgxMS9Wc3ZTRlV3OUE1QnFpQWkx?=
+ =?utf-8?B?SE14ZHNtbnpON3FUNXdEUjR1RXVoVHl2MjBTWWFUamxiR0hxRTV3UUNObkJV?=
+ =?utf-8?B?b1czb2dNQnh2QUpVQ1pkM0xJdGdOVWwvQzVKUUN1S0o2WXJ0TXYxRm80NkVM?=
+ =?utf-8?Q?QqhuSLvX/JpN23jkCsr6QQ8PXvbwIyWHUwHLf2ZbVmwm?=
+MIME-Version: 1.0
+X-TUID: P6w7RsFTxsWu
+
+--798a9383c331c42fa60619a99212491dd8e45c258384c6b5e2b8910ec9c5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+
+ The latest tracks from
+Moonshine,
+Duma,
+TSHA and more
+
+
+
+
+96           *  Email Template   sup { font-size: 100%
+!important; }    /* Linked Styles */ body { padding:0 !important;
+margin:0 !important; display:block !important; min-width:100%
+!important; width:100% !important; background:#ffffff;
+-webkit-text-size-adjust:none } a { color:#ff5500;
+text-decoration:none } p { padding:0 !important; margin:0
+!important } img { -ms-interpolation-mode: bicubic; /* Allow
+smoother rendering of resized image in Internet Explorer */ }
+.mcnPreviewText { display: none !important; } .text-button a {
+display: block; } .bg-mod-d1-large-2 { display: block !important;
+width: 100% !important; height: auto !important; background-size:
+100% 100% !important; background-position: center center
+!important; background-repeat: no-repeat !important; }
+.text-button:active { background: #CC4400 !important; color:
+#ffffff !important; } .text-button:active a { color: #ffffff
+!important; } .text-button:active span { color: #ffffff
+!important; } /* Mobile styles */ @media only screen and
+(max-device-width: 480px), only screen and (max-width: 480px) { u
++ .body .gwfw { width:100% !important; width:100vw !important; }
+.td, .m-shell { width: 100% !important; min-width: 100%
+!important; } .h2 { font-size: 36px !important; line-height: 37px
+!important; } .mt-center { text-align: center !important; } .bg {
+background-size: cover !important; background-position: center 0
+!important; } .center { margin: 0 auto !important; } .m-td,
+.m-hide { display: none !important; width: 0 !important; height:
+0 !important; font-size: 0 !important; line-height: 0 !important;
+min-height: 0 !important; } .m-block { display: block !important;
+} .fluid-img img { width: 100% !important; max-width: 100%
+!important; height: auto !important; } .column, .column-dir,
+.column-top { float: left !important; width: 100% !important;
+display: block !important; } .content-spacing { width: 15px
+!important; } .p0 { padding: 0px !important; } .p30 { padding:
+30px !important; } .pb30 { padding-bottom: 30px !important; }
+.pb50 { padding-bottom: 50px !important; } .p30-0 { padding: 30px
+0px !important; } .p0-30 { padding: 0px 30px !important } .p35-30
+{ padding: 35px 30px !important; } .p10-0-50 { padding: 10px 0px
+50px 0px !important; } }           SoundCloud=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA-2BJPzDAz-2FRdNNNDuRhdPclE-3D0fVZ_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6=
+wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPF=
+z7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWl=
+PyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZa=
+JhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6r=
+SPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpoc=
+dfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8=
+rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS2=
+5opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI3NO0Z05sCsNmz48wbRDcCltAtPZP3wPHg18SfebAw=
+13zsetcms6FqQlU-2BiPQetR9Dy9tIY-2B5fCCwk5DbEy8KXj9xumMomnRnQ3IN-2FIsoEdZ8-2=
+BpBp9sZwNnbfAZRz7n6wqzopdyxfEXIslmZk1NE2kwIomMOYH6cizl5n3l-2BelIpg-3D-3D ) =
+                    Fresh Pressed
+Check out the latest from
+Moonshine,
+Duma,
+and more now on SoundCloud.
+
+ Go+ -->
+
+  -->
+
+Moonshine
+SMS For Location, Vol. 4
+
+ Go+ -->
+
+  -->
+
+Duma
+Cannis b/w Mbukinya
+
+ Go+ -->
+
+  -->
+
+TSHA
+OnlyL
+
+ Go+ -->
+
+  -->
+
+SAYMYNAME x EDISON COLE
+CHAOS
+
+ Go+ -->
+
+  -->
+
+Shift K3Y & Tinashe
+Love Line (Shift K3Y's All Night VIP)
+
+ Go+ -->
+
+  -->
+
+Bad Boy Chiller Crew
+Free
+     Check out the playlist (
+https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZ=
+XsWA-2BxESffEU0nX3D7eKXKa9L4-2FTStLwMHdt2LKPytS6WvB9Pr2_7KaMwkvSy4fTkKE-2By=
+2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij=
+5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx=
+8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-=
+2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8=
+v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydH=
+LLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUs=
+maYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0=
+o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI2yPeYtiD7xFp1prFqIzpdSWbM=
+wSx8oiS4D43HpWFb1Cz7bZk7NdZg-2FkbRwKJCjiC6FMM3BRJS8vQPlOU1y9LOKiP-2F-2BziY3=
+wMimMKcWSVEZdaSKBrABDaUNFsWorQGUNtsDGbaGd1WxXBm-2FUwShR-2FQjh77q5N211G83-2F=
+BFo0EakUQ-3D-3D )
+               Instagram=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA0vJQV92FjiH8-2F4sj9PEq7npre6JdwJrY3mz0qqn1uq4QKNL_7KaMwkvSy4fTkKE-2By=
+2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij=
+5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx=
+8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-=
+2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8=
+v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydH=
+LLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUs=
+maYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0=
+o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI1v7fvPn7En-2F9SDWca1IJ-2B=
+sktQQjRlN5Cs0K0WwxJfPlLwk9ih4BY1nCWaWD2cC-2FO1KfOacLAUG-2BvB-2BbeUCJA48akwo=
+e9boxXEn8gWQ9qIkhEdF9zuF27NzhnUx92-2FngUteZlIbQTg2Wckc3THrLOCGZaw2lBNxUFY2T=
+cnS66AJJA-3D-3D ) Facebook=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWAzQNwOx4-2Fn3PZv76GEjQvx-2FCiu0F1XoLAqAeO4KFQwqMTneV_7KaMwkvSy4fTkKE-2=
+By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXz=
+ij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdse=
+xx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg0=
+4-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6=
+Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMy=
+dHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3l=
+UsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVB=
+E0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI3z4cvUmIu-2Fd5yWY7rRhZC=
+ICcjP8dSeaq0v9c9v7rjmq-2F-2FoVNumkfUCMEZsvKxTUMfY0LRSxtxso8NwicV0FyziPb-2BI=
+fXp-2BSq7lN0tfmvOsCiTk8Qppy9hjuDVD0pFYqzeyeWq-2FAwbeNkONtCWyRQhzXd6815Tnsdq=
+yjJ5B3Vs-2B1w-3D-3D ) Twitter=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA7cHYVO948Yo-2FS6MvuU4bIAYJs-2Fq7jQjbp4BKWV8Tq4-2BodiY_7KaMwkvSy4fTkKE=
+-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHid=
+Xzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkd=
+sexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2F=
+g04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuD=
+K6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2Boh=
+MydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL=
+3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUE=
+VBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI3DtAlTJ4gNANox9dSUniD=
+pJJFXt8GNMcf8tgdiGtCKNxWMTP0BdhGF920f5uGE6cCRxPRzaaIVFX8OJ-2B3DdAhDywQ-2BMp=
+3YA71PLW-2FrypAjFzvr6HbgwebBRXf0Rix4qbMFd321ORmojxYmSBOT8-2FrBU4Fxu8MKv7v5t=
+S67PuOZ6A-3D-3D ) Tumblr=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWAwpKv9Kq-2BZewlGm-2BapGllqzFprdDBZ-2ByVgeB7qYT-2FCZzl3GB_7KaMwkvSy4fTk=
+KE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWH=
+idXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwB=
+kdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-=
+2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaK=
+uDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2B=
+ohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5=
+lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8v=
+UEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI0saLi0CS7wM9i-2FUGu=
+QgjHvRd4t-2B1yE7FLgigp84cNvcQDTziVnaR-2BJ0yLF4eLzOADrVWxDfpKW-2F8SoV9jDPM-2=
+FTu7SUUEylDoJLgieb3wNb4zD3PJZ0O0Kbm5vEWUKfXZkyVHrCMEoiri-2B48pmgjkhlCal-2Fe=
+FGL-2F497CN029mgmzA-3D-3D )      The SoundCloud Blog=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWAzFpQ-2FB4790G3s3HT01MExEbIg4-2FdQ5rkyV-2B-2FM9ow0Xk_TtA_7KaMwkvSy4fTk=
+KE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWH=
+idXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwB=
+kdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-=
+2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaK=
+uDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2B=
+ohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5=
+lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8v=
+UEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI0B-2Fm8b6cwEMrkHxwA=
+RsK4Uap24iuzHRycx8WrKOsSLO7RDpRY2jW42IbE2Ijt4UOwsT1nbpsPXY1RRZjpoIpewXlTmHl=
+-2FP8bg8cw8e2NTzMMHl08G4S07-2FYeqTs-2BPuqwu6sOUm3cTwtgg-2BosQNNKYsOoUwIckZw=
+19aDaLhYt8R2g-3D-3D )                        SoundCloud
+for iOS and Android         App Store=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA0u50fYnelO-2FGJG-2Bpu28FU3WA12ItHisaoq24Dpejt-2Fv19qSNuWxJmoOvEmb1YgH=
+BiPPQ1E0XyI2lSMUvAQ7OD4-3DB9HE_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w=
+5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mjrhapv=
+R5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFz=
+OeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-=
+2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fof=
+a552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQO=
+TTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4=
+l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8=
+ouXVsGIziqmvV-2F2tqqz5YZI3CMlik-2FKgbmNvJY0YLwO8uyZ1lMAvQeMou42KxzsRKyj-2B7=
+zo9PB3y7ZFtB6dD7OtWXOKYhQ1OfC0OeEJLzfTe-2B7Tpn7XcMUotqgdrr2Do3bKjPYliHkxC8n=
+78StaPVswXS91jXw2hEkP9P4DdU5IGIqwbHP9LKvI-2FB1WhO1cKLfQ-3D-3D )
+        Google Play=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA6LxT1ZI7MNVVqDgvmkC1nUUj5F7sfxC44J4i3pfCCxYcxN3XA321y8Of0CX-2BgIihwNG=
+g3r7J6vCEcMAGZnTtsc-3DV2nP_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2=
+BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ=
+-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZF=
+DpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5=
+ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552=
+EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpj=
+eYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-=
+2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXV=
+sGIziqmvV-2F2tqqz5YZI2arJdLlRhU275QZdvEy1vyDDwX2LYeVjS9CX874iMvOrqCOUDEc2hR=
+rfAXqyY-2BkUA0PCYi1zu4Q5rRhL1uhydQ63bZSdAEiiyQqhc-2FCNM-2BxmDh3Dwts8cBAbV1e=
+fWxJV2Cr-2F7h5JhzgxePrkp8mFZxJohlUGsDdGimVxxglL9AvA-3D-3D )
+          =C2=A9 2007-2021 SoundCloud
+Global Limited & Co. KG | All rights reserved
+Unsubscribe ( https://links.announcements.soundcloud.com/asm/unsubscribe/?u=
+ser_id=3D2203186&data=3D-F3030d0OYj8m_FmbfVwo23Bx-GK6DLhaTSW3UAiEqIMwts-P6z=
+PU0ZlIwPE9AeqCoX6m3npkwlknPoEpbPngD8PvgKGyIpoewATlppaOFkKNj7Gfq-wPZ04Nu5sL9=
+A3f3phfWUSLaSpK25vsHTQHwqrlVGf5SUX-12MWAcZ_R0GHiEM_434AvB60JvJq-4zohawG1YLU=
+D2UqEv_AWrpqt1wbY3KYbuK8Lm1K_9hbnIkyJ9Su1koAjj07igKniT4uUqv_8dQfc36BFsMdT2X=
+dx4d7_tkvYXwn2Oo71y6ctBMrKmVuHifR17M6ZyLAb_xtIoDjv1cOpKMlV-oqT9aYKUzEltakys=
+-IC5k6qCLJPV-DqI0syr1gZgjGHU2rliK_HSne8fA0mGMYcezEuCtxqiqvtZ5q7XmmPW6DWMCso=
+fTrsnAzSU9XJimIlHX39GyNTwksn3l0HMwiKWp0zbWqVYP0R_PJ8y0v5zI8JOACBluCbzaZ5ghP=
+0Gzg_g_2hck5iXXMuwweZdE3GHz-Gspx86fOC22oI0RwJSdSQgIyLNxtujML0Ghq9gAQ4wTd-Wo=
+jf8TjL1xM9CLxV2Ciz7gN6mfJM_KoxXxRKFCBy4wdKptHaKwuXaO4vHv4Gc6Hj7ZQkywMssGGgP=
+fBdf4fJHzOI0prqv7L1gCooNUCWyFWmsX5hodolrbnch_L0lx6eQdmOdfwr2GWuierNkDgXm8kv=
+kW6XGbCzF6rfoeldCxvYux8rs2C2q1_JT7w59XJH9ZZUrMGPgLKr51DeuK3azpKX6cOR5d1s6uT=
+WC-y0mwMhPZAop5ZCzawss_yVJbl2QZ0r3JPYHb1MLKAS_1D-8nsfZAgvvQlzazIkymbFGuFuLE=
+0ZdB41bjDPwDhGq3QH45Jp6v8FTr8Z7e02bi5Gxa2sw2WRcy0UrTpzHZ_Qx2rtA=3D ) | Supp=
+ort=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA2BesD5qYckvwlW3Bk6l2TCe9XfEJ6mjLGfh8qmLAlAfdRMb_7KaMwkvSy4fTkKE-2By2M=
+WNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5s=
+LW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8U=
+EsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2B=
+gHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-=
+2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLL=
+uwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsma=
+Yz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o0=
+43lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI3tM3VAWsCMWd2vwEjaSLllJaeH5=
+ceDRKwtKeRvjqINSnYqqwS-2FPOmQTu2TZCl9JMiYdPo2qrFQC-2FJWbtA-2BraZMokh-2Bovqz=
+3DPMrrsU-2FM-2BUJYjb0XSpq9BjElV3oyZjiylwX2yi7eFZaobXzCXRJVGC-2FR6FX6be3irqJ=
+MbhZ4z-2FNw-3D-3D ) | Terms of Use=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWAxoWEHXIHfc3a6K4v8omxDy3-2Bd8Bg6BW6JrBrfasXwl3b0CD_7KaMwkvSy4fTkKE-2By=
+2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij=
+5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx=
+8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-=
+2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8=
+v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydH=
+LLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUs=
+maYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0=
+o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI3SPPWOY6Ov57tdgCO4dhUHFEc=
+RYnJYFZg2X18sSvsF0ciFxYjO9t-2FPBvxZUsa43WzzWixfWZV4P-2BUqbtgz1-2B5MVSPJhmRY=
+4DaIQaIHVdYeZu0sxreTcYrNJbhlz8UaqCWa9WtaHV1XxiqF-2B7ulhilnCbvHxgLy-2B3SCt6V=
+nDxZ9Ow-3D-3D ) | Imprint=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWA4COH7LUdqDFWdVpXNZzx9l83GgitvZtjvb0BG5cUR9Nxje0_7KaMwkvSy4fTkKE-2By2M=
+WNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5s=
+LW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8U=
+EsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2B=
+gHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-=
+2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLL=
+uwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsma=
+Yz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o0=
+43lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI3l66f3ERBMwmiV3gzRCACoPS5Lv=
+pT5sp7CzQCs3Wp6RdbVuWkrwtSt-2FC0-2BZDJI8OdpDx9NeVjl3tlx-2Bbjb8lskNW-2BSkV5W=
+QzLbQ90K-2B7AUj-2FW9zWnfxZKH2XShGwDSo4gAzg6bCo-2BRRbYGXqWuHQWsRBvYMh8Vn3MiK=
+e4xpSI1wg-3D-3D ) | Privacy Policy=20
+( https://links.announcements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYE=
+VZXsWAyg21T-2FMaDidDWIHdv2JaGVr6fpdpKM9oJkRdKewYPo1h8LK_7KaMwkvSy4fTkKE-2By=
+2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij=
+5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx=
+8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-=
+2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8=
+v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydH=
+LLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUs=
+maYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0=
+o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI1oTUTmjJ1IQs3WM7HBhs-2BV-=
+2FA9LilWOKA-2BBPk3bXo4fNZhHKTEvIWPAq3ht8Y-2B2oYQVcD1rRkLMBXCJ-2FnkKIe1Pe426=
+LtvY2nLxInWV3H2AbtvI2kUF-2BcZQuHJtOOhAp9YtJ0wPXNp4ZSDMbQxY3mZM480AnaJNc6nnp=
+zuVFJJuXg-3D-3D )
+SoundCloud Global Limited & Co. KG
+76=E2=80=8B/77=E2=80=8B 10115 Berlin Germany
+--798a9383c331c42fa60619a99212491dd8e45c258384c6b5e2b8910ec9c5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+    <style>@font-face {
+font-family: 'Lato'; font-style: normal; font-weight: 400; src: url('https:=
+//fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWw.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Lato'; font-style: normal; font-weight: 700; src: url('https:=
+//fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPHA.ttf') format('truetyp=
+e');
+}
+body {
+padding: 0 !important; margin: 0 !important; display: block !important; min=
+-width: 100% !important; width: 100% !important; background: #ffffff; -webk=
+it-text-size-adjust: none;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+.text-button:active {
+background: #CC4400 !important; color: #ffffff !important;
+}
+.text-button:active a {
+color: #ffffff !important;
+}
+.text-button:active span {
+color: #ffffff !important;
+}
+@media only screen and (max-device-width: 480px) {
+  u + .body .gwfw {
+    width: 100vw !important;
+  }
+  .td {
+    width: 100% !important; min-width: 100% !important;
+  }
+  .m-shell {
+    width: 100% !important; min-width: 100% !important;
+  }
+  .h2 {
+    font-size: 36px !important; line-height: 37px !important;
+  }
+  .mt-center {
+    text-align: center !important;
+  }
+  .bg {
+    background-size: cover !important; background-position: center 0 !impor=
+tant;
+  }
+  .center {
+    margin: 0 auto !important;
+  }
+  .m-td {
+    display: none !important; width: 0 !important; height: 0 !important; fo=
+nt-size: 0 !important; line-height: 0 !important; min-height: 0 !important;
+  }
+  .m-hide {
+    display: none !important; width: 0 !important; height: 0 !important; fo=
+nt-size: 0 !important; line-height: 0 !important; min-height: 0 !important;
+  }
+  .m-block {
+    display: block !important;
+  }
+  .fluid-img img {
+    width: 100% !important; max-width: 100% !important; height: auto !impor=
+tant;
+  }
+  .column {
+    float: left !important; width: 100% !important; display: block !importa=
+nt;
+  }
+  .column-dir {
+    float: left !important; width: 100% !important; display: block !importa=
+nt;
+  }
+  .column-top {
+    float: left !important; width: 100% !important; display: block !importa=
+nt;
+  }
+  .content-spacing {
+    width: 15px !important;
+  }
+  .p0 {
+    padding: 0px !important;
+  }
+  .p30 {
+    padding: 30px !important;
+  }
+  .pb30 {
+    padding-bottom: 30px !important;
+  }
+  .pb50 {
+    padding-bottom: 50px !important;
+  }
+  .p30-0 {
+    padding: 30px 0px !important;
+  }
+  .p0-30 {
+    padding: 0px 30px !important;
+  }
+  .p35-30 {
+    padding: 35px 30px !important;
+  }
+  .p10-0-50 {
+    padding: 10px 0px 50px 0px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  u + .body .gwfw {
+    width: 100vw !important;
+  }
+  .td {
+    width: 100% !important; min-width: 100% !important;
+  }
+  .m-shell {
+    width: 100% !important; min-width: 100% !important;
+  }
+  .h2 {
+    font-size: 36px !important; line-height: 37px !important;
+  }
+  .mt-center {
+    text-align: center !important;
+  }
+  .bg {
+    background-size: cover !important; background-position: center 0 !impor=
+tant;
+  }
+  .center {
+    margin: 0 auto !important;
+  }
+  .m-td {
+    display: none !important; width: 0 !important; height: 0 !important; fo=
+nt-size: 0 !important; line-height: 0 !important; min-height: 0 !important;
+  }
+  .m-hide {
+    display: none !important; width: 0 !important; height: 0 !important; fo=
+nt-size: 0 !important; line-height: 0 !important; min-height: 0 !important;
+  }
+  .m-block {
+    display: block !important;
+  }
+  .fluid-img img {
+    width: 100% !important; max-width: 100% !important; height: auto !impor=
+tant;
+  }
+  .column {
+    float: left !important; width: 100% !important; display: block !importa=
+nt;
+  }
+  .column-dir {
+    float: left !important; width: 100% !important; display: block !importa=
+nt;
+  }
+  .column-top {
+    float: left !important; width: 100% !important; display: block !importa=
+nt;
+  }
+  .content-spacing {
+    width: 15px !important;
+  }
+  .p0 {
+    padding: 0px !important;
+  }
+  .p30 {
+    padding: 30px !important;
+  }
+  .pb30 {
+    padding-bottom: 30px !important;
+  }
+  .pb50 {
+    padding-bottom: 50px !important;
+  }
+  .p30-0 {
+    padding: 30px 0px !important;
+  }
+  .p0-30 {
+    padding: 0px 30px !important;
+  }
+  .p35-30 {
+    padding: 35px 30px !important;
+  }
+  .p10-0-50 {
+    padding: 10px 0px 50px 0px !important;
+  }
+}
+</style>
+  </head>
+  <body style=3D"display: block !important; min-width: 100% !important; wid=
+th: 100% !important; -webkit-text-size-adjust: none; margin: 0; padding: 0;=
+" bgcolor=3D"#ffffff">
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">
+ The latest tracks from Moonshine, Duma, TSHA and more</div>
+<p style=3D"margin: 0; padding: 0;">
+
+
+
+
+
+
+</p>
+	<!--[if gte mso 9]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+=09
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+, maximum-scale=3D1">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+	<meta name=3D"format-detection" content=3D"date=3Dno">
+	<meta name=3D"format-detection" content=3D"address=3Dno">
+	<meta name=3D"format-detection" content=3D"telephone=3Dno">
+	<meta name=3D"x-apple-disable-message-reformatting">
+    <!--[if !mso]><!-->
+   =09
+    <!--<![endif]-->
+	<title>Email Template</title>
+	<!--[if gte mso 9]>
+	<style type=3D"text/css" media=3D"all">
+		sup { font-size: 100% !important; }
+	</style>
+	<![endif]-->
+=09
+
+=09
+
+
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgc=
+olor=3D"#ffffff" class=3D"gwfw">
+		<tr>
+			<td align=3D"center" valign=3D"top">
+				<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" c=
+lass=3D"m-shell">
+					<tr>
+						<td class=3D"td" style=3D"width: 600px; min-width: 600px; font-size: =
+0pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+							<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+								<!-- Header -->
+								<tr>
+									<td style=3D"font-size: 0pt; line-height: 0pt; padding: 25px;" cla=
+ss=3D"img-center" align=3D"center"><a href=3D"https://links.announcements.s=
+oundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BJPzDAz-2FRdNNNDuRhdPcl=
+E-3DfA86_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291t=
+AzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F=
+8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BO=
+ibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqA=
+cGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2=
+STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3d=
+iSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0t=
+nesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5=
+YZI3TKlLwe43i2c7-2FFJa-2BI5CjSfSUPPt9w63nSiRGSUWbSk1fN3BKm7GzvcgDxjVTJ3r4Sh=
+z2S16a6eBJwU1-2BDgFdNJM9zuXTaUFHxeZWwhuosaJOZZHoBfHqQ-2FAsJe-2FvVRYc-2F39jX=
+ayt4Rm88ZM5Dqhmw-2FXyIeEMpn6x81-2BdMJf9kQ-3D-3D" target=3D"_blank" style=3D=
+"color: #ff5500; text-decoration: none;"><img src=3D"https://appboy-images.=
+com/appboy/communication/assets/image_assets/images/5d3600620df4c06c96c0303=
+0/original.png?1563820130" width=3D"200" height=3D"24" border=3D"0" alt=3D"=
+SoundCloud" style=3D"-ms-interpolation-mode: bicubic;"></a></td>
+								</tr>
+								<!-- END Header -->
+								<!-- Hero Image -->
+								<tr>
+									<td>
+										<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+											<tr>
+												<td background=3D"https://appboy-images.com/appboy/communicatio=
+n/assets/image_assets/images/5ec5b369cb832c5b18af0fe0/original.jpg?15900148=
+25" bgcolor=3D"#333333" valign=3D"top" height=3D"310" class=3D"bg">
+													<!--[if gte mso 9]>
+													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true=
+" stroke=3D"false" style=3D"width:600px; height: 310px">
+														<v:fill type=3D"frame" src=3D"hhttps://appboy-images.com/appb=
+oy/communication/assets/image_assets/images/5ec5b369cb832c5b18af0fe0/origin=
+al.jpg?1590014825" color=3D"#333333" />
+														<v:textbox inset=3D"0,0,0,0">
+													<![endif]-->
+													<div>
+														<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+															<tr>
+																<td class=3D"content-spacing" width=3D"100" height=3D"310" =
+style=3D"font-size: 0pt; line-height: 0pt;" align=3D"left"></td>
+																<td style=3D"padding: 54px 0px 75px;" class=3D"p10-0-50">
+																	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+																		<tr>
+																			<td class=3D"h2 white" style=3D"padding-bottom: 20px; fo=
+nt-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 50px;=
+ line-height: 52px; font-weight: bold; min-width: auto !important; color: #=
+333333;" align=3D"center">Fresh Pressed</td>
+																		</tr>
+																		<tr>
+																			<td class=3D"text white" style=3D"font-family: 'Helvetic=
+a Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22px; =
+min-width: auto !important; font-weight: 500; color: #333333;" align=3D"cen=
+ter">Check out the latest from<br>Moonshine,  Duma,<br>and more now on Soun=
+dCloud.</td>
+																		</tr>
+																	</table>
+																</td>
+																<td class=3D"content-spacing" width=3D"100" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"></td>
+															</tr>
+														</table>
+													</div>
+													<!--[if gte mso 9]>
+														</v:textbox>
+														</v:rect>
+													<![endif]-->
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<!-- END Hero Image -->
+								<!-- Main -->
+								<tr>
+									<td style=3D"padding: 0px 22px;" class=3D"p0">
+										<div class=3D"main" style=3D"position: relative; margin-top: -50p=
+x;">
+											<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+												<tr>
+													<td class=3D"p0-30">
+														<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+															<!-- Section 1 / Two Columns -->
+															<tr>
+																<td style=3D"padding-bottom: 75px;" class=3D"pb50">
+																	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+																		<tr>
+																			<th class=3D"column" width=3D"270" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+																				<table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+																					<tr>
+																						<td>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td valign=3D"top">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"img" width=3D"232" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appboy-imag=
+es.com/appboy/communication/assets/image_assets/images/5d4addfac2b4772b0fb3=
+8422/original.png" border=3D"0" width=3D"232" height=3D"10" alt=3D"" style=
+=3D"-ms-interpolation-mode: bicubic;"></td>
+																												<td class=3D"img-right" style=3D"font-size: 0pt=
+; line-height: 0pt;" align=3D"right">
+                                                                           =
+                                        =20
+                                                                           =
+                                         <!--
+																													<img src=3D"https://appboy-images.com/appboy/c=
+ommunication/assets/image_assets/images/5d4adca5af874e73734e5035/original.p=
+ng" border=3D"0" width=3D"28" height=3D"10" alt=3D"" />
+                                                                           =
+                                         -->
+                                                                           =
+                                        =20
+																												</td>
+																											</tr>
+																										</table>
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td background=3D"https://i1.sndcdn.com/artwork=
+s-bcd15688-8d71-4439-a1d5-933ae680ac4c-0-t500x500.jpg" bgcolor=3D"#000001" =
+valign=3D"top" height=3D"260" class=3D"bg-mod-d1-large-2" style=3D"display:=
+ block !important; width: 100% !important; height: auto !important; backgro=
+und-size: 100% 100% !important; background-position: center center !importa=
+nt; background-repeat: no-repeat !important;">
+																													<!--[if gte mso 9]>
+																													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width: 260px; height: 260px;">
+																														<v:fill type=3D"frame" src=3D"https://i1.sndc=
+dn.com/artworks-bcd15688-8d71-4439-a1d5-933ae680ac4c-0-t500x500.jpg" color=
+=3D"#000001" />
+																														<v:textbox inset=3D"0,0,0,0">
+																													<![endif]-->
+																													<div>
+																														<table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+																															<tr>
+																																<td>
+																																	<table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+																																		<tr>
+																																			<td class=3D"img" width=3D"10" style=3D"=
+font-size: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca57b648d=
+770b14dd0c/original.png" border=3D"0" width=3D"10" height=3D"23" alt=3D"" s=
+tyle=3D"-ms-interpolation-mode: bicubic;"></td>
+																																			<td class=3D"img" style=3D"font-size: 0p=
+t; line-height: 0pt;" align=3D"left">
+																																			=09
+                                                                           =
+                                                                     <!--
+                                                                           =
+                                                                     <div c=
+lass=3D"img-go-badge img-right" width=3D"28" style=3D"font-size:0pt; line-h=
+eight:0pt; text-align:right;"><img class=3D"text-alt" src=3D"https://appboy=
+-images.com/appboy/communication/assets/image_assets/images/5d4adca5c2b4772=
+cf8b383cd/original.png" border=3D"0" width=3D"28" height=3D"23" alt=3D"Go+"=
+ /></div>
+                                                                           =
+                                                                     -->
+                                                                           =
+                                                                    =20
+																																			</td>
+																																		</tr>
+																																	</table>
+																																	<div class=3D"fluid-img" style=3D"font-siz=
+e: 0pt; line-height: 0pt;" align=3D"left"><a href=3D"https://links.announce=
+ments.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eK=
+XKa9L7kqiJuXigGohU7HCp7s4qkrCl2_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1=
+w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mjrhap=
+vR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoF=
+zOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl=
+-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fo=
+fa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQ=
+OTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV=
+4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo=
+8ouXVsGIziqmvV-2F2tqqz5YZI1k28oV3D8ZO9tIxT9MubsaUbmAmcIq1XOelOYSIsNH4-2FiNN=
+hdzKt6biEaK-2BNHkh8aLp8uNdOCzys0xA2CBSCHQbFVRYWgeKJGJmL9C6kHSODNtxMttYN5muR=
+4uM8DP5ULKpxx9v-2FucPu1OqodwlRqGmeZ-2FltpkYpewA0xvagaoKw-3D-3D" target=3D"_=
+blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https:/=
+/appboy-images.com/appboy/communication/assets/image_assets/images/5d4adca5=
+0464b92fedd7fec1/original.png" border=3D"0" width=3D"260" height=3D"242" al=
+t=3D"" style=3D"-ms-interpolation-mode: bicubic;"></a></div>
+																																</td>
+																															</tr>
+																														</table>
+																													</div>
+																													<!--[if gte mso 9]>
+																														</v:textbox>
+																													</v:rect>
+																													<![endif]-->
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td valign=3D"top" class=3D"img" width=3D"10" styl=
+e=3D"font-size: 0pt; line-height: 0pt;" align=3D"left">
+                                                                           =
+                            =20
+                                                                           =
+                             <!--
+																										<div class=3D"img-go-badge"><img src=3D"https://a=
+ppboy-images.com/appboy/communication/assets/image_assets/images/5d4adca599=
+e8af1ee4f14cb7/original.png" border=3D"0" width=3D"10" height=3D"33" alt=3D=
+"" /></div>
+                                                                           =
+                             -->
+                                                                           =
+                            =20
+																									</td>
+																								</tr>
+																							</table>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td style=3D"padding-top: 25px;">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"h4 center" style=3D"padding-bottom=
+: 8px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 20px; line-height: 28px; font-weight: bold; min-width: =
+auto !important;" align=3D"center">Moonshine</td>
+																											</tr>
+																											<tr>
+																												<td class=3D"text center" style=3D"color: #3333=
+33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 22px; min-width: auto !important; font-weight: 500;" al=
+ign=3D"center">SMS For Location, Vol. 4</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</th>
+																			<th style=3D"font-size: 0pt; line-height: 0pt; font-weig=
+ht: normal; margin: 0; padding: 0;" class=3D"column" width=3D"16"></th>
+																			<th class=3D"column" width=3D"270" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+																				<table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+																					<tr>
+																						<td>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td valign=3D"top">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"img" width=3D"232" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appboy-imag=
+es.com/appboy/communication/assets/image_assets/images/5d4addfac2b4772b0fb3=
+8422/original.png" border=3D"0" width=3D"232" height=3D"10" alt=3D"" style=
+=3D"-ms-interpolation-mode: bicubic;"></td>
+																												<td class=3D"img-right" style=3D"font-size: 0pt=
+; line-height: 0pt;" align=3D"right">
+                                                                           =
+                                        =20
+                                                                           =
+                                         <!--
+                                                                           =
+                                         <img src=3D"https://appboy-images.=
+com/appboy/communication/assets/image_assets/images/5d4adca5af874e73734e503=
+5/original.png" border=3D"0" width=3D"28" height=3D"10" alt=3D"" />
+                                                                           =
+                                         -->
+                                                                           =
+                                        =20
+																												</td>
+																											</tr>
+																										</table>
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td background=3D"https://i1.sndcdn.com/artwork=
+s-d34ddfd3-1567-4642-9b7a-4983793fc3af-0-t500x500.jpg" bgcolor=3D"#000001" =
+valign=3D"top" height=3D"260" class=3D"bg-mod-d1-large-2" style=3D"display:=
+ block !important; width: 100% !important; height: auto !important; backgro=
+und-size: 100% 100% !important; background-position: center center !importa=
+nt; background-repeat: no-repeat !important;">
+																													<!--[if gte mso 9]>
+																													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width: 260px; height: 260px;">
+																														<v:fill type=3D"frame" src=3D"https://i1.sndc=
+dn.com/artworks-d34ddfd3-1567-4642-9b7a-4983793fc3af-0-t500x500.jpg" color=
+=3D"#000001" />
+																														<v:textbox inset=3D"0,0,0,0">
+																													<![endif]-->
+																													<div>
+																														<table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+																															<tr>
+																																<td>
+																																	<table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+																																		<tr>
+																																			<td class=3D"img" width=3D"10" style=3D"=
+font-size: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca57b648d=
+770b14dd0c/original.png" border=3D"0" width=3D"10" height=3D"23" alt=3D"" s=
+tyle=3D"-ms-interpolation-mode: bicubic;"></td>
+																																			<td class=3D"img" style=3D"font-size: 0p=
+t; line-height: 0pt;" align=3D"left">
+																																			=09
+                                                                           =
+                                                                     <!--
+                                                                           =
+                                                                     <div c=
+lass=3D"img-go-badge img-right" width=3D"28" style=3D"font-size:0pt; line-h=
+eight:0pt; text-align:right;"><img class=3D"text-alt" src=3D"https://appboy=
+-images.com/appboy/communication/assets/image_assets/images/5d4adca5c2b4772=
+cf8b383cd/original.png" border=3D"0" width=3D"28" height=3D"23" alt=3D"Go+"=
+ /></div>
+                                                                           =
+                                                                     -->
+                                                                           =
+                                                                    =20
+																																			</td>
+																																		</tr>
+																																	</table>
+																																	<div class=3D"fluid-img" style=3D"font-siz=
+e: 0pt; line-height: 0pt;" align=3D"left"><a href=3D"https://links.announce=
+ments.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eK=
+XKa9L6HX7FwqftKjrE2KgQ4HHpR7iP0_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1=
+w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mjrhap=
+vR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoF=
+zOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl=
+-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fo=
+fa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQ=
+OTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV=
+4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo=
+8ouXVsGIziqmvV-2F2tqqz5YZI2PLTeYkvMAqPRkM9xslD43I2LAOV8K6bC8E2BMwQ9emSKBljH=
+nWrm8VdRoHxdHLksqRWPFxfEo8QLe-2FsDdV5jBlCiWKXuBRhKzvHRShHBYkOYW330lZXx1E3Ja=
+qVsjAXe1bzxnJvBkNJkmKjBzytqpEwUnAU7MjQA6ZOmXwgrasw-3D-3D" target=3D"_blank"=
+ style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca50464b9=
+2fedd7fec1/original.png" border=3D"0" width=3D"260" height=3D"242" alt=3D""=
+ style=3D"-ms-interpolation-mode: bicubic;"></a></div>
+																																</td>
+																															</tr>
+																														</table>
+																													</div>
+																													<!--[if gte mso 9]>
+																														</v:textbox>
+																													</v:rect>
+																													<![endif]-->
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td valign=3D"top" class=3D"img" width=3D"10" styl=
+e=3D"font-size: 0pt; line-height: 0pt;" align=3D"left">
+                                                                           =
+                            =20
+                                                                           =
+                             <!--
+																										<div class=3D"img-go-badge"><img src=3D"https://a=
+ppboy-images.com/appboy/communication/assets/image_assets/images/5d4adca599=
+e8af1ee4f14cb7/original.png" border=3D"0" width=3D"10" height=3D"33" alt=3D=
+"" /></div>
+                                                                           =
+                             -->
+                                                                           =
+                            =20
+																									</td>
+																								</tr>
+																							</table>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td style=3D"padding-top: 25px;">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"h4 center" style=3D"padding-bottom=
+: 8px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 20px; line-height: 28px; font-weight: bold; min-width: =
+auto !important;" align=3D"center">Duma</td>
+																											</tr>
+																											<tr>
+																												<td class=3D"text center" style=3D"color: #3333=
+33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 22px; min-width: auto !important; font-weight: 500;" al=
+ign=3D"center">Cannis b/w Mbukinya</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</th>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<!-- END Section 1 / Two Columns -->
+															<!-- Section 2 / Two Columns -->
+															<tr>
+																<td style=3D"padding-bottom: 75px;" class=3D"pb50">
+																	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+																		<tr>
+																			<th class=3D"column" width=3D"270" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+																				<table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+																					<tr>
+																						<td>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td valign=3D"top">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"img" width=3D"232" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appboy-imag=
+es.com/appboy/communication/assets/image_assets/images/5d4addfac2b4772b0fb3=
+8422/original.png" border=3D"0" width=3D"232" height=3D"10" alt=3D"" style=
+=3D"-ms-interpolation-mode: bicubic;"></td>
+																												<td class=3D"img-right" style=3D"font-size: 0pt=
+; line-height: 0pt;" align=3D"right">
+                                                                           =
+                                        =20
+                                                                           =
+                                         <!--
+																													<img src=3D"https://appboy-images.com/appboy/c=
+ommunication/assets/image_assets/images/5d4adca5af874e73734e5035/original.p=
+ng" border=3D"0" width=3D"28" height=3D"10" alt=3D"" />
+                                                                           =
+                                         -->
+                                                                           =
+                                        =20
+																												</td>
+																											</tr>
+																										</table>
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td background=3D"https://i1.sndcdn.com/artwork=
+s-cszh7jbx6P3B-0-t500x500.png" bgcolor=3D"#000001" valign=3D"top" height=3D=
+"260" class=3D"bg-mod-d1-large-2" style=3D"display: block !important; width=
+: 100% !important; height: auto !important; background-size: 100% 100% !imp=
+ortant; background-position: center center !important; background-repeat: n=
+o-repeat !important;">
+																													<!--[if gte mso 9]>
+																													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width: 260px; height: 260px;">
+																														<v:fill type=3D"frame" src=3D"https://i1.sndc=
+dn.com/artworks-cszh7jbx6P3B-0-t500x500.png" color=3D"#000001" />
+																														<v:textbox inset=3D"0,0,0,0">
+																													<![endif]-->
+																													<div>
+																														<table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+																															<tr>
+																																<td>
+																																	<table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+																																		<tr>
+																																			<td class=3D"img" width=3D"10" style=3D"=
+font-size: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca57b648d=
+770b14dd0c/original.png" border=3D"0" width=3D"10" height=3D"23" alt=3D"" s=
+tyle=3D"-ms-interpolation-mode: bicubic;"></td>
+																																			<td class=3D"img" style=3D"font-size: 0p=
+t; line-height: 0pt;" align=3D"left">
+																																			=09
+                                                                           =
+                                                                     <!--
+                                                                           =
+                                                                     <div c=
+lass=3D"img-go-badge img-right" width=3D"28" style=3D"font-size:0pt; line-h=
+eight:0pt; text-align:right;"><img class=3D"text-alt" src=3D"https://appboy=
+-images.com/appboy/communication/assets/image_assets/images/5d4adca5c2b4772=
+cf8b383cd/original.png" border=3D"0" width=3D"28" height=3D"23" alt=3D"Go+"=
+ /></div>
+                                                                           =
+                                                                     -->
+                                                                           =
+                                                                    =20
+																																			</td>
+																																		</tr>
+																																	</table>
+																																	<div class=3D"fluid-img" style=3D"font-siz=
+e: 0pt; line-height: 0pt;" align=3D"left"><a href=3D"https://links.announce=
+ments.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eK=
+XKa9L7l9jUH-2BioEyb5Y-2Fc1f43iUejMV_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-=
+2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mj=
+rhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZk=
+RuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd=
+-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY=
+-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqv=
+MAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDV=
+qFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opD=
+z4oo8ouXVsGIziqmvV-2F2tqqz5YZI2CFiJN72Z3Gf6xV9z-2FqTuB8lPZZyNdkBoBUNPgDbdqp=
+-2FG9y0xtelzd5UD6tNtEHdZnupLVNd6V6Rm7E10DBRI7vmXdexpmwrX0bsGpcMRq2ana2Rijbc=
+WCfs3EiFvcuh4SLrqkISnpsTuA6yUMyOHMNA20Mi4nhGIvqKCCGEReDg-3D-3D" target=3D"_=
+blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https:/=
+/appboy-images.com/appboy/communication/assets/image_assets/images/5d4adca5=
+0464b92fedd7fec1/original.png" border=3D"0" width=3D"260" height=3D"242" al=
+t=3D"" style=3D"-ms-interpolation-mode: bicubic;"></a></div>
+																																</td>
+																															</tr>
+																														</table>
+																													</div>
+																													<!--[if gte mso 9]>
+																														</v:textbox>
+																													</v:rect>
+																													<![endif]-->
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td valign=3D"top" class=3D"img" width=3D"10" styl=
+e=3D"font-size: 0pt; line-height: 0pt;" align=3D"left">
+                                                                           =
+                            =20
+                                                                           =
+                             <!--
+																										<div class=3D"img-go-badge"><img src=3D"https://a=
+ppboy-images.com/appboy/communication/assets/image_assets/images/5d4adca599=
+e8af1ee4f14cb7/original.png" border=3D"0" width=3D"10" height=3D"33" alt=3D=
+"" /></div>
+                                                                           =
+                             -->
+                                                                           =
+                            =20
+																									</td>
+																								</tr>
+																							</table>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td style=3D"padding-top: 25px;">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"h4 center" style=3D"padding-bottom=
+: 8px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 20px; line-height: 28px; font-weight: bold; min-width: =
+auto !important;" align=3D"center">TSHA</td>
+																											</tr>
+																											<tr>
+																												<td class=3D"text center" style=3D"color: #3333=
+33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 22px; min-width: auto !important; font-weight: 500;" al=
+ign=3D"center">OnlyL</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</th>
+																			<th style=3D"font-size: 0pt; line-height: 0pt; font-weig=
+ht: normal; margin: 0; padding: 0;" class=3D"column" width=3D"16"></th>
+																			<th class=3D"column" width=3D"270" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+																				<table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+																					<tr>
+																						<td>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td valign=3D"top">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"img" width=3D"232" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appboy-imag=
+es.com/appboy/communication/assets/image_assets/images/5d4addfac2b4772b0fb3=
+8422/original.png" border=3D"0" width=3D"232" height=3D"10" alt=3D"" style=
+=3D"-ms-interpolation-mode: bicubic;"></td>
+																												<td class=3D"img-right" style=3D"font-size: 0pt=
+; line-height: 0pt;" align=3D"right">
+																												=09
+                                                                           =
+                                         <!--
+                                                                           =
+                                         <img src=3D"https://appboy-images.=
+com/appboy/communication/assets/image_assets/images/5d4adca5af874e73734e503=
+5/original.png" border=3D"0" width=3D"28" height=3D"10" alt=3D"" />
+                                                                           =
+                                         -->
+                                                                           =
+                                        =20
+																												</td>
+																											</tr>
+																										</table>
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td background=3D"https://i1.sndcdn.com/artwork=
+s-O1kSGbAdNZ8xUbi9-ulxtHw-t500x500.jpg" bgcolor=3D"#000001" valign=3D"top" =
+height=3D"260" class=3D"bg-mod-d1-large-2" style=3D"display: block !importa=
+nt; width: 100% !important; height: auto !important; background-size: 100% =
+100% !important; background-position: center center !important; background-=
+repeat: no-repeat !important;">
+																													<!--[if gte mso 9]>
+																													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width: 260px; height: 260px;">
+																														<v:fill type=3D"frame" src=3D"https://i1.sndc=
+dn.com/artworks-O1kSGbAdNZ8xUbi9-ulxtHw-t500x500.jpg" color=3D"#000001" />
+																														<v:textbox inset=3D"0,0,0,0">
+																													<![endif]-->
+																													<div>
+																														<table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+																															<tr>
+																																<td>
+																																	<table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+																																		<tr>
+																																			<td class=3D"img" width=3D"10" style=3D"=
+font-size: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca57b648d=
+770b14dd0c/original.png" border=3D"0" width=3D"10" height=3D"23" alt=3D"" s=
+tyle=3D"-ms-interpolation-mode: bicubic;"></td>
+																																			<td class=3D"img" style=3D"font-size: 0p=
+t; line-height: 0pt;" align=3D"left">
+																																			=09
+                                                                           =
+                                                                     <!--
+                                                                           =
+                                                                     <div c=
+lass=3D"img-go-badge img-right" width=3D"28" style=3D"font-size:0pt; line-h=
+eight:0pt; text-align:right;"><img class=3D"text-alt" src=3D"https://appboy=
+-images.com/appboy/communication/assets/image_assets/images/5d4adca5c2b4772=
+cf8b383cd/original.png" border=3D"0" width=3D"28" height=3D"23" alt=3D"Go+"=
+ /></div>
+                                                                           =
+                                                                     -->
+                                                                           =
+                                                                    =20
+																																			</td>
+																																		</tr>
+																																	</table>
+																																	<div class=3D"fluid-img" style=3D"font-siz=
+e: 0pt; line-height: 0pt;" align=3D"left"><a href=3D"https://links.announce=
+ments.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eK=
+XKa9L5w1TWuNMvAW1jr9zJE-2F8qFzivY_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2F=
+D1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mjrh=
+apvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRu=
+oFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2=
+Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2=
+Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMA=
+YQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqF=
+FV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4=
+oo8ouXVsGIziqmvV-2F2tqqz5YZI3tn2FglLvSRdAiAU1p-2B4BDr3Ea8y5Hr7RdedsVvddNE74=
+Twls2ZTprQShVqLG8RI2dZhdEpSbxoCCriWPzbDTB74bZrt9fN0ZA8T68wNmFySnNmm-2BOfi8O=
+3F0hhV0LUOnCZqOmZk2hjCzYFmEx9BXOl0FnduEkAkGUc-2Fqj013Uag-3D-3D" target=3D"_=
+blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https:/=
+/appboy-images.com/appboy/communication/assets/image_assets/images/5d4adca5=
+0464b92fedd7fec1/original.png" border=3D"0" width=3D"260" height=3D"242" al=
+t=3D"" style=3D"-ms-interpolation-mode: bicubic;"></a></div>
+																																</td>
+																															</tr>
+																														</table>
+																													</div>
+																													<!--[if gte mso 9]>
+																														</v:textbox>
+																													</v:rect>
+																													<![endif]-->
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td valign=3D"top" class=3D"img" width=3D"10" styl=
+e=3D"font-size: 0pt; line-height: 0pt;" align=3D"left">
+																									=09
+                                                                           =
+                             <!--
+                                                                           =
+                             <div class=3D"img-go-badge"><img src=3D"https:=
+//appboy-images.com/appboy/communication/assets/image_assets/images/5d4adca=
+599e8af1ee4f14cb7/original.png" border=3D"0" width=3D"10" height=3D"33" alt=
+=3D"" /></div>
+                                                                           =
+                             -->
+                                                                           =
+                            =20
+																									</td>
+																								</tr>
+																							</table>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td style=3D"padding-top: 25px;">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"h4 center" style=3D"padding-bottom=
+: 8px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 20px; line-height: 28px; font-weight: bold; min-width: =
+auto !important;" align=3D"center">SAYMYNAME x EDISON COLE</td>
+																											</tr>
+																											<tr>
+																												<td class=3D"text center" style=3D"color: #3333=
+33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 22px; min-width: auto !important; font-weight: 500;" al=
+ign=3D"center">CHAOS</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</th>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<!-- END Section 2 / Two Columns -->
+															<!-- Section 3 / Two Columns -->
+															<tr>
+																<td style=3D"padding-bottom: 75px;">
+																	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+																		<tr>
+																			<th class=3D"column" width=3D"270" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+																				<table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+																					<tr>
+																						<td>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td valign=3D"top">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"img" width=3D"232" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appboy-imag=
+es.com/appboy/communication/assets/image_assets/images/5d4addfac2b4772b0fb3=
+8422/original.png" border=3D"0" width=3D"232" height=3D"10" alt=3D"" style=
+=3D"-ms-interpolation-mode: bicubic;"></td>
+																												<td class=3D"img-right" style=3D"font-size: 0pt=
+; line-height: 0pt;" align=3D"right">
+																												=09
+                                                                           =
+                                         <!--
+                                                                           =
+                                         <img src=3D"https://appboy-images.=
+com/appboy/communication/assets/image_assets/images/5d4adca5af874e73734e503=
+5/original.png" border=3D"0" width=3D"28" height=3D"10" alt=3D"" />
+                                                                           =
+                                         -->
+                                                                           =
+                                        =20
+																												</td>
+																											</tr>
+																										</table>
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td background=3D"https://i1.sndcdn.com/artwork=
+s-059dfb23-ae04-4498-a9c3-900200b47378-0-t500x500.jpg" bgcolor=3D"#000001" =
+valign=3D"top" height=3D"260" class=3D"bg-mod-d1-large-2" style=3D"display:=
+ block !important; width: 100% !important; height: auto !important; backgro=
+und-size: 100% 100% !important; background-position: center center !importa=
+nt; background-repeat: no-repeat !important;">
+																													<!--[if gte mso 9]>
+																													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width: 260px; height: 260px;">
+																														<v:fill type=3D"frame" src=3D"https://i1.sndc=
+dn.com/artworks-059dfb23-ae04-4498-a9c3-900200b47378-0-t500x500.jpg" color=
+=3D"#000001" />
+																														<v:textbox inset=3D"0,0,0,0">
+																													<![endif]-->
+																													<div>
+																														<table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+																															<tr>
+																																<td>
+																																	<table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+																																		<tr>
+																																			<td class=3D"img" width=3D"10" style=3D"=
+font-size: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca57b648d=
+770b14dd0c/original.png" border=3D"0" width=3D"10" height=3D"23" alt=3D"" s=
+tyle=3D"-ms-interpolation-mode: bicubic;"></td>
+																																			<td class=3D"img" style=3D"font-size: 0p=
+t; line-height: 0pt;" align=3D"left">
+																																			=09
+                                                                           =
+                                                                     <!--
+                                                                           =
+                                                                     <div c=
+lass=3D"img-go-badge img-right" width=3D"28" style=3D"font-size:0pt; line-h=
+eight:0pt; text-align:right;"><img class=3D"text-alt" src=3D"https://appboy=
+-images.com/appboy/communication/assets/image_assets/images/5d4adca5c2b4772=
+cf8b383cd/original.png" border=3D"0" width=3D"28" height=3D"23" alt=3D"Go+"=
+ /></div>
+                                                                           =
+                                                                     -->
+                                                                           =
+                                                                    =20
+																																			</td>
+																																		</tr>
+																																	</table>
+																																	<div class=3D"fluid-img" style=3D"font-siz=
+e: 0pt; line-height: 0pt;" align=3D"left"><a href=3D"https://links.announce=
+ments.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eK=
+XKa9L4zuemaEyvI6qxcQR3qAHam8_kv_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1=
+w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mjrhap=
+vR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoF=
+zOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl=
+-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fo=
+fa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQ=
+OTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV=
+4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo=
+8ouXVsGIziqmvV-2F2tqqz5YZI0XbS-2FKqlobPMViroNiOGv2giE4u0qw-2FmW37iEfKcTiddx=
+6JluDbGdKSbnu9GPLOEiJ0XaEjqjYfyFrwyd9ZcaSpGxEUevuddmzR9Bq6wCO-2FZWf0GNY7rxx=
+1dGPGZ9uS9YFqtIEs2ZKThLPzzhDYuO-2B5z9yFSZQF4X8vTieP9GrfA-3D-3D" target=3D"_=
+blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https:/=
+/appboy-images.com/appboy/communication/assets/image_assets/images/5d4adca5=
+0464b92fedd7fec1/original.png" border=3D"0" width=3D"260" height=3D"242" al=
+t=3D"" style=3D"-ms-interpolation-mode: bicubic;"></a></div>
+																																</td>
+																															</tr>
+																														</table>
+																													</div>
+																													<!--[if gte mso 9]>
+																														</v:textbox>
+																													</v:rect>
+																													<![endif]-->
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td valign=3D"top" class=3D"img" width=3D"10" styl=
+e=3D"font-size: 0pt; line-height: 0pt;" align=3D"left">
+                                                                           =
+                            =20
+                                                                           =
+                             <!--
+																										<div class=3D"img-go-badge"><img src=3D"https://a=
+ppboy-images.com/appboy/communication/assets/image_assets/images/5d4adca599=
+e8af1ee4f14cb7/original.png" border=3D"0" width=3D"10" height=3D"33" alt=3D=
+"" /></div>
+                                                                           =
+                             -->
+                                                                           =
+                            =20
+																									</td>
+																								</tr>
+																							</table>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td style=3D"padding-top: 25px;">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"h4 center" style=3D"padding-bottom=
+: 8px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 20px; line-height: 28px; font-weight: bold; min-width: =
+auto !important;" align=3D"center">Shift K3Y &amp; Tinashe</td>
+																											</tr>
+																											<tr>
+																												<td class=3D"text center" style=3D"color: #3333=
+33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 22px; min-width: auto !important; font-weight: 500;" al=
+ign=3D"center">Love Line (Shift K3Y's All Night VIP)</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</th>
+																			<th style=3D"font-size: 0pt; line-height: 0pt; font-weig=
+ht: normal; margin: 0; padding: 0;" class=3D"column" width=3D"16"></th>
+																			<th class=3D"column" width=3D"270" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;">
+																				<table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+																					<tr>
+																						<td>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td valign=3D"top">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"img" width=3D"232" style=3D"font-s=
+ize: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appboy-imag=
+es.com/appboy/communication/assets/image_assets/images/5d4addfac2b4772b0fb3=
+8422/original.png" border=3D"0" width=3D"232" height=3D"10" alt=3D"" style=
+=3D"-ms-interpolation-mode: bicubic;"></td>
+																												<td class=3D"img-right" style=3D"font-size: 0pt=
+; line-height: 0pt;" align=3D"right">
+																												=09
+                                                                           =
+                                         <!--
+                                                                           =
+                                         <img src=3D"https://appboy-images.=
+com/appboy/communication/assets/image_assets/images/5d4adca5af874e73734e503=
+5/original.png" border=3D"0" width=3D"28" height=3D"10" alt=3D"" />
+                                                                           =
+                                         -->
+                                                                           =
+                                        =20
+																												</td>
+																											</tr>
+																										</table>
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td background=3D"https://i1.sndcdn.com/artwork=
+s-PyVmLn04IGnW-0-t500x500.jpg" bgcolor=3D"#000001" valign=3D"top" height=3D=
+"260" class=3D"bg-mod-d1-large-2" style=3D"display: block !important; width=
+: 100% !important; height: auto !important; background-size: 100% 100% !imp=
+ortant; background-position: center center !important; background-repeat: n=
+o-repeat !important;">
+																													<!--[if gte mso 9]>
+																													<v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width: 260px; height: 260px;">
+																														<v:fill type=3D"frame" src=3D"https://i1.sndc=
+dn.com/artworks-PyVmLn04IGnW-0-t500x500.jpg" color=3D"#000001" />
+																														<v:textbox inset=3D"0,0,0,0">
+																													<![endif]-->
+																													<div>
+																														<table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+																															<tr>
+																																<td>
+																																	<table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+																																		<tr>
+																																			<td class=3D"img" width=3D"10" style=3D"=
+font-size: 0pt; line-height: 0pt;" align=3D"left"><img src=3D"https://appbo=
+y-images.com/appboy/communication/assets/image_assets/images/5d4adca57b648d=
+770b14dd0c/original.png" border=3D"0" width=3D"10" height=3D"23" alt=3D"" s=
+tyle=3D"-ms-interpolation-mode: bicubic;"></td>
+																																			<td class=3D"img" style=3D"font-size: 0p=
+t; line-height: 0pt;" align=3D"left">
+                                                                           =
+                                                                    =20
+                                                                           =
+                                                                     <!--
+																																				<div class=3D"img-go-badge img-right" w=
+idth=3D"28" style=3D"font-size:0pt; line-height:0pt; text-align:right;"><im=
+g class=3D"text-alt" src=3D"https://appboy-images.com/appboy/communication/=
+assets/image_assets/images/5d4adca5c2b4772cf8b383cd/original.png" border=3D=
+"0" width=3D"28" height=3D"23" alt=3D"Go+" /></div>
+                                                                           =
+                                                                     -->
+                                                                           =
+                                                                    =20
+																																			</td>
+																																		</tr>
+																																	</table>
+																																	<div class=3D"fluid-img" style=3D"font-siz=
+e: 0pt; line-height: 0pt;" align=3D"left"><a href=3D"https://links.announce=
+ments.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eK=
+XKa9L6rUIy-2FGjton-2FBU5WSL5QSPipkb_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-=
+2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mj=
+rhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZk=
+RuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd=
+-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY=
+-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqv=
+MAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDV=
+qFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opD=
+z4oo8ouXVsGIziqmvV-2F2tqqz5YZI2HEC9lw2rQ5TyGKkhJzXUX4Xw6gEYoHPTWUAIWltTx8dh=
+tdT3-2BFuQGLRjhxH8VsjTCnQEOeERfCKINnwYZ8oBiquBirvAJidSm9NKzdbRnvI0revu1zgAK=
+m4Ya8jpsg9-2FeNgqcsnu3QBuUpud-2FBxi-2FIFMrnyCw4t30Jmmsp29i2Q-3D-3D" target=
+=3D"_blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"ht=
+tps://appboy-images.com/appboy/communication/assets/image_assets/images/5d4=
+adca50464b92fedd7fec1/original.png" border=3D"0" width=3D"260" height=3D"24=
+2" alt=3D"" style=3D"-ms-interpolation-mode: bicubic;"></a></div>
+																																</td>
+																															</tr>
+																														</table>
+																													</div>
+																													<!--[if gte mso 9]>
+																														</v:textbox>
+																													</v:rect>
+																													<![endif]-->
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td valign=3D"top" class=3D"img" width=3D"10" styl=
+e=3D"font-size: 0pt; line-height: 0pt;" align=3D"left">
+																									=09
+                                                                           =
+                             <!--
+                                                                           =
+                             <div class=3D"img-go-badge"><img src=3D"https:=
+//appboy-images.com/appboy/communication/assets/image_assets/images/5d4adca=
+599e8af1ee4f14cb7/original.png" border=3D"0" width=3D"10" height=3D"33" alt=
+=3D"" /></div>
+                                                                           =
+                             -->
+                                                                           =
+                            =20
+																									</td>
+																								</tr>
+																							</table>
+																							<table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+																								<tr>
+																									<td style=3D"padding-top: 25px;">
+																										<table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+																											<tr>
+																												<td class=3D"h4 center" style=3D"padding-bottom=
+: 8px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 20px; line-height: 28px; font-weight: bold; min-width: =
+auto !important;" align=3D"center">Bad Boy Chiller Crew</td>
+																											</tr>
+																											<tr>
+																												<td class=3D"text center" style=3D"color: #3333=
+33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 22px; min-width: auto !important; font-weight: 500;" al=
+ign=3D"center">Free</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</th>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<!-- END Section 3 / Two Columns -->
+
+															<!-- Button -->
+															<tr>
+																<td align=3D"center" style=3D"padding-bottom: 75px;">
+                                                                   =20
+																	<!-- Button -->
+																	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+																		<tr>
+																			<td class=3D"text-button" style=3D"mso-padding-alt: 15px=
+ 27px; color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 20px; min-width: auto !important; fo=
+nt-weight: 500; border-radius: 4px;" align=3D"center" bgcolor=3D"#ff5500">
+																				<a href=3D"https://links.announcements.soundcloud.com/l=
+s/click?upn=3DI3GCXT6HjvvGZYEVZXsWA-2BxESffEU0nX3D7eKXKa9L4-2FTStLwMHdt2LKP=
+ytS6WvBXTRE_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k2=
+91tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB=
+-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-=
+2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164=
+hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7=
+Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLX=
+h3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BS=
+j0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tq=
+qz5YZI2i-2BQwwOGfS4Y8jDKX3VMHe79uEhZu3pDRincI84fqPf-2B95I6cRVc9vcuVvIYcW4nJ=
+KnlumL-2BjYiFk7hq88S31k0Kk6jXMoEz87byL46kHIJk-2B9OdRAAj-2FcqqAr7QaB4e-2Fehu=
+-2B5bPdDglOyD9V33ncJfqxlKGvJnSBK22L6uNmsmg-3D-3D" target=3D"_blank" class=
+=3D"link-button button-inner" style=3D"display: block; color: #ffffff; text=
+-decoration: none; padding: 15px 27px;"><span class=3D"link-button" style=
+=3D"color: #ffffff; text-decoration: none;">Check out the playlist</span></=
+a>
+																			</td>
+																		</tr>
+																	</table>
+																	<!-- END Button -->
+                                                                   =20
+																</td>
+															</tr>
+															<!-- END Button -->
+														</table>
+													</td>
+												</tr>
+													<!-- Section Social -->
+											<tr>
+												<td bgcolor=3D"#333333" style=3D"padding: 70px 50px;" class=3D"=
+plr-30" align=3D"center">
+													<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+														<tr>
+															<td align=3D"center" style=3D"padding-bottom: 34px;">
+																<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+																	<tr>
+																		<td class=3D"img" width=3D"68" style=3D"font-size: 0pt; l=
+ine-height: 0pt;" align=3D"left"><a href=3D"https://links.announcements.sou=
+ndcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA0vJQV92FjiH8-2F4sj9PEq7npre=
+6JdwJrY3mz0qqn1uq4fgCe_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2=
+B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3=
+D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiN=
+RuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFO=
+peTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNe=
+zYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKR=
+jPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEm=
+OCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIz=
+iqmvV-2F2tqqz5YZI3-2F8nRciVZdMqsmR6QK1GlPLZOK-2FGe00IvFuQupoSZ32B6sJV4uRj10=
+9uVDOCOrEgu31KdP-2BuASMaAWD4uaEZlHd-2FjS7fU5usS9I-2BvWzUBunjILq1-2FmwmR-2Fk=
+8qfF9mhUpQFcgY8jhiOAOlBSlqEwZn8lcUAqjOGr-2BmBB-2FGfki2qEg-3D-3D" target=3D"=
+_blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https:=
+//appboy-images.com/appboy/communication/assets/image_assets/images/5d36006=
+2b9f2cb65f0fc243b/original.png?1563820130" width=3D"37" height=3D"37" borde=
+r=3D"0" alt=3D"Instagram" style=3D"-ms-interpolation-mode: bicubic;"></a></=
+td>
+																		<td class=3D"img" width=3D"68" style=3D"font-size: 0pt; l=
+ine-height: 0pt;" align=3D"left"><a href=3D"https://links.announcements.sou=
+ndcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWAzQNwOx4-2Fn3PZv76GEjQvx-2FC=
+iu0F1XoLAqAeO4KFQwqMEf7q_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA=
+-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2=
+B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDp=
+iNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5To=
+FOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EU=
+NezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeY=
+KRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2F=
+EmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsG=
+IziqmvV-2F2tqqz5YZI3Qet7M3S06o3zGzJNmUVzO-2F5aPjLHk7sWLEwraHG9Insde48Imvtny=
+oX2qTLMPHtiJWwywNgKIm-2BndXaKooHNqFKOYf0dE47tbWJxNsBkKiS1mJbM51GgsNXf2STnhX=
+qxlIskUTRiolYnzfRvyxy5IdZqJ5RktBrYMvzsg4hvgkQ-3D-3D" target=3D"_blank" styl=
+e=3D"color: #ff5500; text-decoration: none;"><img src=3D"https://appboy-ima=
+ges.com/appboy/communication/assets/image_assets/images/5d360062c698ab10999=
+dd8b2/original.png?1563820130" width=3D"37" height=3D"37" border=3D"0" alt=
+=3D"Facebook" style=3D"-ms-interpolation-mode: bicubic;"></a></td>
+																		<td class=3D"img" width=3D"68" style=3D"font-size: 0pt; l=
+ine-height: 0pt;" align=3D"left"><a href=3D"https://links.announcements.sou=
+ndcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA7cHYVO948Yo-2FS6MvuU4bIAYJs=
+-2Fq7jQjbp4BKWV8Tq4-2BhYBg_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2=
+BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ=
+-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZF=
+DpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5=
+ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552=
+EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpj=
+eYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-=
+2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXV=
+sGIziqmvV-2F2tqqz5YZI0oaaGWm11IQzZLDYaSzrLpE-2F96mHr7R4J0GdIxf2t0VAsPaqVezi=
+pELoQGjKLEl7asuUg-2BJh5WmuZeup91Hroh-2FfQEZUg5QY7tkJ6GJBD4O5j7LVPUg5GfMonZF=
+eE5Nfx9C3x5mQGEm-2BfmXD8fu9u2XahQb7-2Fi6YrgfTHclnZdWg-3D-3D" target=3D"_bla=
+nk" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https://ap=
+pboy-images.com/appboy/communication/assets/image_assets/images/5d360062adb=
+3a852b40b7d07/original.png?1563820130" width=3D"42" height=3D"37" border=3D=
+"0" alt=3D"Twitter" style=3D"-ms-interpolation-mode: bicubic;"></a></td>
+																		<td class=3D"img" width=3D"42" style=3D"font-size: 0pt; l=
+ine-height: 0pt;" align=3D"left"><a href=3D"https://links.announcements.sou=
+ndcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWAwpKv9Kq-2BZewlGm-2BapGllqzF=
+prdDBZ-2ByVgeB7qYT-2FCZzlv8R_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I=
+-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5=
+WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOe=
+ZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2B=
+Z5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa5=
+52EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTT=
+pjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8=
+k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ou=
+XVsGIziqmvV-2F2tqqz5YZI3oWPeVnB08-2FZ95sClz68TKp4Z-2BBbiKCbBdGESt8FH8yWgCKe=
+TcAXPaAy9kmvJf2zQ485ER70hQ-2FmNMz1-2B2WaA1DPtDpS8ABxcJVa-2FEpsGYEQOdT-2Bv09=
+wLULLPqeLe4fFZPWAu3ISS8dv5ghqWjior2e3tI039NaQ4oIKZ54PBDkw-3D-3D" target=3D"=
+_blank" style=3D"color: #ff5500; text-decoration: none;"><img src=3D"https:=
+//appboy-images.com/appboy/communication/assets/image_assets/images/5d36006=
+2af874e2691a37236/original.png?1563820130" width=3D"37" height=3D"37" borde=
+r=3D"0" alt=3D"Tumblr" style=3D"-ms-interpolation-mode: bicubic;"></a></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class=3D"text center white" style=3D"font-family: 'Helve=
+tica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22p=
+x; min-width: auto !important; font-weight: 500; color: #ffffff;" align=3D"=
+center"><a href=3D"https://links.announcements.soundcloud.com/ls/click?upn=
+=3DI3GCXT6HjvvGZYEVZXsWAzFpQ-2FB4790G3s3HT01MExEbIg4-2FdQ5rkyV-2B-2FM9ow0Xk=
+JT1t_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-=
+2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biL=
+IT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCS=
+qtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8=
+TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLv=
+JUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSeg=
+TuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesS=
+tDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI0=
+kteex2ECxwGCXgOjohPx1SPsXsVLUb2gy-2BlY-2Ftwxuqkxsh1MIkpITwgrXEl5-2BjduIG17t=
+vBocCLBSXsD3RXu6xNJmidDF9FlcTtRj177DoPWD1ke1Rv8Uduq-2F-2FQGyLtfVubJjbCYA8Xg=
+y99Vx2rdmtfah-2BTn50AHxeqvdSx1MVA-3D-3D" target=3D"_blank" class=3D"link-wh=
+ite" style=3D"color: #ffffff; text-decoration: none;"><span class=3D"link-w=
+hite" style=3D"color: #ffffff; text-decoration: none;">The SoundCloud Blog<=
+/span></a></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<!-- END Section Social -->
+											</table>
+										</div>
+									</td>
+								</tr>
+								<!-- END Main -->
+							</table>
+						</td>
+					</tr>
+					<!-- Footer -->
+					<tr>
+						<td style=3D"padding: 24px 50px;">
+							<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+							=09
+								<!-- END Main -->
+
+								<!-- Footer -->
+								<tr>
+									<td style=3D"padding: 24px 50px;">
+										<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+											<tr>
+												<td class=3D"text-footer" style=3D"padding-bottom: 30px; color:=
+ #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font=
+-size: 11px; line-height: 16px; min-width: auto !important; font-weight: bo=
+ld;" align=3D"center">SoundCloud for iOS and Android</td>
+											</tr>
+											<tr>
+												<td align=3D"center" style=3D"padding-bottom: 30px;">
+													<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+														<tr>
+															<th class=3D"column-top" width=3D"160" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;" valign=
+=3D"top">
+																<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+																	<tr>
+																		<td class=3D"img mt-center" style=3D"font-size: 0pt; line=
+-height: 0pt;" align=3D"left"><a href=3D"https://links.announcements.soundc=
+loud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA0u50fYnelO-2FGJG-2Bpu28FU3WA12=
+ItHisaoq24Dpejt-2Fv19qSNuWxJmoOvEmb1YgHBiPPQ1E0XyI2lSMUvAQ7OD4-3DRBns_7KaMw=
+kvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2=
+Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXo=
+EzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchly=
+f3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdX=
+eosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wA=
+kNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE=
+5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoM=
+JRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI32ySqxx9VD8=
+j4vlDLkJQNEyW25BaFYAYgpaOw05vKfr-2FE1tHJF5TFbzBg-2BBP-2FyjrzKxoFG3Bl5Hbzpox=
+NhsrWgwc6DzWv2XcJStPvlaQ88pGJGcDo6NI9r2MP-2BT9atVYzvEEbAxrbLzK0O-2BNNvodIAW=
+BFyB9f7rO8Hb3Dbl-2BtoJg-3D-3D" target=3D"_blank" style=3D"color: #ff5500; t=
+ext-decoration: none;"><img src=3D"https://appboy-images.com/appboy/communi=
+cation/assets/image_assets/images/5d360062cb832c060596fbcb/original.png?156=
+3820130" width=3D"159" height=3D"47" border=3D"0" alt=3D"App Store" style=
+=3D"-ms-interpolation-mode: bicubic;"></a></td>
+																	</tr>
+																</table>
+															</th>
+															<th style=3D"font-size: 0pt; line-height: 0pt; font-weight: =
+normal; margin: 0; padding: 0px 0px 15px;" class=3D"column" width=3D"25"></=
+th>
+															<th class=3D"column-top" width=3D"160" style=3D"font-size: 0=
+pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 0;" valign=
+=3D"top">
+																<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+																	<tr>
+																		<td class=3D"img mt-center" style=3D"font-size: 0pt; line=
+-height: 0pt;" align=3D"left"><a href=3D"https://links.announcements.soundc=
+loud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA6LxT1ZI7MNVVqDgvmkC1nUUj5F7sfx=
+C44J4i3pfCCxYcxN3XA321y8Of0CX-2BgIihwNGg3r7J6vCEcMAGZnTtsc-3Dxg7b_7KaMwkvSy=
+4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2r=
+tHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6=
+mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zm=
+AxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosI=
+sQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqA=
+m-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0=
+FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwb=
+kc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI2C2vLmWDDIyAQtd=
+PwEkHZppLMivnJbxhnBtA6t1qMGjom5rKNrBk52d2Ti3iQ3NvbQUJCL-2FmGlUSFOAAcHjhF-2F=
+OLH9Xk5HLq5bI1HShi-2BS7F-2FipsEB3m5ai-2BQK8vFY-2FlfymOX1bo78T6zFVuF1BhJ4VHS=
+eWlNkurpC4-2Br0mg5rOg-3D-3D" target=3D"_blank" style=3D"color: #ff5500; tex=
+t-decoration: none;"><img src=3D"https://appboy-images.com/appboy/communica=
+tion/assets/image_assets/images/5d36006299e8af2dd6607014/original.png?15638=
+20130" width=3D"160" height=3D"47" border=3D"0" alt=3D"Google Play" style=
+=3D"-ms-interpolation-mode: bicubic;"></a></td>
+																	</tr>
+																</table>
+															</th>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class=3D"text-footer" style=3D"padding-bottom: 30px; color:=
+ #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font=
+-size: 11px; line-height: 16px; min-width: auto !important; font-weight: bo=
+ld;" align=3D"center">
+													=C2=A9 2007-2021 SoundCloud Global Limited &amp; Co. KG | All =
+rights reserved <br>
+													<a href=3D"https://links.announcements.soundcloud.com/asm/unsu=
+bscribe/?user_id=3D2203186&amp;data=3D-F3030d0OYj8m_FmbfVwo23Bx-GK6DLhaTSW3=
+UAiEqIMwts-P6zPU0ZlIwPE9AeqCoX6m3npkwlknPoEpbPngD8PvgKGyIpoewATlppaOFkKNj7G=
+fq-wPZ04Nu5sL9A3f3phfWUSLaSpK25vsHTQHwqrlVGf5SUX-12MWAcZ_R0GHiEM_434AvB60Jv=
+Jq-4zohawG1YLUD2UqEv_AWrpqt1wbY3KYbuK8Lm1K_9hbnIkyJ9Su1koAjj07igKniT4uUqv_8=
+dQfc36BFsMdT2Xdx4d7_tkvYXwn2Oo71y6ctBMrKmVuHifR17M6ZyLAb_xtIoDjv1cOpKMlV-oq=
+T9aYKUzEltakys-IC5k6qCLJPV-DqI0syr1gZgjGHU2rliK_HSne8fA0mGMYcezEuCtxqiqvtZ5=
+q7XmmPW6DWMCsofTrsnAzSU9XJimIlHX39GyNTwksn3l0HMwiKWp0zbWqVYP0R_PJ8y0v5zI8JO=
+ACBluCbzaZ5ghP0Gzg_g_2hck5iXXMuwweZdE3GHz-Gspx86fOC22oI0RwJSdSQgIyLNxtujML0=
+Ghq9gAQ4wTd-Wojf8TjL1xM9CLxV2Ciz7gN6mfJM_KoxXxRKFCBy4wdKptHaKwuXaO4vHv4Gc6H=
+j7ZQkywMssGGgPfBdf4fJHzOI0prqv7L1gCooNUCWyFWmsX5hodolrbnch_L0lx6eQdmOdfwr2G=
+WuierNkDgXm8kvkW6XGbCzF6rfoeldCxvYux8rs2C2q1_JT7w59XJH9ZZUrMGPgLKr51DeuK3az=
+pKX6cOR5d1s6uTWC-y0mwMhPZAop5ZCzawss_yVJbl2QZ0r3JPYHb1MLKAS_1D-8nsfZAgvvQlz=
+azIkymbFGuFuLE0ZdB41bjDPwDhGq3QH45Jp6v8FTr8Z7e02bi5Gxa2sw2WRcy0UrTpzHZ_Qx2r=
+tA=3D" target=3D"_blank" class=3D"link-black" style=3D"color: #333333; text=
+-decoration: none;"><span class=3D"link-black" style=3D"color: #333333; tex=
+t-decoration: none;">Unsubscribe</span></a> | <a href=3D"https://links.anno=
+uncements.soundcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA2BesD5qYckvwlW=
+3Bk6l2TCe9XfEJ6mjLGfh8qmLAlAfcBat_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2F=
+D1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7Mjrh=
+apvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRu=
+oFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2=
+Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2=
+Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMA=
+YQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqF=
+FV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4=
+oo8ouXVsGIziqmvV-2F2tqqz5YZI3wlQ85FxUczuZPhj5u1KFM6iU19dMvM-2FkCmzoMFp-2FH3=
+QgKP8Ift3Dcq8Ku96FY4E1L0ty0I-2Fjj9-2B9iQte9vZixfvwgKBKUtjH8dJ5jDVzM-2FZh7oH=
+Mq3ewhQ-2Fia3IBfanEmitfN-2FrB9AHbi8wwjVe-2Bfrc9nD2dTdw0PIawX2GT3BQ-3D-3D" t=
+arget=3D"_blank" class=3D"link-black" style=3D"color: #333333; text-decorat=
+ion: none;"><span class=3D"link-black" style=3D"color: #333333; text-decora=
+tion: none;">Support</span></a> | <a href=3D"https://links.announcements.so=
+undcloud.com/ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWAxoWEHXIHfc3a6K4v8omxDy3-2B=
+d8Bg6BW6JrBrfasXwl3SvBN_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-=
+2B8fxGVQl3k291tAzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B=
+3D25xAgV9YTB-2F8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpi=
+NRuY81CAYGM-2BOibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToF=
+OpeTY7Z5f164hqAcGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUN=
+ezYNOicaKgv7Sf2STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYK=
+RjPpv6KJzzLXh3diSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FE=
+mOCt8Unu-2BSj0tnesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGI=
+ziqmvV-2F2tqqz5YZI0msRgYPmXeD05JbMPu9S8TGGsvV5xG4n5Fog5DS44URcoYiuJS3pdhM-2=
+Bh-2BiirCG5Lm-2BqPGd0bHbbB1ty5kUh3389XZvGqmqZ8PPmvY71-2F2U6Gsskt6q5CfljGTy2=
+YBZ1QxMBbfSgMz4Jm8tjExJesJ4YuKr8h1wwSOvl5ssDIf8A-3D-3D" target=3D"_blank" c=
+lass=3D"link-black" style=3D"color: #333333; text-decoration: none;"><span =
+class=3D"link-black" style=3D"color: #333333; text-decoration: none;">Terms=
+ of Use</span></a> | <a href=3D"https://links.announcements.soundcloud.com/=
+ls/click?upn=3DI3GCXT6HjvvGZYEVZXsWA4COH7LUdqDFWdVpXNZzx9l83GgitvZtjvb0BG5c=
+UR9NNsUJ_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291t=
+AzX-2BZ9-2B9m2Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F=
+8biLIT3xOMhMXoEzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BO=
+ibCSqtgFGEchlyf3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqA=
+cGG8TA-2F4XQdXeosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2=
+STLvJUxacsB5wAkNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3d=
+iSegTuaAC5YGkE5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0t=
+nesStDObZkdJoMJRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5=
+YZI3DCnOD68-2B1TBEUVkdJxr6FuzWpqHtfpvuX9i0vD4YSnykpBeZTvIlgufnrXktDjq8wuchV=
+d6gKfdpikRPDTrE83UfZkzYqbweHrUDSQITbrIdWjkUhttvYWzfT7e6-2FgdJ2s-2Fq0WCL5qv7=
+t7l-2BQp-2BlBQTYRL74ma6-2FuBIeCK1ICsw-3D-3D" target=3D"_blank" class=3D"lin=
+k-black" style=3D"color: #333333; text-decoration: none;"><span class=3D"li=
+nk-black" style=3D"color: #333333; text-decoration: none;">Imprint</span></=
+a> | <a href=3D"https://links.announcements.soundcloud.com/ls/click?upn=3DI=
+3GCXT6HjvvGZYEVZXsWAyg21T-2FMaDidDWIHdv2JaGVr6fpdpKM9oJkRdKewYPo1yw0A_7KaMw=
+kvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BA-2B8fxGVQl3k291tAzX-2BZ9-2B9m2=
+Qv2rtHWHidXzij5sLW4TBwBYpMIvPFz7MjrhapvR5WZ-2B3D25xAgV9YTB-2F8biLIT3xOMhMXo=
+EzL6mXwBkdsexx8UEsBiHbpnI9ccWlPyZkRuoFzOeZFDpiNRuY81CAYGM-2BOibCSqtgFGEchly=
+f3zmAxK-2Fg04-2BgHHkoH5iSOXPZaJhSd-2Bl-2BZ5ToFOpeTY7Z5f164hqAcGG8TA-2F4XQdX=
+eosIsQaKuDK6Z8v-2FCRULQL3C4O6rSPnY-2Fofa552EUNezYNOicaKgv7Sf2STLvJUxacsB5wA=
+kNqAm-2BohMydHLLuwBYRREjqdgpocdfqvMAYQOTTpjeYKRjPpv6KJzzLXh3diSegTuaAC5YGkE=
+5Pe0FeX5lL3lUsmaYz0AvUPexneHH8rWDVqFFV4l8k-2FEmOCt8Unu-2BSj0tnesStDObZkdJoM=
+JRwbkc8vUEVBE0o043lOeYS9lYhNS25opDz4oo8ouXVsGIziqmvV-2F2tqqz5YZI0eawGz5dlDE=
+tSKn4P-2F1aPYeQLylYqfxVOmG3ZWgWMiQingjZWIj6xkfQtQIlQGNyO5oS2ivtC-2BBuVTf2NB=
+G8ngRKBOQF2WaTQzQ7JHgAsx4IPwvafS8vnfmJn7WM-2F9yZRkxJvOxLjNH0xLdpSPyRASE2Ch-=
+2Ba9ef2IRKNkyqMrUVA-3D-3D" target=3D"_blank" class=3D"link-black" style=3D"=
+color: #333333; text-decoration: none;"><span class=3D"link-black" style=3D=
+"color: #333333; text-decoration: none;">Privacy Policy</span></a> <br>
+													SoundCloud Global Limited &amp; Co. KG&nbsp;<br>76=E2=80=8B/77=
+=E2=80=8B&nbsp;10115&nbsp;Berlin Germany
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<!-- END Footer -->
+							</table>
+						</td>
+					</tr>
+					<!-- END Footer -->
+				</table>
+			</td>
+		</tr>
+	</table>
+
+<img src=3D"https://links.announcements.soundcloud.com/wf/open?upn=3D0mwXn0=
+caUjhhJsla-2FkVFKCQlhJqD0AYaLKoZUbYGiHIDUaLytALeqDJSqXHdZnJqVDF7J8W-2FKEuJn=
+eFt6PUpPvfIQ91hL2jxw7UwCD1DmzF6ZYPNlPhseLjocnTYdMCsnK3KIkjUeK3NQGx7c7z2-2BO=
+Imltlo0Ydj01ovax9aEq8cDqMyUuWn1GOW62wvjVWHoRa5hja6jt-2F1S5ZZRvi4-2Bd1bVfGqD=
+Vu9o-2FeLKdRJ6ZgcIpIJ-2BV4aN-2FkHrVrs92E3DeivJQgZISy-2FEgRMvKIK6hBzd8hRWKzv=
+bTGJ4b1p8Ls8GTNMuBFSYEvrH6QHo9cylXcmMenLU5GrC6YLDsra-2B03XH3V5uUHDeuNUfCaz6=
+QwN8PhFVSVXxv95Faix-2FYVSul7hrn07zMa4iXaUglf0S3f3BhM-2FCbmophy3J5p75oTZPyc0=
+X70lQNklSoFJnQQ1TFckMcEJCfUBVxPkhboqQoIE5MiUxkeG3Mh5Zhu-2BAWYPDi0ExpbMtbs8X=
+3JFLcN6c6n6mPWopPVMsHdIIHX-2BIMbWrxW86Lw-2Bqx-2FxX3uOQhOeAqLQfuLZd5HLoOkJUa=
+114pLewdIC5vTooBoW8QGx2HVAkcLjtixXhD7TxaWnPnYycNCrmM7Wr7SL-2BfVfnKekBW3pyor=
+8HHwQFWx8DDLgyS10nabzUZN1y5T2fhKwx2UpLT3ZeYtp67-2Fxk-2BRbFTlqm5k4z4Rcq518Ua=
+LovNEZ4iKf6dfzfWSjzmfuJY7iXUs-3D" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"></bod=
+y>
+</html>
+
+--798a9383c331c42fa60619a99212491dd8e45c258384c6b5e2b8910ec9c5--

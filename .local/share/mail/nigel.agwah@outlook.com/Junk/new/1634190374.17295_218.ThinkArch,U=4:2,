@@ -1,0 +1,1197 @@
+Received: from DF4PR8401MB1324.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7611::22) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Fri, 1 Oct 2021 15:42:23 +0000
+Received: from SA9P223CA0023.NAMP223.PROD.OUTLOOK.COM (2603:10b6:806:26::28)
+ by DF4PR8401MB1324.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7611::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4544.15; Fri, 1 Oct
+ 2021 15:42:22 +0000
+Received: from SN1NAM02FT0008.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:806:26:cafe::62) by SA9P223CA0023.outlook.office365.com
+ (2603:10b6:806:26::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.14 via Frontend
+ Transport; Fri, 1 Oct 2021 15:42:21 +0000
+Authentication-Results: spf=pass (sender IP is 12.130.138.13)
+ smtp.mailfrom=news.skrill.com; outlook.com; dkim=pass (signature was
+ verified) header.d=news.skrill.com;outlook.com; dmarc=pass action=none
+ header.from=news.skrill.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of news.skrill.com
+ designates 12.130.138.13 as permitted sender)
+ receiver=protection.outlook.com; client-ip=12.130.138.13;
+ helo=omptrans.news.skrill.com;
+Received: from omptrans.news.skrill.com (12.130.138.13) by
+ SN1NAM02FT0008.mail.protection.outlook.com (10.97.5.9) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4566.14 via Frontend Transport; Fri, 1 Oct 2021 15:42:20 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:E5C42E50A9CB898653FB89E944DC7CE55B195FAA3B78D6B7D2D3E144842688AC;UpperCasedChecksum:296C81B4E5E3259BB4BE37E008EAE68BBCCF2C01CE517EC87086AE6A88FA35BC;SizeAsReceived:1216;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=skrill; d=news.skrill.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:
+ Subject:Message-ID; i=skrill@news.skrill.com;
+ bh=sqQyY5JNtvmXHnV+CDnUVD5xyjd733K9hAbt+fE3Y0s=;
+ b=QufC+cbDHAQs+/+QLGsvfESYStNueUGFIwoVwR8dB5c40smrDM6j6puh2tQ1UC0VavVihPXQ6RYW
+   9oAo/GkvSZ9YdwrvoiiRaa9DEM/mNuYztKiervoHsh8oExV0a754ILNnECuUCTd81xZjuJEFIwn1
+   4jRo+cewsm23Z1sXbF0=
+Received: by omptrans.news.skrill.com id hasm5o2q38kb for <nigel.agwah@outlook.com>; Fri, 1 Oct 2021 08:42:20 -0700 (envelope-from <skrill@news.skrill.com>)
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 1 Oct 2021 08:42:20 -0700
+To: nigel.agwah@outlook.com
+From: =?UTF-8?B?U2tyaWxs?= <skrill@news.skrill.com>
+Reply-To: =?UTF-8?B?U2tyaWxs?= <donotreply@news.skrill.com>
+Subject: Knect is under maintenance
+Feedback-ID: 1082:4091278:oraclersys
+X-sgxh1: gpnLtQHnOHoxhmlthhsQJhu
+X-rext: 6.interact2.Ethg1j6CgEw7wpOyYZJO--pzkhksX_C8b1LiKeUHSsp9MxHB3GDEUw
+X-cid: mbook.11562180
+X-ei: EnLn9GGuzvIUOxkhI6o0LOVXbE1_jPEP
+Message-ID: <0.1.289.4FF.1D7B6DAEBADEAE8.0@omptrans.news.skrill.com>
+X-IncomingHeaderCount: 16
+Return-Path: skrill@news.skrill.com
+X-MS-Exchange-Organization-ExpirationStartTime: 01 Oct 2021 15:42:21.0568
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b79c2531-fdea-4d5a-d882-08d984f20e8a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ SN1NAM02FT0008.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/29/2021 11:16:15 PM
+X-MS-Office365-Filtering-Correlation-Id: b79c2531-fdea-4d5a-d882-08d984f20e8a
+X-MS-TrafficTypeDiagnostic: DF4PR8401MB1324:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 12.130.138.13
+X-SID-PRA: SKRILL@NEWS.SKRILL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Oct 2021 15:42:20.8829
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b79c2531-fdea-4d5a-d882-08d984f20e8a
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ SN1NAM02FT0008.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DF4PR8401MB1324
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3443095
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4566.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90010023)(91010020)(91040095)(5061607266)(5061608174)(9050020)(9100336)(4900116)(98391031)(4910005)(9560002)(9320001)(4920091)(6515079)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeS6V+7VMJs1Xryk96YDd91ADeEf17mmyl64RbvsIxerqIHEaO6NuuBnz1JhMoLElnniOk37zdqp2Gzfr8M1ewk8nCK7Vh2flPsw3WNASN4qWiBWmXff1Mcl95K4Kx0D4tW00ffk/YcTrdec7Znk2pESpBqI/ZaCOKMFjzMEQt5Djq/NZ06nXZDlmUTYC5SGebTARAq7YsYpg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?MHJ1N3BERXVHc1pCdDdCRitTNGJJUG9UODVNdk9TeVdlYk1pMTAxenN6Y2oy?=
+ =?utf-8?B?eFhlWUdRS2ltQkVYWG10ZkdZaDREd0dqTkJQNllabFBtSU5lNG1NYy80MnpK?=
+ =?utf-8?B?OW13NUJPU3FCQkVZellOZlpxWGFoM2dvVG1ldjN4d0FaUUVWS0Vub1Y4bUR0?=
+ =?utf-8?B?M24vbkhpcXpDZm90WGJzTFAyeEFxdHEwWEFVbHQ5TGV6RGFack44WVZRYWtS?=
+ =?utf-8?B?cXBPREFDMFJ3aTNINnZuSGJNMkd6ekRTQW5DSCs4VStCYklFVlFsRmxVWmwy?=
+ =?utf-8?B?RjlpUk9zb3VlbW01M2ZZc2MvU1VrdXcwRmEyd2hFcnljS3JLaSt1QTYzcktZ?=
+ =?utf-8?B?Wm1tOG1kci9sWEFEam1qTlFDYXRkWTdCcG9LWm1IdVpzMHZqcktRemtzSERr?=
+ =?utf-8?B?QW16ZzlSV05WeHl5Q3dISXBsc09aRlFxaEF3YVlPeGd1UVhnU3pORjgzazBr?=
+ =?utf-8?B?OGw5Tk9jSm9BY1p0SS85bG5YekJkVTVYcy9MalI2UW1RV0Q5MUFTOFhaWVRF?=
+ =?utf-8?B?WFRDd3AzaUJRamNudWNYSFBVOW5RdzI0NlhLcTlMaW41VDRTekdsMDJmU1RS?=
+ =?utf-8?B?Umhxbm9PdWxWdTlPckpwTE5GZisrUk1rN0FBUm5ucVBjRWxobTJtMzkzdjRq?=
+ =?utf-8?B?U0pqcTlHQXlKVnp0cjZveS80VGl2bzZCU1hrQkxtYUtTakJaaFkzbHJ1RTJ1?=
+ =?utf-8?B?NW9icCtGMUFDWCtscm1zMmc2bnVGb1ZJSFlrSVdNbFBod2lCOHZDenNNblJu?=
+ =?utf-8?B?UUVib0h5UzlURVRkY3lMZ2FGRnRScnBMZGl6cUF3aEU2RUpTMENjSy9IWjE4?=
+ =?utf-8?B?YjA3MncrQllQbjhsdzVYMzN1MG0wNUxOL1h1d3BlRmpHc1RRVDdrRUh2cWtG?=
+ =?utf-8?B?eFhIc0gxR2VaQVNEY3diMkpLYWxMUGYrTDNkeHpTamk2VTVtWjl2d2huaHNy?=
+ =?utf-8?B?MUNHOER0bVdzMndwR1BpNHlzNXNwejRqaVdmUVVuakNqOWFod1pRZG9ZNllP?=
+ =?utf-8?B?ektkTTJmVnNYa3ZOMS82ZFY0Z1ZnMjRLR0JyRGg5SGdsekdjdDZTeTAydndm?=
+ =?utf-8?B?ZWZkbkdzdW9JaVlJQ1NBVTEyRlZpRTJCenhpaVh2eTlqejh4KzE2UW16cmJN?=
+ =?utf-8?B?UkF5MGhzeUs1dFNrY3lrb0J4TUtEOVpxdEhJK1lIVEdYbDBHM0pwZklBVWRL?=
+ =?utf-8?B?WlY4Ulc0VSt5R3lKYkNaazE4Sm0vSFlzWFBLNmN2UkxMblhya3VxYW1PcjB5?=
+ =?utf-8?B?K3dmZmRXS0xJU1hRRVNEU2NxcVpMZ2l6d1B4QnRIa21jaThSQTZXK0loOEJs?=
+ =?utf-8?B?QTkrbEYvdEtSOGtIT1YxcHVtSW9CZkN1WjNHZS95NVdrelowZkJ2ZWdiZExo?=
+ =?utf-8?B?eG9KUUJHTEpvWjVYNzF5SDZDbmc2NVJWMFVWaFpzeDgxOW5JRWRvckYvSVF1?=
+ =?utf-8?B?MkhuZkMvME9UbkFDMUZ3YjZCc3BaczlMek1kZUpEdkdZYldSa1Q0S1JGREhz?=
+ =?utf-8?B?Vkk4cW94c1J4cEJRdXFlVDdVRmdyc0pVdTVIM25lRU43M3VHQnlLU3VKaWJD?=
+ =?utf-8?B?TGVwSzFlOXhvbjdiYms5ckFwOVpaVWtiSkcxN3ZROXdjRDhubDhQOXJrRDRu?=
+ =?utf-8?B?S0JyTUt3aUxrUEJueVA4RlNwN3M1NUNDa3oySkhYRXdxYlhZVmozWi9hUFA2?=
+ =?utf-8?B?K0h3WFNMd203YnJQTG1ncHM0UWZpWDFnWTZ6Q2l5VG5lS0FqY3M3dXlCUTlO?=
+ =?utf-8?B?TUJtNFpLSHprb0U3RTRVQmp0RVlObFc1ODBtYzY4WTRVNjB0RU81dFdhSTZx?=
+ =?utf-8?B?NDRkVFNER2VhTEtmUWZzemdqNjFTRTE4WmxDT2N1MnNEZWJBREsyU1hEdy9j?=
+ =?utf-8?B?T1ZIa2RjZFBmMUFzVEFicFl4RGtQQlB6NzNPQm9vM1ZlYlE9PQ==?=
+X-Microsoft-Antispam-ZAP-Message-Info:
+	qXUhjIavCPfYyEc/8DPpU9JR3d1hSK3PMWFvtdI0gFkoIWNxidgo2nwkPMc+aGni8R3hrLJfGwycz6B/N8dK2uTblSI/SYkxBjtscMR4jrTmW3nFhgKSunJbquWRZBisw93gIu/a+Czpl7MXvCjztyGqgaQC+BsmylcLHmfCC71+kpT/HIOQqIMT3I2pKLPJe9D/TwuyGO4fuXgNWDsLFlRd27uNHgOb33mrdaTUhUMdlj+P8EGO0VbdEu49H6bAUt36v8Tzv+MCy21USt39Za+2vZwH9JT+jqw6Von0ihAfs1mZr+JMmtlET21CO0XI
+MIME-Version: 1.0
+X-TUID: ipEv4mkLlU6D
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:sc=
+hemas-microsoft-com:office:office"><!---TEMPLATE_VERSION.1.05---><!---CREAT=
+ED: 30/08/2017---><!---MODIFIED:06/01/2020---><head><!--[if gte mso 9]><xml=
+>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0, maximum-scale=3D1.0, user-scalable=3D0;">
+    <title>Skrill</title>
+
+    <!---Start CSS --->
+    <style type=3D"text/css">
+	div{ display:block !important;}=09
+    .appleLinksWhite a {color: #ffffff !important; text-decoration: none;}=
+=20
+    .appleLinksDarkGrey a {color: #666666 !important; text-decoration: none=
+;}
+    .appleLinksBlack a {color: #000000 !important; text-decoration: none;}
+    body, table, tr, td, br, strong, span, a, img {	border: 0px;border-styl=
+e: none;}
+    html {width: 100%;}=20
+    body {width:100% !important;}
+    .ExternalClass {width:100%;}
+    .ExternalClass * {line-height: 100%}
+
+    /*Media Queries*/
+    @media only screen and (max-width:580px) {
+    /*Adjustment for Mobile Optmization*/=09
+    .h{display: none !important;}
+    .fl{float:left !important;}
+    .wr{display:block !important;}
+
+    /*Width Adjustment*/
+    .w5{width:5px !important;}
+    .w10{width:10px !important;}
+    .w14{width:14px !important;}
+    .w15{width:15px !important;}
+    .w16{width:16px !important;}
+    .w20{width:20px !important;}
+    .w25{width:25px !important;}
+    .w30{width:30px !important;}
+    .w35{width:35px !important;}
+    .w40{width:40px !important;}
+    .w50{width:50px !important;}
+    .w85{width:85px !important;}
+    .w100{width:100px !important;}
+    .w112{width:112px !important;}
+    .w113{width:113px !important;}
+    .w123{width:123px !important;}
+	.w125{width:125px !important;}=09
+    .w128{width:128px !important;}
+    .w130{width:130px !important;}
+    .w140{width:140px !important;}
+	.w143{width:143px !important;}=09
+    .w148{width:148px !important;}
+    .w157{width:157px !important;}
+    .w190{width:190px !important;}
+    .w230{width:230px !important;}
+    .w234{width:234px !important;}
+    .w235{width:235px !important;}
+    .w240{width:240px !important;}=09
+    .w259{width:259px !important;}
+    .w260{width:260px !important;}
+    .w280{width:280px !important;}
+    .w290{width:290px !important;}
+    .w292{width:292px !important;}
+    .w300{width:300px !important;}
+    .w320{width:320px !important;}
+    .w100pc{width:100% !important;}
+
+    /*Height Adjustment*/
+    .h1{height:1px !important;}
+    .h3{height:3px !important;}
+    .h5{height:5px !important;}
+    .h8{ height:8px !important;}
+    .h9{height:9px !important;}
+    .h10{ height:10px !important;}
+    .h15{height:15px !important;}
+    .h20{height:20px !important;}
+    .h22{height:22px !important;}
+    .h25{height:25px !important;}
+    .h37{ height:37px !important;}
+    .h50{ height:50px !important;}
+	.h80{ height:80px !important;}=09
+    .h100{ height:100px !important;}
+    .h120{ height:120px !important;}
+    .h160{ height:160px !important;}
+    .h366{ height:366px !important;}
+	.h500{ height:500px !important;}=09
+    .h580{ height:580px !important;}
+	.h760{ height:760px !important;}=09
+    .autoh{height:auto !important;}
+    .hauto{height:auto !important;}
+
+    /*Font Adjustment*/
+    .f9{ font-size:9px !important;}
+    .f10{ font-size:10px !important; line-height:12px !important;}
+    .f11{ font-size:11px !important; line-height:15px !important;}
+    .f12{ font-size:12px !important; line-height:15px !important; color:#3c=
+3c3c !important;}
+    .f13{ font-size:13px !important; line-height:16px !important; color:#3c=
+3c3c !important;}
+    .f14{ font-size:14px !important; line-height:17px !important;}
+    .f15{ font-size:15px !important; line-height:18px !important; color:#3c=
+3c3c !important;}
+    .f16{ font-size:16px !important; line-height:19px !important; color:#ff=
+ffff !important;}
+    .f18{ font-size:18px !important; line-height:21px !important; color:#ff=
+ffff !important;}
+    .f20{ font-size:20px !important; line-height:23px !important;}
+    .f26{font-size:32px !important; line-height: 36px !important;}
+    .f32{font-size:32px !important; line-height: 36px !important;}
+	.f35{font-size:35px !important; line-height: 39px !important;}=09
+    .f36{font-size:36px !important; line-height: 40px !important;}
+    .f41{font-size:41px !important; line-height: 44px !important;}
+    .footer{font-size:16px !important; line-height: 16px !important; color:=
+ #ffffff !important; text-decoration:none !important;}
+
+    /*Alignment Adjustment*/
+    .centered{margin: 0 auto !important; padding-left: 5px !important; padd=
+ing-right: 5px !important;}
+    .text_center{ text-align:center !important;}
+
+    /*Background Adjustment*/
+    .bgnone{background-image:none !important;}
+    .bgcolournone{background-color:transparent !important;}
+    .bg-resize{
+        background-size: 320px 240px !important;
+        width:320px !important;
+        height:240px !important;
+        }
+
+    /*Padding Adjustment*/
+    .padlr10{padding-left:10px !important; padding-right:10px !important;}
+    .padl20{padding-left:20px !important;}
+    .padr20{padding-right:20px !important;}
+    .padl30{padding-left:30px !important;}
+    .padl40{padding-left:40px !important;}
+    .padr40{padding-right:40px !important;}
+    .padl60{padding-left:60px !important;}
+    .padr60{padding-right:60px !important;}
+    .padb16{padding-bottom:16px !important;}
+    .padb20{padding-bottom:20px !important;}
+
+
+    /*Image Adjustment*/
+    .MobBanner1{background: url(https://www.skrill.com/fileadmin/content/Em=
+ails_2015/Master_Images/Purple_Rain_Master_Images/mob_banner1_m.jpg) no-rep=
+eat; width: 320px !important; height: 298px !important;}
+    .MobBanner2{background: url(https://content.skrill.com/fileadmin/conten=
+t/Emails_2015/Master_Images/Neteller_Master_Template/Deep_Banner_Mob.jpg) n=
+o-repeat; width: 320px !important; height: 298px !important;}
+    .Heroswap {background: url(https://www.skrill.com/fileadmin/content/Ema=
+ils_2015/Campaigns/564/EMAIL_4_COMMS/mob_VIP_hero.jpg) no-repeat; width: 32=
+0px !important; height: 403px !important;}
+
+
+    /*Swap BG image*/
+        .swap-bg{
+        background: url('#') !important;
+        background: no-repeat;
+        width: 320px !important;=20
+        height:366px !important;
+        }
+	=09
+	    /*Swap arrow image*/
+        .swap-arrow1{
+        background: url('https://www.skrill.com/fileadmin/content/Emails_20=
+15/Lifecycle/Visa/arrow_right_mob.png') !important;
+        background: no-repeat;
+        width: 100px !important;=20
+        height:80px !important;
+		margin: auto !important;
+		float: right !important;
+        }=09
+		.swap-arrow2{
+        background: url('https://www.skrill.com/fileadmin/content/Emails_20=
+15/Lifecycle/Visa/arrow_right_mob.png') !important;
+        background: no-repeat;
+        width: 100px !important;=20
+        height:80px !important;
+		margin: auto !important;
+	 }=09
+
+    /*Colours bg purple*/
+    .bg-colour-mob {
+        background-color: #872166 !important;=09
+        }=09
+           =20
+    /*Hides BG image*/
+    .nobg,
+    .hide-bg {
+        background: none !important;
+        }=09
+               =20
+       =20
+    /*Display Items in Mobile*/
+    .mob-reveal {
+        width: 100% !important;
+        display: block !important;
+        height: auto !important;
+        max-height: none !important;
+        line-height: normal !important;
+        font-size: 12px !important;
+        visibility: visible !important;
+        overflow: visible !important;
+        }=09
+       =20
+    /*Crop Images in Mobile*/
+    .crop {
+        overflow: hidden;=20
+        width: 100% !important;
+        object-fit: cover;=09
+        }=20
+
+        /*BURGER STYLES*/
+        img {/* Allow smoother rendering of resized image in Internet Explo=
+rer */ -ms-interpolation-mode: bicubic; }
+        /* force styles of client inserted tel anchors */
+        a[href^=3Dtel] {color: #295AA6; font-weight: bold; }
+        @media screen {
+            @font-face {font-family: 'Arial, Helvetica, sans-serif'; font-s=
+tyle: normal; font-weight: 400; ; }
+            @font-face {font-family: 'Arial, Helvetica, sans-serif;'; font-=
+style: normal; font-weight: 700; ; }
+            @font-face {font-family: 'Arial, Helvetica, sans-serif;'; font-=
+style: normal; font-weight: 700; ;}
+        }
+        @media all and ( max-width: 600px ) {
+            #wrapper + table, .container, .menu {min-width: 0 !important; -=
+moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-text-size-a=
+djust: none; width: 100% !important; }
+            #logo {height: 58px; width: 119px; }
+            =20
+             #skrill-logo-burger {box-sizing: content-box;
+                 background-image: url("https://www.skrill.com/fileadmin/co=
+ntent/Emails_2015/Master_Images/SERVICE_EMAIL_IMAGES/Skrill_Logo.png");widt=
+h:124px; height:58px;display: block !important; float: left;background-repe=
+at: no-repeat;}
+            =20
+             /*The burger button*/
+            #mobile-label {box-sizing: content-box; background-color: #ffff=
+ff; cursor: pointer; display: block !important; float: right; padding: 20px=
+; -webkit-tap-highlight-color: transparent; width: 26px; }
+            #mobile-label > b {background-color: #731e5e; -moz-border-radiu=
+s: 2px; -webkit-border-radius: 2px; border-radius: 2px; display: block; hei=
+ght: 4px; }
+            #mobile-label > b + b {margin-top: 4px; }
+            .menu td {padding: 0 !important; }
+            #menu-wrapper {background-color: #DFDFDF; max-height: 0; overfl=
+ow: hidden; -moz-transition: max-height .25s linear; -ms-transition: max-he=
+ight .25s linear; -o-transition: max-height .25s linear; -webkit-transition=
+: max-height .25s linear; transition: max-height .25s linear; }
+            #mobile-checkbox:checked + table #menu-wrapper {max-height: 232=
+px; }
+            .menu + .menu {border-top: 1px solid #731e5e; }
+            .menu-item {color: #731e5e !important; display: block; padding:=
+ 12px; text-align: center; }
+            #hero {font-size: 14px !important; height: auto !important; min=
+-height: 50px !important; width: 100% !important; }
+            td[class].content {padding-left: 10px !important; padding-right=
+: 10px !important; }
+            .mobile-hide {display: none; }
+           =20
+            .animatedBG{background-size:100% auto !important; background-re=
+peat:no-repeat !important; background-position:bottom !important;}
+        }=09
+    }
+    }
+     .h50 {height:50px !important;}
+    </style>
+    =20
+</head>
+
+<!---End CSS --->
+=09
+<!---Container Code --->
+<body topmargin=3D"0" bottommargin=3D"0" leftmargin=3D"0" rightmargin=3D"0"=
+ bgcolor=3D"#ebeff0" style=3D"padding: 0px; margin: auto;">
+<table width=3D"100%" style=3D"table-layout: fixed; margin: 0 auto;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td align=3D"center" class=3D"bgnone" bgcolor=3D"#ebeff0" valign=3D"top">
+
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width: 640px;">
+<!---force gmail into desktop--->
+<tr>
+<td class=3D"h">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"640">
+  <tr>
+    <td cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"backgroun=
+d-color:#ebeff0; line-height:15px;" height=3D"5px; min-width: 640px;">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" height=3D"5px" width=3D"640px" style=3D"max-height:5p=
+x; min-height:5px; display:block; width:640px; min-width:640px;">
+    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<!---force gmail into desktop end--->
+<tr>
+<td width=3D"640" valign=3D"top" class=3D"w320" align=3D"center">
+<!--- Preheader --->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width:640px;">
+  <tr>
+    <td style=3D"letter-spacing:2px; font-family:Arial, sans-serif, Georgia=
+, Helvetica; ;font-size:11px;line-height:13px;color:#485161;text-align:cent=
+er;" class=3D"f9">&nbsp;</td>
+  </tr>
+</table>
+<!--- Preheader End--->
+<!-----SPACER----->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width:640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Ma=
+ster_Images/spacer.gif" alt=3D"" width=3D"640" height=3D"30" style=3D"displ=
+ay: block; height: 30px;" border=3D"0" class=3D"w100pc"></td>
+  </tr>
+</table>
+<!-----SPACER END----->
+<!---View In Browser Module---->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w320" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px;">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block; wi=
+dth: 20px;">
+    </td>
+    <td class=3D"h">
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" bgcolor=3D"#ffffff">
+        <tr>
+          <td style=3D"letter-spacing:1px; font-family:Arial;font-size:11px=
+;line-height:19px;color:#68136a;text-align:left;font-stretch:extra-condense=
+d " class=3D"text_center">
+            <a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpg=
+lLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DS=
+UTUTCCD&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8o=
+g4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3Dslp2q8hk7f985ms4u9slnj7itvri8r26dh=
+o3c6qjd07v998ba39g" target=3D"_blank" style=3D"color:#68136a;text-decoratio=
+n:none;" class=3D"f9">VIEW IN BROWSER</a> | <a href=3D"https://news.skrill.=
+com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CI=
+SepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDR&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPe=
+Lj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3D7q=
+86e91uaav9fjdj5i4rhsrj6v2qcadquh9jo67cquedoamlmfo0" target=3D"_blank" style=
+=3D"color:#68136a;text-decoration:none;" class=3D"f9">LOG IN</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px;" class=3D"h">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block; wi=
+dth: 20px;" class=3D"h">
+    </td>
+    <td class=3D"wr">
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" bgcolor=3D"#ffffff">
+        <tr>
+          <td style=3D"letter-spacing:1px; font-family:Arial;font-size:11px=
+;line-height:19px;color:#68136a;text-align:right;font-stretch:extra-condens=
+ed;" class=3D"text_center">
+            Skrill Service Notification
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px;">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block; wi=
+dth: 20px;">
+    </td>
+  </tr>
+</table>
+<!----View In Browser Module End--->
+<!-- Burger Menu Module -->
+<table width=3D"640" height=3D"58" class=3D"w320 autoh wr" cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" bgcolor=3D"#ffffff" style=3D"width: 640px;=
+height: 1px;display: none;">
+  <tr>
+    <td bgcolor=3D"#ffffff" valign=3D"top" class=3D"wr w320 autoh" width=3D=
+"1" height=3D"1" style=3D"width:1px; height: 1px;">
+      <!---mobile reveal---->
+      <!--[if !mso]><!-->
+      <div style=3D"display:none; font-size:0; line-height:0; max-height:0;=
+ mso-hide:all !important; visibility:hidden; overflow:hidden;" class=3D"mob=
+-reveal">
+        <form style=3D"border-style: none;border-width: 0px;" class=3D"form=
+bg">
+          <div id=3D"wrapper" style=3D"background-color: #ffffff;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse: collapse; border-spacing: 0; table-layout: fixed; ; bo=
+rder-bottom-color: #ffffff; border-bottom: 1px solid #ffffff" width=3D"100%=
+" class=3D"formbg">
+              <tr>
+                <td>
+                  <!--[if mso]>
+                  <p style=3D"display: none;">
+                    <![endif]--><input id=3D"mobile-checkbox" style=3D"disp=
+lay: none!important; max-height: 0; visibility: hidden;" type=3D"checkbox">
+                    <!--[if mso]>
+                  </p>
+                  <![endif]-->
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"container formbg" style=3D"border-collapse: collap=
+se; border-spacing: 0; margin: auto; min-width: 600px;" width=3D"600">
+                    <tr>
+                      <td></td>
+                      <td>
+						<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJl=
+TQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCD=
+S&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-72=
+2kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3Dj8pducqqcgefq6bv5atug721j2l319h7bj7m9h9p=
+otcraaiiu01g" style=3D"color: #fffffe; text-decoration: none; display: bloc=
+k;padding-left: 10px;" target=3D"_blank"><img alt=3D"Skrill logo" src=3D"ht=
+tps://www.skrill.com/fileadmin/content/Emails_2015/Master_Images/IMAGES_SER=
+_2020/SKRILL_LOGO.jpg" width=3D"134" height=3D"56" border=3D"0" style=3D"di=
+splay: block;border: none; float: left;"></a>
+                        <label for=3D"mobile-checkbox" id=3D"mobile-label" =
+style=3D"display: none;" class=3D"formbg">
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                        </label>
+                        <!--[if mso]>
+                      </td>
+                      <td>
+                        <![endif]-->
+                        <table width=3D"100%" align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"menu formbg">
+                          <tr>
+                            <td style=3D"padding-left: 80px;" class=3D"pdl0=
+">
+                              <div id=3D"menu-wrapper">
+                                <!--[if mso]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0">
+                                  <tr>
+                                    <td>
+                                      <![endif]-->
+                                      <table align=3D"left" border=3D"0" ce=
+llpadding=3D"10" cellspacing=3D"0" class=3D"menu" style=3D"border-collapse:=
+ collapse; border-spacing: 0;">
+                                        <tr>
+                                          <td nowrap=3D"" style=3D"font-fam=
+ily: Arial, sans-serif; font-size: 14px; line-height: 1; text-transform: up=
+percase;letter-spacing: 2px;">
+                                            <a href=3D"https://news.skrill.=
+com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CI=
+SepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDR&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPe=
+Lj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3D7q=
+86e91uaav9fjdj5i4rhsrj6v2qcadquh9jo67cquedoamlmfo0" target=3D"_blank" class=
+=3D"menu-item" style=3D"color: #731e5e; line-height: 1; text-decoration: no=
+ne;">My ACCOUNT</a>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      <!--[if mso]>
+                                    </td>
+                                    <td>
+                                      <![endif]-->
+                                      <table align=3D"left" border=3D"0" ce=
+llpadding=3D"10" cellspacing=3D"0" class=3D"menu" style=3D"border-collapse:=
+ collapse; border-spacing: 0;">
+                                        <tr>
+                                          <td nowrap=3D"" style=3D"font-fam=
+ily: Arial, sans-serif; font-size: 14px; line-height: 1; text-transform: up=
+percase;letter-spacing: 2px;">
+                                            <a href=3D"https://news.skrill.=
+com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CI=
+SepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDT&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPe=
+Lj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3D4h=
+3l30ht3q8gcrqivnif9v5uj2cl5ckmueddq4tq660jlgb6cj80" target=3D"_blank" class=
+=3D"menu-item" style=3D"color: #731e5e; line-height: 1; text-decoration: no=
+ne;">GET THE APP</a>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      <!--[if mso]>
+                                    </td>
+                                    <td>
+                                      <![endif]-->
+                                      <table align=3D"left" border=3D"0" ce=
+llpadding=3D"10" cellspacing=3D"0" class=3D"menu" style=3D"border-collapse:=
+ collapse; border-spacing: 0;">
+                                        <tr>
+                                          <td nowrap=3D"" style=3D"font-fam=
+ily: Arial, sans-serif; font-size: 14px; line-height: 1; text-transform: up=
+percase;letter-spacing: 2px;">
+                                            <a href=3D"https://news.skrill.=
+com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CI=
+SepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDU&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPe=
+Lj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3D4t=
+6h4sdkiegsufrog3eqv83cq94oa1ti3ek5h90t52ubvdeu008g" target=3D"_blank" class=
+=3D"menu-item" style=3D"color: #731e5e; line-height: 1; text-decoration: no=
+ne;">SUPPORT</a>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      <!--[if mso]>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <![endif]-->
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div><input type=3D"hidden" name=3D"__HIDDEN_FIELD_NAMES__" valu=
+e=3D"__HIDDEN_FIELD_NAMES__">
+
+        </form>
+      </div>
+      <!--<![endif]-->=20
+      <!---mobile reveal end---->
+    </td>
+  </tr>
+</table>      =20
+<!---burger end--->	       =20
+<!-----SPACER----->
+<table width=3D"640" class=3D"w320 h" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Ma=
+ster_Images/spacer.gif" alt=3D"" width=3D"640" height=3D"25" style=3D"displ=
+ay: block;height: 25px;" border=3D"0" class=3D"w100pc"></td>
+  </tr>
+</table>
+<!-----SPACER END----->=09
+<!--- Header Logo Module --->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w320 h" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px;" align=3D"lef=
+t">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block;wid=
+th: 20px;">
+    </td>
+    <td align=3D"left"><a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0G=
+zc2X%3DAQpglLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3=
+OVXtpKX%3DSUTUTCDS&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ=
+9otekCK2d8og4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3Dj8pducqqcgefq6bv5atug72=
+1j2l319h7bj7m9h9potcraaiiu01g" style=3D"color: #fffffe; text-decoration: no=
+ne; display: block;" target=3D"_blank"><img alt=3D"Skrill logo" src=3D"http=
+s://static.cdn.responsys.net/i2/responsysimages/content/mbook/SKRILL_LOGO_S=
+ERVICE_TEMPLATE_CONSUMER.jpg" width=3D"124" height=3D"56" border=3D"0" styl=
+e=3D"display: block;border: none"></a></td>
+    <td style=3D"letter-spacing:0px; font-family:Arial;font-size:16px;line-=
+height:24px;color:#68136a;text-align:right; padding-top: 20px"><strong>For =
+money movers &amp; makers</strong></td>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px;">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block; wi=
+dth: 20px;">
+    </td>
+  </tr>
+</table>
+<!-- Header Logo Module End -->
+   =20
+        <!----- Divider ----->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td width=3D"20" height=3D"30" style=3D"font-size:1px; line-height:1px;=
+ height: 30px;">&nbsp;</td>
+    <td>
+      <hr style=3D"border-top: 1px solid #f0f0f0;">
+    </td>
+    <td width=3D"20" height=3D"30" style=3D"font-size:1px; line-height:1px;=
+ height: 30px;">&nbsp;</td>
+  </tr>
+</table>
+<!----- Divider End ----->
+
+
+	<!--- Navigation Module ---->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"h" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+  <td width=3D"20" style=3D"font-size:1px; line-height:1px;" class=3D"h">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block; width: 2=
+0px;" class=3D"h">
+</td>
+	 =20
+<td align=3D"center">	 =20
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"h" style=3D"width: 100%;" bgcolor=3D"#ffffff">=09
+	<tr>
+<td style=3D"letter-spacing:0px; font-family:Arial;font-size:11px;line-heig=
+ht:19px;color:#68136a;text-align:center;" class=3D"f9">
+<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlon=
+SrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDW&amp;=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZ=
+EI9LWC1Ei-2_5vjm.&amp;_di_=3D8gg3s4m03o3bhc63dkqo7orc1d1v5f7l0031gkb25r50t7=
+u71bg0" target=3D"_blank" style=3D"color:#68136a;text-decoration:none;" cla=
+ss=3D"f9">MY ACCOUNT</a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=
+a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlonS=
+rA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDT&amp;_=
+ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZE=
+I9LWC1Ei-2_5vjm.&amp;_di_=3D4h3l30ht3q8gcrqivnif9v5uj2cl5ckmueddq4tq660jlgb=
+6cj80" target=3D"_blank" style=3D"color:#68136a;text-decoration:none;" clas=
+s=3D"f9">DOWNLOAD OUR APP</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a=
+ href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlonSr=
+A8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDY&amp;_e=
+i_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZEI=
+9LWC1Ei-2_5vjm.&amp;_di_=3Djmd20gomv1si8itm4v2d2uvmb0qa9fa7i64mnpst7pbnaqbj=
+l5a0" target=3D"_blank" style=3D"color:#68136a;text-decoration:none;" class=
+=3D"f9">SUPPORT</a>=09
+</td>
+</tr>
+<tr>
+
+</tr>
+	</table>
+	</td>
+  <td width=3D"20" style=3D"font-size:1px; line-height:1px;" class=3D"h">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block; width: 2=
+0px;" class=3D"h">
+</td>
+</tr>
+</table>
+
+<!----Navigation Module End--->
+   =20
+        <!----- Divider ----->
+<table width=3D"640" class=3D"w320 h" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td width=3D"20" height=3D"30" style=3D"font-size:1px; line-height:1px;=
+ height: 30px;">&nbsp;</td>
+    <td>
+      <hr style=3D"border-top: 1px solid #f0f0f0;">
+    </td>
+    <td width=3D"20" height=3D"30" style=3D"font-size:1px; line-height:1px;=
+ height: 30px;">&nbsp;</td>
+  </tr>
+</table>
+<!----- Divider End ----->
+
+
+<!---- Body Module --->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" bgcolor=3D"#FFFFFF" style=3D"width:640px;">
+<tr>
+
+<!---left spacer--->
+<td width=3D"60" class=3D"w30" style=3D"width:60px;">&nbsp;</td>
+<!---left spacer end--->
+
+<td width=3D"400" valign=3D"top" align=3D"center" class=3D"w260">
+<table width=3D"400" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w260">
+<tr>
+
+<!---middle container--->
+<td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"w100pc=
+">
+
+=09
+<tr>
+<td><img alt=3D"spacer" src=3D"https://www.skrill.com/fileadmin/content/Ema=
+ils_2015/Master_Images/spacer.gif" width=3D"1" height=3D"20" style=3D"displ=
+ay: block; height: 20px;"></td>
+</tr>
+
+
+<tr>
+	<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 24px; l=
+ine-height: 34px; color: #872166; text-align: left; letter-spacing: 0px; fo=
+nt-stretch: extra-expanded" class=3D"text_center"><strong>Dear Nigel,</stro=
+ng></td>
+</tr>
+
+<tr>
+<td><img alt=3D"spacer" src=3D"https://www.skrill.com/fileadmin/content/Ema=
+ils_2015/Master_Images/spacer.gif" width=3D"1" height=3D"20" style=3D"displ=
+ay: block; height: 20px;"></td>
+</tr>=09
+=09
+<tr>
+	<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14px; l=
+ine-height: 24px; color: #555555; text-align: left; letter-spacing: 0px; te=
+xt-align: left" class=3D"text_center">
+	The Knect Loyalty Program is currently undergoing some maintenance. This w=
+ill temporarily limit your use of the program and you will be unable to vie=
+w your Knect points balance, earn or redeem Knect points.<br>
+	<br>
+	We will notify you as soon as the Knect Loyalty Program is functioning aga=
+in.<br>
+	<br>
+
+Please note your current balance will remain unaffected.<br>
+	<br>
+=20
+Thank you for being a loyal Knect customer and for your patience as we comp=
+lete this work. <br><br>=09
+=09
+	Regards,<br>
+	=09
+	The Skrill Team</td>
+</tr>	=09
+=09
+<tr>
+<td><img alt=3D"spacer" src=3D"https://www.skrill.com/fileadmin/content/Ema=
+ils_2015/Master_Images/spacer.gif" width=3D"1" height=3D"20" style=3D"displ=
+ay: block;height: 20px;"></td>
+</tr>
+
+</table></td>
+<!---middle container end--->
+</tr></table>
+</td>
+<!---right spacer--->
+<td width=3D"60" style=3D"width: 60px;" class=3D"w30">&nbsp;</td>
+<!---right spacer end--->
+</tr>
+</table>
+
+<!---- Body Module End --->
+   =20
+    <!----- Divider ----->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px; height: 30px;=
+" height=3D"30">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block;wid=
+th: 20px;">
+    </td>
+    <td>
+      <hr style=3D"border-top: 1px solid #f0f0f0;">
+    </td>
+    <td width=3D"20" style=3D"font-size:1px; line-height:1px;height: 30px;"=
+ height=3D"30">
+      <img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block;wid=
+th: 20px;">
+    </td>
+  </tr>
+</table>
+<!----- Divider End ----->=09
+
+<!-----SPACER----->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+<tr>
+<td><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master=
+_Images/spacer.gif" alt=3D"" width=3D"640" height=3D"20" style=3D"display: =
+block; height: 20px;" border=3D"0" class=3D"w320">
+</td>
+</tr>
+</table>
+<!-----SPACER END----->
+   =20
+
+   =20
+    <!-----App Buttons----->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w320" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+  <td width=3D"180" style=3D"font-size:1px; line-height:1px; width: 180px;"=
+ class=3D"w15">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"180" height=3D"1" style=3D"display: block;" class=
+=3D"w15">
+</td>
+
+<td>
+<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlon=
+SrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDA&amp;=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZ=
+EI9LWC1Ei-2_5vjm.&amp;_di_=3Dr4g63l7oso1cvusu3dlp97p19boknn7ruhtveqvvj8j5j4=
+mr3dm0" style=3D"color: #fffffe; text-decoration: none; display: block;" ta=
+rget=3D"_blank"><img src=3D"https://www.skrill.com/fileadmin/content/Emails=
+_2015/Campaigns/2017_Master_Email_Templates/Skrill/Footers/app_buttons/appl=
+e/app_btn-apple-en.png" width=3D"135" height=3D"40" style=3D"display: block=
+;"></a><a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJ=
+lTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTC=
+DB&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-7=
+22kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3Dpsmq5q70t352gee7msms03m0vcenssiufls88fp=
+6tuhtn16tfnu0" style=3D"color: #fffffe; text-decoration: none; display: blo=
+ck;" target=3D"_blank"></a>
+</td>
+
+  <td width=3D"10" style=3D"font-size:1px; line-height:1px;">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"10" height=3D"1" style=3D"display: block;">
+</td>
+
+<td>
+<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlon=
+SrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDC&amp;=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZ=
+EI9LWC1Ei-2_5vjm.&amp;_di_=3Ds74fp7rv0n27msubot3p20c11mt6n9eaiqchcgna9ibr3v=
+kcmg90" style=3D"color: #fffffe; text-decoration: none; display: block;" ta=
+rget=3D"_blank"><img src=3D"https://www.skrill.com/fileadmin/content/Emails=
+_2015/Campaigns/2017_Master_Email_Templates/Skrill/Footers/app_buttons/goog=
+le/app_btn-google-en.png" width=3D"135" height=3D"40" style=3D"display: blo=
+ck;"></a>
+</td>
+
+
+<td width=3D"180" style=3D"font-size:1px; line-height:1px; width: 180px;" c=
+lass=3D"w15">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"180" height=3D"1" style=3D"display: block;" class=
+=3D"w15">
+</td>
+</tr>
+</table>
+<!-----App Buttons END----->
+   =20
+        <!-----SPACER----->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+<tr>
+<td><span style=3D"width: 20px;"><img alt=3D"spacer" src=3D"https://www.skr=
+ill.com/fileadmin/content/Emails_2015/Modular_Templates/spacer.gif" width=
+=3D"20" height=3D"10" style=3D"display: block; border:0;width: 20px;"></spa=
+n><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_I=
+mages/spacer.gif" alt=3D"" width=3D"640" height=3D"20" style=3D"display: bl=
+ock; height: 20px;" border=3D"0" class=3D"w320">
+</td>
+</tr>
+</table>
+<!-----SPACER END----->=09
+=09
+<!--- Social Buttons ---->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w320" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+  <tr>
+  <td width=3D"20" style=3D"font-size:1px; line-height:1px;width: 20px;" cl=
+ass=3D"w15">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block;" class=
+=3D"w15">
+</td>
+
+
+<!---social--->
+<td>
+<table width=3D"132" style=3D"width: 132px;" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+  <tr>
+<td align=3D"center">=20
+<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlon=
+SrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTCDD&amp;=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZ=
+EI9LWC1Ei-2_5vjm.&amp;_di_=3Dt1ve0o6jj8m2ivfhql9g20fb3k74uj7h547lb4f6qul242=
+li8e60" style=3D"color: #fffffe; text-decoration: none; display: block;" ta=
+rget=3D"_blank"><img src=3D"https://www.skrill.com/fileadmin/content/Emails=
+_2015//Master_Images/IMAGES_SER_2020/INSTAGRAM_LOGO.jpg" width=3D"44" heigh=
+t=3D"55" style=3D"display: block;" border=3D"0"></a>
+</td>=20
+<td align=3D"center">
+<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlon=
+SrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTDRR&amp;=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZ=
+EI9LWC1Ei-2_5vjm.&amp;_di_=3Dg3thl4gp8o0oqupr7fg19vgbp78tebs4scln54c71jos2l=
+cho5rg" style=3D"color: #fffffe; text-decoration: none; display: block;" ta=
+rget=3D"_blank"><img src=3D"https://www.skrill.com/fileadmin/content/Emails=
+_2015/Master_Images/IMAGES_SER_2020/TWITTER_LOGO.jpg" width=3D"44" height=
+=3D"55" style=3D"display: block;" border=3D"0"></a>
+</td>
+<td align=3D"center"><a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc=
+2X%3DAQpglLjHJlTQGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OV=
+XtpKX%3DSUTUTDRS&amp;_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9o=
+tekCK2d8og4p-722kksMZEI9LWC1Ei-2_5vjm.&amp;_di_=3Dc7hcegdbodar87bn1q5oc2kf6=
+i9ag6qptovg5f87bqd4f8r03mg0" style=3D"color: #fffffe; text-decoration: none=
+; display: block;" target=3D"_blank"><img src=3D"https://www.skrill.com/fil=
+eadmin/content/Emails_2015/Master_Images/IMAGES_SER_2020/FB_LOGO.jpg" width=
+=3D"44" height=3D"55" style=3D"display: block;" border=3D"0"></a>
+</td>
+</tr></table>
+</td>
+<!---social--->
+	 =20
+<td width=3D"12" style=3D"font-size:1px; line-height:1px;width: 12px;" clas=
+s=3D"h">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"12" height=3D"1" style=3D"display: block;">
+</td>
+	 =20
+
+<!---Paysafe logo--->
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+
+  <tr>
+  <td align=3D"right">
+<a href=3D"https://news.skrill.com/pub/cc?_ri_=3DX0Gzc2X%3DAQpglLjHJlTQGlon=
+SrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXtpKX%3DSUTUTDRT&amp;=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZ=
+EI9LWC1Ei-2_5vjm.&amp;_di_=3D9h7rup2rgtmpkhn76jq6hn6tu5vdc2f3ob85ac3h8p1fel=
+r8kja0" style=3D"color: #fffffe; text-decoration: none; display: block;" ta=
+rget=3D"_blank"><img src=3D"https://www.skrill.com/fileadmin/content/Emails=
+_2015/Master_Images/IMAGES_SER_2020/PAYSAFE_LOGO.jpg" width=3D"145" height=
+=3D"55" border=3D"0"></a>
+</td>
+
+
+</tr></table>
+</td>
+<!---Paysafe logo End--->	 =20
+	 =20
+<td width=3D"20" style=3D"font-size:1px; line-height:1px;width: 20x;" class=
+=3D"w15">
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_Ima=
+ges/spacer.gif" width=3D"20" height=3D"1" style=3D"display: block;" class=
+=3D"w15">
+</td>
+</tr>
+</table>=09
+=09
+<!--- Social Buttons End ---->=09
+=09
+<!-----SPACER----->
+<table width=3D"640" class=3D"w320" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+<tr>
+<td><span style=3D"width: 20px;"><img alt=3D"spacer" src=3D"https://www.skr=
+ill.com/fileadmin/content/Emails_2015/Modular_Templates/spacer.gif" width=
+=3D"20" height=3D"10" style=3D"display: block; border:0;width: 20px;"></spa=
+n><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Master_I=
+mages/spacer.gif" alt=3D"" width=3D"640" height=3D"20" style=3D"display: bl=
+ock; height: 20px;" border=3D"0" class=3D"w320">
+</td>
+</tr>
+</table>
+<!-----SPACER END----->=09
+=09
+<!-----SPACER----->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w320" style=3D"width: 640px;">
+  <tr>
+<td>
+<img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Lifecycle/=
+Welcome/spacer.gif" width=3D"1" height=3D"10" style=3D"display: block;" cla=
+ss=3D"h10">
+</td>
+</tr>
+</table>
+<!-----SPACER END----->
+
+
+
+<!-- MODULE_7: Footer ---Start -->
+<table width=3D"640" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"w320" style=3D"width: 640px;">
+  <tr>
+    <td colspan=3D"3"><img src=3D"https://www.skrill.com/fileadmin/content/=
+Emails_2015/Lifecycle/Welcome/spacer.gif" width=3D"1" height=3D"20" style=
+=3D"display: block;"></td>
+  </tr>
+  <tr>
+    <td width=3D"30" class=3D"w20" style=3D"font-size:1px; line-height:1px;=
+"><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Lifecycl=
+e/Welcome/spacer.gif" width=3D"30" class=3D"w20" height=3D"1" style=3D"disp=
+lay: block;"></td>
+    <td style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-s=
+ize: 9px; line-height: 13px; color: #666666; text-align: center;" class=3D"=
+appleLinksDarkGrey text_center">
+ =20
+<!------------------ NON INC VISA SERVICE FOOTERS------------------->
+
+
+
+
+Please do not reply to this message<br><br>
+
+Skrill USA, Inc. is registered with FinCEN and duly licensed as a money tra=
+nsmitter in various U.S. states. Address: 2 S. Biscayne Blvd Suite 2630 Mia=
+mi, FL 33131, USA. Phone: +1-855-719-2087. =C2=A9 Copyright 2021 Skrill USA=
+ Inc. All Rights Reserved.<br><br>
+
+Keep yourself safe. Please note that Skrill USA, Inc. and its representativ=
+es will never ask you to reveal your password by phone or by email. Please =
+also ensure that you only enter your username and password on the genuine S=
+krill USA website at <a href=3D"https://www.skrill.com/en-us/&quot;" target=
+=3D"_blank" style=3D"color:#397ca8; text-decoration:underline;">https://www=
+.skrill.com/en-us/</a>. If you see anything suspicious please contact our S=
+krill USA Help Team. To ensure that Skrill USA emails reach your inbox plea=
+se add no-reply@email.skrill.com to your email safe list.<br><br>
+      =20
+   =20
+<a href=3D"https://www.skrill.com/en-us/support" target=3D"_blank" style=3D=
+"color:#666666; text-decoration:underline">Support</a> | <a href=3D"https:/=
+/www.skrill.com/en-us/footer/privacy-notice/" target=3D"_blank" style=3D"co=
+lor:#666666; text-decoration:underline">Privacy Policy</a><br><br></td>
+    <td width=3D"30" class=3D"w20" style=3D"font-size:1px; line-height:1px;=
+"><img src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Lifecycl=
+e/Welcome/spacer.gif" width=3D"30" class=3D"w20" height=3D"1" style=3D"disp=
+lay: block;"></td>
+  </tr>
+</table>
+  <!-- MODULE_7: Footer ---End -->
+
+
+ <!-- CONTAINER -->
+
+</td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table><table cellpadding=3D"0" cellspacing=3D"0" style=3D"border: 0px; pa=
+dding: 0px; margin: 0px; position: absolute; display: none; float: left">
+<tr>
+<td height=3D"1" style=3D"font-size: 1px; line-height: 1px; padding: 0px;">
+<br><img src=3D"https://news.skrill.com/pub/as?_ri_=3DX0Gzc2X%3DAQpglLjHJlT=
+QGlonSrA8nGOBOiwP5zdcwqqiFsoskzcX8CISepdL3a1kiDfzfa7UE9G3OVXHkMX%3Dw&amp;_e=
+i_=3DEolaGGF4SNMvxFF7KucKuWPeLj70mYQ8tKHuKPrSk2oaJ9otekCK2d8og4p-722kksMZEI=
+9LWC1Ei-2_5vjm."><!-- </img> -->
+</td>
+</tr>
+</table>
+
+</body>
+</html><html><head><meta name=3D"Robots" content=3D"NOINDEX "></head><body>=
+</body>
+                <script type=3D"text/javascript">
+                 var gearPage =3D document.getElementById('GearPage');
+                 if(null !=3D gearPage)
+                 {
+                     gearPage.parentNode.removeChild(gearPage);
+                     document.title =3D "Error";
+                 }
+                 </script>
+                 </html><html><head><meta name=3D"Robots" content=3D"NOINDE=
+X "></head><body></body>
+                <script type=3D"text/javascript">
+                 var gearPage =3D document.getElementById('GearPage');
+                 if(null !=3D gearPage)
+                 {
+                     gearPage.parentNode.removeChild(gearPage);
+                     document.title =3D "Error";
+                 }
+                 </script>
+                 </html>
+
+

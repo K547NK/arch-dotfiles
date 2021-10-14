@@ -1,0 +1,248 @@
+Received: from DM6NAM10HT073.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:806:d0::35) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0060.NAMPRD11.PROD.OUTLOOK.COM; Mon, 5 Jul 2021 14:49:35
+ +0000
+Received: from DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+ (2a01:111:e400:7e86::47) by
+ DM6NAM10HT073.eop-nam10.prod.protection.outlook.com (2a01:111:e400:7e86::451)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4287.22; Mon, 5 Jul
+ 2021 14:49:34 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.39.228)
+ smtp.mailfrom=email.dropbox.com; outlook.com; dkim=pass (signature was
+ verified) header.d=dropbox.com;outlook.com; dmarc=pass action=none
+ header.from=dropbox.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of email.dropbox.com
+ designates 54.240.39.228 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.39.228;
+ helo=a39-228.smtp-out.amazonses.com;
+Received: from a39-228.smtp-out.amazonses.com (54.240.39.228) by
+ DM6NAM10FT063.mail.protection.outlook.com (10.13.152.209) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4287.22 via Frontend Transport; Mon, 5 Jul 2021 14:49:34 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:8D5CFD886AD5A3421D0A1057297FF0D4FD65E96A165838C6E3DC1F14B3C153C2;UpperCasedChecksum:1600EC65A9EC336730DF6AE07003535C27C63D1E67F3B5D154905AFA258BE925;SizeAsReceived:1483;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=wmgpbkvgcpmwlqchafzz6sobpgc5dg4h; d=dropbox.com; t=1625496574;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID;
+	bh=ygSyCAepitl3p2fy6XpxwkPkoHijmm4hWnesnnBPjJc=;
+	b=bhpEBsQ0TPz7UqARlKpQgYDSFlNNDCiVvJtUDkkWQxyp3b0BLMBNWven3xtqHUrI
+	niD2yMUO0LvmuzX/WpR/aprpkdSlOnKtOLNgGcbhDIm9GMMOTtVUWznV4qMVOuoVLB5
+	NPziTtZ8epdCCKyS5kWekkRJL1Z2ZfoYdnUv7gi4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1625496574;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID:Feedback-ID;
+	bh=ygSyCAepitl3p2fy6XpxwkPkoHijmm4hWnesnnBPjJc=;
+	b=BOzR2OyO8gwWTxr2pn0yqxB2a1Oi3lcyMi5BmfXEtVTJ8ZIdPItP89VtoxakVhSL
+	2eFrQcjDcF1RRDqZcakWdrEVBmwBo9OKPfImSknPQWtkeTjyDthji14hzKwaz/1xzT4
+	DgO7fuqxzrHUoAoLrpZWvNJvTXIPNQBF1mHQLZzU=
+Content-Type: multipart/alternative;
+ boundary="===============6646385029353715326=="
+From: Dropbox <no-reply@dropbox.com>
+To: nigel.agwah@outlook.com
+CC:
+Subject: =?utf-8?q?=E2=9A=A0=EF=B8=8F_Action_requested=3A_Nigel=2C_your_files_are_?=
+ =?utf-8?q?about_to_stop_syncing!?=
+Date: Mon, 5 Jul 2021 14:49:34 +0000
+Message-ID: <0100017a77255885-7e19a785-865c-4097-b7fe-312be609b134-000000@email.amazonses.com>
+X-Dropbox-Message-ID: 9712154404731551881
+Feedback-ID: 1.us-east-1.syWQ1+fF8Wo1tY8y/+s85ptiAKu7bILK6PHyxwpB+xo=:AmazonSES
+X-SES-Outgoing: 2021.07.05-54.240.39.228
+X-IncomingHeaderCount: 13
+Return-Path:
+ 0100017a77255885-7e19a785-865c-4097-b7fe-312be609b134-000000@email.dropbox.com
+X-MS-Exchange-Organization-ExpirationStartTime: 05 Jul 2021 14:49:34.6429
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2ba1111f-864d-45c6-6ffe-08d93fc41adc
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/1/2021 2:28:16 PM
+X-MS-Office365-Filtering-Correlation-Id: 2ba1111f-864d-45c6-6ffe-08d93fc41adc
+X-MS-TrafficTypeDiagnostic: DM6NAM10HT073:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.39.228
+X-SID-PRA: NO-REPLY@DROPBOX.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Jul 2021 14:49:34.5530
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2ba1111f-864d-45c6-6ffe-08d93fc41adc
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6NAM10HT073
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.8787482
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4287.033
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9050020)(9100313)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdfU5y0OXhKgb3pe+de2g7tOiPViY/uXeVnRKVEs3oAnGGx6gsmsL//evChU9UUlhJeDyVJgu+z/09YdqB9kuN+jhM9GXQ0NPJATV3ZxZiIRJDWHA+Ur16XhTipZBIbq6B0PrKi1SOwmOV7CMrRulotiX1zUT4mlAkKVnKWVuXPpz4z+qkYPjdTdyEsA9PbQB5AbDv4mh65o1Q==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YzZSNzlsM2tDN0VIR3dqNFRwMUVsT1ZsTlRITUgycGs3ai9obE1FVEZvWVZq?=
+ =?utf-8?B?U2hJQmU3anN2Q21ubmNEc2pPWWRXL0kvdTNIVjRJWFNhSnNwUzR4cHdHaVM5?=
+ =?utf-8?B?YjJTOUNZU3d6dXpqSXZjQUtDL3kyTDluOFM0NmtTbFZ6VXpCZzRHYi9DWHBB?=
+ =?utf-8?B?Mis2MVUvRktYMU5VWmFTemNyWDd4NTI3aGRBcURxNGxzSjNhUGlVMG5aZU1V?=
+ =?utf-8?B?VG1DeUJSUGxxdC9oV3JZMkNnRlVKRyt2b3NFWnhlVTQ2dEhFRlYwck5tWWJE?=
+ =?utf-8?B?UlMwQkZHNmo5TFg5RHNiUmJ1NmszMmlzYnM4RG1vVk91QjFHeW9pbUNQaFk0?=
+ =?utf-8?B?K3ZwMzc4cVdjMlJrWnl1c2ZkbHBPQTNVY3ZEb1k0T0NnaDlldGZ5TFF5eHRs?=
+ =?utf-8?B?TkJhS3VrYWJYdUxiQ0VZSWxYeGhRNzU5Y2hBQks3c2pnRFhUOUE3WVY5emgw?=
+ =?utf-8?B?Vk54MFpMRWJxZU5jZTN3REs4alVEa3NvTkxmZi81SG9PaXRNM0JUcmZVRDFF?=
+ =?utf-8?B?QTJ5K21KZGtLU0xac2pZblMwUitwZHg1ak82THF1QkxNU3hhQ3U0MXJWeDB2?=
+ =?utf-8?B?QlZPTmgyYjdhUTlMRGRVdWlVOFFzWUFWRDJjZHVsR2FLaDV6bk5ZOFpTOVRa?=
+ =?utf-8?B?K2xyMC9NNHVmMktiWXBPeHFHSTRMR0ZBK0ptckhNblZ5dlZlbUg3S0hUdFpk?=
+ =?utf-8?B?TVFRR1IyNDdybjExdk9XdEdHaTBwN0JjcGhrZExhV1VvVXg5T0Ztcmh4NWFY?=
+ =?utf-8?B?YVpSUUlNMDM3L2oyWVYwcDVXUk5EQXEreFExNFo5dU01WXN1MG9yTVZVQUl1?=
+ =?utf-8?B?QWdYcjhLaEV1bm1OTjZRN0xVOWR6NzNvcm9CQUVUeSs3eE5mVG0yK3E0MkFa?=
+ =?utf-8?B?WjEzTUt3WU9Wb0I2SWxZSWVQL2dTeWg4dFd0dmd6U2h5R0IvK3BMbUF6NVlJ?=
+ =?utf-8?B?Wm05dzNuNW9KNm5JQWZ0UzJReFErZlpHNHNodVk4NWVWL1BCeDdQaHVjVlZm?=
+ =?utf-8?B?VnQyd01vWGI0OCtuU1NWZTNiMUxXaEF1ZElmMDdSdmpXLzVSaTF3TzV3NEpr?=
+ =?utf-8?B?ajZGSDJlRlAxSnViQXE0elBXWFlHOXN4VExUVE4wYkpxeFp2dHdldjczQlRD?=
+ =?utf-8?B?Y2dqYlZnSEcrd0hzaW9GUDJjUjdod3d5cm5UVU9Sa0tCTG9tUFFXU2tmbmw4?=
+ =?utf-8?B?ZDZERVYvUks3YjBwSjJpUC9GYS9hcnI1ck1rZUd1QmlUcmpSRk44UWZHYzFM?=
+ =?utf-8?B?ZmVOV3J6dVhGVDNwY2NhZ1dYd21HVitOT0NGRElmZkJmQVhvVUZXVms1UzFp?=
+ =?utf-8?B?UXFsUXhzcWpKNk92bUtkYmppNFhTZU9oRGxZWlVVY2xMZTlmNEoxSVhzKzUz?=
+ =?utf-8?B?YmwrSEpkNzFHZmVYWCtPVUg2THYvcFdpSFJUd1V6RlJ6aGVNTTFKS0Z3UUIv?=
+ =?utf-8?B?a20rTzFlN1p5ejluMjFFYThQQVR0dmZkZ0NuZHFGTmFCdE8vMnJXWWcyam9Z?=
+ =?utf-8?B?OTNnalpyNzgyYTJqVkpQanhmY1QrZXJpTmo1a2tjQi84MVAxZFJCYThuc0Nj?=
+ =?utf-8?B?azE1ZElFYm9nSVZzWHBnN1N1VzdXd1JmZjNLYk84RWxFTnpLdGxyU296Y09W?=
+ =?utf-8?B?emNlZ1p6ZGxUdEpsZUkxTVpFeklIWkhGdTV1aEdsanVTdzlZVjQvem54OEhN?=
+ =?utf-8?B?dGljTk4zKzE5MmtzYTVLYWY1bkxsbkorbTB0a2w4RTZqQjhqUEJmeXl3PT0=?=
+MIME-Version: 1.0
+X-TUID: iuH0FomzP7WH
+
+--===============6646385029353715326==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+NOTICE: Nigel, your files will stop syncing soon.     Your Dropbox storage =
+is reaching maximum capacity. Adding one more file could fill up your accou=
+nt=E2=80=94and keep you from syncing and accessing your files when you need=
+ them. Upgrade your Dropbox today, and get up to 3 TB (3,000 GB) of space. =
+ VIEW YOUR OPTIONS[1]  =
+
+
+____________________________________________________
+ Dropbox, Inc. =
+
+ PO Box 77767, San Francisco, CA 94107 =
+
+View Privacy Policy[2] | Unsubscribe[3]
+
+[1]: https://www.dropbox.com/l/AACeIgNRjjmhzhRgMMteOF9M5eYM53NT02M/low-space
+[2]: https://www.dropbox.com/l/AADnVwTXQ2JwIG3fQy29ZZqUCC2zpbP4E7U/privacy#=
+privacy
+[3]: https://www.dropbox.com/l/AAAMr4EKZv29Slg-8_ejvSE3SjcwKax8TuM
+--===============6646385029353715326==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html xmlns=3D"http://www.w3.org/1999/xhtml"=
+><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style>
+            .content a, .content a:link, .content a:visited, .content a:hov=
+er, .content a:active {
+                color: #007ee6;
+                text-decoration: none;
+            }
+            .footer a, .footer a:link, .footer a:visited, .footer a:hover, =
+.footer a:active {
+                font-weight: bold;
+                color: #ffffff;
+            }
+            </style>
+</head> <body marginheight=3D"0" marginwidth=3D"0" style=3D"padding: 0; wid=
+th: 100% !important; -webkit-text-size-adjust: 100%; margin: 0 auto; -ms-te=
+xt-size-adjust: 100%; background-color: #FFF;"><table align=3D"center" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"max-width: 7=
+20px; width: 100% !important; border: 1px #f7f8f8 solid; margin: 0 auto;">
+<tr><td align=3D"left" style=3D"padding: 20px 25px 10px"><img catalogid=3D"=
+dbx_masthead_default_png" src=3D"https://cfl.dropboxstatic.com/static/image=
+s/emails/dbx_masthead_default.png" style=3D"max-width: 150px; display: bloc=
+k;" width=3D"150"></td></tr>
+<tr><td><table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" wi=
+dth=3D"100%"><tr><td style=3D"font-size: 20px; font-weight: 300; color: #00=
+0; padding: 15px 0; width: 720px; font-family: Atlas Grotesk, Open Sans, He=
+lveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, =
+Lucida Grande, sans-serif; line-height: 1.45em;"><table cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"max-width:720px;" width=3D"=
+100%">
+<tr><td style=3D"font-size: 32px; font-family: Atlas Grotesk, Open Sans, He=
+lveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, =
+Lucida Grande, sans-serif; color: #000000; padding: 15px 25px; width: 550px=
+; font-weight: 500; line-height: 1.1em;"><b>NOTICE: Nigel, your files will =
+stop syncing soon.</b></td></tr>
+<tr><td style=3D"padding:0 25px;"><table cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"max-width:600px;background-color:#d0d0d3;" width=3D"100%"><tr><t=
+d><table cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width:600px;" wid=
+th=3D"80%"><tr><td style=3D"background-color:#d5001a;height:15px;"></td></t=
+r></table></td></tr></table></td></tr>
+<tr><td style=3D"font-size: 18px; font-family: Atlas Grotesk, Open Sans, He=
+lveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, =
+Lucida Grande, sans-serif; color: #000000; padding: 15px 25px; width: 550px=
+; font-weight: 300; line-height: 1.45em;">Your Dropbox storage is reaching =
+maximum capacity. Adding one more file could fill up your account=E2=80=94a=
+nd keep you from syncing and accessing your files when you need them.</td><=
+/tr>
+<tr><td style=3D"font-size: 18px; font-family: Atlas Grotesk, Open Sans, He=
+lveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, =
+Lucida Grande, sans-serif; color: #000000; padding: 15px 25px; width: 550px=
+; font-weight: 300; line-height: 1.45em;">Upgrade your Dropbox today, and g=
+et up to 3 TB (3,000 GB) of space.</td></tr>
+<tr><td align=3D"left" style=3D"padding: 15px 25px; width: 500px;"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width: 500px;"=
+><tr><td style=3D"background-color: #0061FF; text-align: center;"><a href=
+=3D"https://www.dropbox.com/l/AABY65fMVpIYku3Z6hndg_o_RBAzkOZ0RwY/low-space=
+" style=3D"border-radius: 0px; font-size: 16px; color: #fff; padding: 11px =
+50px; max-width: 500px; font-family: Atlas Grotesk, Open Sans, HelveticaNeu=
+e-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Gra=
+nde, sans-serif; border: 0px solid #0061FF; text-align: center; text-decora=
+tion: none; font-weight: 300; display: block; background-color: #0061FF;">V=
+IEW YOUR OPTIONS</a></td></tr></table></td></tr>
+</table></td></tr></table></td></tr>
+<tr><td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"max-width: 720px; margin-top: 22px; min-height: 70px; c=
+olor: #ffffff; font-family: Atlas Grotesk, Open Sans, HelveticaNeue-Light, =
+Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans=
+-serif; margin: 0 auto; background-color: #000000; text-align: left;" width=
+=3D"100%"><tr class=3D"footer" valign=3D"bottom"><td align=3D"left" style=
+=3D"color: #D0D2D3; font-size: 14px; font-family: Atlas Grotesk, Open Sans,=
+ HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Aria=
+l, Lucida Grande, sans-serif; -webkit-text-size-adjust: none; line-height: =
+24px; padding: 50px 25px;" width=3D"428"><table cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%"><tr>
+<td style=3D"font-family: Atlas Grotesk, Open Sans, HelveticaNeue-Light, He=
+lvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-s=
+erif; color:#ffffff;">
+<span>Dropbox, Inc.</span><br><span>PO Box 77767, San Francisco, CA 94107</=
+span><br><a href=3D"https://www.dropbox.com/l/AABoxkFhXr91vIln3WNU_pmfJ8G8j=
+0XP6M8/privacy#privacy">View Privacy Policy</a> | <a href=3D"https://www.dr=
+opbox.com/l/AACjBsgBOaTjs9l2er_UktDm10X3IaxWm10">Unsubscribe</a>
+</td>
+<td style=3D"padding:0 0 0 36px;"><img height=3D"31" src=3D"https://cfl.dro=
+pboxstatic.com/static/images/emails/rebrand/glyphs/pandawhite%402x.png" wid=
+th=3D"36"></td>
+</tr></table></td></tr></table></td></tr>
+</table></body>
+</html><img height=3D"1" src=3D"https://www.dropbox.com/l/AABlu_RiLZD_mcCYw=
+dEX1BGVxF-0EzvTSMw" width=3D"1">=
+
+--===============6646385029353715326==--

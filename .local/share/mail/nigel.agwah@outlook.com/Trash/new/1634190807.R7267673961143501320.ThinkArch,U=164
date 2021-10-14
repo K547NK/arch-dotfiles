@@ -1,0 +1,572 @@
+Received: from HE1EUR02HT219.eop-EUR02.prod.protection.outlook.com
+ (2603:10b6:806:26::16) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA9P223CA0011.NAMP223.PROD.OUTLOOK.COM; Fri, 27 Aug 2021 23:10:19
+ +0000
+Received: from HE1EUR02FT051.eop-EUR02.prod.protection.outlook.com
+ (2a01:111:e400:7e1d::4b) by
+ HE1EUR02HT219.eop-EUR02.prod.protection.outlook.com (2a01:111:e400:7e1d::353)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4457.17; Fri, 27 Aug
+ 2021 23:10:17 +0000
+Authentication-Results: spf=pass (sender IP is 147.253.210.162)
+ smtp.mailfrom=bounces.joinhoney.com; outlook.com; dkim=pass (signature was
+ verified) header.d=my.joinhoney.com;outlook.com; dmarc=pass action=none
+ header.from=my.joinhoney.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounces.joinhoney.com
+ designates 147.253.210.162 as permitted sender)
+ receiver=protection.outlook.com; client-ip=147.253.210.162;
+ helo=mta-210-162.sparkpostmail.com;
+Received: from mta-210-162.sparkpostmail.com (147.253.210.162) by
+ HE1EUR02FT051.mail.protection.outlook.com (10.152.11.7) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4457.17 via Frontend Transport; Fri, 27 Aug 2021 23:10:16 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:3DBC804C4F2366004767BAA6EE660ECAE31243077A609FBB2B40B2CCCBF54379;UpperCasedChecksum:626F0FDD625E019529BFA174A99C2AEB8341A4CCE3EC7AD9A7CE670EF28AFA69;SizeAsReceived:1242;Count:14
+X-MSFBL: nPv83+zAy9ibnKD5qUEOCU2UW/eJE4hYyVU6zMfbzNo=|eyJyIjoibmlnZWwuYWd
+	3YWhAb3V0bG9vay5jb20iLCJzdWJhY2NvdW50X2lkIjoiMCIsImN1c3RvbWVyX2l
+	kIjoiMjc4MDkwIiwibWVzc2FnZV9pZCI6IjYxMjZiOTYyMjk2MWE2NzNmMDhlIiw
+	idGVuYW50X2lkIjoic3BjIn0=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=my.joinhoney.com;
+	s=scph0120; t=1630102201; i=@my.joinhoney.com;
+	bh=TKV7i3LAGdFqQuIiaeAXJzjJYwC54S0Mso85ZkQkpNM=;
+	h=To:Message-ID:Date:Content-Type:From:Subject;
+	b=LrCD8jfE9cuwIkMFrzCzSzASbRcDXdX4vpmIBn2jXz6RfRbuvjpTEtDbR2oRppwVD
+	 J9tfh52Y1bKbtub0i0FwjzhgsSXzPyXVj8Hhd0aopbJS6X8AAQZPedQp4CL+8AhMN5
+	 MhHV8+B8ADZWRiQPpXk2u4wjnhIlQYXRoUB39i2s=
+To: nigel.agwah@outlook.com
+Message-ID: <0F.E8.34158.9B269216@bj.mta1vrest.cc.prd.sparkpost>
+Date: Fri, 27 Aug 2021 22:10:01 +0000
+Content-Type: multipart/alternative; boundary="_----KoS8CdgkeTjH4ZEz8JvOlA===_AC/E8-34158-9B269216"
+Reply-To: yourfriends@joinhoney.com
+X-Campaign-ID: 2790831
+From: "Honey" <honey@my.joinhoney.com>
+Subject: =?utf-8?B?SW1wb3J0YW50IOKAkyBZb3VyIEdvbGQgZXhwaXJlcyBpbiAzMCBk?=
+	=?utf-8?B?YXlzIQ==?=
+X-Message-ID: 51ede9c6c87844a0b6666f8add8787c2
+X-Feedback-ID: 3825671:2790831:39892:iterable
+Feedback-ID: 3825671:2790831:39892:iterable
+X-IncomingHeaderCount: 14
+Return-Path: msprvs1=18873hFKfb9gS=bounces-278090@bounces.joinhoney.com
+X-MS-Exchange-Organization-ExpirationStartTime: 27 Aug 2021 23:10:17.7155
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 689d6a59-0ea0-4d79-422f-08d969afd5d2
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ HE1EUR02FT051.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/27/2021 5:24:20 AM
+X-MS-Office365-Filtering-Correlation-Id: 689d6a59-0ea0-4d79-422f-08d969afd5d2
+X-MS-TrafficTypeDiagnostic: HE1EUR02HT219:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 147.253.210.162
+X-SID-PRA: HONEY@MY.JOINHONEY.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Aug 2021 23:10:16.9379
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 689d6a59-0ea0-4d79-422f-08d969afd5d2
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ HE1EUR02FT051.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1EUR02HT219
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.9715061
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4457.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90005022)(91005020)(91035115)(91044021)(91045095)(9050020)(9100335)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddo0v2Zc4iIB04SlwMDjgKz5j8jfF3+HSLvyNPuJRDLDrpKY0wI/tgqjnnQLAN1RDe+zJgPtBKrplGc1vMOi4jzwrOdXc7Iq39+0hoE6yzeA1BKA/t0T2b+Er26HmzrIJBOakyhGRogFc4TDJBP9gVUdUZ4xWq52TrMieo9osbLBlnP87BAkFB8WH5AJtLMGRZ9EtlzZ+cOPg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?ejE2c2tob1RZTS9abThQK0s0dUdEN0htekpuZ1FnSEwrYVVUNnhnN0ZEblZO?=
+ =?utf-8?B?OFZUR1BPSGFvc0NiS0tyOGpoV0tqNVptbnNTT3ovQ0g3d0pScVMrbFJnN1d2?=
+ =?utf-8?B?V1RmOWYxOGIvdEQxdWFMSTFnTWE1R0ltc3J3ZnJlWkJKd1BoUWZZek1uZlha?=
+ =?utf-8?B?SFVwQWZJdlR2ZWhyNU5vRWFmSjF1cTF6U3RSblVVVlJyV055eGpzUzhLdnBL?=
+ =?utf-8?B?Z0xPVm8rL3lrS2U4UFVtazlqRWR1WmlHV0VFK1JMRS9qcGFHY0dLWlI5WWhw?=
+ =?utf-8?B?NE1qTFRzbU5JbG1BSVNZaWJRcTQra3E2S2FzQ3RWZXVKQzdOUUhqajBnd01Y?=
+ =?utf-8?B?ZWUvVjY2YW50aUFaWmxBS3NyUGVrOStkWnhnQVZoZ3EyWm5FQWhyd0dRM3ZZ?=
+ =?utf-8?B?Z3RqbU1SemJ3blRDZ1lRUkUvdUdIVk9wTHlNeXB3YUlyRURWQmViRGVwZHpG?=
+ =?utf-8?B?OXdicWFvVHVsOGhtZWlta0ZncXJodGpheTArQmp5MFRJcWRzTWVvYk5jekdN?=
+ =?utf-8?B?b2d4NUNUQ2R4bi9Kd3lqVXRYSEYzK25tWGIwK0FIVG9nQitxSHZUSFlIYmRS?=
+ =?utf-8?B?aHlxUzdoUEkvUTh4OUIxdnNja3ZPWm1SL2Fwc1dOTGFabU1UVWRMYjBWS2Na?=
+ =?utf-8?B?aytRM0VmMFltbTVXUm1UaDVtYURYaUxUZFFwV3dCZHBGYjVRYVpwZG9lcThj?=
+ =?utf-8?B?N1NXaklIOFBod3FBRmRUYk9QcnFFZHl2MG9RVlcvY2pmS3pZWUJXakpaUUha?=
+ =?utf-8?B?aE5VU0U4elNXYXFFWkxRSzhKQS9KRnYxa3dDTGl2WWxzU0lpVEpuQW55K1V0?=
+ =?utf-8?B?YnpzSmRxMGlXT0wzczNaYnJucnRhS0s2dE5UNTFqWGZpaGlwcStJYktFd1d2?=
+ =?utf-8?B?YWhwbFhvZmtaVWV6MGYzZkJVY2k5MlYreEFKZm5PRWZtdkszOHh1OGFLSGEv?=
+ =?utf-8?B?ODRKQ1U3UDlnWHBiS3RRWG5WQkVKb3RTdjNDYWc2NVBsS0VlZFVyL01wd0xX?=
+ =?utf-8?B?VkNHL3pINFFBMHNLeXJZazdwR1dueFFUMmhqR1AzWXVrcXRzZVlYWXBqdjJP?=
+ =?utf-8?B?WDQ0cDBjNmtpNlY3WkNPZWVOdCswbkpvZko0c1dGR25YQmxtZUIrSk00MlJN?=
+ =?utf-8?B?MWUrdHNmWGpoRnd5ck8wL0kySGsyMjBENytkSU9sbW84VWNLUUdLSWQ3cmNQ?=
+ =?utf-8?B?M1dmUDYrd1ovQmM5Q2xBMG1lMU5IMmQxWWQ1dTg0b3pXQ2FvVmdZRm1SeFZG?=
+ =?utf-8?B?ME1TcjlwQ1FleEZKL042aW9waWVnNDF3M09YSXVnWWNpOVlLT2VSYlhoNlQv?=
+ =?utf-8?B?czk2dzMrcmd4YSs5eVhWN1ByTHBVc3Fpem53cGk4ZlAwKzNMOTM1S0syWkpS?=
+ =?utf-8?B?YUtiQWhhUHg2ZXN6SVRaYzJlTmpjR3Q3YUhDM2NaOWhjOUt5SFRzM3NDZzVu?=
+ =?utf-8?B?Yzhmdzg3aE1ONWpkdFNFS1VlWnZDWTQvU004dXdRakxwd3JSNS9SU2k2cXk5?=
+ =?utf-8?B?RGFPQ2k4QkxEVVVlckJqZEo2MFVvQThZM21aNisxTUxWY0pxVDE0dDUwc3NV?=
+ =?utf-8?B?OGVSdjNWcnVLbzBvU1FhenpjV24vbHRzcUpXUm1sUmcrMlRPKzIyd21VSFNO?=
+ =?utf-8?B?Q0xWbHYyaUd2K25yU3Y3alBvRXFzZFE9PQ==?=
+MIME-Version: 1.0
+X-TUID: MncasBUFO3RG
+
+--_----KoS8CdgkeTjH4ZEz8JvOlA===_AC/E8-34158-9B269216
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Honey Follow these steps to save your rewards.  =CD=8F =CD=8F =CD=8F =CD=8F=
+ =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F=
+ =CD=8F =CD=8F =0A=CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =
+=CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =
+=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=
+ =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F=
+ =CD=8F =CD=8F =0A=CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =
+=CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =
+=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=
+ =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F=
+ =CD=8F =CD=8F =0A=CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =
+=CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =
+=CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=
+=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F=
+ =CD=8F =CD=8F =0A=CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=
+=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =0A=0A=0A=0A=C2=A0 =0A=0A=0A=
+=0A=0A <https://www.joinhoney.com/> =C2=A0 =0A=C2=A0 =0A=0A=0A=0A=C2=A0 =0A=
+Heads up!=0A Your Gold expires in=0A30=0Adays! =0A=C2=A0 =0A=0A=0AWe=E2=80=
+=99ve made it easy to keep your Gold. Just use one of these options before =
+the =0Aexpiration date.=0A=0ALog in to your account on the Honey extension =
+=0A<https://www.joinhoney.com/r/=3Furl=3Dhttps%3A%2F%2Fwww.joinhoney.com%2F=
+mobile%2Finstall>=0AOr head to joinhoney.com <https://joinhoney.com> and lo=
+g in there=0AOr log in with your phone or tablet on our app =0A<https://joi=
+nhoney.onelink.me/IFTq=3Fc=3Demail_goldexpiration_30day&pid=3Demail>=0A=0AA=
+fter that, you can keep earning Gold towards gift cards or other rewards. =
+=0A=C2=A0 =0A=0A=0ALog in to Honey <https://www.joinhoney.com/> =0A=C2=A0 =
+=0AFor complete details about Honey Gold expiration, see our Terms of Use =
+=0A<https://www.joinhoney.com/terms>. =0A=0A <https://www.joinhoney.com/> =
+=0A=0A=0A=C2=A0 =0AWhy am I getting this email=3F=0A=0A We=E2=80=99re reach=
+ing out because your Gold is going to expire soon, and we want to =0Agive y=
+ou a chance to save the Gold that=E2=80=99s in your account. That way, you =
+can =0Akeep racking up Gold and redeeming it for gift cards or other reward=
+s.=0A=0A We=E2=80=99ll send you a couple more reminders. But don=E2=80=99t =
+wait too long! We=E2=80=99d hate =0Afor you to miss out. =0A=C2=A0 =0A=0A=
+=0A=C2=A0 =0A=0A=0A=0AExplore <https://www.joinhoney.com/explore> =0A=0A=0A=
+Droplist <https://www.joinhoney.com/droplist> =0A=0A=0AHoney Gold <https://=
+www.joinhoney.com/honeygold/activity> =0A=0A=0A=C2=A0 =0A <https://www.face=
+book.com/honey>  <https://www.instagram.com/honey>  =0A<https://www.pintere=
+st.com/honey>  <https://twitter.com/honey> =0A=C2=A0 =0A=0A=0A=0A=0AView th=
+is email online =0A<https://links.joinhoney.com/e/evib=3F_t=3D70657193eb7a4=
+04887947be80fb10777&_m=3D51ede9c6c87844a0b6666f8add8787c2&_e=3D5QZw6T0t2REz=
+UrgM8S445VqPP1EPzCYyWmxdnYSZhNVFp7Se4t9VIHtkdnTxFkl_xicVJ5XqIa_D0zdUO1oQ-J8=
+nWTY8bnHHew0P7geSy_bmPvfSSKlMpvXi9959c040>=0A. =0A=0A=0A Copyright =C2=A9 2=
+021 Honey Science LLC (a PayPal company)=0A All rights reserved. 963 E. 4th=
+ Street, Los Angeles, CA 90013=0A=0A CID: 2790831_08.27.2021
+--_----KoS8CdgkeTjH4ZEz8JvOlA===_AC/E8-34158-9B269216
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:sc=
+hemas-microsoft-com:office:office"><head><!--[if gte mso 9]><xml> <o:Office=
+DocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:O=
+fficeDocumentSettings> </xml><![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Honey</title> <link rel=3D"stylesheet" href=3D"https://cdn.honey.io/cs=
+s/honey-font.min.css">  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=
+=3Dedge"> <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-=
+scale=3D1.0 "> <meta name=3D"format-detection" content=3D"telephone=3Dno"> =
+<style type=3D"text/css">body{margin:0;padding:0;-webkit-text-size-adjust:1=
+00%!important;-ms-text-size-adjust:100%!important;-webkit-font-smoothing:an=
+tialiased!important}img{border:0!important;outline:none!important}p{Margin:=
+0!important;Padding:0!important}.ExternalClass *{line-height:100%}.em_defau=
+ltlink a{color:inherit;text-decoration:none}.hide-desktop{display:none;visi=
+bility:hidden}.hide-mobile{display:block;visibility:visible}@media only scr=
+een and (min-width:481px) and (max-width:599px){.footer-nav{padding-bottom:=
+20px}.hide-desktop{display:block!important;visibility:visible!important}.hi=
+de-mobile{display:none!important;visibility:hidden!important}.honey-button{=
+text-align:center;width:100%!important;max-width:unset!important}.lower-but=
+ton{text-align:center;width:80%!important;max-width:unset!important}.em_mai=
+n_table{width:100%!important}.em_wrapper{width:100%!important}.em_hide{disp=
+lay:none!important}.em_full_img{width:100%!important;height:auto!important;=
+max-width:none!important}.em_full_img img{width:100%!important;height:auto!=
+important;max-width:none!important}.em_second_img{width:80%!important;heigh=
+t:auto!important;max-width:none!important}.em_second_img img{width:80%!impo=
+rtant;height:auto!important;max-width:none!important}.em_third_img img{widt=
+h:40%!important;height:auto!important;max-width:none!important}.em_center{t=
+ext-align:center!important}.em_aside15{padding:0 15px!important}.em_ptop{pa=
+dding-top:20px!important}.em_pbottom{padding-bottom:20px!important}.em_h20{=
+height:20px!important;font-size:1px!important;line-height:1px!important}.em=
+_h10{height:10px!important;font-size:1px!important;line-height:1px!importan=
+t}.em_h30{height:30px!important}.em_hauto{height:auto!important}.em_clear{c=
+lear:both!important;width:100%!important;display:block!important}.em_asidea=
+ll{padding:20px!important}.white_bg{background:#fff!important}.orange_bg{ba=
+ckground:#ff8b4e!important}.mobile-font-size{font-size:30px!important;line-=
+height:36px!important}}@media screen and (max-width:480px){.footer-nav{padd=
+ing-bottom:20px}.hide-desktop{display:block!important;visibility:visible!im=
+portant}.hide-mobile{display:none!important;visibility:hidden!important}.ho=
+ney-button{text-align:center;width:100%!important;max-width:unset!important=
+}.lower-button{text-align:center;width:80%!important;max-width:unset!import=
+ant}.em_main_table{width:100%!important}.em_wrapper{width:100%!important}.e=
+m_hide,.em_hide1{display:none!important}.em_full_img{width:100%!important;h=
+eight:auto!important;max-width:none!important}.em_full_img img{width:100%!i=
+mportant;height:auto!important;max-width:none!important}.em_second_img{widt=
+h:80%!important;height:auto!important;max-width:none!important}.em_second_i=
+mg img{width:80%!important;height:auto!important;max-width:none!important}.=
+em_third_img img{width:40%!important;height:auto!important;max-width:none!i=
+mportant}.em_center{text-align:center!important}.em_aside15{padding:0 15px!=
+important}.em_ptop{padding-top:20px!important}.em_pbottom{padding-bottom:20=
+px!important}.em_h20{height:20px!important;font-size:1px!important;line-hei=
+ght:1px!important}.em_h10{height:10px!important;font-size:1px!important;lin=
+e-height:1px!important}.em_h30{height:30px!important}.em_mob_block{display:=
+block!important}.em_hauto{height:auto!important}.em_clear{clear:both!import=
+ant;width:100%!important;display:block!important}u+.em_body .em_full_wrap{w=
+idth:100%!important;width:100vw!important}.em_asideall{padding:20px!importa=
+nt}.white_bg{background:#fff!important}.orange_bg{background:#ff8b4e!import=
+ant}.mobile-font-size{font-size:30px!important;line-height:36px!important}}=
+</style> </head> <body class=3D"em_body" style=3D"margin: 0px auto; padding=
+: 0px; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100=
+% !important; -webkit-font-smoothing: antialiased !important;" bgcolor=3D"#=
+ffffff">
+<div style=3D"color:transparent;visibility:hidden;opacity:0;font-size:0px;b=
+order:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!im=
+portant;display:none!important;line-height:0px!important;"><img border=3D"0=
+" width=3D"1" height=3D"1" src=3D"http://links1.joinhoney.com/q/dHTPx-R979l=
+rK7J03M1tkA~~/AAQ-SgA~/RgRjC-e5PVcDc3BjQgphJrliKWGmc_COUhduaWdlbC5hZ3dhaEBv=
+dXRsb29rLmNvbVgEAAAAAA~~" alt=3D""></div>
+<span style=3D"color:transparent;visibility:hidden;display:none;opacity:0;h=
+eight:0;width:0;font-size:0;">Follow these steps to save your rewards.</spa=
+n><img src=3D"https://links.joinhoney.com/e/eo?_t=3D70657193eb7a404887947be=
+80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_e=3D5QZw6T0t2REzUr=
+gM8S445VqPP1EPzCYyWmxdnYSZhNXjnUzkmklJYddTuteA7W0tYcdGwO1EF5yrXGq0JWJh_lhym=
+I2nyFRf5gFCIqDds7nIj39uXBeUr-XsH5dFJ3Jrr1qWtFGC_WiilDy82yUW0AlGgEN1qeOC8vTz=
+WvpA0WIyvZvETh76sIncUWiYhFiN" style=3D"border:0;width:1px;height:1px;border=
+-width:0px!important;display:none!important;line-height:0!important;" width=
+=3D"1" height=3D"1"> <span class=3D"preheader" style=3D"color: transparent;=
+ display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflo=
+w: hidden; mso-hide: all; visibility: hidden; width: 0;"> <!-- REQUIRED: Pr=
+eview text can be the header title or custom --> =CD=8F =CD=8F =CD=8F =CD=
+=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=
+=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =
+=CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =
+=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=
+ =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F=
+ =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=
+=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=
+=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =
+=CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =
+=CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=
+=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F=
+ =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F=
+ =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=
+=8F =CD=8F =CD=8F=CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F=CD=8F =CD=
+=8F =CD=8F =CD=8F =CD=8F =CD=8F =CD=8F </span> <table width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"em_full_wrap" bgcolor=
+=3D"#ffffff"> <tr> <td align=3D"center" valign=3D"top"><table align=3D"cent=
+er" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D=
+"em_main_table" style=3D"width:600px; "> <tr> <td align=3D"center" valign=
+=3D"top"><table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D=
+"min-width: 100%; " class=3D"stylingblock-content-wrapper"> <tr> <td align=
+=3D"center" valign=3D"top"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"em_main_table" style=3D"width:600px; tabl=
+e-layout:fixed;" width=3D"600"> <tr> <td height=3D"20" style=3D"font-size:1=
+px; line-height:1px; height:20px;">&nbsp;</td> </tr> <tr> <td align=3D"cent=
+er" bgcolor=3D"#ffffff" valign=3D"top" class=3D"em_aside15"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"> <=
+tr> <td align=3D"center" valign=3D"top"><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"> <tr> <td align=3D"cen=
+ter" class=3D"em_aside10" valign=3D"top"><table align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"> <tr> <td align=3D"le=
+ft" class=3D"em_w1" valign=3D"top"><table align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"em_wrapper" style=3D"width:120px;" =
+width=3D"120"> <tr> <td align=3D"left" valign=3D"top"><a href=3D"https://li=
+nks.joinhoney.com/u/click?_t=3D70657193eb7a404887947be80fb10777&amp;_m=3D51=
+ede9c6c87844a0b6666f8add8787c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDb3EvTRY4itFFES=
+w7vsWZ5s4aoOOdnVh9pEEjiBYT0mivNvIjLILEjmvgCVyvCbCThZPevfx-gwNgUrcWvFoUgNrkw=
+0sthb1gXXzq3KDpbMxrgQtljf3z_aH9PSYqMGigOrpPcdo-v3F8PgrFgw5z9wDdQQt81N3LpO_M=
+qtrhGmV0EzUwpB3XGE2davMIZQmdyCwNqqAiggSg2XYhoXK0fKaR7JwGs8RgdSoeAUgO2FLQWey=
+tR0GgbmLXbt85XB5jBroXDMfTdzgvtMZcyAAwpMrbmfE6F3farMSSbiUVZgA" style=3D"text=
+-decoration:none;" target=3D"_blank"><img alt=3D"Honey" border=3D"0" src=3D=
+"https://cdn.joinhoney.com/images/email/logos/1600px-Honey_Logo_Orange.png"=
+ style=3D"display: block; max-width: 120px; border: 0 !important; outline: =
+none !important;" width=3D"120"></a></td> </tr> </table></td> <td class=3D"=
+em_side10" style=3D"width:20px;" width=3D"20">&nbsp;</td> </tr> </table></t=
+d> </tr> <tr> <td class=3D"em_h20" height=3D"10" style=3D"font-size:1px; li=
+ne-height:1px; height:10px;">&nbsp;</td> </tr> </table></td> </tr> </table>=
+</td> </tr> </table></td> </tr> </table> <!--- header end---> <table cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; bord=
+er: 0px " class=3D"stylingblock-content-wrapper"> <tr> <td class=3D"styling=
+block-content-wrapper camarker-inner"> <table bgcolor=3D"#D6EBFF" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_full_wrap" width=3D"100=
+%"> <tr> <td align=3D"center" valign=3D"top"><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_main_table" style=3D=
+"width:600px; table-layout:fixed;" width=3D"600"> <tr> <td align=3D"center"=
+ bgcolor=3D"#D6EBFF" class=3D"em_aside15" style=3D"padding:0px 40px;" valig=
+n=3D"top"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%"> <tr> <td class=3D"em_h20" height=3D"40" style=3D"fo=
+nt-size:1px; line-height:1px; height:40px;">&nbsp;</td> </tr> <tr> <td alig=
+n=3D"center" class=3D"em_defaultlink mobile-font-size" style=3D"font-family=
+: Eina03, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-seri=
+f, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size:36px; line=
+-height:44px; color:#003381;font-weight: 700; letter-spacing: -1px " valign=
+=3D"top">Heads up!<br class=3D"em_hide"> Your Gold expires in<br><span styl=
+e=3D"font-size: 94px; line-height: 95px">30</span><br>days!</td> </tr> <tr>=
+ <td class=3D"em_h20" height=3D"20" style=3D"font-size:1px; line-height:1px=
+; height:20px;">&nbsp;</td> </tr> </table></td> </tr> </table></td> </tr> <=
+tr> <td align=3D"center" valign=3D"top"><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_main_table" style=3D"widt=
+h:600px; table-layout:fixed;" width=3D"600"> <tr> <td align=3D"center" bgco=
+lor=3D"#D6EBFF" class=3D"em_aside15" style=3D"padding:0px 60px;" valign=3D"=
+top"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%"> <tr> <td align=3D"center" class=3D"em_defaultlink" style=
+=3D"font-family: SuisseIntl, Helvetica, Arial, sans-serif; font-size:16px; =
+line-height:24px; color:#0F357D; text-align: left" valign=3D"top">We=E2=80=
+=99ve made it easy to keep your Gold. Just use one of these options before =
+the expiration date.<br><br><img src=3D"https://cdn.joinhoney.com/images/em=
+ail/gold-expiration/desktop%20icon%204.png" style=3D"max-height: 15px; padd=
+ing-right: 5px; border: 0 !important; outline: none !important;">Log in to =
+your account on the <a href=3D"https://links.joinhoney.com/u/click?_t=3D706=
+57193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp=
+;_e=3DNWlN83zBqcVHtWW0N8mJDb3EvTRY4itFFESw7vsWZ5snu95SeZ3hixz2hfxFIbZ79FLTf=
+FtANQIhIkntl6uMkgs3YTKVRMbt0yhpQfaRHB0qsOHe7I3DybAR33RlGwEaiS8rBMrDMVsHeNaP=
+tlX22lSHZnpPvOk8SLjMwTeUXD7ZSDVW-Wvznp_aXn8m6c7qYkwORRBxaEm7aQzYX3f2Z0WhkGv=
+1nV5W08cNatluDKINTVKKuB8yB4YdTZZUF27lAkHumqUtwdb-m07HbjgjqLopPp506stt-cSaip=
+mhcRnL7fVb_WItX6oz3eNvyslj-p3jYzd-CKBKGKbE4sBM_bNzzuiNEtVe6SLEsGnMDIEgo_MfG=
+DzSe_C4NGoeqQ1L" style=3D"font-family: SuisseIntl, Helvetica, Arial, sans-s=
+erif; font-size: 16px; line-height: 24px; color: #0F357D; text-align: left;=
+ text-decoration: underline;">Honey extension</a><br> <img src=3D"https://c=
+dn.joinhoney.com/images/email/gold-expiration/Slice%201%20(16)%204.png" sty=
+le=3D"max-height: 15px; padding: 0px 7px 0px 4px; border: 0 !important; out=
+line: none !important;">Or head to <a href=3D"https://links.joinhoney.com/u=
+/click?_t=3D70657193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666=
+f8add8787c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDRwghlnG1LHHHuR9SgnlLAkmVYCrjZ6YC5=
+YdJE15ydqepG38GQ1wo5JsdvJ2womL5gQw2DU-a5gvnjabA9No29MK6W0ySNgQUyPbCaYroMHiS=
+dACZT4YJ7WGQKC5NASxCdfTsk4F53bDVSe9YkH5bV6rXl6pWMFXMJdetFRW64f7XYmx0_ebaI4c=
+oxcZRC-ZL6uHWZtzqdncvFoQPmOYQoA0KDAq2PZOZaLx70CtUB2FNYze_0zL7HKhEL4siyq735F=
+kQFtxCfhKgo1WL4MTfvHRUOpAVjHa28lBPDpWlKqR" style=3D"font-family: SuisseIntl=
+, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: =
+#0F357D; text-align: left; text-decoration: underline;">joinhoney.com</a> a=
+nd log in there<br> <img src=3D"https://cdn.joinhoney.com/images/email/gold=
+-expiration/mobile%20icon%204.png" style=3D"max-height: 15px; padding-right=
+: 5px; border: 0 !important; outline: none !important;">Or log in with your=
+ phone or tablet on our <a href=3D"https://links.joinhoney.com/a/click?_t=
+=3D70657193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787=
+c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDSvWuoqxXcSOT2nPXkhBDyXREElwnKs1KD29wM8K3Eg=
+qQlbQzrjqfS9qrnYBGjcusYAPeFfzAhS7PAT7EK9nFiTAD0N50U_lpQnUX2hHjS3OfsuVSpwNjx=
+068Yw0Fi9sSxLMTBAI5w8v4adiTDv80zHYe8JSeOP6K_7Wo65JjYdwRcF9DGXlNicRufQOGw3Iv=
+WyCxl5Gb50z_TCsOf1Q1cwXojeVeO8F30pU_l43PzXaWmCIgxXUFjIskPP7oYfi6eFkAjBXamIR=
+sv5c8pQDEYGgTlXIw0pyIc164ZR40shBhk-GuiPy0JhPXwVy0vl-O7BO9bDbtFjOvQ-XKvbjma9=
+1xoOnLW11GjBhvZSItKjd" style=3D"font-family: SuisseIntl, Helvetica, Arial, =
+sans-serif; font-size: 16px; line-height: 24px; color: #0F357D; text-align:=
+ left; text-decoration: underline;">app</a><br><br>After that, you can keep=
+ earning Gold towards gift cards or other rewards. </td> </tr> <tr> <td cla=
+ss=3D"em_h20" height=3D"20" style=3D"font-size:1px; line-height:1px; height=
+:20px;">&nbsp;</td> </tr> <tr align=3D"center"> <td align=3D"center"><table=
+ align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"> <tr> <td><table class=3D"honey-button" align=3D"center" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0"> <tr> <td align=3D"center" class=3D"e=
+m_defaultlink" style=3D"border-radius: 3px;" bgcolor=3D"#CC4B06" valign=3D"=
+middle"><a href=3D"https://links.joinhoney.com/u/click?_t=3D70657193eb7a404=
+887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_e=3DNWlN83=
+zBqcVHtWW0N8mJDb3EvTRY4itFFESw7vsWZ5s4aoOOdnVh9pEEjiBYT0mivNvIjLILEjmvgCVyv=
+CbCThZPevfx-gwNgUrcWvFoUgO1vbL_8AAnCcAlJAq_eOh2K1Yf1KQAuLYzRVyjo1QIVjwkTdvx=
+x-Ix-NMIoGvuIbgE6ESESRnb2RxuBh2TY9CD5FHhRXnemRCbscu7s81Ai1GcZizcbZQcDAVc8H-=
+S9s7dubp48V2CpjvlBT8MK40fqjvIn60lifqKaKIz7Hos4tQphhJx-A84sgfriICo4MdZwqQm33=
+XdGEKBa7wx9ZHD" target=3D"_blank" style=3D"font-size: 17px; font-family: He=
+lvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; text-dec=
+oration: none; border-radius: 3px; padding: 15px 55px; border: 1px solid #C=
+C4B06; display: inline-block;">Log in to Honey</a></td> </tr> </table></td>=
+ </tr> </table></td> </tr> <tr> <td height=3D"10" style=3D"font-size:1px; l=
+ine-height:1px; height:10px;">&nbsp;</td> </tr> <tr> <td align=3D"center" c=
+lass=3D"em_defaultlink" style=3D"font-family: SuisseIntl, Helvetica, Arial,=
+ sans-serif; font-size:12px; line-height:16px; color:#0F357D; text-align: c=
+enter" valign=3D"top">For complete details about Honey Gold expiration, see=
+ our <a href=3D"https://links.joinhoney.com/u/click?_t=3D70657193eb7a404887=
+947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_e=3DNWlN83zBq=
+cVHtWW0N8mJDb3EvTRY4itFFESw7vsWZ5uYvn6_LWLxk4x21IKfNZ3LGzfUUVmbQbawnSkx8_F5=
+YEudcHuv50qstaFAuZPpumRJzQMmf2DLzV9tlKDqs7OTbnDxJyVmqo3Cqib-_Y0J6fo18j1_UMW=
+N2YoA2o2_0XsemxcqDFVODgDLHZw8j_etMt9CovrZenAHdqM0wTMt3njUYqCCY1BiIBwsG0sXx7=
+j8nyXRtjqrBN2dw33TFwiVnt6nEKG11hKdLIrd0oG2wHP37aB8jBtG4owD4es8zgMnYjTWn9qGN=
+t9DNRkNV_as" style=3D"font-family: SuisseIntl, Helvetica, Arial, sans-serif=
+; font-size: 12px; line-height: 16px; color: #0F357D; text-align: cener; te=
+xt-decoration: underline;">Terms of Use</a>.</td> </tr> </table></td> </tr>=
+ </table></td> </tr> <tr> <td align=3D"center" valign=3D"top"><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_ma=
+in_table" style=3D"width:600px; " width=3D"600"> <tr> <td align=3D"center" =
+class=3D"em_second_img"><a href=3D"https://links.joinhoney.com/u/click?_t=
+=3D70657193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787=
+c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDb3EvTRY4itFFESw7vsWZ5s4aoOOdnVh9pEEjiBYT0m=
+ivNvIjLILEjmvgCVyvCbCThZPevfx-gwNgUrcWvFoUgPaqnCXkrVpmBrgcIglnMUJXJNSO3VpHM=
+uBhQTyy6YAlUYlzbqkiYktd-8VH1liYkmnAeohIIFBoxf9QQsqEAJ5hv4nu_WieR8FWNJxu8JFm=
+jlxFJwcAdiHHNsuz_KaOT501xQfssWKa4I_nowEREMWB3ItC29vAIWnp5oY9Mu7zcsvpR57qA9m=
+nEzDOXh5Jg8-wFlmJ0VAjYEQxYRaafux" style=3D"text-decoration:none;" target=3D=
+"_blank"><img alt=3D"Coiny" src=3D"https://cdn.joinhoney.com/images/email/g=
+old-expiration/coiny_stopwatch.gif" style=3D"width: 400px; padding: 0px; te=
+xt-align: center; display: block; line-height: 50%; border: 0 !important; o=
+utline: none !important;" target=3D"_blank" width=3D"400"></a></td> </tr> <=
+/table></td> </tr> <tr> <td align=3D"center" valign=3D"top"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_main_=
+table" style=3D"width:600px; table-layout:fixed;" width=3D"600"> <tr> <td a=
+lign=3D"center" bgcolor=3D"#ffffff" class=3D"em_aside15" style=3D"padding:0=
+px 20px;" valign=3D"top"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%"> <tr> <td class=3D"em_h20" height=
+=3D"40" style=3D"font-size:1px; line-height:1px; height:40px;">&nbsp;</td> =
+</tr> <tr> <td align=3D"center" class=3D"em_defaultlink" style=3D"font-fami=
+ly: SuisseIntl, Helvetica, Arial, sans-serif; font-size:16px; line-height:2=
+4px; color:#757575; text-align: left" valign=3D"top"><b>Why am I getting th=
+is email?</b><br><br> We=E2=80=99re reaching out because your Gold is going=
+ to expire soon, and we want to give you a chance to save the Gold that=E2=
+=80=99s in your account. That way, you can keep racking up Gold and redeemi=
+ng it for gift cards or other rewards. <br><br> We=E2=80=99ll send you a co=
+uple more reminders. But don=E2=80=99t wait too long! We=E2=80=99d hate for=
+ you to miss out.</td> </tr> <tr> <td class=3D"em_h20" height=3D"40" style=
+=3D"font-size:1px; line-height:1px; height:40px;">&nbsp;</td> </tr> </table=
+></td> </tr> </table></td> </tr> </table></td> </tr> </table> <table cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; " cl=
+ass=3D"stylingblock-content-wrapper"> <tr> <td class=3D"stylingblock-conten=
+t-wrapper camarker-inner"><!-- Content Block 9 --> <table bgcolor=3D"#eeeee=
+e" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_full_wrap" =
+width=3D"100%"> <tr> <td align=3D"center" valign=3D"top"> <table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_main_ta=
+ble" style=3D"width:600px;" width=3D"600"> <tr> <td height=3D"15" style=3D"=
+font-size:1px; line-height:1px; height:15px;" class=3D"em_hide">&nbsp;</td>=
+ </tr> <!--footer nav--> <!--footer nav--> <tr> <td bgcolor=3D"#eeeeee" cla=
+ss=3D"em_asideall" style=3D"padding:15px 10px 0px;" valign=3D"top"><table a=
+lign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%"> <tr> <td valign=3D"top"><table align=3D"left" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"em_wrapper" style=3D"width:380px;" width=
+=3D"380"> <tr> <td valign=3D"top"><table align=3D"left" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"em_wrapper" style=3D"width:188px;" w=
+idth=3D"188"> <tr> <td align=3D"center" class=3D"em_defaultlink footer-nav"=
+ style=3D"font-family: SuisseIntl, Helvetica, Arial, sans-serif; font-size:=
+16px; color:#616161; text-align: center" valign=3D"top"><a href=3D"https://=
+links.joinhoney.com/u/click?_t=3D70657193eb7a404887947be80fb10777&amp;_m=3D=
+51ede9c6c87844a0b6666f8add8787c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDb3EvTRY4itFF=
+ESw7vsWZ5s9CI0Qcw2JBxsxGrTbmnNYhsbXcHdObrnMQGXRzqrL15T19JYbcyiguWeh6EcxoRr5=
+GHM6-QkHv5NfZay8FlMj7QQaeRGCa_qPNeU0j07axXsNPV1qN_R-qP0t8OLiCimf2_WQgBB_TIq=
+xVnqtWVttBSIlVxX1z1lXRx6juuaNjaDp3dLQOeGhpjLZYXQ1hq7iuC2sslNbNwuwmXl2vLwVX1=
+WO15ZRYEAPNFMgaZi7rTNCLGKdyAjbr6ff2ctCPeptaJZ3FEH1sRsnS3jWnmMc" style=3D"te=
+xt-decoration: none; color: #616161; display:block;" target=3D"_blank">Expl=
+ore</a></td> </tr> <tr> <td class=3D"hide-desktop" height=3D"1" style=3D"he=
+ight: 1px; background-color: #BDBDBD;"></td> </tr> </table> <!--[if mso]></=
+td><td valign=3D"top"><![endif]--> <table align=3D"right" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"em_wrapper" style=3D"width:188px;"=
+ width=3D"188"> <tr> <td class=3D"hide-desktop" height=3D"15" style=3D"heig=
+ht: 15px;"></td> </tr> <tr> <td align=3D"center" class=3D"em_defaultlink fo=
+oter-nav" style=3D"font-family: SuisseIntl, Helvetica, Arial, sans-serif; f=
+ont-size:16px; color:#616161;text-align: center" valign=3D"top"><a href=3D"=
+https://links.joinhoney.com/u/click?_t=3D70657193eb7a404887947be80fb10777&a=
+mp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDb3Ev=
+TRY4itFFESw7vsWZ5sUns36goyDd8kTFNi7tcufVnnHO4nSOxASU-MfpwMkxKLQeQ9tLnORWRuZ=
+9yFh94t3NIiUtUKInF8QpuR7r06PqayKNd336yKFbPCraO_5DvbHQjwsHreeHKRrssDW9U82EEC=
+6jtFW4bwKRnpsQfQu3clFi6VIeWj4F7emCsHuk1jOlQ-ouylhHlAuzjHpQnGWi_ajDg_HVDQTk9=
+V_llrdPzCjHl22J3pZLTpie5ZEEMySmLnbTkN9RLQOiDyB2c-_ZHzK35s4h1DhqtwwC2Ka" sty=
+le=3D"text-decoration: none; color: #616161; display:block;" target=3D"_bla=
+nk">Droplist</a></td> </tr> </table></td> </tr> <tr> <td class=3D"hide-desk=
+top" height=3D"1" style=3D"height: 1px; background-color: #BDBDBD;"></td> <=
+/tr> </table> <!--[if mso]></td><td valign=3D"top"><![endif]--> <table alig=
+n=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"em_wr=
+apper" style=3D"width:188px;" width=3D"188"> <tr> <td class=3D"hide-desktop=
+" height=3D"15" style=3D"height: 15px;"></td> </tr> <tr> <td align=3D"cente=
+r" class=3D"em_defaultlink footer-nav" style=3D"font-family: SuisseIntl, He=
+lvetica, Arial, sans-serif; font-size:16px; color:#616161;text-align: cente=
+r" valign=3D"top"><a href=3D"https://links.joinhoney.com/u/click?_t=3D70657=
+193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_=
+e=3DNWlN83zBqcVHtWW0N8mJDb3EvTRY4itFFESw7vsWZ5vjDyx6P4Whqw0z4tlaYujZeLCIxmU=
+FsVUX4DA9cL8225QQIYvmLkVHcwb53cvTCWs6qLUGhR-wFb6H1__Lg4bENUAx5YqNnc34astJk0=
+ZO-PBxBS4osskHjmT0E5j1ZlGBXOOZ8gAZCIJK_8-E-jgyEDBmvqby9QIJ1HkExq8HC-E74Dz7u=
+VC8pxtlYNMekVgXDGqlgoE-lW5O9WlB8dy7TfyLC4R0pr1aSBcFTVSEcBiG23oowEPXx_C8-frS=
+tuIalYhlKufBrRcQA4IgQMjHMBYynFXtO_h1mD8y5ygAig%3D%3D" style=3D"text-decorat=
+ion: none; color: #616161; display:block" target=3D"_blank">Honey Gold</a><=
+/td> </tr> <tr> <td class=3D"hide-desktop" height=3D"1" style=3D"height: 1p=
+x; background-color: #BDBDBD;"></td> </tr> </table></td> </tr> </table></td=
+> </tr> <!--footer nav--> <!--footer nav--> </table></td> </tr> </table> </=
+td> </tr> </table> <!--- footer start---> <table cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" style=3D"min-width: 100%; border: 10px solid #eeee=
+ee; " class=3D"stylingblock-content-wrapper"> <tr> <td class=3D"stylingbloc=
+k-content-wrapper camarker-inner"><table class=3D"framed-container social-s=
+hare-container" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D=
+"background-color: #eeeeee;"> <tr> <td height=3D"40" style=3D"font-size:1px=
+; line-height:1px; height:40px;" class=3D"em_h20">&nbsp;</td> </tr> <tr> <t=
+d align=3D"center"> <a href=3D"https://links.joinhoney.com/u/click?_t=3D706=
+57193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp=
+;_e=3DNWlN83zBqcVHtWW0N8mJDayvhLRYWap5JkjY5Tf-JiZtd7vr1k6fZC-edR5_OG3uFBg8e=
+CC9bb-3PkbzkdhHGmOzmIeReSY8RVzWa6p1Z0JBrIv2Uk6dRQC8JAtTtT4qFO6Ym7OyM_zoRxKy=
+GYHzCH42ytbXept8Waq2rC39_mi0i2SYjmVRf8shK-gfKW1a2rgCVT52oaI7MADHgATDrtBKYTx=
+e9xNJ4RJBsmYrHNXndSONqiXUrm35GdZEJQ5pl8mdglaLfkGVpshwpQOVYFU3yc6HxzDAKEekwc=
+rCYlibUzOmlHVoqMjM7bUUIhOV" style=3D"display: inline-block; margin-right: 4=
+5px; height: 24px;"> <img alt=3D"Facebook" src=3D"https://cdn.honey.io/imag=
+es/email/welcome/welcome-social-fb@2x.png" width=3D"24" style=3D"border: 0 =
+!important; outline: none !important;"> </a> <a href=3D"https://links.joinh=
+oney.com/u/click?_t=3D70657193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87=
+844a0b6666f8add8787c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDVFoSn10FuaAFvprul3iaddL=
+IEvsJDqcfvWOP1ijoO7WYaBXFgGMx2WbgKQ6SnhtGPA9NHJTBblStuqwUK7IUCj3TdXpdZGJh-e=
+bi0Y7S-F6HmWWrmVBzup6NEISi4LegFlEwMcKCWfZNTzLaNb2KXDXfnWA6qRVACdAcLRpVbX4LJ=
+ZJxcAikynrEOAAR_cA08_ebTfWPrco7unezFqp4iaGkvC3SO37kNRg2Xuf5hI4KR9ksumjc7khE=
+QJhavmZ7OHjMxWkIXfusItDoN_OALQ0SLSadcPG_352Mn3X4eEm" style=3D"display: inli=
+ne-block; margin-right: 45px; height: 24px;"> <img alt=3D"Instagram" src=3D=
+"https://cdn.honey.io/images/email/welcome/welcome-social-instagram@2x.png"=
+ width=3D"24" style=3D"border: 0 !important; outline: none !important;"> </=
+a> <a href=3D"https://links.joinhoney.com/u/click?_t=3D70657193eb7a40488794=
+7be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_e=3DNWlN83zBqcV=
+HtWW0N8mJDeOMVpNWSb4oZSzOGPNsNzZAHm-3tEAjGiHRljfqfwj03QpgIbqkG0t4uGpXPmvhKO=
+1SZt5Ox9ATlm77gljGKGCiRs331h3_BeWpfCfDWBrcx7CmCP07rrB1c4ZywEIfr_ZNeJgDytIzE=
+aawmFY6X6DGQzYPkgGg5ibvNU4gLP3RFej6wVIHuUf0skR8-enYltdJablOKDn2lef9Q7-fnNen=
+y4y_KaUvOxLmeb-Rj9LMaaFvQ9hlrqFwZumCZmnmbbXhxGvZsnOCU_LikFzNLs7M4WBhmsiJP3J=
+dJGDooIyZ" style=3D"display: inline-block; margin-right: 45px; height: 24px=
+;"> <img alt=3D"Pinterest" src=3D"https://cdn.honey.io/images/email/welcome=
+/welcome-social-pinterest@2x.png" width=3D"24" style=3D"border: 0 !importan=
+t; outline: none !important;"> </a> <a href=3D"https://links.joinhoney.com/=
+u/click?_t=3D70657193eb7a404887947be80fb10777&amp;_m=3D51ede9c6c87844a0b666=
+6f8add8787c2&amp;_e=3DNWlN83zBqcVHtWW0N8mJDVfdrRhcegH4cCKVult3OJVlquXnptFx-=
+Wd9HOqL7Mz3b56SlEjKJTuQoWedRHBQlInaZpzouXWlBCQ1MBoMC0PnCZcMYHoU9Uc-PuQZb0Ac=
+dWnUVOzkSJ8D_B9d_Ek2g2RdI3hiq95qldYVpWFTjcbPXkqSDtNXQ33jYsohglJpjgpkuX9h4RD=
+vGWKV_USkaXB-_QGViVNcEZcVC6PUh8NJrHuhlmALSum7e_YrYlW78H10F-d8aw7G-jp9LU-tRt=
+7ynZ3CANmNLtjcS0WmTjkRBkPXTjwhKynwumw9Ikpa" style=3D"display: inline-block;=
+ height: 24px;"> <img alt=3D"Twitter" src=3D"https://cdn.honey.io/images/em=
+ail/welcome/welcome-social-twitter@2x.png" width=3D"24" style=3D"border: 0 =
+!important; outline: none !important;"> </a> </td> </tr> <tr> <td height=3D=
+"40" style=3D"font-size:1px; line-height:1px; height:40px;" class=3D"em_h20=
+">&nbsp;</td> </tr> </table> </td> </tr> </table> <table cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; " class=3D"styli=
+ngblock-content-wrapper"> <tr> <td class=3D"stylingblock-content-wrapper ca=
+marker-inner"> <br><br> <!--- footer snippt---> <!-- Footer --> <table cell=
+padding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D" margin: 0 auto; ma=
+x-width: 600px;"> <tr> <td width=3D"8" style=3D"min-width: 8px; width: 8px"=
+></td> <td> <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"> <!--=
+ Optional Unsubscribe --> <tr> <td style=3D"vertical-align: top;"> <div sty=
+le=3D"color: #757575; font-family: SuisseIntl, Helvetica, Arial, sans-serif=
+; font-size: 11px; font-weight: 500; line-height: 16px;"><a class=3D"footer=
+-links" href=3D"https://links.joinhoney.com/e/evib?_t=3D70657193eb7a4048879=
+47be80fb10777&amp;_m=3D51ede9c6c87844a0b6666f8add8787c2&amp;_e=3D5QZw6T0t2R=
+EzUrgM8S445VqPP1EPzCYyWmxdnYSZhNVFp7Se4t9VIHtkdnTxFkl_xicVJ5XqIa_D0zdUO1oQ-=
+J8nWTY8bnHHew0P7geSy_bmPvfSSKlMpvXi9959c040" style=3D"text-decoration: unde=
+rline; color: #757575; font-family: SuisseIntl, Helvetica, Arial, sans-seri=
+f; font-size: 11px; font-weight: 500; line-height: 16px;">View this email o=
+nline</a>. <!-- Update the unsubscribe link accordingly --> <br><br> </div>=
+ </td> </tr> <!-- Optional Unsubscribe END --> <tr> <td style=3D"vertical-a=
+lign: top;"> <div style=3D"color: #757575; font-family: SuisseIntl, Helveti=
+ca, Arial, sans-serif; font-size: 11px; font-weight: 500; line-height: 16px=
+;"> Copyright =C2=A9 2021 Honey Science LLC (a PayPal company)<br> All righ=
+ts reserved. 963 E. 4th Street, Los Angeles, CA 90013<br><br> <span style=
+=3D"font-size: 8px; font-weight: 500;"> CID: 2790831_08.27.2021 </span> </d=
+iv> </td> </tr> <tr height=3D"64" style=3D"height: 64px;"></tr> </table> </=
+td> <td width=3D"8" style=3D"min-width: 8px; width: 8px"></td> </tr> </tabl=
+e> <!-- Footer END --> <!-- Footer snippet END --> </td> </tr> </table> </t=
+d> </tr> </table></td> </tr> </table>=20
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"http://links1.jo=
+inhoney.com/q/zMYvLQUG7erIA6LDKKvTtQ~~/AAQ-SgA~/RgRjC-e5PlcDc3BjQgphJrliKWG=
+mc_COUhduaWdlbC5hZ3dhaEBvdXRsb29rLmNvbVgEAAAAAA~~">
+</body> </html>=
+
+--_----KoS8CdgkeTjH4ZEz8JvOlA===_AC/E8-34158-9B269216--

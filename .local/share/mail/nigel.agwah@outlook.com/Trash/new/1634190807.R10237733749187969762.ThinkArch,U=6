@@ -1,0 +1,738 @@
+Received: from VI1EUR06HT036.eop-eur06.prod.protection.outlook.com
+ (2603:10b6:806:1bb::24) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0169.NAMPRD11.PROD.OUTLOOK.COM; Wed, 30 Jun 2021 11:50:36
+ +0000
+Received: from VI1EUR06FT052.eop-eur06.prod.protection.outlook.com
+ (2a01:111:e400:fc37::4d) by
+ VI1EUR06HT036.eop-eur06.prod.protection.outlook.com (2a01:111:e400:fc37::320)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4264.18; Wed, 30 Jun
+ 2021 11:50:35 +0000
+Authentication-Results: spf=pass (sender IP is 23.253.182.35)
+ smtp.mailfrom=notification-2.bybit.com; outlook.com; dkim=pass (signature was
+ verified) header.d=notification-2.bybit.com;outlook.com; dmarc=pass
+ action=none header.from=notification-2.bybit.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of notification-2.bybit.com
+ designates 23.253.182.35 as permitted sender)
+ receiver=protection.outlook.com; client-ip=23.253.182.35;
+ helo=mail-182-35.mailgun.info;
+Received: from mail-182-35.mailgun.info (23.253.182.35) by
+ VI1EUR06FT052.mail.protection.outlook.com (10.13.6.62) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4287.22 via Frontend Transport; Wed, 30 Jun 2021 11:50:28 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:9138A0036E587D816E066D5863367C8F31EB57B29A62D17A0BCF7CB5F5BF8395;UpperCasedChecksum:D064CE1437C2D63609CDD484ECA0BD0398DAE1305FAF0AB5CBE7E56F7F30D510;SizeAsReceived:1440;Count:17
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=notification-2.bybit.com;
+ q=dns/txt; s=mailo; t=1625053834; h=Content-Transfer-Encoding:
+ Mime-Version: Content-Type: Subject: From: To: Message-Id: Sender:
+ Date; bh=0iPB6ke7SW/XvSaBHcb2IZU7J8FvAKT7lUqTqhxeEQ0=; b=abuzQyXdT7d+3dOabMo0wScI6AIdHraX0jwnXiky37GyF5PWZP4B3EkcTnZJaseqF8cO6E97
+ TDAxBh+vaPgB6NSDa13XgUOL40j/wIKuZrNfwiBu9upupL8JQkwzLkBktHFoBr0HUNRr/xK5
+ 2nWEJcYgiM1EbUQeoXJ2TBN9qFU=
+X-Mailgun-Sending-Ip: 23.253.182.35
+X-Mailgun-Sid: WyI0OTliZSIsICJuaWdlbC5hZ3dhaEBvdXRsb29rLmNvbSIsICIzNGE2MjNlIl0=
+Received: by luna.mailgun.net with HTTP; Wed, 30 Jun 2021 11:50:11 +0000
+Date: Wed, 30 Jun 2021 11:50:11 +0000
+Sender: notification@notification-2.bybit.com
+Message-Id: <20210630115011.1.97A59512638F2837@notification-2.bybit.com>
+X-Mailgun-Variables: {"templateId":"1822", "subTemplateId":"",
+ "language":"", "to":"nigel.agwah@outlook.com",
+ "params":{"nickname":"Customer", "origin":"operation",
+ "tag":"allcryptolovers_en_210630", "type":"2", "user_id":"2481245"},
+ "PullTime":"2021-06-30T11:21:12.315Z"}
+X-Mailgun-Track-Opens: true
+X-Mailgun-Track-Clicks: true
+X-Mailgun-Tag: allcryptolovers_en_210630
+To: nigel.agwah@outlook.com
+From: Bybit <notification@notification-2.bybit.com>
+Subject: [Bybit]$75K Bonus Giveaway: Watch Our Live Event!
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-IncomingHeaderCount: 17
+Return-Path:
+ bounce+8c4ce9.34a623e-nigel.agwah=outlook.com@notification-2.bybit.com
+X-MS-Exchange-Organization-ExpirationStartTime: 30 Jun 2021 11:50:35.1614
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ f9f1a0fd-336d-4b76-d84c-08d93bbd4590
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR06FT052.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/29/2021 11:38:27 PM
+X-MS-Office365-Filtering-Correlation-Id: f9f1a0fd-336d-4b76-d84c-08d93bbd4590
+X-MS-TrafficTypeDiagnostic: VI1EUR06HT036:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 23.253.182.35
+X-SID-PRA: NOTIFICATION@NOTIFICATION-2.BYBIT.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Jun 2021 11:50:28.3773
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f9f1a0fd-336d-4b76-d84c-08d93bbd4590
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR06FT052.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1EUR06HT036
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:07.9634200
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4287.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(2008001114)(2008000189)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdfw3Jak8z28UATzGeEoXdPEswDiZNQdU/FP4/URPlDMIPUHheOQ4u37kmkmqQcIn1MT2UD2p6+UD+/01fGHW2KtDj4FuBSXkK4b0AILVvPqKqvh+GVVmLAYusCrxLFqbsxCnaBvN4AzMAZ7z0knhPxhbQJVjlbvI+lKq9WcCWObvmtnz/GKmqgpTFRLwfBMJ1SE+G6Alps1bg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?aUtJcTVZV1RQZlNFZjllUTA2SVJIdk5jZHJPN3BZVytTUmIyQzgyd1dnbGMv?=
+ =?utf-8?B?M09acTlqWU9haTZRMi9FeTZybU1HcFUwd1pjTG14WEdaUmNIdzJiZDZhN1Jz?=
+ =?utf-8?B?OW1rMmNGSnRVV2tKamEvc2RwSTNsV01aU2kvQjUvK3MwOVZaeGdWb2pPRHdB?=
+ =?utf-8?B?NXZoeEFmQVNQS3pydFhjNDBaTkJ3VVZhVC92TXIvdnU2RkFma3dZM1QyWmVY?=
+ =?utf-8?B?S3pyZEh1QmxYZFRuamExa2JvMkpaelYyKzk5R095aE93R050K0ZWOFVQYjV1?=
+ =?utf-8?B?cmpEZ01reFl5ZGdDUGFHNjgwWlYya2MwQnl4cXcyRVdmMWtlRFhCL3M5MjBK?=
+ =?utf-8?B?ZE0wMHdWaVBYMG9qUnBrNDJ3Uy8vWXU2aEVic3lhN1B4WGpKaG9idGM1YkRr?=
+ =?utf-8?B?SXV4eG9NRGR3N2JqL2daNW9VS2c0N3N1NUFHazZVWlNKZjRxSVlETk40T0J6?=
+ =?utf-8?B?T2p2YldKeVlKVXpTbjJhZC91c0V4S0F2SE1kNUNqZ1BOSml4cExaQjFRYVBY?=
+ =?utf-8?B?b1plTHZCSC8rcXpzUUpiQzY2anJxbDFRT0VnUTZlYWl2WVg0V2Q5cHZhTWRm?=
+ =?utf-8?B?cDdmeDloR1RwZk82WmRqZ3ZKOVpxZ0dTZGcvd0RRWk1BZEVKU3VVcE5aVU9m?=
+ =?utf-8?B?R2c5ZlBubGwwR3g2Z3dpSXdRdFdZa0FFeEdPUWF5c24rcXhBRXNqZi9pTTRF?=
+ =?utf-8?B?WWd2R01OSGZoVEMzb0paR21vUFR5VjMxTGxYb3BSK3VHNG5EcXZ3VzE2VXF3?=
+ =?utf-8?B?aXlOano5LzVQbTlNclBiS1VsUzNnNlBtNHhyVUpEQTdISkZBZmJQbjIwWHRz?=
+ =?utf-8?B?TW00Z285UHZseU5tMkVTVGZ0SHRCZ0xDZUZrTC8xUjhSRGlxTmdCb0hvbW5K?=
+ =?utf-8?B?N0FyVVVsSUJUWkRUM2Zwcmlxbmd6QTlKR282aUcvdnNiNVJhNnliVzZXL2Qv?=
+ =?utf-8?B?cGp1WjlLR2tFZDQ5YXdxa3I0YnJVMGF6MlJrb3pxdXJUWjJUc0pEOXBHTVMz?=
+ =?utf-8?B?NkgvUDZDNGJEak9iVVUrWnFUc3ZSKzlsMHoyU3lETmpNUHZGeXFXUzN0Wnpq?=
+ =?utf-8?B?RjUyencyR0syc3BQQlZNa0FkNmZmRnFsRkZUaHBVSEdKWDIyRTNnY3phUWZQ?=
+ =?utf-8?B?QkxUeTd3cU1vaFo2VUlod05kUGxYeUZiSkd0Nmk4Y3oyNmNLMitRai9LNkFM?=
+ =?utf-8?B?di9lQlZjU1pSd3FXVCtrakpQYkgrQXJxM3o4ejJSQkY2N0Y0YWVqeU1UeHU4?=
+ =?utf-8?B?THA4aURMUWVlblcwMFpGbU9QTHRhQ2ZORE5VaDNHWXp0NXBuQTdNdjF4MmIv?=
+ =?utf-8?B?cmtpWk9CNlg0VTJaTXdkTzNkTU1uUXhXR0dYZmxxbW8rYjNRSG82WHpSZlRD?=
+ =?utf-8?B?ek8rVE15ZUlDTVdwUjRPSFNYeHMvT0EwZjB0aElFQ3hkMERkdFJLMjEwa3hk?=
+ =?utf-8?B?M0crUkQyMnRLSjQ4WnRiYk4raGNYbThjR2xsQ0N6VXYzdElRNjl2OHJsbXJ2?=
+ =?utf-8?B?WmFTVm5KYzh2UC91Z05FaWN5NnIvZFptRUtuRVo1SWFMNFRyYy8zTXFZZ2NG?=
+ =?utf-8?Q?BJDv8W2exRreXSVx6ETKRVXKwqNs7FKwPRertTtTwhPnC8?=
+MIME-Version: 1.0
+X-TUID: ZTxy+lexYmaA
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><!-- NAME: 1 COLUMN --><!--[if gte mso 15]>        <xml>         =
+   <o:OfficeDocumentSettings>            <o:AllowPNG/>            <o:Pixels=
+PerInch>96</o:PixelsPerInch>            </o:OfficeDocumentSettings>        =
+</xml>        <![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">  =
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">        <m=
+eta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"> =
+       <title>*|MC:SUBJECT|*</title>            <style type=3D"text/css">p{=
+margin:10px 0;padding:0;}table{border-collapse:collapse;}h1,h2,h3,h4,h5,h6{=
+display:block;margin:0;padding:0;}img,a img{border:0;height:auto;outline:no=
+ne;text-decoration:none;}body,#bodyTable,#bodyCell{height:100%;margin:0;pad=
+ding:0;width:100%;}.mcnPreviewText{display:none !important;}#outlook a{padd=
+ing:0;}img{-ms-interpolation-mode:bicubic;}table{mso-table-lspace:0pt;mso-t=
+able-rspace:0pt;}.ReadMsgBody{width:100%;}.ExternalClass{width:100%;}p,a,li=
+,td,blockquote{mso-line-height-rule:exactly;}a[href^=3Dtel],a[href^=3Dsms]{=
+color:inherit;cursor:default;text-decoration:none;}p,a,li,td,body,table,blo=
+ckquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}.ExternalC=
+lass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass s=
+pan,.ExternalClass font{line-height:100%;}a[x-apple-data-detectors]{color:i=
+nherit !important;text-decoration:none !important;font-size:inherit !import=
+ant;font-family:inherit !important;font-weight:inherit !important;line-heig=
+ht:inherit !important;}#bodyCell{padding:10px;}.templateContainer{max-width=
+:600px !important;}a.mcnButton{display:block;}.mcnImage,.mcnRetinaImage{ver=
+tical-align:bottom;}.mcnTextContent{word-break:break-word;}.mcnTextContent =
+img{height:auto !important;}.mcnDividerBlock{table-layout:fixed !important;=
+}/*@tab Page@section Background Style@tip Set the background color and top =
+border for your email. You may want to choose colors that match your compan=
+y's branding.*/body,#bodyTable{/*@editable*/background-color:#FAFAFA;}/*@ta=
+b Page@section Background Style@tip Set the background color and top border=
+ for your email. You may want to choose colors that match your company's br=
+anding.*/#bodyCell{/*@editable*/border-top:0;}/*@tab Page@section Email Bor=
+der@tip Set the border for your email.*/.templateContainer{/*@editable*/bor=
+der:0;}/*@tab Page@section Heading 1@tip Set the styling for all first-leve=
+l headings in your emails. These should be the largest of your headings.@st=
+yle heading 1*/h1{/*@editable*/color:#202020;/*@editable*/font-family:Helve=
+tica;/*@editable*/font-size:26px;/*@editable*/font-style:normal;/*@editable=
+*/font-weight:bold;/*@editable*/line-height:125%;/*@editable*/letter-spacin=
+g:normal;/*@editable*/text-align:left;}/*@tab Page@section Heading 2@tip Se=
+t the styling for all second-level headings in your emails.@style heading 2=
+*/h2{/*@editable*/color:#202020;/*@editable*/font-family:Helvetica;/*@edita=
+ble*/font-size:22px;/*@editable*/font-style:normal;/*@editable*/font-weight=
+:bold;/*@editable*/line-height:125%;/*@editable*/letter-spacing:normal;/*@e=
+ditable*/text-align:left;}/*@tab Page@section Heading 3@tip Set the styling=
+ for all third-level headings in your emails.@style heading 3*/h3{/*@editab=
+le*/color:#202020;/*@editable*/font-family:Helvetica;/*@editable*/font-size=
+:20px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@edita=
+ble*/line-height:125%;/*@editable*/letter-spacing:normal;/*@editable*/text-=
+align:left;}/*@tab Page@section Heading 4@tip Set the styling for all fourt=
+h-level headings in your emails. These should be the smallest of your headi=
+ngs.@style heading 4*/h4{/*@editable*/color:#202020;/*@editable*/font-famil=
+y:Helvetica;/*@editable*/font-size:18px;/*@editable*/font-style:normal;/*@e=
+ditable*/font-weight:bold;/*@editable*/line-height:125%;/*@editable*/letter=
+-spacing:normal;/*@editable*/text-align:left;}/*@tab Preheader@section Preh=
+eader Style@tip Set the background color and borders for your email's prehe=
+ader area.*/#templatePreheader{/*@editable*/background-color:#ffffff;/*@edi=
+table*/background-image:none;/*@editable*/background-repeat:no-repeat;/*@ed=
+itable*/background-position:center;/*@editable*/background-size:cover;/*@ed=
+itable*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-top:=
+9px;/*@editable*/padding-bottom:9px;}/*@tab Preheader@section Preheader Tex=
+t@tip Set the styling for your email's preheader text. Choose a size and co=
+lor that is easy to read.*/#templatePreheader .mcnTextContent,#templatePreh=
+eader .mcnTextContent p{/*@editable*/color:#656565;/*@editable*/font-family=
+:Helvetica;/*@editable*/font-size:12px;/*@editable*/line-height:150%;/*@edi=
+table*/text-align:left;}/*@tab Preheader@section Preheader Link@tip Set the=
+ styling for your email's preheader links. Choose a color that helps them s=
+tand out from your text.*/#templatePreheader .mcnTextContent a,#templatePre=
+header .mcnTextContent p a{/*@editable*/color:#656565;/*@editable*/font-wei=
+ght:normal;/*@editable*/text-decoration:underline;}/*@tab Header@section He=
+ader Style@tip Set the background color and borders for your email's header=
+ area.*/#templateHeader{/*@editable*/background-color:#FFFFFF;/*@editable*/=
+background-image:none;/*@editable*/background-repeat:no-repeat;/*@editable*=
+/background-position:center;/*@editable*/background-size:cover;/*@editable*=
+/border-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-top:9px;/*@=
+editable*/padding-bottom:0;}/*@tab Header@section Header Text@tip Set the s=
+tyling for your email's header text. Choose a size and color that is easy t=
+o read.*/#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{=
+/*@editable*/color:#202020;/*@editable*/font-family:Helvetica;/*@editable*/=
+font-size:16px;/*@editable*/line-height:150%;/*@editable*/text-align:left;}=
+/*@tab Header@section Header Link@tip Set the styling for your email's head=
+er links. Choose a color that helps them stand out from your text.*/#templa=
+teHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{/*@editable*=
+/color:#007C89;/*@editable*/font-weight:normal;/*@editable*/text-decoration=
+:underline;}/*@tab Body@section Body Style@tip Set the background color and=
+ borders for your email's body area.*/#templateBody{/*@editable*/background=
+-color:#FFFFFF;/*@editable*/background-image:none;/*@editable*/background-r=
+epeat:no-repeat;/*@editable*/background-position:center;/*@editable*/backgr=
+ound-size:cover;/*@editable*/border-top:0;/*@editable*/border-bottom:2px so=
+lid #EAEAEA;/*@editable*/padding-top:0;/*@editable*/padding-bottom:9px;}/*@=
+tab Body@section Body Text@tip Set the styling for your email's body text. =
+Choose a size and color that is easy to read.*/#templateBody .mcnTextConten=
+t,#templateBody .mcnTextContent p{/*@editable*/color:#202020;/*@editable*/f=
+ont-family:Helvetica;/*@editable*/font-size:16px;/*@editable*/line-height:1=
+50%;/*@editable*/text-align:left;}/*@tab Body@section Body Link@tip Set the=
+ styling for your email's body links. Choose a color that helps them stand =
+out from your text.*/#templateBody .mcnTextContent a,#templateBody .mcnText=
+Content p a{/*@editable*/color:#007C89;/*@editable*/font-weight:normal;/*@e=
+ditable*/text-decoration:underline;}/*@tab Footer@section Footer Style@tip =
+Set the background color and borders for your email's footer area.*/#templa=
+teFooter{/*@editable*/background-color:#FAFAFA;/*@editable*/background-imag=
+e:none;/*@editable*/background-repeat:no-repeat;/*@editable*/background-pos=
+ition:center;/*@editable*/background-size:cover;/*@editable*/border-top:0;/=
+*@editable*/border-bottom:0;/*@editable*/padding-top:9px;/*@editable*/paddi=
+ng-bottom:9px;}/*@tab Footer@section Footer Text@tip Set the styling for yo=
+ur email's footer text. Choose a size and color that is easy to read.*/#tem=
+plateFooter .mcnTextContent,#templateFooter .mcnTextContent p{/*@editable*/=
+color:#656565;/*@editable*/font-family:Helvetica;/*@editable*/font-size:12p=
+x;/*@editable*/line-height:150%;/*@editable*/text-align:center;}/*@tab Foot=
+er@section Footer Link@tip Set the styling for your email's footer links. C=
+hoose a color that helps them stand out from your text.*/#templateFooter .m=
+cnTextContent a,#templateFooter .mcnTextContent p a{/*@editable*/color:#656=
+565;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underline;=
+}@media only screen and (min-width:768px){.templateContainer{width:600px !i=
+mportant;}}@media only screen and (max-width: 480px){body,table,td,p,a,li,b=
+lockquote{-webkit-text-size-adjust:none !important;}}@media only screen and=
+ (max-width: 480px){body{width:100% !important;min-width:100% !important;}}=
+@media only screen and (max-width: 480px){.mcnRetinaImage{max-width:100% !i=
+mportant;}}@media only screen and (max-width: 480px){.mcnImage{width:100% !=
+important;}}@media only screen and (max-width: 480px){.mcnCartContainer,.mc=
+nCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTex=
+tContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContai=
+ner,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContaine=
+r,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContaine=
+r,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContai=
+ner,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentCo=
+ntainer{max-width:100% !important;width:100% !important;}}@media only scree=
+n and (max-width: 480px){.mcnBoxedTextContentContainer{min-width:100% !impo=
+rtant;}}@media only screen and (max-width: 480px){.mcnImageGroupContent{pad=
+ding:9px !important;}}@media only screen and (max-width: 480px){.mcnCaption=
+LeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextConte=
+nt{padding-top:9px !important;}}@media only screen and (max-width: 480px){.=
+mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaption=
+BottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .=
+mcnTextContent{padding-top:18px !important;}}@media only screen and (max-wi=
+dth: 480px){.mcnImageCardBottomImageContent{padding-bottom:9px !important;}=
+}@media only screen and (max-width: 480px){.mcnImageGroupBlockInner{padding=
+-top:0 !important;padding-bottom:0 !important;}}@media only screen and (max=
+-width: 480px){.mcnImageGroupBlockOuter{padding-top:9px !important;padding-=
+bottom:9px !important;}}@media only screen and (max-width: 480px){.mcnTextC=
+ontent,.mcnBoxedTextContentColumn{padding-right:18px !important;padding-lef=
+t:18px !important;}}@media only screen and (max-width: 480px){.mcnImageCard=
+LeftImageContent,.mcnImageCardRightImageContent{padding-right:18px !importa=
+nt;padding-bottom:0 !important;padding-left:18px !important;}}@media only s=
+creen and (max-width: 480px){.mcpreview-image-uploader{display:none !import=
+ant;width:100% !important;}}@media only screen and (max-width: 480px){/*@ta=
+b Mobile Styles@section Heading 1@tip Make the first-level headings larger =
+in size for better readability on small screens.*/h1{/*@editable*/font-size=
+:22px !important;/*@editable*/line-height:125% !important;}}@media only scr=
+een and (max-width: 480px){/*@tab Mobile Styles@section Heading 2@tip Make =
+the second-level headings larger in size for better readability on small sc=
+reens.*/h2{/*@editable*/font-size:20px !important;/*@editable*/line-height:=
+125% !important;}}@media only screen and (max-width: 480px){/*@tab Mobile S=
+tyles@section Heading 3@tip Make the third-level headings larger in size fo=
+r better readability on small screens.*/h3{/*@editable*/font-size:18px !imp=
+ortant;/*@editable*/line-height:125% !important;}}@media only screen and (m=
+ax-width: 480px){/*@tab Mobile Styles@section Heading 4@tip Make the fourth=
+-level headings larger in size for better readability on small screens.*/h4=
+{/*@editable*/font-size:16px !important;/*@editable*/line-height:150% !impo=
+rtant;}}@media only screen and (max-width: 480px){/*@tab Mobile Styles@sect=
+ion Boxed Text@tip Make the boxed text larger in size for better readabilit=
+y on small screens. We recommend a font size of at least 16px.*/.mcnBoxedTe=
+xtContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextCo=
+ntent p{/*@editable*/font-size:14px !important;/*@editable*/line-height:150=
+% !important;}}@media only screen and (max-width: 480px){/*@tab Mobile Styl=
+es@section Preheader Visibility@tip Set the visibility of the email's prehe=
+ader on small screens. You can hide it to save space.*/#templatePreheader{/=
+*@editable*/display:block !important;}}@media only screen and (max-width: 4=
+80px){/*@tab Mobile Styles@section Preheader Text@tip Make the preheader te=
+xt larger in size for better readability on small screens.*/#templatePrehea=
+der .mcnTextContent,#templatePreheader .mcnTextContent p{/*@editable*/font-=
+size:14px !important;/*@editable*/line-height:150% !important;}}@media only=
+ screen and (max-width: 480px){/*@tab Mobile Styles@section Header Text@tip=
+ Make the header text larger in size for better readability on small screen=
+s.*/#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{/*@ed=
+itable*/font-size:16px !important;/*@editable*/line-height:150% !important;=
+}}@media only screen and (max-width: 480px){/*@tab Mobile Styles@section Bo=
+dy Text@tip Make the body text larger in size for better readability on sma=
+ll screens. We recommend a font size of at least 16px.*/#templateBody .mcnT=
+extContent,#templateBody .mcnTextContent p{/*@editable*/font-size:16px !imp=
+ortant;/*@editable*/line-height:150% !important;}}@media only screen and (m=
+ax-width: 480px){/*@tab Mobile Styles@section Footer Text@tip Make the foot=
+er content text larger in size for better readability on small screens.*/#t=
+emplateFooter .mcnTextContent,#templateFooter .mcnTextContent p{/*@editable=
+*/font-size:14px !important;/*@editable*/line-height:150% !important;}}</st=
+yle></head>    <body>        <center>            <table align=3D"center" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" width=3D"100=
+%" id=3D"bodyTable">                <tr>                    <td align=3D"ce=
+nter" valign=3D"top" id=3D"bodyCell">                        <!-- BEGIN TEM=
+PLATE // -->                        <!--[if (gte mso 9)|(IE)]>             =
+           <table align=3D'center' border=3D'0' cellspacing=3D'0' cellpaddi=
+ng=3D'0' width=3D'600' style=3D'width:600px;'>                        <tr> =
+                       <td align=3D'center' valign=3D'top' width=3D'600' st=
+yle=3D'width:600px;'>                        <![endif]-->                  =
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" class=3D"templateContainer">                            <tr>             =
+                   <td valign=3D"top" id=3D"templatePreheader"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImag=
+eBlock" style=3D"min-width:100%;">    <tbody class=3D"mcnImageBlockOuter"> =
+           <tr>                <td valign=3D"top" style=3D"padding:9px" cla=
+ss=3D"mcnImageBlockInner">                    <table align=3D"left" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnImag=
+eContentContainer" style=3D"min-width:100%;">                        <tbody=
+><tr>                            <td class=3D"mcnImageContent" valign=3D"to=
+p" style=3D"padding-right: 9px; padding-left: 9px; padding-top: 0; padding-=
+bottom: 0; text-align:center;">                                            =
+                                                                <img align=
+=3D"center" alt=3D"" src=3D"https://mcusercontent.com/8555c4aa0e397b4f3eba7=
+b190/images/451ae984-9d1a-6a40-7361-28d727ebd49c.png" width=3D"129.72" styl=
+e=3D"max-width:830px; padding-bottom: 0; display: inline !important; vertic=
+al-align: bottom;" class=3D"mcnImage">                                     =
+                                                           </td>           =
+             </tr>                    </tbody></table>                </td>=
+            </tr>    </tbody></table></td>                            </tr>=
+                            <tr>                                <td valign=
+=3D"top" id=3D"templateHeader"></td>                            </tr>      =
+                      <tr>                                <td valign=3D"top=
+" id=3D"templateBody"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" class=3D"mcnImageBlock" style=3D"min-width:100%;">    <tb=
+ody class=3D"mcnImageBlockOuter">            <tr>                <td valign=
+=3D"top" style=3D"padding:9px" class=3D"mcnImageBlockInner">               =
+     <table align=3D"left" width=3D"100%" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"mcnImageContentContainer" style=3D"min-width:100%;=
+">                        <tbody><tr>                            <td class=
+=3D"mcnImageContent" valign=3D"top" style=3D"padding-right: 9px; padding-le=
+ft: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">           =
+                                                         <a href=3D"http://=
+email.notification-2.bybit.com/c/eJx9kk9vozAQxT8NXFYgPAYMBw7dVpH21kNOe4kGGI=
+hV_0HGNMq375AcqFa7K9mW-b0n3szIYydLrEFSatDNG87UpbqDAkRRy0KIincu8la9VG0loJbNC=
+RqpkrJwPupJDxi1dxnk_b3XMR-8Ta9dI4Vs1CBKVFM5FVNZjbJVbSnqnpRs-_R9M-asLT2CsqLO=
+ZHEWIpEvsB8Ccimq3-m69Weyi8FIv8YuNd01xoX1BE68brdbTp_kYh90pJxWZsT7UUg2BW-zGHC=
+ksGbRZ2hMNoT7wlfjP3cYaNYrOx71i7qooG7btlIqkSdLo95sIt_IojYJ1KvfwkAM_MQ9a9zZcE=
+XnyDAcvIuXnaBdUM-OEec9455pu8gmrvav2hgXPbIiaqgK2YhGStWm0XdOz2RynG945ZH7LRrvP=
+x5TDv_RFgxo1y5RPxMAH_SsHV94cj_274WeTe8IXncU7wsdBvgm4HzwP8q-kLs8X8nhd3r4cGi_=
+_ex1W6O3FA7PtlK4cLdHXtkIKKsdqLc0dv_MSePxGkQD8AXjidiW" title=3D"" class=3D""=
+ target=3D"_blank">                                        <img align=3D"ce=
+nter" alt=3D"" src=3D"https://mcusercontent.com/8555c4aa0e397b4f3eba7b190/i=
+mages/dfd1f3c2-4877-9e81-749c-be0af1b580e0.jpg" width=3D"564" style=3D"max-=
+width:2560px; padding-bottom: 0; display: inline !important; vertical-align=
+: bottom;" class=3D"mcnImage">                                    </a>     =
+                                                       </td>               =
+         </tr>                    </tbody></table>                </td>    =
+        </tr>    </tbody></table><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"min-width:100%=
+;">    <tbody class=3D"mcnTextBlockOuter">        <tr>            <td valig=
+n=3D"top" class=3D"mcnTextBlockInner" style=3D"padding-top:9px;">          =
+    <!--[if mso]><table align=3D'left' border=3D'0' cellspacing=3D'0' cellp=
+adding=3D'0' width=3D'100%' style=3D'width:100%;'><tr><![endif]-->    <!--[=
+if mso]><td valign=3D'top' width=3D'600' style=3D'width:600px;'><![endif]--=
+>                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">                    <tbody><tr>               =
+                                 <td valign=3D"top" class=3D"mcnTextContent=
+" style=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-l=
+eft:18px;">                                                    <header><div=
+ style=3D"text-align: center;">Join us at =E2=80=9CBybit: From Traders to A=
+ll Crypto Lovers=E2=80=9D =E2=80=94 our very own live event happening at 12=
+PM UTC on <strong>July 1, 2021</strong>!<br><br>Our CEO, Ben Zhou, will tak=
+e you on a journey to review Bybit's key moments as well as introduce our n=
+ew products and services. We will also be giving out $75,000 in bonuses. Tu=
+ne in to catch the updates!<br>&nbsp;</div></header>                       =
+ </td>                    </tr>                </tbody></table><!--[if mso]=
+></td><![endif]-->                <!--[if mso]></tr></table><![endif]-->   =
+         </td>        </tr>    </tbody></table><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnButtonBlock" style=
+=3D"min-width:100%;">    <tbody class=3D"mcnButtonBlockOuter">        <tr> =
+           <td style=3D"padding-top:0; padding-right:18px; padding-bottom:1=
+8px; padding-left:18px;" valign=3D"top" align=3D"center" class=3D"mcnButton=
+BlockInner">                <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"mcnButtonContentContainer" style=3D"border-collapse: sepa=
+rate !important;border-radius: 11px;background-color: #FBB11A;">           =
+         <tbody>                        <tr>                            <td=
+ align=3D"center" valign=3D"middle" class=3D"mcnButtonContent" style=3D"fon=
+t-family: Arial; font-size: 16px; padding: 18px;">                         =
+       <a class=3D"mcnButton " title=3D"Join Now" href=3D"http://email.noti=
+fication-2.bybit.com/c/eJx9kk9vozAQxT8NXFYgexzbcODQbRVpbz3ktJdogAmx6j_ImEb5=
+9jXJgWq1u5Jtmd974s2MPHbigAoElRb9tOJEXWk6YMCZEoxzmXfN61a_yFZyUKI5QiN0cWA-JHM=
+xAyYTfAV1f-9Nqofgyms38J71LRMk5KXBQQgptdL9RbcNCQ59-b5aezKOHkEVU5VgJ84L8QLbwa=
+EWXP4ul7U_kZstJvo1dqXtrinNWS_gmNftdqvpk3zqo0lU05IZ5f0opLrE4KoUcaS4VClUaG01x=
+PucrzZ8bjDSZJbseNTPFZOg2raVWhfi6Gg0qyvEGzk0tgC1hDUOlEG45J4Nbmy4ovdkMxyCT-eN=
+oJvRTD6jnPeMe6ZtYjblav-qjWk2Y1a4AsmE1lI2QpUpdN5MZGucbnjNIw9rsiF8PKYc_6PNGNE=
+tXaF_FgAhmsn4fMmT-7F9z_RsekPwuqF0n2k3wDcBp53_UfaZ_Pn5Sna_N8OHR_ftZ6_rkoKjuH=
+vWheI5d7vnHRoOB7kB_Vam7p85ZdpfA28AvgCm3Njo" target=3D"_blank" style=3D"font=
+-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;t=
+ext-decoration: none;color: #020202;">Join Now</a>                         =
+   </td>                        </tr>                    </tbody>          =
+      </table>            </td>        </tr>    </tbody></table></td>      =
+                      </tr>                            <tr>                =
+                <td valign=3D"top" id=3D"templateFooter"><table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnDividerBlo=
+ck" style=3D"min-width:100%;">    <tbody class=3D"mcnDividerBlockOuter">   =
+     <tr>            <td class=3D"mcnDividerBlockInner" style=3D"min-width:=
+100%; padding:18px;">                <table class=3D"mcnDividerContent" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-w=
+idth: 100%;border-top: 2px solid #505050;">                    <tbody><tr> =
+                       <td>                            <span></span>       =
+                 </td>                    </tr>                </tbody></ta=
+ble><!--                            <td class=3D'mcnDividerBlockInner' styl=
+e=3D'padding: 18px;'>                <hr class=3D'mcnDividerContent' style=
+=3D'border-bottom-color:none; border-left-color:none; border-right-color:no=
+ne; border-bottom-width:0; border-left-width:0; border-right-width:0; margi=
+n-top:0; margin-right:0; margin-bottom:0; margin-left:0;' />-->            =
+</td>        </tr>    </tbody></table><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" class=3D"mcnFollowBlock" style=3D"min-wid=
+th:100%;">    <tbody class=3D"mcnFollowBlockOuter">        <tr>            =
+<td align=3D"center" valign=3D"top" style=3D"padding:9px" class=3D"mcnFollo=
+wBlockInner">                <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" class=3D"mcnFollowContentContainer" style=3D"min-w=
+idth:100%;">    <tbody><tr>        <td align=3D"center" style=3D"padding-le=
+ft:9px;padding-right:9px;">            <table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;background-colo=
+r: #191A20;" class=3D"mcnFollowContent">                <tbody><tr>        =
+            <td align=3D"center" valign=3D"top" style=3D"padding-top:9px; p=
+adding-right:9px; padding-left:9px;">                        <table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">              =
+              <tbody><tr>                                <td align=3D"cente=
+r" valign=3D"top">                                    <!--[if mso]>        =
+                            <table align=3D'center' border=3D'0' cellspacin=
+g=3D'0' cellpadding=3D'0'>                                    <tr>         =
+                           <![endif]-->                                    =
+                                        <!--[if mso]>                      =
+                  <td align=3D'center' valign=3D'top'>                     =
+                   <![endif]-->                                            =
+                                                                           =
+     <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"display:inline;">                                                =
+<tbody><tr>                                                    <td valign=
+=3D"top" style=3D"padding-right:10px; padding-bottom:9px;" class=3D"mcnFoll=
+owContentItemContainer">                                                   =
+     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ class=3D"mcnFollowContentItem">                                           =
+                 <tbody><tr>                                               =
+                 <td align=3D"left" valign=3D"middle" style=3D"padding-top:=
+5px; padding-right:10px; padding-bottom:5px; padding-left:9px;">           =
+                                                         <table align=3D"le=
+ft" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"">           =
+                                                             <tbody><tr>   =
+                                                                           =
+                                                                           =
+   <td align=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFollowIc=
+onContent">                                                                =
+                    <a href=3D"http://email.notification-2.bybit.com/c/eJx9=
+kblu4zAURb9GbAYWuGgtWGSBgXRTuJrGeKKeZMLcIFEj-O-HTAIoRTIASZDnXryNoxQVNFwgMeD=
+mDWaUREtOOaONoIzVaZes7Nunuq8Zb0R35p1oi4o6H_WkFUTt3YmXw2PQsVTekpts6dALrFWtxr=
+Gl0zCOE51EO2DFklAr8nsz5qItvic60eYk6IWxQjzxfDBeClb_Ies2XNAGAxHfRkmMvMUYkl7wc=
+1r7vpcTKBy8v-e8CT3nGrIqzhZHvdlCvKIFbQrerH5bFCbgp1S1hszUDZxDk6DyLl4zARtAzy6h=
+HU2KigHUPU0la8mDLn4njTHoMQmsob0QddvRqhckeun0jKaEeYdbGpnfovmsliz_0QIsYFdZtM8=
+F537Rs3bpkjr_ld8Bl_ehZ8RfMoqPgIeBfxFgPjgYo5ZHiN74v7isV3TXj18-_E6ruwP7JdjLts=
+bU6nJ4thWXa-r2yFd1jFd1Bu0rifLHPCQev8k6zv8BZBTCOQ" target=3D"_blank"><img sr=
+c=3D"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-f=
+acebook-48.png" alt=3D"http://www.facebook.com/Bybit/?medium=3Demail&amp;so=
+urce=3Dofficial&amp;channel=3Dcont_&amp;campaign=3Dwelcomepackage&amp;conte=
+nt=3Dwelcomepackage&amp;dtpid=3D1609335780493" style=3D"display:block;" hei=
+ght=3D"24" width=3D"24" class=3D""></a>                                    =
+                                            </td>                          =
+                                                                           =
+                                                                           =
+                                                </tr>                      =
+                                              </tbody></table>             =
+                                                   </td>                   =
+                                         </tr>                             =
+                           </tbody></table>                                =
+                    </td>                                                </=
+tr>                                            </tbody></table>            =
+                                                                    <!--[if=
+ mso]>                                        </td>                        =
+                <![endif]-->                                               =
+                             <!--[if mso]>                                 =
+       <td align=3D'center' valign=3D'top'>                                =
+        <![endif]-->                                                       =
+                                                                     <table=
+ align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"d=
+isplay:inline;">                                                <tbody><tr>=
+                                                    <td valign=3D"top" styl=
+e=3D"padding-right:10px; padding-bottom:9px;" class=3D"mcnFollowContentItem=
+Container">                                                        <table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcn=
+FollowContentItem">                                                        =
+    <tbody><tr>                                                            =
+    <td align=3D"left" valign=3D"middle" style=3D"padding-top:5px; padding-=
+right:10px; padding-bottom:5px; padding-left:9px;">                        =
+                                            <table align=3D"left" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"">                        =
+                                                <tbody><tr>                =
+                                                                           =
+                                                                 <td align=
+=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFollowIconContent"> =
+                                                                           =
+        <a href=3D"http://email.notification-2.bybit.com/c/eJx9UcGOmzAQ_Rq4=
+rILwGAwcfNjdKFJP7SGnXtAAE2LF2MgMjfL3Nakq9rC7km153nua53ketCxQgaTUohtXHEmnRkM=
+OIlcyF6KMOxNZU72WTSlAyfoEtaySIneezcX0yMa7A2TdozOc9X5KrxpEI6tmABga2SgaVFEP2F=
+WXulKSuq5Lf63Wns1ET6NDrg4yPwuRyFfYDgGZFOXvdFm7M02zRaYfg06tvjLPkU_gFBffDTOFz=
+TJWb5t9-_MSX2TQJvI00WDWKZFHmtDYBNTi19BTBPx_Eaj-is5RlB9777jdEJxmNKOL0J1s7E0z=
+9rcYy8ZFDTn-jBp4NkMkhMobKcuqEJWsU_bamZFshuMdrzEzv7L1_vaMKXzDzRhwWnRSvSUAPpj=
+RuHiJo79s9UzhmfoGwfsG8WOmXQAfCBx3HK3tw2Nmb_0fCktLrv33zbvemf7mcPrQ7H1dOI4ads=
+26UGjjtLtfUQsoyg2ojinrL31S3r9T1AB_ARyxwrQ" target=3D"_blank"><img src=3D"ht=
+tps://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-=
+48.png" alt=3D"http://twitter.com/Bybit_Official?medium=3Demail&amp;source=
+=3Dofficial&amp;channel=3Dcont_&amp;campaign=3Dwelcomepackage&amp;content=
+=3Dwelcomepackage&amp;dtpid=3D1609335741738" style=3D"display:block;" heigh=
+t=3D"24" width=3D"24" class=3D""></a>                                      =
+                                          </td>                            =
+                                                                           =
+                                                                           =
+                                              </tr>                        =
+                                            </tbody></table>               =
+                                                 </td>                     =
+                                       </tr>                               =
+                         </tbody></table>                                  =
+                  </td>                                                </tr=
+>                                            </tbody></table>              =
+                                                                  <!--[if m=
+so]>                                        </td>                          =
+              <![endif]-->                                                 =
+                           <!--[if mso]>                                   =
+     <td align=3D'center' valign=3D'top'>                                  =
+      <![endif]-->                                                         =
+                                                                   <table a=
+lign=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"dis=
+play:inline;">                                                <tbody><tr>  =
+                                                  <td valign=3D"top" style=
+=3D"padding-right:10px; padding-bottom:9px;" class=3D"mcnFollowContentItemC=
+ontainer">                                                        <table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnF=
+ollowContentItem">                                                         =
+   <tbody><tr>                                                             =
+   <td align=3D"left" valign=3D"middle" style=3D"padding-top:5px; padding-r=
+ight:10px; padding-bottom:5px; padding-left:9px;">                         =
+                                           <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"">                         =
+                                               <tbody><tr>                 =
+                                                                           =
+                                                                <td align=
+=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFollowIconContent"> =
+                                                                           =
+        <a href=3D"http://email.notification-2.bybit.com/c/eJx9UU2PozAM_TVw=
+WRUlDqFwyGF2qkp720NPe0EuGBo1HwjCjvrv13SkYQ4zKyVR_N6T7Wf3RpVYgaLcYRhXHMnk1oA=
+AKSolpNR8C1k0xxfdaAmVqs9Qq2NWihCTHWyHycZwgOL6uNpUdNHnN9PVqu91I1BUCKIZhl4OGr=
+EqiZQoryL_vTp3sZ6ehQ6iOihxkTJTL7A9Egol9Z98Wa8X8pPDRL96kztzS2liPoMzHxuWhOOMf=
+ivK8bOBNg7ck0WXqbOn3q4-UyfyaF0G1RLXuSMGPkRQdTcMgVh-6mJI7Yagn9COgaE3cpybJuzu=
+PJiNYw2F9BXVp8n2TMhKNErpWmulIE_RBDuSK3B8wxtPLa7JxXh_Dmr-DzchO1tMdvyZAcTZjjb=
+wh83_2OKJ5ufcNwheNyg9JtoF8InAccfRuW5-TCm6-JfmpaXQvi961wfb3QP6T8le1yWx1XnXrA=
+vNLbvd65W1hFJvwPGUJ_NtnTztC5U1wD-vcMPd" target=3D"_blank"><img src=3D"https=
+://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-instagram-4=
+8.png" alt=3D"http://instagram.com/bybit_official?medium=3Demail&amp;source=
+=3Dofficial&amp;channel=3Dcont_&amp;campaign=3Dwelcomepackage&amp;content=
+=3Dwelcomepackage&amp;dtpid=3D1609335855332" style=3D"display:block;" heigh=
+t=3D"24" width=3D"24" class=3D""></a>                                      =
+                                          </td>                            =
+                                                                           =
+                                                                           =
+                                              </tr>                        =
+                                            </tbody></table>               =
+                                                 </td>                     =
+                                       </tr>                               =
+                         </tbody></table>                                  =
+                  </td>                                                </tr=
+>                                            </tbody></table>              =
+                                                                  <!--[if m=
+so]>                                        </td>                          =
+              <![endif]-->                                                 =
+                           <!--[if mso]>                                   =
+     <td align=3D'center' valign=3D'top'>                                  =
+      <![endif]-->                                                         =
+                                                                   <table a=
+lign=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"dis=
+play:inline;">                                                <tbody><tr>  =
+                                                  <td valign=3D"top" style=
+=3D"padding-right:10px; padding-bottom:9px;" class=3D"mcnFollowContentItemC=
+ontainer">                                                        <table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnF=
+ollowContentItem">                                                         =
+   <tbody><tr>                                                             =
+   <td align=3D"left" valign=3D"middle" style=3D"padding-top:5px; padding-r=
+ight:10px; padding-bottom:5px; padding-left:9px;">                         =
+                                           <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"">                         =
+                                               <tbody><tr>                 =
+                                                                           =
+                                                                <td align=
+=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFollowIconContent"> =
+                                                                           =
+        <a href=3D"http://email.notification-2.bybit.com/c/eJx9kT2PpDAMhn8N=
+aU6D8sFnQbG3q5Guu2KqbUaGGCaakKAQjpt_f85swRa7J4EVnveNjW3dqQIqqZBZcNMGE3bMdJJ=
+LwSvFhSjpzUXe1i9lWwpZqeYsG1VnBXc-mtEMEI13J5n3j97EfPAzu3XYiJHrttCi71GPBeoaSo=
+oNFhrqkbPfm7UXM-Oz0IlXJ8UvQmTqRaYgZK5E-c7Wrb_gvFiI-Et3zHa3GBfSM3mmZ9_33Bp3R=
+21cqkuI4gLuQafn3-Df4UZNYfKr80zGbc7UG85gbCar1W9hQAJ-pD4MJJYuOLQEB-_iNRGgnGZy=
+hHa0VAEXGO6QslbJgy5-Jem4GE2CqHirVNlwoeqWRd85M6HNYdrhRkP0W7Te359zC__RFggwr11=
+W_8yk9MFMxtGBZvEjfS8YnmtISL4mFB8LHgb5SYDp4GDtEB5L9Nb_wbBe0V0_9n74nRnuDuZPyV=
+63NVKr4fBsK4YrdXvUKxohizKB-o3F7ts6LB77FY2U_wCN2cmn" target=3D"_blank"><img =
+src=3D"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light=
+-linkedin-48.png" alt=3D"http://www.linkedin.com/company/bybitexchange/?med=
+ium=3Demail&amp;source=3Dofficial&amp;channel=3Dcont_&amp;campaign=3Dwelcom=
+epackage&amp;content=3Dwelcomepackage&amp;dtpid=3D1609335801379" style=3D"d=
+isplay:block;" height=3D"24" width=3D"24" class=3D""></a>                  =
+                                                              </td>        =
+                                                                           =
+                                                                           =
+                                                                  </tr>    =
+                                                                </tbody></t=
+able>                                                                </td> =
+                                                           </tr>           =
+                                             </tbody></table>              =
+                                      </td>                                =
+                </tr>                                            </tbody></=
+table>                                                                     =
+           <!--[if mso]>                                        </td>      =
+                                  <![endif]-->                             =
+                                               <!--[if mso]>               =
+                         <td align=3D'center' valign=3D'top'>              =
+                          <![endif]-->                                     =
+                                                                           =
+            <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"display:inline;">                                         =
+       <tbody><tr>                                                    <td v=
+align=3D"top" style=3D"padding-right:0; padding-bottom:9px;" class=3D"mcnFo=
+llowContentItemContainer">                                                 =
+       <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" class=3D"mcnFollowContentItem">                                         =
+                   <tbody><tr>                                             =
+                   <td align=3D"left" valign=3D"middle" style=3D"padding-to=
+p:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;">         =
+                                                           <table align=3D"=
+left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"">         =
+                                                               <tbody><tr> =
+                                                                           =
+                                                                           =
+     <td align=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFollow=
+IconContent">                                                              =
+                      <a href=3D"http://email.notification-2.bybit.com/c/eJ=
+x9kT1v6yAUhn-NvVzFgoONnYGhH4p0tw6ZukTH-NRBwWDZcK38-0I6uEN7JUDwvK_OF4MSNUoQV=
+Fp0Y8SRVGkUMOBMCsZ5k3bFq2P71BwbDlJ0J-hEW9TM-WA-jMZgvDtA1d97Eyrtp_KqeM2PjKBr=
+GYmGWCNlJ_taCOLQDIOm8i1aezYTPRIdmDwIdua8EE-QDw6V4M17ucb-TNNsMdDfQZVWXUOYk17=
+AKa1t26q7jyH2lNMm8pxLKMRposHEqRCvNKGxBcjVx0VTAv4jVWwwM31F58gmqL0Ll0xwmtGMLq=
+GNbApJM-pbmkjWkodc-EkawmyGJHDJjkI0XScZtGXwypmRbIXjhtc0rlSp9f72mNDyH23GBadVF=
+e1zAeAXMxqXLqnrP_k90_IYeEbwklG4z7Qb4JuA487RWr3c5-Ct_0fLeiF3-frh3e-MvjmcvgV7=
+iWtIrS67J660XFK3e76641A3GbSvZVC_5inD_pO8A_gEWuTAHQ" target=3D"_blank"><img =
+src=3D"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light=
+-youtube-48.png" alt=3D"http://www.youtube.com/Bybit?medium=3Demail&amp;sou=
+rce=3Dofficial&amp;channel=3Dcont_&amp;campaign=3Dwelcomepackage&amp;conten=
+t=3Dwelcomepackage&amp;dtpid=3D1609335886027" style=3D"display:block;" heig=
+ht=3D"24" width=3D"24" class=3D""></a>                                     =
+                                           </td>                           =
+                                                                           =
+                                                                           =
+                                               </tr>                       =
+                                             </tbody></table>              =
+                                                  </td>                    =
+                                        </tr>                              =
+                          </tbody></table>                                 =
+                   </td>                                                </t=
+r>                                            </tbody></table>             =
+                                                                   <!--[if =
+mso]>                                        </td>                         =
+               <![endif]-->                                                =
+                        <!--[if mso]>                                    </=
+tr>                                    </table>                            =
+        <![endif]-->                                </td>                  =
+          </tr>                        </tbody></table>                    =
+</td>                </tr>            </tbody></table>        </td>    </tr=
+></tbody></table>            </td>        </tr>    </tbody></table><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcn=
+BoxedTextBlock" style=3D"min-width:100%;">    <!--[if gte mso 9]><table ali=
+gn=3D'center' border=3D'0' cellspacing=3D'0' cellpadding=3D'0' width=3D'100=
+%'><![endif]--><tbody class=3D"mcnBoxedTextBlockOuter">        <tr>        =
+    <td valign=3D"top" class=3D"mcnBoxedTextBlockInner">                <!-=
+-[if gte mso 9]><td align=3D'center' valign=3D'top' '><![endif]-->         =
+       <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" style=3D"min-width:100%;" class=3D"mcnBoxedTextContentCon=
+tainer">                    <tbody><tr>                                    =
+            <td style=3D"padding-top:9px; padding-left:18px; padding-bottom=
+:9px; padding-right:18px;">                                                =
+    <table border=3D"0" cellspacing=3D"0" class=3D"mcnTextContentContainer"=
+ width=3D"100%" style=3D"min-width: 100% !important;background-color: #0808=
+08;">                                <tbody><tr>                           =
+         <td valign=3D"top" class=3D"mcnTextContent" style=3D"padding: 18px=
+;color: #FCFAFA;font-family: Helvetica;font-size: 14px;font-style: normal;f=
+ont-weight: normal;text-align: left;">                                     =
+   <em><span style=3D"font-size:10px">Copyright =C2=A9&nbsp;2018&nbsp;-&nbs=
+p;2021&nbsp;Bybit. All rights reserved.</span></em><div style=3D"text-align=
+: left;"><br><span style=3D"font-size:10px">Established in March 2018, Bybi=
+t is one of the fastest growing cryptocurrency trading platforms, with more=
+ than a million registered users. Built on customer-centric values, we ende=
+avor to provide a professional, smart, intuitive and innovative trading exp=
+erience to better serve our customers in a timely manner. We are committed =
+to creating a fair, transparent and efficient trading environment, and offe=
+r 24/7 multi-language support as part of our service.<br>&nbsp;<br>If you d=
+o not want to receive future Bybit emails,&nbsp;you can <a href=3D"http://e=
+mail.notification-2.bybit.com/c/eJx9kD9vwyAQxT-NWapYcPgPHhiSVJG6dcjUJcL2xUH=
+BYGGolW9fnA7O0kqAuPee-B3XS16oCjgSo-wQ1YCSaAkUGK04ZaxMO2d5U-_LpmRQcXECweusoN=
+YFfdWdCtrZHeTto9Uh79xIbpKyll970XTNtQakVd9VohBYlEy1PWtr8hmNOesRn6AdrXacnhnL-=
+B7Wg0HOWflF5tiecZyMCvjRS2LkLYQp-Rmc0lqWZYOmOtqUnzuvWyTBSasHNLkaFnVLzboYjHP3=
+Z3_-H29SXo2zzOpDBuC8HrRNl8R8W-sJ_fO7qwTHVQqPCbcAvBhq2HRlTOcfU3DGfaOfL2gvv_P=
+d8lZ3d6vGl8eOcQ5uRL9l4oz-ovsXXiEYFOUq1O8kyD85JGxzZALgB3V0leo" target=3D"_bl=
+ank">unsubscribe here</a>.&nbsp;</span></div>                              =
+      </td>                                </tr>                           =
+ </tbody></table>                        </td>                    </tr>    =
+            </tbody></table><!--[if gte mso 9]></td><![endif]-->           =
+     <!--[if gte mso 9]>                </tr>                </table><![end=
+if]-->            </td>        </tr>    </tbody></table></td>              =
+              </tr>                        </table>                        =
+<!--[if (gte mso 9)|(IE)]>                        </td>                    =
+    </tr>                        </table>                        <![endif]-=
+->                        <!-- // END TEMPLATE -->                    </td>=
+                </tr>            </table>        </center>    <img width=3D=
+"1px" height=3D"1px" alt=3D"" src=3D"http://email.notification-2.bybit.com/=
+o/eJx9kD9vwyAQxT-NWapYcPjvwJCkqtStQ6Yu1tm-EBQMFsat8u1rp4O9tAMnePfgx71eyQwLk=
+MQsOj2jJsWMAg6CF5ILkS8rFWldHvM6F1DI6g0qWSYZdz6aq-kwGu8OkLaP1sS08wO7qSvnfLmM=
+ArKqzfo2q6mHtoYO8k4icvYxW3sxAz1BB14cJL8IkcgjrEVAKkX-yaa5vdAwWoz03isWvXJGk01=
+Rf-Nt-YGfo_X-_oSGf3ojBhwmlZSnBMAHo41bNgvoZT2PFJ4zrBKcVyk-RtoMsGug3nS0tguPMX=
+rrvyhMDbnmN7TN70x3dzjsHjvPU_QDhc0zTxQa0-94WbXklq9C-cqi-pPD4haOqAB-ABLchtE">=
+</body></html>

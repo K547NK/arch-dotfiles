@@ -1,0 +1,1112 @@
+Received: from VI1EUR06HT170.eop-eur06.prod.protection.outlook.com
+ (2603:10b6:806:125::25) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7PR04CA0170.NAMPRD04.PROD.OUTLOOK.COM; Fri, 3 Sep 2021 16:28:00
+ +0000
+Received: from VI1EUR06FT017.eop-eur06.prod.protection.outlook.com
+ (2a01:111:e400:fc37::47) by
+ VI1EUR06HT170.eop-eur06.prod.protection.outlook.com (2a01:111:e400:fc37::315)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4478.19; Fri, 3 Sep
+ 2021 16:27:58 +0000
+Authentication-Results: spf=pass (sender IP is 192.174.84.172)
+ smtp.mailfrom=bounce.carvana.com; outlook.com; dkim=pass (signature was
+ verified) header.d=mail.carvana.com;outlook.com; dmarc=pass action=none
+ header.from=mail.carvana.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.carvana.com
+ designates 192.174.84.172 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.174.84.172;
+ helo=mta-84-172.sparkpostmail.com;
+Received: from mta-84-172.sparkpostmail.com (192.174.84.172) by
+ VI1EUR06FT017.mail.protection.outlook.com (10.13.7.46) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4478.19 via Frontend Transport; Fri, 3 Sep 2021 16:27:58 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:BE0ECE7FDE093247FFE336AB1B3446DE2D021812EBDD4209B49D6F9247E9DBB3;UpperCasedChecksum:DED52732B800AE8220247CA048DDCECAD4B03B6C2656CE5457CF94C70C4E1B34;SizeAsReceived:1624;Count:16
+X-MSFBL: Hl6ze/6p7vrimrBZEYPSoG8Wk8V6OeZZ/Xb++lCLaIE=|eyJyIjoibmlnZWwuYWd
+	3YWhAb3V0bG9vay5jb20iLCJjdXN0b21lcl9pZCI6IjI4MDE3MiIsIm1lc3NhZ2V
+	faWQiOiI2MTMxMGM0ZDMyNjExODhhNDg4YSIsInN1YmFjY291bnRfaWQiOiIyNCI
+	sInRlbmFudF9pZCI6InNwYyJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.carvana.com;
+	s=scph0820; t=1630686476; i=@mail.carvana.com;
+	bh=yDRc5IWvieCZg5Lwscf6ZXQTNtDhHrRs5uiSXcQ+1io=;
+	h=To:Message-ID:Date:Content-Type:Subject:From;
+	b=PZ/UZGGf5aAH/aYp/GnSNjDxP9BF/J6U3kSkcTO2ZMruB8YHddoWPovUnIGD9IPX4
+	 kZ3x44e0KSnQXDcwaWzKZeMECU9+zWXwAbvHkQ1ePH5n45E5gJz/qXyBjCxiem04Mx
+	 HClmK0VZseTKnJ3uPqb1AaRExeynNzCHKB/VcVSM=
+To: nigel.agwah@outlook.com
+Message-ID: <84.A8.03061.C0D42316@au.mta1vrest.cc.prd.sparkpost>
+Date: Fri, 03 Sep 2021 16:27:56 +0000
+Content-Type: multipart/alternative; boundary="_----NNbW2SCr3oPkhfpzbvlScg===_24/A8-03061-C0D42316"
+Reply-To: DoNotReply@carvana.com
+Subject: =?utf-8?B?8J+alyBOaWdlbCwgWW914oCZcmUgR2V0dGluZyBHcmVhdCBEZWFs?=
+	=?utf-8?B?cyBUSElTIExhYm9yIERheQ==?=
+X-Campaign-ID: 2780031
+From: "Carvana" <DoNotReply@mail.carvana.com>
+X-Message-ID: a6ed95c3a3a64ea2bcfe1c0332342e71
+X-Feedback-ID: 3811041:2780031:34505:iterable
+Feedback-ID: 3811041:2780031:34505:iterable
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:_Sv29p-oyp5EpaCaRbWiR7YP8vUsdCsitS7Xw9x-_bc~|eyAicmNwdF90byI6ICJuaWdlbC5hZ3dhaEBvdXRsb29rLmNvbSIsICJ0ZW5hbnRfaWQiOiAic3BjIiwgImN1c3RvbWVyX2lkIjogIjI4MDE3MiIsICJzdWJhY2NvdW50X2lkIjogIjI0IiwgIm1lc3NhZ2VfaWQiOiAiNjEzMTBjNGQzMjYxMTg4YTQ4OGEiIH0~>
+List-Id: <spc.280172.24.sparkpostmail.com>
+X-IncomingHeaderCount: 16
+Return-Path: msprvs1=18880FynACPAz=bounces-280172-24@bounce.carvana.com
+X-MS-Exchange-Organization-ExpirationStartTime: 03 Sep 2021 16:27:58.7198
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ e207bb4b-b9d9-4f58-12f3-08d96ef7cac0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR06FT017.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/31/2021 10:13:49 PM
+X-MS-Office365-Filtering-Correlation-Id: e207bb4b-b9d9-4f58-12f3-08d96ef7cac0
+X-MS-TrafficTypeDiagnostic: VI1EUR06HT170:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 192.174.84.172
+X-SID-PRA: DONOTREPLY@MAIL.CARVANA.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Sep 2021 16:27:58.0042
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e207bb4b-b9d9-4f58-12f3-08d96ef7cac0
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR06FT017.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1EUR06HT170
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.8291002
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4478.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90010023)(91010020)(91040095)(91044021)(91045095)(9050020)(9100336)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddXE6EkGyVRrqGf2yi+a3km9DNz8q8JW3XUZ5mAjoTq6Cf8/1FyZJOOfqKeVP0guwIH3JwEImqg3PkYl5ZKHSPwtWicPYmEtBw6pzEvQc3G2obbKcoU7Ph/zjtOP9I/21NJeUVKQWLxS+UEcUUzzwmmcB87uzoCoTtC80sAA2pvFl9T7KcbnjzY56QzTQ32pnEHZZIgD7OrDg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?dURlYjJ6Z0N1R0VsdzZjZkFKSHdSZ0I5WkxiRWdBR3p1bHQwdGwxOTZvUTZE?=
+ =?utf-8?B?L0hHZ2hHOTlKWitETHh6MTREZkJ0QUVxaXNDYUk3eXR4dDh6RUpZaHY2YVho?=
+ =?utf-8?B?K2dFQkgzVWI3Mk9HT2hjcUxSWjNRZ0JCWmR5U3NJM0c0RitjUE1TTTV3QzdT?=
+ =?utf-8?B?YnBiSzFsU0NTbXVpN2k2dDhualVIeDB2RDA3UzF6N2hmdThaamJjLzIxcFFi?=
+ =?utf-8?B?ZVBqSlVacTc4NEtaSWpUTzgrY0ZGb3FzRHJLTTFZZU1lcTZQME5oK1ZtNHd6?=
+ =?utf-8?B?TE1FQXVsWXcxNmNKZyt6TSt0azF1cmRtVEYvRFREUiszSVRxOWlSTFZkSjQ5?=
+ =?utf-8?B?YWR6R0cwakVnVStIcWdRWnF1S3JSMEpUNnh2Tk5kTFZpUkd5ckJtUHI1ZUFq?=
+ =?utf-8?B?K2g1VmVyRWNvWklDNE9YRUo0dGhpSnZPR0R5aVU4alZaYjdXUFpnNU9McnFL?=
+ =?utf-8?B?Sm9sVnZ6K2JhOHlSNTgzYXAzOTZPbDRGZC9jSjlUWFYvbW9Wc3NEbDE3MmFv?=
+ =?utf-8?B?SmhnOVViQXEwRDZCMll4TjEwTlFOajhDKzBaM3RIWTgvSVVFaWhmRzU4MHBH?=
+ =?utf-8?B?R3B5b1NKUGtKc2publptUFBJUWxYUHdoYkFMdG4vbTByRmh0c005bXhEVzZF?=
+ =?utf-8?B?aU5scC9VbUhFZUZTNEhwVjVFYmN2Y0ptclg4bDI0c3dvWTZBaXdYQi80aHB0?=
+ =?utf-8?B?QUROeUFQQStKV2pnZDlxY0syRU0vOGNnUFlwWXdmK0FWbGxlOFhVMTlveE5L?=
+ =?utf-8?B?OTJ5Q3VtYi9RS2sySlI3VDc3TmpaSzlWVElheXZLMk5MNEwzaGo5bnZ6Z0ZJ?=
+ =?utf-8?B?MGI2cXZjWjE5WmxqcG00UGZYaFpvcTFwQkZsRVNmNUpFZDUrSnFYcGVCUlY4?=
+ =?utf-8?B?dDF5cHg3NzZtRlhjYS96cUgzbEJJZThvMEVjdFBtcVlISEU2VVJmd085dHBi?=
+ =?utf-8?B?SUV4R0o0aFFZbzUxU1czUFZOd1kwOHJUcXlXWVptRzRmRFhFbFcxRmkvNUcw?=
+ =?utf-8?B?ekZxU3MwN3RRbnE3NEgxVldCdWxGcFBkZkdvRWpKdkt5QW02eDQ3aGR5V1R2?=
+ =?utf-8?B?Ti9TS1VHMkwvVTlheUx2QlJ1WnkwQytMZjF5WDRHcmtOblovcnNTMSs3aWFZ?=
+ =?utf-8?B?Z1dkc2hVZDVzL2RFTDFmRzVyWmZEb3VJdTRxV1RRdVlLU0xJL2Zhb3lwSEFN?=
+ =?utf-8?B?RlFtNGU5WHp0RlVZSkYyM0xxV3pvZlRZdnkxbzN6M2ZCMlFGY3hZbnkwQlU5?=
+ =?utf-8?B?R09BQ3Ryb3VicmNJMzdwM2hTUHFOVy9tZTFFdHNXK1dweis2T0RlTld5V3JR?=
+ =?utf-8?B?SFZGaHc4bFdZZDhsdDQyY3RxRVkyRW52MEpndnk5Y3prRVBmU1dTUS85TGhB?=
+ =?utf-8?B?aUxNdS9wNWdwdUFxMWQ3Q21sbkFUQ2laYVlqazRPb3ppY3N1WUtSS0hxMFFJ?=
+ =?utf-8?B?Rm5sODlmWm5PcFlhMkIwSk1JUFRhYXBMZnFvSW80MVh5dE1BdGRRTy9OY0FJ?=
+ =?utf-8?B?cFRsdnk0bHFZVDJYNEVGUlZndk5zbWlGNWN6eTdKNkpId0tneWNZQ1V1Mjg5?=
+ =?utf-8?B?MkI2eVpHeGRVNjZsMnVxNDNlNGx2YTZoNjkxaWlJMWVWdmVsZ2gxY1hnbWFY?=
+ =?utf-8?B?RjZlWjFsOEtqbk5sMExwMDVoWHpKRWFJTXU0ZHZNZVd3K2hGekZsVTJhTnph?=
+ =?utf-8?Q?OTKLdJw+MkXBS7fwpOM3?=
+MIME-Version: 1.0
+X-TUID: JYTBpsFk1ODo
+
+--_----NNbW2SCr3oPkhfpzbvlScg===_24/A8-03061-C0D42316
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Carvana Find Your Dream Ride This Labor Day + Get Pre-Qualified in 2 Minute=
+s =0A=0A=0A=0A=0A <https://www.carvana.com/=3Futm_content=3Dheader_logo> =
+=0AAvailable 24/7 =0A=0ACHAT NOW  =0A<https://www.carvana.com/cars=3Fcvnaid=
+=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&openChat=3Dtrue&utm_content=
+=3Dheader_chat_cta>=0A=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3Dey=
+JmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&utm_content=3Dhero_img>=0A =0A<h=
+ttps://www.carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19=
+fQ=3D=3D&utm_content=3Dhero_img>=0A=0AHey Nigel, =0AWe=E2=80=99re offering =
+special prices on thousands of vehicles this holiday weekend!=0A=0AWith con=
+venient buying, selling, and trading in options you can focus on other =0At=
+hings, like having fun.=0A=0AFind your dream ride today! =0A<https://www.ca=
+rvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&utm_=
+content=3Dintro_link>=0A=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3D=
+eyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&utm_content=3Dgreat_deals_cta>=
+=0ASave $1,500+ with these=0AGreat Deals =0AWe're helping our customers sav=
+e by offering many cars priced $1,500+ lower =0Athan Kelley Blue Book=C2=AE=
+ Suggested Retail Value.* Whether you=E2=80=99re looking for a=0Ahigh-perfo=
+rming truck =0A<https://www.carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InR=
+hZ0lkcyI6WzEwNF0sICJib2R5U3R5bGVzIjpbIlBpY2t1cCJdfX0=3D&utm_content=3Dgreat=
+_deals_cta>=0A, astylish sedan =0A<https://www.carvana.com/cars=3Fcvnaid=3D=
+eyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF0sICJib2R5U3R5bGVzIjpbIlNlZGFuIl19fQ=3D=
+=3D&utm_content=3Dgreat_deals_cta>=0A, or acomfortable SUV =0A<https://www.=
+carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF0sICJib2R5U3R=
+5bGVzIjpbIlN1diJdfX0=3D&utm_content=3Dgreat_deals_cta>=0A, take a closer lo=
+ok at these amazing savings. =0A=0A FIND YOUR NEXT RIDE  =0A<https://www.ca=
+rvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&utm_=
+content=3Dgreat_deals_cta>=0A Looking to sell or trade=3F =0A <https://www.=
+carvana.com/sell-my-car=3Futm_content=3Dtrade_cta> =0A We provide a competi=
+tive offer upfront, and we make it easy to complete the =0Aprocess. With no=
+ hidden fees ever, no purchase necessary, and absolutely no =0Aheadaches, s=
+ave time selling online. =0A=0A=0A GET YOUR OFFER  <https://www.carvana.com=
+/sell-my-car=3Futm_content=3Dtrade_cta> =0A=C2=A0 =0A=0AVehicles you=E2=80=
+=99ll love =0A=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZX=
+JzIjp7InRhZ0lkcyI6WzEwNF0sICJib2R5U3R5bGVzIjpbIlN1diJdfX0=3D&utm_content=3D=
+veh_cat_1>=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIj=
+p7InRhZ0lkcyI6WzEwNF0sICJib2R5U3R5bGVzIjpbIlBpY2t1cCJdfX0=3D&utm_content=3D=
+veh_cat_2>=0A=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJ=
+zIjp7InRhZ0lkcyI6WzEwNF0sICJmZWF0dXJlcyI6WyJUaGlyZCBSb3cgU2VhdCJdfX0=3D&utm=
+_content=3Dveh_cat_3>=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3DeyJ=
+maWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF0sICJib2R5U3R5bGVzIjpbIlNlZGFuIl19fQ=3D=3D&u=
+tm_content=3Dveh_cat_4>=0A=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=
+=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF0sICJtcGciOnsibWluIjozMCwgIm1heCI6MTIz=
+fSwgInByaWNlIjp7Im1pbiI6NTAwMCwgIm1heCI6MjAwMDB9fX0=3D&utm_content=3Dveh_ca=
+t_5>=0A=0A =0A<https://www.carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRh=
+Z0lkcyI6WzEwNF0sICJib2R5U3R5bGVzIjpbIkNvdXBlIiwgIkNvbnZlcnRpYmxlIl19fQ=3D=
+=3D&utm_content=3Dveh_cat_6>=0A=0A=0A SEARCH ALL VEHICLES  =0A<https://www.=
+carvana.com/cars=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&ut=
+m_content=3Dveh_cat_all>=0A=0A=0A =0A<https://www.carvana.com/financing-pre=
+qualification=3Futm_content=3Dget_prequal_cta>=0AReal terms in real time =
+=0AGet pre-qualified in 2 minutes without impacting your credit score! It=
+=E2=80=99s fast, =0Awe offer competitive rates, and your terms are complete=
+ly personalized. =0A=0A GET PRE-QUALIFIED  =0A<https://www.carvana.com/fina=
+ncing-prequalification=3Futm_content=3Dget_prequal_cta>=0A=0A=C2=A0 =0A=0A*=
+Savings amount based on the difference between Kelley Blue Book=C2=AE Sugge=
+sted =0ARetail Value and current Carvana listing price, not including tax, =
+title, =0Aregistration, or delivery charges. Average savings based on simil=
+ar, selected =0ACarvana vehicles that are eligible for this special pricing=
+.=0A=0AAdditional steps and time may be required based on your location an=
+d the =0Alocation of purchase, including the process of registration, title=
+ transfer, =0Aand the amount of time required for delivery. Please keep in =
+mind that =0Aunexpected events may arise that cause delays in delivery, suc=
+h as inclement =0Aweather. =0A=0A=0A=C2=A92021 Carvana.com All Rights Reser=
+ved.=0A1930 W Rio Salado Pkwy Tempe, AZ 85281.=0A=0AYou received this email=
+ on September 03, 2021 because you are registered on =0ACarvana=E2=80=99s m=
+ailing list with the email addressnigel.agwah@outlook.com =0A<mailto:nigel.=
+agwah@outlook.com>. =0A=0A=0APrivacy Policy =0A<https://www.carvana.com/pri=
+vacy-policy=3Futm_content=3Dfooter_privacy> =0ATerms of Service =0A<https:/=
+/www.carvana.com/terms-of-use=3Futm_content=3Dfooter_terms> =0AUnsubscribe =
+=0A<https://links.carvana.com/e/encryptedUnsubscribe=3F_r=3D21900be447f1432=
+99095170ca8054cb7&_s=3Da6ed95c3a3a64ea2bcfe1c0332342e71&_t=3DDNDC90IMoc_SgY=
+1fo75TxkhGgAqQPWHw53JeEinaI6zZ9voP-WzpX5eBpJ7Pbec3Z51CEUqsUhVZWRQpiHizelmfb=
+wSYWE3f9TUTzPw95Fa__3fgnfARmRGQ-HH9zocqmzdigKfbkVEv1d0z75z31sFWPQG6AOVSYPT-=
+COh5TTHf_Snekg9Dz8NnRis28Z8BIGr_kCpRTmiNuyaIveKuqWp6LzhiCKTadg4cmYYq_Jk%3D&=
+utm_content=3Dfooter_unsub>=0AChat with Us =0A<https://www.carvana.com/cars=
+=3Fcvnaid=3DeyJmaWx0ZXJzIjp7InRhZ0lkcyI6WzEwNF19fQ=3D=3D&openChat=3Dtrue&ut=
+m_content=3Dfooter_chat>=0A=0AView this email in your browser =0A<https://l=
+inks.carvana.com/e/evib=3F_t=3D21900be447f143299095170ca8054cb7&_m=3Da6ed95=
+c3a3a64ea2bcfe1c0332342e71&_e=3DDNDC90IMoc_SgY1fo75TxkhGgAqQPWHw53JeEinaI6x=
+7hZOHwcDtDU2z8-M87TPnAQ_ePwhR4nbL3k5Nvnu3scWS2NMhLx7Rgnod8rGcGLRIOz_wJR8qIN=
+pIo2FbZrAI&utm_content=3Dfooter_browser>=0A=F0=9F=9A=97 Nigel, You=E2=80=99=
+re Getting Great Deals THIS Labor Day
+--_----NNbW2SCr3oPkhfpzbvlScg===_24/A8-03061-C0D42316
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Carvana</title> <!--[if !mso]><!-- --> <meta http-equiv=3D"X-UA-Compat=
+ible" content=3D"IE=3Dedge"> <!--<![endif]-->  <meta name=3D"viewport" cont=
+ent=3D"width=3Ddevice-width, initial-scale=3D1"> <meta name=3D"x-apple-disa=
+ble-message-reformatting"> <style type=3D"text/css">#outlook a{padding:0}bo=
+dy{margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:10=
+0%}table,td{border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0}=
+img{border:0;height:auto;line-height:100%;outline:0;text-decoration:none;-m=
+s-interpolation-mode:bicubic}p{display:block;margin:13px 0}</style> <!--[if=
+ mso]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o=
+:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]--> <!--[if lte =
+mso 11]><style type=3D"text/css">.mj-outlook-group-fix{width:100%!important=
+}</style><![endif]--> <!--[if !mso]><!--> <link href=3D"https://fonts.googl=
+eapis.com/css?family=3DUbuntu:300,400,500,700" rel=3D"stylesheet" type=3D"t=
+ext/css"> <style type=3D"text/css">@import url(https://fonts.googleapis.com=
+/css?family=3DUbuntu:300,400,500,700);</style> <!--<![endif]--> <style type=
+=3D"text/css">@media only screen and (min-width:480px){.mj-column-per-100{w=
+idth:100%!important;max-width:100%}.mj-column-per-70{width:70%!important;ma=
+x-width:70%}.mj-column-per-60{width:60%!important;max-width:60%}.mj-column-=
+per-50{width:50%!important;max-width:50%}.mj-column-per-40{width:40%!import=
+ant;max-width:40%}.mj-column-per-30{width:30%!important;max-width:30%}}</st=
+yle> <style type=3D"text/css">@media only screen and (max-width:480px){tabl=
+e.mj-full-width-mobile{width:100%!important}td.mj-full-width-mobile{width:a=
+uto!important}.hide{display:none!important;width:0!important;max-width:0!im=
+portant;min-width:0!important}.show{display:block!important;width:100%!impo=
+rtant;max-width:480px!important}.mobile-rec{padding:10px 0 0 0!important}.f=
+ont-10{font-size:10px!important}.font-12{font-size:12px!important}.font-14{=
+font-size:14px!important}.font-16{font-size:16px!important}.font-18{font-si=
+ze:18px!important}.font-20{font-size:20px!important}.font-22{font-size:22px=
+!important}.font-24{font-size:24px!important}.font-28{font-size:28px!import=
+ant}.font-48{font-size:48px!important}.mobile-block-width{width:95%!importa=
+nt}.width-140px{width:140px!important}.width-240px{width:240px!important}.w=
+idth-100{width:100%!important}.width-50{width:50%!important}.width-40{width=
+:40%!important}.no-bg{background-color:none!important;background:none!impor=
+tant}.mobile-padding{padding:0 10px!important}.padding-left-24{padding-left=
+:24px!important}.padding-right-24{padding-right:24px!important}.padding-top=
+-8{padding-top:8px!important}.padding-bottom-8{padding-bottom:8px!important=
+}.padding-left-8{padding-left:8px!important}.padding-right-8{padding-right:=
+8px!important}.padding-left-0{padding-left:0!important}.padding-right-0{pad=
+ding-right:0!important}.padding-top-0{padding-top:0!important}.padding-bot-=
+0{padding-bottom:0!important}.padding-left-p-8{padding-left:24px!important}=
+.padding-right-p-8{padding-right:24px!important}.no-padding{padding:0!impor=
+tant}.center-text{text-align:center!important}.left-text{text-align:left!im=
+portant}.right-text{text-align:right!important}.justify-text{text-align:jus=
+tify!important}.column-top{display:table-caption!important}.column-bot{disp=
+lay:table-footer-group!important}u+.body .main{width:100%!important;width:1=
+00vw!important}}@media only screen and (max-width:380px){table.mj-full-widt=
+h-mobile{width:100%!important}td.mj-full-width-mobile{width:auto!important}=
+.font-22{font-size:18px!important}.font-24{font-size:20px!important}.font-2=
+8{font-size:24px!important}}</style> </head> <body class=3D"body" style=3D"=
+background-color:#ffffff;">
+<div style=3D"color:transparent;visibility:hidden;opacity:0;font-size:0px;b=
+order:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!im=
+portant;display:none!important;line-height:0px!important;"><img border=3D"0=
+" width=3D"1" height=3D"1" src=3D"http://post.spmailtechnolo.com/q/eg-XH_NT=
+5EDy2JAgt4TfVg~~/AARGbAA~/RgRjFNIMPVcDc3BjQgphMQxNMmEYikiKUhduaWdlbC5hZ3dha=
+EBvdXRsb29rLmNvbVgEAAAAGA~~" alt=3D""></div>
+ <!----><div style=3D"display:none;font-size:1px;color:#333333;line-height:=
+1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Find Your Drea=
+m Ride This Labor Day + Get Pre-Qualified in 2 Minutes</div><!----> <div st=
+yle=3D"background-color:#ffffff; background: #ffffff"> <table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentation" class=3D"main" =
+style=3D"width: 100%; background-color: #ffffff; background: #ffffff" width=
+=3D"100%"> <tr> <td width=3D"100%" style=3D"width: 100%; background-color: =
+#ffffff; background: #ffffff"> <!-- --> <!-- header --> <!--[if mso | IE]><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"" style=3D"width:600px;" width=3D"600"> <tr> <td style=3D"line-height=
+:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div style=
+=3D"margin:0px auto;max-width:600px;"> <table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:1=
+00%;"> <tbody> <tr> <td class=3D"no-padding" style=3D"direction:ltr;font-si=
+ze:0px;padding:25px 0 0 0;text-align:center;"> <!--[if mso | IE]><table rol=
+e=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"> <tr> <=
+td class=3D"" width=3D"600px"> <table align=3D"center" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600=
+"> <tr> <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exa=
+ctly;"><![endif]--> <div style=3D"background:#ffffff;background-color:#ffff=
+ff;margin:0px auto;max-width:600px;"> <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"backgrou=
+nd:#ffffff;background-color:#ffffff;width:100%;"> <tbody> <tr> <td style=3D=
+"direction:ltr;font-size:0px;padding:15px 0 15px 0;text-align:center;"> <!-=
+-[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"> <tr> <td class=3D"" style=3D"width:600px;"><![endif]--> =
+<div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0;=
+line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr=
+;"> <!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation"> <tr> <td style=3D"vertical-align:top;width:300px;=
+"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:50%;"> <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"> =
+<tr> <td align=3D"left" style=3D"font-size:0px;padding:8px 0 8px 25px;word-=
+break:break-word;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+;"> <tbody> <tr> <td style=3D"width:192px;"> <a href=3D"https://links.carva=
+na.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64=
+ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHou3lc=
+vs0AT1AxHWuGDOjwaDIOorRF7yd_R3oNLHxtPPwn9sF7zSP_ZCZY0q9l0ZEmK13XmBSEs_Ribbu=
+NMwq6iLknGC0-GNVUAZkxhlpYQVVkXyzNg_kihRMdO6W9kXdkMqMGD-Ax6rPhGz1vxWITF-ZBOB=
+TNyYXG2gTq_gy1AgoTF4f9Rnm7wnK6sBTdgJDGHEOhQ_dEw84To0e9zYdEwPMx6NHUWs4XKzTVz=
+ZJJS856GdldgCu7NZIA3v4AkbVxyKq01XTV9mulyQCdshfgk6fSmVcwHIJsn_DTn9OBtUJVqbXA=
+8TUH1nyI8GO3OY4qvN52GRJ04XRN2TkMg8XF6c" target=3D"_blank"> <img alt=3D"Enab=
+le images to view this content" height=3D"auto" src=3D"https://d15k2d11r6t6=
+rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6=
+dd6a/21900be447f143299095170ca8054cb7/email_4_logo.png" style=3D"border:0;d=
+isplay:block;outline:none;text-decoration:none;height:auto;width:100%;font-=
+size:13px;" width=3D"192"> </a> </td> </tr> </tbody> </table> </td> </tr> <=
+/table> </div> <!--[if mso | IE]></td> <td style=3D"vertical-align:top;widt=
+h:300px;"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-group-fix"=
+ style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;=
+vertical-align:top;width:50%;"> <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"1=
+00%"> <tr> <td align=3D"right" style=3D"font-size:0px;padding:3px 25px 3px =
+0;word-break:break-word;"> <div style=3D"font-family:Helvetica, Arial, sans=
+-serif;font-size:12px;line-height:100%;text-align:right;color:#183558;"><sp=
+an class=3D"font-10">Available 24/7</span></div> </td> </tr> <tr> <td align=
+=3D"right" vertical-align=3D"middle" style=3D"font-size:0px;padding:3px 25p=
+x 8px 0;word-break:break-word;"> <table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-=
+height:100%;"> <tr> <td align=3D"center" bgcolor=3D"#00aed9" role=3D"presen=
+tation" style=3D"border:none;border-radius:3px;cursor:auto;mso-padding-alt:=
+10px 25px;background:#00aed9;" valign=3D"middle"> <a href=3D"https://links.=
+carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3=
+a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzH=
+ouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yhTHZjw3_MNjQxIGTzn9DXvcOxDltA3T=
+Xj4VZdPh4_c9xG4IkCtejI1P4Ti1shPNYIyNPi51Wlem2a-QHsybyME1K55oIdiErWoiY5iLYDm=
+4dV-SsJ22gtfbYxOROdB7ixFTuVrhB2sQw7vM0MhmgWGt27J9bKe-K7h1NFa_nKCH79Hg3-CiS7=
+zHjpXmYXx1aG5igI2C0kwWSjtoPosxcmdf-eX7EGYY9nIVhYFTFHkkKJNKtGOwQD3wj6I724AHD=
+wQTfA_pB3S5KjHlflFweQ_FOCaIOI4SuVoIrlIUSgDlVhhI341qUHxEvJzwxS_0vTrtRCdmYNA5=
+y13xKdorqbX0sdDwK_sIVoH7F4LcsF5ac3sZJWNTbm3OaeE6o5WR__4x_OHHdvrvacvw4Weumy8=
+%3D" style=3D"display:inline-block;background:#00aed9;color:#ffffff;font-fa=
+mily:Helvetica, Arial, sans-serif;font-size:12px;font-weight:normal;line-he=
+ight:100%;margin:0;text-decoration:none;text-transform:none;padding:10px 25=
+px;mso-padding-alt:0px;border-radius:3px;" target=3D"_blank"> <span class=
+=3D"font-10">CHAT NOW</span> </a> </td> </tr> </table> </td> </tr> </table>=
+ </div> <!--[if mso | IE]></td> </tr> </table><![endif]--> </div> <!--[if m=
+so | IE]></td> </tr> </table><![endif]--> </td> </tr> </tbody> </table> </d=
+iv> <!--[if mso | IE]></td> </tr> </table> </td> </tr> </table><![endif]-->=
+ </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td> </tr> </table=
+><![endif]--> <!-- --> <!--[if mso | IE]><table align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" wi=
+dth=3D"600"> <tr> <td style=3D"line-height:0px;font-size:0px;mso-line-heigh=
+t-rule:exactly;"><![endif]--> <div style=3D"background:#ffffff;background-c=
+olor:#ffffff;margin:0px auto;max-width:600px;"> <table align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"background:#ffffff;background-color:#ffffff;width:100%;"> <tbody> <tr> =
+<td style=3D"direction:ltr;font-size:0px;padding:0 0 0 0;text-align:center;=
+"> <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"> <tr> <td class=3D"" style=3D"vertical-align:top;w=
+idth:600px;"><![endif]--> <div class=3D"mj-column-per-100 mj-outlook-group-=
+fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"> <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=
+=3D"100%"> <tr> <td align=3D"center" style=3D"font-size:0px;padding:0;word-=
+break:break-word;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+;"> <tbody> <tr> <td style=3D"width:600px;" class=3D"hide"> <!-- --><a href=
+=3D"https://links.carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7=
+&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqj=
+lW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yhTHZjw3_MNjQx=
+IGTzn9DXs58BA4sxHnUan6SruRyo43mgH0m3qvhfMZLAekKRgomtQiElAbbbO6ErEVpEaZTz60Y=
+YPVHWNkZx3Bj_emjyDrxoJfFoByBD9NAh0KBN0w_l1T3YrARxYI6ftYHKHihcczD3hHpkS7eFMn=
+A_NE7RMLD9MnznzKfWQ6iZ98TGGBpeRMbJYxBZfB_GwaYClTGl_1wvdJrbPk_Y8RAAYovLIOsij=
+MybpUKUy9qg-AfHddjUGUHjXdh39HnRoDuM9UGqxOLr3OEum1cHBJjR0aOg7NfARy308eyEOyay=
+Rv-x4le8Nuxyh77JNBbQaCg9okdvHN_uoxbzrciuiSMMkuoA5Cyh5DUuelnuZHncFX5qLt6Q%3D=
+%3D" target=3D"_blank"><!-- --> <img alt=3D"Enable images to view this cont=
+ent" height=3D"auto" src=3D"https://d15k2d11r6t6rl.cloudfront.net/public/us=
+ers/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f14329909517=
+0ca8054cb7/2021_labor_day.jpg" style=3D"border:0;display:block;outline:none=
+;text-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"600"=
+> <!-- --></a><!-- --> </td> <!----> <td style=3D"display: none; width: 0; =
+max-width: 0; mso-hide: all" class=3D"show"> <!-- --><a href=3D"https://lin=
+ks.carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed9=
+5c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRK=
+KzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yhTHZjw3_MNjQxIGTzn9DXs58BA4s=
+xHnUan6SruRyo43mgH0m3qvhfMZLAekKRgomtQiElAbbbO6ErEVpEaZTz60YYPVHWNkZx3Bj_em=
+jyDrxoJfFoByBD9NAh0KBN0w_l1T3YrARxYI6ftYHKHihccBMTnlcnJo_4lFC3TjK8i2p6JZhkP=
+rUyVzbt5xc8pJzij3c02GlbB8HxPylaNpmKZ8fhBfeYLzhqq7GY6IXfSHZmstwETcf17St5lEFT=
+OmxK4xF_pM8mob3V5GU4qRkGbj2FlVl14-DvhbKlZFACP54RFthBJXMkfZyvD79tdYzU_v-ZrOu=
+oJcC5SasJjgE-tjEwgE7L5IXfi5uTPzIWpY8PXFW4OlqnlktK0DMIb0zQ%3D%3D" target=3D"=
+_blank" style=3D"mso-hide: all"><!-- --> <img alt=3D"Enable images to view =
+this content" height=3D"auto" src=3D"https://d15k2d11r6t6rl.cloudfront.net/=
+public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f14=
+3299095170ca8054cb7/2021_labor_day_mob.jpg" style=3D"border:0;display:block=
+;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px; m=
+so-hide: all"> <!-- --></a><!-- --> </td> <!----> </tr> </tbody> </table> <=
+/td> </tr> </table> </div> <!--[if mso | IE]></td> </tr> </table><![endif]-=
+-> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td> </tr> </tab=
+le><![endif]--> <!-- --><!-- body --> <!--[if mso | IE]><table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"w=
+idth:600px;" width=3D"600"> <tr> <td style=3D"line-height:0px;font-size:0px=
+;mso-line-height-rule:exactly;"><![endif]--> <div style=3D"background:#ffff=
+ff;background-color:#ffffff;margin:0px auto;max-width:600px;"> <table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"background:#ffffff;background-color:#ffffff;width:100%;"> =
+<tbody> <tr> <td class=3D"padding-left-p-8 padding-right-p-8" style=3D"dire=
+ction:ltr;font-size:0px;padding: 16.67%;padding-bottom: 60px;padding-top: 6=
+0px;text-align:center;"> <!--[if mso | IE]><table role=3D"presentation" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0"> <tr> <td class=3D"" style=3D=
+"vertical-align:top;width:536px;"><![endif]--> <div class=3D"mj-column-per-=
+100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:=
+ltr;display:inline-block;vertical-align:top;width:100%;"> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"verti=
+cal-align:top;" width=3D"100%"> <tr> <td align=3D"left" style=3D"font-size:=
+0px;padding:0;word-break:break-word;"> <div class=3D"font-16" style=3D"font=
+-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-h=
+eight:150%;text-align:left;color:#183558;">Hey Nigel,</div> </td> </tr> <tr=
+> <td align=3D"left" style=3D"font-size:0px;padding:0;padding-top:22px;word=
+-break:break-word;"> <div style=3D"font-family:Helvetica, Arial, sans-serif=
+;font-size:16px;line-height:150%;text-align:left;color:#757989;">We=E2=80=
+=99re offering special prices on thousands of vehicles this holiday weekend=
+!<br><br>With convenient buying, selling, and trading in options you can fo=
+cus on other things, like having fun.<br><br><a href=3D"https://links.carva=
+na.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64=
+ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlw=
+lt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yhTHZjw3_MNjQxIGTzn9DXs58BA4sxHnUan6S=
+ruRyo43GjyOz_sgyRCtNQYLxPjzlWCuoCCv802cTblNmRGfk3vK95p97ql0ocw-Y4bl429jbcol=
+80eFPxs1N0GjOVwiAxdixET5CFCSGbvDgZh8a75ndFwKXQMgMXLQld-mYBSLnsuUYLRyhebt_vs=
+Ud10V4mV5jlFrKL7RH6UMrgNH-pCUhzpJhTtLBRDFDcogsf9zjlPUbQlH9bci3OgdlIXXWCC4XF=
+6SQhL6gj1oMilcwXWNLNn8wlu8lieYaIajy3jfoWsT8oMDoPJ-iAA6hV57NsyhAOTvB-x4ZJOPi=
+iaPZ2FhbYMTlEU7nu9TB8RJI5UK_5WphbOElxq4YmHxqHcaCw%3D%3D" target=3D"_blank" =
+style=3D"color: #00aed9; text-decoration: underline">Find your dream ride t=
+oday!</a></div> </td> </tr> </table> </div> <!--[if mso | IE]></td> </tr> <=
+/table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]>=
+</td> </tr> </table><![endif]--> <!-- --> <!--[if mso | IE]><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=
+=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-size:=
+0px;mso-line-height-rule:exactly;"><![endif]--> <div style=3D"background:#f=
+fffff;background-color:#ffffff;margin:0px auto;max-width:600px;"> <table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"background:#ffffff;background-color:#ffffff;width:100%;=
+"> <tbody> <tr> <td style=3D"direction:ltr;font-size:0px;padding:0 0 60px 0=
+;text-align:center;"> <!--[if mso | IE]><table role=3D"presentation" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vert=
+ical-align:top;width:600px;"><![endif]--> <div class=3D"mj-column-per-100 m=
+j-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;d=
+isplay:inline-block;vertical-align:top;width:100%;"> <table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-a=
+lign:top;" width=3D"100%"> <tbody> <!----> <tr> <td align=3D"center" style=
+=3D"font-size:0px;padding:0;word-break:break-word;"> <table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-col=
+lapse:collapse;border-spacing:0px;"> <tbody> <tr> <td style=3D"width:104px;=
+" align=3D"center"> <a href=3D"https://links.carvana.com/u/click?_t=3D21900=
+be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_=
+e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6=
+h9vqDsu1Sgze_yhTHZjw3_MNjQxIGTzn9DXs58BA4sxHnUan6SruRyo43xlZfFukZw5-8MREEQj=
+r7Nss32uICgtx2M7RcUqZ07Cy1xIzZOVNOhYtevTkf1ZvonTfBBcOevxOzYhV1d7zae1T3v9IkR=
+LiFBAkKwQtISR9QJVY5E0z7o-jiSq7St53vX1hhaXYCGptouq5j2WFgUJtpoDjCaP4vabxm7gy1=
+hJAUlfyHaInpGWuSA7Bn8PeNc7zs_2XDXh1eHQDp9ToJy0tru5OGUw9ouKpjTw7YQzQXM1WbDaB=
+Hu8DoPtUshutuNBJV2sewUSt4Loaaf12IuJ-WHKaIYZwLJ-07Z17dsfXO8uQXykDbnXQOfRpg_D=
+gWVBtToQeksu3WfRdqjAxLBw%3D%3D" target=3D"_blank"> <img alt=3D"Enable image=
+s to view this content." height=3D"auto" src=3D"https://d15k2d11r6t6rl.clou=
+dfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/21=
+900be447f143299095170ca8054cb7/2021_tag_gif_icon.gif" style=3D"border:0;dis=
+play:block;outline:none;text-decoration:none;height:auto;width:104px;font-s=
+ize:13px;" width=3D"104px"> </a> </td> </tr> </tbody> </table> </td> </tr> =
+<!-- --> <tr> <td class=3D"padding-left-p-8 padding-right-p-8" align=3D"cen=
+ter" style=3D"font-size:0px;padding:20px 16.67% 0 16.67%;word-break:break-w=
+ord;"> <div style=3D"font-family:Helvetica, Arial, sans-serif;font-size:24p=
+x;font-weight:bold;line-height:144%;text-align:center;color:#183558;">Save =
+$1,500+ with these<br>Great Deals</div> </td> </tr> <tr> <td class=3D"paddi=
+ng-left-p-8 padding-right-p-8" align=3D"left" style=3D"font-size:0px;paddin=
+g:22px 16.67% 0 16.67%;word-break:break-word;"> <div style=3D"font-family:H=
+elvetica, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:1=
+50%;text-align:left;color:#757989;">We're helping our customers save by off=
+ering many cars priced $1,500+ lower than Kelley Blue Book=C2=AE Suggested =
+Retail Value.* Whether you=E2=80=99re looking for a <a href=3D"https://link=
+s.carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95=
+c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKK=
+zHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIgz0jwtaH_E=
+E62rU4FwRMROB1CE6PYcp14XVKPxCcESFDDmA_v4hQ4HECW75-LLX-RgdktQxsQWs4CHxw6dgft=
+slRHrmVBFAoY-jE4enuK5E-wyrRdGB96DSk1r2GgWRucqvX0FnCKujWHs8ydf8cE0wlsoW2SW40=
+rJ4h4Lm7Queh28sU-xtHJjHosW-OjGEG4SKZoCqShLjM4bqcRWGwMOu9H0AuWuxSgBxPllMYghS=
+KREvh56kaEVRmJ5vInqZhtdu5wNlEHiI5ApfxauyVafdyIDMpdLLwhNTEGqjKY4E_0sitRyCcOs=
+D7eOgyeDjdei0yEnWUqam9tq2f41cg2VRQj2qTASQQNJqiUeVzJmiGZAADS5DbZuJvIZHQXRh3o=
+NgUBYpjrgkVv_hdZzLv5uqd" target=3D"_blank" style=3D"color: #00aed9; text-de=
+coration: underline">high-performing truck</a>, a <a href=3D"https://links.=
+carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3=
+a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzH=
+ouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIgz0jwtaH_EE6=
+2rU4FwRMROB1p9wyZcO6yrE2eUSFgwtKA5sGwz_qz5kA1u0KyGeIYi3Y0F-0FQ04dQ47Bdv3kEd=
+Fj_g0iXwTwCgZr46xvs7IeyPuL7MH-CVrtQzmwwea9h5VPzWkN7Z--sqzSXhj4WXNlTq3nxuJgH=
+rek4MjlSrLmCIjN05Qdw1LK_2ivNXBsr_mH7fHL_17m7Kj_ggfTikZVyNydNOqCiV-mCPjITCdR=
+aRi7j-fCZDss3o1Y6pEpqu5Konfb0JvMfu6FxHB43yjheXgdBpCxxCG5jvTjJTs7xuBcjJYfoQH=
+0I7g3mpuI1yV-Gs1mjB-caMdtO4YreWQgBnw3NaPQD1c4quMPI9FuSGYcLE2WChWmbjsklIsgKz=
+G3JG29L8yRDj02TJ3A83i" target=3D"_blank" style=3D"color: #00aed9; text-deco=
+ration: underline">stylish sedan</a>, or a <a href=3D"https://links.carvana=
+.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea=
+2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt=
+3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIgz0jwtaH_EE62rU4FwR=
+MROB1nK7Mly68kX3HlMQMhJil1WBirtPdND_fFrVCpkQmbGAC_lbCby_JYKj3wJ3uuxDvsFN_XZ=
+NCiYg6ilBt2H1f2-xTsbP71cpnGv3PXUyl9OaWjhyIa5-fF2myvy2wZpcS8YwEOjQ9ZlMkd2QCb=
+rjy6l_felVf0hwIyQv7Fb7ETIwAk8xGhqfNGOMnxgUftVOcPHTKkUzJRLdIq9vRcOytp8ydQSUM=
+rL5oe-E1TppofyBKKY39ZyXHqwDYbq6kOg5j--f14QHGRznt5IXMK2a67EH7BIVim6Vsc_OFegF=
+Uh_rUc380jm3sSvE-8ZES_p-dTeuWzPhatTU1NXKSl5CQ-FA3josxlzqrBlVtHX_U95YX4qng7f=
+uK2qF1wVyuvGXC" target=3D"_blank" style=3D"color: #00aed9; text-decoration:=
+ underline">comfortable SUV</a>, take a closer look at these amazing saving=
+s.</div> </td> </tr> <!----> <tr> <td align=3D"center" vertical-align=3D"mi=
+ddle" class=3D"width-100 padding-left-p-8 padding-right-p-8" style=3D"font-=
+size:0px;padding:40px 0 0 0;word-break:break-word;"> <table class=3D"width-=
+100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ style=3D"border-collapse:separate;width:260px;line-height:100%;"> <tr> <td=
+ align=3D"center" bgcolor=3D"#00aed9" role=3D"presentation" style=3D"border=
+:none;border-radius:3px;cursor:auto;mso-padding-alt:17px 0px;background:#00=
+aed9;" valign=3D"middle"> <a href=3D"https://links.carvana.com/u/click?_t=
+=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e=
+71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGd=
+nvKZz5I6h9vqDsu1Sgze_yhTHZjw3_MNjQxIGTzn9DXs58BA4sxHnUan6SruRyo43xlZfFukZw5=
+-8MREEQjr7Nss32uICgtx2M7RcUqZ07Cy1xIzZOVNOhYtevTkf1ZvonTfBBcOevxOzYhV1d7zae=
+1T3v9IkRLiFBAkKwQtISR9QJVY5E0z7o-jiSq7St53vUvP_HxutVFDY1N8HLhiwPvED1WiNwQKj=
+ncp39qQnuGm-8gJxQykUbfXALSJU4Wp1vCLkUtzdTpvsf6iglLakxG5L0r5DhhsZbokwu78CoUS=
+soJt6J8Oj0GpuZraFTLVgKCA-S0lIwvALYynvvxs12U72Oywk19lWkoTD-u9w5uTDfQjm7sbrap=
+qACMYBZQxQ80rfeKezHVHxUEWbh0g3bQ%3D%3D" style=3D"display:inline-block;width=
+:260px;background:#00aed9;color:#ffffff;font-family:Ubuntu, Helvetica, Aria=
+l, sans-serif;font-size:14px;font-weight:bold;line-height:100%;margin:0;tex=
+t-decoration:none;text-transform:none;padding:17px 0px;mso-padding-alt:0px;=
+border-radius:3px;" target=3D"_blank"> FIND YOUR NEXT RIDE </a> </td> </tr>=
+ </table> </td> </tr> <!----> </tbody> </table> </div> <!--[if mso | IE]></=
+td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if m=
+so | IE]></td></tr></table><![endif]--> <!--[if mso | IE]></td></tr></table=
+><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" c=
+lass=3D"" style=3D"mso-hide:all; width:600px;" width=3D"600"><tr><td style=
+=3D"mso-hide:all; line-height:0px;font-size:0px;mso-line-height-rule:exactl=
+y;"><![endif]--> <div style=3D"mso-hide:all; background:#00619E;background-=
+color:#00619E;margin:0px auto;max-width:600px;"> <table cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" role=3D"presentation" style=3D"width: 100%" a=
+lign=3D"center"> <tr> <td style=3D"padding: 36px 24px 12px 24px; font-famil=
+y: Helvetica, sans-serif; font-size: 24px; line-height: 32px; color: #fffff=
+f; font-weight: bold; text-align: center"> Looking to sell or trade? </td> =
+</tr> <tr> <td style=3D"padding: 0 59px 20px 59px;" class=3D"padding-left-p=
+-8 padding-right-p-8" align=3D"center"> <a href=3D"https://links.carvana.co=
+m/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bc=
+fe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHot7lA44Imk=
+xgAhcXtpYp5RlaS8joU88ZPaZVYL4rtX0cgSGVSC8TTVl0Acbt57HT0YjUSed5CSGXCVxZvnPqU=
+CLEDxaD8n01JUYv4_dljJ9kbl8Ji3G4L-blVIppQoxvIUK2KhV_NtK4xXRrQzfNZ7W_NoL7-Ybk=
+1eapqUR1AbXUY9uMafpjWDBsv7ODyyeSrLoMzuUYZf46lzOhsDhXdKb1WU2m-J9QPOHKdFeOSQ8=
+e0HTekBS9wp3JAXdaocNyGG_Qw1YOSI70pAuh7IZQA2e2snqFWc5mAA5Ju2kjguXbF-aXnOO5L7=
+I48Jll_FF1LuFv5-0l21absP3mQe5jOG08X0d1b9rMjiQtSULcI6HSw%3D%3D" target=3D"_b=
+lank"> <img class=3D"width-100" src=3D"https://d15k2d11r6t6rl.cloudfront.ne=
+t/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f=
+143299095170ca8054cb7/2021_500_woman.jpg" width=3D"400" style=3D"display: b=
+lock;"> </a> </td> </tr> <tr> <td class=3D"padding-left-p-8 padding-right-p=
+-8" style=3D"padding: 0 16.67% 36px 16.67%; font-family: Helvetica, sans-se=
+rif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: left">=
+ We provide a competitive offer upfront, and we make it easy to complete th=
+e process. With no hidden fees ever, no purchase necessary, and absolutely =
+no headaches, save time selling online. </td> </tr> <tr> <td style=3D"paddi=
+ng: 0 0 60px 0;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"> <tr> <td=
+ align=3D"center" vertical-align=3D"middle" class=3D"width-100 padding-left=
+-p-8 padding-right-p-8" style=3D"font-size:0px;padding:0 25px;padding-top:0=
+;word-break:break-word;"> <table class=3D"width-100" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:s=
+eparate;width:260px;line-height:100%;"> <tr> <td align=3D"center" bgcolor=
+=3D"#00aed9" role=3D"presentation" style=3D"border:none;border-radius:3px;c=
+ursor:auto;mso-padding-alt:17px 0px;background:#00aed9;" valign=3D"middle">=
+ <a href=3D"https://links.carvana.com/u/click?_t=3D21900be447f143299095170c=
+a8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1o=
+zWVA-qqjlW3yFnLTto3mkRKKzHot7lA44ImkxgAhcXtpYp5RlaS8joU88ZPaZVYL4rtX0cgSGVS=
+C8TTVl0Acbt57HT0YjUSed5CSGXCVxZvnPqUCLEDxaD8n01JUYv4_dljJ9kbl8Ji3G4L-blVIpp=
+QoxvIVnSvJOH0rFk7luAOzdaF5YXHVpCmDxBM3xX28tOoXBEpEpZJxADRysp-UvRDlB-HFU7cVR=
+nMVZhpJLynsJ9Vwepieq6I8fn-mowtqT1oBTJohbglJ3bYGhy4ubdLTtyqtr6Z4eNLxuvlq-FWa=
+6wmpbo25NGfH72syTcwiudE0wadRF1DPQD57YsrwRhTUsZx3ugHM5ejbEAwT2v3wMfhKbxwR12w=
+3Zj04wKj4Dn48vQg%3D%3D" style=3D"display:inline-block;width:260px;backgroun=
+d:#00aed9;color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:=
+14px;font-weight:bold;line-height:100%;margin:0;text-decoration:none;text-t=
+ransform:none;padding:17px 0px;mso-padding-alt:0px;border-radius:3px;" targ=
+et=3D"_blank" class=3D"width-100"> GET YOUR OFFER </a> </td> </tr> </table>=
+ </td> </tr> </table> </td> </tr> </table> </div> <!--[if mso | IE]></td></=
+tr></table><![endif]--> <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0"><tr><td height=3D"46">&nbsp;</td></tr></table> <!-- -- to exclude su=
+bhead, set this to false -- -- TO EXCLUDE A ROW, LEAVE ODD NUMBER BLANK [ve=
+hicleImgCats3ImgSrc ..5ImgSrc etc.] -- 264 width (2x =3D 528) -- FOR URLS U=
+SE utm_content=3Dveh_cat_1 [..2 ..3 etc.] -- --> <!-- recs header --> <!--[=
+if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"><tr><td style=3D=
+"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> =
+<div style=3D"background:#ffffff;background-color:#ffffff;margin:0px auto;m=
+ax-width:600px;"> <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"background:#ffffff;backgroun=
+d-color:#ffffff;width:100%;"> <tbody> <tr> <td style=3D"direction:ltr;font-=
+size:0px;padding:0px;text-align:center;"> <!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:middle;width:600px;"><![endif]--> <div class=
+=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-ali=
+gn:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%=
+;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"vertical-align:middle;" width=3D"100%"> <tbody> <tr> <td cl=
+ass=3D"padding-right-p-8 padding-left-p-8" align=3D"left" vertical-align=3D=
+"middle" style=3D"font-size:0px;padding:20px 8px 0 24px;word-break:break-wo=
+rd;"> <div style=3D"font-family:Helvetica, Arial, sans-serif;font-size:28px=
+;font-weight:bold;line-height:100%;text-align:left;color:#183558;">Vehicles=
+ you=E2=80=99ll love</div> </td> </tr> <!-- --> </tbody> </table> </div> <!=
+--[if mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbody> </table=
+> </div> <!--[if mso | IE]></td></tr></table><![endif]--> <!-- recs --> <!-=
+-[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"><tr><td style=
+=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-=
+-> <div style=3D"background:#ffffff;background-color:#ffffff;margin:0px aut=
+o;max-width:600px;"> <table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"background:#ffffff;backgr=
+ound-color:#ffffff;width:100%;"> <tbody> <tr> <td style=3D"border-top:0;dir=
+ection:ltr;font-size:0px;padding:0 0 0 0;text-align:center;"> <!--[if mso |=
+ IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:300px;"><![end=
+if]--> <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-s=
+ize:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:t=
+op;width:100%;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"> <tbody> <=
+tr> <td align=3D"center" class=3D"padding-right-p-8 padding-left-p-8" style=
+=3D"font-size:0px;padding:30px 12px 0 24px;word-break:break-word;"> <table =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"border-collapse:collapse;border-spacing:0px;"> <tbody> <tr> <td style=
+=3D"width:264px;" class=3D"width-100"> <a href=3D"https://links.carvana.com=
+/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcf=
+e1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4=
+eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIgz0jwtaH_EE62rU4FwRMROB=
+1nK7Mly68kX3HlMQMhJil1U0lGTfMTOE5gTH-up7txbdpj3OCNP92dmPHT47OIGhunAdxvw0cDR=
+Vf3U7uuFq_F8odecv0AQn51B7qZmjiTQRTDnOe-XpTIQUplk3k2uTyAhEf2Kv0yYR-PqF19ztre=
+F4yeWLugG_UUe2hR5E0f2aOSuOXzVVdcR3Wfz3NBAgLm1zlwhI9bD2oLzW925xVYZnMHbSeKBt4=
+aU1iAld9UrkRXZd61TP5rJ8Gc7qrmBarHcva2dSFfdhuHTGP-LiNswIh88uGCt4o8XRwibJTpRs=
+o7iJ50QuzYqvsBnqCk-zP0uWpN_xq_J440_v_pDtcj0H3GR6NSAdrVr9NC8jOYZw%3D" target=
+=3D"_blank"> <img alt=3D"Enable images to view this content." height=3D"aut=
+o" src=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/66=
+9d5713-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f143299095170ca8054cb7/2021_km=
+p_cats_no_counts2_01.jpg" style=3D"border:0;display:block;outline:none;text=
+-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"264" clas=
+s=3D"width-100"> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </=
+table> </div> <!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:top;width:300px;"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-g=
+roup-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inli=
+ne-block;vertical-align:top;width:100%;"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;=
+" width=3D"100%"> <tbody> <tr> <td align=3D"center" class=3D"padding-right-=
+p-8 padding-left-p-8" style=3D"font-size:0px;padding:30px 24px 0 12px;word-=
+break:break-word;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+;"> <tbody> <tr> <td style=3D"width:264px;" class=3D"width-100"> <a href=3D=
+"https://links.carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&am=
+p;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3=
+yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6d=
+mxIgz0jwtaH_EE62rU4FwRMROB1CE6PYcp14XVKPxCcESFDDmA_v4hQ4HECW75-LLX-RgetxRgK=
+ZFIoxynErVl_4koWbiCBNbgnvfZEgGxZobXhp-w7Ha94k2_A763tAF53zVBsL-7FKdmkqhh6DEV=
+2SZwv178NycHGtz6HPlEeMEbyE7MxIIj-KBcWxtemPezXk81l_8tVyxru3boKAHhvwQhM30mpQb=
+Ny3vwXzIU0BA_3fw4PcciqZWUD1uMg_s1Vnm9JjslzQVX0r0YbkjUoq1qddSAhNIIaS2h3Vd6uI=
+5n-qmQFrUegkYJ5jQC6-bSA-rkyNtkUP_sctQZbFdoj9NPeHL5sxG8A0v1qxIErKrExUU_bhMCr=
+xTH1PGR52TtnDve21lhx2Bh4dLl55yX6GT1Z" target=3D"_blank"> <img alt=3D"Enable=
+ images to view this content." height=3D"auto" src=3D"https://d15k2d11r6t6r=
+l.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6d=
+d6a/21900be447f143299095170ca8054cb7/2021_kmp_cats_no_counts2_02.jpg" style=
+=3D"border:0;display:block;outline:none;text-decoration:none;height:auto;wi=
+dth:100%;font-size:13px;" width=3D"264" class=3D"width-100"> </a> </td> </t=
+r> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]=
+></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[i=
+f mso | IE]></td></tr></table><![endif]--> <!-- --> <!--[if mso | IE]><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"" style=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px=
+;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div style=3D"ba=
+ckground:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;"=
+> <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"background:#ffffff;background-color:#ffffff;=
+width:100%;"> <tbody> <tr> <td style=3D"border-top:0;direction:ltr;font-siz=
+e:0px;padding:0 0 0 0;text-align:center;"> <!--[if mso | IE]><table role=3D=
+"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td cla=
+ss=3D"" style=3D"vertical-align:top;width:300px;"><![endif]--> <div class=
+=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0px;text-alig=
+n:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"> =
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"vertical-align:top;" width=3D"100%"> <tbody> <tr> <td align=3D"=
+center" class=3D"padding-right-p-8 padding-left-p-8" style=3D"font-size:0px=
+;padding:30px 12px 0 24px;word-break:break-word;"> <table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-colla=
+pse:collapse;border-spacing:0px;"> <tbody> <tr> <td style=3D"width:264px;" =
+class=3D"width-100"> <a href=3D"https://links.carvana.com/u/click?_t=3D2190=
+0be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;=
+_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I=
+6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIgz0wCKFf7-8Beox6LluS5uIHoi2b4owzAhZTHj4TT=
+AqhNzKZx4DzLpLw5bpjzf5-yK61PdBiWQ1ZkbIj9fz9HPnesU53fMty8uj2RyyyMMvj00UYX8Yi=
+SBYfb_uiZHfFxtv1tTD18pKdqTNX_h0kX5rQ1XnMxorPMPfaKniBluOb7X6vElLwsRcxj3RTae9=
+BPDfbECDFrTCIDVnvp7SnsG6Ihg-wL3d499lNH_vM_fpDivSMDvfkR2G8EzdTpQSjkyJcEm9oGI=
+w5jijLfFbu_eyKqNhKoHJWioGyf6eelBJ9-de9ZKlegY8mIaWV8QTimmqeoZj_xMWdD7NVpprTw=
+jfvSnLOgBylRJJT7PHsiqAiJCyqIFuKoJsRHFY4iDJ22kT2e1wI4td9GmLZZds0G0B9" target=
+=3D"_blank"> <img alt=3D"Enable images to view this content." height=3D"aut=
+o" src=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/66=
+9d5713-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f143299095170ca8054cb7/2021_km=
+p_cats_no_counts2_03.jpg" style=3D"border:0;display:block;outline:none;text=
+-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"264" clas=
+s=3D"width-100"> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </=
+table> </div> <!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:top;width:300px;"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-g=
+roup-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inli=
+ne-block;vertical-align:top;width:100%;"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;=
+" width=3D"100%"> <tbody> <tr> <td align=3D"center" class=3D"padding-right-=
+p-8 padding-left-p-8" style=3D"font-size:0px;padding:30px 24px 0 12px;word-=
+break:break-word;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+;"> <tbody> <tr> <td style=3D"width:264px;" class=3D"width-100"> <a href=3D=
+"https://links.carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&am=
+p;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3=
+yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6d=
+mxIgz0jwtaH_EE62rU4FwRMROB1p9wyZcO6yrE2eUSFgwtKA5sGwz_qz5kA1u0KyGeIYi3oh2Xd=
+a5Su8mOGTnU-B-TFTmW9c3jlMgvxy7g42kKDWPdZX8gzS6rAVR-S5aAtsKmXQDY1cc_Rd5mISM3=
+31OPnGj-xTbskGirlWo7_A_8HwAs3eoJC1n6m0H63Lqr1uX3CkVn5hjVYufzXJBbDNxo9wLEA0G=
+HB7-UQwsDzzS-J-ai77ktAeafsimq_MVzcfmLcsg_JgNUhsJLHSe-s6tL4wC9nHp10680EmC0qX=
+EpYJTktTpjkFROtYAFrRJ2kp_cJoIvScEJGfYeWC_3-CeOX3edeZbVkv2DAwXcangDhsB6wQmH2=
+Dtyi-IxaNQNXENX78Ec4ytYdynXSg3AJAVco" target=3D"_blank"> <img alt=3D"Enable=
+ images to view this content." height=3D"auto" src=3D"https://d15k2d11r6t6r=
+l.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6d=
+d6a/21900be447f143299095170ca8054cb7/2021_kmp_cats_no_counts2_04.jpg" style=
+=3D"border:0;display:block;outline:none;text-decoration:none;height:auto;wi=
+dth:100%;font-size:13px;" width=3D"264" class=3D"width-100"> </a> </td> </t=
+r> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]=
+></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[i=
+f mso | IE]></td></tr></table><![endif]--> <!----><!-- --> <!--[if mso | IE=
+]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:600px;" width=3D"600"><tr><td style=3D"line-heigh=
+t:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div style=
+=3D"background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:6=
+00px;"> <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#ffffff;background-color:#=
+ffffff;width:100%;"> <tbody> <tr> <td style=3D"border-top:0;direction:ltr;f=
+ont-size:0px;padding:0 0 0 0;text-align:center;"> <!--[if mso | IE]><table =
+role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr>=
+<td class=3D"" style=3D"vertical-align:top;width:300px;"><![endif]--> <div =
+class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100=
+%;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"vertical-align:top;" width=3D"100%"> <tbody> <tr> <td alig=
+n=3D"center" class=3D"padding-right-p-8 padding-left-p-8" style=3D"font-siz=
+e:0px;padding:30px 12px 0 24px;word-break:break-word;"> <table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-=
+collapse:collapse;border-spacing:0px;"> <tbody> <tr> <td style=3D"width:264=
+px;" class=3D"width-100"> <a href=3D"https://links.carvana.com/u/click?_t=
+=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e=
+71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGd=
+nvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIgz1B39GLYasWT5p19RhTlUk1YReu2-W-l4=
+u_mP0BRpb1cjIdL81i15t9ENWIqaHsn2MNWaMiBDFfjSfqi6RceSJPoSKHYI2TRqytGT1TiSCeb=
+aPJLg0csHfInKJZdwLCMD0ib1Y6fXOE-vDnYg9l5sXufQ3AFeFSdHpRoJ_3PTOvOAmlxHwW4dkE=
+pJzTvTt270qqYEl-5hicr1Vwx4WaQWEtHkVIflGbDmlcYyXIrIJkBq5dKZJ5D3MxqMZRHdhIcOH=
+iqSd0B_xIRnAOw7M_SpKfmUvLMO3FT2b1rd5y4et1LNrz5JfYpWqZzP7BJRrEZWR2PUOIBW_mkx=
+Qspbwihse8LW59laNlW44VGlPtrue-LpqrKsF5ugWtg2oeWMNAg7pJ0XP3QDJ-loffcewe7zr6O=
+uUWrp1kieaTOiNjsSoHf5fq7PsAyP27qGHc-VqZ6tWVv9-bX6eMk2ch-1K6Qy_8" target=3D"=
+_blank"> <img alt=3D"Enable images to view this content." height=3D"auto" s=
+rc=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d57=
+13-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f143299095170ca8054cb7/2021_kmp_ca=
+ts_no_counts2_05.jpg" style=3D"border:0;display:block;outline:none;text-dec=
+oration:none;height:auto;width:100%;font-size:13px;" width=3D"264" class=3D=
+"width-100"> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tabl=
+e> </div> <!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align:top=
+;width:300px;"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-group=
+-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-b=
+lock;vertical-align:top;width:100%;"> <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" widt=
+h=3D"100%"> <tbody> <tr> <td align=3D"center" class=3D"padding-right-p-8 pa=
+dding-left-p-8" style=3D"font-size:0px;padding:30px 24px 0 12px;word-break:=
+break-word;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"> <=
+tbody> <tr> <td style=3D"width:264px;" class=3D"width-100"> <a href=3D"http=
+s://links.carvana.com/u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=
+=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnL=
+Tto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yneFYp4JuxKy3Dj6dmxIg=
+z0jwtaH_EE62rU4FwRMROB17n_St-y1c7jpEK0mtnCdDJlWRvLsgbsTTWGIGZhJp7WL9DS4bItV=
+JYucRiqa3nCfmNEhXbxBwG-f4xZxwLD0wA6Yvu8lQzvToThouthqTPoY1G7eMAiH-YCHkpOkpUN=
+i-I-vbUQ_Dl6t_tTP1ajgPq9ATqqNkz6ghmqqAkYddaQkwnRXbOn_W5iDcJ8Dwezys2CmfIFATl=
+CKtsP3Bpv76OM4tb75yFbtTmr0FfH_YPalJlaQVDZo-It5khIZUqScsBYgo8595SsMBnnkpqTug=
+B9bb1cP_1HmsRcXFN30gqsgdn9ewLdXYdVqM8l6BfHfVOPcdyrB1hDraHwGhPacdfCbSiAZMnWF=
+1Uiux6KrMuqOx7wO7Heg5d4003OmT3KuOpvNiZXoZ6WI9Z__7QA8zw%3D%3D" target=3D"_bl=
+ank"> <img alt=3D"Enable images to view this content." height=3D"auto" src=
+=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713=
+-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f143299095170ca8054cb7/2021_kmp_cats=
+_no_counts2_06.jpg" style=3D"border:0;display:block;outline:none;text-decor=
+ation:none;height:auto;width:100%;font-size:13px;" width=3D"264" class=3D"w=
+idth-100"> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>=
+ </div> <!--[if mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbod=
+y> </table> </div> <!--[if mso | IE]></td></tr></table><![endif]--> <!---->=
+<!-- final CTA --> <!--[if mso | IE]><table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;"><![endif]--> <div style=3D"background:#ffffff;background-color:=
+#ffffff;margin:0px auto;max-width:600px;"> <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ackground:#ffffff;background-color:#ffffff;width:100%;"> <tbody> <tr> <td s=
+tyle=3D"direction:ltr;font-size:0px;padding:40px 0 0;text-align:center;"> <=
+!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:60=
+0px;"><![endif]--> <div class=3D"mj-column-per-100 mj-outlook-group-fix" st=
+yle=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;ver=
+tical-align:top;width:100%;"> <table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100=
+%"> <tbody> <tr> <td class=3D"width-100 padding-left-p-8 padding-right-p-8"=
+ align=3D"center" vertical-align=3D"middle" class=3D"width-230" style=3D"fo=
+nt-size:0px;padding:10px 25px;word-break:break-word;"> <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-c=
+ollapse:separate;width:250px;line-height:100%;" class=3D"width-100"> <tr> <=
+td align=3D"center" bgcolor=3D"#00aed9" role=3D"presentation" style=3D"bord=
+er:none;border-radius:3px;cursor:auto;mso-padding-alt:17px 0px;background:#=
+00aed9;" valign=3D"middle"> <a href=3D"https://links.carvana.com/u/click?_t=
+=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e=
+71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGd=
+nvKZz5I6h9vqDsu1Sgze_yhTHZjw3_MNjQxIGTzn9DXs58BA4sxHnUan6SruRyo43diIYJ6IiUg=
+Rb4POPz-e2loMVA_6RlBq6-U4vhOFv2NG-feMxTNrN6wC9Q1dAuRCzGVrkUnsbsXPAPqplplVB9=
+ESCSjAnb13SE0kG6vN0DOna-gzJ5AsJ5A-TLT9BRcap_TPSdNKyRZLEc9g55I9aiXdzZiHxgJID=
+CRO-N1CwE4CWvPfYcHff2Gu5-R9rCCOsoLDfinjzwEf3f2LEFhAx1rur02GuYRoJY67C22bX0q1=
+grkPXjB93v7VD6cEnY7lfLP26sx5pOC1fZcezE2XyJqPZXyxs1xjhZ7lklC5OmcJ2hnl4wakPfW=
+xjF0wKmEWY_WC6EKG4nrTK7-AqHjKiRA%3D%3D" style=3D"display:inline-block;width=
+:250px;background:#00aed9;color:#ffffff;font-family:Ubuntu, Helvetica, Aria=
+l, sans-serif;font-size:14px;font-weight:bold;line-height:100%;margin:0;tex=
+t-decoration:none;text-transform:none;padding:17px 0px;mso-padding-alt:0px;=
+border-radius:3px;" target=3D"_blank" class=3D"width-100"> SEARCH ALL VEHIC=
+LES </a> </td> </tr> </table> </td> </tr> </tbody> </table> </div> <!--[if =
+mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </di=
+v> <!--[if mso | IE]></td></tr></table><![endif]--> <!-- --> <!--[if mso | =
+IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"" style=3D"width:600px;" width=3D"600"><tr><td style=3D"line-hei=
+ght:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div styl=
+e=3D"background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:=
+600px;"> <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#ffffff;background-color:#=
+ffffff;width:100%;"> <tbody> <tr> <td style=3D"direction:ltr;font-size:0px;=
+padding:50px 0 0 0;text-align:center;"> <!--[if mso | IE]><table role=3D"pr=
+esentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=
+=3D"" style=3D"vertical-align:top;width:600px;"><![endif]--> <div class=3D"=
+mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:l=
+eft;direction:ltr;display:inline-block;vertical-align:top;width:100%;"> <ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"vertical-align:top;" width=3D"100%"> <tbody> <!----> <tr> <td alig=
+n=3D"center" style=3D"font-size:0px;padding:0;word-break:break-word;"> <tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"border-collapse:collapse;border-spacing:0px;"> <tbody> <tr> <td sty=
+le=3D"width:104px;" align=3D"center"> <a href=3D"https://links.carvana.com/=
+u/click?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe=
+1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHotUYUcB_vDfp=
+wXki_Rb9XkXsE62orkFTtkZw14-lh9lnYEP_3ve7oVvfwtgMUPswey9a4UUS6GCa20uEcgbOHo5=
+0Eo50l6Q08DHKA_jjKsHiMUoynsulRrcPUUhEGt-ryM3YCMIqc2EKVuEJryp0utUXYfdegahTOA=
+irR7yYJFXBX3eBiyiZK6unD4vBA1sTssRQe5alUcMueQ_zwI7tL1N-1rFuTpIXJBTNDJBz4idMv=
+Ctq4mA3WO6YxBjzQCJGouq1SgPkVTgz_qCXNlOPcsDUnjqRattppSiqm6whsAnOqmra4QFA1g9x=
+BViNWgYIxE7M3W0ius10feGbOWiOFLYcu8BqXTYM2gNhsZKU2SBTYk9AMN13BmgZL5rMDpUssM%=
+3D" target=3D"_blank"> <img alt=3D"Enable images to view this content." hei=
+ght=3D"auto" src=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Inte=
+grators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/21900be447f143299095170ca8054c=
+b7/2021_car_gif_icon.gif" style=3D"border:0;display:block;outline:none;text=
+-decoration:none;height:auto;width:104px;font-size:13px;" width=3D"104px"> =
+</a> </td> </tr> </tbody> </table> </td> </tr> <!-- --> <tr> <td class=3D"p=
+adding-left-p-8 padding-right-p-8" align=3D"center" style=3D"font-size:0px;=
+padding:20px 16.67% 0 16.67%;word-break:break-word;"> <div style=3D"font-fa=
+mily:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-heig=
+ht:144%;text-align:center;color:#183558;">Real terms in real time</div> </t=
+d> </tr> <tr> <td class=3D"padding-left-p-8 padding-right-p-8" align=3D"lef=
+t" style=3D"font-size:0px;padding:22px 16.67% 0 16.67%;word-break:break-wor=
+d;"> <div style=3D"font-family:Helvetica, Arial, sans-serif;font-size:16px;=
+font-weight:normal;line-height:150%;text-align:left;color:#757989;">Get pre=
+-qualified in 2 minutes without impacting your credit score! It=E2=80=99s f=
+ast, we offer competitive rates, and your terms are completely personalized=
+.</div> </td> </tr> <!----> <tr> <td align=3D"center" vertical-align=3D"mid=
+dle" class=3D"width-100 padding-left-p-8 padding-right-p-8" style=3D"font-s=
+ize:0px;padding:40px 0 0 0;word-break:break-word;"> <table class=3D"width-1=
+00" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;width:260px;line-height:100%;"> <tr> <td =
+align=3D"center" bgcolor=3D"#00aed9" role=3D"presentation" style=3D"border:=
+none;border-radius:3px;cursor:auto;mso-padding-alt:17px 0px;background:#00a=
+ed9;" valign=3D"middle"> <a href=3D"https://links.carvana.com/u/click?_t=3D=
+21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&=
+amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHotUYUcB_vDfpwXki_Rb9XkXsE=
+62orkFTtkZw14-lh9lnYEP_3ve7oVvfwtgMUPswey9a4UUS6GCa20uEcgbOHo50Eo50l6Q08DHK=
+A_jjKsHiMUoynsulRrcPUUhEGt-ryM3YCMIqc2EKVuEJryp0utUXYfdegahTOAirR7yYJFXBZz2=
+mLMEPMGPoUQNLO2lYYG2COkt3ofsFrvVO2HKaNU7KKNBR6AnFYzBewUXhTVNfWORoFyy_KbnvO6=
+xGtPVlK93GbcCppd2toyWydCHnO3vCCLYMiauOeI8HBdKpb175min1Hw2J51pgxwMk-B4f-lQFj=
+MtSP4jbxpMuLUgKmUpvSTO13-tWhZh5iVfnirFp6DHnEes3H9UIuTLe8ga_D8%3D" style=3D"=
+display:inline-block;width:260px;background:#00aed9;color:#ffffff;font-fami=
+ly:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;lin=
+e-height:100%;margin:0;text-decoration:none;text-transform:none;padding:17p=
+x 0px;mso-padding-alt:0px;border-radius:3px;" target=3D"_blank"> GET PRE-QU=
+ALIFIED </a> </td> </tr> </table> </td> </tr> <!----> </tbody> </table> </d=
+iv> <!--[if mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbody> <=
+/table> </div> <!--[if mso | IE]></td></tr></table><![endif]--> <!-- --> <!=
+--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"> <tr> <td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif=
+]--> <div style=3D"background:#ffffff;background-color:#ffffff;margin:0px a=
+uto;max-width:600px;"> <table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#ffffff;back=
+ground-color:#ffffff;width:100%;"> <tbody> <tr> <td class=3D"padding-right-=
+p-8 padding-left-p-8" style=3D"direction:ltr;font-size:0px;padding:54px 24p=
+x 60px 24px;text-align:center;"> <!--[if mso | IE]><table role=3D"presentat=
+ion" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"> <tr><![endif]--> <di=
+v style=3D"width: 100%"> <table cellpadding=3D"0" border=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width: 100%" width=3D"100%" align=3D"=
+center"> <tr> <td style=3D"border-top: 1px solid #D9DDE9; font-size: 1px !i=
+mportant; padding: 0" align=3D"center">&nbsp;</td> </tr> </table> </div> <!=
+--[if mso | IE]></tr> </table><![endif]--> </td> </tr> </tbody> </table> </=
+div> <!--[if mso | IE]></td> </tr> </table><![endif]--> <!-- --> <!--[if ms=
+o | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"> <tr> <td style=3D"l=
+ine-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <d=
+iv style=3D"background:#ffffff;background-color:#ffffff;margin:0px auto;max=
+-width:600px;"> <table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"background:#ffffff;background-=
+color:#ffffff;width:100%;"> <tbody> <tr> <td style=3D"direction:ltr;font-si=
+ze:0px;padding:0 0 60px 0;text-align:center;"> <!--[if mso | IE]><table rol=
+e=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"> <tr> <=
+td class=3D"" style=3D"vertical-align:top;width:600px;"><![endif]--> <div c=
+lass=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100=
+%;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"vertical-align:top;" width=3D"100%"> <tr> <td class=3D"pad=
+ding-left-p-8 padding-right-p-8" align=3D"left" style=3D"font-size:0px;padd=
+ing:0 24px;word-break:break-word;"> <div style=3D"font-family:Helvetica, Ar=
+ial, sans-serif;font-size:12px;font-weight:normal;line-height:133%;text-ali=
+gn:left;color:#757989;">*Savings amount based on the difference between Kel=
+ley Blue Book=C2=AE Suggested Retail Value and current Carvana listing pric=
+e, not including tax, title, registration, or delivery charges. Average sav=
+ings based on similar, selected Carvana vehicles that are eligible for this=
+ special pricing.<br><br>Additional steps and time may be required based on=
+ your location and the location of purchase, including the process of regis=
+tration, title transfer, and the amount of time required for delivery. Plea=
+se keep in mind that unexpected events may arise that cause delays in deliv=
+ery, such as inclement weather.</div> </td> </tr> </table> </div> <!--[if m=
+so | IE]></td> </tr> </table><![endif]--> </td> </tr> </tbody> </table> </d=
+iv> <!--[if mso | IE]></td> </tr> </table><![endif]--> <!-- --> <!-- footer=
+ --> <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"> <tr> =
+<td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><=
+![endif]--> <div style=3D"background:#183558;background-color:#183558;margi=
+n:0px auto;max-width:600px;"> <table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#1835=
+58;background-color:#183558;width:100%;"> <tbody> <tr> <td style=3D"directi=
+on:ltr;font-size:0px;padding:25px 0 0 0;text-align:center;"> <!--[if mso | =
+IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0"> <tr> <td class=3D"" width=3D"600px"> <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600"> <tr> <td style=3D"line-height:0px;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]--> <div style=3D"margin:0px auto;max-width:6=
+00px;"> <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;"> <tbody> <tr> <td style=
+=3D"direction:ltr;font-size:0px;padding:0 0 0 0;text-align:center;"> <!--[i=
+f mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0"> <tr> <td class=3D"" style=3D"vertical-align:top;width:600px=
+;"><![endif]--> <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:100%;"> <table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">=
+ <tr> <td align=3D"center" class=3D"font-10" style=3D"font-size:0px;padding=
+:0 32px;word-break:break-word;"> <div style=3D"font-family:Helvetica, Arial=
+, sans-serif;font-size:12px;line-height:125%;text-align:center;color:#AAB1C=
+7;"><span style=3D"color:#AAB1C7">=C2=A92021 Carvana.com All Rights Reserve=
+d.<br>1930 W Rio Salado Pkwy Tempe, AZ 85281.</span><!-- --><br><br>You rec=
+eived this email on September 03, 2021 because you are registered on Carvan=
+a=E2=80=99s mailing list with the email address <a href=3D"mailto:nigel.agw=
+ah@outlook.com" style=3D"color: #00aed9; text-decoration: none">nigel.agwah=
+@outlook.com</a>.<!-- --></div> </td> </tr> </table> </div> <!--[if mso | I=
+E]></td> </tr> </table><![endif]--> </td> </tr> </tbody> </table> </div> <!=
+--[if mso | IE]></td> </tr> </table> </td> </tr> </table><![endif]--> </td>=
+ </tr> </tbody> </table> </div> <!--[if mso | IE]></td> </tr> </table> <tab=
+le align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"" style=3D"width:600px;" width=3D"600"> <tr> <td style=3D"line-height:0=
+px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div style=3D"=
+background:#183558;background-color:#183558;margin:0px auto;max-width:600px=
+;"> <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#183558;background-color:#18355=
+8;width:100%;"> <tbody> <tr> <td style=3D"direction:ltr;font-size:0px;paddi=
+ng:0 0 25px 0;text-align:center;"> <!--[if mso | IE]><table role=3D"present=
+ation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"> <tr> <td class=3D"=
+" width=3D"600px"> <table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"> <tr> <td =
+style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![en=
+dif]--> <div style=3D"background:#183558;background-color:#183558;margin:0p=
+x auto;max-width:600px;"> <table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#183558;=
+background-color:#183558;width:100%;"> <tbody> <tr> <td style=3D"direction:=
+ltr;font-size:0px;padding:0 12% 0 12%;text-align:center;"> <!--[if mso | IE=
+]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0"> <tr> <td class=3D"" style=3D"width:288px;"><![endif]--> <div class=
+=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0;line-height=
+:0;text-align:left;display:inline-block;width:100%;direction:ltr;"> <!--[if=
+ mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation"> <tr> <td style=3D"vertical-align:top;width:144px;"><![endif]=
+--> <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;=
+width:50%;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"> <tr> <td al=
+ign=3D"center" style=3D"font-size:0px;padding:20px 0 0 0;word-break:break-w=
+ord;"> <div style=3D"font-family:Helvetica, Arial, sans-serif;font-size:12p=
+x;font-weight:normal;line-height:1;text-align:center;text-decoration:none;c=
+olor:#00aed9;"><a href=3D"https://links.carvana.com/u/click?_t=3D21900be447=
+f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DT=
+HHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHoupwlX69TVz94iGipO-UxjqDqdslyklSr40=
+ZWxzHZrNzspS2Mf1lfTrhqF4vQSOyOjWYjMV6W3bsW7itAJ7e6r7XeDPKXg7KzUCjlEkW2yYYpw=
+eA05yiUAXRZ_vlhApbzCH6leZLXibJH9a4BB4YYytusKJJQCbODZtGQN84wnZC_-z7faWxdCznE=
+HeJUv9BsuZccfsAvxs9nBDt8y3T3aQt8Adg9kG6zLe-SFT2UlGtZvNvMSygP8y79tW1s07ibsrk=
+F1TP20dvBA2Z8lJTMAGD__yArB3BzUaJYDmQKD-g9jtA-7PNx8N0_37po5BkL_IKfVzfLxjxUOH=
+qI3eTaSXElyuHbr7Wmp5XYjb9zDtEA%3D%3D" target=3D"_blank" style=3D"color: #00=
+aed9; text-decoration: none">Privacy Policy</a></div> </td> </tr> </table> =
+</div> <!--[if mso | IE]></td> <td style=3D"vertical-align:top;width:144px;=
+"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:50%;"> <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"> =
+<tr> <td align=3D"center" style=3D"font-size:0px;padding:20px 0 0 0;word-br=
+eak:break-word;"> <div style=3D"font-family:Helvetica, Arial, sans-serif;fo=
+nt-size:12px;font-weight:normal;line-height:1;text-align:center;text-decora=
+tion:none;color:#00aed9;"><a href=3D"https://links.carvana.com/u/click?_t=
+=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e=
+71&amp;_e=3DTHHZTIAzOqqhx1ozWVA-qqjlW3yFnLTto3mkRKKzHosPicGXPbb8leDMD_960lD=
+nCHHlsdmBfYKoEtGoRlx_vPOWc2T5c24le75nvK7b4y6DcPIz89VwBeD3znSByl7tjNF4ke7-39=
+8AvyeNUy1P6XsWVUuKBT7ZTvjFlFNJ5FEm8fViSIjmZrY1xNic0Eg6UxsPpnFmrNsaU9QIrMGoM=
+VMTdr9bl5eU5Fo90zTehZ-kp6iI8FvPbPWs_Uw3dZMJchxHAUKE67ZgcHtY5QEnSUmJQO-iDC77=
+0zM6WeSU7kyXsT3vTjB4nubblsKFA5cjGMj-L1pvjAhHA_kOgykZ1N6Clb3GWe0BtmM5A-aHWsM=
+BGQIecdhwwk1bMAD32D8TM0cRUmGlzZtCNZLDZFithA%3D%3D" target=3D"_blank" style=
+=3D"color: #00aed9; text-decoration: none">Terms of Service</a></div> </td>=
+ </tr> </table> </div> <!--[if mso | IE]></td> </tr> </table><![endif]--> <=
+/div> <!--[if mso | IE]></td> <td class=3D"" style=3D"width:288px;"><![endi=
+f]--> <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-si=
+ze:0;line-height:0;text-align:left;display:inline-block;width:100%;directio=
+n:ltr;"> <!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation"> <tr> <td style=3D"vertical-align:top;width:1=
+44px;"><![endif]--> <div class=3D"mj-column-per-50 mj-outlook-group-fix" st=
+yle=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;ver=
+tical-align:top;width:50%;"> <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%=
+"> <tr> <td align=3D"center" style=3D"font-size:0px;padding:20px 0 0 0;word=
+-break:break-word;"> <!-- --> <div style=3D"font-family:Helvetica, Arial, s=
+ans-serif;font-size:12px;font-weight:normal;line-height:1;text-align:center=
+;text-decoration:none;color:#00aed9;"><a href=3D"https://links.carvana.com/=
+e/encryptedUnsubscribe?_r=3D21900be447f143299095170ca8054cb7&amp;_s=3Da6ed9=
+5c3a3a64ea2bcfe1c0332342e71&amp;_t=3DDNDC90IMoc_SgY1fo75TxkhGgAqQPWHw53JeEi=
+naI6zZ9voP-WzpX5eBpJ7Pbec3Z51CEUqsUhVZWRQpiHizelmfbwSYWE3f9TUTzPw95Fa__3fgn=
+fARmRGQ-HH9zocqmzdigKfbkVEv1d0z75z31sFWPQG6AOVSYPT-COh5TTHf_Snekg9Dz8NnRis2=
+8Z8BIGr_kCpRTmiNuyaIveKuqWp6LzhiCKTadg4cmYYq_Jk%3D&amp;utm_content=3Dfooter=
+_unsub" target=3D"_blank" style=3D"color: #00aed9; text-decoration: none">U=
+nsubscribe</a></div> <!-- --> </td> </tr> </table> </div> <!--[if mso | IE]=
+></td> <td style=3D"vertical-align:top;width:144px;"><![endif]--> <div clas=
+s=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0px;text-ali=
+gn:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;"> =
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"vertical-align:top;" width=3D"100%"> <tr> <td align=3D"center" =
+style=3D"font-size:0px;padding:20px 0 0 0;word-break:break-word;"> <div sty=
+le=3D"font-family:Helvetica, Arial, sans-serif;font-size:12px;font-weight:n=
+ormal;line-height:1;text-align:center;text-decoration:none;color:#00aed9;">=
+<a href=3D"https://links.carvana.com/u/click?_t=3D21900be447f143299095170ca=
+8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1c0332342e71&amp;_e=3DTHHZTIAzOqqhx1oz=
+WVA-qqjlW3yFnLTto3mkRKKzHouXlwlt3sb4eBpeNAOcbGdnvKZz5I6h9vqDsu1Sgze_yhTHZjw=
+3_MNjQxIGTzn9DXvcOxDltA3TXj4VZdPh4_c9xG4IkCtejI1P4Ti1shPNYCLZQmquuWxW_ysAc9=
+yb0HgANOW-NruXRdth33n3PYzI-oVzy3jLcgxh1tQQuDDO5OiBpPkDW8VIAmcpERKKlPInvG5jf=
+NEUfJcVrhlRJ57h7e9lXcNp3VKCRWFexWRxAqON4Y5-wSVpjRBYjMelMnyuHh5EaXGL8Vo7tkKl=
+hjVuv4KTnhsmVAGktlumpt6ye0Tl6yKkWTtrnv7Jq7vM1i0BigHypny3MwhUGTX5ArnbHLNp1lz=
+TM2tFl0TovfZeIpyi8hvn9Io2kEFNfQ4IWdTAxi_9mq4DAu3V6Ovc4RIdjNYgPCgperfJNXg5Hi=
+uZPw0Ty4M2-Ftc8Eu4-o92vvY%3D" target=3D"_blank" style=3D"color: #00aed9; te=
+xt-decoration: none">Chat with Us</a></div> </td> </tr> </table> </div> <!-=
+-[if mso | IE]></td> </tr> </table><![endif]--> </div> <!--[if mso | IE]></=
+td> </tr> </table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if=
+ mso | IE]></td> </tr> </table> </td> </tr> </table><![endif]--> </td> </tr=
+> </tbody> </table> </div> <!--[if mso | IE]></td> </tr> </table><![endif]-=
+-> <!-- spacer --> <!--[if mso | IE]><table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600"> <tr> <td style=3D"line-height:0px;font-size:0px;mso-line-height-r=
+ule:exactly;"><![endif]--> <div style=3D"background:#ffffff;background-colo=
+r:#ffffff;margin:0px auto;max-width:600px;"> <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ackground:#ffffff;background-color:#ffffff;width:100%;"> <tbody> <tr> <td s=
+tyle=3D"direction:ltr;font-size:0px;padding:3px 0 3px 0;text-align:center;"=
+> <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"> <tr> <td class=3D"" style=3D"vertical-align:top;w=
+idth:600px;"><![endif]--> <div class=3D"mj-column-per-100 mj-outlook-group-=
+fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"> <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=
+=3D"100%"> <tr> <td align=3D"center" style=3D"font-size:0px;padding:10px 25=
+px;word-break:break-word;"> <div style=3D"font-family:Arial;font-size:12px;=
+line-height:1;text-align:center;color:#000000;"><a href=3D"https://links.ca=
+rvana.com/e/evib?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a=
+64ea2bcfe1c0332342e71&amp;_e=3DDNDC90IMoc_SgY1fo75TxkhGgAqQPWHw53JeEinaI6x7=
+hZOHwcDtDU2z8-M87TPnAQ_ePwhR4nbL3k5Nvnu3scWS2NMhLx7Rgnod8rGcGLRIOz_wJR8qINp=
+Io2FbZrAI&amp;utm_content=3Dfooter_browser" target=3D"_blank" style=3D"text=
+-decoration: none; color: #00aed9; font-family: Arial, sans-serif; font-siz=
+e: 12px">View this email in your browser</a></div> <!----><div id=3D"subjec=
+tLine" style=3D"display:none;font-size:1px;color:#654321;line-height:1px;ma=
+x-height:0px;max-width:0px;opacity:0;overflow:hidden;">=F0=9F=9A=97 Nigel, =
+You=E2=80=99re Getting Great Deals THIS Labor Day</div><!----> </td> </tr> =
+</table> </div> <!--[if mso | IE]></td> </tr> </table><![endif]--> </td> </=
+tr> </tbody> </table> </div> <!--[if mso | IE]></td> </tr> </table><![endif=
+]--> </td> </tr> </div> </body> </html><img src=3D"https://links.carvana.co=
+m/e/eo?_t=3D21900be447f143299095170ca8054cb7&amp;_m=3Da6ed95c3a3a64ea2bcfe1=
+c0332342e71&amp;_e=3DDNDC90IMoc_SgY1fo75TxkhGgAqQPWHw53JeEinaI6zZ9voP-WzpX5=
+eBpJ7Pbec3Z51CEUqsUhVZWRQpiHizelmfbwSYWE3f9TUTzPw95FZn7pO27d4U_9DLjGF6NHB7k=
+PDRII7jL947ejHBen0rDoUebrcOBTwfvvf-o1I1kSLRwuzxgewk0BTlFEmwx-P4" style=3D"b=
+order:0;width:1px;height:1px;border-width:0px!important;display:none!import=
+ant;line-height:0!important;" width=3D"1" height=3D"1">
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"http://post.spma=
+iltechnolo.com/q/4iGQ1JJoIZHMhz6X-aMwaQ~~/AARGbAA~/RgRjFNIMPlcDc3BjQgphMQxN=
+MmEYikiKUhduaWdlbC5hZ3dhaEBvdXRsb29rLmNvbVgEAAAAGA~~">
+
+--_----NNbW2SCr3oPkhfpzbvlScg===_24/A8-03061-C0D42316--

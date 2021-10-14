@@ -1,0 +1,1058 @@
+Received: from DF4PR8401MB0794.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7607::20) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Mon, 20 Sep 2021 18:53:19 +0000
+Received: from OL1P279CA0015.NORP279.PROD.OUTLOOK.COM (2603:10a6:e10:12::20)
+ by DF4PR8401MB0794.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7607::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.16; Mon, 20 Sep
+ 2021 18:53:18 +0000
+Received: from HE1EUR01FT026.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:e10:12:cafe::9e) by OL1P279CA0015.outlook.office365.com
+ (2603:10a6:e10:12::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.14 via Frontend
+ Transport; Mon, 20 Sep 2021 18:53:17 +0000
+Authentication-Results: spf=pass (sender IP is 68.232.192.176)
+ smtp.mailfrom=bounce.email.microsoft365.com; outlook.com; dkim=pass
+ (signature was verified) header.d=email.microsoft365.com;outlook.com;
+ dmarc=pass action=none header.from=email.microsoft365.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.email.microsoft365.com designates 68.232.192.176 as permitted sender)
+ receiver=protection.outlook.com; client-ip=68.232.192.176;
+ helo=mta2.email.office.com;
+Received: from mta2.email.office.com (68.232.192.176) by
+ HE1EUR01FT026.mail.protection.outlook.com (10.152.0.158) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4523.14 via Frontend Transport; Mon, 20 Sep 2021 18:53:17 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:6FFB83F1A8596335194769BAACDFF5D687E7EFC0C7CDE93AF155A07378C7EE19;UpperCasedChecksum:033117064ED62467B49591BACD3B2F1A053B8CB451F30586D05DD76D4D85C26C;SizeAsReceived:1774;Count:17
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=email.microsoft365.com;
+ h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:
+ Reply-To:List-ID:X-CSA-Complaints:Message-ID:Content-Type;
+ i=Microsoft365@email.microsoft365.com;
+ bh=JiUscUTLm/4VRXh5RgrXqEHwIvtEssSrCySRXv3mri8=;
+ b=t6aX/V47b8bzl4fYi4FkMGhA7gRC0u3FQUESFWKmR03zG6vYg8YjIr3OMHe2uDa3MGW886Z/nj0Y
+   vbLEo91Z+QQFWex2ddPfV9pnO5bfbbJA5xoHK85evazOlulCj+Ig375eYHSPKMbbDs9b7SBq+Oaa
+   Tb3y0Nbm1s8OqpVOcYk=
+Received: by mta2.email.office.com id h93c9q2fmd4m for <nigel.agwah@outlook.com>; Mon, 20 Sep 2021 18:51:10 +0000 (envelope-from <bounce-810_HTML-708508471-1415226-1070564-20032@bounce.email.microsoft365.com>)
+From: "Microsoft 365" <Microsoft365@email.microsoft365.com>
+To: <nigel.agwah@outlook.com>
+Subject: Make online meetings more engaging
+Date: Mon, 20 Sep 2021 12:51:09 -0600
+List-Unsubscribe: <https://click.email.office.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDcwNTY0IiwicyI6IjcwODUwODQ3MSIsImxpZCI6IjgxMCIsImoiOiIxNDE1MjI2IiwiamIiOiIyMDAzMiIsImQiOiI0MDExOCJ9.gDqfELikhHUokAyiLbzVoMwNKKX8g-IfTJkxtO4hgRc>, <mailto:leave-fd521c71750b5c392848-fe2713707d610475711371-fe9a15747461067f73-fe9815707264017b71-ff081670756706@leave.email.office.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+Reply-To: "Microsoft 365 Reply" <reply-fe9a15747461067f73-810_HTML-708508471-1070564-20032@email.office.com>
+List-ID: <1070237.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 4
+x-job: 1070564_1415226
+Message-ID: <2a400ca6-93ab-4b03-a7f6-6bf7d34a60c7@las1s04mta955.xt.local>
+Content-Type: multipart/alternative;
+	boundary="x70KGcZjgJ7s=_?:"
+X-IncomingHeaderCount: 17
+Return-Path:
+ bounce-810_HTML-708508471-1415226-1070564-20032@bounce.email.microsoft365.com
+X-MS-Exchange-Organization-ExpirationStartTime: 20 Sep 2021 18:53:17.8073
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 96cb885e-97a8-47ec-fcc2-08d97c67e8c0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ HE1EUR01FT026.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/19/2021 7:35:26 PM
+X-MS-Office365-Filtering-Correlation-Id: 96cb885e-97a8-47ec-fcc2-08d97c67e8c0
+X-MS-TrafficTypeDiagnostic: DF4PR8401MB0794:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 68.232.192.176
+X-SID-PRA: MICROSOFT365@EMAIL.MICROSOFT365.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Sep 2021 18:53:17.2355
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 96cb885e-97a8-47ec-fcc2-08d97c67e8c0
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ HE1EUR01FT026.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DF4PR8401MB0794
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.4306771
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4523.018
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90010023)(91010020)(91040095)(5061607266)(5061608174)(9050020)(9100336)(4900116)(2008001114)(2008000189)(2008021020)(8391040)(4910003)(9560001)(4920091)(6250099)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdch7tM+YMMQ1cKFV/S9efYyxboKdMUZ1hbAbviTMmWLSwMbKwFk88AdVf/OVUhZal56Ex0onGJPeH4yAJow5gorrOwvsagehV52RGIB7L0Fx6KSm2y83O/JRzKYWJrm+qSGbemyJoRQG6ZjEBLopTNSQszgRuDVg7s80db3l56mv35Nc1CYoqilU9TqTxV6YkDDDQllblqNPg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?RHQ5L2hvc2puRUU1ZWxYRncxVC9GbGNkWUhUZEdNTkowdHB3SmVvWHNkckll?=
+ =?utf-8?B?SS9WRnA3aGlUOUMvTjY5bzFrQUh1KzhIazdOeTNDOUwrbnhZc1RJVkg0OHhu?=
+ =?utf-8?B?MmtlNyt3OXM1TEJuYmoyMkJDQlBVUDRQSlV5Snl6WFA1eUxjdHFTOE5aYVd3?=
+ =?utf-8?B?T3g5bEhJelhOVml0dThXR2ZJcW9PV3c1bXlaSjMzMVZGUTZYN3AyY1k5d0do?=
+ =?utf-8?B?VDFGRS9wV3JzUzVjeTBnOGFrbDFab2wwdmhUUUxhNExwd0pPaGtnTmlxeWJn?=
+ =?utf-8?B?cGJUOXRXU2dsazEzQUZvTUYvb0RkS3BqT3VITEliRkZqa0huTWxuSVhkM0ZP?=
+ =?utf-8?B?TW1LZ3NXcmRlRkFsOXZibnUxNkxVRHJHck5KUzc3NHVDUXpTZC9VYTRLazh2?=
+ =?utf-8?B?TUZvdGJYdUxTWGlVVkZwMlBEOFlzWlZkdkdHMHl6VmpERzNqenlMYkRZS0lT?=
+ =?utf-8?B?Zyt1STZxckxlei9Gck5JVjlXeHV6RHh4WEdCQWh3Y2R3VGxXdjF2K0JJK2hX?=
+ =?utf-8?B?OXhnU2RXRVRRUW03K2FKZzgwZC9XZzBocWpYUWZaZEFFRE9ucWFydDE4U2NV?=
+ =?utf-8?B?SXU4M0d0VHFmNXlxMlUzWUNXNE5CTTZqNXlDMUliTlgzSnBld1dJc2VLem1I?=
+ =?utf-8?B?Z3JzQ3h1QXZGN1RYcGV1OXNPUEZBQitUSVRnYW9zb1dESjhkYWFNQlI4em5B?=
+ =?utf-8?B?aWlkcGM2dXpseUE1T2FBbFJPYzRQRTg5RnpUbjY5eFJkUnBjOTRDa3lTSWhZ?=
+ =?utf-8?B?WkpKSkI0WGwvS2d4eGNURm1KdG9wWFVzMDg2anFGMTkxc3pwOHV4dXdiajlu?=
+ =?utf-8?B?Zmo2djVvT2oxSllNL08yOWNnOE8rbmJ2WmlpQ1YxWll6RzJFOVVabFdhVzN1?=
+ =?utf-8?B?T3dlSFczVCtUTnVCOHR2S0Z5eUNhWGdIdUpYek5obnBqQndnRllNOG9PbGpZ?=
+ =?utf-8?B?WkR6YTVHTVhlY2d2QmVRTjBoTkQ4ek4vNWJodDVTSzNvVFBGd09RYXI2Ujln?=
+ =?utf-8?B?YmdERDJUTTI1SjVVZGdvbitQU0J2dWZLRDg1VmwvU0cybDltV3BJLzZUNFdQ?=
+ =?utf-8?B?bFNZVUZ1YVlFUGZCS1lhdHVsbHI1V1ozNEZJSzkzU0tPYWpoWHZJL1ZNSk1Y?=
+ =?utf-8?B?UUJEMDJiWkh0d3JLbDlIWTRPMDB3S09XM2NLaDhRb3N4eW8rSlNDdCsvTVl1?=
+ =?utf-8?B?Wko0czdNa3FmOExPNGwvU1dITExBTWxvQ2N0SklXSTR6ZDMyZ2tSOStwY1Iv?=
+ =?utf-8?B?ZlU4a09WODVTUFhqVjl5QzdkV1llajZKaUxpWnk1MFQ1eGY2b2ZNbU5rNkdP?=
+ =?utf-8?B?dXlrL1Ewbk5RQWZoMjd0TlRpamJkeUVTWCt6R2JMUUcwWHRJYjZNUExoYmF6?=
+ =?utf-8?B?WU1FdkxnbUFicmVxU01scFBVY0VQQmVsQ0hJcU1uWGsyV3dxUnkzWkZqNm5l?=
+ =?utf-8?B?NGJGdDB2algxN3NhQXZVckZiM0tub3NucmlqcE9kMGJ2TFZrSTYzbUlkT1pZ?=
+ =?utf-8?B?RXhNNEx3NmV0SUdJVzBMWmVvWlk3OW1DZkhDSk1yR0NHeS9QS2M0TWJlcXBG?=
+ =?utf-8?B?cVAwMlJFaVY4d3ppZzdDMkR5RTQ4cm13MlJwMVpXL0VBZDVvRTU5OGFibm1Q?=
+ =?utf-8?B?VDdYUGR4UkxvNU5CVFpweWw0RGhyS3QvL2psZDRkNGJzQTMwV05hbkx5MEZW?=
+ =?utf-8?B?QVlSaUx0M1dKcmJSZmxHbitIRGVQc2pQSmNlUFZyUXd3cW43NkRMQVpzZXdL?=
+ =?utf-8?Q?oMMY/LZMtCrlh14OKk=3D?=
+MIME-Version: 1.0
+X-TUID: IUfzy1cD7IiJ
+
+--x70KGcZjgJ7s=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Make online meetings more engaging
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Show people how you feel | Express yourself without saying a word | In online meetings, it can be challenging to see subtle physical expressions or join in the conversation. Let people know what's on your mind with live reactions, a new feature in your free version of Microsoft Teams that lets you express yourself with emojis.
+
+ 
+ 
+
+
+
+ 
+
+ Show people how you feel | 
+https://view.email.office.com/?qs=75111fad76976e00d5aef3fcb6cec68ca463fa4b1e160008b49e7eac3a486fd2c747d7ec38fdeff6b90df33f2215faeb8ba6b361c90e07a87e741b71033765d7e7fd013724682251675f1ae633e72498 
+View in browser
+
+
+
+
+  
+ 
+ 
+https://click.email.office.com/?qs=e4130c636dfdbea6e500d18554bbc79172929d6a601ee4c41fae0915250404a20394f71c840bc8a4471f9dcda29d5e2f6124c8177acefb08412f9d04caec3e9c 
+ 
+
+ 
+  
+
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+  
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+Express yourself without saying a word
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ In online meetings, it can be challenging to see subtle physical expressions or join in the conversation. Let people know what's on your mind with live reactions, a new feature in your free version of Microsoft Teams that lets you express yourself with emojis.
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+https://click.email.office.com/?qs=e4130c636dfdbea60ca4edd67546bba1bb8dba84938fff0dc46975e9e8e560b141b11fc913d1aac47283b1b40df327025bf7266fcfb84982388bb5c43533c2b7 
+Go to Microsoft Teams
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+More about live reactions
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Show an emoji over your photo or video in your free version of Microsoft Teams. Use a reaction like hands clapping or a heart to show how you feel.
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+https://click.email.office.com/?qs=e4130c636dfdbea68608e35f7a5bebc924f7fa42a91f93c6522583a24f0a04ef3635c629f7363c7a6273366893fe94cecb2f50855b2130c50cc6307e1cc762d2 
+Learn how
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+
+Download Teams now
+
+ 
+
+
+ 
+ 
+ 
+ 
+
+ https://click.email.office.com/?qs=e4130c636dfdbea605ac264894b26e5cfa3c40f86c61a91a04d9c862b603a813178e6c4d0e914874e17866fd4b8e406b79bee45db7312384afb956576b958681 
+Install for iOS
+ 
+  | https://click.email.office.com/?qs=e4130c636dfdbea694ff7ecd10f74e2849d2c18bb4f68d7f240ce85786d68b7ffb5ae8af6c29f2f9fafb1a6c14a589920529e7616fc18e8de400c03026708759 
+Install for Android
+ 
+  | https://click.email.office.com/?qs=e4130c636dfdbea69a02291698cc0eaf58223fb9b493cb07c7d101438f8f4b14c688acb16c64b2b67e80bc1392eb5bf7cbb00ad38e5cae88e6087e3b1bd1de5b 
+Install on your desktop
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+ 
+   
+  
+ 
+  
+ 
+
+
+ 
+ 
+
+ 
+ 
+ This email was sent from an unmonitored mailbox.
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+https://click.email.office.com/?qs=e4130c636dfdbea6ee78f5e1dcc7703838d097fb4c7c46bf8d46ccd59920b9bd05dbecba015ba50fe8b24550a53c29fc4a5dcabca8502752204957e7c75ac661 
+Privacy Statement &#124; 
+https://click.email.office.com/?qs=e4130c636dfdbea6c0a08bdd1970696a41368b6f793d3f6a87e932ca145a3da6f00fcbdc9946a1013c5de9781e2471df3ab39f3b15fe9de21f42ee76b3ab0522 
+Unsubscribe
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Microsoft Corporation, One Microsoft Way, Redmond, WA 98052 USA
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+  
+  
+
+
+
+
+
+--x70KGcZjgJ7s=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="date=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>Make online meetings more engaging</title>
+  
+
+<link href="https://gdcassetstorage.azureedge.net/emailtemplate/fonts/fontface2.css" rel="stylesheet" type="text/css">
+<style media="all" type="text/css">
+  @import url('https://gdcassetstorage.azureedge.net/emailtemplate/fonts/fontface2.css');
+</style>
+
+
+<style media="all" type="text/css">
+  @-ms-viewport{ width: device-width;}
+</style>
+
+
+<style media="all" type="text/css">
+  
+  #outlook a {padding:0;}
+  .ReadMsgBody {width:100%;} .ExternalClass{width:100%;}
+  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+  body, table, td, a {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+  table, td {mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse: collapse;}
+  img {-ms-interpolation-mode:bicubic !important;}
+  .ExternalClass img[class^=Emoji] {width: 10px !important; height: 10px !important; display: inline !important;}
+  .ExternalClass .ecxhm {display: none !important;}
+  .ExternalClass .ecxhm2 {display: inline !important;}
+  
+  .appleBody a {color:#68440a; text-decoration: none;}
+  .appleFooter a {color:#999999; text-decoration: none;}
+  * [OWA] .outlookLink505050 span {color:#505050 !important; border-bottom-width:0 !important; border-bottom-style:none !important; cursor: default !important;}
+  * [OWA] .outlookLinkFFFFFF span {color:#ffffff !important; border-bottom-width:0 !important; border-bottom-style:none !important; cursor: default !important;}
+  .contextualExtensionHighlight, .ms-font-color-themePrimary, .ms-border-color-themePrimary {border-bottom-width:0 !important; border-bottom-style:none !important;}
+  a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+  a, a span, a.span:hover {color: #3d3d3d; background-color: none !important; border: none !important; }
+  
+  body { margin:0 !important; }
+  div[style*="margin: 16px 0"] { margin:0 !important; }
+  th { font-weight:normal; padding:0 }
+  body, div, span, td, p {Margin:0; padding:0;}
+  h1,h2,h3,h4,h5 {display:block; Margin: 0; padding: 0; font-size: inherit; font-weight: normal; color: inherit;}
+  img {border:0; height:auto; line-height:100%; outline:none; text-decoration:none; image-rendering: auto;}
+  table {border-collapse:collapse !important;}
+  table, th, td { font-weight:normal; }
+  body {height:100% !important; margin:0; padding:0; width:100% !important;}
+  a.tel, a.tel: link, a.tel:visited, a.tel:hover, a.tel:active {text-decoration: none !important; background-color: none !important; border: none !important; }
+  a.addr, a.addr: link, a.addr:visited, a.addr:hover, a.addr:active {text-decoration: none !important; background-color: none !important; border: none !important; }
+  a img {border:none;}
+  sup, sub { vertical-align: baseline; position: relative; top: -0.4em; }
+  sub { top: 0.4em; }
+  table[DIR="rtl"], table td[DIR="rtl"], table th[DIR="rtl"], span[DIR="rtl"], div[DIR="rtl"] {direction:RTL !important; unicode-bidi:embed !important;}
+  
+  #MessageViewBody, #MessageWebViewDiv { margin: 0 !important;  padding:0 !important; width:100% !important; }
+  
+</style>
+
+
+<style media="screen" type="text/css">
+  @media screen and (max-width: 497px)  {
+    .container {width:100% !important; min-width:300px !important; max-width:480px !important; margin: 0; padding:0; word-wrap:normal;}
+    .container table {width:100% !important;}
+    .mobile-full-width {width: 100% !important; min-width: 300px !important;}
+    .hide {display:none !important; width: 0px; min-width: 0px; height: 0px; line-height: 0px;}
+    .heightauto { height:auto !important;}
+    .height1 { height:1px;}
+    .mobile-shown, .mobile-shown div {display: block !important; overflow: visible !important; width: auto !important; max-height:inherit !important; height:auto !important; visibility: visible !important;}
+    .drop {display:block !important; width: 100% !important;}
+    .photo img {width:100% !important; height:auto !important;}
+    .photo80 img {width:80% !important; height:auto !important;}
+    .photo50 img {width:50% !important; height:auto !important;}
+    .photo35 img {width:35% !important; height:auto !important;}
+    .buttonblck table {width:auto !important;}
+    .mobile-center table, .mobile-center, .mobile-center img {text-align: center !important; margin: 0 auto !important;}
+    .mobile-left table, .mobile-left, .mobile-left img {text-align: left !important;}
+    .mobile-no-padding {padding: 0px !important;}
+    .mobile-no-side-padding, .mobile-side-padding-0 {padding-left: 0px !important; padding-right: 0px !important;}
+    .mobile-no-top-padding {padding-top: 0px !important;}
+    .mobile-no-bottom-padding, .mobile-bottom-padding-0 {padding-bottom: 0px !important;}
+    .mobile-side-padding-5 {padding-left: 5px !important; padding-right: 5px !important;}
+    .mobile-side-padding-10 {padding-left: 10px !important; padding-right: 10px !important;}
+    .mobile-side-padding-15 {padding-left: 15px !important; padding-right: 15px !important;}
+    .mobile-side-padding-20 {padding-left: 20px !important; padding-right: 20px !important;}
+    .mobile-side-padding-25 {padding-left: 25px !important; padding-right: 25px !important;}
+    .mobile-side-padding-30 {padding-left: 30px !important; padding-right: 30px !important;}
+    .mobile-side-padding-35 {padding-left: 35px !important; padding-right: 35px !important;}
+    .mobile-side-padding-40 {padding-left: 40px !important; padding-right: 40px !important;}
+    .mobile-side-padding-45 {padding-left: 45px !important; padding-right: 45px !important;}
+    .mobile-side-padding-50 {padding-left: 50px !important; padding-right: 50px !important;}
+    .mobile-left-padding-10 {padding-left: 10px !important;}
+    .mobile-left-padding-20 {padding-left: 20px !important;}
+    .mobile-left-padding-30 {padding-left: 30px !important;}
+    .mobile-left-padding-40 {padding-left: 40px !important;}
+    .mobile-left-padding-50 {padding-left: 50px !important;}
+    .mobile-right-padding-10 {padding-right: 10px !important;}
+    .mobile-right-padding-20 {padding-right: 20px !important;}
+    .mobile-right-padding-30 {padding-right: 30px !important;}
+    .mobile-right-padding-40 {padding-right: 40px !important;}
+    .mobile-right-padding-50 {padding-right: 50px !important;}
+    .mobile-top-padding-10 {padding-top: 10px !important;}
+    .mobile-top-padding-20 {padding-top: 20px !important;}
+    .mobile-top-padding-21 {padding-top: 21px !important;}
+    .mobile-top-padding-30 {padding-top: 30px !important;}
+    .mobile-top-padding-40 {padding-top: 40px !important;}
+    .mobile-top-padding-50 {padding-top: 50px !important;}
+    .mobile-bottom-padding-10 {padding-bottom: 10px !important;}
+    .mobile-bottom-padding-15, .mobile-padding-bottom-15 {padding-bottom: 15px !important;}
+    .mobile-bottom-padding-20, .mobileimagepaddingbottom20 {padding-bottom: 20px !important;}
+    .mobile-bottom-padding-30 {padding-bottom: 30px !important;}
+    .mobile-bottom-padding-40 {padding-bottom: 40px !important;}
+    .mobile-bottom-padding-50 {padding-bottom: 50px !important;}
+    .mobile-font-56 {font-size: 56px !important; line-height: 61px !important;}
+    .mobile-font-40 {font-size: 40px !important; line-height: 45px !important;}
+    .mobile-font-37 {font-size: 37px !important; line-height: 47px !important;}
+    .mobile-width-174 { width: 174px !important; height:auto !important}
+    .mobile-width-171 { width: 171px !important; height:auto !important}
+    .mobile-width-156 { width: 156px !important; height:auto !important}
+    .mobile-width-133 { width: 133px !important; height:auto !important}
+    .mobile-width-129 { width: 129px !important; height:auto !important}
+    .mobile-width-118 { width: 118px !important; height:auto !important}
+    .mobile-width-117 { width: 117px !important; height:auto !important}
+    .mobile-width-112 { width: 112px !important; height:auto !important}
+    .mobile-width-110 { width: 110px !important; height:auto !important}
+    .mobile-width-103 { width: 103px !important; height:auto !important}
+    .mobile-width-100 { width: 100px !important; height:auto !important}
+    .mobile-width-98 { width: 98px !important; height:auto !important}
+    .mobile-width-89 { width: 89px !important; height:auto !important}
+    .mobile-width-88 { width: 88px !important; height:auto !important}
+    .mobile-width-87 { width: 87px !important; height:auto !important}
+    .mobile-width-86 { width: 86px !important; height:auto !important}
+    .mobile-width-85 { width: 85px !important; height:auto !important}
+    .mobile-width-84 { width: 84px !important; height:auto !important}
+    .mobile-width-81 { width: 81px !important; height:auto !important}
+    .mobile-width-79 { width: 79px !important; height:auto !important}
+    .mobile-width-75 { width: 75px !important; height:auto !important}
+    .mobile-width-69 { width: 69px !important; height:auto !important}    
+    .mobile-width-62 { width: 62px !important; height:auto !important}
+    .mobile-width-60 { width: 60px !important; height:auto !important}
+    .mobile-width-59 { width: 59px !important; height:auto !important}
+    .mobile-width-58 { width: 58px !important; height:auto !important}
+    .mobile-width-57 { width: 57px !important; height:auto !important}
+    .mobile-width-54 { width: 54px !important; height:auto !important}
+    .mobile-width-53 { width: 53px !important; height:auto !important}
+    .mobile-width-52 { width: 52px !important; height:auto !important}
+    .mobile-width-39 { width: 39px !important; height:auto !important}    
+    .mobile-width-38 { width: 38px !important; height:auto !important}    
+    .mobile-width-34 { width: 34px !important; height:auto !important}    
+    .mobile-width-20 { width: 20px !important; height:auto !important}
+  }
+</style>  
+  <!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml><![endif]-->
+</head>
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" style="margin:0; padding:0; -webkit-font-smoothing:antialiased !important; width:100%; -webkit-text-size-adjust:none;">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="container" role="presentation">
+  <tr>
+    
+    <td bgcolor="#ffffff" align="center" style="font-size:0px; line-height:1px; display:none;"><div style="display:none; width:0px; max-height:0px; overflow:hidden;">Show people how you feel | Express yourself without saying a word | In online meetings, it can be challenging to see subtle physical expressions or join in the conversation. Let people know what's on your mind with live reactions, a new feature in your free version of Microsoft Teams that lets you express yourself with emojis.</div><img src="https://click.email.office.com/open.aspx?ffcb10-fe9a15747461067f73-fdf01575736c0c7870167775-fe9815707264017b71-ff661c7175-fe2713707d610475711371-ff081670756706&amp;d=40118&amp;bmt=0" width="1" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffffff">
+      <table border="0" cellpadding="0" cellspacing="0" width="660" align="center" class="mobile-full-width" style="width: 660px; min-width: 660px; margin:0 auto;" role="presentation">
+<!-- Preheader -->
+<tr>
+  <td align="left" valign="top"> 
+    
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" class="hide">
+  <tr>
+    <td bgcolor="#FFFFFF">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+        
+        <tr>
+          <td bgcolor="#FFFFFF" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:20px; color:#505050; padding-top:10px; padding-left:20px; padding-right:20px; text-align:center; letter-spacing:-0.02em;" class="mobile-side-padding-20">
+            <p style="Margin:0; padding:0; font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:20px; color:#505050; text-align:center; letter-spacing:-0.02em;">
+               Show people how you feel |  <a href="https://view.email.office.com/?qs=75111fad76976e00d5aef3fcb6cec68ca463fa4b1e160008b49e7eac3a486fd2c747d7ec38fdeff6b90df33f2215faeb8ba6b361c90e07a87e741b71033765d7e6583b83480a9819f76d8ccd3d0dfdbe" style="color:#505050; text-decoration:underline;"><span style="color:#505050; text-decoration:underline;">View in browser</span></a>
+            </p>
+          </td>
+        </tr>
+       
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+  </td>
+</tr>
+
+<!-- Brandbar -->
+<tr>
+  <td align="left" valign="top"> 
+    
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" style="vertical-align:top;" valign="top">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+        <tr>
+          <td valign="top" align="left" bgcolor="#FFFFFF" style="padding-top:24px; padding-bottom:20px;" class="mobile-top-padding-20 mobile-bottom-padding-20">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+              <tr>
+                <td align="left" bgcolor="#FFFFFF" style="padding-left:20px;"><a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a275b65250ff3ee58d7a32bacc9714eba078c2fcec4ae155a81940c8cdafd6b77657e0a0e6dce8f9585f5db72bff0af9f2143299825de77f08"><img border="0" alt="Microsoft Logo" src="https://gdcassetstorage.azureedge.net/emailtemplate/images/logo/logo_microsoft.png" width="100" style="display:block; outline:none; -ms-interpolation-mode:bicubic; border:none; border-width:0;" align="left" class="mobile-width-85"></a></td>
+              </tr>
+            </table>
+          </td>
+          
+          <td valign="top" align="right" bgcolor="#FFFFFF" style="padding-top:24px; padding-bottom:20px;" class="mobile-top-padding-20 mobile-bottom-padding-20">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+              <tr>
+                <td align="right" bgcolor="#FFFFFF" style="padding-right:20px;"><img border="0" alt="" src="https://gdcassetstorage.azureedge.net/emailtemplate/images/logo/logo_teams.png" width="46" style="display:block; outline:none; -ms-interpolation-mode:bicubic; border:none; border-width:0;" align="right" class="mobile-width-39"></td>
+              </tr>
+            </table>
+          </td>
+          
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+ </td>
+</tr>
+
+<!-- H1_1 -->
+<tr>
+  <td align="left" valign="top">
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+ <tr>
+  <td bgcolor="#ffffff" style="padding-top:0px; padding-bottom:0px">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+      
+      <tr>
+        <td align="center" bgcolor="#ffffff" style="padding-top:0; padding-left:0px; padding-right:0px;" class="photo"><img alt="" src="https://gdcassetstorage.azureedge.net/rmfy22/491403/H1_TogetherMode_Static.jpg" width="660" height="305" style="display:block; outline:none; -ms-interpolation-mode:bicubic; border:none;"></td>
+      </tr>
+      
+    </table>
+  </td>
+ </tr>
+</table>
+
+
+
+ </td>
+</tr>
+
+
+<!-- P1_1 -->
+<tr>
+  <td align="left" valign="top">
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+ <tr>
+  <td bgcolor="#FFFFFF" style="padding-bottom:40px;">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+       
+      
+
+
+<tr>
+   <td bgcolor="#FFFFFF" align="center" style="font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:32px; mso-line-height-rule:exactly; line-height:38px; color:#000000; padding-top:33px; padding-left:50px; padding-right:50px; text-align:center; letter-spacing:-0.02em;" class="mobile-side-padding-20">
+   <h1 style="Margin:0; padding:0; font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:32px; mso-line-height-rule:exactly; line-height:38px; color:#000000; text-align:center; letter-spacing:-0.02em; font-weight:normal;">Express yourself without saying a word</h1>
+   </td>
+</tr>
+  
+
+
+ 
+      
+   
+       
+       
+ 
+        <tr>
+          <td bgcolor="#FFFFFF" align="center" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:24px; color:#000000; padding-top:30px; padding-left:50px; padding-right:50px; text-align:center; letter-spacing:0.0em;" class="mobile-side-padding-20">
+            <p style="Margin:0; padding:0; font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:24px; color:#000000;  text-align:center; letter-spacing:0.0em;">
+            
+            
+               In online meetings, it can be challenging to see subtle physical expressions or join in the conversation. Let people know what's on your mind with live reactions, a new feature in your free version of Microsoft Teams that lets you express yourself with emojis.
+            
+            </p>
+          </td>
+        </tr>
+        
+        
+        
+        
+  
+
+
+      
+      
+      
+
+
+<tr>
+  <td bgcolor="#FFFFFF" align="center" style="padding-top:35px; padding-left:50px; padding-right:50px;" class="mobile-side-padding-20 buttonblck">
+
+  <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 0 auto;" role="presentation">
+    <tr>
+   <td>
+    <table border="0" cellspacing="0" cellpadding="0" role="presentation">
+     <tr>
+    <td bgcolor="#4B53BC" style="border-radius:2px;">
+    <table cellspacing="0" cellpadding="0" border="0" role="presentation">
+      <tr>
+     <td height="2" style="mso-line-height-rule:exactly; line-height:2; font-size:2px; border-radius:2px;"><div style=" height:2px; mso-line-height-rule:exactly; line-height:2px">&nbsp;</div></td>
+      </tr>
+      <tr>
+     <td>
+      <table cellspacing="0" cellpadding="0" border="0" role="presentation">
+      <tr>
+        <td width="2"></td>
+        <td>
+       <table border="0" role="presentation" cellspacing="0" cellpadding="0" align="center" style="margin: 0 auto;">
+         <tr>
+          <td align="center" style=" padding:11px 48px 11px 48px; mso-padding-alt:11px 48px 11px 48px; background-color:#4B53BC; font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:20px; text-align:center; letter-spacing:0.0em;"><a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a2151cc3baf8f9e53327e2003841c9e00567e0873404961d8fd29a6537086ea829d1e845cc7a8cfeed98dea47ca31753cbd355d5a7376ee8a9" style="display:inline-block; text-decoration:none;color:#ffffff;"><strong style="font-weight:normal; text-decoration:none;color:#ffffff;">Go to Microsoft Teams</strong></a></td>
+         </tr>
+       </table>         
+        </td>
+        <td width="2"></td>
+      </tr>
+       </table>   
+     </td>
+      </tr>
+      <tr>
+     <td height="2" style="mso-line-height-rule:exactly; line-height:2; font-size:2px; border-radius:2px;"><div style=" height:2px; mso-line-height-rule:exactly; line-height:2px">&nbsp;</div></td>
+      </tr>
+    </table>
+    </td>
+     </tr>
+   </table>  
+     </td>
+    </tr>
+  </table>
+
+  </td>
+</tr>
+
+
+
+
+
+
+      
+
+      
+         
+      
+      
+      
+    </table>
+  </td>
+</tr>
+</table>
+
+
+
+</td>
+</tr>
+
+
+<!-- S1_1 -->
+<tr><td>
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+ <tr>
+  <td bgcolor="#F3F3F3" style="padding-bottom:40px;">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+       
+      
+
+<tr>
+   <td bgcolor="#F3F3F3" align="center" style="font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:20px; mso-line-height-rule:exactly; line-height:28px; color:#000000; padding-top:33px; padding-left:50px; padding-right:50px; text-align:center; letter-spacing:-0.01" class="mobile-side-padding-20">
+   <h2 style="Margin:0; padding:0; font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:20px; mso-line-height-rule:exactly; line-height:28px; color:#000000; text-align:center; letter-spacing:-0.01em; font-weight:normal;">More about live reactions</h2>
+   </td>
+</tr>
+  
+
+
+ 
+      
+   
+       
+       
+ 
+        <tr>
+          <td bgcolor="#F3F3F3" align="center" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:24px; color:#000000; padding-top:18px; padding-left:50px; padding-right:50px; text-align:center; letter-spacing:0.0em;" class="mobile-side-padding-20">
+            <p style="Margin:0; padding:0; font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:24px; color:#000000;  text-align:center; letter-spacing:0.0em;">
+            
+            
+               Show an emoji over your photo or video in your free version of Microsoft Teams. Use a reaction like hands clapping or a heart to show how you feel.
+            
+            </p>
+          </td>
+        </tr>
+        
+        
+        
+        
+  
+
+
+      
+      
+
+      
+         
+      
+      
+
+<tr>
+   <td bgcolor="#F3F3F3" align="center" style="padding-bottom:0px;padding-top:28px; padding-left:50px; padding-right:50px;" class="mobile-side-padding-20 buttonblck">
+    <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 0 auto;" role="presentation">
+     <tr>
+      <td bgcolor="#F3F3F3" align="left" style="font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; text-align:left; font-size:16px; mso-line-height-rule:exactly; line-height:24px; letter-spacing:0.0em;"><a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a2163458fa3fb53f099215c3f2cee6eb48bc482ef5e6b61779390e7b0fa6198fd68abb2b3168ace77af7099b6bdf3a41730bab75e066c3cb5e" style="text-decoration:underline; color:#0067B8;"><strong style="font-weight:normal; text-decoration:underline; color:#0067B8;">Learn how</strong></a>
+      </td>
+      <td valign="middle" bgcolor="#F3F3F3" align="left" style="vertical-align:middle; mso-line-height-rule:exactly; line-height:24px; padding-left:0px; padding-right:5px;"><img border="0" alt="" src="https://gdcassetstorage.azureedge.net/emailtemplate/images/icons/icon_arrow_coreblue.png" width="18" style="display:block; position:relative; top:1px; outline:none; -ms-interpolation-mode:bicubic; border:none; border-width:0;">
+      </td>
+   </tr>
+  </table>
+ </td>
+</tr>
+
+
+
+      
+      
+      
+    </table>
+  </td>
+</tr>
+</table>
+
+
+
+
+ </td></tr>
+
+
+<!-- U4_1 -->
+<tr><td>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+  <tr>
+    <td bgcolor="#FFFFFF" style="padding-bottom:35px;">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+        
+  
+        
+
+<tr>
+   <td bgcolor="#FFFFFF" align="left" style="font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:20px; mso-line-height-rule:exactly; line-height:28px; color:#000000; padding-top:18px; padding-left:20px; padding-right:20px; text-align:left; letter-spacing:-0.01" class="mobile-side-padding-20">
+   <h3 style="Margin:0; padding:0; font-family:'Segoe UI Semibold', SUWSB, 'Segoe UI', Verdana, sans-serif; font-size:20px; mso-line-height-rule:exactly; line-height:28px; color:#000000; text-align:left; letter-spacing:-0.01em; font-weight:normal;">Download Teams now</h3>
+   </td>
+</tr>
+  
+
+
+ 
+        
+        
+        <tr>
+          <td bgcolor="#FFFFFF" align="left" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:24px; color:000000; padding-top:5px; padding-left:20px; padding-right:20px; text-align:left; letter-spacing:0.0em;" class="mobile-side-padding-">
+            <p style="font-weight:normal; padding:0; margin:0; font-size:16px; font-family:'Segoe UI', SUWR, Verdana, sans-serif; line-height:24px; letter-spacing:0.0em;">
+              <a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a227d9b04087cee6544936a4be22fc597dc6563e85ddf56effd473aa606527135e30489452ec4783ef119c88afd598b1f05d04d854ddaf115e" style="text-decoration:underline; color:#000000;"><strong style="font-weight:normal; text-decoration:underline; color:#000000;">Install for iOS</strong></a>
+     
+      | <a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a21b6df31a606ee774d4c9afb03bf37dfe90d34fe144f8fd90fef6a27b74463d4cc29980442721f7e8c627a9bca69964abf089ed4986081f16" style="text-decoration:underline; color:#000000;"><strong style="font-weight:normal; text-decoration:underline; color:#000000;">Install for Android</strong></a>
+     
+      | <a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a26b9c809eace8c7f2ab351bba12d9b44e57e0350aabc763c7fe5d10652dd9498fa8eaa8e67f9902cf512ee7e85774fd584486cbc9e79c7b23" style="text-decoration:underline; color:#000000;"><strong style="font-weight:normal; text-decoration:underline; color:#000000;">Install on your desktop</strong></a>
+     
+     
+     
+      
+     
+     
+     
+            </p>
+          </td>
+        </tr>
+        
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+ </td></tr>
+
+<!-- Footer -->
+<tr>
+  <td align="left" valign="top"> 
+       
+   
+  
+   
+  
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+    <tr>
+      <td bgcolor="#F0F0F0" style="vertical-align:top; padding-top:20px;" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+          
+          <tr>
+            <td bgcolor="#F0F0F0" align="left" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#6b6b6b; padding-top:0px; padding-left:20px; padding-right:20px; text-align:left; letter-spacing:0.0em;" class="mobile-side-padding-20">
+              <p style="padding:0; margin:0; font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#6b6b6b; letter-spacing:0.0em;">
+              
+              
+                 This email was sent from an unmonitored mailbox.
+              
+              </p>
+            </td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td bgcolor="#F0F0F0" align="left" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#6b6b6b; padding-top:20px; padding-left:20px; padding-right:20px; text-align:left; letter-spacing:0.0em;" class="mobile-side-padding-20">
+              <p style="padding:0; margin:0; font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#6b6b6b; letter-spacing:0.0em;">
+              
+              
+                 <a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a24e650b7b020b202bed938e82797f6c27f73ccd1150b800a95c02a22b17d275c989895eb36ecd92b82f2a0c53a88f64eab58d5e1252092044" style="color:#6b6b6b; text-decoration:underline;"><strong style="font-weight:normal; color:#6b6b6b; text-decoration:underline;">Privacy Statement</strong></a> | <a target="_blank" href="https://click.email.office.com/?qs=8928612c11abe3a2c57773b8eb74d58af452df8aa935e4f4bd81cd896013bc63979c30cfd07a4b2e0a48474ea7e69ce4f939268114bb6225c0aba2935a292ac7" style="color:#6b6b6b; text-decoration:underline;"><strong style="font-weight:normal; color:#6b6b6b; text-decoration:underline;">Unsubscribe</strong></a>
+              
+              </p>
+            </td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td bgcolor="#F0F0F0" align="left" style="font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#6b6b6b; padding-top:20px; padding-left:20px; padding-right:20px; text-align:left; letter-spacing:0.0em;" class="mobile-side-padding-20">
+              <p style="padding:0; margin:0; font-family:'Segoe UI', SUWR, Verdana, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#6b6b6b; letter-spacing:0.0em;">
+              
+              
+                 Microsoft Corporation, One Microsoft Way, Redmond, WA 98052 USA
+              
+              </p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td align="left" bgcolor="#F0F0F0" style="padding-top:20px; padding-bottom:30px; padding-left:20px;">
+              <table cellspacing="0" cellpadding="0" border="0" role="presentation">
+                <tr>
+                  <td align="left" bgcolor="#F0F0F0"><img border="0" alt="" src="https://gdcassetstorage.azureedge.net/emailtemplate/images/logo/logo_microsoft.png" width="100" style="display:block; outline:none; -ms-interpolation-mode:bicubic; border:none; border-width:0;"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+ 
+  
+   
+   </td>
+</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+--x70KGcZjgJ7s=_?:--

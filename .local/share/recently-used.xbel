@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/nigel/.screenlayout/benq" added="2021-10-09T18:35:16.351804Z" modified="2021-10-09T18:35:16.351814Z" visited="2021-10-09T18:35:16.351806Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-10-09T18:35:16.351808Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/wallhaven-z8dg9y.png" added="2021-10-11T19:37:44.027100Z" modified="2021-10-11T19:37:44.027113Z" visited="2021-10-11T19:37:44.027102Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-11T19:37:44.027107Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/win.png" added="2021-10-11T19:39:18.188337Z" modified="2021-10-11T19:39:18.188351Z" visited="2021-10-11T19:39:18.188339Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-11T19:39:18.188344Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/vdg.jpg" added="2021-10-11T19:54:26.657814Z" modified="2021-10-11T19:54:26.657827Z" visited="2021-10-11T19:54:26.657816Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-11T19:54:26.657820Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/low-poly.jpg" added="2021-10-11T19:57:04.425487Z" modified="2021-10-11T19:57:04.425499Z" visited="2021-10-11T19:57:04.425489Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-11T19:57:04.425493Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Downloads/fontawesome-free-6.0.0-beta2-desktop.zip" added="2021-10-11T20:18:40.789428Z" modified="2021-10-11T20:18:40.789438Z" visited="2021-10-11T20:18:40.789429Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-11T20:18:40.789433Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Downloads/fontawesome-free-5.15.4-desktop.zip" added="2021-10-11T20:21:53.663486Z" modified="2021-10-11T20:21:53.663491Z" visited="2021-10-11T20:21:53.663487Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-11T20:21:53.663489Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/8x1.png" added="2021-10-12T01:47:26.241081Z" modified="2021-10-12T01:47:26.241088Z" visited="2021-10-12T01:47:26.241082Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T01:47:26.241084Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/mlima.jpg" added="2021-10-12T01:52:23.380181Z" modified="2021-10-12T01:52:23.380196Z" visited="2021-10-12T01:52:23.380185Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T01:52:23.380189Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/empire.jpg" added="2021-10-12T03:25:14.091204Z" modified="2021-10-12T03:25:14.091220Z" visited="2021-10-12T03:25:14.091206Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T03:25:14.091211Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/cockpit.jpg" added="2021-10-12T03:31:28.535534Z" modified="2021-10-12T03:31:28.535546Z" visited="2021-10-12T03:31:28.535535Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T03:31:28.535540Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/tree.jpg" added="2021-10-12T03:38:21.812550Z" modified="2021-10-12T03:38:21.812560Z" visited="2021-10-12T03:38:21.812552Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T03:38:21.812555Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/wea.jpg" added="2021-10-12T03:40:44.675743Z" modified="2021-10-12T03:40:44.675750Z" visited="2021-10-12T03:40:44.675744Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T03:40:44.675746Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/geom.png" added="2021-10-12T03:42:04.435055Z" modified="2021-10-12T03:42:04.435070Z" visited="2021-10-12T03:42:04.435057Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T03:42:04.435062Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/mbwa.jpg" added="2021-10-12T03:43:36.587900Z" modified="2021-10-12T03:43:36.587910Z" visited="2021-10-12T03:43:36.587901Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T03:43:36.587904Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/.screenlayout/solo" added="2021-10-13T02:04:12.599517Z" modified="2021-10-13T02:04:12.599527Z" visited="2021-10-13T02:04:12.599518Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-10-13T02:04:12.599522Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/.screenlayout/solo.sh" added="2021-10-13T03:44:13.078665Z" modified="2021-10-13T07:34:45.226865Z" visited="2021-10-13T03:44:13.078667Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-10-13T07:34:45.226858Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/beat.png" added="2021-10-12T23:36:01.691263Z" modified="2021-10-12T23:36:01.691272Z" visited="2021-10-12T23:36:01.691264Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T23:36:01.691267Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/doro.jpg" added="2021-10-12T23:37:37.353902Z" modified="2021-10-12T23:37:37.353909Z" visited="2021-10-12T23:37:37.353903Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T23:37:37.353906Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/voxels.png" added="2021-10-12T23:53:52.933239Z" modified="2021-10-12T23:53:52.933253Z" visited="2021-10-12T23:53:52.933241Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-12T23:53:52.933246Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/cheese.png" added="2021-10-13T00:12:45.117001Z" modified="2021-10-13T00:12:45.117007Z" visited="2021-10-13T00:12:45.117002Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-13T00:12:45.117004Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/circle.png" added="2021-10-13T00:14:14.619627Z" modified="2021-10-13T00:14:14.619634Z" visited="2021-10-13T00:14:14.619628Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-13T00:14:14.619630Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Pictures/oscillate.png" added="2021-10-13T00:16:05.745195Z" modified="2021-10-13T00:16:05.745202Z" visited="2021-10-13T00:16:05.745196Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-13T00:16:05.745198Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/.screenlayout/benq.sh" added="2021-10-13T07:11:47.314181Z" modified="2021-10-13T07:34:49.206202Z" visited="2021-10-13T07:11:47.314182Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-10-13T07:34:49.206195Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nigel/Documents/AgwahBarrios_000248.pdf" added="2021-10-14T16:54:07.932932Z" modified="2021-10-14T16:54:07.932941Z" visited="2021-10-14T16:54:07.932934Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-14T16:54:07.932938Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

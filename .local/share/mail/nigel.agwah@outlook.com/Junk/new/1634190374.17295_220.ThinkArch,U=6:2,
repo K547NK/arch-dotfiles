@@ -1,0 +1,959 @@
+Received: from TU4PR8401MB1069.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7712::7) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Wed, 6 Oct 2021 21:28:18 +0000
+Received: from DB8PR04CA0024.eurprd04.prod.outlook.com (2603:10a6:10:110::34)
+ by TU4PR8401MB1069.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7712::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.14; Wed, 6 Oct
+ 2021 21:28:16 +0000
+Received: from DB5EUR01FT049.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:10:110:cafe::a) by DB8PR04CA0024.outlook.office365.com
+ (2603:10a6:10:110::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.14 via Frontend
+ Transport; Wed, 6 Oct 2021 21:28:15 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.27.245)
+ smtp.mailfrom=amazonses.updates.cash.app; outlook.com; dkim=pass (signature
+ was verified) header.d=updates.cash.app;outlook.com; dmarc=pass action=none
+ header.from=updates.cash.app;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ amazonses.updates.cash.app designates 54.240.27.245 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.27.245;
+ helo=a27-245.smtp-out.us-west-2.amazonses.com;
+Received: from a27-245.smtp-out.us-west-2.amazonses.com (54.240.27.245) by
+ DB5EUR01FT049.mail.protection.outlook.com (10.152.5.138) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4566.14 via Frontend Transport; Wed, 6 Oct 2021 21:28:15 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:EE36C152D22649E2CEE8224288FF637BD5DBAF4745B452FCDD407E55A826A785;UpperCasedChecksum:DED7EA5DA1970BDC3FF2AF611D017EF38EBC0849BD0C93ADC5E458349311803E;SizeAsReceived:1976;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=h4zn4pemmpiiasaghdsg635eduip4kxj; d=updates.cash.app;
+	t=1633555695;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=M3si/KwV2qDxoHLpIxdt/BeSqcWpZ0wsN/0k++DsqvM=;
+	b=esBmt2RJYFeMIOTJazKAM6alqS1MhkXfbcJCwgpZwHs6rhtxJUbsUrajXXp3fcK+
+	g0LsQRC7YwJik6DxBZZPNAv4OBBW+0XtOofUTfj5zXPglbiZpxQbgojP36rVSrbHz6f
+	BTrRkmDg2aVxIQ6CRLOQ3CtKYOUOeLtcmg2MlPgw=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1633555695;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=M3si/KwV2qDxoHLpIxdt/BeSqcWpZ0wsN/0k++DsqvM=;
+	b=lPYaYjJvUvPBVJNIQXln6iSvY27yOAQjYGNUcFFxo9B/aGVp0QEwOYnz4tyvvR49
+	4Ncjx8fqEyqrGfjr6Uw8DhwXI3H7dKGG97JT5kE70vcu1PmQGGk8Ntl1QpC8D95kxDr
+	htN0YYK26EBSj+SVezQ7vuc/dCxpeyZRdw4OxAkw=
+Date: Wed, 6 Oct 2021 21:28:14 +0000
+From: Cash App <cash-app@updates.cash.app>
+To: <nigel.agwah@outlook.com>
+Message-ID: <0101017c5781c532-91a448ab-3bbe-4451-9a4a-7f84a1f3075b-000000@us-west-2.amazonses.com>
+Subject: Check out our latest investing tools
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6182_1561138328.1633555694835"
+X-EMS-Request-ID: 748_86218bcd-7ce4-4ea4-a3cc-375ca5b74618
+X-ERS-Token: CD0QloLNxfeZ4PbzARj6jKSImfa13J4B
+List-Unsubscribe: <mailto:CAEabgooNzQ4Xzg2MjE4YmNkLTdjZTQtNGVhNC1hM2NjLTM3NWNhNWI3NDYxOBIgCg5jYXNoX21hcmtldGluZxIOY2FzaF9tYXJrZXRpbmcaIENEMFFsb0xOeGZlWjRQYnpBUmo2aktTSW1mYTEzSjRCIiD1GvtPcWXcFG6X4jhleRZlH08AYQpKxjYzdgYbpNBqzg==@reply2.squareup.com>,
+ <https://squareup.com/email/subscriptions/unsubscribe?scope=cash_marketing&subcategory=cash_marketing&locale=&request_id=748_86218bcd-7ce4-4ea4-a3cc-375ca5b74618&recipient=CD0QloLNxfeZ4PbzARj6jKSImfa13J4B>
+Feedback-ID: 1.us-west-2.qynFXNiav+xmCba4mT2b6OERSn62vXfInVGG/FQYh4o=:AmazonSES
+X-SES-Outgoing: 2021.10.06-54.240.27.245
+X-IncomingHeaderCount: 14
+Return-Path:
+ 0101017c5781c532-91a448ab-3bbe-4451-9a4a-7f84a1f3075b-000000@amazonses.updates.cash.app
+X-MS-Exchange-Organization-ExpirationStartTime: 06 Oct 2021 21:28:15.8763
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 9d3039dc-1328-4a29-b98d-08d989103571
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DB5EUR01FT049.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/6/2021 12:54:16 PM
+X-MS-Office365-Filtering-Correlation-Id: 9d3039dc-1328-4a29-b98d-08d989103571
+X-MS-TrafficTypeDiagnostic: TU4PR8401MB1069:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.27.245
+X-SID-PRA: CASH-APP@UPDATES.CASH.APP
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Oct 2021 21:28:15.3882
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9d3039dc-1328-4a29-b98d-08d989103571
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DB5EUR01FT049.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TU4PR8401MB1069
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.9210835
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4587.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000284)(90000117)(90005022)(91005020)(91035115)(5061607266)(5061608174)(9050020)(9100337)(4900116)(2008001134)(2008000189)(2008120379)(2008019284)(2008021020)(2021050001)(8390246)(8377080)(8386120)(98390106)(58390106)(8391040)(4910005)(9560002)(9320001)(4920091)(6394003)(4950132)(4990091)(9140004);RF:JunkEmail;
+X-Message-Info:
+	qoGN4b5S4yoINx8kW6/K7aYsfVVVaySWefp/rjZ9ziPO5ZhaRFjjPoWlZcVYbV8AtZIK7asnkOJVEibarZUFvlRuXlx9okT3G1GzGqV5dj5J3wZL+JdZC71d5S6dhAEyrizD/3fd9Uenq13U4UJ49XbQN+jbRUVptN1tTHi8GODs0qJQ8nZkGXlw5GPAlWVdpEmO6QMEkUgOkfVhWwt+xg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?NGdPZENab3FRZXVLTWpaV0hPSjVyWERTa3owZjhDZUpxd1g3Rk9xSVp5bERh?=
+ =?utf-8?B?Wmt3VFdGQXZPNVRYR1Arb3ZFQjJZSmZqNSs3cmtSNEwrNXcxZnRCYWdsS3F6?=
+ =?utf-8?B?TkR1TGZ6Mml4T1o4N1A0d2FQdzNSV0FQTHpxTnh0VlFORFpRYmNNb2psNWVN?=
+ =?utf-8?B?dzdJSHUyZU5kSnY2dENFVUtBcktBL1JrUVhoLzdaU05iQmlaVWFvVW8veEZ2?=
+ =?utf-8?B?Uk9WeHJ3ZnM2QkxZSndiT2JHeDFrV0puZ2U0WHE1SlU5cExRSkJNdlUvTkZW?=
+ =?utf-8?B?aHVBMFVFWitFNzc4OWJCcVFuUGdMRUlMRC91NENZanNWS2RiYWtzR21ac3NT?=
+ =?utf-8?B?NTFCWHp5TFk5dFJTMVg3a2pJRTBGUUFBSy9CbFVQL0VsVkE1QmZuTUR2OERa?=
+ =?utf-8?B?WlhwUmdJL24rcmtzYVI5UnNScnVrVXA3eHFvNUlLaVp2MGlXNjgraUJITG5o?=
+ =?utf-8?B?WUlaYjZBb3FBZ0s3TGFtTTdUQ3ZlMTFXd3YzSzJWTElKdTVzY2YydUZ5MVBR?=
+ =?utf-8?B?b0M5U1Bia1BxQXVXMUg3cllTRnVCbHV0RktidDdJbkhwNEEvcDhPVWhUZTB1?=
+ =?utf-8?B?enIwNHk1K2FVMzhsQjVON04vL3M5cEdJRERYRmc5OEV1SkkrcVpaNGRWSjln?=
+ =?utf-8?B?bnR1cEozbmRmRzB5NlVVS2p3N1ZtVUNVZU5VVkl6dEdubGRsZlhQOFhoK0hD?=
+ =?utf-8?B?L1JibFdUNlVaRWpDRnBqMVhNY1RLeWxodXYwTnlIbkM1a0E0SWw1RHhvSHox?=
+ =?utf-8?B?aloxWGdCL2dpVCs3YThKMWE5THljbGlUcnJ5c2pWVUhJbU8xT3dObEdQU1Rm?=
+ =?utf-8?B?dGN5YmdSTm40V2Y4dDJ5N1RXTzJ5TE9DL1g1Q2wrcHQ2Ny8yaG5QK1ZDU0li?=
+ =?utf-8?B?YnZUOTFKM09QWGlxa25CZ0RneFRENzZHRGVIbnl4QVlTVlhhK3k4YTZUOFMz?=
+ =?utf-8?B?dGhLZUNQR3B3TEcxMnhpbGtkZG1nNG90ZkRXdWZtZDgxdjREUkxXTW9lb3Z0?=
+ =?utf-8?B?SXluT1dFdU9BN1JXcmw3UXBaa3l4eTJxYS9WdGVjMWVyVG0vZS9HVVJJQVMy?=
+ =?utf-8?B?YytHTXVrVVRJUmRxdlR5My9qMHBtTWYzVXZCalVSYWR3ZG91bFYveU1uUkFE?=
+ =?utf-8?B?NkZWekV6VFdDVWJ2N2dTa2xKR2tieE12UC9QY0RrdE0rWU1SZHRJQmFyQWYw?=
+ =?utf-8?B?YTg2RXM1RXJkZjBYR0xlNVd5RVEvRTJjV2JXNFFTMHZ2M0x2aTU1Z2tBUkNq?=
+ =?utf-8?B?ZTlEYkZmMUFGK2NiZXdCNW83cTVtT0JNMnNBekVnTU9JOVVTYUt3UCtrSGR3?=
+ =?utf-8?B?N2VtTmd6dGZneWxmTEljN0RqTGxpOGdxNkRkUU1OK21qeHdlM3BBQUZUcDVH?=
+ =?utf-8?B?VzF6cjVqUS9ZZW83dm9OUEprUlVuUjJVTVg2eWk0eDJxVXJRZFdtUjljVHRT?=
+ =?utf-8?B?NXN1UHIzWXJxMi9lem1CRFdmcmhRKy8xWU11bVRHV0IraUNnTVM5eDBLeStC?=
+ =?utf-8?B?WDdDUUp0b1RaVk5tQTFKR3lncDBNSktYKyszUmRic05McExrRmxQaXNlUWFM?=
+ =?utf-8?B?UTlTVU1LSkU2WHJvQ3dFVU1WY1VMazY0QmVWQnNjRllhRSswVzFHSGUwemFF?=
+ =?utf-8?B?V2xWN2p6dGpkWGQ3ZGIxV2FPVG9CbElJcEFMblMxNEVIQW5VM3pBeTF5UTJ3?=
+ =?utf-8?B?M3dNN3B0eTlmTUhKSlFqR3FnZHFvNktjWktweEVXWjVKb241V3dmd055K0lE?=
+ =?utf-8?B?RzM4Vi80WnVRTkVvMWVOVTNTWHBaakV5UDZOeGhTK0hjUDlnRU9EUUNmcVFj?=
+ =?utf-8?B?b21JOTVhZGEzeDRBOVNDVmJUVEMyL0JzSFlDYW0vcU9nWVpjeldreWxUYkhV?=
+ =?utf-8?B?YUpFcll5YS9pVndWV2NFS2VDYjNRdStnV3RsRUJ1ZU5oQlMwUzJvVlI0L1Zk?=
+ =?utf-8?B?Yno0S1RYQXZ0YjczTG9ldHhkcjRWK3B1dVdCKzI1R3NYRitEWVM0ZzRnbTZq?=
+ =?utf-8?B?R1RJN3l1Tk9tcysrbHlJUmwrOCtGMUV6SWdHTHNZV1Z4L3BwSDNIWlJ0K3lS?=
+ =?utf-8?B?dWM0TWNmMVNmamx3a3dtVklmNSt0ck8rbDVHelNFdFdiYW00aDFoN1FXZUR2?=
+ =?utf-8?Q?9P9E=3D?=
+MIME-Version: 1.0
+X-TUID: yKR+BHIPruMk
+
+------=_Part_6182_1561138328.1633555694835
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Invest with Cash App
+------=_Part_6182_1561138328.1633555694835
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"en" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" xml:lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+ <!-- utf-8 works for most cases -->
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <!-- Forcing in=
+itial-scale shouldn't be necessary -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <!-- Use the =
+latest (edge) version of IE rendering engine -->
+  <meta name=3D"x-apple-disable-message-reformatting"> <!-- Disable auto-sc=
+ale in iOS 10 Mail entirely -->
+  <meta name=3D"format-detection" content=3D"telephone=3Dno,address=3Dno,em=
+ail=3Dno,date=3Dno,url=3Dno">
+  <!-- Tell iOS not to automatically link certain text strings. -->
+  <meta name=3D"color-scheme" content=3D"light">
+  <meta name=3D"supported-color-schemes" content=3D"light">
+  <title></title> <!-- The title tag shows in email notifications, like And=
+roid 4.4. -->
+
+  <!-- What it does: Makes background images in 72ppi Outlook render at cor=
+rect size. -->
+  <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+  <!-- Desktop Outlook chokes on web font references and defaults to Times =
+New Roman, so we force a safe fallback font. -->
+  <!--[if mso]>
+        <style>
+            * {
+                font-family: sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+  <!-- CSS Reset : BEGIN -->
+  <style>
+    /* What it does: Tells the email client that only light styles are prov=
+ided but the client can transform them to dark. A duplicate of meta color-s=
+cheme meta tag above. */
+    :root {
+      color-scheme: light;
+      supported-color-schemes: light;
+    }
+
+    /* What it does: Remove spaces around the email design added by some em=
+ail clients. */
+    /* Beware: It can remove the padding / margin and add a background colo=
+r to the compose a reply window. */
+    html,
+    body {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    /* What it does: Stops email clients resizing small text. */
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    /* What it does: Centers email on Android 4.4 */
+    div[style*=3D"margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    /* What it does: forces Samsung Android mail clients to use the entire =
+viewport */
+    #MessageViewBody,
+    #MessageWebViewDiv {
+      width: 100% !important;
+    }
+
+    /* What it does: Stops Outlook from adding extra spacing to tables. */
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    sup {
+      line-height: 0;
+      font-size: 75%;
+    }
+
+    /* What it does: Replaces default bold style. */
+    th {
+      font-weight: normal;
+      padding: 0;
+      border-collapse: collapse;
+    }
+
+    /* What it does: Fixes webkit padding issue. */
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+
+    /* What it does: Prevents Windows 10 Mail from underlining links despit=
+e inline CSS. Styles for underlined links should be inline. */
+    a {
+      text-decoration: none;
+    }
+
+    /* What it does: Uses a better rendering method when resizing images in=
+ IE. */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* What it does: A work-around for email clients meddling in triggered =
+links. */
+    a[x-apple-data-detectors],
+    /* iOS */
+    .unstyle-auto-detected-links a,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* What it does: Prevents Gmail from changing the text color in convers=
+ation threads. */
+    .im {
+      color: inherit !important;
+    }
+
+    /* What it does: Prevents Gmail from displaying a download button on la=
+rge, non-linked images. */
+    .a6S {
+      display: none !important;
+      opacity: 0.01 !important;
+    }
+
+    /* If the above doesn't work, add a .g-img class to any image in questi=
+on. */
+    img.g-img+div {
+      display: none !important;
+    }
+
+    .nodesktop {
+      display: none !important;
+    }
+
+
+    /* small mob screen class only */
+    @media screen and (max-width: 374px) {
+      u~div .email-container {
+        width: 100% !important;
+      }
+
+      .textcenter {
+        text-align: center !important;
+      }
+
+    }
+  </style>
+  <!-- CSS Reset : END -->
+
+  <!-- Progressive Enhancements : BEGIN -->
+  <style>
+    /* Media Queries */
+    @media screen and (max-device-width: 600px),
+    screen and (max-width:600px) {
+      .mobilecontent {
+        display: block !important;
+        max-height: none !important;
+      }
+
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      u~div .wrapper {
+        min-width: 100vw;
+      }
+
+      .wrapper {
+        max-width: 100% !important;
+      }
+
+      .email-container {
+        width: 100% !important;
+        margin: auto !important;
+      }
+
+      .wrapto100pc {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+
+      .textleft {
+        text-align: left !important;
+      }
+
+      .textright {
+        text-align: right !important;
+      }
+
+      .textcenter {
+        text-align: center !important;
+      }
+
+      /*mob padding*/
+      .l20 {
+        padding-left: 20px !important;
+      }
+
+      .r20 {
+        padding-right: 20px !important;
+      }
+
+      .lr0 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+      }
+
+      .b16 {
+        padding-bottom: 16px !important;
+      }
+
+      .b20 {
+        padding-bottom: 20px !important;
+      }
+
+      .tb16sides20 {
+        padding: 16px 20px !important;
+      }
+
+      .tb16sides0 {
+        padding: 16px 0px !important;
+      }
+
+      .t20sides0 {
+        padding: 20px 0px 0px !important;
+      }
+
+      .pt35sides0 {
+        padding: 35px 0px !important;
+      }
+
+      .stackholder {
+        display: table;
+        width: 100%;
+      }
+
+      .stacktop {
+        display: table-header-group !important;
+      }
+
+      .stackbottom {
+        display: table-footer-group !important;
+      }
+
+      .nomob {
+        display: none !important;
+      }
+
+      .showmob {
+        display: block !important;
+      }
+
+    }
+  </style>
+
+
+  <!-- Progressive Enhancements : END -->
+  <style>
+    @media {
+
+      /*ENSURE FONTS ARE HTTPS: OTHERWISE WILL NOT WORK */
+      @font-face {
+        font-family: 'Cashmarket';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://images.emlcdn.net/cdn/143/QH88a143b8/cashmarketreg=
+ularrounded.woff) format('woff');
+      }
+
+      @font-face {
+        font-family: 'Cashmarket';
+        font-style: normal;
+        font-weight: 600;
+        src: url(https://images.emlcdn.net/cdn/143/QH88a143b8/cashmarketbol=
+drounded.woff) format('woff');
+      }
+
+
+      @font-face {
+        font-family: 'AgrandirGrand';
+        font-style: normal;
+        font-weight: 600;
+        src: url(https://images.emlcdn.net/cdn/143/QH88a143b8/agrandirgrand=
+heavy.woff) format('woff');
+      }
+
+
+    }
+  </style>
+</head>
+<!--
+  The email background color (#222222) is defined in three places:
+  1. body tag: for most email clients
+  2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail,=
+ GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
+  3. mso conditional: For Windows 10 Mail
+-->
+
+<body width=3D"100%" style=3D"margin: 0; padding: 0 !important; mso-line-he=
+ight-rule: exactly; background-color: #f8f6f6">
+  <center role=3D"article" aria-roledescription=3D"email" lang=3D"en" style=
+=3D"width: 100%; background-color: #f8f6f6" xml:lang=3D"en">
+   =20
+      <!--[if mso | IE]>
+    <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"background-color: #fefefe;">
+    <tr>
+    <td>
+    <![endif]-->
+   =20
+    <!-- Visually Hidden Preheader Text : BEGIN -->
+   =20
+      <!--[if !mso]><!-->
+      <div style=3D"display: none; max-height: 0px; overflow: hidden;mso-hi=
+de:all;">
+        <!-- Preheader -->
+       =20
+          We make it easy to invest in stocks and bitcoin
+        </div>
+      <!-- Preview Text Spacing Hack : BEGIN -->
+      <div style=3D"display: none; font-size: 1px; line-height: 1px; max-he=
+ight: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; fon=
+t-family: sans-serif;">
+        =E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;
+      </div>
+      <!-- Preview Text Spacing Hack : END -->
+      <!--<![endif]-->
+    <!--START HEADER MODULEZONE-->
+   =20
+        <table align=3D"center" role=3D"presentation" width=3D"640" cellpad=
+ding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width: 640px;" class=3D"=
+wrapto100pc" bgcolor=3D"#fffffe">
+          <tr>
+            <td valign=3D"top" align=3D"left" style=3D"padding: 30px;" clas=
+s=3D"l20 r20">
+             =20
+                <a href=3D"https://cash.app/investing" target=3D"_blank">
+                  <img width=3D"27" align=3D"left" alt=3D"Cash App Dollar S=
+ign" border=3D"0" style=3D"display:block; height: auto; font-family: Arial,=
+ sans-serif; font-size: 16px; line-height: 16px; color: #009fda;" src=3D"ht=
+tps://cash-f.squarecdn.com/static/email_header_$.png" class=3D"wrapto60pc">
+                </a>
+              </td>
+          </tr>
+        </table>
+      <!--START BODY MODULEZONE-->
+   =20
+       =20
+          <table align=3D"center" role=3D"presentation" cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" width=3D"640" style=3D"width:640px; margin: a=
+uto;" class=3D"email-container">
+          <tr>
+            <td valign=3D"top" align=3D"center" style=3D"padding: 0px;" bgc=
+olor=3D"#fffffe" class=3D"wrapto100pc">
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#fffffe">
+                <tr>
+                  <td valign=3D"top" align=3D"center">
+                    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" role=3D"presentation" align=3D"center">
+                      <tr>
+                        <td valign=3D"top" align=3D"left" style=3D"padding:=
+ 0px 0px 0px 0px;">
+                          <a href=3D"https://cash.app/" target=3D"_blank">
+                            <img src=3D"https://cash-f.squarecdn.com/static=
+/investing_header_smarter.png" width=3D"640" height=3D"auto" style=3D"displ=
+ay: block;width:640px;height:auto;" border=3D"0" class=3D"wrapto100pc" role=
+=3D"none" alt=3D"More ways to invest even smarter"></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     =20
+       =20
+          <table role=3D"presentation" class=3D"email-container" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"min-width:10=
+0%;">
+          <tr>
+            <td align=3D"center" class=3D"wrapper">
+              <table width=3D"640" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" class=3D"wrapto100pc" style=3D"width:640px;">
+                <tr bgcolor=3D"#fffffe">
+                  <td style=3D"padding:0px 20px 30px 20px;">&nbsp;
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     =20
+        <table align=3D"center" role=3D"presentation" cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0" width=3D"640" style=3D"width:640px; margin: aut=
+o;" class=3D"email-container">
+          <tr>
+            <td valign=3D"top" align=3D"center" class=3D"l20 r20" bgcolor=
+=3D"#fffffe" style=3D"padding:0px 20px 10px;">
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#fffffe">
+                <tr>
+                  <td valign=3D"top" align=3D"center">
+                    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" role=3D"presentation">
+                      <tr>
+                        <td valign=3D"top" align=3D"left" style=3D"font-fam=
+ily: 'Cashmarket', Helvetica Neue, sans-serif; font-size:14px; line-height:=
+20px; font-weight: 400;">
+                          <span style=3D"color:#000000;">
+                            We=E2=80=99ve added hundreds of new stocks and =
+funds to give you more options to choose from and industries to explore. Pl=
+us, you can try out new tools and features like:
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding: 20px 10px 0px;" align=3D"left=
+">
+                          <table role=3D"presentation" cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"display:inline-block;">
+                            <tr>
+                              <td width=3D"14" align=3D"left" valign=3D"top=
+" style=3D"line-height:20px; color:#000000; font-family: 'Cashmarket', Helv=
+etica Neue, sans-serif; font-size:14px; font-weight: 400; text-align:left; =
+width:14px; padding-bottom:5px;">
+                                =E2=80=A2
+                              </td>
+                              <td>
+                                <p style=3D"line-height:20px; color:#000000=
+; font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:14px; fo=
+nt-weight: 400; text-align:left; margin:0 auto; padding-bottom:5px;">Set it=
+ and forget it with <strong style=3D"">custom orders</strong> that only go =
+through if stocks or bitcoin hit your price targets</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width=3D"14" align=3D"left" valign=3D"top=
+" style=3D"line-height:20px; color:#000000; font-family: 'Cashmarket', Helv=
+etica Neue, sans-serif; font-size:14px; font-weight: 400; text-align:left; =
+width:14px;padding-bottom:5px;">
+                                =E2=80=A2
+                              </td>
+                              <td>
+                                <p style=3D"line-height:20px; color:#000000=
+; font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:14px; fo=
+nt-weight: 400; text-align:left; margin:0 auto;padding-bottom:5px;">Add to =
+your trove with<strong style=3D""> recurring buys</strong> that let you set=
+ investments on autopilot<br></p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width=3D"14" align=3D"left" valign=3D"top=
+" style=3D"line-height:20px; color:#000000; font-family: 'Cashmarket', Helv=
+etica Neue, sans-serif; font-size:14px; font-weight: 400; text-align:left; =
+width:14px;padding-bottom:5px;">
+                                =E2=80=A2
+                              </td>
+                              <td>
+                                <p style=3D"line-height:20px; color:#000000=
+; font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:14px; fo=
+nt-weight: 400; text-align:left;margin:0 auto;padding-bottom:5px;">Stay on =
+top of price jumps with <strong style=3D"">notifications </strong>about bit=
+coin or stocks you=E2=80=99re interested in<br></p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width=3D"14" align=3D"left" valign=3D"top=
+" style=3D"line-height:20px; color:#000000; font-family: 'Cashmarket', Helv=
+etica Neue, sans-serif; font-size:14px; font-weight: 400; text-align:left; =
+width:14px;padding-bottom:5px;">
+                                =E2=80=A2
+                              </td>
+                              <td>
+                                <p style=3D"line-height:20px; color:#000000=
+; font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:14px; fo=
+nt-weight: 400; text-align:left; margin:0 auto;padding-bottom:5px;">Get acc=
+ess to <strong style=3D"">advanced metrics</strong> to evaluate stocks and =
+funds like the pros do</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width=3D"14" align=3D"left" valign=3D"top=
+" style=3D"line-height:20px; color:#000000; font-family: 'Cashmarket', Helv=
+etica Neue, sans-serif; font-size:14px; font-weight: 400; text-align:left; =
+width:14px;padding-bottom:5px;">
+                                =E2=80=A2
+                              </td>
+                              <td>
+                                <p style=3D"line-height:20px; color:#000000=
+; font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:14px; fo=
+nt-weight: 400; text-align:left; margin:0 auto;padding-bottom:5px;"><strong=
+ style=3D"">News</strong> to stay up-to-date on the market and business tre=
+nds</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     =20
+       =20
+          <table align=3D"center" role=3D"presentation" cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" width=3D"640" style=3D"width:640px; margin: a=
+uto;" class=3D"email-container">
+          <tr>
+            <td valign=3D"top" align=3D"center" style=3D"padding: 0px" bgco=
+lor=3D"#fffffe">
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#fffffe">
+                <tr>
+                  <td valign=3D"middle" align=3D"left" style=3D"vertical-al=
+ign: middle; padding: 10px 20px 0px 20px;">
+                    <table align=3D"left" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" role=3D"presentation">
+                      <tr class=3D"nomob">
+                        <td valign=3D"top" align=3D"center" style=3D"font-f=
+amily: 'AgrandirGrand', Helvetica Neue, sans-serif; font-size: 16px; font-w=
+eight: 600;">
+<a href=3D"https://cash.app/investing?utm_campaign=3Dactive_investors" targ=
+et=3D"_blank" style=3D"background-color:#00d54b; text-align: center; paddin=
+g: 14px 40px; color:#000000; border-radius: 30px; border: solid 1px #000000=
+; display:inline-block; mso-padding-alt: 0;">
+                           =20
+                              <!--[if mso]><i style=3D"letter-spacing:40px;=
+mso-font-width:-100%;mso-text-raise:28px">&nbsp;</i><![endif]-->
+                            <span style=3D"mso-text-raise:14px">
+                              Learn more
+                            </span>
+                           =20
+                              <!--[if mso]><i style=3D"letter-spacing: 40px=
+;mso-font-width:-100%">&nbsp;</i><![endif]-->
+                           =20
+                          </a>
+                        </td>
+                       =20
+                      </tr>
+                      <tr class=3D"nodesktop showmob">
+                        <td valign=3D"top" align=3D"center" style=3D"font-f=
+amily: 'AgrandirGrand', Helvetica Neue, sans-serif; font-size: 16px; font-w=
+eight: 600;">
+<a href=3D"https://cashapp.onelink.me/ui6m/c28638ee" target=3D"_blank" styl=
+e=3D"background-color:#00d54b; text-align: center; padding: 14px 40px; colo=
+r:#000000; border-radius: 30px; border: solid 1px #000000; display:inline-b=
+lock; mso-padding-alt: 0;">
+                           =20
+                              <!--[if mso]><i style=3D"letter-spacing:40px;=
+mso-font-width:-100%;mso-text-raise:28px">&nbsp;</i><![endif]-->
+                            <span style=3D"mso-text-raise:14px">
+                              Learn more
+                            </span>
+                           =20
+                              <!--[if mso]><i style=3D"letter-spacing: 40px=
+;mso-font-width:-100%">&nbsp;</i><![endif]-->
+                           =20
+                          </a>
+                        </td>
+                       =20
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height=3D"24" style=3D"height: 24px; font-size: 24px;=
+ line-height: 24px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     =20
+       =20
+          <table role=3D"presentation" class=3D"email-container" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"min-width:10=
+0%;">
+          <tr>
+            <td align=3D"center" class=3D"wrapper">
+              <table width=3D"640" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" class=3D"wrapto100pc" style=3D"width:640px;">
+                <tr bgcolor=3D"#fffffe">
+                  <td style=3D"padding:0px 20px 15px 20px;">&nbsp;
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     =20
+        <table align=3D"center" role=3D"presentation" cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0" width=3D"640" style=3D"width:640px; margin: aut=
+o;" class=3D"email-container">
+          <tr>
+            <td valign=3D"top" align=3D"center" class=3D"l20 r20" bgcolor=
+=3D"#fffffe" style=3D"padding:10px 24px 10px 24px;">
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#fffffe">
+               =20
+                <tr>
+                  <td valign=3D"top" align=3D"left" style=3D"font-size: 1px=
+; line-height: 1px; mso-line-height-rule: exactly;" bgcolor=3D"#e8e6e6">&nb=
+sp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      <table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" width=3D"640" class=3D"email-container" style=3D"=
+width:640px; margin: auto; border: solid 0px #000000;">
+        <tr>
+          <td valign=3D"top" align=3D"center" style=3D"padding:0px 20px 10p=
+x;" class=3D"l20 r20" bgcolor=3D"#ffffff">
+            <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#ffffff">
+              <tr>
+                <td valign=3D"top" align=3D"left" style=3D"padding: 30px 0p=
+x 0px 0px;" bgcolor=3D"#ffffff">
+                    <a href=3D"https://cash.app/" target=3D"_blank">
+                      <img src=3D"https://cash-f.squarecdn.com/static/CashA=
+ppLogo.png" width=3D"180" alt=3D"Cash App Logo" border=3D"0" style=3D"displ=
+ay:block; height: auto; width:180px;" class=3D"wrapto100pc">
+                    </a>
+                </td>
+                <td valign=3D"bottom" align=3D"right" style=3D"padding: 35p=
+x 0px 10px 10px;">
+                  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" role=3D"presentation" class=3D"wrapto100pc">
+                    <tr>
+                      <td align=3D"right" valign=3D"middle" style=3D"width:=
+ 20px; height:20px;"><a href=3D"https://www.twitch.tv/cashapp"><img src=3D"=
+https://cash-f.squarecdn.com/static/twitch_email.png" height=3D"20" width=
+=3D"20" alt=3D"Twitch social icon"></a></td>
+                      <td align=3D"right" valign=3D"middle" style=3D"width:=
+ 20px; height:20px;"><a href=3D"https://twitter.com/cashapp"><img src=3D"ht=
+tps://cash-f.squarecdn.com/static/twitter_email.png" height=3D"20" width=3D=
+"20" alt=3D"Twitter social icon"></a></td>
+                      <td align=3D"right" valign=3D"middle" style=3D"width:=
+ 20px; height:20px;"><a href=3D"https://www.instagram.com/cashapp/"><img sr=
+c=3D"https://cash-f.squarecdn.com/static/ig_email.png" height=3D"20" width=
+=3D"20" alt=3D"Instagram social icon"></a></td>
+                      <td align=3D"right" valign=3D"middle" style=3D"width:=
+ 20px; height:20px;"><a href=3D"https://www.tiktok.com/@cashapp"><img src=
+=3D"https://cash-f.squarecdn.com/static/tiktok_email.png" height=3D"20" wid=
+th=3D"20" alt=3D"Tiktok social icon"></a></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+ =20
+        <tr>
+          <td valign=3D"top" align=3D"center" style=3D"padding:20px 20px 10=
+px;" class=3D"l20 r20" bgcolor=3D"#ffffff">
+            <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#ffffff" style=3D=
+"border-bottom: 1px solid #828282;">
+                <td valign=3D"top" align=3D"left" class=3D"wrapto100pc" sty=
+le=3D"font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:8px;=
+ line-height:10px; font-weight: 400; mso-text-raise:2px; mso-line-height-ru=
+le: exactly; color:#828282; padding-bottom:10px;">
+                    Brokerage services by Cash App Investing LLC, member FI=
+NRA / SIPC. See our BrokerCheck. Investing involves risk; you may lose mone=
+y. =E2=80=A8Bitcoin trading offered by Cash App. Cash App Investing does no=
+t trade bitcoin and Cash App is not a member of FINRA or SIPC.=E2=80=A8 Cas=
+h App is a financial platform, not a bank. Banking services are provided by=
+ Cash=E2=80=99s bank partner(s).
+                </td>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td valign=3D"top" align=3D"center" style=3D"padding:0px 20px 0px=
+;" class=3D"l20 r20" bgcolor=3D"#ffffff">
+            <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#ffffff">
+                <td valign=3D"top" align=3D"left" class=3D"wrapto100pc" sty=
+le=3D"font-family: 'Cashmarket', Helvetica Neue, sans-serif; font-size:8px;=
+ line-height:10px; font-weight: 400; mso-text-raise:2px; mso-line-height-ru=
+le: exactly; color:#828282; padding-bottom:10px;">
+                    Cash App, 1455 Market Street Suite 600
+                </td>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td valign=3D"top" align=3D"center" style=3D"padding:0px 20px 30p=
+x;" class=3D"l20 r20" bgcolor=3D"#ffffff">
+            <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" role=3D"presentation" align=3D"center" bgcolor=3D"#ffffff" class=3D=
+"wrapto100pc">
+              <tr>
+                          <th valign=3D"top" align=3D"left" class=3D"stack-=
+column stack-column-center" style=3D"font-family: 'Cashmarket', Helvetica N=
+eue, sans-serif; font-size:14px; line-height:16px; font-weight: 600; color:=
+#828282;padding-top: 10px;">
+                            =C2=A9 2021 Square, inc
+                        </th>
+                          <th valign=3D"middle" align=3D"right" width=3D"35=
+0" style=3D"width:350px;" class=3D"stack-column stack-column-center">
+                              <p style=3D"font-family: 'Cashmarket', Helvet=
+ica Neue, sans-serif; font-size:12px; line-height:14px; font-weight: 400; c=
+olor:#828282;"><a href=3D"https://cash.app/legal/us/en-us/privacy" style=3D=
+"text-decoration: none; color:#828282;">Privacy Policy</a> &nbsp;&nbsp;|&nb=
+sp;&nbsp;
+                                <a ses:tags=3D"subscription:direct_unsub;" =
+href=3D"https://squareup.com/email/subscriptions/unsubscribe?scope=3Dcash_m=
+arketing&amp;subcategory=3Dcash_marketing&amp;locale=3D&amp;request_id=3D74=
+8_86218bcd-7ce4-4ea4-a3cc-375ca5b74618&amp;recipient=3DCD0QloLNxfeZ4PbzARj6=
+jKSImfa13J4B" style=3D"text-decoration: none; color:#828282;">Unsubscribe</=
+a> &nbsp;&nbsp;|&nbsp;&nbsp; <a ses:tags=3D"subscription:manage_prefs" href=
+=3D"https://squareup.com/email/subscriptions/manage?locale=3D&amp;request_i=
+d=3D748_86218bcd-7ce4-4ea4-a3cc-375ca5b74618&amp;recipient=3DCD0QloLNxfeZ4P=
+bzARj6jKSImfa13J4B&amp;type=3Dcash" style=3D"text-decoration: none; color:#=
+828282;">Manage&nbsp;Preferences</a>
+                                </p>
+                          </th>
+                <th valign=3D"top" align=3D"right" style=3D"padding: 5px 0p=
+x 0px 0px; width:80px;" bgcolor=3D"#ffffff" width=3D"80" class=3D"stack-col=
+umn">
+                      <img src=3D"https://cash-f.squarecdn.com/static/email=
+_footer_eyeball.png" width=3D"50" alt=3D"cashapp eye gif" border=3D"0" styl=
+e=3D"display:inline-block; height: auto; width:50px;">
+                </th>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+   =20
+      <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+   =20
+  </center>
+ =20
+<img alt=3D"" src=3D"http://pfx6lsrm.r.us-west-2.awstrack.me/I0/0101017c578=
+1c532-91a448ab-3bbe-4451-9a4a-7f84a1f3075b-000000/pa6zEPI9XpkwG1flPdgX2G7eH=
+T8=3D238" style=3D"display: none; width: 1px; height: 1px;">
+</body>
+
+</html>
+
+------=_Part_6182_1561138328.1633555694835--

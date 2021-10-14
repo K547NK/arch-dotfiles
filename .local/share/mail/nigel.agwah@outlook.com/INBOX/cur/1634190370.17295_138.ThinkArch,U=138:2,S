@@ -1,0 +1,312 @@
+Received: from AM5EUR03HT022.eop-EUR03.prod.protection.outlook.com
+ (2603:10b6:806:24::29) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA9PR13CA0114.NAMPRD13.PROD.OUTLOOK.COM; Wed, 25 Aug 2021 16:15:23
+ +0000
+Received: from AM5EUR03FT018.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:e400:7e08::41) by
+ AM5EUR03HT022.eop-EUR03.prod.protection.outlook.com (2a01:111:e400:7e08::306)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4457.17; Wed, 25 Aug
+ 2021 16:15:22 +0000
+Authentication-Results: spf=pass (sender IP is 167.89.37.134)
+ smtp.mailfrom=em4449.messages.lhmailer.com; outlook.com; dkim=pass (signature
+ was verified) header.d=messages.lhmailer.com;outlook.com; dmarc=permerror
+ action=none header.from=messages.lhmailer.com;compauth=pass reason=111
+Received-SPF: Pass (protection.outlook.com: domain of
+ em4449.messages.lhmailer.com designates 167.89.37.134 as permitted sender)
+ receiver=protection.outlook.com; client-ip=167.89.37.134;
+ helo=o15.email.rateabiz.com;
+Received: from o15.email.rateabiz.com (167.89.37.134) by
+ AM5EUR03FT018.mail.protection.outlook.com (10.152.16.114) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4457.17 via Frontend Transport; Wed, 25 Aug 2021 16:15:22 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:FD5EC9335965174CD80AB5C1329FDAEF784ABEF7B6F73128870C2BA5BEEB4DD3;UpperCasedChecksum:D726263A3D794027F14DFD0C07035B4CF4113C82656A235B6F0AAECF9444B4C6;SizeAsReceived:2904;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=messages.lhmailer.com;
+	h=from:subject:mime-version:reply-to:to:list-unsubscribe:content-type;
+	s=mlh2; bh=DSi0f37OF7+fFd3Fppk9kEFu3fzEuFFvk76WEJtm234=;
+	b=c27htg5s9AlR/cxBhQApv+GHDtPMCwMwrchAcEyJUXqQ6Jmx6dxjZdWJpEXP37YAcSAd
+	Msrb/bqxk3MiQZ/QRE66V7l8I2HHGN8zU+v8cfKS8oLuxbS7P8Um4pXvdKWa6R0tdrGvU3
+	zB6UBgiCNberrto/QY4EkJCQTKRCrv9G8=
+Received: by filterdrecv-77b958978-vd46w with SMTP id filterdrecv-77b958978-vd46w-1-61266C98-192
+        2021-08-25 16:15:20.968747468 +0000 UTC m=+1015422.792280974
+Received: from lh-prod-mesos-alfa-slave13.internetbrands.com (unknown)
+	by geopod-ismtpd-1-0 (SG) with ESMTP id sNjDqtGJRDqdM9FRfiQerQ
+	for <NIGEL.AGWAH@OUTLOOK.COM>; Wed, 25 Aug 2021 16:15:20.803 +0000 (UTC)
+Received: from lh-prod-mesos-alfa-slave13-nr (unknown [172.17.32.9])
+	by lh-prod-mesos-alfa-slave13.internetbrands.com (Postfix) with ESMTP id 8471A45EE
+	for <NIGEL.AGWAH@OUTLOOK.COM>; Wed, 25 Aug 2021 12:15:20 -0400 (EDT)
+Date: Wed, 25 Aug 2021 16:15:21 +0000 (UTC)
+From: Ridgeview Family Dental - Warrensburg <mailer@messages.lhmailer.com>
+Message-ID: <1800571073.2047117.1629908120541@lh-prod-mesos-alfa-slave13-nr>
+Subject: New Dental Appointment for NIGEL
+Reply-To: Ridgeview Family Dental - Warrensburg
+	<ridgeviewfamilydental@gmail.com>
+X-SG-EID:
+ =?us-ascii?Q?76q=2FT9TNHIUiFQRUMYU+iFPWGEgbTNgXTRCUWIZB9ES3+MTfOZKWd8g66r8n7I?=
+ =?us-ascii?Q?13DHO3Z44XgDjlp9EM1NKkL6gfczM82dUBEhX+1?=
+ =?us-ascii?Q?3cKKqqSP2pRY6y7oXug1Q0o02QxkMkhOHTbUjIo?=
+ =?us-ascii?Q?NIeaYPAZesQdLybhzaTxPnyZwAkwPebcSVFI6t8?=
+ =?us-ascii?Q?1EEkIU5DoiwCAKxvOR8y7IQAnaa7WtG05JUBnfR?=
+ =?us-ascii?Q?D7SATkl4rL3vwLlXM1XX6tL3peJHo0eD6n4f7py?=
+ =?us-ascii?Q?uEQ6tLmBwvaLH1eOw2jcyQ=2F9U6EO+0CPE337lLF?=
+ =?us-ascii?Q?dDg=3D?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb5=2FhksamQrkJD3imdiLCJ+p1Ht7StXDGQWHQI2CL57?=
+ =?us-ascii?Q?g16CRnPxQbhW8PaOapq0wLadCYPmPK3Jl=2F5Acgw?=
+ =?us-ascii?Q?Gsw6zSaBvLSxcTvTIkGJiFsiqjGjaVmrJL6f3IN?=
+ =?us-ascii?Q?qd3q0XuwRilAUVuLEKCO5MRWBs5rXPEHgoD33Vb?=
+ =?us-ascii?Q?YdNKeJlr7SWcvvBKdEUQL5myOe7k=2FvlxcL3gzub?=
+ =?us-ascii?Q?vBLbP3zcn57MXQhypgZQcD6FWOFU10IyeWhhL1s?=
+ =?us-ascii?Q?myWYfmtDEGSxU34=2F1MD8h2PKJffSj74Z+Z6lzsP?=
+ =?us-ascii?Q?oNJSkS8u95BkaFzDVmq=2FihlziU1zF2ZR8os4rIZ?=
+ =?us-ascii?Q?5WZ57kBCK0HhKEau5WjJf88wtfvfcGHa5545HzR?=
+ =?us-ascii?Q?VNJcYsb3ikM0X9jfyrQM1QMkti33GKdrtDBCVtj?=
+ =?us-ascii?Q?ARV4MLbwZn4piQ=3D?=
+To: NIGEL.AGWAH@OUTLOOK.COM
+X-Entity-ID: yAm251WWQ3W8xJOMiGOivQ==
+List-Unsubscribe:
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em4449=2Emessages=2Elhmailer=2Ecom=3Fsubject=3Dhttp=3A?=
+ =?us-ascii?Q?=2F=2Furl3579=2Emessages=2Elhmailer=2Ecom=2Fss=2Fu=2FQP?=
+ =?us-ascii?Q?iPi0dEaIsvz9m0zx4n9A=2F3er=2Fy0MGicdGQU6SPT?=
+ =?us-ascii?Q?6q8q0-fg=2Fum=3E?=
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_2047115_1766930582.1629908120538"
+X-IncomingHeaderCount: 16
+Return-Path:
+ bounces+65437-31d4-nigel.agwah=outlook.com@em4449.messages.lhmailer.com
+X-MS-Exchange-Organization-ExpirationStartTime: 25 Aug 2021 16:15:22.3758
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 6381e3e4-69d2-43f6-6338-08d967e38a37
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM5EUR03FT018.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/24/2021 12:03:44 AM
+X-MS-Office365-Filtering-Correlation-Id: 6381e3e4-69d2-43f6-6338-08d967e38a37
+X-MS-TrafficTypeDiagnostic: AM5EUR03HT022:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 167.89.37.134
+X-SID-PRA: MAILER@MESSAGES.LHMAILER.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Aug 2021 16:15:22.0240
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6381e3e4-69d2-43f6-6338-08d967e38a37
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM5EUR03FT018.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM5EUR03HT022
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6951915
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4457.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90005022)(91005020)(91035115)(91044021)(91045095)(9050020)(9100335)(5061607266)(5061608174)(4900115)(98391011)(58390106)(98390106)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdd2mZFcZUcMWVniPDSGfef3JrOjuDrGGc8NvwP6wAfyfT1xaDkYr3G4u2IBZvgDfqzkvg+wwdtoLrHrvTSXqadSD8vRROrKHa8249QuJDO4EzGmomfGJ4KeyE5rb+ly+Kh5iJGlyXOfRHkwfJfBMjJzFlpjYi5U1xkdJII02qAwHhklBXVyn+dko5o9fwmLKBTepkId1cSDaA==
+X-Message-Delivery: Vj0xLjE7dXM9MTtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?vWbQmADJWTPEUOrq5hWIgDjjUOLVH3FlmXBLg+PzMvnunjt92v69Lt0iPhjg?=
+ =?us-ascii?Q?hkrYTE0y+KwQMYGu51aOPSk/E4E8X9yQS4YeuHnKet2uVyPzkblFUO1cq0Sp?=
+ =?us-ascii?Q?VD0b73BETA71AZBpYHVGJ9yWo3Aij8GZzQwz2XmYiEuQ5rjJV6Hj+rLNZyza?=
+ =?us-ascii?Q?J51/Il7uTU5vMelVkHNxk8PDYyp0LSiu+RbgLEWuAYNJlBINF6laCxLezF9a?=
+ =?us-ascii?Q?KfiOHV18d6YjTtFpMNOn4SviJZeYHRQRl42HooBUW1t1jy34Gt7Gjb9Ox2DW?=
+ =?us-ascii?Q?8/anCGr+407cDyvc6Om2wttb2WM7Q1gFDEROgjuWYlJ66IXdtAaYWpvTT2sA?=
+ =?us-ascii?Q?Lg8zpkpFsuRoFFg+Lkb3/5Ibhxmst37r0G17H2dRwZEbps1NoWDszX6XweHO?=
+ =?us-ascii?Q?vRtT8m5SuLhQFelszxs82ToDoWzQrwbgqQW6Nl2Md/3njQJ5yh6L5Bx/cE6N?=
+ =?us-ascii?Q?o8uAgwtFkdyZC/QHjNlGjimCRMvuM/AtTCa5gj+Or/HgqZYy3+F3hOpnBZRq?=
+ =?us-ascii?Q?cVCGt+3nNRaUtYqB2J4huXGNTMT6fm137Svhvh9rBidecdtAuvEbrZx4NYyk?=
+ =?us-ascii?Q?Qze1hpNewjFfLP77zfjigXfA3HqzZdqCB7ksr6M5SBSHpY10qlJrsJ9MMOEc?=
+ =?us-ascii?Q?N0bpsAeCnuuYZXoLb5F4t7I1sv+6oaWaiMt1aFsERlZeFMpNXgD6mmy3Cnp9?=
+ =?us-ascii?Q?rYSOh/RCy1P8mGpr8unYTqjhFSazuFnjsB/7kAPxyXnNMrq3PuQARQJ+mDqL?=
+ =?us-ascii?Q?gDlrN0yh7vveLtBdK9TznItxVeO9Jz+22xidqp5tjJdcV7hSJLae8SQ1jsde?=
+ =?us-ascii?Q?L38PhaZGmPOGPmUbK/zt7y9j+nshSZbSKT2bG5zwvWHXjUNxRO3tVCXnrioG?=
+ =?us-ascii?Q?qmUAorFmdeBN0PizFPWMIoPEcI6F2VYkaMPVtQtxOHLiCg/R/Z86lEaJ3yeJ?=
+ =?us-ascii?Q?bCqErM9Y3uGGPRLhsdA7tZNmnP1deC1w/jBSGMB3Fv08d0jaF7gZ06BeB2yU?=
+ =?us-ascii?Q?XggbV6AJElG8HQDULiMDtJ+i8weB2gYeRTjl0XKSbQ2eqJZU/srUGPoRHpDf?=
+ =?us-ascii?Q?FoV704+ePF9Ziea5ElpPWj3LYADGq9zXaSnflFS1QY0h15DXpjvuHrdH0dr/?=
+ =?us-ascii?Q?5ms1LFRdulc3LK8Z1TMbzdOh+F7J4Lo5+JqJqjp73LlXt0cpFVeh/5HZOrGs?=
+ =?us-ascii?Q?VXYHCl81tK/UCs6r?=
+MIME-Version: 1.0
+X-TUID: VhI4uxPD2Orr
+
+------=_Part_2047115_1766930582.1629908120538
+Content-Type: multipart/related; 
+	boundary="----=_Part_2047116_2097499707.1629908120538"
+
+------=_Part_2047116_2097499707.1629908120538
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic,700,700italic,300" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        a{
+          outline:none;
+          color:#232323;
+          text-decoration:underline;
+        }
+        a:hover{text-decoration:none !important;}
+        a[x-apple-data-detectors]{color:inherit !important; text-decoration:none !important;}
+        .btn:hover,
+        .active:hover{opacity:0.8;}
+        .btn,
+        .active{
+          -webkit-transition:all 0.3s ease;
+          -moz-transition:all 0.3s ease;
+          -ms-transition:all 0.3s ease;
+          transition:all 0.3s ease;
+        }
+        .link a{color:#232323 !important;}
+        .btn a{color:#fff !important;}
+        a img{border:none;}
+        table td{mso-line-height-rule:exactly;}
+        .ExternalClass, .ExternalClass a, .ExternalClass span, .ExternalClass b, .ExternalClass br, .ExternalClass p, .ExternalClass div{line-height:inherit;}
+        @media only screen and (max-width:500px) {
+          /* default style */
+          table[class="flexible"]{width:100% !important;}
+          *[class="hide"]{display:none !important; width:0 !important; height:0 !important; padding:0 !important; font-size:0 !important; line-height:0 !important;}
+          span[class="db"]{display:block !important;}
+        /* custom style */
+          td[class="header"]{padding:48px 0 0 !important;}
+          td[class="main"]{padding:0 0 20px !important;}
+          td[class="frame"]{padding:25px 15px !important;}
+          td[class="holder"]{padding:5px 15px 30px !important;}
+          td[class="btn"] a{padding:10px 30px 14px !important;}
+        }
+      </style>
+    </head>
+    <body style="margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;" bgcolor="#ffffff">
+      <span style="display: none !important;">Add to calendar in one click!</span>
+      <table style="min-width:320px;" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+        <!-- fix for gmail -->
+        <tr>
+          <td style="line-height:0;"><div style="display:none; white-space:nowrap; font:15px/1px courier;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></td>
+        </tr>
+        <tr>
+          <td>
+            <table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
+              <!-- fix for gmail -->
+              <tr>
+                <td class="hide">
+                  <table width="600" cellpadding="0" cellspacing="0" style="width:600px !important;">
+                    <tr>
+                      <td style="min-width:600px; font-size:0; line-height:0;">&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- header -->
+              <tr>
+                <td class="header" bgcolor="#cfcfcf" style="padding:46px 59px 0;">
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <!-- logo -->
+                    <tr>
+                      <td align="center" style="padding:0 0 32px;"><a href="http://url3579.messages.lhmailer.com/ss/c/yrRECFuY62MS6fvfsqgPvo76IbXl1wu-aIvuXVF_Zw0hSwregUdgQwF2eN-8T4svVX2Wt6eQeiKYkefQDHXWeKVzu1aGcBys6NsCqhHcF8dTaK6QJ37dZyEDNgEaSzkv/3er/y0MGicdGQU6SPT6q8q0-fg/h0/7L2OHCWreapSSjhTmHVvwNpU3c-nGDe-Ghwks6o0LPE" target="_blank"><img src="http://images.lighthouseplz.com/image_viewer?imageId=20076916" height="80" style="vertical-align:top;" alt="Ridgeview Family Dental - Warrensburg"></a></td>
+                    </tr>
+                    <!-- text block -->
+                    <tr>
+                      <td class="frame" bgcolor="#ffffff" style="padding:42px 20px 19px; border-radius:3px 3px 0 0;">
+                        <table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center" style="padding:0 0 6px; font:16px/18px Open Sans, Arial, Helvetica, sans-serif; mso-ascii-font-family:Arial;  color:#232323;">
+        <span class="db">Appointment for NIGEL</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="font:24px/30px Open Sans, Arial, Helvetica, sans-serif; mso-ascii-font-family:Arial;  color:#232323;">
+        <span class="db">Wednesday, September 15, 2021 at  2:00 PM</span>
+      </td>
+    </tr>
+  </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- main -->
+              <tr>
+                <td class="main" bgcolor="#f5f5f5" style="padding:0 59px 20px;">
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td class="holder" bgcolor="#ffffff" style="padding:0px 41px 56px; border-radius:0 0 3px 3px;">
+                        <table width="100%" cellpadding="0" cellspacing="0">
+                          <!-- button -->
+                          <tr>
+                            <td style="padding:23 11px 42px; border-bottom:1px solid #131313;">
+                              <table style="margin:0 auto;" cellspacing="0" cellpadding="0" align="center">
+    <tbody>
+        <tr>
+            <td style="mso-padding-alt:11px 59px 13px; border-radius:3px; font:16px/18px Open Sans, Arial, Helvetica, sans-serif; mso-ascii-font-family:Arial;  color:#fff;" class="btn" bgcolor="#ff9800" align="center"><a style="text-decoration:none; color:#fff; display:block; padding:11px 59px 13px; font:16px/18px Open Sans, Arial, Helvetica, sans-serif;" target="_blank" href="http://url3579.messages.lhmailer.com/ss/c/FZFjenzp1f8HTnakZvj87wcT13fBz3j2tkHysGaORg0yDe8mYXavO4w5BKbhT0FshCSJduP259zbxfoLn-CdI5Emzd3dLPyDzRHNd4j42Er2hCnDxH5ZncOqGQQzK-oVtoIcTCV-uxj3NbVZ6G1Dpu4i6kmxMm6dHgn1jU_TPabG9X5t_LMZj0gCo1r5G6xXRMLJwELIz3iV_9pn--wPeRAyt_izKJQdscRmtjbbTn_XwCvrBMOUQHdg40MvI-7y7qmJ-LTSv-TrJ3Gd1byhKt0bOg2GpG0Ffr0auEaUt5wXTkzbnqlfNCPLXBlvntINCKEbetZw4OnSbO8qAQaxaA2pjrAsJiggo05eU50A-75ylf5GPJeHC9YatU5BvOZGboUeAyhk2Nv_uhj4rBMyijRz0FIDV0ubA189cN6MWpU/3er/y0MGicdGQU6SPT6q8q0-fg/h1/PjBASh0_zWI0BBiSJemwdQxpShWr2asdrCWv69gDdcc"> Add To Calendar </a></td>
+        </tr>
+    </tbody>
+</table>
+                            </td>
+                          </tr>
+                          <!-- text block -->
+                          <tr>
+                            <td class="link" style="padding:37px 11px 0; font:16px/24px Open Sans, Arial, Helvetica, sans-serif; mso-ascii-font-family:Arial;  color:#232323;">
+                              <p>
+                                <p>We're looking forward to this next appointment. If you have any questions, <a style="font-size: 16px;" data-cke-saved-href="http://dryoungdental.mydentalvisit.com/pages/contactme" href="http://url3579.messages.lhmailer.com/ss/c/Y5RGrgIaIH44YzNZ8qkFJMRuxfJsphiQ5X40nZH3GdqXizQxwF2rTraNs2bIpHNGSCvofxT_epC3O_8M0sQYLnqBGNR3aFZPaMZ6tU_GyvaR0Zl1OHh9wf6rbBzUCv3wKLN1GSYPXZ_KRm3-6MSf8FAbapv00F5BYNt7A1G1eKI/3er/y0MGicdGQU6SPT6q8q0-fg/h2/pIbxtHYhzHOwFQzc-hxKavQQTSKiKQUoavOFC2UBIOA">fill out this form</a> or call us at 660-747-9117.</p><p><span style="color:#0000FF;"><strong>We are now in our new location at 511 N Ridgeview Dr.</strong></span></p>
+                              </p>
+                              <p>
+                                <p></p>
+                              </p>
+                              <p>
+                                - Your Friends at Ridgeview Family Dental - Warrensburg
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- footer -->
+                    <tr>
+                      <td class="link" style="padding:28px 10px 20px;">
+                        <table width="100%" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td align="center" style="font:12px/18px Open Sans, Arial, Helvetica, sans-serif; mso-ascii-font-family:Arial;  color:#232323;">
+                              <b style="font-weight:600;">Ridgeview Family Dental - Warrensburg</b><br>
+                              <span class="db">
+                                511 N Ridgeview Dr, Warrensburg, MO 64093
+                              </span>
+                              <br>
+                              <a href="tel:660-747-9117" target="_blank" style="text-decoration:none; color:#232323;">660-747-9117</a> <br>
+                              <a href="mailto:ridgeviewfamilydental@gmail.com" target="_blank" style="text-decoration:underline; color:#232323;">Email</a>
+                                                                                          | <a href="http://url3579.messages.lhmailer.com/ss/c/yrRECFuY62MS6fvfsqgPvo76IbXl1wu-aIvuXVF_Zw0hSwregUdgQwF2eN-8T4svVX2Wt6eQeiKYkefQDHXWeKVzu1aGcBys6NsCqhHcF8dTaK6QJ37dZyEDNgEaSzkv/3er/y0MGicdGQU6SPT6q8q0-fg/h3/DktSqwPy-RuDLqx8PPNDA0pLx1HqETejq9j2d5LNhuk" target="_blank" style="text-decoration:underline; color:#232323;">Website</a>
+                                                                                                                                                                                | <a href="http://url3579.messages.lhmailer.com/ss/c/uOdgAC6gNQUYO0r196MFb0IppjWMsyNlGM8wQqQMSjMCRfRE7R4JScSNt5r1HYeKbvbLFY-JV72n3qCJByimaUqGj4q-NyKrxgNacQES1Sfp13-b_maF1nJfOtrbuOT0BKwGTwvd7bVYLLIhGRemdOdWveyca2YX0jJU-WDg_kalIRaLEKlXqknMQO7Ie1xk/3er/y0MGicdGQU6SPT6q8q0-fg/h4/UfZQL0wJQctOtwJygipGKnSLPZ7XZBkgn2PMVyLljpM" target="_blank" style="text-decoration:underline; color:#232323;">Get Directions</a>
+                                                                                        <br><br>
+                              Don't want email reminders? <a href="http://url3579.messages.lhmailer.com/ss/c/9aELEovDkAdlTI1RIdkjAq98CLIpYT6LTk9VVGV3EonTYb2oSLVBAC_C5_COHxHLzoCwDulDb9CIBq8hPNBvUFHPueehyx5Fm_EGWRjTmO55m-jk980phfjbi8mwVdObLh8KYXwzzmdwegJvXWZ8XCGIxbsmL9T3Oa4MGzWIb4yhyAq5jkit_E0a7FAwTa0BCCp8Neb0ppeMfDrvqL_-_9fN5jLnmcnSz-_4Fl5n8AMXgKjp-0NLvG7gz2Ntg7pSRfus4S1viQdZ8I8WezFWs8V52HQrXQBnIvlCzIVyROU/3er/y0MGicdGQU6SPT6q8q0-fg/h5/K3LTkgnGuMIqFtljkTlV0JK9UMmi07CsfGvBS68qzZw" target="_blank" style="text-decoration:underline; color:#232323;">Unsubscribe</a>.
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>If you'd like to unsubscribe and stop receiving these emails <a href="http://url3579.messages.lhmailer.com/ss/u/QPiPi0dEaIsvz9m0zx4n9A/3er/y0MGicdGQU6SPT6q8q0-fg/uh"> click here </a>.</p>
+<img src="http://url3579.messages.lhmailer.com/ss/o/QPiPi0dEaIsvz9m0zx4n9A/3er/y0MGicdGQU6SPT6q8q0-fg/ho.gif" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"></body>
+  </html>
+------=_Part_2047116_2097499707.1629908120538--
+
+------=_Part_2047115_1766930582.1629908120538--

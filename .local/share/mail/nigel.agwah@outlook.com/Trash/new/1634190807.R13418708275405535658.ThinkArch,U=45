@@ -1,0 +1,314 @@
+Received: from VI1EUR04HT007.eop-eur04.prod.protection.outlook.com
+ (2603:10b6:806:20::28) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA9PR03CA0023.NAMPRD03.PROD.OUTLOOK.COM; Thu, 24 Jun 2021 05:46:21
+ +0000
+Received: from VI1EUR04FT045.eop-eur04.prod.protection.outlook.com
+ (2a01:111:e400:7e0e::47) by
+ VI1EUR04HT007.eop-eur04.prod.protection.outlook.com (2a01:111:e400:7e0e::396)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4242.16; Thu, 24 Jun
+ 2021 05:46:20 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.84.139)
+ smtp.mailfrom=amazonses.square.com; outlook.com; dkim=pass (signature was
+ verified) header.d=square.com;outlook.com; dmarc=pass action=none
+ header.from=square.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of amazonses.square.com
+ designates 54.240.84.139 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.84.139;
+ helo=a84-139.smtp-out.us-west-2.amazonses.com;
+Received: from a84-139.smtp-out.us-west-2.amazonses.com (54.240.84.139) by
+ VI1EUR04FT045.mail.protection.outlook.com (10.152.29.5) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4264.18 via Frontend Transport; Thu, 24 Jun 2021 05:46:20 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:509DD2B62A1C8AD75F201EC18C6458E14E2C591C4A39B5EF059E9E988488448D;UpperCasedChecksum:13223C3331891019780AFAB7F130966387BDD90A13A0395B5DF3F0A1D06D7040;SizeAsReceived:1493;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=j4ey24e2gjj35jy3sonan65bgdaduwny; d=square.com; t=1624513578;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=VdZWbLWjFwi56zU+B/FCLI5Z1YVbVCt4mUzBvfkun/I=;
+	b=DKGO4RROcYajS62Sk3RnN7YS3Ll8N5xL1+ps2NYXGF1Sa0/qfZYEBXkNoPXyrqkB
+	R/O05Xr7rWQQh5k1r4bzYXZqx/bmqFM5zM9fbsu2co+PlLzFY+kR8Yi0FC8JzuBwEsf
+	o4IQkwD6RLnPd489gaft3mKCNxAI0xhdy7yA6hrk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1624513578;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=VdZWbLWjFwi56zU+B/FCLI5Z1YVbVCt4mUzBvfkun/I=;
+	b=ManaxrrOQMC07U+ZUpMJGinx6fnyQqBWR4USRPiU+Y2Ii/iVXRthIoL4M8a/Zjrl
+	zzyy+rjIkQUit/t0dQ1fnJB2NiAOJceGRJJZn8DSkS5Ivsfl4uZALuxbHyoRXXWQiCv
+	2Uamx2wwgUKkaSYAhPWCdA2L3J4UfXdTRP2XdxiI=
+Date: Thu, 24 Jun 2021 05:46:17 +0000
+From: Cash App <cash@square.com>
+To: Nigel Agwah <nigel.agwah@outlook.com>
+Message-ID: <0101017a3c8e036d-06e4a945-69b0-4616-a371-a720b6198738-000000@us-west-2.amazonses.com>
+Subject: Your direct debit of -$1 could not be completed
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_17473639_1565682868.1624513577807"
+X-EMS-Request-ID: 818_45ffe2f8-66d5-4771-977e-fe9b671ccb3d
+X-ERS-Token: CD0QloLNxfeZ4PbzARj6jKSImfa13J4B
+Feedback-ID: 1.us-west-2.EF4Hd+uKJPJhWmZlVnJKCXQDkGNGjBpr4Wm4bmSPmbI=:AmazonSES
+X-SES-Outgoing: 2021.06.24-54.240.84.139
+X-IncomingHeaderCount: 13
+Return-Path:
+ 0101017a3c8e036d-06e4a945-69b0-4616-a371-a720b6198738-000000@amazonses.square.com
+X-MS-Exchange-Organization-ExpirationStartTime: 24 Jun 2021 05:46:20.7721
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ e4c8ff01-00d0-4aa5-2ebc-08d936d364db
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR04FT045.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/24/2021 12:54:37 AM
+X-MS-Office365-Filtering-Correlation-Id: e4c8ff01-00d0-4aa5-2ebc-08d936d364db
+X-MS-TrafficTypeDiagnostic: VI1EUR04HT007:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.84.139
+X-SID-PRA: CASH@SQUARE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Jun 2021 05:46:20.2143
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e4c8ff01-00d0-4aa5-2ebc-08d936d364db
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR04FT045.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1EUR04HT007
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5222717
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4242.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddhh69sIkKp9r1lOzPEpd5jfReJiO2rf51nS/G8yUomwXG1+8ZBbgSdyCTM8r3IXC7y2F1TmxhwB9QINOzQv2jWqDsFmZT1n6khMJnk8PfEHJFQzc0nVT3Kz6uNWn0KnNyTT3zvpwMBf2CKpVVDpV2EbNH+qJaLn24zmtFnCx6OOS4azLKLEKGJ2DXztUDEOHIcgnvjDv+uCg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?SjJLT1N6VGFvR3NRcXJQMnB6d1o1WTdjUW9SQXl4UTJJdlVPT2FLL1JPTjI1?=
+ =?utf-8?B?a1dONEVwR2dVMzlpbjd6bkNLODI1NTdrcXdiMHgyVFdoZ1lGanJrZnh3OGc3?=
+ =?utf-8?B?WTRVaTNXcmc4TmRLd2JEeHFjbTY3YkF4T3JPYTg5U2hQSmJaVDVWOEk0K202?=
+ =?utf-8?B?dUovL3dEbzM0NnhVaGRLRTVmMzI0MnUyeWpDaEljc2FmeExXd3YzNVJJQlI5?=
+ =?utf-8?B?UU44Q0tPQU1oR21IQ0NTM3hNZGoyU0RWMFMrSStjQzFnc0dxSXB2V3dNMmU4?=
+ =?utf-8?B?NWZZeHNIQmc3MU1LTVBOQitESVk5cHJsMFVocThBZ3MyY2FMWUt3TC9FNlpz?=
+ =?utf-8?B?dklJVjRPVTd1djlNSUtuc043YlcvTzcvZm5TQ1pNWE9HV3d6WTBlVFNQMHZm?=
+ =?utf-8?B?ZTVHNktnenJJQ0xvUnB2UXMwS01TS2tnWmRDTGFQa2krN291WWpQSElTRDcz?=
+ =?utf-8?B?UWw0K25oem42eTMyM281YUsxOXZiNkJQNC8rYzRoelYvVG0rb2JBdWRyekYx?=
+ =?utf-8?B?TkQvMjVyVGlDcmFwYjh1T3hZVTJXelh6ajFLVXh2dDc5N0EyMEt1L2pGdVdX?=
+ =?utf-8?B?L0VOOWVmYnZ2b0RxaUtSd0gwTkJId2hNdXRSaHRuZS9jRVJrS2E2bmNnRXRJ?=
+ =?utf-8?B?cGpjeE0yemEveWJhMGROL1BGV1JteUpGYTVnck5FSkNkUzFXQzVjRmZJbGlz?=
+ =?utf-8?B?OE15djBBNHRTWXhCalIwZVBya082VnVvbmpTWkw0QnF5VGs4dTRVa29JNnBy?=
+ =?utf-8?B?bmVHYzVFZEVzajFEUWp2VDNqeFVCZnRic3V4Mk80N1JoQzdydUtoYTlpVFRr?=
+ =?utf-8?B?L0FYTy94cU44VVVrbTJVeG1NR3VNV3g4TVU4RU5aL0RoNlhMYzFnOFNuSTlI?=
+ =?utf-8?B?ekhJdVYvZFVuVDg2eE5UTFhBTy8zWXlLV3Vwa2xHcnM3K3p0OVFyelpWV3pL?=
+ =?utf-8?B?d0NrVStwUFZUWlpBRTB6aWRNN2hBdWZEMlNpSStYZi9QdEl3WE5OcTZqd0dZ?=
+ =?utf-8?B?aW05ckR6OG5RMEsrM29ocDdjU2hoWC8wK0VvcTlKNDZvYm9aY044MDQrVnVh?=
+ =?utf-8?B?QkgwNWpHc3hXZlFvWUVDeUoxc0hXZU1WVktGa1RVZDJjaU50VjNNbVR6OEwr?=
+ =?utf-8?B?bUxyazBQNFA2SGxWQ1JpaE9aTklrdHBSLzRKY2Z4SHhSbXBUMERmNW5tcUJC?=
+ =?utf-8?B?TUJDdW4yU1pGQTFnUUNrM3JvbGgva3ErOVBlVG1GMHNOcVM3bmlBNER2dTUw?=
+ =?utf-8?B?VGpUeVJRV3FFems3dm9BQ0tncWU4SWZYdk9CVUtLdWlZS3h5ZEExc29zRlNq?=
+ =?utf-8?B?VDJPRWs2UVpKTmVsQjcrTkxKWFJnTnVqczk4dk95dzQ1NGIvM1g1RHNwNmha?=
+ =?utf-8?B?ZFlKVEV3VkZzUGJDVC9mdlBmVW5Gd3Nocld5b1FDa2N0dERHTldaSEZPbWoy?=
+ =?utf-8?B?Ymk2bXR1dlduNXVRVUdnMEdQL2t2U2lhang5TmkwRHl3eWFJQzM4c08xMkhx?=
+ =?utf-8?B?N2d0M3NqcmhTZTJXaWlHckIyOU8rSTQzNjZzOGtsL3hnZE1HUTZmM0Jqb2tr?=
+ =?utf-8?B?R295cDZHeElBdndKcUxmR3d6U0Y1R25YOXgycmxNZStuM1YvU0FjeWRPWEVp?=
+ =?utf-8?B?TDlFQ2tVRmxxRDM1ZnVJTGFIVHdvMGovTGZ5OWx4Zm9nOC9IaFM4d0NvdjZ0?=
+ =?utf-8?B?Q3VrdkxCTmFBTXFaZ0hMcCt4UDZDTWp1MnY3cy9OTmFxQjdySVl2MEJLaytE?=
+ =?utf-8?Q?oSFVD5LqLf89Vj3bBw=3D?=
+MIME-Version: 1.0
+X-TUID: 1mJD7FAPXa0o
+
+------=_Part_17473639_1565682868.1624513577807
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Your direct debit of -$1 could not be completed
+------=_Part_17473639_1565682868.1624513577807
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=20
+  <meta name=3D"viewport" content=3D"initial-scale=3D1.0, maximum-scale=3D1=
+.0"> =20
+  <style type=3D"text/css">
+    .email {
+      text-decoration: none;
+      color: #999999;
+      cursor: text;
+    }
+    .secondary-unlinkify a {
+      text-decoration: none !important;
+      color: #999 !important;
+    }
+    p {
+      margin: 1em 0;
+    }
+    @media screen and (min-width: 415px) {
+      .container {
+        width: 375px !important;
+      }
+    }
+    @media only screen and (max-width: 450px) {
+      /* Targets Gmail on iOS - Full width Fix */
+      u ~ div { min-width: 100vw; }
+      u ~ div .receipt-v4 {min-width: 100vw;}
+
+      /* Targets Gmail on Android - Full width Fix */
+      div > u ~ div .receipt-v4 {min-width: 100%;}
+    }
+  </style> =20
+ </head>=20
+ <body style=3D"margin:0;padding:0;min-width: 100%;background-color:#F7F7F7=
+;"> <!-- Max-width Table -->=20
+  <table class=3D"receipt-v4" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" bgcolor=3D"#F7F7F7">=20
+   <tbody>
+    <tr>=20
+     <td></td>=20
+     <td width=3D"415"> <!-- Max-width Table --> <!-- Padding Between Scree=
+n and Content Table -->=20
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">=20
+       <tbody>
+        <tr>=20
+         <td width=3D"20"><img src=3D"https://cash-s.squarecdn.com/static/i=
+mages/alpha.gif" height=3D"1" width=3D"20" style=3D"display: block;"></td>=
+=20
+         <td width=3D"100%"> <!-- Padding Between Screen and Content Table =
+--> <!-- Content Column Table -->=20
+          <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=20
+           <tbody>
+            <tr>
+             <td height=3D"50"> <img src=3D"https://cash-s.squarecdn.com/st=
+atic/images/alpha.gif" width=3D"1" height=3D"50" style=3D"display: block;">=
+ </td>
+            </tr>=20
+            <tr>=20
+             <td align=3D"center"> <!-- Optional "Do Not Forward" message -=
+->=20
+              <table align=3D"center" class=3D"container" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" width=3D"100%" style=3D=
+"-webkit-border-radius: 24px;  -moz-border-radius: 24px;  -ms-border-radius=
+: 24px;  -o-border-radius: 24px;  border-radius: 24px;  overflow: hidden;  =
+table-layout: fixed;">=20
+               <tbody>
+                <tr>
+                 <td height=3D"48"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"48" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+                <tr>=20
+                 <td height=3D"72" align=3D"center" valign=3D"middle" class=
+=3D"amount-text" style=3D"font-weight: 400;  letter-spacing: -1px;  font-fa=
+mily: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;"> <s=
+pan style=3D"line-height:72px;color:#333333;font-size:65px">-$1.00</span> <=
+/td>=20
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding: 0 48px">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                   <tbody>
+                    <tr>
+                     <td height=3D"84"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"84" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding: 0 48px">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                  </table> </td>=20
+                </tr>=20
+                <tr>
+                 <td height=3D"36"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"36" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+            <tr>
+             <td height=3D"24"> <img src=3D"https://cash-s.squarecdn.com/st=
+atic/images/alpha.gif" width=3D"1" height=3D"24" style=3D"display: block;">=
+ </td>
+            </tr>=20
+            <tr>=20
+             <td align=3D"center" class=3D"footer" style=3D"font-size: 14px=
+;  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetic=
+a, Arial, sans-serif;  line-height: 24px;  font-weight: 300;  text-align: c=
+enter;  color: #999;"> <a href=3D"https://cash.app/support" class=3D"suppor=
+t-button" style=3D"color: #999;  text-decoration: none;  padding: 0 10px;">=
+Contact Support</a> </td>=20
+            </tr> <!-- Large Gap between content and footer text areas -->=
+=20
+            <tr>
+             <td>=20
+              <table align=3D"center" class=3D"container" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"280" style=3D"-webkit-border-radiu=
+s: 24px;  -moz-border-radius: 24px;  -ms-border-radius: 24px;  -o-border-ra=
+dius: 24px;  border-radius: 24px;  overflow: hidden;  table-layout: fixed;"=
+>=20
+               <tbody>
+                <tr>
+                 <td height=3D"24"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"24" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+               </tbody>
+              </table> </td>
+            </tr>=20
+            <tr>
+             <td height=3D"1"> <img src=3D"https://cash.app/pixel-open/emai=
+l/zgam54ab93webn3mtd5zxfczq" width=3D"1" height=3D"1" style=3D"display: blo=
+ck;"> </td>
+            </tr>=20
+            <tr>
+             <td align=3D"center">=20
+              <div class=3D"footer" style=3D"font-size: 14px;  font-family:=
+ -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-=
+serif;  line-height: 24px;  font-weight: 300;  text-align: center;  color: =
+#999;"> <a href=3D"https://squareup.com" style=3D"color: #999;  text-decora=
+tion: none;  padding: 0 10px;">=C2=A9 Square Inc.</a>=20
+              </div> </td>
+            </tr>=20
+            <tr>
+             <td height=3D"70"> <img src=3D"https://cash-s.squarecdn.com/st=
+atic/images/alpha.gif" width=3D"1" height=3D"70" style=3D"display: block;">=
+ </td>
+            </tr>=20
+           </tbody>
+          </table> <!-- Content Column Table --> <!-- Padding Between Scree=
+n and Content Table --> </td>=20
+         <td width=3D"20"><img src=3D"https://cash-s.squarecdn.com/static/i=
+mages/alpha.gif" height=3D"1" width=3D"20" style=3D"display: block;"></td>=
+=20
+        </tr>=20
+       </tbody>
+      </table> <!-- Padding Between Screen and Content Table --> <!-- Max-w=
+idth Table --> </td>=20
+     <td></td>=20
+    </tr>=20
+   </tbody>
+  </table> <!-- Max-width Table --> =20
+ <img alt=3D"" src=3D"http://f5kbvc75.r.us-west-2.awstrack.me/I0/0101017a3c=
+8e036d-06e4a945-69b0-4616-a371-a720b6198738-000000/CmWRd54f7b4jcFzCYoeh-wVI=
+zr4=3D223" style=3D"display: none; width: 1px; height: 1px;">
+</body>
+</html>=
+
+------=_Part_17473639_1565682868.1624513577807--

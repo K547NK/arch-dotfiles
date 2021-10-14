@@ -1,0 +1,365 @@
+Received: from CS1PR8401MB0584.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7507::16) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Fri, 1 Oct 2021 22:30:13 +0000
+Received: from MW4PR04CA0057.namprd04.prod.outlook.com (2603:10b6:303:6a::32)
+ by CS1PR8401MB0584.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7507::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.19; Fri, 1 Oct
+ 2021 22:30:12 +0000
+Received: from MW2NAM10FT040.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:303:6a:cafe::a9) by MW4PR04CA0057.outlook.office365.com
+ (2603:10b6:303:6a::32) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.15 via Frontend
+ Transport; Fri, 1 Oct 2021 22:30:12 +0000
+Authentication-Results: spf=pass (sender IP is 159.253.181.158)
+ smtp.mailfrom=bumble.com; outlook.com; dkim=pass (signature was verified)
+ header.d=bumble.com;outlook.com; dmarc=pass action=none
+ header.from=bumble.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bumble.com designates
+ 159.253.181.158 as permitted sender) receiver=protection.outlook.com;
+ client-ip=159.253.181.158; helo=cluster2097.monopost.com;
+Received: from cluster2097.monopost.com (159.253.181.158) by
+ MW2NAM10FT040.mail.protection.outlook.com (10.13.155.158) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4566.14 via Frontend Transport; Fri, 1 Oct 2021 22:30:11 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:A04F5B177177D9B701FE517D4409C33863425DEC315D7F7C3B854B884E0E07AE;UpperCasedChecksum:D6E0C467E11D23EB0DFABD3F3C99AEF2EFF71E5D528EA94F014982081DF453E2;SizeAsReceived:1366;Count:16
+Received: from localhost (cloud94.ulan [10.20.25.95])
+	by cluster2097.monopost.com (Postfix) with ESMTP id 4D0B43801B29
+	for <nigel.agwah@outlook.com>; Fri,  1 Oct 2021 22:30:11 +0000 (UTC)
+DKIM-Filter: OpenDKIM Filter v2.11.0 cluster2097.monopost.com 4D0B43801B29
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=bumble.com;
+	s=m23uiy45; t=1633127411;
+	bh=v4JLsHLISW1WPyxy/stePIOsV7ysMBG3lebesrczuVA=;
+	h=Date:To:Reply-to:From:List-Unsubscribe:Subject;
+	b=sWpeirdNbnz/tcYBmIC9GQkSbjMHWLsSbeOQ+lP3roFFLBwqY3H9RTsjIDOiCwUu+
+	 XG39So+E0PGs45HAdxBoc+dJgdXM2JN5T6UPhGdAvpFXsJRiJRxM3R/Ysg+KpNVo5q
+	 zoGuq3ZRt9cIxqJ7ORi/742YLSZNCNundgdgeTRE=
+Date: Fri, 01 Oct 2021 22:30:11 +0000
+To: nigel.agwah@outlook.com
+Reply-to: noreply@bumble.com
+From: Bumble <noreply@bumble.com>
+X-campaignid: badoo 106.05.3.211001
+List-Unsubscribe: <mailto:unsubscribe+5.810585916119471267.106.61578bf3.af606d@badoo.com?subject=c7TUyLL6PD91WTMJi3mcUrjpW5LJBymTAzrupTRFgmjFJ0Q>
+Message-Id: <diprN3juiPpX3832q0Q7dpMrj16baVBHOYIKYjZv6Mn9YZTQEMmRRPlpYWQwK3Zy8tmAncdiKi2@monopost.com>
+X-Recipient-User-Id: zAgUACjE1MTM4MTQ1MTQAIBkoAF9y8tESwfY-iHO8wsFB0pO8h8vPAQmF1XJNGerF
+X-Campaign-Data: o1ROqUO6uB6SCiHURqHDqf
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Subject: =?UTF-8?B?8J+RiyBBZ3dhaCwgd2UgbWlzcyB5b3Uh?=
+X-IncomingHeaderCount: 16
+Return-Path: noreply@bumble.com
+X-MS-Exchange-Organization-ExpirationStartTime: 01 Oct 2021 22:30:12.0898
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ a0df431b-abb2-409a-2942-08d9852b086a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM10FT040.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/29/2021 11:16:15 PM
+X-MS-Office365-Filtering-Correlation-Id: a0df431b-abb2-409a-2942-08d9852b086a
+X-MS-TrafficTypeDiagnostic: CS1PR8401MB0584:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 159.253.181.158
+X-SID-PRA: NOREPLY@BUMBLE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Oct 2021 22:30:11.9401
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a0df431b-abb2-409a-2942-08d9852b086a
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM10FT040.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CS1PR8401MB0584
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7897446
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4566.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100336)(4900116)(98391031)(4910005)(9560002)(9320001)(4920091)(6515079)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeh9R3U0W7LmuXT4ILF8u++K6nx03aar944gIng8oqAmRFSAdKhhpoi+9ECyGd3OY7ngb7e9QAVmYLW/3IJEhVzepD/OVZi6ABbWXxlludOt4o6ouGuH0HlZKphpltz/UxiRuFSf5ZKfsGCaSyijltV/ZKIK9Hr3KxRMQ4MkASZj0vgOO3YiBTLxuQfD18i+reBJDFIfPWTcg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bkY2QlhONHBISVYvNVFEYlByVDM0L2VVVElVcGVhTnRkdUdBalBiRTZlbFJl?=
+ =?utf-8?B?K1ZpSEFJKzFmdzJMeU40emhhbnBkZHkzMUFNK1c4OGNXa2t3anFZLzZPSEpI?=
+ =?utf-8?B?WGZycGdtcTFHbkJkTE81VFNLd3NJOHAvRHl0S08zWHBrR2ZpdVA5RGNKQWVW?=
+ =?utf-8?B?cHJGZ0NJbmJ1YSt6TnNSQ1RhSWp2OWVoQ05CVEdXeDRScmo2QUhDbHZWeVhU?=
+ =?utf-8?B?Q0RVNWtOdThRK2hmUDJocGZRallmRThJcTFWYjdBQTBSMHpvd3Z3cWswRm9G?=
+ =?utf-8?B?dWxNdGVqVjhiajhyRTFoYnlVanFqMTJNWXNrU05Vb0wvdnNtVlNnMEVuMDlC?=
+ =?utf-8?B?SEh4b3JkNXN1VStHZHBvVkxROTlhQmpCZXRuVmtvWXhKa2htTWlZTlpmMEp0?=
+ =?utf-8?B?NlZuckpCMmpwOEI5TEJUWGptL2FmRjl2L1NqcE9HWUlvbXdrS2plNjdPcS9y?=
+ =?utf-8?B?b3dzTjlkM09OdXRwa0srNzBpVS9ENG51MlZTSWJQZEU5dGlMUlJNUDhwK3JO?=
+ =?utf-8?B?Q084SDBPYk5OZk5nY2xVeG4vMDExTEtFcmpvUE9WQzNDSkNlenFlcyszd3lo?=
+ =?utf-8?B?d0xrN2pDeUZnSnhEMmVmMERndjhIeG9teHpwbmYwZHJFWHVlMzZ5d25pN1l2?=
+ =?utf-8?B?a0tLNE5KcFN2Njlid0lrU1ZHSURyR0VncWo4MFpJb2JGM3paN2x6UXY4TE5M?=
+ =?utf-8?B?S3pIdXFMdmpBaUs0eDhCVkRrNUVwdHMyOTBhd2ZlRFlDWXJoblhlWXZGRGhR?=
+ =?utf-8?B?VmZqNWh1Tmt6S292YlFScmQvR2ovRC8zaDdyOGJLVzd6bEE1U0FRUlYrTVE0?=
+ =?utf-8?B?bVZaUXdJRTlTenUvbUMwSkwrNGI3RmtGcVhBT3VWa0c3NkdWdERCbUV2UG1j?=
+ =?utf-8?B?UHo1K29TSENqakNuYURPUWdiRkdJb0EwQkdTblpBbUxzaWlFTFlRaVh1REZh?=
+ =?utf-8?B?bXNxSVRnbTlvT2hyMWlDcXJLRW92djgwczN5ZE9ZRlpVRkhiWnp1QngrWkFj?=
+ =?utf-8?B?VGhYRzUvNHRHNzd4d1F6VnRpSVpVSzBsbGhhQ0M0UVA2UTlmbkZqUG51RDh0?=
+ =?utf-8?B?Zzg2cE1XWXI1enpNVSt4UzZVN1VEZUlEd3ZZU0pMRlVySElyMjRvNWJVQmxq?=
+ =?utf-8?B?b0cwOGJJaW5mS3JGNmEyTkdmZ3B0QlBHbzQvSE4wT0RUenFzR25qd1Zaa1By?=
+ =?utf-8?B?ZUNCVjhMRTdva1dkeUpmZENPY2NIcERKbng4SnJmZ0dMY04xVGVWalpPSmp3?=
+ =?utf-8?B?Ry9PNDZBVlo0bjZuNUpiWXpLNno2WVVUNU9RNXRCZWRiem1VcEV0eUozK29p?=
+ =?utf-8?B?c1JTYkVqbkpEbUwxUDJwRVcvMmxkM1JSelBUZm9QWDFnVDJMOXJjNnNtRDVG?=
+ =?utf-8?B?T2hFU2xqVG0zNEt0RmFvRUowUTB0elE1QW11dTErL1o2eHpYU2ZaTFNQUzV0?=
+ =?utf-8?B?YzB0Q2Z0alJOS2I1MXhyTHBWYlNvYlVMbkxJb0pySnREalZqdHAvbDh5S0Qx?=
+ =?utf-8?B?TzRCNGVURHIyZXNDajg5b3RuNzdwRk8xZTZqMUFWMkRRbTRidTJqOTFVVEhM?=
+ =?utf-8?B?UkplZ1RzcGZUT1hyR2tjRUh6MW1aZDhKREVsd0NZNXB4ekxqWXpHWGltWTFM?=
+ =?utf-8?B?Uk1LTURFSGlMeWVDcDZyQzdtNkdNbUhOSkpwR2kwZFQ2TFBWVG9GWkJJOS9x?=
+ =?utf-8?B?ZGIvNElVRmh1dGM4c0gxY3EwTWUvV0NRdmV2MTFJWi9mT2dvTEwrUEE0ZW1M?=
+ =?utf-8?B?R1Q4em9uUzFwK3oySnc4QytwdU1nY1FBNGQxYmwyWWNzL3U5SGRrRVlicEpZ?=
+ =?utf-8?B?aDJYN1pnOTN5K01jSEJ1QT09?=
+MIME-Version: 1.0
+X-TUID: oWi70WCwe/CB
+
+<!DOCTYPE html><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=
+=0A=
+=0A=
+    <title></title>=0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">=0A=
+    <style>=0A=
+        /* common styles */=0A=
+        body {=0A=
+            padding: 0;=0A=
+            margin: 0;=0A=
+            -webkit-text-size-adjust: none;=0A=
+        }=0A=
+=0A=
+        p {=0A=
+            margin: 0;=0A=
+        }=0A=
+    </style>=0A=
+    =0A=
+     <style> .mail-body { font: 14px / 1.28 Google Sans, San Francisco, Cen=
+tury Gothic, Segoe UI, Helvetica, Arial, sans-serif; color: #282828; } .mai=
+l-body a, .mail-body a[href] { color: #ffc629; } .footer__address a { text-=
+decoration: none; pointer-events: none; cursor: default; color: #282828; } =
+.social__image { vertical-align: middle; } </style> <style> @media screen a=
+nd (max-width: 480px) { .mail-header__cell { display: block; text-align: ce=
+nter !important; } .mail-header__logo { margin-bottom: 0 !important; } .mai=
+l-button { font-size:  !important; } .mail-element__text { font-size: 100%;=
+ } .social__link { margin: 0 4px; } .mail-element__column { text-align: cen=
+ter !important; } .mail-element__column--top { display: block; width: 100% =
+!important; text-align: center !important; } .mail-element__column--bottom =
+{ display: block; width: 100% !important; padding-top: 16px !important; tex=
+t-align: center !important; } .mail-element__title { margin-top: 24px !impo=
+rtant; text-align: center; } .mail-element__button { padding: 0 16px; } .ma=
+il-element__cell { display: block; } .mail-element__top { margin-top: 0 !im=
+portant; } .mail-element__table { display: table; width: 100%; } .mail-head=
+er__cell--spacing { padding: 22px 0 28px !important; } .mail-element__cell-=
+-top .mail-element__cell-container { margin-bottom: 24px; } .mail-element__=
+cell--bottom .mail-element__cell-container { margin-bottom: 24px; } .mail-e=
+lement__cell--left { padding-left: 0 !important; padding-right: 16px !impor=
+tant; width: 64px !important; } .mail-element__cell--top { display: table-h=
+eader-group; padding: 16px 16px 0 !important; text-align: center !important=
+; } .mail-element__cell--bottom { display: table-footer-group; padding: 16p=
+x !important; text-align: center !important; } .mail-element__cell-space { =
+margin-top: 16px !important; } .mail-element__fixed-height { height: 200px =
+!important; } .mail-element__small-height-mobile { max-width: 92px !importa=
+nt; margin: 0 auto !important; } .mail-element-mobile-reset-block { display=
+: block !important; } .mail-element__hpaddings { padding-left: 0 !important=
+; padding-right: 0 !important; } .mail-column { padding: 0 !important; } .m=
+ail-column--middle { padding: 16px 0 !important; } .section-holder { paddin=
+g-top: 16px !important; } .section__action .mail-button { width: auto; padd=
+ing-left: 24px !important; padding-right: 24px !important; } .logo { width:=
+ 150px !important; height: auto !important; } } </style> =0A=
+    <!-- /style -->=0A=
+    =0A=
+</head>=0A=
+<body lang=3D"en" dir=3D"ltr">=0A=
+    <span style=3D"display:none; font-size:0px; line-height:0px; max-height=
+:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hid=
+e:all;">Remember: The more you use Bumble, the more your profile will be sh=
+own to potential matches.</span>=0A=
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" =
+style=3D"direction: ltr; background: #ffffff; min-width: 300px; text-align:=
+ left;" class=3D"mail-body">=0A=
+        <tr>=0A=
+            <td style=3D"padding: 0 8px;">=0A=
+                <center>=0A=
+                    <table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" style=3D"max-width: 660px; min-width: 300p=
+x; margin: 0 auto;">=0A=
+                        <tr>=0A=
+                            <td>=0A=
+                                 <table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" bgcolor=3D"#ffffff" class=3D"mail-header__logo=
+" style=3D"margin-top: 16px; margin-bottom: 16px; border-radius: 10px; back=
+ground-color:#ffffff;"> <tr> <td class=3D"mail-header__cell mail-header__ce=
+ll--spacing" style=3D"padding: 24px 0 8px; text-align: center;"> <img src=
+=3D"https://pd1us.bumbcdn.com/i/v2/-/moxie/i/email/sz___size__/logo@2x.73a6=
+63b4c3dfd1d9f66c.png" class=3D"logo" width=3D"180" style=3D"vertical-align:=
+ top; font-size: 28px; color: #000; -ms-interpolation-mode: bicubic;" alt=
+=3D"Bumble">=0A=
+<div style=3D"display:none; font-size:0; line-height: 0; mso-hide: all; max=
+-height: 0; max-width: 0; width: 0; overflow: hidden; vertical-align: top;"=
+ class=3D"logo-mobile">=0A=
+    <img src=3D"https://bumbcdn.com/i/04a3543c9698c73f0b61578bf3000000055a3=
+af9f200060000eed46a4d37-1232212-1-1_0/v2/-/moxie/i/email/sz___size__/logo@2=
+x.73a663b4c3dfd1d9f66c.png" class=3D"logo-mobile" width=3D"0" height=3D"0" =
+style=3D"display: none; font-size: 0; line-height: 0; mso-hide: all; max-he=
+ight: 0; max-width: 0; width:0; vertical-align: top; color: #000; -ms-inter=
+polation-mode: bicubic;" alt=3D"Bumble">=0A=
+</div>=0A=
+ </td> </tr> </table> =0A=
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%">=0A=
+                                    <tr class=3D"">=0A=
+    <td style=3D"width: 100%; padding: 24px 0px 24px;">=0A=
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10=
+0%" style=3D"border-radius: 0px; overflow: hidden; background-color: #fffff=
+f;">=0A=
+            <tr>=0A=
+                <td>=0A=
+                    <div class=3D"mail-element__hpaddings" style=3D"padding=
+: 0px 8px;">=0A=
+    <img class=3D"" style=3D"-ms-interpolation-mode: bicubic;   width: 100%=
+; max-width: 100%; display: block; border-radius: 10px; margin: 0 auto; bor=
+der: 0; padding: 0;" src=3D"https://pd1us.bumbcdn.com/i/promo/4/e/4eda173e4=
+61e9780546c5afbae7634c5.png" alt=3D"">=0A=
+=0A=
+</div>=0A=
+=0A=
+                </td>=0A=
+            </tr>=0A=
+        </table>=0A=
+    </td>=0A=
+</tr>=0A=
+<tr class=3D"">=0A=
+    <td style=3D"width: 100%; padding: 24px 0px 24px;">=0A=
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10=
+0%" style=3D"border-radius: 0px; overflow: hidden; background-color: #fffff=
+f;">=0A=
+            <tr>=0A=
+                <td>=0A=
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">=0A=
+    <tr>=0A=
+        <td class=3D"mail-element__hpaddings" style=3D"padding: 0 24px; tex=
+t-align: center;">=0A=
+            <div style=3D"margin: 0px 0 0px">=0A=
+                <div style=3D"font-size: 22px; line-height: 1.27; font-weig=
+ht: 400;">=0A=
+                    =0A=
+                </div>=0A=
+=0A=
+                <p class=3D"mail-element__text" style=3D"margin: 8px 0 0px;=
+ word-break: break-word; font-family: Google Sans, San Francisco, Century G=
+othic, Segoe UI, Helvetica, Arial, sans-serif; font-size: 14px; text-align:=
+ inherit;">Hey Agwah,<br><br>You might have noticed you=E2=80=99re getting =
+fewer notifications. This is a quick, friendly reminder that<b> the less ti=
+me you spend on Bumble, the less your profile will be shown to everyone els=
+e.</b> <br><br>So, why not check back in?<br><br></p>=0A=
+=0A=
+=0A=
+                <div style=3D"font-size: 16px; line-height: 1.25; font-weig=
+ht: 500;">=0A=
+                    <div class=3D"mail-element__button" style=3D"margin: 24=
+px 0 0px; text-align: inherit;">=0A=
+    <a href=3D"https://bum.bb/u/3RxIEKD?camp=3DlliMIDdAfg6tnjiZwed1SjBBc9GQ=
+xhkXvoONmr7yUaC653pl9LXsMcA&amp;u=3D1513814514&amp;m=3D5&amp;mid=3D04a3543c=
+9698c73f0b61578bf3000000055a3af9f200060000eed46a4d37&amp;g=3D0-0-4" class=
+=3D"mail-button" style=3D"display: inline-block; padding: 10px 24px; border=
+-radius: 20px; outline: 0; border: 0; margin: 0; font-size: 100%; line-heig=
+ht: inherit; text-decoration: none; text-align: center; background: #F8C537=
+; color: #ffffff; font-family: Helvetica, Arial, sans-serif; text-transform=
+: none;">Open Bumble</a>=0A=
+</div>=0A=
+=0A=
+                </div>=0A=
+            </div>=0A=
+        </td>=0A=
+    </tr>=0A=
+</table>=0A=
+=0A=
+                </td>=0A=
+            </tr>=0A=
+        </table>=0A=
+    </td>=0A=
+</tr>=0A=
+=0A=
+                                </table>=0A=
+                                 <table class=3D"table__footer" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"border-collap=
+se: separate;"> <tr class=3D"app_store_buttons"> <td style=3D"padding: 24px=
+ 0 16px; text-align: center;">  <table class=3D"mail-element-mobile-reset-b=
+lock" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=
+=3D"border-collapse: separate;"> <tbody class=3D"mail-element-mobile-reset-=
+block"> <tr class=3D"mail-element-mobile-reset-block">  <td class=3D"mail-e=
+lement__column--top" style=3D"padding: 0 4px; text-align: right;"> <div sty=
+le=3D"display: inline-block; min-width: 143px; padding: 0 24px; background:=
+ #ffc629; border-radius: 20px; text-align: center;"> <a href=3D"http://bumb=
+le.com/install/?ref=3Dmarketing_interface&amp;d=3DIphone" style=3D"text-dec=
+oration: none"> <img src=3D"https://pd1us.badoocdn.com/i/v2/-/-/i/marketing=
+-interface/apps/sz___size__/appstore-high@2x.caec78bb698912b093c9.png" widt=
+h=3D"132" height=3D"40" alt=3D"Apple Store" style=3D"display: inline-block;=
+ margin-right: 5px; vertical-align: bottom;"> </a> </div> </td>   <td class=
+=3D"mail-element__column--bottom" style=3D"padding: 0 4px; text-align: left=
+;"> <div style=3D"display: inline-block; min-width: 143px; padding: 0 24px;=
+ background: #ffc629; border-radius: 20px; text-align: center;"> <a href=3D=
+"http://bumble.com/install/?ref=3Dmarketing_interface&amp;d=3DAndroid" styl=
+e=3D"text-decoration: none"> <img src=3D"https://pd1us.badoocdn.com/i/v2/-/=
+-/i/marketing-interface/apps/sz___size__/google-play-high@2x.e2755e8c504a77=
+8533cc.png" width=3D"132" height=3D"40" alt=3D"Google Play" style=3D"displa=
+y: inline-block; margin-right: 5px; vertical-align: bottom;"> </a> </div> <=
+/td>  </tr> </tbody> </table>  </td> </tr> <tr> <td class=3D"mail-header__c=
+ell" style=3D"padding: 32px 0; text-align: center; vertical-align: middle;"=
+ align=3D"center" valign=3D"middle">  <div style=3D"margin: 0 auto;"> <tabl=
+e class=3D"table__footer" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"margin: 0 auto; border-collapse: separate;"> <tr> <td> <a class=3D=
+"social__link" style=3D"display: block; height: 40px;" href=3D"https://www.=
+facebook.com/bumbleapp/?fref=3Dts"> <img class=3D"social__image" src=3D"htt=
+ps://pd1us.badoocdn.com/i/v2/-/-/i/marketing-interface/new/sz___size__/icon=
+-facebook@2x.150d207de36fd674d95e.png" width=3D"40" height=3D"40" alt=3D"Fa=
+cebook"> </a> </td> <td> <a class=3D"social__link" style=3D"display: block;=
+ height: 40px; margin-left: 8px;" href=3D"https://twitter.com/bumble"> <img=
+ class=3D"social__image" src=3D"https://pd1us.badoocdn.com/i/v2/-/-/i/marke=
+ting-interface/new/sz___size__/icon-twitter@2x.8cd2c41efd2c44b22f06.png" wi=
+dth=3D"40" height=3D"40" alt=3D"Twitter"> </a> </td> <td> <a class=3D"socia=
+l__link" style=3D"display: block; height: 40px; margin-left: 8px;" href=3D"=
+https://www.instagram.com/bumble/"> <img class=3D"social__image" src=3D"htt=
+ps://pd1us.badoocdn.com/i/v2/-/-/i/marketing-interface/new/sz___size__/icon=
+-instagram@2x.0b3a113feaae4d0eb199.png" width=3D"40" height=3D"40" alt=3D"I=
+nstagram"> </a> </td> <td> <a class=3D"social__link" style=3D"display: bloc=
+k; height: 40px; margin-left: 8px;" href=3D"https://www.pinterest.com/bumbl=
+eapp/"> <img class=3D"social__image" src=3D"https://pd1us.badoocdn.com/i/v2=
+/-/-/i/marketing-interface/new/sz___size__/icon-pinterest@2x.03c5d1d4292d6e=
+0f5ff2.png" width=3D"40" height=3D"40" alt=3D"Pinterest"> </a> </td> <td> <=
+a class=3D"social__link" style=3D"display: block; height: 40px; margin-left=
+: 8px;" href=3D"https://www.linkedin.com/company/bumble-app"> <img class=3D=
+"social__image" src=3D"https://pd1us.badoocdn.com/i/v2/-/-/i/marketing-inte=
+rface/new/sz___size__/icon-linkedin@2x.454cfa226e165bb89874.png" width=3D"4=
+0" height=3D"40" alt=3D"LinkedIn"> </a> </td> </tr> </table> </div>  </td> =
+</tr> <tr> <td class=3D"mail-footer" style=3D"padding: 16px 16px 48px; font=
+-size: 12px; line-height: 1.25; color: #949494; text-align: center;"> <p st=
+yle=3D"margin-bottom: 15px;">You=E2=80=99re receiving this email because yo=
+u created an account with Bumble.</p>  <p><span class=3D"m__footer-address"=
+>Bumble Trading LLC is a company registered in the United States with its r=
+egistered office at 1105 W 41st Street, Austin, TX 78756</span></p> </td> <=
+/tr> </table> =0A=
+                            </td>=0A=
+                        </tr>=0A=
+                    </table>=0A=
+                </center>=0A=
+            </td>=0A=
+        </tr>=0A=
+    </table>=0A=
+</body>=0A=
+</html>
+

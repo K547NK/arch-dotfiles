@@ -1,0 +1,212 @@
+Received: from AM7EUR06HT238.eop-eur06.prod.protection.outlook.com
+ (2603:10b6:806:1bb::7) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0152.NAMPRD11.PROD.OUTLOOK.COM; Fri, 3 Sep 2021 18:25:52
+ +0000
+Received: from AM7EUR06FT027.eop-eur06.prod.protection.outlook.com
+ (2a01:111:e400:fc36::4d) by
+ AM7EUR06HT238.eop-eur06.prod.protection.outlook.com (2a01:111:e400:fc36::148)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4478.19; Fri, 3 Sep
+ 2021 18:25:51 +0000
+Authentication-Results: spf=pass (sender IP is 208.85.50.18)
+ smtp.mailfrom=bounce.e.myecp.com; outlook.com; dkim=pass (signature was
+ verified) header.d=e.myecp.com;outlook.com; dmarc=pass action=none
+ header.from=e.myecp.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.e.myecp.com
+ designates 208.85.50.18 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.85.50.18; helo=mail9936.e.myecp.com;
+Received: from mail9936.e.myecp.com (208.85.50.18) by
+ AM7EUR06FT027.mail.protection.outlook.com (10.233.255.143) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4478.19 via Frontend Transport; Fri, 3 Sep 2021 18:25:50 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:319317C3A0C82B50CB8D10C6491E6C9C9F2803D1ABA87C401B81E831ED657C05;UpperCasedChecksum:A206D7F3DE2FAAF3CDD869748AAC2399A94A1DF7F642318263C0794E0256EE5A;SizeAsReceived:1439;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=spop1024; d=e.myecp.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ X-CSA-Complaints:List-Unsubscribe; i=MilitaryStar@e.myecp.com;
+ bh=fDRYDADDHxxwVAoZ21tRS3XfXifv0qQkXndWKUb7F9o=;
+ b=uIJ/muFVrS0TNy3SEy86EnP5c2R6tW1m1Hc8nSMMpzDQNKpO4NcZ46vNGWJ8C5ur9cxBH+wcF2gD
+   MPyOf0mLFiInww8vuXTVzQxNezbq/x6wV6mJ3vc6JM/eTSpvK7QdazafwOfhHWzR28hFN68DXSKd
+   W14SP31KJ2IgEbVUB4w=
+Received: by mail9936.e.myecp.com id h69kas2r7aog for <nigel.agwah@outlook.com>; Fri, 3 Sep 2021 18:24:25 +0000 (envelope-from <v-cabhplh_empalmbflh_hijlgkgf_hijlgkgf_a@bounce.e.myecp.com>)
+Date: Fri, 3 Sep 2021 18:24:25 +0000 (GMT)
+From: Military Star <MilitaryStar@e.myecp.com>
+Reply-To: DoNotReply@e.myecp.com
+To: nigel.agwah@outlook.com
+Message-ID: <1830995230.192242581630693465789.JavaMail.app@rbg11.atlis1>
+Subject: Financing Fall Fun Is Easy With MILITARY STAR
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_219128_382845060.1630693457734"
+x-mid: 33652663
+X-CSA-Complaints: csa-complaints@eco.de
+x-rpcampaign: sp33652663
+x-job: 33652663
+x-orgId: 3496
+List-Unsubscribe: <http://links.e.myecp.com/luoo/v1/MGtUUVVBSTJacUVqUVFmbWMwdERjWDNSeEt2VGRHWFRqRTR6ME84NzJqb3FDYlVjSVpHVTd6Y3p3WmpNa3VXd0xSWWdFUldDNnFzUTRDUUpCdjF2Rll3N0NIZE9aZlpSS0>, <mailto:v-cabhplh_empalmbflh_hijlgkgf_hijlgkgf_a@bounce.e.myecp.com?subject=Unsubscribe>
+X-IncomingHeaderCount: 16
+Return-Path: v-cabhplh_empalmbflh_hijlgkgf_hijlgkgf_a@bounce.e.myecp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 03 Sep 2021 18:25:51.2676
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 8852a1cf-e010-4f63-3958-08d96f084251
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM7EUR06FT027.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/31/2021 10:13:49 PM
+X-MS-Office365-Filtering-Correlation-Id: 8852a1cf-e010-4f63-3958-08d96f084251
+X-MS-TrafficTypeDiagnostic: AM7EUR06HT238:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.85.50.18
+X-SID-PRA: MILITARYSTAR@E.MYECP.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Sep 2021 18:25:50.9508
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8852a1cf-e010-4f63-3958-08d96f084251
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM7EUR06FT027.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM7EUR06HT238
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3934544
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4478.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91044021)(91045095)(9050020)(9100336)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdehK1l9X40NFA5a8jH7YULkpPy6DHsyea1OJ3cNti+gxCkCEnWRIw2NaEvwzuDubkdtQ4iZRmUypY+lLU600jiyP6cCOY0BYTrMJAtfMxcFPLUjxybm4I4OCMEip1kX+WiuBAxUqN3btONLm598Z5Tt4LdQvw87iSe/X3y+x1eP5sIZt/ZY0PadfRYYvBLFNxC52vLaAPsxfA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?ak1XcWNPQ1dhd0RrdzhsMElPSG9RcjNnVlRlZDNjdWRrRUNHMmY5Z0xheDlS?=
+ =?utf-8?B?MHp4YXRjRXpRRDMxWmFqVkFTL0tzL3YwQmxRSVROcnl5NndoN2s3aitGM0xs?=
+ =?utf-8?B?Q1ZPOHV3T2xNcG9memxpeFpONHZvZUNLbXFLYVVKVjVwTm9nTlgwaXRUcmhC?=
+ =?utf-8?B?WHhNUGhjcHZIcW11Z1RyRE12WkdpaVdwa3RRKzQ4L0VSL3diVk5qbHpXWHRB?=
+ =?utf-8?B?RWNkamMzTUpGN2E1SUVGTWpqNFNMN2ZwQk9iWnVkVmxDbGh1QmFVbWo1UnhW?=
+ =?utf-8?B?cEVJQ1Ywakl6RFhvUHppcTR1Y2xNSVJWZ2Nka0JvL3ZzRU5FNXg2d1ZCRHJN?=
+ =?utf-8?B?S3JOVWFqMjdCdTd1ZWZLRkZEVXlUTE5lWnArdVlBcEtXeTl2b1MyUEhCUnVG?=
+ =?utf-8?B?TDYxTTlEUWI5akRhQm1URTU1Qm1nUlBRRHI5Zk9EdEJNRStJdXcwV1RNbVJ2?=
+ =?utf-8?B?akgyeWQwbUJ1eDkrL0NUTzh3T0NHb1EwN3owY2hkeFpHbXFxK20zQWRzMGpL?=
+ =?utf-8?B?V2E1dEE4bS9YVk4vbEs1cXRDMFR0S25FRTQxY2NWYy9vZGRwWjUxbWFGZll4?=
+ =?utf-8?B?bmFmR25aaEdORFdBTi8wRE5WaW5vZms2UGNtR2NkWWlWUkcrWGsvL0xBR0RY?=
+ =?utf-8?B?QzZTVzNHcFVreFBybXdPS0tQZmRYUk1STHY5M0V4RUh3V2FaNmJZVndnc25z?=
+ =?utf-8?B?RW1yeWY2ak56bHBhSCtweHdscnRSVExpL3NIOUE5clE0RWVLYWl6eUJtRzJx?=
+ =?utf-8?B?RFFDVEh4UTdkMWZhcWt4bGZFU1ZCUGx3b2xXZGZxaDJEc09SWWs2b2JjcU93?=
+ =?utf-8?B?eTB4dUg1N3Y2eXRGZkh2QllsUkd6OS9vUzhuMHc0UjBLVmRJTVhvclYxT0xn?=
+ =?utf-8?B?dTlFYmNkY09ZcmUvZ0plZDlpZGZ2VVJKek0wZm5sOGZMeVBUcURZZHZKaHdt?=
+ =?utf-8?B?dW5qQVlXVjVDaXZ5RU5teFBveDhqZjN1TTd2WEcwd3VvNkNROHhuOWtSZTAz?=
+ =?utf-8?B?ZHRYTUV2cVBvWVJuNnpnb2JYN0tNZSswZElvM3lmM3o0SDc5UmUrTXQvcUVx?=
+ =?utf-8?B?YnZTNXZYNXl4aTgrUVlScGdvNzNaU2g2alNHbnlOUm1vaGpVbXBQLzRvK1NO?=
+ =?utf-8?B?WTBXc1VUT0s0MzNjWUFlRWxQbzhocmpTRDF3VnlnYVN4ZW43QjBYVzMxemo0?=
+ =?utf-8?B?cUorbnd2UU92SmE0dEFmRHc2UUdHUFZ5ekVha1o3b2xuMHZGZjgvcFB4aHIr?=
+ =?utf-8?B?dEFqTG5IYkpOWXZ6Qmd5THJmU3YxYVF2VWM3eUZwdTlkRW5Yak5kY012ZmdV?=
+ =?utf-8?B?U3N0SVZTUWZubk5heXBmSW1keTdYcmZ1c2kveHdsL0NxdVZxVDEyL21pNXhG?=
+ =?utf-8?B?UEdVN1B4cnp6TTYwbHhDVWhGU045R003N29QdXErZWxyUnlmMk95TlpuSFBR?=
+ =?utf-8?B?N0RKcGN1Y1QzR2hXdHIzVVAzNFBlUHZKUVpCSVd1eThXa1ZnaTFwMmh4RlRO?=
+ =?utf-8?B?emZOVjgvcytKZ056Z2l3cUN3YXZ5Tmd5WEFOTXVwUWg5dWNoc1dKWE1ENGl0?=
+ =?utf-8?B?bXA0Y2MxbjcwdlZSNU9iMVlkT1pZenNob2ZhSUJqYzdXTEl3SXlhVEFjUjJz?=
+ =?utf-8?B?RlpjcGtlNjJ4c0YwZlpUYXBOQjhpdWRsUDFHd1MvVkd5NjBpejRkVE5MaHNx?=
+ =?utf-8?Q?MZbkPqeI3w9KizQtp/Ff?=
+MIME-Version: 1.0
+X-TUID: IVx+bYZYSiEV
+
+------=_Part_219128_382845060.1630693457734
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+	
+</head>
+<body><center><font size="1" color="#000000" face="ARIAL">This message contains graphics.  If you do not see the graphics, <a href="http://links.e.myecp.com/servlet/MailView?ms=MzM2NTI2NjMS1&amp;r=MzMwNDU2MzcyNjYzS0&amp;j=MjAyMzQ1MTIzNwS2&amp;mt=1&amp;rt=0">click here to view</a>.</font><font face="ARIAL" color="#808080" size="2"><br></font></center><br>
+<br>
+&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" src="http://www.aafes.com/Emailimages/images/MilitaryStar/MyECPBANNER.jpg" width="419"></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(49, 75, 91); width: 419px;" width="419">
+							
+								<tr>
+									<td width="419">
+									<center><span style="font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#003d77;font-weight:bold;"><span style="color: rgb(0, 61, 119); font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 700; text-align: -webkit-center; background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 61, 119); font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 700; text-align: -webkit-center; background-color: rgb(255, 255, 255);">Financing Fall Fun Is Easy<br>
+									With MILITARY STAR</span></span></span><br>
+									&nbsp;</center>
+
+									<center style="text-align: left;">Fall is just around the corner, time to enjoy the change in season and gear up for camping, fishing, hunting and more. MILITARY STAR has the deal for your Sporting Goods needs. Pay no interest and make no payments* for 12 months on any sporting goods purchase of $699 or more with MILITARY STAR.&nbsp;<br>
+									&nbsp;</center>
+
+									<center style="text-align: center;">&nbsp;<img border="0" height="79.907" src="http://contentz.mkt10535.com/ra/2021/3496/09/33652663/Fall%20Fun%20%20pic.png" width="300"></center>
+
+									<center style="text-align: left;"><br>
+									Plus enjoy 2% in rewards on every purchase**. That's right, earn two points per dollar spent.<br>
+									<br>
+									Take advantage of this exclusive offer, get outdoors and have some fun!&nbsp;<br>
+									<br>
+									Shop now at any Army &amp; Air Force Exchange and&nbsp;<em><a href="http://links.e.myecp.com/els/v2/G8ZrFbzbE8sE/c3p1QmduZUZOU2hXVm01RFpsdVRmY0h0aFJqallyZFR3eGF1VEVsblVZNGtsN25yYWM0cUpLdEpSTTlxSnhPbUw0Skc2RTBZaVU0YkVDcTUrRm4vRUdZYTFNbjFCYnB1anhhcURLVnlOb1E9S0/" name="Hyperlink_20210902_103639735" target="_blank"><em>shopmyexchange.</em>com</a>.</em><br>
+									&nbsp;</center>
+
+									<center style="text-align: center;"><em></em>Use MILITARY STAR for all your Sporting Goods adventures!<br>
+									<br>
+									<em></em></center>
+
+									<div style="color: rgb(49, 75, 91); font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); text-align: center;">&nbsp; &nbsp;<img border="0" height="115.599" src="http://contentz.mkt10535.com/ra/2021/3496/09/33652663/Military%20Star%20card.png" width="175"></div>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	
+		<tr>
+			<td><strong>*Valid May 1 - December 31, 2021</strong> at any Army &amp; Air Force Exchange Service facility and <em>shopmyexchange.com</em>. Must be a transaction of $699 or more on firearms, bikes, and equipment for hunting, camping, fishing, golfing, team sports, marine and water sports, and fitness. Limited to stock available. Excludes prior purchases, concessionaires, Exchange Online Marketplace and NEX, MCX and CGX. Offer ends at 2359 CT on final day of promotion. <strong>PL#43726</strong>. MILITARY STAR promotions subject to credit approval. Standard account terms apply to non-promotional purchases and, after promotion ends, to promotional purchases. As of March 16, 2020, a variable <strong>10.24%</strong> applies to retail plan purchases, and a variable <strong>18.24%</strong> APR applies to accounts subject to penalty APR. Minimum interest charge: 50¢. See Exchange Credit Program agreement for more details.<br>
+			<br>
+			** Rewards exclude military clothing line of credit. Two percent back is equal to 2 points per $1 spent.<br>
+			<br>
+			This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US.<br>
+			You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email.</td>
+		</tr>
+	
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom><img src="http://links.e.myecp.com/eos/v1/YThuMEZxWjRTZU0wN3BiT1VCalFGMCtxQktoR2V3cTdYdHVmTktBWWhuTkNkSnI4cXdYdEF4cVRkYlExNGR2dE5mRmIwVEwyVVJnTHdYcnVqUitHa2VYTGxjTlJqakp4bitPY01xWlJzdTZWZWxlTnROQUhWNkhQSEpNODdoTStkUE05dEhBcEpuUFh5c0xyeWE3L0FPSVE0NjVMb1ZOaENaVmtPamlPQ2U4TFg4Z3R0Um9qb0E9PQS2" style="display: none"></body>
+</html>
+
+
+
+------=_Part_219128_382845060.1630693457734--

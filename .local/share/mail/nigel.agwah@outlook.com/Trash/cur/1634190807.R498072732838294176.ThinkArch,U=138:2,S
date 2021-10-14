@@ -1,0 +1,356 @@
+Received: from BN8NAM11HT108.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:803:42::46) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN4PR0501CA0129.NAMPRD05.PROD.OUTLOOK.COM; Wed, 19 May 2021
+ 19:56:04 +0000
+Received: from BN8NAM11FT018.eop-nam11.prod.protection.outlook.com
+ (2a01:111:e400:fc4b::51) by
+ BN8NAM11HT108.eop-nam11.prod.protection.outlook.com (2a01:111:e400:fc4b::417)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4129.25; Wed, 19 May
+ 2021 19:56:04 +0000
+Authentication-Results: spf=pass (sender IP is 136.147.186.35)
+ smtp.mailfrom=bounce.microsoftemails.com; outlook.com; dkim=pass (signature
+ was verified) header.d=mail.onedrive.com;outlook.com; dmarc=pass action=none
+ header.from=mail.onedrive.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.microsoftemails.com designates 136.147.186.35 as permitted sender)
+ receiver=protection.outlook.com; client-ip=136.147.186.35;
+ helo=mta35.email2.microsoft.com;
+Received: from mta35.email2.microsoft.com (136.147.186.35) by
+ BN8NAM11FT018.mail.protection.outlook.com (10.13.176.89) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4129.25 via Frontend Transport; Wed, 19 May 2021 19:56:04 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:0718D420E05AE260832EDA85F08D20294F67B2C7939C8845639F5728B95EF5EF;UpperCasedChecksum:3731F6E0FCCA8631F6B85AAE7EE7B01D19E80F65924C8F1380CEF741606686D5;SizeAsReceived:1500;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=mail.onedrive.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:List-ID:
+ X-CSA-Complaints:Message-ID:Content-Type; i=email@mail.onedrive.com;
+ bh=508MbhjoEm74arYfd+0TBz4CsoPL23mLDk3RWfXkxno=;
+ b=B5rdhH6FlCuCP7v1bBhcwCMVL3+mb/xfdL16Z+EEjcmVwnIR4y3x0MpgAdbxdojf5nWoe0iKiXW/
+   Ex9n1f+379WwRootUeyxfE444DKHu9n/240yxmvMrH6AZyZ7yWMPg9YvX4jvFHRq52n/Z2I52PN1
+   vkPlYHDB6u2Y675sLPM=
+Received: by mta35.email2.microsoft.com id hklml82fmd49 for <nigel.agwah@outlook.com>; Wed, 19 May 2021 19:56:04 +0000 (envelope-from <bounce-25_HTML-793909945-480366-7231722-1@bounce.microsoftemails.com>)
+From: "Microsoft OneDrive" <email@mail.onedrive.com>
+To: <nigel.agwah@outlook.com>
+Subject: Your OneDrive is almost full
+Date: Wed, 19 May 2021 13:56:04 -0600
+List-Help: <https://click.mail.onedrive.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI3MjMxNzIyIiwicyI6Ijc5MzkwOTk0NSIsImxpZCI6IjI1IiwiaiI6IjQ4MDM2NiIsImpiIjoiMSIsImQiOiI3MDE1NSJ9.SBtiztEP-8-Yt-8v8VtMG6loLSrODPoILP5STTgSxws>
+x-CSA-Compliance-Source: SFMC
+Reply-To: "No Reply OneDrive" <reply-fec410787567027b-25_HTML-793909945-7231722-1@mail.onedrive.com>
+List-ID: <7227042.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 7
+x-job: 7231722_480366
+Message-ID: <111b96c2-bdd6-4b65-b2c1-5a4f154a7f8e@atl1s07mta2719.xt.local>
+Content-Type: multipart/alternative;
+	boundary="BOCG7XEy1iFk=_?:"
+X-IncomingHeaderCount: 16
+Return-Path:
+ bounce-25_HTML-793909945-480366-7231722-1@bounce.microsoftemails.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 May 2021 19:56:04.3307
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ d9016819-2813-4695-dac4-08d91b00228d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM11FT018.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 5/19/2021 4:38:53 AM
+X-MS-Office365-Filtering-Correlation-Id: d9016819-2813-4695-dac4-08d91b00228d
+X-MS-TrafficTypeDiagnostic: BN8NAM11HT108:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 136.147.186.35
+X-SID-PRA: EMAIL@MAIL.ONEDRIVE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 May 2021 19:56:04.2418
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d9016819-2813-4695-dac4-08d91b00228d
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM11FT018.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN8NAM11HT108
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.6170725
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4129.033
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100293)(5061607266)(5061608174)(4900115)(98393011)(4920090)(6250099)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdee9CWP6GN6k4FI9yPE/c5m3VmGYVEdQDsN8qtJaOtDh42vYR+JetDbKjIW5huc0srdWSWd5v9xYSTc2/tiM2HZEMwE3BTY9k5ReQ/i60bQ5BhP9Cej02XeCCYdWFnS2/crdjdG5PgwWmoaBvFys4UBYFPdqlQQVvhKlyt4KNhGoWj9aiYZ0+vfXakREbdad3pV3vwnrH4VqA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?SWNodlNQb1Y5RVV2S0dFRzFuNmszNW0wclF3ZVZmV3d4aG9yTEhGcXBONzBz?=
+ =?utf-8?B?bFlZQWxsaUMwTzJWK3poUmFBWEc5QjNyVkVsUmMwVkdxSm5SUWJqbHBjVkc0?=
+ =?utf-8?B?WElXdEtRY3AySmlzNTVhN2RiMkZlSGZYNlVtdG9XTGtFZ3pkbm9MYVREbWhF?=
+ =?utf-8?B?TCt1SDBQRVNWUDdJZWNIQkorTWR6aW9rNjZ0U3JDQWEvNEVSUlNyZXZQcm90?=
+ =?utf-8?B?UFlwd3NjR0VuVWVHMmFNbnlYdWcrUjZwY05mVDFzbW9scUZIeGY2ZHVtSHEx?=
+ =?utf-8?B?b3NvaUNRcHNraERkS0ZNOEUzU1NLU3o2RFdSYzRaaGZsQVJpcVdyb2NYd0dr?=
+ =?utf-8?B?UFI1dUdFVmNkKzNVMlJ3YXlJVXJqa2RHTFB1MDYybERCWHFRSVFWUndTSFBq?=
+ =?utf-8?B?Vm1LdUtiTlpaVnM5UzRHNy81blQ3QkVmem1NOE9iR3NQalA5c3NKSGQ3NC9h?=
+ =?utf-8?B?WU0vZkNyZmdYckNQclRiaFl3MVdaRHMvOGJJVEVYOEx6WnhEWEVBZ0Yxb1FZ?=
+ =?utf-8?B?MWZIeDd2U2c4UmExVlhGbmxCNjE3M0YvY1FwYUhTZEdiZDRQaXlOOUM3T2hL?=
+ =?utf-8?B?WlpNVmpWclhrOVk0cFhTT29QdXBrWG9LTGVJYWF4NVRhUS9qczB1dldQYTh2?=
+ =?utf-8?B?VGVZbENvUkt1UE5DbWo5L0ZoOTRhSkkwSU8wNGxYZ3BCNEtzVnVodG5hd0FC?=
+ =?utf-8?B?VzY0UWNnbm1qWFVGSEg2VVg4RVZtMEJOMERuWk11UWNrMDJNV2Zab1AxYW53?=
+ =?utf-8?B?NUFyTVB3a1J5NFpJd2NsMWxkZE1tZGo2MUhNVDlqVXdlWTR4b0NwNS83SVVD?=
+ =?utf-8?B?dUlrejR1empXNCtoUHlXanloeWNRSSt3S05oVkFLREhGYXUzcVQrS0FQbVNw?=
+ =?utf-8?B?SVZ0NnRxU3Q4UExsbFdCenJIK1BWTnVVNzhQd2w1YVpWUjlDYUxvTE9TTm43?=
+ =?utf-8?B?Wi83Y1ZRZW9JODZVVjE3Z3krSmRxSmxyTzRYQnBzK0lXd3AxcTVnRWZBSy9E?=
+ =?utf-8?B?Y3haSHlIdkwwVEV4Rk1CWTBhSEhIVUhNblRXWWZGSmFhYzJEWmhoQjJkdVZp?=
+ =?utf-8?B?YW9LM29RRUpLOUlvejgxdkxjdU52ckx6YTY3MUFHVGs2dmZQLzhiRTdYQ2M4?=
+ =?utf-8?B?U3NYZ09lVmMrdjJXV3lJUXZ5WTFmTmdvbUdqQVpNcytiTUhhRnlSSGZDT0lx?=
+ =?utf-8?B?bUs4TExKSmxUS0VlQitJcG05NXExaDNvQ2VGcjBDS2l2c1p3bGgyVndlTStG?=
+ =?utf-8?B?bXcxbGFkbHcxL01LZFdhWkZiWVIvcEQ5K0oxN1ZrM0t3b2ZzcGMySFl1L2Y2?=
+ =?utf-8?B?QnpZQVVQNlgxSi9OSjZ6TVJqR25PWVNTTkNyNFNreXVwN0NDQUlIT1FDZGlS?=
+ =?utf-8?B?c3VKc3M0bGthU3J1WFh4L3dmZFQ2QXhiSUdJS3hwcDNSWjErcDBqNVg4V3Fv?=
+ =?utf-8?B?NnI1aENZb0NXZTA3cENZclNRVDluQm5xNWtxS0xFQ1hzU2o5SnB6UXkrNzRl?=
+ =?utf-8?B?V0hhWlV4b0l0VVlkK3FWWWZ3VUpaY2QrdWpkYk1pdmJ6eVYzNUtPY2orL2Vs?=
+ =?utf-8?B?LzByM25NMCtYVXVOTjJlbDZvbXB1NG5jSERRWDBVcE9VenZlejNrMmtTeG5s?=
+ =?utf-8?B?YTMyUlQrY3hFNFc2VHV4WHdYbG9DWE5XZXVDdjNqSUppakVCc1k4SFlIU1lm?=
+ =?utf-8?B?cCtDZVRLaExmNmdPd21BN2dkdEpwVnFIUmFYWEZhY3YyNThXQ0VuQWR0dkF3?=
+ =?utf-8?B?UitXNkErWUp1Y3FOSzNIdkd6Q3Rkd2RCcHgyc2VjL0pqbU43enlHaEt0QlJh?=
+ =?utf-8?B?cXdXOXJhRGlSLzV3Si9lbHprMWt5TzNuRkRnZUVtcWM3SzhwZW91TWJUdzEr?=
+ =?utf-8?B?NDVqZUc0VU1NNkhUbUhubTFDV2JuZDhyVnUya1Y5Vk45KzU5MkJxS0htNkRi?=
+ =?utf-8?B?cXg4V1E3cVJxMHl5cXJoV1FMWlNDcHo5djBRdUFDMVVzTjI0czdjZk45Wk1R?=
+ =?utf-8?B?YjdoWHNaT1YyNUpFRithcXliREJaNVNXSjNhemx0U0xnN1ZPMUZ2ZDdSZnBE?=
+ =?utf-8?B?S2w5eGpyWXhZM1JWQVV4MUNIODhWMmZ4TjBLQTlyNkl1Q0MyVlFSWlBFMEd4?=
+ =?utf-8?B?NkNFakhhdGc4WVkxVUgzS05VaThiZS8xQzc4NmlQVzZ5K0hmaVBPa1VwNnBU?=
+ =?utf-8?B?bG5Xdm5sQ20vODJkSDFMWE9oOU9tcmVrOHdTMW96b1Y4Vy9KcXhUVUFqMy9k?=
+ =?utf-8?B?NlQ3clBiRklqZ1lQUVl1N0cvNE9RPT0=?=
+MIME-Version: 1.0
+X-TUID: SGcCOuhCwzKE
+
+--BOCG7XEy1iFk=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+Microsoft 365
+https://click.mail.onedrive.com/?qs=ae9da4d81135f68479f647a5ece9a3073d5573e19f35063878d53186232dee28438d7b69a586b70e8b6599c7e1814c3a396e447e4cc48043 
+Get more storage  | 
+https://view.mail.onedrive.com/?qs=dcf01b3cbc5ccd5efa0a85a8e273a7005ab86bfd00ef627bbc6137ad54dc6ca0ed8f6d62be3882cf5f8e3e581ee137a64119fee3e6e1b9421a7b718506a15b6f8b7c8bb77b6f9f80797ffcc88633a243 
+View in browser 
+
+https://click.mail.onedrive.com/?qs=ae9da4d81135f684b5b22a34de3ac1f87172e8720a5a4a385afa4e6bdfd763118ddc3025b498b3492f834f06d39021ab667aa6e75da0e7d7 
+
+https://click.mail.onedrive.com/?qs=ae9da4d81135f6846ff9740a0ef1a1cf1f3c414b912784346fbb8e4807ef2ee1b003340b3a594d6926f77e18c56077ff0b19a15060473a37 
+
+ 
+https://click.mail.onedrive.com/?qs=ae9da4d81135f68479f647a5ece9a3073d5573e19f35063878d53186232dee28438d7b69a586b70e8b6599c7e1814c3a396e447e4cc48043 
+
+ 
+Your OneDrive is almost full
+Your nigel.agwah@outlook.com OneDrive storage is almost full. When OneDrive storage is full the documents, photos, and edits won’t sync to OneDrive.com or your devices. Also, new documents and photos can’t be added.
+To keep using OneDrive, 
+https://click.mail.onedrive.com/?qs=ae9da4d81135f684478725f119d68affacdb9593ca263e334080bc19bc36101b169885790bb7d9dc939da64cd3824e5c288dc33b61d46968 
+upgrade your storage  or 
+https://click.mail.onedrive.com/?qs=ae9da4d81135f6846b60f51d6735fba0d33129b2a78905532db0036d8b1f913f0a00f6175fae6e7b312207609f3d7339d50fc26c1d47a86d 
+remove files  you no longer use.
+
+https://click.mail.onedrive.com/?qs=ae9da4d81135f68479f647a5ece9a3073d5573e19f35063878d53186232dee28438d7b69a586b70e8b6599c7e1814c3a396e447e4cc48043 
+  Get more storage  
+
+This email was sent from an unmonitored mailbox.
+You are receiving this email because you have a Microsoft OneDrive account.
+
+ https://click.mail.onedrive.com/?qs=ae9da4d81135f684fcf54c392e67aac9db53a358aecec3c25ae426641f36f55b0cb95ff5316a68de1f96da9d93b6541b88eb98e7a2fa690b 
+Privacy Statement 
+ 
+ 
+Microsoft Corporation, One Microsoft Way, Redmond, WA 98052 USA
+ 
+
+https://click.mail.onedrive.com/?qs=ae9da4d81135f684b5b22a34de3ac1f87172e8720a5a4a385afa4e6bdfd763118ddc3025b498b3492f834f06d39021ab667aa6e75da0e7d7 
+
+  
+ 
+
+
+
+
+--BOCG7XEy1iFk=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html><html lang="en-us" mcdisabled-xmlns="https://www.w3.org/1999/xhtml" mcdisabled-xmlns:v="urn:schemas-microsoft-com:vml" mcdisabled-xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 9]><style type="text/css">sup { font-size: 100% !important; } li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}</style><![endif]--><!--[if gte mso 9]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> 
+<style type="text/css"> @font-face{font-family:'wf_segoe-ui_normal';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.svg#web')
+ format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'wf_segoe-ui_light';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web')
+ format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'wf_segoe-ui_semibold';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.svg#web') format('svg');font-weight:normal;font-style:normal }@font-face{font-family:'wf_segoe-ui_semilight';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semilight/latest.ttf')
+ format('truetype');font-weight:normal;font-style:normal }</style><![endif]--><!--[if !mso]><!-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta https-equiv="X-UA-Compatible" content="IE=edge" style="-webkit-font-smoothing:antialiased;">
+ <!--<![endif]-->
+ <meta https-equiv="cache-control" content="max-age=0">
+ <meta https-equiv="cache-control" content="no-cache">
+ <meta https-equiv="Pragma" content="no-cache">
+ <meta https-equiv="Expires" content="-1">
+ <meta https-equiv="Content-Type" content="text/html;charset=utf-8">
+ <meta content="telephone=no" name="format-detection">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+ <title>Microsoft 365</title>
+ <meta name="x-apple-disable-message-reformatting">
+ <style type="text/css">
+                 html { width: 100%; min-width: 100%; overflow-x: hidden; padding: 0px; margin: 0px; } li {text-align:-webkit-match-parent; display:list-item;} body { width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #ffffff; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; } img { line-height: 100%; outline: none; text-decoration: none; border: none; height: auto; -ms-interpolation-mode: bicubic; } p { margin: 0 0 !important; } table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; } body, table, td, a { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; } .ReadMsgBody, .ExternalClass { width: 100%; background-color: #ffffff; }
+ .fullWidth { width: 500px; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } .ExternalClass a:visited, .ExternalClass span.ecxMsoHyperlinkFollowed { color: inherit; } div[style*="margin:16px 0"] { margin: 0 !important; } .phonefix, .phonefix a, .phonefix span a { color: #000000 !important; text-decoration: none; } .phonefix2 a, .phonefix2 span a { color: #717171 !important; text-decoration: none; } span.aBn { border: none; } button { display: block !important; } a { text-decoration: none; } a:visited { color: #0062b3 !important; } a > div { display: block !important; } a.fixLinkBlack:visited, .ExternalClass a.fixLinkBlack:visited { text-decoration: none !important; color: #100d0d !important; }
+ a.fixLinkWhite:visited, .ExternalClass a.fixLinkWhite:visited { text-decoration: none !important; color: #ffffff !important; } a.fixLinkBlue:visited, .ExternalClass a.fixLinkBlue:visited { color: #0078d7 !important; } a.fixLinkDarkBLue, .ExternalClass a.fixLinkDarkBLue:visited { color: #2947a9 !important; }, a.fixLinkGreen, .ExternalClass a.fixLinkGreen:visited { color: #008272 !important; } a.fixLinkGray:visited, .ExternalClass a.fixLinkGray:visited { color: #717171 !important; } a[x-apple-data-detectors] { text-decoration: none !important; color: inherit !important; } #outlook a { padding: 0; text-decoration: none !important; } span.MsoHyperlink { mso-style-priority: 99; color: inherit; } span.MsoHyperlinkFollowed { mso-style-priority: 99; color: inherit; } .yshortcuts a {
+ border-bottom: none !important; } span.MsoHyperlink { mso-style-priority: 99 !important; color: inherit !important; } span.MsoHyperlinkFollowed { mso-style-priority: 99 !important; color: inherit !important; } body.theme-main { font-family: SegoeUI, "Segoe UI", Segoe, "Helvetica Neue", "Helvetica","Arial","sans-serif"; font-size: 16px; line-height: 20px; background: #333; font-weight: 400; }@media screen { @font-face { font-family: "SegoeUI"; font-weight: 300; src: local("Segoe UI Regular"), local("Segoe Regular"), local("Segoe WP"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.woff") format("woff"),
+ url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.svg#web") format("svg"); } @font-face { font-family: "SegoeUI"; font-weight: 500; src: local("Segoe UI"), local("Segoe"), local("Segoe WP"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.svg#web") format("svg"); } }
+                @media only screen and (max-width:599px) { .responsive-cont { width: 94.1% !important; min-width: 320px !important; max-width: 599px !important; } .ul-margin-20 {margin: 0.1vw !important;} .padding-top-00 { padding-top: 0vw !important; } .padding-top-04 { padding-top: 0.6vw !important; } .padding-top-08 { padding-top: 1.3vw !important; } .padding-top-12 { padding-top: 1.9vw !important; } .padding-top-16 { padding-top: 2.4vw !important; } .padding-top-20 { padding-top: 3.1vw !important; } .padding-top-24 { padding-top: 3.8vw !important; } .padding-top-28 { padding-top: 4.4vw !important; } .padding-top-32 { padding-top: 5vw !important; } .padding-top-36 { padding-top: 5.7vw !important; } .padding-top-40 { padding-top: 6.3vw !important; } .padding-top-44 { padding-top: 6.9vw
+ !important; } .padding-top-48 { padding-top: 7.5vw !important; } .padding-top-52 { padding-top: 8.1vw !important; } .padding-top-56 { padding-top: 8.7vw !important; } .padding-top-60 { padding-top: 9.4vw !important; } .padding-top-64 { padding-top: 10.1vw !important; } .padding-right-00 { padding-right: 0px !important; } .padding-right-04 { padding-right: 0.6vw !important; } .padding-right-08 { padding-right: 1.3vw !important; } .padding-right-12 { padding-right: 1.9vw !important; } .padding-right-16 { padding-right: 2.4vw !important; } .padding-right-20 { padding-right: 3.1vw !important; } .padding-right-24 { padding-right: 3.8vw !important; } .padding-right-28 { padding-right: 4.4vw !important; } .padding-right-32 { padding-right: 5vw !important; } .padding-right-36 { padding-right:
+ 5.7vw !important; } .padding-right-40 { padding-right: 6.3vw !important; } .padding-right-44 { padding-right: 6.9vw !important; } .padding-right-48 { padding-right: 7.5vw !important; } .padding-right-52 { padding-right: 8.1vw !important; } .padding-right-56 { padding-right: 8.7vw !important; } .padding-right-60 { padding-right: 9.4vw !important; } .padding-bottom-00 { padding-bottom: 0vw !important; } .padding-bottom-04 { padding-bottom: 0.6vw !important; } .padding-bottom-08 { padding-bottom: 1.3vw !important; } .padding-bottom-12 { padding-bottom: 1.9vw !important; } .padding-bottom-16 { padding-bottom: 2.4vw !important; } .padding-bottom-20 { padding-bottom: 3.1vw !important; } .padding-bottom-24 { padding-bottom: 3.8vw !important; } .padding-bottom-28 { padding-bottom: 4.4vw
+ !important; } .padding-bottom-32 { padding-bottom: 5vw !important; } .padding-bottom-36 { padding-bottom: 5.7vw !important; } .padding-bottom-40 { padding-bottom: 6.3vw !important; } .padding-bottom-44 { padding-bottom: 6.9vw !important; } .padding-bottom-48 { padding-bottom: 7.5vw !important; } .padding-bottom-52 { padding-bottom: 8.1vw !important; } .padding-bottom-56 { padding-bottom: 8.7vw !important; } .padding-bottom-60 { padding-bottom: 9.4vw !important; } .padding-left-00 { padding-left: 0vw !important; } .padding-left-04 { padding-left: 0.6vw!important; } .padding-left-08 { padding-left: 1.3vw !important; } .padding-left-12 { padding-left: 1.9vw !important; } .padding-left-16 { padding-left: 2.4vw !important; } .padding-left-20 { padding-left: 3.1vw !important; }
+ .padding-left-24 { padding-left: 3.8vw !important; } .padding-left-28 { padding-left: 4.4vw !important; } .padding-left-32 { padding-left: 5vw !important; } .padding-left-36 { padding-left: 5.7vw !important; } .padding-left-40 { padding-left: 6.3vw !important; } .padding-left-44 { padding-left: 6.9vw !important; } .padding-left-48 { padding-left: 7.5vw !important; } .padding-left-52 { padding-left: 8.1vw !important; } .padding-left-56 { padding-left: 8.7vw !important; } .padding-left-60 { padding-left: 9.4vw !important; } .height-20 { height: 3.4vw!important; } .height-15 { height: 4.3vw !important; } .height-30 { height: 5.1vw !important; } .height-35 { height: 5.9vw !important; } .height-40 { height: 6.8vw !important; } .height-45 { height: 7.6vw !important; } .height-50 { height:
+ 8.4vw !important; } .height-55 { height: 9.3vw !important; } .height-60 { height: 10.1vw !important; } .height-65 { height: 11vw !important; } .height-70 { height: 11.8vw !important; } .height-75 { height: 12.6vw !important; } .height-80 { height: 13.5vw !important; } .height-85 { height: 14.3vw !important; } .height-90 { height: 15.1vw !important; } .height-95 { height: 16vw !important; } .height-100 { height: 16.8vw !important; } .height-125 { height: 21vw !important; } .height-150 { height: 25.1vw !important; } .height-175 { height: 29.3vw !important; } .height-200 { height: 33.5vw !important; } .font-size-12 { font-size: 2.2vw !important; } .font-size-14 { font-size: 2.4vw !important; } .font-size-16 { font-size: 2.6vw !important; } .font-size-18 { font-size: 3.0vw !important; }
+ .font-size-20 { font-size: 3.3vw !important; } .font-size-22 { font-size: 3.6vw !important; } .font-size-24 { font-size: 4.0vw !important; } .font-size-26 { font-size: 4.3vw !important; } .font-size-28 { font-size: 4.6vw !important; } .font-size-30 { font-size: 4.9vw !important; } .font-size-32 { font-size: 5.2vw !important; } .font-size-34 { font-size: 5.5vw !important; } .font-size-36 { font-size: 5.9vw !important; } .font-size-38 { font-size: 6.2vw !important; } .font-size-40 { font-size: 6.5vw !important; } .font-size-42 { font-size: 6.8vw !important; } .font-size-44 { font-size: 7.1vw !important; } .font-size-46 { font-size: 7.3vw !important; } .font-size-48 { font-size: 7.7vw !important; } .font-size-50 { font-size: 8.0vw !important; } .font-size-88 { font-size: 14.0vw !important;
+ } .line-height-12 { line-height: 2.0vw !important; } .line-height-16 { line-height: 2.6vw !important; } .line-height-19 { line-height: 3.1vw !important; } .line-height-20 { line-height: 3.3vw !important; } .line-height-24 { line-height: 4vw !important; } .line-height-28 { line-height: 4.4vw !important; } .line-height-31 { line-height: 5.0vw !important; } .line-height-32 { line-height: 5vw !important; } .line-height-36 { line-height: 5.7vw !important; } .line-height-40 { line-height: 6.3vw !important; } .line-height-44 { line-height: 6.9vw !important; } .line-height-48 { line-height: 7.5vw !important; } .line-height-50 { line-height: 8.0vw !important; } .line-height-52 { line-height: 8.1vw !important; } .line-height-56 { line-height: 8.7vw !important; } .line-height-92 { line-height:
+ 14.3vw !important; } .responsive-table { width: 100% !important; min-width: 320px !important; max-width: 599px !important; } .responsive-img { width: 100% !important; max-width: 599px !important; display: block !important; height: auto !important; } .responsive-logo { width: 100% !important; max-width: 204px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 158px !important; display: block !important; height: auto !important; } .responsive-line { width: 46px !important; height: 164px !important; vertical-align: middle !important; } .responsive-icon { width: 100% !important; max-width: 250px !important; display: block !important; height: auto !important; } .responsive-star { width: 18.7px !important; height:
+ 18.7px !important; } responsive-image-size-01 { max-width: 112px !important; height: 112px !important; } .image-icon-01 { width: 46px !important; height: 46px !important; } .auto-height { height: 100% !important; } .responsive-ls { letter-spacing: 9.3px !important; } .social-icon-size-01 { height: 22.5px !important; width: 22.5px !important; } }
+                @media only screen and (max-width:499px) { .responsive-logo { width: 100% !important; max-width: 170px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 130px !important; display: block !important; height: auto !important; } .responsive-line { width: 38px !important; height: 137px !important; vertical-align: middle !important; } .responsive-star { width: 15.6px !important; height: 15.6px !important; } .responsive-image-size-01 { max-width: 93px !important; height: 93px !important; } .image-icon-01 { width: 39px !important; height: 39px !important; } .responsive-ls { letter-spacing: 7.8px !important; } .social-icon-size-01 { height: 18.7px !important; width: 18.7px !important; } }
+                @media only screen and (max-width:415px) { .responsive-logo { width: 100% !important; max-width: 142px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 110px !important; display: block !important; height: auto !important; } .responsive-line { width: 31px !important; height: 114px !important; vertical-align: middle !important; } .responsive-star { width: 13px !important; height: 13px !important; } .responsive-image-size-01 { max-width: 78px !important; height: 78px !important; } .image-icon-01 { width: 32px !important; height: 32px !important; } .responsive-ls { letter-spacing: 6.5px !important; } .social-icon-size-01 { height: 15.5px !important; width: 15.5px !important; } .font-size-12 {
+ font-size: 2.3vw !important; } .font-size-14 { font-size: 2.4vw !important; } .font-size-16 { font-size: 2.6vw !important; } .font-size-18 { font-size: 3vw !important; } .font-size-20 { font-size: 3.3vw !important; } .font-size-22 { font-size: 3.6vw !important; } .font-size-24 { font-size: 4vw !important; } .font-size-26 { font-size: 4.3vw !important; } .font-size-28 { font-size: 4.6vw !important; } .font-size-30 { font-size: 4.9vw !important; } .font-size-32 { font-size: 5.2vw !important; } .font-size-34 { font-size: 5.5vw !important; } .font-size-36 { font-size: 5.9vw !important; } .font-size-38 { font-size: 6.2vw !important; } .font-size-40 { font-size: 6.5vw !important; } .font-size-42 { font-size: 6.8vw !important; } .font-size-44 { font-size: 7.1vw !important; } .font-size-46 {
+ font-size: 7.4vw !important; } .font-size-48 { font-size: 7.7vw !important; } .font-size-50 { font-size: 8vw !important; } .font-size-88 { font-size: 14vw !important; } .line-height-12 { line-height: 2.4vw !important; } .line-height-16 { line-height: 2.9vw !important; } .line-height-20 { line-height: 3.6vw !important; } .line-height-24 { line-height: 4.3vw !important; } .line-height-28 { line-height: 4.9vw !important; } .line-height-32 { line-height: 5.5vw !important; } .line-height-36 { line-height: 6.2vw !important; } .line-height-40 { line-height: 6.8vw !important; } .line-height-44 { line-height: 7.5vw !important; } .line-height-48 { line-height: 8vw !important; } .line-height-52 { line-height: 8.6vw !important; } .line-height-56 { line-height: 9.2vw !important; } .line-height-92 {
+ line-height: 14.8vw !important; } }
+ </style>
+</head>
+<body style="padding:0;env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);">
+<div itemscope="" itemtype="http://schema.org/EmailMessage">
+  <div itemprop="potentialAction" itemscope="" itemtype="http://schema.org/ViewAction">
+    <link itemprop="target" href="https://go.microsoft.com/fwlink/?LinkId=733395&amp;ocid=eml_Onedrive-web_cons_cgc_ups_od-email_Nearing_GetMoreStorage_Gmail">
+    <meta itemprop="name" content="Get more storage">
+  </div>
+  <meta itemprop="description" content="Your OneDrive is almost full">
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="font-family:'Segoe UI';padding:0px 0px 0px 0px;">
+ <tr>
+  <td align="center" style="background-color:#ffffff;">
+  <table border="0" cellpadding="0" cellspacing="0" width="640" style="min-width:640px;width:640px;padding:0px 0px 0px 0px;" class="responsive-table" role="presentation">
+   <tr>
+    <td align="center" style="background-color:#ffffff;">
+    <!-- HEADER -->
+     <!-- 1A_Header_MSFT -->
+     <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" class="responsive-table">
+      <tr>
+       <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-weight: normal;font-size:14px;line-height:16px; color:#717171; padding:25px 5px 55px; text-align:center;" class="padding-top-24 padding-right-04 padding-bottom-56 padding-left-04 font-size-16 line-height-19"><a target="_blank" href="https://click.mail.onedrive.com/?qs=ae9da4d81135f68479f647a5ece9a3073d5573e19f35063878d53186232dee28438d7b69a586b70e8b6599c7e1814c3a396e447e4cc48043" style="color:#717171;text-decoration: underline;" class="fixLinkGray">Get more storage</a>&nbsp;|&nbsp;<a target="_blank" href="https://view.mail.onedrive.com/?qs=dcf01b3cbc5ccd5efa0a85a8e273a7005ab86bfd00ef627bbc6137ad54dc6ca0ed8f6d62be3882cf5f8e3e581ee137a64119fee3e6e1b9421a7b718506a15b6f8b7c8bb77b6f9f80797ffcc88633a243" style="color:#717171;text-decoration: underline;" vlink="#ffffff" class="fixLinkGray">View in browser</a>
+       </td>
+      </tr>
+      <tr>
+       <td align="center">
+        <!-- headLogo -->
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+         <tr>
+          <td align="left" width="21.875%" align="left" style="background-color:#ffffff;padding: 0px 0px 30px 20px;" class="padding-bottom-28 padding-left-08"><a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f684c801b6b92bd738b06cbb5b30849a4665d75e53c7a01c33e497b1041ef24193d99ed1b533ee10ad1010c0124779b82156" target="_blank"><img src="http://image.email2.office.com/lib/fe8f1372766502797c/m/1/Microsoft_Logo.png" width="140" alt="Microsoft" border="0" style="border-width: 0; display:block;width:140px;" class="responsive-logo-footer"></a>
+          </td>
+          <td align="right" width="78.125%" style="padding: 0px 20px 30px 0px;" class="padding-bottom-28 padding-right-20"><a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f6841f9204fbecf82156d4fd9bdab9e39d480edfa4d59e71ba554ea1df0e90fd8db0111854a8db5b8670df390ffaca750e64" target="_blank"><img src="https://image.mail.onedrive.com/lib/fe9713727665037f77/m/1/OneDrive_logo_Header.png" alt="OneDrive Logo" border="0" width="115" style="display:block;width:115px;border-width:0;" class="responsive-logo"></a></td>
+         </tr>
+        </table><!-- end headLogo -->
+       </td>
+      </tr>
+     </table><!-- end 1A_Header_MSFT -->
+    </td>
+   </tr>
+   <tr>
+    <td align="center" style="background-color:#ffffff;">
+    <!-- HERO -->
+     <!-- Large_Feature_Image_First_600x225 -->
+     <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color:#FAF9F8;">
+      <tr>
+       <td width="46.5%" align="center" valign="middle" style="padding:40px 0px 20px 0px;" class="padding-top-40 padding-bottom-20">&nbsp;</td>
+       <td width="7%" align="center" valign="middle" style="padding:40px 0px 20px 0px;" class="padding-top-40 padding-bottom-20">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+         <!-- image -->
+         <tr>
+          <td width="7%" align="center">
+           <a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f684f724aba87a0ecc597f2297b16bc460dcde17f13ac78f7681f8a560c5a054bede852fe7f562dbf5a6c0107c44dc18d88a" target="_blank">
+            <img src="https://image.mail.onedrive.com/lib/fe9713727665037f77/m/1/ADO1278-Warning-Yellow-45x45px.png" width="45" height="45" alt="Caution symbol in yellow" border="0" style="border-width: 0; display:block;width:45px;height:45px;" class="responsive-img">
+           </a>
+          </td>          
+         </tr><!-- end image -->
+        </table>
+       </td>
+       <td width="46.5%" align="center" valign="middle" style="padding:40px 0px 20px 0px;" class="padding-top-40 padding-bottom-20">&nbsp;</td>
+      </tr>
+     </table>
+     <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+      <!-- text -->
+      <tr>
+       <td align="center" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:28px; font-weight:600; line-height:36px; color:#292827;padding:0px 20px 40px 20px; background-color:#FAF9F8;" class="font-size-28 line-height-36 padding-right-20 padding-bottom-40 padding-left-20"><h1 style="margin:0; padding:0; font-size:28px; font-weight:600; line-height:36px;" class="font-size-28 line-height-36 padding-bottom-00 padding-top-00 padding-right-00 padding-left-00">Your OneDrive is almost full</h1>
+       </td>
+      </tr><!-- end text -->
+      <!-- text -->
+      <tr>
+       <td align="center" style="font-family: 'Segoe UI', wf_segoe-ui_regular, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight: normal; line-height:20px; color:#292827;padding:50px 20px 26px 20px;" class="font-size-16 line-height-20 padding-top-48 padding-right-20 padding-bottom-24 padding-left-20">Your <strong>nigel.agwah@outlook.com</strong> OneDrive storage is almost full. When OneDrive storage is full the documents, photos, and edits won’t sync to OneDrive.com or your devices. Also, new documents and photos can’t be added.</td>
+      </tr><!-- end text -->
+      <!-- text -->
+      <tr>
+       <td align="center" style="font-family: 'Segoe UI', wf_segoe-ui_regular, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight: normal; line-height:20px; color:#282927;padding:0px 20px 35px 20px;" class="font-size-16 line-height-20 padding-right-20 padding-bottom-34 padding-left-20">To keep using OneDrive, <a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f6842bd4803812fc44f3cfbf23bb5aea5156ef88b01c3e48b732e7a8fd5aa79fef78d3538f63e6545c99779dfa4c92a0517e" target="_blank" style="color: #0078d4;text-decoration:underline;" class="fixLinkBlue">upgrade your storage</a> or <a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f6847de81ad8696642073113af608a00a2208ad1df48e74ae04bc5ca07074e7f39a8c9e2e076ea2aebdd897ae257141ee70c" target="_blank" style="color: #0078d4;text-decoration:underline;" class="fixLinkBlue">remove files</a> you no longer use.</td>
+      </tr><!-- end text -->
+      <!-- button background -->
+      <tr>
+       <td style="padding: 0px 0px 40px 0px;" class="padding-bottom-40">
+        <table cellpadding="0" border="0" align="center" cellspacing="0" role="presentation">
+         <tr>
+         <td style="background-color: #0078d4;"><a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f684ebeda15857be00d00b0e0b4b5709cbe7e7d20e5ba1924c42a34a8f26eac6f72a87ea5e98a9cb02b1ee6e20e5d60d556c" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite"><span class="font-size-16 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: normal;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px; background-color: #0078d4;border: 1px solid  #0078d4; display:inline-block;">&nbsp; Get more storage &nbsp;</span></a></td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <!-- button background end -->
+     </table><!-- end Large_Feature_Image_First_600x225 -->
+    </td>
+   </tr>
+   <tr>
+    <td style="background-color:#ffffff;">
+     <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #f3f3f3;">
+      <tr>
+       <td style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-weight: normal;font-size:14px;line-height:25px; color: #5e5e5e; padding:40px 20px 20px 20px;" class="padding-top-40 padding-right-20 padding-left-20 padding-bottom-20 font-size-14 line-height-24">This email was sent from an unmonitored mailbox.</td>
+      </tr>
+      <tr>
+       <td style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-weight: normal;font-size:14px;line-height:25px; color: #5e5e5e; padding:0px 20px 0px 20px;" class="padding-top-00 padding-right-20 padding-left-20 padding-bottom-00 font-size-14 line-height-24">You are receiving this email because you have a Microsoft OneDrive account.</td>
+      </tr>
+      <tr>
+      <td style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-weight: normal;font-size:14px;line-height:25px; color: #5e5e5e; padding:0px 20px 20px 20px;" class="padding-top-00 padding-right-20 padding-left-20 padding-bottom-20 font-size-14 line-height-24"><a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f684c2dde1ff330a1725b00dd5b60aa8994fc3ed334b92daa233bea5aa95ac0c45bdf347e87ea055441e45b8a7746a602996" target="_blank" style="color:#5e5e5e; text-decoration:underline;" class="fixLinkGray">Privacy Statement</a></td>
+      
+      </tr>
+      <tr>
+       <td style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-weight: normal;font-size:14px;line-height:25px; color: #5e5e5e; padding:0px 20px 20px 20px;" class="padding-top-00 padding-right-20 padding-left-20 padding-bottom-20 font-size-14 line-height-24">Microsoft Corporation, One Microsoft Way, Redmond, WA 98052 USA
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <!-- headLogo -->
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+         <tr>
+          <td width="21.875%" style="padding: 0px 20px 30px 20px;" class="padding-bottom-28 padding-left-20 padding-right-20"><a href="https://click.mail.onedrive.com/?qs=ae9da4d81135f68490cfd5dcadcfea6d87a012d214f442ac5300a2d21a329e9f049c94d88529cf3b2ac850ee1c1eaa229c9628fed0384dc8" target="_blank"><img src="http://image.email2.office.com/lib/fe8f1372766502797c/m/1/Microsoft_Logo.png" width="140" alt="Microsoft" border="0" style="border-width: 0; display:block;width:140px;" class="responsive-logo-footer"></a></td>
+          <td width="78.125%">
+           &nbsp;
+          </td>
+         </tr>
+        </table><!-- end headLogo -->
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+</table>
+<img src="https://click.mail.onedrive.com/open.aspx?ffcb10-fec410787567027b-fe2813787d64027c751372-fe9713727665037f77-ff981675-fe181379766d04747c1075-ffce15&amp;d=70155&amp;bmt=0" width="1" height="1" alt=""></custom>
+</body>
+</html>
+
+
+--BOCG7XEy1iFk=_?:--

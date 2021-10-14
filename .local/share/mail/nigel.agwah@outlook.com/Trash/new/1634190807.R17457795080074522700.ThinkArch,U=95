@@ -1,0 +1,574 @@
+Received: from DB8EUR05HT047.eop-eur05.prod.protection.outlook.com
+ (2603:10b6:806:121::30) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7PR04CA0085.NAMPRD04.PROD.OUTLOOK.COM; Fri, 27 Aug 2021 14:03:14
+ +0000
+Received: from DB8EUR05FT053.eop-eur05.prod.protection.outlook.com
+ (2a01:111:e400:fc0f::44) by
+ DB8EUR05HT047.eop-eur05.prod.protection.outlook.com (2a01:111:e400:fc0f::459)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4457.17; Fri, 27 Aug
+ 2021 14:03:13 +0000
+Authentication-Results: spf=pass (sender IP is 13.111.92.135)
+ smtp.mailfrom=bounce.s10.mc.pd25.com; outlook.com; dkim=pass (signature was
+ verified) header.d=njpac.org;outlook.com; dmarc=bestguesspass action=none
+ header.from=njpac.org;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of bounce.s10.mc.pd25.com
+ designates 13.111.92.135 as permitted sender)
+ receiver=protection.outlook.com; client-ip=13.111.92.135;
+ helo=gc135.mta.exacttarget.com;
+Received: from gc135.mta.exacttarget.com (13.111.92.135) by
+ DB8EUR05FT053.mail.protection.outlook.com (10.233.238.98) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4457.17 via Frontend Transport; Fri, 27 Aug 2021 14:03:13 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:F8549082B99C5E406C5C2EB2E9D0A955C273A34D78867AF01C52C51C89A43148;UpperCasedChecksum:EFC744CF10D36D03B49174F65E83FB1884671483858B39372F4AC0C2AF466F91;SizeAsReceived:1534;Count:18
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=njpac.org;
+ h=From:To:Subject:Date:MIME-Version:List-ID:X-CSA-Complaints:List-Unsubscribe:
+ List-Unsubscribe-Post:Message-ID:Content-Type; i=emails@njpac.org;
+ bh=Pg9suzbI61bkRE3405tr4joCS2KXvsNNl617gYmWrY8=;
+ b=So/n7h9bDYJ+0ET3qwaMHLfd8FtFPVQxN1zzez+WZG83DEG+BhU4t3mkXGGTI2cfRmD4JTiXK0dN
+   69RpPpIBkDW8jJlxKCetSmgMvGA0l6PeVR45zBpVOP51FDjQUFzQeiW9QcPirt/fzAgolCAzFmJS
+   YJPk0TKLzc+PHeeplnc=
+Received: by gc135.mta.exacttarget.com id h53oa22fmd4l for <nigel.agwah@outlook.com>; Fri, 27 Aug 2021 14:03:12 +0000 (envelope-from <bounce-19200_HTML-778661204-60828-100026148-187040@bounce.s10.mc.pd25.com>)
+From: "NJPAC" <emails@njpac.org>
+To: <nigel.agwah@outlook.com>
+Subject: =?UTF-8?B?RW50ZXIgdG9kYXkhIPCfjpnvuI8gUmVnaXN0ZXIgZm9yIHRoZSBT?=
+ =?UTF-8?B?YXJhaCBWYXVnaGFuIEludGVybmF0aW9uYWwgSmF6eiBWb2NhbCBDb21wZXRp?=
+ =?UTF-8?B?dGlvbiE=?=
+Date: Fri, 27 Aug 2021 08:03:12 -0600
+List-ID: <100026148.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+x-messageKey: 707833-357508428-8082559
+X-Delivery: Transactional
+X-SFMC-Stack: 10
+x-job: 100026148_60828
+List-Unsubscribe: <https://go.pardot.com/listUnsubscribeHeader/u/707833/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53/358809472>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Report-Abuse-To: abuse@pd25.com
+Message-ID: <7756bba0-02cb-4181-b0e4-0c2b695690d5@dfw1s10mta265.xt.local>
+Content-Type: multipart/alternative;
+	boundary="z77ciT3rkWVc=_?:"
+X-IncomingHeaderCount: 18
+Return-Path:
+ bounce-19200_HTML-778661204-60828-100026148-187040@bounce.s10.mc.pd25.com
+X-MS-Exchange-Organization-ExpirationStartTime: 27 Aug 2021 14:03:13.3741
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ d495b3b3-940f-48ee-3e12-08d9696368fd
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DB8EUR05FT053.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/27/2021 5:24:20 AM
+X-MS-Office365-Filtering-Correlation-Id: d495b3b3-940f-48ee-3e12-08d9696368fd
+X-MS-TrafficTypeDiagnostic: DB8EUR05HT047:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 13.111.92.135
+X-SID-PRA: EMAILS@NJPAC.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Aug 2021 14:03:13.0423
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d495b3b3-940f-48ee-3e12-08d9696368fd
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DB8EUR05FT053.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8EUR05HT047
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5493057
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4457.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90010023)(91010020)(91040095)(91044021)(91045095)(9050020)(9100335)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdczcrSHTkalT5aWjmv/tlpyTbCg09FxSBxAoZ3qQJVwy/Dy2mLgXTwOAt3mFOZo0u0KJNkXVT6lrjgCIEEZ31woKLGDylLytPnU2cXNnYG9uzNRWF9ro7Wuw23ffiO3sE5vHetMOwIxGAC+Hr7a0XMEGqbnSfvBuC+83/4W8X/XBk5fSMrT97B6vI4Wfgzox7opOIiHVhceeA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?dzBPYUluWFoxenVucVBlb25YQ0E3Rm5qRS93NGZFeFF4c3hrdFFORE9OblRJ?=
+ =?utf-8?B?TFNQQ1BMbTlRUU1wV3VEcTM0M0tvOWxpVllQOWd5YUU3TmEveTB2M2tQL0xN?=
+ =?utf-8?B?SHN0VEpYVWRWaFlJUDFnSkRjZHVhSENDaXNGa2FRTTlUN0VxOEl1Zjd0NWVQ?=
+ =?utf-8?B?WEczemlVUGFRL2ZadlF5WFJwMmtvWUtJbjdWYkk0N2YzYUx5MjZuS2FaZGMx?=
+ =?utf-8?B?cG44K3grYlNwUy9URG9Eakg5ZDZJWTdWSnFlVWlYWGxVdjY5dXR1TXpXSFBO?=
+ =?utf-8?B?VjJ2VkJMbGZJRVVialJMeVVPRUlKd3VIN2tHdk9yaDk2TzdIZzNJdElHaHN0?=
+ =?utf-8?B?WWZ2ZVA0R29DWVlUQlVwcEhHOVUrK3ZGR3FsVWZ6YVYzTFNodkZTTkRvSFkz?=
+ =?utf-8?B?Q2dXSTVJQ3FiczN1ejVKQ0M3NWV2NEUxU3hZUllFVFJIT3dtTWRoemNzWWV0?=
+ =?utf-8?B?ZlZhbTJYT2hOcUFLamcyYjFrT3ViRStuUjZDVlZRc3JiMjFFbDFQZE1XSlZF?=
+ =?utf-8?B?ZlQ3ZGFLQ3RiT1Z1U3JPVTVZQmtTOHk5RmpsM2RKeVlmVnd4VUVqcm1RN3Jl?=
+ =?utf-8?B?dzVFeDg2RHJycXcvc3YwNFdzMWpTczQvMFJFOXdVcGtaT2haVUZzcitqRk1Z?=
+ =?utf-8?B?Z0xaVU96dzB2M0FnYUxoVFdzYmVCMWFkMnJxUmhydDNLa3JTN0syWUhmNHBv?=
+ =?utf-8?B?a0NYdERJTVlQbURURlp6alFwZ2h2VllBWm5wR0g2TktjcnB1ejdyTEIyR2o2?=
+ =?utf-8?B?aG1BL2FoN3NvLzZJWkgzcGUwNE0rSUZJdUVEQjJsM0pKcnh3cnJqODFRRjZU?=
+ =?utf-8?B?WGpiNC8wTzlIaVdxRTdteEVId3cwRlBlQXhvdVg5ZFFobkhTQ1ZOMlEvRDMy?=
+ =?utf-8?B?RTdFd0EzWDFqdWxRZjJBK2ErYnhtTVF4Nnllc3BZYi9rblVpT2VDQmhneFZU?=
+ =?utf-8?B?ZGxWZlRkaXhtemhTaUJ6VVVUZ21ldmk2V1dVSHdiSnZSRFdCRTBpUkJjQmU1?=
+ =?utf-8?B?aVhxanNBS1U3akNqOUoyRzREOStSS0RZL01oaGV5VktNbjVkdmM3c0JlNVQ0?=
+ =?utf-8?B?cm5ySk9HbUxZQ0NrdTMvNS90eDJ6UFQzOXZkS1pnZGE2Qlh0cjRzeWlDcU84?=
+ =?utf-8?B?ckxzWDhtRnJxMW5mWlNaNWFoOTlEektDb0EvTWhOWkc2MVo1OHVpOVN0NWY5?=
+ =?utf-8?B?bkJpc09RcmRxc0s2QUhXQ0RNVzhzVXRLRDQ2OGdVM2lXOVRPQW5pNlJIcTdZ?=
+ =?utf-8?B?YkhjTTdCRkVkWVlOd092WU9jMDZqOVl2Z0s2S3VueUtkK3BLVHdqdzJ3aWE3?=
+ =?utf-8?B?TmY3K0l4anVyRmZtbTRsekRNNWd4Y3dlcVVuRWVSNXlRbnhYZ01JZkx1bUVi?=
+ =?utf-8?B?ek5KNHB3THFEZjl6ZGkzeWRBNUlkZTlkc0dPYWdIeUIxZ1BkNTZaSE9ubktn?=
+ =?utf-8?B?TnZqR2FqenVKMGE0Z0RibWtPTjFGUk84Q3RhaWoxSy94bTdrSzY1Vzc5Ymgv?=
+ =?utf-8?B?dS9TVDNVKzVTMFBIQS9QR1NINHNobkdsbHJMOTJqZTZudFZWOVhyeUxXMGUy?=
+ =?utf-8?B?T0VCM3E5MG5Zc1oyWkhQWFpndDk3SmMxc3Q3K3J4SlRqRUkrMndGVXNXUnFG?=
+ =?utf-8?B?a3pKT1dIUFFBRndQSmppMjY2RkJIYVE9PQ==?=
+MIME-Version: 1.0
+X-TUID: 6buWdp5V4JR6
+
+--z77ciT3rkWVc=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+									“… rightfully one of the most anticipated events in jazz.” – Christian McBride 
+
+									Email not displaying correctly?
+
+									View it in your browser
+
+https://go.pardot.com/webmail/707833/358809472/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53
+
+.
+
+https://go.pardot.com/e/707833/2021-08-27/82zgw/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+https://go.pardot.com/e/707833/NJPAC-/82zgy/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+https://go.pardot.com/e/707833/njpac/82zh1/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+https://go.pardot.com/e/707833/njpac-/82zh3/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+https://go.pardot.com/e/707833/tional-jazz-vocal-competition-/82zh5/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+Deadline is September 7 at 5PM
+
+“… rightfully one of the most anticipated events in jazz.”
+
+– Christian McBride
+
+The tenth annual Sarah Vaughan International Jazz Vocal Competition
+
+https://go.pardot.com/e/707833/tional-jazz-vocal-competition-/82zh5/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+, also known as the “SASSY Awards,” gives outstanding jazz singers a platform for embarking on a career in the music business!
+
+ 
+
+Held in honor of Newark’s “Divine One” – Sarah Vaughan – this exciting competition attracts gifted young talents from around the globe to perform in the finals on November 14 at NJPAC. Singers are evaluated by a panel of special guest judges and rated for vocal quality, musicality, technique, performance, individuality, artistic interpretation, and ability to swing.
+
+ 
+
+“This esteemed event provides a platform for today’s outstanding jazz singers and gives audiences an early glimpse at tomorrow’s jazz stars,” writes Jazziz magazine.
+
+Past winners have included Samara McLendon, Cyrille Aimée, Jazzmeia Horn, Laurin Talese, Quiana Lynell, and June 2021 co-Sassy Award winners Gabrielle Cavassa and Tawanda Suessbrich-Joaquim. The November 14, 2021 competition is part of the TD James Moody Jazz Festival and will be hosted by multi-GRAMMY® winning artists Christian McBride and Dianne Reeves.
+
+Serving as judges are WBGO president and CEO Steve Williams, 2013 Sarah Vaughan Jazz Vocal Competition winner Jazzmeia Horn, guitarist and singer John Pizzarelli, and vocalist Sheila Jordan, pianist and composer Renee Rosnes.
+
+						click to enter
+
+https://go.pardot.com/e/707833/tional-jazz-vocal-competition-/82zh5/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+Part of the TD James Moody Jazz Festival 
+
+ 
+
+https://go.pardot.com/e/707833/2021-08-27/82zh7/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+https://go.pardot.com/e/707833/2021-08-27/82zh7/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+									One Center Street • Newark, NJ 07102 • njpac.org
+
+https://go.pardot.com/e/707833/2021-08-27/82zh9/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+									Want to change how you receive these emails? Unsubscribe here 
+
+https://go.pardot.com/unsubscribe/u/707833/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53/358809472
+
+(but we hope you'll come back).
+
+									Or update your subscription preferences
+
+https://go.pardot.com/emailPreference/epc/707833/N6xuCYOaDSecP_r7VEIEG4tmdZu_3IjUhewwOppum3s/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53/358809472
+
+. View our privacy policy here
+
+https://go.pardot.com/e/707833/privacy-policy/82zhc/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo
+
+.
+
+									Copyright © 2021 New Jersey Performing Arts Center, All rights reserved.
+
+
+
+--z77ciT3rkWVc=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Facebook sharing information tags -->
+	<meta property="og:title" content="Enter today! 🎙️ Register for the Sarah Vaughan International Jazz Vocal Competition!">
+
+    <title>Enter today! 🎙️ Register for the Sarah Vaughan International Jazz Vocal Competition!</title>
+</head>
+
+<body bgcolor="#FAFAFA" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; background-color: #FAFAFA; margin: 0; padding: 0;">
+<style type="text/css">#outlook a {
+          padding: 0;
+      }
+      .body{
+          width: 100% !important;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+          margin: 0;
+          padding: 0;
+      }
+      .ExternalClass {
+          width:100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+          line-height: 100%;
+      }
+      img {
+          outline: none;
+          text-decoration: none;
+          -ms-interpolation-mode: bicubic;
+      }
+      a img {
+          border: none;
+      }
+      p {
+          margin: 1em 0;
+      }
+      table td {
+          border-collapse: collapse;
+      }
+      /* hide unsubscribe from forwards*/
+      blockquote .original-only, .WordSection1 .original-only {
+        display: none !important;
+      }
+.soicalblock {  
+    color: #FFFFFF; 
+    font-family: "njpac sans", arial,sans-serif;
+}
+
+#MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+ #MessageViewBody .soicalblock { display: none; }
+
+
+      @media only screen and (max-width: 480px){
+        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+        #bodyCell{padding:10px !important;}
+        
+        .soicalblock { display: none; }
+        
+        #MessageViewBody .soicalblock { display: none; }
+
+        #templateContainer{
+          max-width:600px !important;
+          width:100% !important;
+        }
+
+        h1{
+          font-size:24px !important;
+          line-height:100% !important;
+        }
+
+        h2{
+          font-size:20px !important;
+          line-height:100% !important;
+        }
+
+        h3{
+          font-size:18px !important;
+          line-height:100% !important;
+        }
+
+        h4{
+          font-size:16px !important;
+          line-height:100% !important;
+        }
+
+        #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+        #headerImage{
+          height:auto !important;
+          max-width:600px !important;
+          width:100% !important;
+        }
+
+        .headerContent{
+          font-size:20px !important;
+          line-height:125% !important;
+        }
+
+        #bodyImage{
+          height:auto !important;
+          max-width:560px !important;
+          width:100% !important;
+        }
+                    
+
+
+        .bodyContent{
+          font-size:18px !important;
+          line-height:125% !important;
+        }
+
+        .templateColumnContainer{display:block !important; width:100% !important;}
+
+        .columnImage{
+          height:auto !important;
+          max-width:260px !important;
+          width:100% !important;
+        }
+
+        .leftColumnContent{
+          font-size:16px !important;
+          line-height:125% !important;
+        }
+
+        .rightColumnContent{
+          font-size:16px !important;
+          line-height:125% !important;
+        }
+
+        .footerContent{
+          font-size:14px !important;
+          line-height:115% !important;
+        }
+
+        .footerContent a{color: #ef4e30; !important;}
+      }
+</style>
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA; border-collapse: collapse !important; height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100% !important" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" id="bodyCell" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: 100% !important; width: 100% !important; border-top-width: 4px; border-top-color: #dddddd; border-top-style: solid; margin: 0; padding: 20px;" valign="top"><!-- BEGIN TEMPLATE // -->
+			<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; width: 600px; border: 1px solid #dddddd;">
+				<tbody>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN PREHEADER // -->
+						<table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+								<tr style="">
+									<td align="left" class="preheaderContent" pardot-region="preheader_content00" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #808080; font-family: Helvetica; font-size: 10px; line-height: 12.5px; text-align: left; padding: 10px 20px;" valign="top"><span style="color:#FFFFFF;">“… rightfully one of the most anticipated events in jazz.” – Christian McBride </span></td>
+									<td align="left" class="preheaderContent" pardot-region="preheader_content01" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #808080; font-family: Helvetica; font-size: 10px; line-height: 12.5px; text-align: left; padding: 10px 20px 10px 0;" valign="top" width="180">Email not displaying correctly?<br>
+									<a href="https://go.pardot.com/webmail/707833/358809472/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;" target="_blank">View it in your browser</a>.</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- // END PREHEADER --></td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN HEADER // -->
+						<table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+							</tbody>
+						</table>
+						<!-- // END HEADER --></td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN BODY // -->
+						<table border="0" cellpadding="0" cellspacing="0" id="templateBody" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; border-top-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+								<tr pardot-repeatable="" style="">
+									<td align="left" class="bodyContent" pardot-region="body_content00" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 24px; text-align: left; padding: 20px;" valign="top">
+									<table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="min-width: 100%; " width="100%">
+										<tbody>
+											<tr>
+												<td class="stylingblock-content-wrapper camarker-inner" style="padding: 0px;">
+												<table cellpadding="0" cellspacing="0" style="width:100%;">
+													<tbody>
+														<tr>
+															<td>
+															<table cellpadding="0" cellspacing="0" style="width: 100%;">
+																<tbody>
+																	<tr>
+																		<td class="responsive-td" style="width: 260px; padding-right: 5px;" valign="top">
+																		<table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="min-width: 100%; " width="100%">
+																			<tbody>
+																				<tr>
+																					<td class="stylingblock-content-wrapper camarker-inner">
+																					<table cellpadding="0" cellspacing="0" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="center"><a href="https://go.pardot.com/e/707833/2021-08-27/82zgw/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" target="_blank"><img align="left" alt="njpac" data-assetid="272553" height="50" src="https://go.pardot.com/l/707833/2019-06-12/4w5n/707833/10035/NJPAC_logo.png" style="display: block; padding: 0px; text-align: center; height: 50px; float: left; width: 129px; color: #000000; font-size: 16px;" width="129"></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																		<td class="responsive-td" style="width: 320px; padding-left: 5px;" valign="top">
+																		<table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="min-width: 100%; " width="100%">
+																			<tbody>
+																				<tr>
+																					<td class="stylingblock-content-wrapper camarker-inner">
+																					<table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%">
+																						<tbody>
+																							<tr>
+																								<td>
+																								<table align="right" cellpadding="0" cellspacing="0" style="padding-top: 10px;">
+																									<tbody>
+																										<tr>
+																											<td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]-->
+																											<table border="0" cellpadding="1" cellspacing="1" class="pd-table" style="width: 27px; float: left;">
+																												<tbody>
+																													<tr>
+																														<td class="socialblock" style="padding-top: 4px; padding-right: px; width: 0px;"><span style="color:#FFFFFF;"><span class="soicalblock"><img align="left" alt="@njpac" src="https://go.pardot.com/l/707833/2019-10-14/sqks/707833/30387/_njpac_image.PNG" style="float: left; font-size: 16px; background-color: #ef4e30; color: #ffffff"></span></span></td>
+																													</tr>
+																												</tbody>
+																											</table>
+
+																											<table class="socialshare-innertable" style="display:inline-block;width:140px;">
+																												<tbody>
+																													<tr>
+																														<td style="padding:5px 10px"><a href="https://go.pardot.com/e/707833/NJPAC-/82zgy/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" target="_blank"><img align="left" alt="Facebook" height="24" src="http://image.s4.exct.net/lib/fe911573736c007d7d/m/2/24b84e22-8d38-4d6c-98db-80812ca4de5f.png" style="display: block; float: left; width: 24px; height: 24px; padding-left: 5px; padding-right: 5px;" width="24"></a> <a href="https://go.pardot.com/e/707833/njpac/82zh1/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" target="_blank"><img align="left" alt="Twitter" height="24" src="http://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a14c2439-7025-4aab-a01f-423077193687.png" style="display: block; float: left; width: 24px; height: 24px; padding-left: 5px; padding-right: 5px;" width="24"></a> <a href="https://go.pardot.com/e/707833/njpac-/82zh3/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" target="_blank"><img align="left" alt="Instagram" height="24" src="http://image.s4.exct.net/lib/fe911573736c007d7d/m/2/11a4a1aa-4e8a-432a-8f1f-f8898206da39.png" style="display: block; float: left; width: 24px; height: 24px; padding-left: 5px; padding-right: 5px;" width="24"></a></td>
+																													</tr>
+																												</tbody>
+																											</table>
+																											<!--[if mso]></td><td style="padding-right:10px;"><![endif]--><!--[if mso]></td><td><![endif]--><!--[if mso]></td></tr></table><![endif]--></td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr pardot-repeatable="" style="">
+									<td align="left" class="bodyContent" pardot-data="" pardot-region="body_content01" style="text-size-adjust: 100%; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; line-height: 24px; text-align: left; padding: 0px 20px;"><a href="https://go.pardot.com/e/707833/tional-jazz-vocal-competition-/82zh5/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo"><img alt="" border="0" height="303" id="bodyImage" src="https://go.pardot.com/l/707833/2020-05-27/3nrrt/707833/66078/562x303_sarah_vaughan_sign_up_today.jpg" style="max-width: 560px; outline: none; text-decoration: none; display: inline; width: 562px; height: 303px; border-width: 0px; border-style: solid;" width="562"></a></td>
+								</tr>
+								<tr pardot-repeatable="" style="" class="">
+									<td align="left" class="bodyContent" pardot-data="" pardot-region="body_content01" style="text-size-adjust: 100%; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; line-height: 24px; text-align: left; padding: 20px 20px 20px 20px;"><p style="color: #000000!important; display: block; font-family: njpac sans, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: bold; letter-spacing: normal; line-height: 24px; margin: 0; text-align: left">Deadline is September 7&nbsp;at 5PM</p>
+
+<p style="color: #000000!important; display: block; font-family: njpac sans, Arial, sans-serif;  font-size: 16px;"><span style="color:#ef4e30;"><b>“… rightfully one of the most anticipated events in jazz.”<br>
+– Christian McBride</b></span><br>
+<br>
+The tenth annual<i>&nbsp;<a data-saferedirecturl="https://go.pardot.com/e/707833/CNEGvMZm2dG3cVm2-fLTA1kaMYO7EQ/82zhf/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" href="https://go.pardot.com/e/707833/tional-jazz-vocal-competition-/82zh5/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" style="color:#ef4e30;" target="_blank" title="International Jazz Vocal Competition">Sarah Vaughan International Jazz Vocal Competition</a></i>,&nbsp;also known as the “SASSY Awards,” gives outstanding jazz singers a platform for embarking on a career in the music business!<br>
+&nbsp;<br>
+Held in honor of Newark’s “Divine One” – Sarah Vaughan – this exciting competition attracts gifted young talents from around the globe to perform in the finals on November 14&nbsp;at NJPAC. Singers are evaluated by a panel of special guest judges and rated for vocal quality, musicality, technique, performance, individuality, artistic interpretation, and ability to swing.<br>
+&nbsp;<br>
+“This esteemed event provides a platform for today’s outstanding jazz singers and gives audiences an early glimpse at tomorrow’s jazz stars,” writes&nbsp;<i>Jazziz&nbsp;</i>magazine.<br>
+<br>
+Past winners have included Samara McLendon, Cyrille Aimée, Jazzmeia Horn, Laurin Talese, Quiana Lynell, and June 2021 co-Sassy Award winners Gabrielle Cavassa and Tawanda Suessbrich-Joaquim. The November 14, 2021 competition is part of the <em>TD James Moody Jazz Festival</em> and will be hosted by multi-GRAMMY® winning artists Christian McBride and Dianne Reeves.<br>
+<br>
+Serving as judges are WBGO president and CEO Steve Williams, 2013 Sarah Vaughan Jazz Vocal Competition winner Jazzmeia Horn, guitarist and singer&nbsp;John Pizzarelli, and vocalist&nbsp;Sheila Jordan, pianist and composer Renee Rosnes.</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="padding-top: 15px; Padding-bottom: 15px;" width="100%">
+	<tbody>
+		<tr>
+			<td align="left">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="button"><a alias="" data-linkto="https://" href="https://go.pardot.com/e/707833/tional-jazz-vocal-competition-/82zh5/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" style="text-decoration:none;color:#000000;"><span style="background-color:#FFD200; font-family: njpac sans, Arial, sans-serif;
+             font-size: 20px; padding: 5px 10px; border-radius: 3px;">click to enter</span></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<b style="font-size: 16px; font-style: italic; font-family: njpac sans, Arial, sans-serif; "><span style="color:#000000;">Part of the TD James Moody Jazz Festival </span></b><br>
+&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- // END BODY --></td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN COLUMNS // -->
+						<table border="0" cellpadding="20" cellspacing="0" id="templateColumns" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; border-top-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+							</tbody>
+						</table>
+						<!-- // END COLUMNS --></td>
+					</tr>
+					<tr>
+						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN FOOTER // -->
+						<table border="0" cellpadding="0" cellspacing="0" id="templateFooter" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-collapse: collapse !important; border-top-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+							<tbody>
+								<tr style="">
+									<td align="left" class="footerContent" pardot-data="line-height:16px;link-color:#ef4e30;" pardot-region="footer_content01" style="text-size-adjust: 100%; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; line-height: 16px; text-align: left; padding: 0px 20px 20px; background: rgb(0, 0, 0);" valign="top"><br>
+									<a alias="" conversion="true" data-linkto="https://" href="https://go.pardot.com/e/707833/2021-08-27/82zh7/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" title=""><img data-assetid="275043" height="68" src="https://go.pardot.com/l/707833/2020-10-13/4xrdn/707833/1602629237A6sEfpAk/NJPAC_black_logo.png" width="175"></a><br>
+									<a alias="" conversion="true" data-linkto="https://" href="https://go.pardot.com/e/707833/2021-08-27/82zh7/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" title=""><img data-assetid="275042" height="23" src="https://go.pardot.com/l/707833/2020-10-13/4xrdq/707833/16026292425EoFzsy3/njpac_boiler_plate_spelled_out.png" width="300"></a><br>
+									<br>
+									<span style="font-family: njpac sans, arial, sans-serif;">One Center Street • Newark, NJ 07102 •&nbsp;<a href="https://go.pardot.com/e/707833/2021-08-27/82zh9/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" style="color:#ef4e30;text-decoration:none;">njpac.org</a></span></td>
+								</tr>
+								<tr style="">
+									<td align="left" class="footerContent original-only" pardot-data="line-height:16px;link-color:#ef4e30;" pardot-region="footer_content02" style="text-size-adjust: 100%; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; line-height: 16px; text-align: left; padding: 0px 20px 20px; background: rgb(0, 0, 0);" valign="top"><span style="font-family: njpac sans, arial, sans-serif;"><span style="color:#FFFFFF; font-size:12px; line-height: 18px; display: block;">Want to change how you receive these emails? <a href="https://go.pardot.com/unsubscribe/u/707833/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53/358809472" style="text-size-adjust: 100%;  font-weight: normal; text-decoration:none;color: #ef4e30;"><span style="background-color:#000000;">Unsubscribe here&nbsp;</span></a>(but we hope you'll come back).<br>
+									Or <a href="https://go.pardot.com/emailPreference/epc/707833/N6xuCYOaDSecP_r7VEIEG4tmdZu_3IjUhewwOppum3s/2fe6953c01a5d3958debfebdd067c22fe14a77f64b0734b4270b3d983a838a53/358809472" style="text-size-adjust: 100%;  font-weight: normal; text-decoration:none;color: #ef4e30;"><span style="background-color:#000000;">update your subscription preferences</span></a>. View our privacy policy <a href="https://go.pardot.com/e/707833/privacy-policy/82zhc/358809472?h=XehQ--MxCL7kyQTjbeLuttWkk-z4C9hCMDTnRJmlZKo" style="text-decoration:none;color:#ef4e30;">here</a>.<br>
+									<br>
+									Copyright © 2021 New Jersey Performing Arts Center, All rights reserved.</span></span></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- // END FOOTER --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- // END TEMPLATE --></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<!--
+          This email was originally designed by the wonderful folks at MailChimp and remixed by Pardot.
+          It is licensed under CC BY-SA 3.0
+        -->
+<img alt="" src="https://go.pardot.com/r/707833/1/358809472/open/1"><style data-ignore-inlining="">@media (prefers-color-scheme: dark) { #_t::before {content:url('https://807jo9jm.emltrk.com/v2/807jo9jm?rd&d=[UNIQUE]');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://807jo9jm.emltrk.com/v2/807jo9jm?rl&d=[UNIQUE]');}} @media print{ #_t {background-image:url('https://807jo9jm.emltrk.com/v2/807jo9jm?p&d=[UNIQUE]');}} div.OutlookMessageHeader {background-image:url('https://807jo9jm.emltrk.com/v2/807jo9jm?f&d=[UNIQUE]')} table.moz-email-headers-table {background-image:url('https://807jo9jm.emltrk.com/v2/807jo9jm?f&d=[UNIQUE]')} blockquote #_t {background-image:url('https://807jo9jm.emltrk.com/v2/807jo9jm?f&d=[UNIQUE]')} #MailContainerBody #_t {background-image:url('https://807jo9jm.emltrk.com/v2/807jo9jm?f&d=[UNIQUE]')}</style><div id="_t"></div>
+<img src="https://807jo9jm.emltrk.com/v2/807jo9jm?d=[UNIQUE]" width="1" height="1" border="0" alt=""></body>
+</html>
+
+--z77ciT3rkWVc=_?:--

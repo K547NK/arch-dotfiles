@@ -1,0 +1,1465 @@
+Received: from TU4PR8401MB0558.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:770b::20) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Fri, 17 Sep 2021 14:55:40 +0000
+Received: from MW4PR03CA0022.namprd03.prod.outlook.com (2603:10b6:303:8f::27)
+ by TU4PR8401MB0558.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:770b::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.16; Fri, 17 Sep
+ 2021 14:55:38 +0000
+Received: from MW2NAM12FT024.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:303:8f:cafe::5a) by MW4PR03CA0022.outlook.office365.com
+ (2603:10b6:303:8f::27) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.14 via Frontend
+ Transport; Fri, 17 Sep 2021 14:55:38 +0000
+Authentication-Results: spf=pass (sender IP is 66.231.92.205)
+ smtp.mailfrom=bounce.microsoftstoreemail.com; outlook.com; dkim=pass
+ (signature was verified) header.d=email.microsoftemail.com;outlook.com;
+ dmarc=pass action=none header.from=microsoftstoreemail.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.microsoftstoreemail.com designates 66.231.92.205 as permitted sender)
+ receiver=protection.outlook.com; client-ip=66.231.92.205;
+ helo=mta5.microsoftstoreemail.com;
+Received: from mta5.microsoftstoreemail.com (66.231.92.205) by
+ MW2NAM12FT024.mail.protection.outlook.com (10.13.180.91) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4544.6 via Frontend Transport; Fri, 17 Sep 2021 14:55:38 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:DBF6D0EE3ABB90EAC24C9A5AE1DFFBA56F57C42B5A7F783F76BB6FBEE3F7C56A;UpperCasedChecksum:16547940EABDA8F52E57226FED2A2A634131140AA47B39763F726D3ACCF2A730;SizeAsReceived:1676;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=102420140131;
+ d=email.microsoftemail.com;
+ h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:
+ List-ID:X-CSA-Complaints:Message-ID:Content-Type;
+ bh=nfvrIjCDkFhfpZow+uj92Fv6edou+Aswg4IWDxYGfi8=;
+ b=E6lRw19eabYTF+WlsHONrRK47YVSmF5/3lTlY3qCyXg5sy8YOK02rDRbUT8btNkGtj9u9ZtHMB2w
+   p7RyAC1rMECh0cHfVkw9rYmURXj94h7ahSO7SJVYhkoe10FAPgLBVqmGUPr5DS7b5aQ+QNDg+0Ye
+   zK1ZdJ5qN97AvC1/yC8=
+Received: by mta5.microsoftstoreemail.com id h8im6k2fmd4t for <nigel.agwah@outlook.com>; Fri, 17 Sep 2021 14:55:37 +0000 (envelope-from <bounce-866153_HTML-1604922893-7670166-10359607-14008@bounce.microsoftstoreemail.com>)
+From: "Microsoft Store" <microsoftstore@microsoftstoreemail.com>
+To: <nigel.agwah@outlook.com>
+Subject: Discover your next favorite Xbox Game
+Date: Fri, 17 Sep 2021 08:55:29 -0600
+List-Unsubscribe: <https://click.microsoftstoreemail.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDM1OTYwNyIsInMiOiIxNjA0OTIyODkzIiwibGlkIjoiODY2MTUzIiwiaiI6Ijc2NzAxNjYiLCJqYiI6IjE0MDA4IiwiZCI6IjEwMTQ5In0.C0HvgDjJbtIc62vAMOf--B3uuBnNlJjSJa69ePIUYmw>, <mailto:leave-fcae1c767365017e1a4c342838-fdf3157675600d7f771c7976-fe8e13767264057b73-fe60157076610d7b7513-ff02157475640c@leave.microsoftstoreemail.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+List-ID: <96540.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 1
+x-job: 10359607_7670166
+Message-ID: <78b27760-c858-4d76-b2ba-f7e6cf9caa39@ind1s01mta1033.xt.local>
+Content-Type: multipart/alternative;
+	boundary="2u1g6uns6LbF=_?:"
+X-IncomingHeaderCount: 16
+Return-Path:
+ bounce-866153_HTML-1604922893-7670166-10359607-14008@bounce.microsoftstoreemail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Sep 2021 14:55:38.7601
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 84df2355-f5e0-4850-cf85-08d979eb3675
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM12FT024.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/14/2021 5:24:15 AM
+X-MS-Office365-Filtering-Correlation-Id: 84df2355-f5e0-4850-cf85-08d979eb3675
+X-MS-TrafficTypeDiagnostic: TU4PR8401MB0558:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 66.231.92.205
+X-SID-PRA: MICROSOFTSTORE@MICROSOFTSTOREEMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Sep 2021 14:55:38.4463
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 84df2355-f5e0-4850-cf85-08d979eb3675
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM12FT024.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TU4PR8401MB0558
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.1984266
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4523.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90010023)(91010020)(91040095)(91044041)(5061607266)(5061608174)(9050020)(9100336)(4900116)(8300001)(4910002)(4920091)(6250099)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdchB9X5HPcycsnRkaNAqY9/ihmASvVemM7pabJn7BRUZlyIx9/obte4cgaPXqMm/6+CtFDA6InGM1YncSnzwB1va6XHhkeLyKBAN6UQjuuWv6tLjFm2Yn0VvTfsZJMv2pYAnK7EV1NZZ+yv904+J1YP7bOGp3PbKwdr3EvAvf2C6fCsmmsZFI0d58fDGtmxnOwa8LtvNhG/sA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YjZnUnhMcEZuSGRhbldYTnRqWE9XZ21yS2k4a3BYaThsS0Y0MFZhNWxNL1BQ?=
+ =?utf-8?B?RDk1dy9mVUVWcmt1R296azVUS1VlNmFRTzVxMzg0UXlpcWN3bmJYUHBVR0NN?=
+ =?utf-8?B?L3QwUlhITEhpTnBwNkR0R1NPajN4bi9JSVB0QUM0eXlVYUVLdUIrVERscGtP?=
+ =?utf-8?B?dndqY2lhWElwSGtIVTlnUFVkS3VaUnBPamw5b0xoNTJ1eGV3eExLajdUZzlP?=
+ =?utf-8?B?RVJYQWh1RllCMStlNG16dHFGeVlHd0FiaWxNcEV4ZlJ2cEg5N3AvOUd6NUNL?=
+ =?utf-8?B?dkFQS3BEaTF2ZzVvYU5YS3B1TjlTNk5HRXZPelJ3b0lEUmU5S0xvbWZndXVm?=
+ =?utf-8?B?ZFpGUmRJK3c5VUR5RFVTam9yRFp2anlqblIwcGxmR1JrRUZUc3orM2tOVnpO?=
+ =?utf-8?B?ZC9BMEhQamQxMVVQSVo0bGRYTXpZR1J6MXZaZngvd1lVSjdjWk05a2FDR2U2?=
+ =?utf-8?B?OFgrSDU4UTQzV1pOVGZLdUJVRDltWUE5L0N5R3JZVkV4YSs5VEZPN1RoZHZl?=
+ =?utf-8?B?d0RUNWlqV0E5RzJtUUc1OHpyeXc1UmZwM0VTL1g1YlFQMGlFaFhYRmxrTmxT?=
+ =?utf-8?B?eFdKakRVcnptSU4zZ2xVd21XcmxNaytSb2EvRHJtVmkyaFFFbHBIbU1KdjZY?=
+ =?utf-8?B?MDNyTHRiM0xjRW5FNEpCMVZqRVk3bzZEL2pSQWR4RnVvK2NjdU9NYTNDTVFL?=
+ =?utf-8?B?dXJ4RFRLTVNHV212VUR4UjBMcG5FL1duZ0pobXZBeit6V1dyZXVQMjE2TUdO?=
+ =?utf-8?B?OGduQkhGYUpHdXhnaDZEMTB5NWJHVTJPN0dnSGYrUG9wL1FWb2pnOHYxRGZV?=
+ =?utf-8?B?UFh0d0lmOXB2cGNkSkIwYUU3ekJlZTdFTExNRjlqcWprUjNQUkt6Vk1uYnox?=
+ =?utf-8?B?dXlFR2RIU2JVNnQwVkd6NXoyQU5wY094TXFiVDZrWVgrS0NVUUhOU0l1QzY3?=
+ =?utf-8?B?MGdheHNPU2R1TCtQYTYreGdWV3VhVHozQi9JVnZyeEhHNEdiaEowc1AyZGg4?=
+ =?utf-8?B?cHpnL2E1S0VnYlZiL3U0M1l6aXp2NWR4NExRUGZLR1ZiT3VGbzVldlRqTFpD?=
+ =?utf-8?B?K3dWSTljdC9sbHpydUZXbVJ3N0RpSjdUUHloU0YwTUZBL3VadFNTOElkNzV0?=
+ =?utf-8?B?MWVWK0M0eWRzZm5hRm9MWDcvcjJrWmt0UjdjTUpnMndOaGhqcUVQeThIV0RB?=
+ =?utf-8?B?RjdFNk9jOTBuUTA1R3VVRnJEYlkvR1BoSUxzUER2OHNzUDk1dUlMdEFiQzBh?=
+ =?utf-8?B?alJDR25LM05EVVloMytZbVJBV3NNYjdzNG9jT1ZNbVFKYXNjYTBOV0hpQjFj?=
+ =?utf-8?B?VlpqQWwwTzVUNWsrWFlvR0s0QytidU81RFpwVTdWc3Y4ci8yU1UvTWo0VHhF?=
+ =?utf-8?B?OXVWbk9ZL21UNVpra3lYSk9rejE4NURBZEppdW84K0RCblRMY29pS3VqVTN5?=
+ =?utf-8?B?dUtpQWlHNmQrbVdEWFdUeERGTDhodEFnQ3hiaHhnb2wvWUxvOGhCMFVEcjRs?=
+ =?utf-8?B?WW8yTHRmcWNlQVJYN2puSWlzcllrSmloUGNGS3NleWRzOVRHbTdiL2t1M1JM?=
+ =?utf-8?B?bXQ1Q005bDNMeVpDN0pZRVo5RlJ5blU0aTA5RUNzamJQNlBkY3VjbTdGZEM5?=
+ =?utf-8?B?Rlh0RVJEYlA3QjRDZ3U3R3BkSkNVTTU1RThTNVBpUUM2K1pzVktCWUZsVkt6?=
+ =?utf-8?B?cmorWEs1QmVjRmlzc0ZNQXRpaUtlaFlKcHR2bUNDQ3UrT3MyWlRScFN1R0k5?=
+ =?utf-8?Q?Pao2/ftnqenpqeaaMslaaTxDSTCnIGLFLDkS9fu?=
+MIME-Version: 1.0
+X-TUID: MmaxfhU6owTG
+
+--2u1g6uns6LbF=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+
+<!--
+    en_us
+
+    @templateVersion = "Templates_v01"
+-->
+<span style="display: none"></span>
+<html lang="en">
+<head>
+    <title>Discover your next favorite Xbox Game</title>
+    <style media="all" type="text/css">
+
+        div.preheader {
+            display: none !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        body {
+    background-color: #f2f2f2 !important;
+            -webkit-text-size-adjust: none;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .linkfix a {
+            color: #959595 !important;
+            text-decoration: none !important;
+            font: 9px Helvetica, Arial, sans-serif;
+        }
+
+        a.nounderline {
+            text-decoration: none !important;
+        }
+
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri","sans-serif";
+            margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+    </style>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">Explore Microsoft Store now&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+    <div style="background-color: #f2f2f2;">
+    <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+        <tr>
+            <td valign="top" style="background-color: #f2f2f2;">
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                    <!-- Email -->
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                <!--MLL-->
+                                <!--//MLL—>
+
+                                <!--Header and Navigation-->
+                                
+
+                                
+                                        <!--
+    Header_v01
+
+    @templateVersion = "Templates_v01"
+    @headerVersion = "Header_v01"
+-->
+
+
+<tr>
+    <td valign="top">
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+            <tr>
+                <td valign="top" style="padding: 0 7px;">
+                    <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #f2f2f2;">
+                                <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #f2f2f2;">
+                                            <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" style="border: 1px solid #f2f2f2;">
+                                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+
+                                                            <tr>
+                                                                <td valign="top" style="padding: 0;">
+                                                                     <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a  href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc47719215afc09815adc40b2f61f030003d0581968deeb7a506258ddba64791d9ad47f732c7a48c73b6f683838515bec9b4f76c1bba31c2d0f" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/templates-v01/header-v01/Header1.jpg" width="200" height="105" alt="Microsoft" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 14px; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a  href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc403192450821d7a69a22646c0c25bc5c7dc4ff61cb714381c19747e232774e136ef464bed86cf808c62c392373676ef6dbbacd3357610c9c4" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/templates-v01/header-v01/Header2_NoMessage.jpg" width="400" height="105" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 14px; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+                                    
+                                
+                                <!--//Header and Navigation-->
+                                <!-- Content -->
+                                <tr>
+                                    <td valign="top" style="padding-top: 0;">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <!-- Main Body and Store -->
+                                            
+
+
+https://www.microsoft.com/en-us/store/b/home?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_1_Home_Generic 
+
+
+
+
+
+
+
+
+https://www.microsoft.com/en-us/store/b/xboxgames?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_2_Xbox_Games_Title 
+
+
+ https://www.microsoft.com/en-us/p/SonicColorsUltimate/9n2m4xbxl6n4?OCID=ema_7670166_9n2m4xbxl6n4&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_2_Xbox_Games_product1_9n2m4xbxl6n4 
+
+ https://www.microsoft.com/en-us/p/NBAKCrossGenDigitalBundlePreOrder/9pf3cjcgfcm2?OCID=ema_7670166_9pf3cjcgfcm2&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_2_Xbox_Games_product2_9pf3cjcgfcm2 
+
+ https://www.microsoft.com/en-us/p/DiabloIIResurrected/9n5v10lkdrpq?OCID=ema_7670166_9n5v10lkdrpq&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_2_Xbox_Games_product3_9n5v10lkdrpq 
+
+ 
+ 
+
+https://www.microsoft.com/en-us/store/b/xboxgames?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_2_Xbox_Games_CTA 
+
+
+
+
+
+
+
+
+
+
+https://www.microsoft.com/en-us/store/apps/?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_3_Xbox_Apps_Title 
+
+
+ https://www.microsoft.com/en-us/p/Disney/9NXQXXLFST89?OCID=ema_7670166_9NXQXXLFST89&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_3_Xbox_Apps_product1_9NXQXXLFST89 
+
+ https://www.microsoft.com/en-us/p/HBOMax/9PJJ1K9DZMRS?OCID=ema_7670166_9PJJ1K9DZMRS&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_3_Xbox_Apps_product2_9PJJ1K9DZMRS 
+
+ https://www.microsoft.com/en-us/p/Netflix/9WZDNCRFJ3TJ?OCID=ema_7670166_9WZDNCRFJ3TJ&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_3_Xbox_Apps_product3_9WZDNCRFJ3TJ 
+
+ 
+ 
+
+https://www.microsoft.com/en-us/store/apps/?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_3_Xbox_Apps_CTA 
+
+
+
+
+
+
+
+
+https://www.microsoft.com/en-us/store/movies-and-tv/?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_4_Movies_Title&cat0=devices 
+
+
+ https://www.microsoft.com/en-us/p/BlackWidowBonus/8d6kgwxn907j?OCID=ema_7670166_8d6kgwxn907j&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_4_Movies_product1_8d6kgwxn907j 
+
+ https://www.microsoft.com/en-us/p/SnakeEyesGIJoeOriginsBonusContent/8d6kgwxn8sj9?OCID=ema_7670166_8d6kgwxn8sj9&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_4_Movies_product2_8d6kgwxn8sj9 
+
+ https://www.microsoft.com/en-us/p/ChaosWalkingBonus/8d6kgwxn87ls?OCID=ema_7670166_8d6kgwxn87ls&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_4_Movies_product3_8d6kgwxn87ls 
+
+ 
+ 
+
+https://www.microsoft.com/en-us/store/movies-and-tv/?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_4_Movies_CTA&cat0=devices 
+
+
+
+
+
+
+
+
+
+https://www.microsoft.com/en-us/store/movies-and-tv/browse/new-releases?type=tv&OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_5_TV_Title 
+
+
+ https://www.microsoft.com/en-us/p/RickandMorty/8d6kgwzl66k5?OCID=ema_7670166_8d6kgwzl66k5&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_5_TV_product1_8d6kgwzl66k5 
+
+ https://www.microsoft.com/en-us/p/SouthPark/8d6kgwzl6fcv?OCID=ema_7670166_8d6kgwzl6fcv&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_5_TV_product2_8d6kgwzl6fcv 
+
+ https://www.microsoft.com/en-us/p/OnePiece/8d6kgwxn6wcf?OCID=ema_7670166_8d6kgwxn6wcf&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_5_TV_product3_8d6kgwxn6wcf 
+
+ 
+ 
+
+https://www.microsoft.com/en-us/store/movies-and-tv/browse/new-releases?type=tv&OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Module_5_TV_CTA 
+
+
+
+
+
+
+
+
+
+
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ 
+
+ 
+ 
+
+
+
+https://www.microsoft.com/en-us/store/b/home?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Header_Home_Generic 
+
+https://www.microsoft.com/en-us/store/b/home?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Header_Home_Generic 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ https://www.microsoft.com/en-us/store/b/surface?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Nav_Surface_Generic 
+
+https://www.microsoft.com/en-us/store/b/xbox?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Nav_Xbox_Generic 
+
+https://www.microsoft.com/en-us/store/b/PC?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Nav_PCs_Generic 
+
+https://www.microsoft.com/en-us/store/apps/windows?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Nav_Apps_Generic 
+
+https://www.microsoft.com/en-us/store/top-free/games/pc?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Nav_PCs_Gaming_Top_Free 
+
+https://www.microsoft.com/en-us/store/b/sale?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_Nav_Deals_Generic 
+
+
+ 
+ 
+ https://support.microsoft.com/en-us/account-billing/shipping-options-costs-and-delivery-times-63d48e68-3fb8-6d6f-e73f-f321467d6aee?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_ValueProp_FreeShipping 
+
+https://support.microsoft.com/en-us/account-billing/returning-items-you-bought-from-microsoft-store-for-exchange-or-refund-81629012-aa4f-f48b-2394-8596f415072b?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_ValueProp_FreeReturns 
+
+
+ 
+ 
+https://www.facebook.com/MicrosoftStore 
+
+https://instagram.com/microsoftstore 
+
+https://twitter.com/microsoftstore 
+
+https://www.youtube.com/user/microsoftstore 
+
+
+ https://view.microsoftstoreemail.com/?qs=c9155df1472a356a578d191bbd738c9cb218707b147f82c45849e0373ab4f3070bf719ca0d34992f3b5a6838a4d8998ee908bc0042942687f7e7e595b15309a401d70db65694975a 
+View in browser  | 
+https://careers.microsoft.com/careers/en/us/retail.aspx 
+Careers 
+
+ Free standard shipping. Expected delivery within 3-7 business days after shipping. See
+ 
+https://support.microsoft.com/en-us/help/4000644/microsoft-store-shipping-options-costs-delivery-times 
+webpage  for additional details.
+ 
+
+
+  
+https://account.microsoft.com/profile/unsubscribe?CTID=0&ECID=poMjVMs8EwAdKIwddiED5SIxelM3YrFiZaWbUfsTrWc%3D&K=492ef796-4220-47bb-b9bd-701d9c857037&CMID=null&D=637674734431412717&PID=18046&TID=00000000-0000-0000-0000-000000000001 
+Unsubscribe  | 
+https://go.microsoft.com/fwlink/?LinkId=521839 
+Privacy Statement 
+
+Microsoft Corporation
+
+One Microsoft Way
+
+Redmond, WA 98052
+ 
+
+ 
+ 
+
+
+
+
+--2u1g6uns6LbF=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<!--
+    STAGING_NO_MI_16989_en_US_DigitalLifecycle_Email1_HTML
+--><!--HTML Start--><!-- TEMPLATE MIDDLE --><!--
+    en_us
+
+    @templateVersion = "Templates_v01"
+--><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><span style="display: none"></span>
+<html lang="en">
+<head>
+    <title>Discover your next favorite Xbox Game</title>
+    <style media="all" type="text/css">
+
+        div.preheader {
+            display: none !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        body {
+    background-color: #f2f2f2 !important;
+            -webkit-text-size-adjust: none;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .linkfix a {
+            color: #959595 !important;
+            text-decoration: none !important;
+            font: 9px Helvetica, Arial, sans-serif;
+        }
+
+        a.nounderline {
+            text-decoration: none !important;
+        }
+
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri","sans-serif";
+            margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+    </style>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">Explore Microsoft Store now&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌</div>
+    <div style="background-color: #f2f2f2;">
+    <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+        <tr>
+            <td valign="top" style="background-color: #f2f2f2;">
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                    <!-- Email -->
+                    <tr>
+                        <td valign="top">
+                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                <!--MLL-->
+                                <!--//MLL—>
+
+                                <!--Header and Navigation-->
+                                
+
+                                
+                                        <!--
+    Header_v01
+
+    @templateVersion = "Templates_v01"
+    @headerVersion = "Header_v01"
+-->
+
+
+<tr>
+    <td valign="top">
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+            <tr>
+                <td valign="top" style="padding: 0 7px;">
+                    <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #f2f2f2;">
+                                <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #f2f2f2;">
+                                            <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" style="border: 1px solid #f2f2f2;">
+                                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+
+                                                            <tr>
+                                                                <td valign="top" style="padding: 0;">
+                                                                     <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc47719215afc09815adc40b2f61f030003d0581968deeb7a506258ddba64791d9ad47f732c7a48c73b6f683838515bec9b4f76c1bba31c2d0f" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/templates-v01/header-v01/Header1.jpg" width="200" height="105" alt="Microsoft" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 14px; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc403192450821d7a69a22646c0c25bc5c7dc4ff61cb714381c19747e232774e136ef464bed86cf808c62c392373676ef6dbbacd3357610c9c4" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/templates-v01/header-v01/Header2_NoMessage.jpg" width="400" height="105" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 14px; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+                                    
+                                
+                                <!--//Header and Navigation-->
+                                <!-- Content -->
+                                <tr>
+                                    <td valign="top" style="padding-top: 0;">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <!-- Main Body and Store -->
+                                            
+
+<!-- BODY CONTENT -->
+
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="620">
+<!-- Main Body and Store -->
+<tr>
+    <td valign="top" style="padding: 0 7px;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" style="border: 1px solid #eeeeee;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #e7e7e7;">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #dbdbdb;">
+                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <div style="height: 462px;">
+                                                                        <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f1c4057ebb8ed780712ec6aca2728fc6e3dc0e5017a378c941cee4583120d226bdc885139e56bddf959bb69ec7ebfdbaba4e7fd7ac5887b30" target="_blank">
+                                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_HCL_General_Hero_2021_05.jpg" width="600" height="462" alt="New and Noteworthy. Loved your latest Microsoft Store purchase? Uncover your next favorite digital download." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #f2f2f2; font-family: Arial;">
+                                                                        </a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+
+
+<tr>
+    <td valign="top" style="padding: 4px 7px 0;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" style="border: 1px solid #eeeeee;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #e7e7e7;">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #dbdbdb;">
+                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" style="background-color: #ffffff;">
+                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f8209d46b13ccd3bb3368d6de1359d291578926ee93e3e09b67362a5100e8b380a4d8ded1dcd9d0959a3af7713706d5b67c040698f8495262" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_XBox_Games_1_2021_05.jpg" width="600" height="105" alt="Great Xbox games." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9fb995039383536484797f63851d8f4a230639d2d5e5c6515353c5869f9342b55971d3a7a83dffedfc5860a4894daaa9803e2d214876d658e8" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Xbox_Games_1.png" width="210" alt="Sonic Colors: Ultimate" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9fec6964fc9754941400f36b9363d9ffc72afd151b0b5eb63c1ac3775c52e80b9d48a49266a7662d5c3381589ac58262197f583b81ed5770c9" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Xbox_Games_2.png" width="180" alt="NBA 2K22 Cross-Gen Digital Bundle Pre-Order" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9ff54330cdf75f114ee9b839a88b2fbd36129b2c7e2751c1bde3f261fa5b28c526b552b6eec17051f7c08ba337c2a1e9394f7dd8eb2d13e3b9" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Xbox_Games_3.png" width="210" alt="Diablo® II: Resurrected™ Pre-order" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 126px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f9240a8196fd6b1295ca1139941237855b481dbbeeef311490139d057b2369d36e80fc9973f4ef19af58cd094c7f9fe346a4640e06ebf5f0c" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_XBox_Games_2_2021_09_01.jpg" width="600" height="126" alt="Explore more. ESRB Rating: EVERYONE to MATURE 17+." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+    <td valign="top" style="padding: 4px 7px 0;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" style="border: 1px solid #eeeeee;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #e7e7e7;">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #dbdbdb;">
+                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" style="background-color: #ffffff;">
+                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f25782892c4de94ddb816579a9f660aaf2714080bfa9055653b3b8bcfe4ff8cbccaf7f310818f09d741821af56913cc11948ceaa5ad6dc79f" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_PC_Apps_1_Holiday20.jpg" width="600" height="105" alt="Trending apps." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9fc2b8f2226e1b002a5e0743595d64de52aeab27a208ea15a8caaa7a106d35e3abc296246d6545516ed3b8812bad3626c81efc7218cdbf2900" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Xbox_Apps_1.png" width="210" alt="Disney+" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9fd5829d7569d8d3ded0ab7b1a08ce13eb0cf284fcbf77c815ee945a85cfa0d2f9891d2de1506f3539235ee2fb9ea6a68e813a28140974ba0a" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Xbox_Apps_2.png" width="180" alt="HBO Max" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f0ec70a057c3228fd408280a490d5013073d69d750cebd1b0619f56b7ec65650320b70d80703b9f34f2cdd34760f32abdbfabc2055e99b165" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Xbox_Apps_3.png" width="210" alt="Netflix" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 116px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f5cf0e52908717b3f6bb06cf01bf2b2a36268e86287adf0af4a6c2f40adc6ba6337343de0c8c9b6b72dd6dd1f997959513f859b6fe2a20f7d" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_PC_Apps_2.jpg" width="600" height="116" alt="Explore more." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+
+
+<tr>
+    <td valign="top" style="padding: 4px 7px 0;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" style="border: 1px solid #eeeeee;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #e7e7e7;">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #dbdbdb;">
+                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" style="background-color: #ffffff;">
+                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f556f25e4f16d246aadfaca4cd94a3b578c06977da4dd4992b1ec42e6871e9181b8074b5dd5ed092dd3a00f3d6766283addfbee5e0609986f" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_Movies_1.jpg" width="600" height="105" alt="Can’t miss movies." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f98c20933cc471ecf37347475b6f63e52825b2ed4486f4c5cc1984e354fea8c78473ecb736aa1b6fdda9c700715636300b6d728bb479fa503" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Movies_1.png" width="210" alt="Black Widow + Bonus Content" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f17734277a72a6425e048882400eded070bd947eeb1c1ddf202148c613aa2ce79d54967118594c62acebf9918520f45cb9ad44e420cda0336" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Movies_2.png" width="180" alt="Snake Eyes: G.I. Joe Origins + Bonus Content" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f1afcfad45fb6f9de623ddcee56ff91b34a81b23901e06122d4d9a23960abb80f4228b4f90294106c19ee5b9e4eb1becf1868ea766f19cd5a" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_Movies_3.png" width="210" alt="Chaos Walking + Bonus Content" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 116px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f221820cc73a266bd77276b22ff306f844167eb0adf8d38871b241cabcf617c77d6292c088fe3e492552413fb6fd83bb0e4c1755fa83e54de" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_Movies_2.jpg" width="600" height="116" alt="Explore more." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+
+
+
+<tr>
+    <td valign="top" style="padding: 4px 7px 0;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" style="border: 1px solid #eeeeee;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top" style="border: 1px solid #e7e7e7;">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" style="border: 1px solid #dbdbdb;">
+                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" style="background-color: #ffffff;">
+                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 105px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f12f9afca660a4118b1b62c4c3732bba3ae99c3616ba9c58cb578071ef4ccae5a7b3675b292d5dfbd676ea09e239a5543a3279a5a13ef334c" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_TV_Shows_1.jpg" width="600" height="105" alt="Talked-about TV shows." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9fbcdf705ff94fa309c6e48241ea39af028d44746773da30a1f83a6ac206807693cd49f4a6009ca6336a0d51b29a81712328614c88bb7153cc" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_TV_1.png" width="210" alt="Rick and Morty" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f82218ae606c2e7f91c2737f9e4821586c93004bb970ef7aacacb73bbfd52dfb7a767d6e75c85697dec92fc38b8e664fcadff03fa72f3fe9d" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_TV_2.png" width="180" alt="South Park" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td valign="top">
+                                                                                <div>
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9fb9f0b0570017d33c0ad49ccf608f7894708a462a2145fc0c33680c2d3dba74fb01a3a6a9017ec966060b1e982762ee937f8d8eb1914c7789" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/test-dc-slicer/09012021_TV_3.png" width="210" alt="One Piece" style="display: block; border: none; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                            
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <div style="height: 116px;">
+                                                                                    <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f9c376e1ce6e8668be1845e97e4a1f99edf188ab11f1f2d9cd96c8699440385a073ac24a3effaf7e0abfac8a98d9556bab192a653553c0edb" target="_blank">
+                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/16989-en-us-digitallifecycle-email1/16989_Digital-Lifecycle_Email1_TV_Shows_2.jpg" width="600" height="116" alt="Explore more." style="display: block; border: none; color: #000000; font-size: 12px; background-color: #ffffff; font-family: Arial;">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+
+
+<tr>
+    <td valign="top">
+        <div style="height: 18px">
+            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_06.jpg" width="620" height="18" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+        </div>
+    </td>
+</tr>
+<!-- // Main Body and Store -->
+</table>
+</td>
+</tr>
+<!-- // Content -->
+
+<!-- TEMPLATE BOTTOM -->
+
+                                            <!-- FAS Banner
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 14px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_04.jpg" width="620" height="14" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                             <tr>
+                                                <td valign="top">
+                                                   <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <div style="height: 108px;">
+                                                                    <a href="" target="_blank">
+                                                                        <img border="0" src="" width="620" height="108" alt="Find a Microsoft Store near you" style="display: block; border: none; color: #000000; font-size: 12px; background-color: #f2f2f2; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                             </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr> -->
+                                            
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 18px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_06.jpg" width="620" height="18" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <!-- End FAS Banner -->
+                                            <!-- // Main Body and Store -->
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- // Content -->
+                                <!-- Nav -->
+                                <tr>
+                                    <td valign="top">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4c02b6295ebfd25081d99f3740ee611d229ca31685d35f1db223dc81475ad119cff4b65aee3ca1b6e4a9adb796714c660f96fd70885c30559" target="_blank">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_07.jpg" width="310" height="40" alt="Surface" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4fb68ad2786463107a2af52d06c41d2cf9de10e9350eabc10ebffdd63d3dbd2df0e3e2b670c0eac2f8f658c069455cc86202e1ea408a5b622" target="_blank">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_08.jpg" width="310" height="40" alt="Xbox" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 20px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_08_5.jpg" width="620" height="20" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                         <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc47bf5bc120ff49f4a3bfaccfe91032af9056da101749b219cad2e9ee9769154f7668d81975caaf77069989535727ba3777416a301821aa696" target="_blank">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_09.jpg" width="310" height="40" alt="PCs &amp; Tablets" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4f0efb9fb10edadc865ca546cc9085d23fb61d8d531c511117755dcc5a0c00d2d73b1a77201ed1f9bd945bca81d48ef64e4ade739c6aafa3f" target="_blank">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_10.jpg" width="310" height="40" alt="Apps" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 20px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_10_5.jpg" width="620" height="20" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>                                        
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4037e4653d6abd9d500bb6aac57df6afd729f0290d72316ecb7ef41389ba27380b35a5e5b2ad245c37b7a270c0d17bf22e255f9a5c3fa5e43" target="_blank">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_11.jpg" width="310" height="40" alt="Digital Games" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc43223aeeb02e03ccae468e2ff0e7d6afd3d6dfc08afaac7b039991d2bb54eb17439b2946f960f5a330c012d6b01df0646916f98492b61ab18" target="_blank">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_12.jpg" width="310" height="40" alt="Deals" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- <tr > -->
+                                    <!-- <td valign="top"> -->
+                                        <!-- <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620"> -->
+                                            <!-- <tr> -->
+                                                <!-- <td valign="top"> -->
+                                                    <!-- <div style="height: 32px"> -->
+                                                        <!-- <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us-v2/US_RefreshTemplate_32pxSpacer.jpg" width="620" height="32" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;"> -->
+                                                    <!-- </div> -->
+                                                <!-- </td> -->
+                                            <!-- </tr> -->
+                                        <!-- </table> -->
+                                    <!-- </td> -->
+                                <!-- </tr> -->
+                                
+                                <!-- // Nav -->
+                                <!-- Shipping Module -->
+                                <tr>
+                                    <td valign="top">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 165px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc43a2af70275522565b3e444340aadb32980835cb4d7242ea6e64fd6e28b57dfa955690169242d37572c6018f76524b4dcdbc89809f431d94b">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_13.jpg" width="310" height="165" alt="Shipping" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 165px">
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4d72357a5dc4713dd1a8a99b2656f4a82be45c32bdc62942db557d298ce98f01c70f05a3152981fcca360de60354a9ff5d2a108cafa30d739">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_14.jpg" width="310" height="165" alt="Returns" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 162px">
+                                                        <a href="https://support.microsoft.com/en-us/contactus/?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_ValueProp_FreeSupport">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_15.jpg" width="310" height="162" alt="Support" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 162px">
+                                                        <a href="https://www.microsoft.com/en-us/store/locations/events?OCID=ema_7670166&WT.mc_id=PromoEmail_7670166_16989_DigitalLifecycle_Email1_Xbox_Games_09-17-21_ValueProp_FreeLearning">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_16.jpg" width="310" height="162" alt="Learning" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>-->
+                                    </td>
+                                </tr>
+                                <!-- //Shipping Module -->
+                                <tr>
+                                    <td valign="top">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 32px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us-v2/US_RefreshTemplate_32pxSpacer.jpg" width="620" height="32" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+                                <!-- Social Icon Module -->
+                                <tr>
+                                    <td valign="top" style="">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                             <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4b039b03f2e37b4b4596f9d9a812cbc54a6e4b35b2ad9b63bc4c26c9e7ace4195c60bac038f7c18ffcc392d11868a1ecda6bf273393486b97" target="_blank">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/FY21_en_US_MasterTemplate_Promo_18_new.jpg" width="150" height="120" alt="Facebook" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc44976a2376b5b4bfdefd2d245f099202f4b5c05da194542d02e6dd961205339e7fa5e753ab57fab7d3def990d6e34e8007418db7e7ff617e0" target="_blank">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/FY21_en_US_MasterTemplate_Promo_19_new.jpg" width="150" height="120" alt="Instagram" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc43019da4860cec2f068a51d90054d8668ea748d01d8b1aa8983493517bdcc363f3537e1a04d6cc235f8320248643718a9c525c0aede0ae243" target="_blank">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/FY21_en_US_MasterTemplate_Promo_20_new.jpg" width="150" height="120" alt="Twitter" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc44f5e97515ac26f94843fc10b2168115bb961641415f8ea043afbc3ea21099001c4253842d67e38e28f3c8465c2651e311d7c535c7f996cbb" target="_blank">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/FY21_en_US_MasterTemplate_Promo_21_new.jpg" width="170" height="120" alt="YouTube" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                <!-- //Social Icon Module -->
+                                <tr>
+                                    <td valign="top">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 3px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_23.jpg" width="620" height="3" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--View in Browser module and Footer-->
+                                <tr>
+                                    <td valign="top" style="padding-top: 38px; padding-left: 35px; padding-right: 35px;">
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top" style="font-family: Arial; font-size: 16px; color: #4f4f4f; mso-line-height-rule: exactly; margin: 0px; line-height: normal; ">
+                                                    <div style="line-height: normal;">
+                                                        <a href="https://view.microsoftstoreemail.com/?qs=c9155df1472a356a578d191bbd738c9cb218707b147f82c45849e0373ab4f3070bf719ca0d34992f3b5a6838a4d8998ee908bc0042942687f7e7e595b15309a415442145f4a793f199911d9af5fe8b83d484d3ca8429a00c" target="_blank" style="color: #4f4f4f; text-decoration: underline;">View in browser</a> | <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4dd27448eede07a623d9be3bffbf869ab29ff38f93e98aa5c34ce5763db8f901df80bed48a94369d79f0d0fa0671d638e236e3150f38eae3a" target="_blank" style="color: #4f4f4f; text-decoration: underline;">Careers</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="font-family: Arial; font-size: 16px; color: #4f4f4f; mso-line-height-rule: exactly; margin: 0px; line-height: normal; padding-top: 36px;">
+                                                    <div style="line-height: 25px;">
+                                                        Free standard shipping. Expected delivery within 3-7 business days after shipping. See
+                                                        <a href="https://click.microsoftstoreemail.com/?qs=eb5d5fd6a386ac9f811c9ecb109c7b91a27c3e72e24d037c8a5dbf2b2099239fa2b54210490b0961462bb8fafed964cd8172391d6753432d3d6f4c2dd63218cc" target="_blank" style="color: #4f4f4f; text-decoration: underline;">webpage</a> for additional details.
+                                                        <br>
+                                                        <br>
+                                                        
+    Games may offer in-app purchases. See specific game terms and conditions for details.
+    <br><br>
+    System Requirements: Microsoft Movies &amp; TV requires a broadband internet connection and a Microsoft account. For playback, the Microsoft Movies &amp; TV app is available for Windows (10.X), Xbox One and Xbox 360 and the Xbox Video app is available for Windows 8.X/RT PCs and tablets, and Windows Phone 8.X.
+    <br><br>
+                                                         
+
+    
+       
+            			<a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4076b5e58ac25064c36c16e2676340bdeaaf7aa029df5340bbf1b20a9e5455ff67da46fa837e93f3b5544e31afa1c5ce03ae6bbba8fbd2fd7" style="color: #4f4f4f; text-decoration: underline;">Unsubscribe</a> | <a href="https://click.microsoftstoreemail.com/?qs=60a4016cc85d8bc4858d64148d185a00c239f52aea05961f654e679f031dd2954191ec6df674278ab06edb4227716965e6f7e2c4ab9baa654102bcdd57be045f" style="color: #4f4f4f; text-decoration: underline;">Privacy Statement</a><br>
+Microsoft Corporation<br>
+One Microsoft Way<br>
+Redmond, WA 98052
+
+	    
+    
+
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--//View in Browser module and Footer-->
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- // Email -->
+                </table>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <!-- // Wrapper -->
+    <img src="https://click.microsoftstoreemail.com/open.aspx?ffcb10-fe8e13767264057b73-fdf31574746d007a72127575-fe60157076610d7b7513-fec21c767365017e-fdf3157675600d7f771c7976-ff02157475640c&amp;d=10149&amp;bmt=0" width="1" height="1" alt="">
+    <img src="" width="1" height="1" alt="">  
+    <!-- <img src="" width="1" height="1" alt="" />  -->
+</body>
+</html>
+
+
+
+
+--2u1g6uns6LbF=_?:--

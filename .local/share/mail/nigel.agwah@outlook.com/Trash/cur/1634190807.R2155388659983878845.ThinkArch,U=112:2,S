@@ -1,0 +1,1111 @@
+Received: from MW2NAM10HT041.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:806:131::24) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0139.NAMPRD11.PROD.OUTLOOK.COM; Thu, 17 Jun 2021 17:13:10
+ +0000
+Received: from MW2NAM10FT030.eop-nam10.prod.protection.outlook.com
+ (2a01:111:e400:7e87::4a) by
+ MW2NAM10HT041.eop-nam10.prod.protection.outlook.com (2a01:111:e400:7e87::156)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4195.18; Thu, 17 Jun
+ 2021 17:13:09 +0000
+Authentication-Results: spf=pass (sender IP is 64.132.89.189)
+ smtp.mailfrom=bounce.email.microsoftrewards.com; outlook.com; dkim=pass
+ (signature was verified) header.d=email.microsoftrewards.com;outlook.com;
+ dmarc=pass action=none header.from=email.microsoftrewards.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.email.microsoftrewards.com designates 64.132.89.189 as permitted
+ sender) receiver=protection.outlook.com; client-ip=64.132.89.189;
+ helo=mta.bing-email.microsoft.com;
+Received: from mta.bing-email.microsoft.com (64.132.89.189) by
+ MW2NAM10FT030.mail.protection.outlook.com (10.13.155.128) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4195.18 via Frontend Transport; Thu, 17 Jun 2021 17:13:08 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:7E4D964BAB91AA3AE00776E50BC2F75AA57F51B355EB585715AA5FC86BC0C3C3;UpperCasedChecksum:96B6A0BF9796417D9BBF2CDC35E22E802433E056FBFBBF2E3FCF28BF7CEBC3AC;SizeAsReceived:1826;Count:17
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=email.microsoftrewards.com;
+ h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:
+ Reply-To:List-ID:X-CSA-Complaints:Message-ID:Content-Type;
+ i=microsoftrewards@email.microsoftrewards.com;
+ bh=lPPPo29E7ydqCv5C4N3PoSJ42oI2xljvppqq54BW9Nk=;
+ b=tUpeOa4gG6njGS9VeVXbTjdNfAdac93UuWGdtR5N3xJmjtqwDQ/hd7HkVYxB1umyqJc4AuEeS7zr
+   w/SOdIRyJi+ldSEMK5jYNL+dxa8XHEdkYZiEo7lZNyVCHF7G5U+3kQ7HxgX1rgCboGiZUm2HXZQf
+   TUFprtLinwG3hzAM+fI=
+Received: by mta.bing-email.microsoft.com id hpe1aa2fmd4l for <nigel.agwah@outlook.com>; Thu, 17 Jun 2021 17:13:05 +0000 (envelope-from <bounce-11_HTML-1249306794-33808-10964441-20124@bounce.email.microsoftrewards.com>)
+From: "Microsoft Rewards" <microsoftrewards@email.microsoftrewards.com>
+To: <nigel.agwah@outlook.com>
+Subject: Nigel, enter to score an all new Surface Laptop 4
+Date: Thu, 17 Jun 2021 11:13:04 -0600
+List-Unsubscribe: <https://click.email.microsoftrewards.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDk2NDQ0MSIsInMiOiIxMjQ5MzA2Nzk0IiwibGlkIjoiMTEiLCJqIjoiMzM4MDgiLCJqYiI6IjIwMTI0IiwiZCI6IjEwMTQ5In0.oRdKcKRU4cA08XHbh_BmDHss7SxiTW-hpTkHThF50l4>, <mailto:leave-fd8915711a3c402029-fdf21572716d077d73137971-fef917737d640c-fe6215707c6200797115-ff061670746600@leave.email.microsoftrewards.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+Reply-To: "NoReply" <reply-33808-11_HTML-1249306794-10964441-20124@email.microsoftrewards.com>
+List-ID: <10958510.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 1
+x-job: 10964441_33808
+Message-ID: <0eb3efe4-e619-4de1-8008-d7ad753d15bf@ind1s01mta781.xt.local>
+Content-Type: multipart/alternative;
+	boundary="VYZRziXT4idg=_?:"
+X-IncomingHeaderCount: 17
+Return-Path:
+ bounce-11_HTML-1249306794-33808-10964441-20124@bounce.email.microsoftrewards.com
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Jun 2021 17:13:09.2172
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ e30088c4-cf34-4af8-a639-08d931b32e1c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM10FT030.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/14/2021 6:42:28 PM
+X-MS-Office365-Filtering-Correlation-Id: e30088c4-cf34-4af8-a639-08d931b32e1c
+X-MS-TrafficTypeDiagnostic: MW2NAM10HT041:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 64.132.89.189
+X-SID-PRA: MICROSOFTREWARDS@EMAIL.MICROSOFTREWARDS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jun 2021 17:13:08.9813
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e30088c4-cf34-4af8-a639-08d931b32e1c
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM10FT030.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW2NAM10HT041
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7174777
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4242.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(2008001114)(2008000189)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdc1UgXsa+366hU5ixLhsJnD8Xq58GbTerlIV5HlyisTdtKL7ugVFa1CWreWjoKp25pAWTGYcDTDo33i8JBX+EQ3gvGGzw0gu2V55tc1LqOqTzoU1DuMBp+8SP6PnpVX6trYcUu2uYv+/sONpnScMVRtKkEk2jqyXMAJDTDpRPRohrE2ZNuo5ph7WciP+CzknMOS+NyCUSK0sQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?NFpPWmZqd0JjYk9SSmoxdzEvNnJxVTFDSDVsZHhvY0dmKzk1VnZwL05BNGl1?=
+ =?utf-8?B?Zk9MWjRjemg2d2RoWnVkU28vOVF3V2U4N1BaSjR3VUhkeFZUbWRTSUpiWklv?=
+ =?utf-8?B?cUhKd3RyR0hReXVpeURpM3RwOUhjR1JqNkwyR0hCQ3prUENHUDNick9Ga1M3?=
+ =?utf-8?B?aE1HYjFUZHQ5TE1yV1N4bS9jWHBlM1k2RkE0YzY0YWY3b2t6V2VPN3poZFpw?=
+ =?utf-8?B?akZLTHVtbEdieXFtYVdvZFdKREp5VENsY3g1NlcwVUVvMTg0QW5tQXZlbjFV?=
+ =?utf-8?B?ZFY1SXNuTWcrNktXODRzU21UNlBPUDl2N294UEhIa3l6NFUxb1pkdDcrRkRQ?=
+ =?utf-8?B?dzBSM2R4bmlmZ2tQTGxiTWQ2Z3U2ZnNLSzZLQU5zc1NKeXp3dUhSdktRdkxZ?=
+ =?utf-8?B?UGoyVEwrNDgzQmZOckpXdW1DZnZGQmJNZnF3UmJGTU9zRktML2pLTVU2OWwr?=
+ =?utf-8?B?RXZZdExIWGRQKytNR2lqM2J4U3Zncml6TTZvTVdEVXNwbzhWbUQvNVFoN01v?=
+ =?utf-8?B?QjJ1SWdsSWFoSmd6SHZqUENGNmpuVTZJbTVTbmxGaDA2M0RjYXJDYktYUjZ0?=
+ =?utf-8?B?aW1YWWFGMVRISGV1d3gydGNta0Q3Sk5iYTFQVzgxLzl0R2RGKzZHRVZ2Q0Za?=
+ =?utf-8?B?L1RXbk43c25YZjY0UTk5NDR5VVo1ci8yN2t2Q0pmZEdIMXl5ek4zTFVFNWM4?=
+ =?utf-8?B?emFqVk5ScjF6Mno2R2ExZ3l3TzhxSWZscFc3U3F3MlVVTFVOVGVZemFHRFNv?=
+ =?utf-8?B?Y2ZPRDdlaHVaYmQ2ajJNYVBYTGZaQWozejJJWlYxR0lFdFNDOVFHeFJNOXRm?=
+ =?utf-8?B?U1JSdXEydHlWaU5Nck5uQ0J6anI2YnJnM0VQVGlGZ0hkK1NOMVhZSGRVYXZ6?=
+ =?utf-8?B?YmFCcUN4MUlHcVhGS2xCMmFTL21La0xPdWJIZytKMDQ2OXM2TS9XNkwwUEJh?=
+ =?utf-8?B?M09PeHFkVDBuL0doRklLTERWUEVjQytYRlhjOHNOVFQ0dnhDSU1odVZEK0lF?=
+ =?utf-8?B?QUtkTHp5d1dmMlR4MllrTGlsbXRud2RYK3lhMmdCN3F0dTkwNTgzWEtYNTNq?=
+ =?utf-8?B?Q3BVOHkrUjd6bG02bTd0YklGM0xRTmE2MGRtdnRMMTBOQ2Y4RytnTDVUd1VF?=
+ =?utf-8?B?OHVaZGJQd01la1JWeGtjd1I3YTkwN0hkQ0dUbnNtY3d0UzdsaE1nUEw0eTlH?=
+ =?utf-8?B?TWptbm9WYXplcmFscGYyMm00TVc0cTg0MnFkR08xQkNac0N2OTFlQSsrRlEv?=
+ =?utf-8?B?ZW03STVjdkVTdVNUdDlYSEZPRVN0bVdjbE9OVXQzMTFLa3lDbUlXNHpJY3hW?=
+ =?utf-8?B?MHRRRkNYNFkvREw5R0hkamllV2k0VjlLMFAxUnozQUxyN2xrRHhrL0svMngv?=
+ =?utf-8?B?SDZPQUlUZC80K3Z2N0RiODZTZlFwMG9VMXpjRUlMUUdCc1poa1JYajg0NWxJ?=
+ =?utf-8?B?SGpUME50bFZaeTdvUTdNUzV4clVCKzlQOXJRRmtjbVQyNDJhRnRTQUxVTjVJ?=
+ =?utf-8?B?cnpmQmxzdXM2cXY2ZXhjNmRPZ1hJTkVnbUxGRGs2VGZtc01YSnl0ZXpXT3o3?=
+ =?utf-8?B?Tk5mOER3S2tPNmFaemdOMUpkOTZqajlBNHEraVNtejBIdTdzTmxZOVF5WmRh?=
+ =?utf-8?B?d0VEK1JaRnJFUzhyM2wvUWFMbzFoYml1RkZYLzVSMC9LYkhRWU5acU4rem1J?=
+ =?utf-8?B?V1ladXpyblVGR0x4cHRqRjhNenAzcmtuWUtqQ3JWVXRISTBVUXkvVGo1c3hC?=
+ =?utf-8?B?eVlzUVFkWnlIQ1dvbnpGVmJDWUVZekVSamFtQ1ROZ2hxb2x6WWxiQkRtYWIz?=
+ =?utf-8?B?OWhNQUlxNUU0R3k5THVBdjhmQm9GV2hRR3ZyZitnclRTYTlsNC9UaEd4Q0lx?=
+ =?utf-8?B?NTNCanNkSDZnNXhJNXc1M3M5L2kvY2c5WkxzWjc4WlgwQVJUc0FKbGNQOHZ5?=
+ =?utf-8?B?c09iV0ZGU0VIaWtwS0pCeHhlSjNQcStNTzlJL2FZb2pVdU9ISUJNS0ZjbXBB?=
+ =?utf-8?B?SVlOU3JTMUtUeXM0MGRqc2ZaZmNnRTM2WXNZemk1MUY4THNTRWFPOTVuTnNh?=
+ =?utf-8?B?dlJ6aksxY3kza21MTG5VZnc4czEySHp4QWlNNkJ2ZTZTK1E4MnZlcjU2aEc1?=
+ =?utf-8?B?THNpMWRiTGdHZDUwUmE4Y1pMTHN6cjAwZHVQOHQ5M0NpSjBlUStUM01wV2FN?=
+ =?utf-8?Q?5f3lZ1CzI7AlI/l5+Dk8Uyg=3D?=
+MIME-Version: 1.0
+X-TUID: 6etj2xYJplsX
+
+--VYZRziXT4idg=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+Rewards
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; 
+
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df267218557b33265f824223ad38f6598b8a72406b0e7d67d97c70eac8e375e36ae1bf783d7ec2ef06c35d110dc6e049d9dca14dab511f1f45c55 
+
+Hello, Nigel
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df267ada7b692adc5256e801d7b8d9afbcb9ad97895caa4478c41f8eac409a1a8f37d0b1375fb7887f57bd0784476931e335a64fbb1947ed9a549 
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df267ada7b692adc5256e801d7b8d9afbcb9ad97895caa4478c41f8eac409a1a8f37d0b1375fb7887f57bd0784476931e335a64fbb1947ed9a549 
+
+ 
+ Do it all with a new
+ 
+  
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df267ada7b692adc5256e801d7b8d9afbcb9ad97895caa4478c41f8eac409a1a8f37d0b1375fb7887f57bd0784476931e335a64fbb1947ed9a549 
+
+ 
+ Surface Laptop 4
+ 
+  
+
+ Enter for a chance to win a new Surface Laptop 4, the perfect balance of sleek design and speed. This bundle also includes Surface Headphones, a one year subscription of 
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df267b24338de054750e7409cc9f0f2e037231b10066ddd39face65fd2fda42db27c49e3cdddb0d4a7467072d739ae40ef9f0b192eb8daf6a882e 
+<span style="white-space: nowrap;">Microsoft&nbsp;365</span> , other accessories, <span style="white-space: nowrap;">and&nbsp;more.​ <sup style="line-height: 0px; font-size: 70%;">1</sup></span>
+ 
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df267ada7b692adc5256e801d7b8d9afbcb9ad97895caa4478c41f8eac409a1a8f37d0b1375fb7887f57bd0784476931e335a64fbb1947ed9a549 
+
+   Enter now  
+ 
+
+
+ 
+ Earn points
+ 
+ 
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df26712bc2ed7b46c29d27c71142ef6aa1679adeea5e4fea63ae7e53d4d5bd768776f5e9f163f12213b9623d98dbacd51f102a8807ba07af57ad0 
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df26712bc2ed7b46c29d27c71142ef6aa1679adeea5e4fea63ae7e53d4d5bd768776f5e9f163f12213b9623d98dbacd51f102a8807ba07af57ad0 
+
+ 
+ Editor’s choice quiz:
+  
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df26712bc2ed7b46c29d27c71142ef6aa1679adeea5e4fea63ae7e53d4d5bd768776f5e9f163f12213b9623d98dbacd51f102a8807ba07af57ad0 
+
+ 
+ World Heritage Sites
+  
+
+ How much do you know about these remarkable sites around <span style="white-space: nowrap;">the&nbsp;globe?</span>
+ 
+
+https://click.email.microsoftrewards.com/?qs=1ac4429d626df26712bc2ed7b46c29d27c71142ef6aa1679adeea5e4fea63ae7e53d4d5bd768776f5e9f163f12213b9623d98dbacd51f102a8807ba07af57ad0 
+
+   +30 | Take quiz  
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d07341d1d60e270d8db3564478c2777741dfc6cdfee75594aeb57eb21b6333138af439dfe23e702234686bd7e739f993955c65cc8d45758bd 
+
+ Daily poll:
+  
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d07341d1d60e270d8db3564478c2777741dfc6cdfee75594aeb57eb21b6333138af439dfe23e702234686bd7e739f993955c65cc8d45758bd 
+
+ Chillin’ in Antarctica
+  
+
+ Which animal would you rather chill with when temperatures are <span style="white-space: nowrap;">below&nbsp;freezing?</span>
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d07341d1d60e270d8db3564478c2777741dfc6cdfee75594aeb57eb21b6333138af439dfe23e702234686bd7e739f993955c65cc8d45758bd 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d07341d1d60e270d8db3564478c2777741dfc6cdfee75594aeb57eb21b6333138af439dfe23e702234686bd7e739f993955c65cc8d45758bd 
+
+   +10 | Take poll  
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d07341d1d60e270d8db3564478c2777741dfc6cdfee75594aeb57eb21b6333138af439dfe23e702234686bd7e739f993955c65cc8d45758bd 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7da8da2755efa6e151d507fc303caf1d6ee3948803660363cd075bd9a8160744db93f5dffd4c91d88e58f0cc9464f78b8f9232b8215117ef93 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7da8da2755efa6e151d507fc303caf1d6ee3948803660363cd075bd9a8160744db93f5dffd4c91d88e58f0cc9464f78b8f9232b8215117ef93 
+
+ Start your engines
+  
+
+Test your knowledge with this sports punch card before <span style="white-space: nowrap;">June&nbsp;30</span>
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7da8da2755efa6e151d507fc303caf1d6ee3948803660363cd075bd9a8160744db93f5dffd4c91d88e58f0cc9464f78b8f9232b8215117ef93 
+
+ +150 | Start now  
+ 
+
+
+ 
+ 
+ Conversation starters
+ 
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7dd6ad09b61f034672d90d763dad324f249f23b4f37b10f5b826f2c01ea1c550f74a1e397e4afe9324af779077b2ac49771a57ca68f095485c 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7dd6ad09b61f034672d90d763dad324f249f23b4f37b10f5b826f2c01ea1c550f74a1e397e4afe9324af779077b2ac49771a57ca68f095485c 
+
+ 
+ Meet Microsoft Teams
+  
+
+ Now you can chat, manage tasks, and call family and friends — all in <span style="white-space: nowrap;">one&nbsp;app</span>
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7dd6ad09b61f034672d90d763dad324f249f23b4f37b10f5b826f2c01ea1c550f74a1e397e4afe9324af779077b2ac49771a57ca68f095485c 
+
+   Get Microsoft Teams for free  
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7ddfe0cf3c3cff60599e62f615e6b2cc5a9a86b731c740010bc94902cc1d285e006874888f768a6ccb291b3b4290293bf9d257e3f2ed2a60e7 
+
+ 
+ Emojis at your fingertips
+  
+
+ Quickly add emojis while you type with the Windows 10 <span style="white-space: nowrap;">keyboard&nbsp;shortcut</span>
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7ddfe0cf3c3cff60599e62f615e6b2cc5a9a86b731c740010bc94902cc1d285e006874888f768a6ccb291b3b4290293bf9d257e3f2ed2a60e7 
+
+   Try it out  
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7ddfe0cf3c3cff60599e62f615e6b2cc5a9a86b731c740010bc94902cc1d285e006874888f768a6ccb291b3b4290293bf9d257e3f2ed2a60e7 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d0301a186b4e7d786986faf5b5eabbd6acc807567181ac0c9bfea68bf677ec6ed0a9ed5e3a19ac537a97b0e7de02fd3fd4749caab35b503e9 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d0301a186b4e7d786986faf5b5eabbd6acc807567181ac0c9bfea68bf677ec6ed0a9ed5e3a19ac537a97b0e7de02fd3fd4749caab35b503e9 
+
+ 
+ Virtual zoo tours
+  
+
+ Explore their most famous <span style="white-space: nowrap;">animals&nbsp;online</span>
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d0301a186b4e7d786986faf5b5eabbd6acc807567181ac0c9bfea68bf677ec6ed0a9ed5e3a19ac537a97b0e7de02fd3fd4749caab35b503e9 
+
+   Find a tour  
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d58e89ab22c1248ab02cbb0148a90ac5f23e83a6eb4a0419690d0d4d4e8537fcf04b9646f2a8fc2704c1661a11e2587b31fce0218ae182dca 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d58e89ab22c1248ab02cbb0148a90ac5f23e83a6eb4a0419690d0d4d4e8537fcf04b9646f2a8fc2704c1661a11e2587b31fce0218ae182dca 
+
+ Daily streak giveaway: your chance to win $10,000
+  
+
+Earn one entry for every day you maintain a streak of two days <span style="white-space: nowrap;">or&nbsp;more <sup style="line-height: 0px; font-size: 70%;">2</sup></span>
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d58e89ab22c1248ab02cbb0148a90ac5f23e83a6eb4a0419690d0d4d4e8537fcf04b9646f2a8fc2704c1661a11e2587b31fce0218ae182dca 
+
+ Learn more  
+ 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7dd8f9833bc0f499d11d5197cbbe1bab9382713b7d36d43db3b7a66bd70e4d2a476b121af7de089288db59e9164dc25a00cd493ba7ecb57c37 
+Visit <span style="white-space: nowrap;">Microsoft&nbsp;Rewards</span> 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d3ce29282bf022c765821399b748a48b25368d7ab204e099163133810ebd307e3d5a118cde50c869ebadc19c86690dead731b8ac48391c3b7 
+Give with Bing 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7dce3aa3ba774a0bf66d104c0cc86803cf8dbd75dd390f7c8e7297c27455e7f7d77c8ed7824c6f0b3c45d0caed240346dfa193d9df940d9345 
+Bing Rebates 
+
+https://click.email.microsoftrewards.com/?qs=2e774f7a30eefb7d9b7757195ae7f39ab80ec99f25ed44da61915e09cdc2f656e2a6178d3c87ac5a0067da253650f7de25cc15f93a338fbeb617a869344fd096 
+Rewards on Xbox 
+
+​<sup style="line-height: 0px; font-size: 70%;">1</sup> Sweepstakes ends July 27, 2021. NO PURCHASE NECESSARY. Open only to legal residents of the 50 United States and D.C. See  
+https://click.email.microsoftrewards.com/?qs=476a06543aceca29535a15109debae4c813811a850292298e7bca11dde82f3fa75947bfd676be9600eb1cba2109b33ffde0df84464ab64956210377bec843cd1 
+Official Rules   for details including alternate method <span style="white-space: nowrap;">of&nbsp;entry.</span>
+
+<sup style="line-height: 0px; font-size: 70%;">2</sup> See 
+https://click.email.microsoftrewards.com/?qs=476a06543aceca29419d4ca5f65eb1dfa7c57d2b51971459b702d7b079f05c472b1e34bc9cd25b8213bf5ba4c7529a507816695e048fcae144d08c468b5a3973 
+Official Rules  for Daily streak giveaway
+
+https://click.email.microsoftrewards.com/?qs=476a06543aceca296a5e8c83a9777a2334153c61b632f7d56c30d88184b23566a4c3a3dfd7e67658b2ce296f98b65a9541fa05dbeb3c2248dad0de651d3b3593 
+Unsubscribe  | 
+https://click.email.microsoftrewards.com/?qs=476a06543aceca294f004d4e35a6f9704b30d7bd0a05180e432ccd65d7ddcda95e4e24f191dcc13f8924d337bcbf92e3b4e1116b4abc99f3b70d587299c3246b 
+Privacy Statement  |
+ 
+https://view.email.microsoftrewards.com/?qs=ae6e68e438697e62f93a8408cb1bfb0b2ce2ef5dcf4dadc8c105b167f690f4cc436515dc8b72dee707f78ed1a9c64ad1740296af795b5ce19553697c50247cc5689c8a13c43dc68894242b50ffc45eb8 
+View as webpage 
+
+Microsoft Corporation
+
+One Microsoft Way
+
+Redmond, WA 98052
+
+ADO: 20676
+
+
+
+
+--VYZRziXT4idg=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html><html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 9]><style type="text/css">sup { font-size: 100% !important; } li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}</style><![endif]--><!--[if gte mso 9]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> 
+<style type="text/css"> @font-face{font-family:'wf_segoe-ui_normal';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.svg#web')
+ format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'wf_segoe-ui_light';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web')
+ format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'wf_segoe-ui_semibold';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.svg#web') format('svg');font-weight:normal;font-style:normal
+ }@font-face{font-family:'wf_segoe-ui_semilight';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semilight/latest.ttf') format('truetype');font-weight:normal;font-style:normal }</style><![endif]--><!--[if !mso]><!-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge" style="-webkit-font-smoothing:antialiased;">
+    <!--<![endif]-->
+
+    
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Rewards</title>
+
+<style type="text/css">
+
+                 html { width: 100%; min-width: 100%; overflow-x: hidden; padding: 0px; margin: 0px; } li {text-align:-webkit-match-parent; display:list-item;} body { width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #ffffff; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; } img { line-height: 100%; outline: none; text-decoration: none; border: none; height: auto; -ms-interpolation-mode: bicubic; } p { margin: 0 0 !important; } table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; } body, table, td, a { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+ text-size-adjust: 100%; } .ReadMsgBody, .ExternalClass { width: 100%; background-color: #ffffff; } .fullWidth { width: 500px; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } .ExternalClass a:visited, .ExternalClass span.ecxMsoHyperlinkFollowed { color: inherit; } div[style*="margin:16px 0"] { margin: 0 !important; } .phonefix, .phonefix a, .phonefix span a { color: #000000 !important; text-decoration: none; } .phonefix2 a, .phonefix2 span a { color: #717171 !important; text-decoration: none; } span.aBn { border: none; } button { display: block !important; } a { text-decoration: none; } a:visited {
+ color: #0062b3 ; } a > div { display: block !important; } a.fixLinkBlack:visited, .ExternalClass a.fixLinkBlack:visited { text-decoration: none !important; color: #100d0d !important; } a.fixLinkWhite:visited, .ExternalClass a.fixLinkWhite:visited { text-decoration: none !important; color: #ffffff !important; } a.fixLinkBlue:visited, .ExternalClass a.fixLinkBlue:visited { color: #0078d7 !important; } a.fixLinkDarkBLue, .ExternalClass a.fixLinkDarkBLue:visited { color: #2947a9 !important; }, a.fixLinkGreen, .ExternalClass a.fixLinkGreen:visited { color: #008272 !important; } a[x-apple-data-detectors] { text-decoration: none !important; color: inherit !important; } #outlook a { padding: 0;
+ text-decoration: none !important; } span.MsoHyperlink { mso-style-priority: 99; color: inherit; } span.MsoHyperlinkFollowed { mso-style-priority: 99; color: inherit; } .yshortcuts a { border-bottom: none !important; } span.MsoHyperlink { mso-style-priority: 99 !important; color: inherit !important; } span.MsoHyperlinkFollowed { mso-style-priority: 99 !important; color: inherit !important; } body.theme-main { font-family: SegoeUI, "Segoe UI", Segoe, "Helvetica Neue", "Helvetica","Arial","sans-serif"; font-size: 16px; line-height: 20px; background: #333; font-weight: 400; }
+                @media screen { @font-face { font-family: "SegoeUI"; font-weight: 300; src: local("Segoe UI Regular"), local("Segoe Regular"), local("Segoe WP"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.svg#web") format("svg"); } @font-face { font-family: "SegoeUI"; font-weight: 500; src: local("Segoe UI"), local("Segoe"), local("Segoe WP"),
+ url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.svg#web") format("svg"); } }
+                @media only screen and (max-width:599px) { .responsive-cont { width: 94.1% !important; min-width: 320px !important; max-width: 599px !important; } .ul-margin-20 {margin: 0.1vw !important;} .padding-top-00 { padding-top: 0vw !important; } .padding-top-04 { padding-top: 0.6vw !important; } .padding-top-08 { padding-top: 1.3vw !important; } .padding-top-12 { padding-top: 1.9vw !important; } .padding-top-16 { padding-top: 2.4vw !important; } .padding-top-20 { padding-top: 3.1vw !important; } .padding-top-24 { padding-top: 3.8vw !important; } .padding-top-28 { padding-top: 4.4vw !important; } .padding-top-32 { padding-top: 5vw !important; } .padding-top-36 { padding-top: 5.7vw
+ !important; } .padding-top-40 { padding-top: 6.3vw !important; } .padding-top-44 { padding-top: 6.9vw !important; } .padding-top-48 { padding-top: 7.5vw !important; } .padding-top-52 { padding-top: 8.1vw !important; } .padding-top-56 { padding-top: 8.7vw !important; } .padding-top-60 { padding-top: 9.4vw !important; } .padding-top-64 { padding-top: 10.1vw !important; } .padding-right-00 { padding-right: 0px !important; } .padding-right-04 { padding-right: 0.6vw !important; } .padding-right-08 { padding-right: 1.3vw !important; } .padding-right-12 { padding-right: 1.9vw !important; } .padding-right-16 { padding-right: 2.4vw !important; } .padding-right-20 { padding-right: 3.1vw !important;
+ } .padding-right-24 { padding-right: 3.8vw !important; } .padding-right-28 { padding-right: 4.4vw !important; } .padding-right-32 { padding-right: 5vw !important; } .padding-right-36 { padding-right: 5.7vw !important; } .padding-right-40 { padding-right: 6.3vw !important; } .padding-right-44 { padding-right: 6.9vw !important; } .padding-right-48 { padding-right: 7.5vw !important; } .padding-right-52 { padding-right: 8.1vw !important; } .padding-right-56 { padding-right: 8.7vw !important; } .padding-right-60 { padding-right: 9.4vw !important; } .padding-bottom-00 { padding-bottom: 0vw !important; } .padding-bottom-04 { padding-bottom: 0.6vw !important; } .padding-bottom-08 { padding-bottom:
+ 1.3vw !important; } .padding-bottom-12 { padding-bottom: 1.9vw !important; } .padding-bottom-16 { padding-bottom: 2.4vw !important; } .padding-bottom-20 { padding-bottom: 3.1vw !important; } .padding-bottom-24 { padding-bottom: 3.8vw !important; } .padding-bottom-28 { padding-bottom: 4.4vw !important; } .padding-bottom-32 { padding-bottom: 5vw !important; } .padding-bottom-36 { padding-bottom: 5.7vw !important; } .padding-bottom-40 { padding-bottom: 6.3vw !important; } .padding-bottom-44 { padding-bottom: 6.9vw !important; } .padding-bottom-48 { padding-bottom: 7.5vw !important; } .padding-bottom-52 { padding-bottom: 8.1vw !important; } .padding-bottom-56 { padding-bottom: 8.7vw
+ !important; } .padding-bottom-60 { padding-bottom: 9.4vw !important; } .padding-left-00 { padding-left: 0vw !important; } .padding-left-04 { padding-left: 0.6vw!important; } .padding-left-08 { padding-left: 1.3vw !important; } .padding-left-12 { padding-left: 1.9vw !important; } .padding-left-16 { padding-left: 2.4vw !important; } .padding-left-20 { padding-left: 3.1vw !important; } .padding-left-24 { padding-left: 3.8vw !important; } .padding-left-28 { padding-left: 4.4vw !important; } .padding-left-32 { padding-left: 5vw !important; } .padding-left-36 { padding-left: 5.7vw !important; } .padding-left-40 { padding-left: 6.3vw !important; } .padding-left-44 { padding-left: 6.9vw
+ !important; } .padding-left-48 { padding-left: 7.5vw !important; } .padding-left-52 { padding-left: 8.1vw !important; } .padding-left-56 { padding-left: 8.7vw !important; } .padding-left-60 { padding-left: 9.4vw !important; } .height-20 { height: 3.4vw!important; } .height-15 { height: 4.3vw !important; } .height-30 { height: 5.1vw !important; } .height-35 { height: 5.9vw !important; } .height-40 { height: 6.8vw !important; } .height-45 { height: 7.6vw !important; } .height-50 { height: 8.4vw !important; } .height-55 { height: 9.3vw !important; } .height-60 { height: 10.1vw !important; } .height-65 { height: 11vw !important; } .height-70 { height: 11.8vw !important; } .height-75 { height:
+ 12.6vw !important; } .height-80 { height: 13.5vw !important; } .height-85 { height: 14.3vw !important; } .height-90 { height: 15.1vw !important; } .height-95 { height: 16vw !important; } .height-100 { height: 16.8vw !important; } .height-125 { height: 21vw !important; } .height-150 { height: 25.1vw !important; } .height-175 { height: 29.3vw !important; } .height-200 { height: 33.5vw !important; } .font-size-12 { font-size: 2.2vw !important; } .font-size-14 { font-size: 2.4vw !important; } .font-size-16 { font-size: 2.6vw !important; } .font-size-18 { font-size: 3.0vw !important; } .font-size-20 { font-size: 3.3vw !important; } .font-size-22 { font-size: 3.6vw !important; } .font-size-24 {
+ font-size: 4.0vw !important; } .font-size-26 { font-size: 4.3vw !important; } .font-size-28 { font-size: 4.6vw !important; } .font-size-30 { font-size: 4.9vw !important; } .font-size-32 { font-size: 5.2vw !important; } .font-size-34 { font-size: 5.5vw !important; } .font-size-36 { font-size: 5.9vw !important; } .font-size-38 { font-size: 6.2vw !important; } .font-size-40 { font-size: 6.5vw !important; } .font-size-42 { font-size: 6.8vw !important; } .font-size-44 { font-size: 7.1vw !important; } .font-size-46 { font-size: 7.3vw !important; } .font-size-48 { font-size: 7.7vw !important; } .font-size-50 { font-size: 8.0vw !important; } .font-size-88 { font-size: 14.0vw !important; }
+ .line-height-12 { line-height: 2.0vw !important; } .line-height-16 { line-height: 2.6vw !important; } .line-height-19 { line-height: 3.1vw !important; } .line-height-20 { line-height: 3.3vw !important; } .line-height-24 { line-height: 4vw !important; } .line-height-28 { line-height: 4.4vw !important; } .line-height-31 { line-height: 5.0vw !important; } .line-height-32 { line-height: 5vw !important; } .line-height-36 { line-height: 5.7vw !important; } .line-height-40 { line-height: 6.3vw !important; } .line-height-44 { line-height: 6.9vw !important; } .line-height-48 { line-height: 7.5vw !important; } .line-height-50 { line-height: 8.0vw !important; } .line-height-52 { line-height: 8.1vw
+ !important; } .line-height-56 { line-height: 8.7vw !important; } .line-height-92 { line-height: 14.3vw !important; } .responsive-table { width: 100% !important; min-width: 320px !important; max-width: 599px !important; } .responsive-img { width: 100% !important; max-width: 599px !important; display: block !important; height: auto !important; } .responsive-logo { width: 100% !important; max-width: 204px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 158px !important; display: block !important; height: auto !important; } .responsive-line { width: 46px !important; height: 164px !important; vertical-align: middle
+ !important; } .responsive-icon { width: 100% !important; max-width: 250px !important; display: block !important; height: auto !important; } .responsive-star { width: 18.7px !important; height: 18.7px !important; } responsive-image-size-01 { max-width: 112px !important; height: 112px !important; } .image-icon-01 { width: 46px !important; height: 46px !important; } .auto-height { height: 100% !important; } .responsive-ls { letter-spacing: 9.3px !important; } .social-icon-size-01 { height: 22.5px !important; width: 22.5px !important; } }
+                @media only screen and (max-width:499px) { .responsive-logo { width: 100% !important; max-width: 170px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 130px !important; display: block !important; height: auto !important; } .responsive-line { width: 38px !important; height: 137px !important; vertical-align: middle !important; } .responsive-star { width: 15.6px !important; height: 15.6px !important; } .responsive-image-size-01 { max-width: 93px !important; height: 93px !important; } .image-icon-01 { width: 39px !important; height: 39px !important; } .responsive-ls { letter-spacing: 7.8px !important;
+ } .social-icon-size-01 { height: 18.7px !important; width: 18.7px !important; } }
+                @media only screen and (max-width:415px) { .responsive-logo { width: 100% !important; max-width: 142px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 110px !important; display: block !important; height: auto !important; } .responsive-line { width: 31px !important; height: 114px !important; vertical-align: middle !important; } .responsive-star { width: 13px !important; height: 13px !important; } .responsive-image-size-01 { max-width: 78px !important; height: 78px !important; } .image-icon-01 { width: 32px !important; height: 32px !important; } .responsive-ls { letter-spacing: 6.5px !important; }
+ .social-icon-size-01 { height: 15.5px !important; width: 15.5px !important; } .font-size-12 { font-size: 2.3vw !important; } .font-size-14 { font-size: 2.4vw !important; } .font-size-16 { font-size: 2.6vw !important; } .font-size-18 { font-size: 3vw !important; } .font-size-20 { font-size: 3.3vw !important; } .font-size-22 { font-size: 3.6vw !important; } .font-size-24 { font-size: 4vw !important; } .font-size-26 { font-size: 4.3vw !important; } .font-size-28 { font-size: 4.6vw !important; } .font-size-30 { font-size: 4.9vw !important; } .font-size-32 { font-size: 5.2vw !important; } .font-size-34 { font-size: 5.5vw !important; } .font-size-36 { font-size: 5.9vw !important; } .font-size-38
+ { font-size: 6.2vw !important; } .font-size-40 { font-size: 6.5vw !important; } .font-size-42 { font-size: 6.8vw !important; } .font-size-44 { font-size: 7.1vw !important; } .font-size-46 { font-size: 7.4vw !important; } .font-size-48 { font-size: 7.7vw !important; } .font-size-50 { font-size: 8vw !important; } .font-size-88 { font-size: 14vw !important; } .line-height-12 { line-height: 2.4vw !important; } .line-height-16 { line-height: 2.9vw !important; } .line-height-20 { line-height: 3.6vw !important; } .line-height-24 { line-height: 4.3vw !important; } .line-height-28 { line-height: 4.9vw !important; } .line-height-32 { line-height: 5.5vw !important; } .line-height-36 { line-height:
+ 6.2vw !important; } .line-height-40 { line-height: 6.8vw !important; } .line-height-44 { line-height: 7.5vw !important; } .line-height-48 { line-height: 8vw !important; } .line-height-52 { line-height: 8.6vw !important; } .line-height-56 { line-height: 9.2vw !important; } .line-height-92 { line-height: 14.8vw !important; } }
+
+</style>
+    
+</head>
+<body><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">🧊 Cool points and fun emojis</div>
+<div style="display: none; max-height: 0px; overflow: hidden;">
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+</div>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+ <tr><td><img src="https://pixel.app.returnpath.net/pixel.gif?r=d768ddcb55fb7746e2577f12e3b37bc26df3d07b" width="1" height="1"></td></tr>
+        <tr>
+            <td style="background-color: #e6e6e6;">
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="680" role="presentation" class="responsive-cont">
+                    <tr>
+                        <td style="background-color: #e6e6e6;">
+                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640" role="presentation" class="responsive-table">
+                                <tr>
+                                    <td align="center" style="padding: 20px 0px 0px 0px; background-color: #e6e6e6;" class="padding-top-20">
+                                        <!-- HEADER --> 
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td>
+                                                    <!-- 1A_Header_MSFT -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" class="responsive-table">
+                                                        <tr>
+                                                            <td align="center">
+                                                                <!-- headLogo -->
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                    <tr>
+                                                                        <td width="25%" align="left" style="background-color:#ffffff;padding: 34px 10px 34px 20px;" class="padding-top-32 padding-bottom-32 padding-left-20">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=febb82f52950aa6245ab9ca3bf743c9980d5a788687b79bd2d965f3706bab5ede1f72acb0340ed9a13c4eabec98cd1093f222ddf0f6b94549b8ad5b2a00abfde" target="_blank">
+                                                                             <img src="https://image.engage.windows.com/lib/fe831372726d0d7870/m/2/MSFT_logo_c_C-Gray.png" width="115" alt="" border="0" style="border-width: 0; display:block;width:115px;" class="responsive-img">
+                                                                            </a>
+                                                                        </td>
+                                                                        <td width="75%" align="right" style="background-color:#ffffff;padding: 0px 20px 0px 10px;" class="padding-right-20">
+                                                                            <p style="margin: 0; padding: 0; font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight:600; line-height:19px; color:#666666;" class="font-size-16 line-height-19">Hello, Nigel</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table><!-- end headLogo -->
+                                                            </td>
+                                                        </tr>                                                        
+                                                    </table><!-- end 1A_Header_MSFT -->   
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- HERO -->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td style="background-color: #e6e6e6; padding: 0px 0px 20px 0px;" class="padding-bottom-20">
+                                                    <!-- Full_First_640x360 -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;">
+                                                        <!-- image -->
+                                                        <tr>
+                                                            <td align="center">
+                                                                <a href="https://click.email.microsoftrewards.com/?qs=febb82f52950aa62fcacbbfe157e3d466c830824e069653308c0fa32123d175a8a00f233df9fd5dc6396e542c5b11739cab3cefe5e35fa4653be0df9e5989dab" target="_blank">
+                                                                    <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/3ddfe7fd-b7e6-4140-8e29-6400ec9f1770.png" width="640" height="360" alt="Image of a Surface Laptop 4." border="0" style="border-width: 0; display:block; width:640px; height:360px;" class="responsive-img">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+      
+              <!-- end image --> 
+                                                      
+                                                        <tr>
+                                                            <td align="center" style="padding:40px 20px 28px 20px;" class="padding-top-40 padding-right-20 padding-bottom-28 padding-left-20">
+                                                                <h1 style="margin: 0; padding: 0;font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 42px; font-weight: 600; line-height: 50px; color: #000000;" class="font-size-42 line-height-50">
+                                                                    <a href="https://click.email.microsoftrewards.com/?qs=febb82f52950aa62fcacbbfe157e3d466c830824e069653308c0fa32123d175a8a00f233df9fd5dc6396e542c5b11739cab3cefe5e35fa4653be0df9e5989dab" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                                                                       
+                                                                        Do it all with a new
+                
+                                                                    </a>
+                                                                </h1>
+                 <h1 style="margin: 0; padding: 0;font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 42px; font-weight: 600; line-height: 50px; color: #000000;" class="font-size-42 line-height-50">
+                                                                    <a href="https://click.email.microsoftrewards.com/?qs=febb82f52950aa62fcacbbfe157e3d466c830824e069653308c0fa32123d175a8a00f233df9fd5dc6396e542c5b11739cab3cefe5e35fa4653be0df9e5989dab" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                                                                       
+                                                                        Surface Laptop 4
+                
+                                                                    </a>
+                                                                </h1>
+       
+                                                            </td>
+                                                        </tr><!-- end title --><!-- end title -->
+                                                        <!-- text -->
+                                                        <tr>
+                                                            <td align="center" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight:normal; line-height:19px; color:#000000;padding:0px 15px 40px 15px;" class="font-size-18 line-height-24 padding-right-16 padding-bottom-40 padding-left-16">
+                                                                Enter for a chance to win a new Surface Laptop 4, the perfect balance of sleek design and speed. This bundle also includes Surface Headphones, a one year subscription of <a href="https://click.email.microsoftrewards.com/?qs=febb82f52950aa626cf72173077c049109ca4fc4f6804d5bc1c92cfc2dd5dd44d51cbb6ec700dfcddd55891b7fd0b3a9779fe8a20823ffea045fab2182434a19" target="_blank" style="color:#0078d7;text-decoration:none;" class="fixLinkBlue"><span style="white-space: nowrap;">Microsoft&nbsp;365</span></a>, other accessories, <span style="white-space: nowrap;">and&nbsp;more.​ <sup style="line-height: 0px; font-size: 70%;">1</sup></span>
+                                                            </td>
+                                                        </tr><!-- end text -->
+                                                        <!-- button background -->
+                                                        <tr>
+                                                            <td style="padding: 0px 0px 60px 0px;" class="padding-bottom-60">
+                                                                <table cellpadding="0" border="0" align="center" cellspacing="0" role="presentation">
+                                                                    <tr>
+                                                                        <td style="background-color: #000000;">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=febb82f52950aa62fcacbbfe157e3d466c830824e069653308c0fa32123d175a8a00f233df9fd5dc6396e542c5b11739cab3cefe5e35fa4653be0df9e5989dab" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite">
+                                                                                <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px; background-color: #000000;border: 1px solid  #000000; display:inline-block;">
+                                                                                    &nbsp; Enter now &nbsp;
+                                                                                </span>
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+             
+              <!-- <tr>                 <td style="padding: 0px 0px 60px 0px;" class="padding-bottom-60">               <table cellpadding="0" border="0" align="center" cellspacing="0" role="presentation">                <tr>                 <td align="center" style="background-color: #ffffff;">                  <a href="https://go.microsoft.com/fwlink/?LinkId=2161984&clcid=0x409" alias="Hero_Djohnson CTA" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #0078d4" class="fixLinkBlue">                  
+<span class="font-size-14 line-height-19 padding-right-20 padding-left-20" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 14px; color: #0078d4; padding: 0px 20px 0px 20px; background-color: #ffffff;border: 1px solid  #ffffff; display:inline-block;">                &nbsp;  &nbsp;                  </span>                 </a>                 </td>                </tr>               </table>                 </td>                </tr> -->
+                                                    </table><!-- end Full_First_640x360 -->
+                                                </td>
+                                            </tr>
+                                        </table>
+          
+                                        <!-- MODULE 1 -->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td>
+                                                    <!-- title -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #FF922D;">
+                                                        <tr>
+                                                            <td align="center" style="padding:28px 20px 28px 20px;" class="padding-top-28 padding-right-20 padding-bottom-28 padding-left-20">
+                                                                <h2 style="margin: 0; padding: 0;font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 32px; font-weight: 600; line-height: 36px; color: #ffffff;" class="font-size-32 line-height-36">
+                                                                    
+                                                                        Earn points
+                                                                    
+                                                                </h2>
+                                                            </td>
+                                                        </tr>
+                                                    </table> <!-- end title -->
+                                                    <!-- 15C_Medium_Feature_LeftAligned -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;">
+                                                        <tr>
+                                                            <td style="padding:20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                    <tr>
+                                                                        <!-- image -->
+                                                                        <td width="48.4375%" align="right" valign="middle" style="padding:0px 20px 0px 28px;" class="padding-right-20 padding-left-28">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88fbaf3f02f70f0bcd86da2171c2168df861329f6f4b53fc809b5eb9fa077b339c70227c046ddff8830e28c8e87e7dde4d480b0cac9abcec52" target="_blank">
+                                                                                <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/51fc24b6-9841-465e-8564-fbd3e4304611.png" width="255" height="255" alt="World Heritage Sites." border="0" style="border-width: 0; display:block;width:255px;height:255px;" class="responsive-img">
+                                                                            </a>
+                                                                        </td>
+                  <!-- end image -->
+                                                                        <td valign="middle" style="padding:0px 28px 0px 20px;" class="padding-right-28 padding-left-20">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 20px; color: #000000; line-height: 26px; padding:0px 0px 08px 0px; text-align: left;" class="font-size-20 line-height-24 padding-bottom-08">
+                     <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88fbaf3f02f70f0bcd86da2171c2168df861329f6f4b53fc809b5eb9fa077b339c70227c046ddff8830e28c8e87e7dde4d480b0cac9abcec52" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                     
+                                                                                        Editor’s choice quiz:
+                                                                                    </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:26px; font-weight:600; line-height:31px; color:#000000;padding:0px 0px 28px 0px;" class="font-size-26 line-height-31 padding-bottom-28">
+                     <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88fbaf3f02f70f0bcd86da2171c2168df861329f6f4b53fc809b5eb9fa077b339c70227c046ddff8830e28c8e87e7dde4d480b0cac9abcec52" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                     
+                                                                                        World Heritage Sites
+                                                                                    </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 16px; color: #000000; line-height: 19px; padding:0px 0px 30px 0px; text-align: left;" class="font-size-18 line-height-24 padding-bottom-28">
+                                                                                        How much do you know about these remarkable sites around <span style="white-space: nowrap;">the&nbsp;globe?</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background -->
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation">
+                                                                                            <tr>
+                                                                                                <td style="background-color: #000000;">
+                                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88fbaf3f02f70f0bcd86da2171c2168df861329f6f4b53fc809b5eb9fa077b339c70227c046ddff8830e28c8e87e7dde4d480b0cac9abcec52" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite">
+                                                                                                        <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px;border: 1px solid  #000000; background-color: #000000; display:inline-block;">
+                                                                                                            &nbsp; +30 | Take quiz &nbsp;
+                                                                                                        </span>
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background end -->
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table><!-- end 15C_Medium_Feature_LeftAligned -->
+                                                </td>
+                                            </tr>
+                                        </table>
+          <!-- Module 2-->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td>
+                                                    <!-- 15D_Medium_Feature_RightAligned -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;">
+                                                        <tr>
+                                                            <td style="padding:20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                    <tr>
+                                                                        <td valign="middle" style="padding:0px 20px 0px 28px;" class="padding-right-20 padding-left-28">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 20px; color: #000000; line-height: 26px; padding:0px 0px 08px 0px; text-align: left;" class="font-size-20 line-height-24 padding-bottom-08">
+                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b880042643e1929d9b22cc791a729627c4fbe1ec35a6656750d2cce5a61cb60ccbe5b11722139c171cde17a2a03e052e44a5808e70152cba723" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                                                                                        Daily poll:
+                                                                                    </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:26px; font-weight:600; line-height:31px; color:#000000;padding:0px 0px 24px 0px;" class="font-size-26 line-height-31 padding-bottom-24">
+                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b880042643e1929d9b22cc791a729627c4fbe1ec35a6656750d2cce5a61cb60ccbe5b11722139c171cde17a2a03e052e44a5808e70152cba723" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                                                                                        Chillin’ in Antarctica
+                                                                                    </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 16px; color: #000000; line-height: 19px; padding:0px 0px 20px 0px; text-align: left;" class="font-size-18 line-height-24 padding-bottom-20">
+                                                                                        Which animal would you rather chill with when temperatures are <span style="white-space: nowrap;">below&nbsp;freezing?</span><a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b880042643e1929d9b22cc791a729627c4fbe1ec35a6656750d2cce5a61cb60ccbe5b11722139c171cde17a2a03e052e44a5808e70152cba723" target="_blank" style="color:#0078d4;text-decoration:none;" class="fixLinkBlue"></a>
+                      
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background -->
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation">
+                                                                                            <tr>
+                                                                                                <td style="background-color: #000000;">
+                                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b880042643e1929d9b22cc791a729627c4fbe1ec35a6656750d2cce5a61cb60ccbe5b11722139c171cde17a2a03e052e44a5808e70152cba723" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite">
+                                                                                                        <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px;border: 1px solid  #000000; background-color: #000000; display:inline-block;">
+                                                                                                            &nbsp; +10 | Take poll &nbsp;
+                                                                                                        </span>
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background end -->
+                                                                            </table>
+                                                                        </td>
+                                                                        <!-- image -->
+                                                                        <td width="48.4375%" align="left" valign="middle" style="padding:0px 28px 0px 20px;" class="padding-right-28 padding-left-20">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b880042643e1929d9b22cc791a729627c4fbe1ec35a6656750d2cce5a61cb60ccbe5b11722139c171cde17a2a03e052e44a5808e70152cba723" target="_blank">
+                                                                                <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/70e0afc9-9aaf-43c7-bf6e-ca61f8155430.png" width="255" height="255" alt="Polar bear." border="0" style="border-width: 0; display:block;width:255px;height:255px;" class="responsive-img">
+                                                                            </a>
+                                                                        </td><!-- end image -->
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table><!-- end 15D_Medium_Feature_RightAligned -->
+                                                    
+                                                </td>
+                                            </tr>
+           
+                                        </table>
+                                      
+                                        <!-- Divider -->
+                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                        <!-- line -->
+           <tr>
+            <td align="center" style="padding: 0px 0px 0px 0px;"></td>
+           </tr>
+                                                        
+           <tr>
+            <td align="center" style="padding: 0px 0px 0px 0px; border-top: 1px solid #d8d8d8;"></td>
+           </tr><!-- end line -->
+                                         </table><!-- end Divider -->
+                                        <!-- MODULE 3 -->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+           <tr>
+                                                <td style="background-color: #e6e6e6; padding: 0px 0px 20px 0px;" class="padding-bottom-20">
+                                                <!-- List_Item_Left_Aligned_Links -->
+             <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff">
+              <tr>
+               <td align="center" style="padding: 20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+               <!-- item -->
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                 <tr>
+                  <td align="middle" valign="middle" style="padding:0px 20px 0px 20px; width: 25%" class="padding-right-20 padding-left-20">
+                   <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b883d9e8fabe411ebbc407c9e2550d8b05263b5c684c24a762e1e5fe77e36d7bc83a877165d0e4036ad52a4393e8ef7db5a1be9d7512a34ca21" target="_blank">
+                    <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/02ebbe91-2d4e-4b5e-aafe-33be8226cb43.png" width="120" height="120" alt="Race car sports." border="0" style="border-width: 0; display:block;width:120px;height:120px;" class="responsive-image-size-01">
+                   </a>
+                  </td>
+                  <td valign="middle" style="padding:0px 20px 0px 0px;" class="padding-right-20">
+                   <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                   <!-- title -->
+                    <tr>
+                     <td style="padding:0px 0px 16px 0px; text-align: left;" class="padding-bottom-16">
+                     <p class="font-size-18 line-height-24 padding-bottom-08" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px;padding:0px 0px 08px 0px; line-height:19px; font-weight: 600;color: #000000;">
+                      <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b883d9e8fabe411ebbc407c9e2550d8b05263b5c684c24a762e1e5fe77e36d7bc83a877165d0e4036ad52a4393e8ef7db5a1be9d7512a34ca21" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                       Start your engines
+                      </a>
+                     </p>
+                     <p class="font-size-18 line-height-24" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; line-height:19px; font-weight: 400;color: #000000;">Test your knowledge with this sports punch card before <span style="white-space: nowrap;">June&nbsp;30</span></p>
+                     </td>
+                    </tr>
+                    <!-- link -->
+                    <tr>
+                     <td style="background-color: #ffffff;"> <!-- Background color same as module color. Applies also to cta background and border -->
+                      <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b883d9e8fabe411ebbc407c9e2550d8b05263b5c684c24a762e1e5fe77e36d7bc83a877165d0e4036ad52a4393e8ef7db5a1be9d7512a34ca21" target="_blank" style="text-align:left; display:inline-block; width:100%; color: #0078d4" class="fixLinkWhite">
+                      <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 fixLinkBlue" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #0078d4; padding: 10px 20px 10px 0px; background-color: #ffffff; display:inline-block;">
+                         +150 | Start now &nbsp;
+                      </span>
+                      </a>
+                     </td>
+                    </tr><!-- end link -->
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+              </tr>
+             </table><!-- end List_Item_Left_Aligned_Links -->
+            </td>
+           </tr>
+          </table> 
+     
+          
+     
+                                        <!-- MODULE 4 -->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td>
+                                                    <!-- title -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #5059C9;">
+                                                        <tr>
+                                                            <td align="center" style="padding:28px 20px 28px 20px;" class="padding-top-28 padding-right-20 padding-bottom-28 padding-left-20">
+                                                                <h2 style="margin: 0; padding: 0;font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 32px; font-weight: 600; line-height: 36px; color: #ffffff;" class="font-size-32 line-height-36">
+                
+                                                                    
+                                                                        Conversation starters
+                                                                    
+                                                                </h2>
+                                                            </td>
+                                                        </tr>
+                                                    </table> <!-- end title -->
+                                                    <!-- 15C_Medium_Feature_LeftAligned -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;">
+                                                        <tr>
+                                                            <td style="padding:20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                    <tr>
+                                                                        <!-- image -->
+                                                                        <td width="48.4375%" align="right" valign="middle" style="padding:0px 20px 0px 28px;" class="padding-right-20 padding-left-28">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b8820ee8a2348aefe1e2d43fcf4d20267949fa7f7618b9d330cdafd92aa48db6b6ecf1cfdf3310346212f52af38a222afd657188b74ed27f308" target="_blank">
+                                                                                <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/1a6dc43a-5b35-4476-990d-0e55c2093e99.png" width="255" height="255" alt="Connect with friends and family." border="0" style="border-width: 0; display:block;width:255px;height:255px;" class="responsive-img">
+                                                                            </a>
+                                                                        </td><!-- end image -->
+                                                                        <td valign="middle" style="padding:0px 28px 0px 20px;" class="padding-right-28 padding-left-20">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                                <tr>
+                                                                                    <td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:26px; font-weight:600; line-height:31px; color:#000000;padding:0px 0px 28px 0px;" class="font-size-26 line-height-31 padding-bottom-28">
+                     <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b8820ee8a2348aefe1e2d43fcf4d20267949fa7f7618b9d330cdafd92aa48db6b6ecf1cfdf3310346212f52af38a222afd657188b74ed27f308" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                     
+                                                                                        Meet Microsoft Teams
+                     </a>
+                    
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 16px; color: #000000; line-height: 19px; padding:0px 0px 30px 0px; text-align: left;" class="font-size-18 line-height-24 padding-bottom-28">
+                                                                                        Now you can chat, manage tasks, and call family and friends — all in <span style="white-space: nowrap;">one&nbsp;app</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background -->
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation">
+                                                                                            <tr>
+                                                                                                <td style="background-color: #000000;">
+                                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b8820ee8a2348aefe1e2d43fcf4d20267949fa7f7618b9d330cdafd92aa48db6b6ecf1cfdf3310346212f52af38a222afd657188b74ed27f308" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite">
+                                                                                                        <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px;border: 1px solid  #000000; background-color: #000000; display:inline-block;">
+                                                                                                            &nbsp; Get Microsoft Teams for free &nbsp;
+                                                                                                        </span>
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background end -->
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table><!-- end 15C_Medium_Feature_LeftAligned -->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- MODULE 5 -->
+                                        
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td style="background-color: #e6e6e6; padding: 0px 0px 0px 0px;">
+                                                    <!-- 15D_Medium_Feature_RightAligned -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;">
+                                                        <tr>
+                                                            <td style="padding:20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                    <tr>
+                                                                        <td valign="middle" style="padding:0px 20px 0px 28px;" class="padding-right-20 padding-left-28">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                                <tr>
+                                                                                    <td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:26px; font-weight:600; line-height:31px; color:#000000;padding:0px 0px 24px 0px;" class="font-size-26 line-height-31 padding-bottom-24">
+                      <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b888f2cdccb8fc3824c921af4102c1ff9f5316db754bec122c74382569f17c99ea0d36eff600bc18b8d076ebe8b7fdeca3a35086dc094517077" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                     
+                                                                                        Emojis at your fingertips
+                      </a>
+                      
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 16px; color: #000000; line-height: 19px; padding:0px 0px 20px 0px; text-align: left;" class="font-size-18 line-height-24 padding-bottom-20">
+                                                                                        Quickly add emojis while you type with the Windows 10 <span style="white-space: nowrap;">keyboard&nbsp;shortcut</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background -->
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation">
+                                                                                            <tr>
+                                                                                                <td style="background-color: #000000;">
+                                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b888f2cdccb8fc3824c921af4102c1ff9f5316db754bec122c74382569f17c99ea0d36eff600bc18b8d076ebe8b7fdeca3a35086dc094517077" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite">
+                                                                                                        <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px;border: 1px solid  #000000; background-color: #000000; display:inline-block;">
+                                                                                                            &nbsp; Try it out &nbsp;
+                                                                                                        </span>
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background end -->
+                                                                            </table>
+                                                                        </td>
+                                                                        <!-- image -->
+                                                                        <td width="48.4375%" align="left" valign="middle" style="padding:0px 28px 0px 20px;" class="padding-right-28 padding-left-20">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b888f2cdccb8fc3824c921af4102c1ff9f5316db754bec122c74382569f17c99ea0d36eff600bc18b8d076ebe8b7fdeca3a35086dc094517077" target="_blank">
+                                                                                <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/9a5801fc-555e-4f66-9db1-09e48fc5ccdd.png" width="255" height="255" alt="Windows 10  keyboard shortcut." border="0" style="border-width: 0; display:block;width:255px;height:255px;" class="responsive-img">
+                                                                            </a>
+                                                                        </td><!-- end image -->
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table><!-- end 15D_Medium_Feature_RightAligned -->
+                                                </td>
+                                            </tr>
+                                        </table>
+          
+          
+          <!-- Module 6-->
+          <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td style="background-color: #e6e6e6;">
+             <!-- 15C_Medium_Feature_LeftAligned -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;">
+                                                        <tr>
+                                                            <td style="padding:20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                    <tr>
+                                                                        <!-- image -->
+                                                                        <td width="48.4375%" align="right" valign="middle" style="padding:0px 20px 0px 28px;" class="padding-right-20 padding-left-28">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88e340284b6bde9b3e1dcb90c4b93d2bb285103e4c120c93ad0cac6f2bfff463d0b833ef86910778328ca2556c9219f06207d5af6f68304d54" target="_blank">
+                                                                                <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/81f463f6-1d27-4e98-a4ec-d65390ae9bd8.png" width="255" height="255" alt="A lion relaxing outdoors." border="0" style="border-width: 0; display:block;width:255px;height:255px;" class="responsive-img">
+                                                                            </a>
+                                                                        </td><!-- end image -->
+                                                                        <td valign="middle" style="padding:0px 28px 0px 20px;" class="padding-right-28 padding-left-20">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                                                                <tr>
+                                                                                    <td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:26px; font-weight:600; line-height:31px; color:#000000;padding:0px 0px 28px 0px;" class="font-size-26 line-height-31 padding-bottom-28">
+                     <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88e340284b6bde9b3e1dcb90c4b93d2bb285103e4c120c93ad0cac6f2bfff463d0b833ef86910778328ca2556c9219f06207d5af6f68304d54" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                     
+                                                                                        Virtual zoo tours
+                     </a>
+                    
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-weight: normal; font-size: 16px; color: #000000; line-height: 19px; padding:0px 0px 30px 0px; text-align: left;" class="font-size-18 line-height-24 padding-bottom-28">
+                                                                                        Explore their most famous <span style="white-space: nowrap;">animals&nbsp;online</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background -->
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation">
+                                                                                            <tr>
+                                                                                                <td style="background-color: #000000;">
+                                                                                                    <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88e340284b6bde9b3e1dcb90c4b93d2bb285103e4c120c93ad0cac6f2bfff463d0b833ef86910778328ca2556c9219f06207d5af6f68304d54" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite">
+                                                                                                        <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px;border: 1px solid  #000000; background-color: #000000; display:inline-block;">
+                                                                                                            &nbsp; Find a tour &nbsp;
+                                                                                                        </span>
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- button background end -->
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+             </td>
+                                            </tr>
+                                        </table>
+          
+        <!-- Divider -->
+                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                        <!-- line -->
+           <tr>
+            <td align="center" style="padding: 0px 0px 0px 0px;"></td>
+           </tr>
+                                                        
+           <tr>
+            <td align="center" style="padding: 0px 0px 0px 0px; border-top: 1px solid #d8d8d8;"></td>
+           </tr><!-- end line -->
+                                         </table><!-- end Divider -->
+                                        <!-- MODULE 7 -->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+           <tr>
+                                                <td style="background-color: #e6e6e6; padding: 0px 0px 20px 0px;" class="padding-bottom-20">
+                                                <!-- List_Item_Left_Aligned_Links -->
+             <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff">
+              <tr>
+               <td align="center" style="padding: 20px 0px 40px 0px;" class="padding-top-20 padding-bottom-40">
+               <!-- item -->
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                 <tr>
+                  <td align="middle" valign="middle" style="padding:0px 20px 0px 20px; width: 25%" class="padding-right-20 padding-left-20">
+                   <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88025fe6942307236463636de1256d9e81cd05c46cfb608a9e3076d39be0c54bda90d2d2ab69ecf01f46206cfa90970be07607c36b35be9b63" target="_blank">
+                    <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/ba74309e-4baa-46e5-9620-ebe553cc0502.png" width="120" height="120" alt="Chance to win $10K." border="0" style="border-width: 0; display:block;width:120px;height:120px;" class="responsive-image-size-01">
+                   </a>
+                  </td>
+                  <td valign="middle" style="padding:0px 20px 0px 0px;" class="padding-right-20">
+                   <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                   <!-- title -->
+                    <tr>
+                     <td style="padding:0px 0px 16px 0px; text-align: left;" class="padding-bottom-16">
+                      <p class="font-size-18 line-height-24 padding-bottom-08" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px;padding:0px 0px 08px 0px; line-height:19px; font-weight: 600;color: #000000;">
+                       <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88025fe6942307236463636de1256d9e81cd05c46cfb608a9e3076d39be0c54bda90d2d2ab69ecf01f46206cfa90970be07607c36b35be9b63" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">
+                       Daily streak giveaway: your chance to win $10,000
+                       </a>
+                      </p>
+                      <p class="font-size-18 line-height-24" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; line-height:19px; font-weight: 400;color: #000000;">Earn one entry for every day you maintain a streak of two days <span style="white-space: nowrap;">or&nbsp;more <sup style="line-height: 0px; font-size: 70%;">2</sup></span></p>
+                     </td>
+                    </tr>
+      <!-- link -->
+                    <tr>
+                     <td style="background-color: #ffffff;"> <!-- Background color same as module color. Applies also to cta background and border -->
+                      <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88025fe6942307236463636de1256d9e81cd05c46cfb608a9e3076d39be0c54bda90d2d2ab69ecf01f46206cfa90970be07607c36b35be9b63" target="_blank" style="text-align:left; display:inline-block; width:100%; color: #0078d4" class="fixLinkWhite">
+                       <span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 fixLinkBlue" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #0078d4; padding: 10px 20px 10px 0px; background-color: #ffffff; display:inline-block;">
+                        Learn more &nbsp;
+                       </span>
+                      </a>
+                       <!-- <p class="font-size-18 line-height-24" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; line-height:19px; font-weight: 400;color: #000000;"><a href="https://go.microsoft.com/fwlink/?LinkId=2163983&clcid=0x409" target="_blank" alias="Mod7_CBS Giveaway disclaimer" style="color:#0078d4;text-decoration:none;" class="fixLinkBlue"></a></p>-->
+                     </td>
+                    </tr><!-- end link -->
+                   </table>
+                  </td>
+                 </tr>
+               </table>
+              </td>
+             </tr>
+            </table><!-- end List_Item_Left_Aligned_Links -->
+           </td>
+          </tr>
+         </table> 
+     
+                                        <!-- FOOTER -->
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                                            <tr>
+                                                <td style="padding:0px 0px 0px 0px;">
+                                                    <!-- 3_Footer --><!-- 3_Footer -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;" class="responsive-table" role="presentation" style="background-color: #f2f2f2;">
+                                                        <tr>
+                                                            <td align="center" style="background-color: #f2f2f2; padding:40px 0px 0px 0px;" class="padding-top-40">
+                                                                <table width="85%" cellpadding="0" cellspacing="0" border="0" style="width:85%;" class="responsive-table" role="presentation" style="background-color: #f2f2f2;">
+                                                                   
+                 <tr>
+                  <td align="center" style="padding: 0px 0px 28px 0px;" class="padding-bottom-28">
+                                                                        <img src="https://image.email.microsoftrewards.com/lib/fe6215707c6200797115/m/1/84013924-c7fe-4b9f-980e-644745a72e92.png" width="30px" height="22px" alt="Rewards Logo" border="0" style="border-width: 0; display:block;width:30px;height:22px" class="responsive-img1">
+                                                                            
+                  </td>
+                  
+                 </tr>
+                 <tr>
+                  <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_semibold, Tahoma, Arial, sans-serif;font-size: 20px; line-height: 22px; font-weight: 500; color:#000000; padding: 0px 0px 5px 0px; text-decoration: none; background-color: #f2f2f2;" class="font-size-20 line-height-24 padding-bottom-5">
+                                                                        <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b88d0a35ab387f24de1f99ac2e78828a50729b16df5fff506e331feeade40bad80d4b8d44c225b40a0c210ba02c68db991af90ed2bff5b9f5f0" style="text-decoration: underline; color:#0078d7;" class="fixLinkBlue" target="_blank">Visit <span style="white-space: nowrap;">Microsoft&nbsp;Rewards</span></a>
+                  </td>  
+                 </tr>
+                 <td>
+                  <!-- Divider -->
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                   <!-- line -->
+                   <tr>
+                    <td align="center" style="padding: 0px 0px 0px 0px; border-top: 1px solid #e6e6e6;">
+                    </td>
+                   </tr><!-- end line -->
+                  </table><!-- end Divider --> 
+                 </td>
+                            
+                 <tr>
+                  <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_semibold, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 20px; font-weight: 500; color:#000000; padding: 15px 0px 5px 0px; text-decoration: none; background-color: #f2f2f2;" class="font-size-16 line-height-20 padding-top-15 padding-bottom-5">
+                   <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b887c75168eb0f253a2569545f3fc41393550cf68053328b66e15c8761e6f49bf62264a021f4dab27c9c7966d9b168dc9336d735e2902f6a154" style="text-decoration: underline; color:#0078d7;" class="fixLinkBlue" target="_blank">Give with Bing</a>
+                                                                        </td>  
+                 </tr>
+                 <td>
+                 <!-- Divider -->
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                   <!-- line -->
+                   <tr>
+                    <td align="center" style="padding: 0px 0px 0px 0px; border-top: 1px solid #e6e6e6;"></td>
+                   </tr><!-- end line -->
+                  </table><!-- end Divider --> 
+                 </td>                  
+                    
+                <tr>
+                  <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_semibold, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 20px; font-weight: 500; color:#000000; padding: 15px 0px 5px 0px; text-decoration: none; background-color: #f2f2f2;" class="font-size-16 line-height-20 padding-top-15 padding-bottom-5">
+                                                                            <a href="https://click.email.microsoftrewards.com/?qs=852725e0fbba7b882be3f6335e60c12048bd2c041edcacb1984aba44c3059740dbee16afcb09c89cb1c9c30b78d485a18c95934b009af6e37dd8f11d5740058b" style="text-decoration: underline; color:#0078d7;" class="fixLinkBlue" target="_blank">Bing Rebates</a>
+                                                                        </td>
+                 </tr>
+                 <td>
+                  <!-- Divider -->
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                  <!-- line -->
+                   <tr>
+                    <td align="center" style="padding: 0px 0px 0px 0px; border-top: 1px solid #e6e6e6;"></td>
+                   </tr><!-- end line -->
+                  </table><!-- end Divider --> 
+                 </td>
+                     
+                 <tr>
+                  <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_semibold, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 20px; font-weight: 500; color:#000000; padding: 15px 0px 5px 0px; text-decoration: none; background-color: #f2f2f2;" class="font-size-16 line-height-20 padding-top-15 padding-bottom-5">
+                   <a href="https://click.email.microsoftrewards.com/?qs=1ac4429d626df26770b532d0dc65ca0505c188dc32f321d91cad28bf34122531fea7af6229c221a81935f5d9e6112561cdb9d2fb430670edb8be4bc455435e50" style="text-decoration: underline; color:#0078d7;" class="fixLinkBlue" target="_blank">Rewards on Xbox</a>
+                                                                        </td>
+                 </tr> 
+                 <td>
+                 <!-- Divider -->
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+                   <!-- line -->
+                   <tr>
+                    <td align="center" style="padding: 0px 0px 0px 0px; border-top: 1px solid #e6e6e6;"></td>
+                   </tr><!-- end line -->
+                  </table><!-- end Divider --> 
+                 </td>
+                 <tr>
+                                                                        <td align="left" style="padding: 60px 0px 0px 40px; text-decoration: none; background-color: #f2f2f2;" class="font-size-18 line-height-24 padding-top-40 padding-left-40">
+                                                                            <p style="margin: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; padding: 0px 0px 0px 0px;" class="font-size-18 line-height-24">​<sup style="line-height: 0px; font-size: 70%;">1</sup> Sweepstakes ends July 27, 2021. NO PURCHASE NECESSARY. Open only to legal residents of the 50 United States and D.C. See  <a href="https://click.email.microsoftrewards.com/?qs=1ac4429d626df2671454cfbac50416dbe92271747b0edd55412e31d99292e08fe67839298cbfa13b5f8eb6297f8954785765b4937eefa92cfbdde27fad27cca2" style="text-decoration: underline; color:#0078d7;" class="fixLinkBLue" target="_blank">Official Rules</a>  for details including alternate method <span style="white-space: nowrap;">of&nbsp;entry.</span></p>
+                
+                                                                        </td>
+                                                                    </tr> 
+                 <tr>
+                                                                        <td align="left" style="padding: 28px 0px 0px 40px; text-decoration: none; background-color: #f2f2f2;" class="font-size-18 line-height-24 padding-top-20 padding-left-40">
+                                                                            <p style="margin: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; padding: 0px 0px 0px 0px;" class="font-size-18 line-height-24"><sup style="line-height: 0px; font-size: 70%;">2</sup> See <a href="https://click.email.microsoftrewards.com/?qs=1ac4429d626df267b4445825e301c7685363aca8aa40b29213a0af876fe7f6e7d70e7811f6a408ae735a878dacd5fc3e8af356682fab9b9dc83ed43cd409a9ec" style="text-decoration: underline; color:#0078d7;" class="fixLinkBLue" target="_blank">Official Rules</a> for Daily streak giveaway</p>
+                
+                                                                        </td>
+                                                                    </tr>                  
+                   
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_semibold, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: 500; color:#000000; padding: 60px 0px 8px 0px; text-decoration: none; background-color: #f2f2f2;" class="font-size-18 line-height-24 padding-top-60 padding-bottom-08 ">
+                   <a href="https://click.email.microsoftrewards.com/?qs=1ac4429d626df267988fab0d5ff5915f9128bc8dd26b6b1292fc4c80c906a1710e0093e9e10ba89bd706136f61a70b1b174de36c48770e7dee90a2a375f88703" style="text-decoration: underline; color:#0078d7;" class="fixLinkBLue" target="_blank">Unsubscribe</a>&nbsp;|&nbsp;<a href="https://click.email.microsoftrewards.com/?qs=1ac4429d626df267cf43af44f6b4a995a87280c99f819ec0ac6aa012e41fe9d8e4b40ed346ec0dc9cc9233a27d1f8805d8ac1cee824b938591ccd35a8b4827d3" style="text-decoration:underline; color:#0078d7;" class="fixLinkBlue" target="_blank">Privacy Statement</a><!--<a href="https://aka.ms/impressum_de" alias="Footer_Impressum" style="text-decoration:underline; color:#0078d7;" class="fixLinkBlue" target="_blank"><sup style="line-height: 0px; font-size: 70%;">2</sup> See</a>-->&nbsp;|
+                   <a href="https://view.email.microsoftrewards.com/?qs=ae6e68e438697e62f93a8408cb1bfb0b2ce2ef5dcf4dadc8c105b167f690f4cc436515dc8b72dee707f78ed1a9c64ad1740296af795b5ce19553697c50247cc58f621112abae1a7728498545f5bc2817" style="text-decoration: underline; color:#0078d7;" class="fixLinkBLue" target="_blank">View as&nbsp;webpage</a>
+                  </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0px 0px 20px 0px; text-decoration: none; background-color: #f2f2f2;" class="font-size-18 line-height-24 padding-bottom-20">
+                                                                            <p style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; " class="font-size-18 line-height-24">Microsoft Corporation</p>
+                                                                            <p style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; " class="font-size-18 line-height-24">One Microsoft Way</p>
+                                                                            <p style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; " class="font-size-18 line-height-24">Redmond, WA 98052</p>
+                                                                        </td>
+                                                                    </tr>
+                 <tr>
+                  <td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; padding: 0px 20px 60px 20px; text-decoration: none; background-color: #F2F2F2;" class="font-size-18 line-height-24 padding-bottom-60">
+                   <p>ADO:&nbsp;20676</p>
+                  </td>
+                 </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table><!-- end 3_Footer -->
+            </td>
+           </tr>
+                                
+          </table>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><!-- 100% table -->
+    <img src="https://click.email.microsoftrewards.com/open.aspx?ffcb10-fef917737d640c-fe2d167171610474741d73-fe6215707c6200797115-ff9d1571-fdf21572716d077d73137971-ff061670746600&amp;d=10149&amp;bmt=0" width="1" height="1" alt=""></custom>
+</body>
+</html>
+
+
+--VYZRziXT4idg=_?:--

@@ -1,0 +1,1025 @@
+Received: from BN8NAM04HT206.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:804:2::27) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with HTTPS
+ via SN2PR01CA0017.PROD.EXCHANGELABS.COM; Sat, 12 Jun 2021 18:26:34 +0000
+Received: from BN8NAM04FT015.eop-NAM04.prod.protection.outlook.com
+ (2a01:111:e400:7e85::49) by
+ BN8NAM04HT206.eop-NAM04.prod.protection.outlook.com (2a01:111:e400:7e85::100)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4219.22; Sat, 12 Jun
+ 2021 18:26:33 +0000
+Authentication-Results: spf=pass (sender IP is 13.111.11.61)
+ smtp.mailfrom=bounce.hulumail.com; outlook.com; dkim=pass (signature was
+ verified) header.d=hulumail.com;outlook.com; dmarc=pass action=none
+ header.from=hulumail.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.hulumail.com
+ designates 13.111.11.61 as permitted sender) receiver=protection.outlook.com;
+ client-ip=13.111.11.61; helo=mta5.hulumail.com;
+Received: from mta5.hulumail.com (13.111.11.61) by
+ BN8NAM04FT015.mail.protection.outlook.com (10.13.160.111) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4219.22 via Frontend Transport; Sat, 12 Jun 2021 18:26:33 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:9EE98EAC7C09993F3ECF2DAB68E51E0818FB58CE3A43BF59DED37CFFDCC5E551;UpperCasedChecksum:F771C0EBDF7E21150C8743AADF6B25CB6407E8E6314A78EE8F41C456B7DF5BD7;SizeAsReceived:1681;Count:17
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=hulumail.com;
+ h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:
+ Reply-To:List-ID:X-CSA-Complaints:Message-ID:Content-Type; i=hulu@hulumail.com;
+ bh=MEN17gmIL51a3hVLnze4sWaIkndDFihPuC+zsNDf9GA=;
+ b=bX7rSi0wvN8GbuVTaggtU3+BBBQFpIPIc0RJGpk/oIK+mIVGOtBJmH748QsQ8zKJfPF8lCKNPJi1
+   nk87QhAB4AODYxDemXk77VLOajf7VPt/BQQgaE6Jbz+bSRFa/CXtxobmzU24uH/kTnIZ/cVqUJxs
+   /5oVHHu+uY0S/L5AwxI=
+Received: by mta5.hulumail.com id hoju5i2fmd41 for <nigel.agwah@outlook.com>; Sat, 12 Jun 2021 18:26:31 +0000 (envelope-from <bounce-48_HTML-351555397-4497637-1064447-12166@bounce.hulumail.com>)
+From: "Hulu" <hulu@hulumail.com>
+To: <nigel.agwah@outlook.com>
+Subject: Buy UFC 263 Pay-Per-View with ESPN+ on Hulu
+Date: Sat, 12 Jun 2021 12:26:31 -0600
+List-Unsubscribe: <https://click.hulumail.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDY0NDQ3IiwicyI6IjM1MTU1NTM5NyIsImxpZCI6IjQ4IiwiaiI6IjQ0OTc2MzciLCJqYiI6IjEyMTY2IiwiZCI6IjQwMTIwIn0.iuKZAAxDs8PpkA8iJJ2tILH32GgIJoVZO3bKcDawSlE>, <mailto:leave-fd7f10781a3c402029-fe24177574610178761d77-fe8710747c63027e72-fe9515707360007972-feff1572746202@leave.hulumail.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+Reply-To: "Hulu" <reply-fe8710747c63027e72-48_HTML-351555397-1064447-12166@hulumail.com>
+List-ID: <1064447.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 4
+x-job: 1064447_4497637
+Message-ID: <4ee1e393-8169-4027-9bb3-9514dda57ede@las1s04mta1381.xt.local>
+Content-Type: multipart/alternative;
+	boundary="QPn8ZoMYJbGX=_?:"
+X-IncomingHeaderCount: 17
+Return-Path:
+ bounce-48_HTML-351555397-4497637-1064447-12166@bounce.hulumail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 12 Jun 2021 18:26:33.5070
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ a7afe60b-f6c2-4d00-2ff4-08d92dcf9b35
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM04FT015.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/12/2021 5:18:17 AM
+X-MS-Office365-Filtering-Correlation-Id: a7afe60b-f6c2-4d00-2ff4-08d92dcf9b35
+X-MS-TrafficTypeDiagnostic: BN8NAM04HT206:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 13.111.11.61
+X-SID-PRA: HULU@HULUMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Jun 2021 18:26:33.2491
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a7afe60b-f6c2-4d00-2ff4-08d92dcf9b35
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM04FT015.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN8NAM04HT206
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1143735
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4219.024
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100293)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdc3O1SmN2ytdXeKwTPiC69/lSFuqj7ZxRGtvWI4g50IU6mzShjDfW8HkKmHEpfkrhi26lxxqP+yoPOF+cPI7VEnVni0de7eD+p8ZHdu1RaDv/3+fK03yf05yAcu1Tk/jY76Flq99jjMtOicNBA/fhL1OBB1gj/m1draMQP7OgeSLwqtTcv4fYSYV4kd2+NT7XRmxE+DF6sPww==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?b2k0L3ZIYzFENDVaZngyRjdpNWRVQW9yWGwrTmVjSU94K3lWY2djZEJyQnlz?=
+ =?utf-8?B?UnpjT0RTUmRSRnhBekw4RitYYUN2eWNvVmRnSkR5a3lVQ0FURGVaV0dNWDky?=
+ =?utf-8?B?a0N3UlhDUEQybWd5c1plSWwvK2dTVjVobFh4TUhkdlR0a0dxcGpyU2RucU11?=
+ =?utf-8?B?YlZDWXR0TldDbWNpZCttanlOcHFWclJhSGdsR3YzMUhmQVppTnJSdmtEalpC?=
+ =?utf-8?B?OTlOMGFnMnYzL3c5YmZCbnBNNUhVRnZ1cHlJZ0tQeit6T1Bwd1dJUENhOXJR?=
+ =?utf-8?B?Sm1qOTd4aTNpY1BLL3lPdDZrMzJnRGg2WkNwQk9KZ1VqQnJhSVRWSC9jRjdL?=
+ =?utf-8?B?UHFqS01vc0c3bGhSNHRVWlh2VU43bzVnbmRhOENuRHNJOXJaWVVzUXhhOWpE?=
+ =?utf-8?B?c0RlbXM4d3c5VTJycUJLc0FTUEl4clZYTFROZXAvZk1JZDd3MkVMSHFySlFG?=
+ =?utf-8?B?U1dIdmZTQm9hY3NOVXJPRUZOL3VKWlBvaUo0VWw3MTYvNjdYeVE2MkE3TFBS?=
+ =?utf-8?B?ZFZmUDM1REYwa0lmaEhyUnpUQkNoK2phYzA2ZURmaVpxYk1BM1J6RE01dnZs?=
+ =?utf-8?B?ek43R3ViRUtKdlRZRFVRQW5CQXljTkhQZk9MRXZXV2tqaHRNNWhXdVR2eDRV?=
+ =?utf-8?B?WGsydXNFSFBOU1ZrRTRDeTNsdXFnVmplbyszZVZYcE9VbmU2WVJ0WUlTWFQ2?=
+ =?utf-8?B?anZMYm1NRk1ybEhmWllLU1plc0pyNzdTOEhDZUQzOXJhRGFtMjBvUjIzMUY4?=
+ =?utf-8?B?NW9BTDVhUXMxN2VobWROY0lkOGZLMml0V2w2MTQ1QzZIYzkvK3Z3aXZseTN0?=
+ =?utf-8?B?QUNxK2tXUzJSMVNqQjEvSkVYVk9DUlc2SkwwdERBM2NtNGRlK2I0ZHh2alNQ?=
+ =?utf-8?B?R21ZUnkyYzU3amZmc2xpUzh5TUtmQ2QrQ3k4c1N6UVovdWZRTkJTWFFOS01u?=
+ =?utf-8?B?UTVxQ1dxMGpQeGlxblBIYzB4d3R3and1eXEyQzVtd2dCTlFvNWdLVlJqSm4v?=
+ =?utf-8?B?Ry83Z3M0aHFoYUc0RHc2RmpuMVdBM05OdFh2bitBWlRkVzJzYjN4ZDB4WVF0?=
+ =?utf-8?B?d3FaVVpDTGZKd1BHUlFUbEZ0OE5HNnJlOHVkSmpOMm9UdTR6MHh0WXlUeDk0?=
+ =?utf-8?B?L3dpUE5RNXg3MlB4aDVmRE1RaHg2VWM1cjdUZVRpSEJXMllMdzJLTjhEcEl1?=
+ =?utf-8?B?d3g3Y2pXWEI4THZWWXJIUDM0V3p2TGFVcGRSTGdxNXBRNzMwSVFRRE45ZEUy?=
+ =?utf-8?B?WVpuSXNIZWFBbGlRdG5ISWJkNElpZFZIWlN3bS9yVFFGRUphalZ1T0JIb0o0?=
+ =?utf-8?B?TU40LzRpTzJPNmxRZThtUGFFWTdYQXdVT2lVeEs0OVVsTDZJdDlTRURsZDJs?=
+ =?utf-8?B?ckRCd0gxTlB4ejlMcTRnVndlRiszWXc2bkxwdTcvMEdWL2lLY2p1aHF1UkZl?=
+ =?utf-8?B?bUF3U25oa1R4WllRTG5ER3VROTJPVmN5Qjh2Q0VkVFlSdFpoREdmbXRtVlkw?=
+ =?utf-8?B?S05tbnYxK3VzUUlrcXF1Sm1kSUt4QUcyQThyUlozS0MyN2NjRHVJSVoycFNG?=
+ =?utf-8?B?UkR6WkEzdk5zdlZYZHoxMHQ1eXBpUlpnYVVlZVNWc3VOTW1mYVJFandWVklJ?=
+ =?utf-8?B?MWlLMW9qOU04VEUyUTd6b0FuSVNJRENwRXBSYmFubXBsRjN2QkNIb1hyeFlz?=
+ =?utf-8?B?cE9TVEcrbkhlMCsxaHVpT2RYYnBhZ0dvT1dRUHlIYW5SUFVrL0prdlgxNFEw?=
+ =?utf-8?B?V0JVbTJ1M2JUNit3ZEluWEFaVVBvVkM2d2huWmoycWpQdmJlcXVNV0JnUDhq?=
+ =?utf-8?B?NmlaclhTc1lQeWx4Rm9Xcnkxc1FnOGhUUFIvd2tURUVQUGxwdU80SlFScHRh?=
+ =?utf-8?B?MDZzVTBMR09UWDFJemZjbjNHUTAyOFJKTERPMUpDcnhxRi8vb1FxNHZHRkxY?=
+ =?utf-8?B?bkg0a0Jzd0lzbGZlRnV1eWxuK2tIOVIwdkR0U3k3TTBEdFh2dzRMcFd4U3JX?=
+ =?utf-8?B?a2tTZE5JSTFCYyswN3E5VE1OSjRqb015NHh3bllYOFdlbVhsczhTQkV1UUgy?=
+ =?utf-8?B?R1lNQUR1Y2FDQWpKMjR1ZkRXcElteS9EMVh2c1cwaGpVbGxVam9yWWVZWmFQ?=
+ =?utf-8?B?Y2c1TkRxRjVCdXBvUWlTNEJHVDl1MDBZVnNLMEFTdENrZGxTaW5wT3lKc29n?=
+ =?utf-8?B?R00zS2VMc0FteE5ycFllMjBJQTJqdlZMRmVLRnNoaWFib0lMYityUmtQVzBo?=
+ =?utf-8?B?YnNBanN6UExlRko4d0dMSlVRWlQxR1JwMFpaaHNNcm43YVFpcHZFS0hnNGdT?=
+ =?utf-8?B?cU94VURSemhGUjZ3a05zaG9NbGVpeTJsdGpJZkhhMlFkNTZ4alNqa0NjdkE3?=
+ =?utf-8?Q?6D5k9ICyI5W4eN0E=3D?=
+MIME-Version: 1.0
+X-TUID: 1ADS/VGI0ZEx
+
+--QPn8ZoMYJbGX=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+Hulu
+ 
+
+[{
+"@context": "https://schema.org/",
+"@type": "Organization",
+"name": "Hulu",
+"logo": "http://image.hulumail.com/lib/fe9515707360007972/m/10/00bc2948-bfc6-4918-ac8f-ea290a475579.png"
+},{
+"@context": "https://schema.org/",
+"@type": "DiscountOffer",
+"description": "",
+"discountCode": "",
+"availabilityStarts": "",
+"availabilityEnds": ""
+},{
+"@context": "https://schema.org/",
+"@type": "PromotionCard",
+"image": ""
+}]
+
+
+
+ 
+https://view.hulumail.com/?qs=8c6727dba6124959f87529bf73ea7c2c26016de6e5dfaf45d3b8559894d2303ec1b1a76e966e0c83862301c0347b683e001e9fcf17753463d508113cf9c9ff7b3ee0a286352eb0a67307de7b770243d8 
+View in browser 
+
+ 
+https://click.hulumail.com/?qs=a41274c3cf89067e573ba8574fe153319ddf53566bc0974658fe0bff41a897f435dfcb3fba8e5367f5ee2517d03a60f51991928d8ade1b13 
+
+
+ 
+https://click.hulumail.com/?qs=a41274c3cf89067eff5201149ed4c1968943d50a06852d39624d50f9fa52c66c0f106238023ce6d58505cba14848546b51a2c4ba52e2c302 
+
+
+ Live from the Octagon
+ 
+
+
+Got plans for UFC 263? Great news: You can stream the showdown between fan favorite Nate Diaz and England's own Leon "Rocky" Edwards live with pay-per-view through ESPN+ on Hulu. Plus, watch "The Last Stylebender" Israel Adesanya defend his belt in the main event against rising star Marvin "The Italian Dream" Vettori. 
+
+
+Upgrade to The Disney Bundle, which includes ESPN+ on Hulu, starting at $13.99/month. To stream this epic matchup, buy UFC 263 for an additional $69.99 now.
+
+ 
+
+
+https://click.hulumail.com/?qs=a41274c3cf89067eff5201149ed4c1968943d50a06852d39624d50f9fa52c66c0f106238023ce6d58505cba14848546b51a2c4ba52e2c302 
+
+ BUY NOW
+  
+
+18+ only. Access content from each service separately and access ESPN+ content via Hulu. Location data required to watch certain content. Offer valid for eligible subscribers only. Subject to The Bundle Terms. Additional fee required for UFC 263.
+
+
+
+ Don't Miss Tonight's Lineup
+ 
+
+
+https://click.hulumail.com/?qs=a41274c3cf89067eff5201149ed4c1968943d50a06852d39624d50f9fa52c66c0f106238023ce6d58505cba14848546b51a2c4ba52e2c302 
+
+
+ Want to dive more into the world of UFC? 
+https://click.hulumail.com/?qs=a41274c3cf89067e8b0164577b772815fb4fe0bf2ffe0323698d2e2ff9747687e6ff96473492624e70b0a6a0be5049cdc254445a6801f171 
+Add the ESPN+ Add-on to your plan and stream sports like a pro. Get exclusive original series, thousands of live events, and access to purchase monthly UFC pay-per-view for just $5.99/month.
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+https://click.hulumail.com/?qs=a41274c3cf89067e8b0164577b772815fb4fe0bf2ffe0323698d2e2ff9747687e6ff96473492624e70b0a6a0be5049cdc254445a6801f171 
+
+Discover More  
+
+
+ Access ESPN+ content via Hulu and ESPN+; select content only available via ESPN app and espn.com. Blackouts apply: location data required to watch certain content. 16+ only. Additional fee required for UFC 263. 
+
+© 2021 Disney and its related entities.
+
+ 
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+  
+ 
+
+https://click.hulumail.com/?qs=a41274c3cf89067ed67f8c892dcdf56031b28c587d61ab65b4e8c483edf688d8bcd66621f6fc1e929f6e3d95482d2423973208f63a71ca49 
+
+https://click.hulumail.com/?qs=a41274c3cf89067ecba8dad1cbba8b4567b144d516e35fd6ed0398a07fdf115ce3100325886e4683be5cfa33bf764c7e7effeafce3ce4b14 
+
+https://click.hulumail.com/?qs=a41274c3cf89067e9c01ccafebca455e160da1182977d4b831cfbd4b40a964b523cf2b9095d7f6555b3d605349186865a615c028fd9179e1 
+
+
+ Hulu, LLC. 2500 Broadway, 2nd Floor, Santa Monica, CA 90404
+ 
+
+https://click.hulumail.com/?qs=a41274c3cf89067e0168d5a8e0d1b45c3836e210aee97629901a3a8e004b6e701622efba613d0f725981211b91458a65ff4cdfd0643856826e24d09c6fac56e7 
+Unsubscribe 
+    |   
+ 
+https://click.hulumail.com/?qs=a41274c3cf89067e1b607af6b6001b490fd440f3018316ab2d5f30f5c3093b26fa82f2e666e8067fc6389deaed4438a0a3d1f22a59b5216f 
+Preferences 
+    |   
+ 
+https://click.hulumail.com/?qs=a41274c3cf89067ed1760f728425f3d94db02560522142b65a2b638f7bb69bc5b2faa6fb2ec975ccca7df48a9f21fbf30870feeb5c70a805 
+Support 
+    |   
+ 
+https://click.hulumail.com/?qs=a41274c3cf89067e5c86201083810ea80992941dd8c72ea0650deb15ac55b43d523e90ee692a82049962ddca974150b71862a4fe353b394a 
+Community 
+
+
+
+
+
+--QPn8ZoMYJbGX=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!doctype html><html><!-------------------------------- Hulu Ad Hoc Template V1 - initial build - 09222017 - SFMC V2 - added AMPscript block - 12122017 - SFMC v3 - updated fonts to Hulustyle - 01092018 - SFMC v4 - updated font stacks - 03192018 - SFMC ----------------------------------><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>Hulu</title>
+ <!--[if !mso]><!-->
+ <style type="text/css" media="all">
+  @font-face {
+   font-family: 'hulustyle_light';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-light-webfont.eot');
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-light-webfont.eot?#iefix') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-light-webfont.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-light-webfont.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-light-webfont.ttf') format('truetype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-light-webfont.svg#hulustyle_tlight') format('svg');
+   font-weight: normal;
+   font-style: normal;
+  }
+  @font-face {
+   font-family: 'hulustyle_medium';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-medium-webfont.eot');
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-medium-webfont.eot?#iefix') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-medium-webfont.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-medium-webfont.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-medium-webfont.ttf') format('truetype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-medium-webfont.svg#hulustyle_tmedium') format('svg');
+   font-weight: normal;
+   font-style: normal;
+  }
+  @font-face {
+   font-family: 'hulustyle_regular';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-regular-webfont.eot');
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-regular-webfont.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-regular-webfont.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-regular-webfont.ttf') format('truetype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-regular-webfont.svg#hulustyle_tregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+  }
+   @font-face {
+   font-family: 'hulustyle_heavy';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-heavy-webfont.eot');
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-heavy-webfont.eot?#iefix') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-heavy-webfont.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-heavy-webfont.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-heavy-webfont.ttf') format('truetype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-heavy-webfont.svg#hulustyle_theavy') format('svg');
+   font-weight: normal;
+   font-style: normal;
+  }
+  @font-face {
+   font-family: 'hulustyle_bold';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-bold-webfont.eot');
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-bold-webfont.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-bold-webfont.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-bold-webfont.ttf') format('truetype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-bold-webfont.svg#hulustyle_tbold') format('svg');
+   font-weight: normal;
+   font-style: normal;
+  }
+   @font-face {
+       font-family: 'hulustyle_extrabold';
+       src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-extrabold-webfont.eot');
+             src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-extrabold-webfont.woff2') format('woff2'),
+       url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-extrabold-webfont.woff') format('woff'),
+       url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-extrabold-webfont.ttf') format('truetype'),
+       url('https://assetshuluimcom-a.akamaihd.net/FONTS/hulustyle/upright/hulustyle-extrabold-webfont.svg#hulustyle_tbold') format('svg');
+       font-weight: normal;
+       font-style: normal;
+       }
+  @font-face {
+   font-family: 'Graphik-Light';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.eot') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light.otf') format('opentype');
+   font-style: normal;
+   font-weight: 200;
+  }
+  @font-face {
+   font-family: 'Graphik-Medium';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.eot') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium.otf') format('opentype');
+   font-style: normal;
+   font-weight: 500;
+  }
+  @font-face {
+   font-family: 'Graphik-Regular';
+   src: url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.eot') format('embedded-opentype'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.woff') format('woff'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.woff2') format('woff2'), url('https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular.otf') format('opentype');
+   font-style: normal;
+   font-weight: 400;
+  }
+ </style>
+ <!--<![endif]-->
+<style type="text/css" media="all">
+  * {
+     -webkit-text-size-adjust: none;
+    }
+    /* prevent iOS font upsizing */
+    
+    * {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     font-smoothing: antialiased;
+    }
+    .ExternalClass * {
+     line-height: 100%;
+    }
+    /* force Outlook.com to honor line-height */
+    
+    td {
+     mso-line-height-rule: exactly;
+    }
+    /* force Outlook to honor set line-heights */
+    
+    .applelinksfooter a {
+     color: #adb3bf !important;
+     text-decoration: none !important;
+    }
+    .applelinksdisclaimer a {
+     color: #FFFFFF !important;
+     text-decoration: none !important;
+    }
+    .owaContextualHighlight span {
+     /* Prevent Outlook.com and Office 365 from auto-linking */
+     border: none!important;
+     color: inherit!important;
+    }
+    /* Resolves the issue for iphone creating links from dates */
+    
+    .appleLinks {
+     color: inherit;
+     text-decoration: none;
+    }
+    .appleLinks a {
+     color: inherit !important;
+     text-decoration: none !important;
+    }
+    /*** Responsive CSS ***/
+    
+    @media only screen and (max-width: 480px) {
+     /*** Layout ***/
+     body {
+      width: 100%;
+      min-width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 0;
+     }
+     .marginFix {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+     }
+     .full-width-container {
+      width: 100% !important;
+      min-width: 100% !important;
+     }
+     .section-3across {
+      width: 95px !important;
+      height: 146px !important;
+     }
+     .width-112 {
+      width: 112px !important;
+     }
+     .width-121 {
+      width: 121px !important;
+     }
+     .width-170{
+      width: 170px !important
+     }
+     .width-175{
+      width: 175px !important;
+     }
+      .width-183 {
+        width: 183px !important;
+       }
+     .width-185 {
+      width: 185px !important;   
+     }
+     .width-305 {
+      width: 305px !important;
+     }
+     .width-350 {
+      width: 350px !important;
+     }
+      .height-60 {
+        height: 60px !important;
+       }
+      .height-70 {
+        height: 70px !important;
+       }
+       .height-80 {
+        height: 80px !important;
+       }
+     .hide {
+      width: 0px !important;
+      height: 0px !important;
+      display: none !important;
+     }
+     .img-mobile {
+         width: 100% !important;
+         height:auto !important;
+         display: block !important;
+         overflow:visible !important;
+         visibility:visible !important;
+         border:none !important;
+         max-height: 200% !important;
+     }
+     .img-mobile-112 {
+         width: 112px !important;
+         height:auto !important;
+         display: block !important;
+         overflow:visible !important;
+         visibility:visible !important;
+         border:none !important;
+         max-height: 200% !important;
+     }
+     .stackTbl {
+      width: 100% !important;
+      display: table !important;
+     }
+     .stackTblMarginTop20 {
+      width: 100% !important;
+      display: table !important;
+      margin-top: 20px !important;
+      /* Adjust to match spacing between 2 across rows */
+     }
+     .stackTblMarginTop30 {
+      width: 100% !important;
+      display: table !important;
+      margin-top: 30px !important;
+     }
+     .stackTblMarginTop25 {
+      /** Used in footer content area **/
+      width: 100% !important;
+      display: table !important;
+      margin-top: 25px !important;
+     }
+     .center {
+      margin: 0px auto !important;
+     }
+     .floatLeft {
+      float: left !important;
+      width: 35% !important;
+     }
+     .floatRight {
+      float: right !important;
+      width: 60% !important;
+     }
+     .responsive-table-68 {
+          width: 68% !important;
+         }
+      .responsive-table-50 {
+          width: 50% !important;
+         }
+         .responsive-table-32 {
+          width: 32% !important;
+         }
+      .border-radius12 {
+        border-radius: 12px !important;
+      }
+      /*** Padding Styles ***/
+         .paddingTop5 {
+          padding-top: 5px !important
+         }
+         .paddingTop6 {
+          padding-top: 6px !important
+         }
+      .paddingTop7 {
+          padding-top: 7px !important
+         }
+      .paddingTop8 {
+          padding-top: 8px !important
+         }
+         .paddingright5 {
+             padding-right: 5px !important
+         }
+         .paddingleft5 {
+             padding-left: 5px !important
+         }
+         .paddingright6 {
+             padding-right: 6px !important
+         }
+         .paddingleft6 {
+             padding-left: 6px !important
+         }
+     .mobilePaddingLR {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+     }
+     .mobilePaddingTB {
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+     }
+      .mobilePaddingTB30 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+       }
+      .paddingTop10 {
+      padding-top: 10px !important
+     }
+     .paddingTop15 {
+      padding-top: 15px !important
+     }
+     .paddingTop25 {
+      padding-top: 25px !important
+     }
+     .paddingTop30 {
+      padding-top: 30px !important
+     }
+     .paddingRight20 {
+      padding-right: 20px !important;
+     }
+     .paddingLeft10 {
+      padding-left: 10px !important
+     }
+     .paddingLeft25 {
+      padding-left: 25px !important
+     }
+     .padLR-3 {
+      padding-left: 3px !important;
+      padding-right: 3px !important;
+     }
+     .padLR-35 {
+      padding: 10px 35px 10 35px !important;
+     }
+     .removeLRPadding {
+      padding-left: 0px !important;
+      padding-right: 0px !important
+     }
+      .pad-0-0-25-0 {
+        padding: 0 0 25px 0 !important;
+       }
+     .removePadding {
+      padding: 0 0 0 0 !important;
+     }
+     /*** Text/Divider/Image Styles ***/
+     .imageUpsize {
+      width: auto !important;
+      height: auto !important;
+      max-width: 100% !important
+     }
+     .imageMax {
+      max-width: 100% !important
+     }
+      .mobileImg305x172 {
+      width: 305px !important;
+      height: 172px !important;
+     }
+     .fullWidthImg {
+      width: 100% !important;
+      height: auto !important;
+     }
+     .logoResize {
+      width: 60px !important;
+      height: auto !important;
+     }
+     .textAlignCenter {
+      text-align: center !important
+     }
+     .textAlignLeft {
+      text-align: left !important
+     }
+     .fontSize8 {
+      font-size: 8px !important;
+      line-height: 10px !important;
+     }
+      .fontSize14 {
+        font-size: 14px !important;
+        line-height: 18px !important;
+       }
+     .fontSize16 {
+      font-size: 16px !important;
+      line-height: 20px !important;
+     }
+      .fontSize18 {
+      font-size: 18px !important;
+      line-height: 18px !important;
+     }
+     .fontSize20 {
+      font-size: 20px !important;
+      line-height: 24px !important;
+     }
+      .fontSize21 {
+      font-size: 21px !important;
+      line-height: 25px !important;
+     }
+     .fontSize22 {
+      font-size: 22px !important;
+      line-height: 26px !important;
+     }
+      .fontSize25 {
+      font-size: 25px !important;
+      line-height: 29px !important;
+     }
+     .fontSize28 {
+      font-size: 28px !important;
+      line-height: 30px !important;
+     }
+     .fontSize33 {
+      font-size: 33px !important;
+      line-height: 36px !important;
+     }
+      .fontSize38 {
+      font-size: 38px !important;
+      line-height: 41px !important;
+     }
+      .fontSize38LH34 {
+      font-size: 38px !important;
+      line-height: 34px !important;
+     }
+     /* Live Sports Module CSS */
+     .live-sports-mobile-image{
+      width: 114px !important;
+      height: 70px !important;
+     }
+      .live-sports-mobile-image-114x114{
+      width: 114px !important;
+      height: 114px !important;
+     }
+     .live-sports-mobile-copy {
+      color: #040405 !important;
+      font-family: 'Graphik-Regular', Helvetica, Arial, sans-serif !important;
+      font-size: 14px !important;
+      line-height: 18px !important;
+     }
+     .live-sports-table-width-144 {
+      width: 144px !important;
+     }
+     .live-sports-table-width-61p {
+      width: 61% !important;
+     }
+     /* Live Sports Module CSS */
+      /* Premium Add-On Headers */
+       .cinemax-mobile {
+        width: 178px !important;
+       }
+       .HBOmax-mobile {
+        width: 210px !important;
+       }
+       .HBO-cinemax-mobile {
+        width: 115px !important;
+       }
+       .HBO-mobile {
+        width: 147px !important;
+       }
+       .Showtime-mobile {
+        width: 176px !important;
+       }
+       .Starz-mobile {
+        width: 168px !important;
+       }
+        .FX-mobile {
+        width: 121px !important;
+       }
+       .ACCN-mobile {
+        width: 101px !important;
+       }
+       .Spotify-mobile {
+        width: 178px !important;
+       }
+       .Shostarz-mobile {
+        width: 126px !important;
+       }
+       /* Premium Add-On Headers */
+        /*Footer CSS*/
+        .padding-LR80 {
+         padding-left: 80px !important;
+         padding-right: 80px !important;
+        }
+        /*Footer CSS*/
+    }
+    /*** END Responsive CSS ***/
+ </style>
+</head>
+
+<body style="margin:0px; padding:0px;" bgcolor="#040405">
+ <style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Diaz takes on Edwards tonight. You in?</div>
+<script type="application/ld+json">
+[{
+"@context": "https://schema.org/",
+"@type": "Organization",
+"name": "Hulu",
+"logo": "http://image.hulumail.com/lib/fe9515707360007972/m/10/00bc2948-bfc6-4918-ac8f-ea290a475579.png"
+},{
+"@context": "https://schema.org/",
+"@type": "DiscountOffer",
+"description": "",
+"discountCode": "",
+"availabilityStarts": "",
+"availabilityEnds": ""
+},{
+"@context": "https://schema.org/",
+"@type": "PromotionCard",
+"image": ""
+}]
+</script>
+<!--END Do Not Touch--><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></table>
+ <!-- CONTAINER -->
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" class="marginFix" bgcolor="#040405">
+  <!-- MAIN CONTENT -->
+  <tr>
+   <td width="100%" align="center">
+    <table cellpadding="0" cellspacing="0" border="0" width="600" style="min-width: 600px" class="full-width-container">
+     <!-- VAWP -->
+     <tr class="hide">
+      <td align="right" style="color: #757575;font-family: Arial, Helvetica, sans-serif;font-size: 10px; line-height: 12px; padding: 10px 0px 10px 0px"> <a href="https://view.hulumail.com/?qs=8c6727dba6124959f87529bf73ea7c2c26016de6e5dfaf45d3b8559894d2303ec1b1a76e966e0c83862301c0347b683e001e9fcf17753463d508113cf9c9ff7be2ed88f5a93ceb1fa6b41b6fab9cccce" style="text-decoration: underline;color:#757575">View in browser</a> 
+      </td>
+     </tr>
+     <!-- END VAWP -->
+     <tr>
+      <td width="600" align="center" valign="top">
+       <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Shell 06C - Premium Header - Showtime on HULU - Black -->
+       <table cellpadding="0" cellspacing="0" border="0" width="100%">
+         <tr>
+           <td align="center" valign="middle" height="65" style="padding: 15px 0 15px 0px; height: 65px" class="height-60">
+             <!-- ADD LINK URL AND ALIAS BELOW -->
+             <a href="https://click.hulumail.com/?qs=a41274c3cf89067ea1bc0f3573a3dddcebdc013352de4a7db7c51caceca388876bc2b9e7a58760ad74ab0a323e33b3c6d0fdb4f18e32911e" target="_blank">
+               <!-- ADD IMAGE PATH AND ALT BELOW -->
+               <img src="https://image.hulumail.com/lib/fe9515707360007972/m/16/459a9a55-049d-46fa-9822-c123ef3067f6.png" alt="ESPN on Hulu" width="197" style="display: block; font-size: 20px; color: #1ce783;" border="0">
+             </a>
+           </td>
+         </tr>
+       </table>
+       <!-- End Shell 06C - Premium Header - Showtime on HULU - Black --></td></tr></table>
+       <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <!-- One Hulu Hero -->
+       <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse;" class="full-width-container">
+        <tr>
+         <td style="padding: 20px 15px 0 15px;">
+          <!-- ADD LINK URL AND ALIAS BELOW -->
+             <a href="https://click.hulumail.com/?qs=a41274c3cf89067e6b68de2fee7f0db1b1541551199b0793c6d50711dbc19fa95e5d4a1bd154bf57999420f1ebfdbef94c6f05ac3c88d203" target="_blank">
+              <!-- ADD IMAGE PATH AND ALT BELOW -->
+           <img src="https://image.hulumail.com/lib/fe9515707360007972/m/16/b2ee9606-272a-462f-9d5b-6d542cbe7f2e.gif" style="border: none; display: block; -ms-interpolation-mode: bicubic; outline: none; width: 570px; border-radius: 16px;" width="570" alt="UFC 263" border="0" class="fullWidthImg border-radius12">
+             </a>
+         </td>
+        </tr>
+       </table>
+       <!-- /End One Hulu Hero --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">  <!-- One Hulu Headline -->
+                <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse;" class="full-width-container">
+                  <tr>
+                    <td style="font-family: 'Graphik', Arial, Helvetica, sans-serif; font-size: 53px; line-height: 56px; color: #FFFFFF; font-weight: 900; padding: 40px 15px 0 15px;" class="fontSize33">
+                      Live from the Octagon
+                    </td>
+                  </tr>
+                </table>
+                <!-- /End One Hulu Headline --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <!-- One Hulu Body Copy -->
+       <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px ; border-collapse: collapse;" class="full-width-container">
+        <tr>
+         <td style="font-family: 'Graphik', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 150%; color: #FFFFFF; padding: 25px 15px 0 15px;" class="fontSize16">
+Got plans for UFC 263? Great news: You can stream the showdown between fan favorite Nate Diaz and England's own Leon &quot;Rocky&quot; Edwards live with pay-per-view through ESPN+ on Hulu. Plus, watch &quot;The Last Stylebender&quot; Israel Adesanya defend his belt in the main event against rising star Marvin &quot;The Italian Dream&quot; Vettori. 
+<br><br>Upgrade to The Disney Bundle, which includes ESPN+ on Hulu, starting at $13.99/month. To stream this epic matchup, buy UFC 263 for an additional $69.99 now.
+
+         </td>
+        </tr>
+       </table>
+       <!-- /End One Hulu Body Copy --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <!-- Module 07C - CTA 1 - White CTA -->
+       <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+         <td align="center" valign="top" style="padding:40px 0px 0px 0px;" class="mobilePaddingLR">
+          <table cellpadding="0" cellspacing="0" border="0" align="center" style="min-width: 230px">
+           <tr>
+            <td height="45" bgcolor="#ffffff" align="center" valign="middle" style="color: #040405;font-family: 'Graphik-Medium', Helvetica-Bold, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; letter-spacing: 1px; text-transform: uppercase; border-radius: 4px; mso-padding-alt: 0 20px 0 20px;">
+             <!-- ADD LINK URL AND ALIAS BELOW -->
+             <!-- FOR PADDING, DO NOT TOUCH TOP AND BOTTOM PADDING, INSTEAD DEPENDING ON THE CHARACTER COUNT OF THE CTA, YOU WILL NEED THE ADJUST THE LEFT AND RIGHT PADDING TWICE. (1) THE FIRST TIME YOU NEED TO ADJUST IT ON THE BLOW <A> TAG. SIMPLY UPDATE PADDING-LEFT AND PADDING-RIGHT. NOTE THE MAX PADDING YOU CAN INSERT BEFORE THE BUTTON STARTS TO INCREASE IN SIZE IN 95PX BASED ON A 4 CHARACTER WORD. (2) THE OTHER UPDATE IS ABOVE WHERE YOU SEE MSO-PADDING-ALT. THIS IS SPECIFICALLY FOR OUTLOOK SINCE PADDING ON 
+<A> IS NOT SUPPORTED IN THAT PLATFORM. OUTLOOK WILL NOT HAVE FULL CLICKABLE BUTTONS BECAUSE OF THIS.  THE NUMBERS YOU INSERTED BELOW WILL BE THE SAME FOR THE NUMBERS BEING INSERTED ABOVE, SIMPLY UPDATE THE 2ND AND 4TH NUMBER IN THE STRING BUT LEAVE THE 1ST AND 3RD CHARACTER SET TO 0 --> <a href="https://click.hulumail.com/?qs=a41274c3cf89067e8098dd19e573eccbe52e233ef68e426b1e15f0a434d251225aef670f0cb8dd5c52b6d0a42405d00322dcdcbe2c73187d" align="center" style="color:#040405; text-decoration:none;padding-top: 12px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;" target="_blank">
+                          BUY NOW
+                          </a>
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          <table cellpadding="0" cellspacing="0" border="0" width="450" align="center" class="width-350">
+           <tr>
+            <td align="center" style="color: #ffffff;font-family: 'Graphik-Light', Helvetica, Arial, sans-serif;font-size: 12px; line-height: 14px; padding: 10px 0px 0px 0px" class="mobilePaddingLR fontSize8">18+ only. Access content from each service separately and access ESPN+ content via Hulu. Location data required to watch certain content. Offer valid for eligible subscribers only. Subject to The Bundle Terms. Additional fee required for UFC 263.
+</td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+       <!-- End Module 07C - CTA 1 - White CTA --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">  <!-- One Hulu Headline -->
+                <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse;" class="full-width-container">
+                  <tr>
+                    <td style="font-family: 'Graphik', Arial, Helvetica, sans-serif; font-size: 35px; line-height: 41px; color: #FFFFFF; font-weight: 900; padding: 40px 15px 0 15px;" class="fontSize28">
+                 Don't Miss Tonight's Lineup
+                    </td>
+                  </tr>
+                </table>
+                <!-- /End One Hulu Headline --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">  <!-- One Hulu Hero -->
+                <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse;" class="full-width-container">
+                  <tr>
+                    <td style="padding: 20px 15px 0 15px;" class="paddingTop25">
+                      <!-- ADD LINK URL AND ALIAS BELOW -->
+                      <a href="https://click.hulumail.com/?qs=a41274c3cf89067ea426286996f1166feb99f8ce914f39f8cb5911b6fedf69ea19957a581fbaa4341c1612db8a227a20469b2697db91248d" target="_blank">
+                        <!-- ADD IMAGE PATH AND ALT BELOW -->
+                        <img src="https://image.hulumail.com/lib/fe9515707360007972/m/16/ee221938-313a-48f5-af9c-71aea2fe6f36.jpeg" style="border: none; display: block; -ms-interpolation-mode: bicubic; outline: none; width: 570px; border-radius: 16px;" width="570" alt="Rodriguez Vs. Waterson" border="0" class="fullWidthImg border-radius12">
+                      </a>
+                    </td>
+                  </tr>
+                  
+                </table>
+                <!-- /End One Hulu Hero --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <!-- One Hulu Hero -->
+       <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse; " class="full-width-container">
+    <tr>
+      <td style="padding: 40px 15px 0 15px;">
+                <table width="570" cellpadding="0" cellspacing="0" border="0" style="width:570px; border-collapse: collapse;" class="full-width-container ">
+                  <tr>
+                    <td width="570" align="center" valign="top" bgcolor="#353535" style="line-height:0px;font-size:0px; border-radius: 16px; " class="border-radius12">
+         <!-- Module 05 - Copy -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" style="color: #ffffff;font-family: 'Graphik-Regular', Helvetica-Light, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22px; padding: 25px 75px 25px 75px" class="mobilePaddingLR mobilePaddingTB">
+  Want to dive more into the world of UFC? <a href="https://click.hulumail.com/?qs=a41274c3cf89067e6789652cb279fe437924a3f470d63f403ba82e901c597b3a0cf6693eab500eff137eaf20322ed110dd8ec324a23f87d4" target="_blank" style="text-decoration: underline; color: #FFFFFF;"><span style="text-decoration: underline; color: #1ce783;"><b>Add the ESPN+ Add-on to your plan</b></span></a> and stream sports like a pro. Get exclusive original series, thousands of live events, and access to purchase monthly UFC pay-per-view for just $5.99/month.
+    </td>
+  </tr>
+</table>
+<!-- End Module 05 - Copy -->
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+       </table>
+       <!-- /End One Hulu Hero --></td></tr></table>
+      </td>
+     </tr>
+     <!-- Added Solid Color Module -->
+     <tr>
+      <td style="padding: 20px 0 0 0;">
+       <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse;" class="full-width-container">
+        <tr>
+         <td width="600" align="center" valign="top" bgcolor="#040405" style="line-height:0px;font-size:0px;">
+          
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <!-- /End Added Solid Color Module -->
+     <tr>
+      <td width="600" align="center" valign="top">
+       <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Module 07E - CTA 1 - White CTA -->
+       <table width="100%" cellpadding="0" cellspacing="0" border="0">
+         <tr>
+           <td align="center" valign="top" style="padding:20px 0px 20px 0px;" class="mobilePaddingLR">
+             <table cellpadding="0" cellspacing="0" border="0" align="center" style="min-width: 230px">
+               <tr>
+                 <td height="45" bgcolor="#ffffff" align="center" valign="middle" style="color: #040405;font-family: 'Graphik-Medium', Helvetica-Bold, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; letter-spacing: 1px; text-transform: uppercase; border-radius: 4px; mso-padding-alt: 0 20px 0 20px;">
+                   <!-- ADD LINK URL AND ALIAS BELOW -->
+                   <!-- FOR PADDING, DO NOT TOUCH TOP AND BOTTOM PADDING, INSTEAD DEPENDING ON THE CHARACTER COUNT OF THE CTA, YOU WILL NEED THE ADJUST THE LEFT AND RIGHT PADDING TWICE. (1) THE FIRST TIME YOU NEED TO ADJUST IT ON THE BLOW <A> TAG. SIMPLY UPDATE PADDING-LEFT AND PADDING-RIGHT. NOTE THE MAX PADDING YOU CAN INSERT BEFORE THE BUTTON STARTS TO INCREASE IN SIZE IN 95PX BASED ON A 4 CHARACTER WORD. (2) THE OTHER UPDATE IS ABOVE WHERE YOU SEE MSO-PADDING-ALT. THIS IS SPECIFICALLY FOR OUTLOOK SINCE PADDING ON 
+<A> IS NOT SUPPORTED IN THAT PLATFORM. OUTLOOK WILL NOT HAVE FULL CLICKABLE BUTTONS BECAUSE OF THIS.  THE NUMBERS YOU INSERTED BELOW WILL BE THE SAME FOR THE NUMBERS BEING INSERTED ABOVE, SIMPLY UPDATE THE 2ND AND 4TH NUMBER IN THE STRING BUT LEAVE THE 1ST AND 3RD CHARACTER SET TO 0 -->
+                   <a href="https://click.hulumail.com/?qs=a41274c3cf89067e43703862cf94c0f5397e927c9cf08cff5bc2f41668c7d5ac536cd4672dfd7b5dafc067acb6cd0ce072d53a9f04dbda7d" align="center" style="color:#040405; text-decoration:none;padding-top: 12px; padding-bottom: 12px; padding-left: 20px; padding-right: 20px;" target="_blank">
+Discover More                   </a>
+                 </td>
+               </tr>
+             </table>
+           </td>
+         </tr>
+       </table>
+       <!-- End Module 07E - CTA 1 - White CTA --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Module 06 - Legal Copy -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" style="color: #ffffff;font-family: 'Graphik-Light', Helvetica, Arial, sans-serif;font-size: 10px; line-height: 12px; padding: 8px 15px 20px 15px" class="mobilePaddingLR fontSize8">
+ Access ESPN+ content via Hulu and ESPN+; select content only available via ESPN app and espn.com. Blackouts apply: location data required to watch certain content. 16+ only. Additional fee required for UFC 263. 
+<br>© 2021 Disney and its related entities.
+
+    </td>
+  </tr>
+</table>
+<!-- End Module 06 - Legal Copy --></td></tr></table>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+  <!-- END MAIN CONTENT -->
+  <!-- FOOTER -->
+  <tr>
+   <td width="100%" align="center">
+    <table cellpadding="0" cellspacing="0" border="0" width="600" class="full-width-container">
+     <tr>
+      <td width="600" align="center" valign="top">
+       <!-- Footer Spacer - Adjust space between social icons and last content module-->
+       <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+         <td height="30">&nbsp;</td>
+        </tr>
+       </table>
+       <!-- End Footer Spacer -->
+        <!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; border-collapse: collapse;">
+     <tr>
+      <td align="center">
+       <table bgcolor="#040405" width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; border-collapse: collapse;" class="full-width-container">
+        
+        
+         <tr>
+         <td style="border-top: 1px solid #2C2C2C;">
+          &nbsp;
+         </td>
+        </tr>
+        
+        
+        <tr>
+         <td align="center" style="padding: 30px 0 0 0;">
+          <table width="148" cellpadding="0" cellspacing="0" border="0" style="width: 148px; border-collapse: collapse;">
+           <tr>
+            <td style="padding: 0 20px 0 0;">
+             <a href="https://click.hulumail.com/?qs=a41274c3cf89067e5e35aa0c1970a1cd1983cadb20bb671da7a54b99cbb7c16e36fd088bec291d2567dc4ecfae39cf3f172789ad238ee92e" target="_blank">
+             <img src="http://image.hulumail.com/lib/fe9515707360007972/m/12/f6a7a0a0-eac6-42d4-9c56-b5805f017602.png" style="border: none; display: block; -ms-interpolation-mode: bicubic; outline: none; width: 36px; height: 36px;" width="36" height="36" alt="Instagram" border="0">
+             </a>
+            </td>
+            <td style="padding: 0 20px 0 0;">
+             <a href="https://click.hulumail.com/?qs=a41274c3cf89067e963ce33ee7794f472e1b4a511df4886189af3006dcb70daefc6aa5936e354b2f91159dab2fd45d4a4c84b53804324036" target="_blank">
+             <img src="http://image.hulumail.com/lib/fe9515707360007972/m/12/fd1fcd27-acab-4197-8763-6fb584887f58.png" style="border: none; display: block; -ms-interpolation-mode: bicubic; outline: none; width: 36px; height: 36px;" width="36" height="36" alt="Facebook" border="0">
+             </a>
+            </td>
+            <td>
+             <a href="https://click.hulumail.com/?qs=a41274c3cf89067e062c5c438485732dd8cf3eaa14ced3f6d453347b67818e31c5f2e8fe7ab60be87ee2cb04490e889ffe80f3bf732eda85" target="_blank">
+             <img src="http://image.hulumail.com/lib/fe9515707360007972/m/12/ee68d840-674b-42ba-813f-8bfab6f9a1aa.png" style="border: none; display: block; -ms-interpolation-mode: bicubic; outline: none; width: 36px; height: 36px;" width="36" height="36" alt="Twitter" border="0">
+             </a>
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td style="text-align: center; font-size: 12px; font-family: 'Graphik-Regular', Helvetica, Arial, sans-serif; letter-spacing: 0px; color: #8A8A8A; line-height: 16px; padding: 20px 0 0 0;" class="padding-LR80">
+          Hulu, LLC. 2500 Broadway, 2nd Floor, Santa Monica, CA 90404
+         </td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-size: 12px; font-family: 'Graphik-Regular', Helvetica, Arial, sans-serif; letter-spacing: 0px; color: #8A8A8A; line-height: 16px; padding: 20px 0 40px 0;" class="">
+          <a href="https://click.hulumail.com/?qs=a41274c3cf89067e4c9071eb5f1a47cee237bd4d29c7739ae0a6632bf79c02af2c4e1416fd178859069ead6fe8fcca2a7e8cccba775b8214391dd25d4ea42e6b" target="_blank" style="color: #8A8A8A;">Unsubscribe</a>
+          &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <a href="https://click.hulumail.com/?qs=a41274c3cf89067e70ef234ba596a0254e46f40fd5001c5b19f54d394872c5ca17f19ae72c5aecbc5209e5a8c7655f46f5624f0cbc7b7bcb" target="_blank" style="color: #8A8A8A;">Preferences</a>
+          &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <a href="https://click.hulumail.com/?qs=a41274c3cf89067e73b9efc4fa5aefc3c51e3ef6e3da963753c253a4be69c0e886335fb916fd1d5b0803d626927e3d5b938f349155f28932" target="_blank" style="color: #8A8A8A;">Support</a>
+          &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <a href="https://click.hulumail.com/?qs=a41274c3cf89067e843c1524ee9a81f9b6883fd342f693841163041b1bcf3de51dc84cc8d6f708cce41d9804e3f2514b7c44f24cb9c4267b" target="_blank" style="color: #8A8A8A;">Community</a>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+    </table></td></tr></table></td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+  <!-- END FOOTER -->
+ </table>
+ <!-- END CONTAINER -->
+ <img src="https://click.hulumail.com/open.aspx?ffcb10-fe8710747c63027e72-fde91575716d0075721d7476-fe9515707360007972-ff931078-fe24177574610178761d77-feff1572746202&amp;d=40120&amp;bmt=0" width="1" height="1" alt="">
+  <img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=LpTo5dZh_1064447_sha256&amp;partner_uid=7157d2d565f385cced7668e85fb32d57c1ad23e890376aa10878121d341f9abc" width="0" height="0" style="display:none"> 
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=LpTo5dZh_1064447_subid&amp;partner_uid=351555397" width="0" height="0" style="display:none"> 
+<img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=spkt9jxqy&amp;advertiserid=1064447&amp;campaignid=202106_ESPN+_UFC263_JuneUpsellPPV_ERUnentSubs" width="0" height="0" style="display:none;">
+  <img src="https://pixel.inbox.exacttarget.com/pixel.gif?r=299ce47470ca11e030a1943b344b6005f701cd2e" width="1" height="1">
+ </custom></body>
+
+</html>
+
+--QPn8ZoMYJbGX=_?:--

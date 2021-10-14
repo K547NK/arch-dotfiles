@@ -1,0 +1,299 @@
+Received: from MW2NAM10HT248.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:805:106::32) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN6PR2101CA0022.NAMPRD21.PROD.OUTLOOK.COM; Fri, 4 Jun 2021 19:08:41
+ +0000
+Received: from MW2NAM10FT057.eop-nam10.prod.protection.outlook.com
+ (2a01:111:e400:7e87::41) by
+ MW2NAM10HT248.eop-nam10.prod.protection.outlook.com (2a01:111:e400:7e87::468)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4150.28; Fri, 4 Jun
+ 2021 19:08:40 +0000
+Authentication-Results: spf=pass (sender IP is 208.85.50.18)
+ smtp.mailfrom=bounce.e.myecp.com; outlook.com; dkim=pass (signature was
+ verified) header.d=e.myecp.com;outlook.com; dmarc=pass action=none
+ header.from=e.myecp.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.e.myecp.com
+ designates 208.85.50.18 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.85.50.18; helo=mail9936.e.myecp.com;
+Received: from mail9936.e.myecp.com (208.85.50.18) by
+ MW2NAM10FT057.mail.protection.outlook.com (10.13.154.229) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4195.18 via Frontend Transport; Fri, 4 Jun 2021 19:08:40 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:7E9C3FEDDAC7041BE03002F223C32614B1162711790E1510E414ED8B957EB2F0;UpperCasedChecksum:62554E14798E9D30423B4A3FD9D760B7771E111E9E5A37636E0EE60B60F5ADEF;SizeAsReceived:1432;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=spop1024; d=e.myecp.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ X-CSA-Complaints:List-Unsubscribe; i=MilitaryStar@e.myecp.com;
+ bh=gGC8+8SZTVpI9e+07y+NnlWKhb2FS0sfEbgeoJRZitM=;
+ b=zCMnyBUYxYscawDsGdnePK4pnEIugU0XDZcERV0exbwNLz8No4no7UIF0kx6fEa0I5v23Kc3h0XZ
+   olHavqwFyGqKItgYEuDYePTWVGmZYHqq0zf12HcIb9N/ZLJ/RteTS32VEnI/SMUGavg5IjJSzH2I
+   UMLyt9I5Qdg841kdTWM=
+Received: by mail9936.e.myecp.com id hn9t3g2r7aod for <nigel.agwah@outlook.com>; Fri, 4 Jun 2021 19:08:13 +0000 (envelope-from <v-bpnllne_empalmbflh_hfagfjmb_hfagfjmb_a@bounce.e.myecp.com>)
+Date: Fri, 4 Jun 2021 19:08:13 +0000 (GMT)
+From: Military Star <MilitaryStar@e.myecp.com>
+Reply-To: DoNotReply@e.myecp.com
+To: nigel.agwah@outlook.com
+Message-ID: <246129955.536252621622833693466.JavaMail.app@rbg12.atlis1>
+Subject: Father's Day Savings With MILITARY STAR
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_543687_247483993.1622833690227"
+x-mid: 33405908
+X-CSA-Complaints: csa-complaints@eco.de
+x-rpcampaign: sp33405908
+x-job: 33405908
+x-orgId: 3496
+List-Unsubscribe: <http://links.e.myecp.com/luoo/v1/bGJ1TEhPTEszdlcwcklnQkxqT25OVTRZWnVreTBnN3RCVXRzbmE1QTJFaStCTEZKczYyd3loMGFSem1XeXEzaDlwT0M2S3U2bHA2ZEpta1dLKzNuNDlMcExFM2w3THdGS0>, <mailto:v-bpnllne_empalmbflh_hfagfjmb_hfagfjmb_a@bounce.e.myecp.com?subject=Unsubscribe>
+X-IncomingHeaderCount: 16
+Return-Path: v-bpnllne_empalmbflh_hfagfjmb_hfagfjmb_a@bounce.e.myecp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 04 Jun 2021 19:08:40.6635
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ f013f375-92a2-4ca8-ad3d-08d9278c2a34
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM10FT057.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/4/2021 4:14:56 AM
+X-MS-Office365-Filtering-Correlation-Id: f013f375-92a2-4ca8-ad3d-08d9278c2a34
+X-MS-TrafficTypeDiagnostic: MW2NAM10HT248:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.85.50.18
+X-SID-PRA: MILITARYSTAR@E.MYECP.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Jun 2021 19:08:40.4127
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f013f375-92a2-4ca8-ad3d-08d9278c2a34
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM10FT057.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW2NAM10HT248
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.0838485
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4195.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100293)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdfE+//fR0cE95fXfDoK+L4yA42mzFv3w44D8+Q2zl5lOXzINlZmpUU+720/7/umEeAnWEEtZ/QtKtF5sF8ez7M7h3BBKumVHFvJEOCovWPlsNTluiAKFAUHAWXY0RTDsKn3iKDyKHlduJQDENu/Xh0m6qYB0F6bUs53jx7RbOJtJYMPCo0ZO6W+bx1bFx8L565d/n9zXyI4cg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?dzZQbTFURjluVGJ3OUNENS9OV1dEb1lpREU5TnR3RmVObVJNK2VqbXFCRk94?=
+ =?utf-8?B?d0hSTG5ZWURmK0JNeG9vbFYyK3VQSXZGV0VZTFRmZzB4WXFVS29kZk9aZXhy?=
+ =?utf-8?B?b1hpU3libXNSZTRMbGNZRFpCbjlTcHlhNFRCd1k1aXVhaDJlcUd3SmVoakov?=
+ =?utf-8?B?MHJyVE5ObldHa3lRalNNc0hJSGxTZ0Fldkh4OFJ1L2dnb2lmS0l3UllRdUk0?=
+ =?utf-8?B?VnByc1FNYXRJNWJpN1RtNmVhSHVPSjI4VTNZNm1DRGpUa3Jzcmw5NE1vWFVa?=
+ =?utf-8?B?akh0Y1ZEZk5BVkpFVnBTVzltQjdIUmFPYzk1bHFyaXhKbXFoTFhoZnhZZjVO?=
+ =?utf-8?B?TmIyRzZIbFc1RWZvM09kRWRnWWN4UWc2YkZwT3hhU0tEaGZ3cmM2eVVrc3Z6?=
+ =?utf-8?B?U1ZnK2pvcnhGNXFLM3VsOW1tK0RFUWxLRDMwNVd4UmZIRFYyK2JySXU3UEJ0?=
+ =?utf-8?B?Q0NQMG9GY3dEYktwZzdMVGNucmNSLzIwb1cyVTRnRm94T1VsMms4KzNSRXh4?=
+ =?utf-8?B?Skdnd3kzZTRYR2FidVVEazlIaUhMVUpHTGg5R3dMUVhQbHdrZEFscEZLOWFQ?=
+ =?utf-8?B?cE1rZzg3Qm9aUjRnSmJOMlMwN3E5SnVkcW9tYWo2R0JRTjJnR3J5YzROL1hJ?=
+ =?utf-8?B?ZUZGUGVCS2hMTGVpdzlyYTNyTklZQ0t6bXY2cVpaR1NNWS9vL2h2OXI4OHFN?=
+ =?utf-8?B?OHJJWjBvMTJMVGdmczdoWE1hYVNqYkVEczBQNXZ4Q2toSEVmc0xQTy9SSDk0?=
+ =?utf-8?B?RTBiVG53WlppakhJeUwxWXdWZmRhZVFRWjZzMXM2UmpzbmdsNTkzaTlEY2Z1?=
+ =?utf-8?B?SisxV2tsdmRtSU5yUGVZbEFMc1dBTkFxSlpyOFhJWmszVGxBOUJ1MnZoT1Fo?=
+ =?utf-8?B?dElQNVJCdHNmd1A2d1dBOWNMemo4cFppa0xNWG9KeTNFNnZhVWFpa0NYVWVm?=
+ =?utf-8?B?YmRsZTBxSDI1bXlWTjRKWkQ3K2RNM0JJbEd3T2lZTm5jbTA1S21ySjBsS08y?=
+ =?utf-8?B?Wmk3b0xNcExaVS90YWdNR2d1NmZ4VEphdFlKaFA4dXBpVmY0bHVXRnlxTTdy?=
+ =?utf-8?B?a2FvOW9MbGxlMU0yYUhZTEhSa2IxNlBRb2VIcDdLNmZrRGlZM1dyUlVUeUQz?=
+ =?utf-8?B?TzBZOWo4TUVUU083bTNtTkFUMXQva2xWY0ErV25mNUxwNlh1bmhrUm5vbHVK?=
+ =?utf-8?B?NjAxY3AvSE1ZeDhhYkRpSlhEbWl1Wkt0TER4WkRncWd0MmJISmlTajM2Z0xJ?=
+ =?utf-8?B?ZlFaeERUN3IxZFdJRk5LakhkaTl3T0JNZFIxc2s3aFdUSW1rbFB0cjJpMmtm?=
+ =?utf-8?B?WU1yaWxESmszSzgrYzRiY2F6MmxXMVU3aEU1WDBMM3E3VGlRd1Q3STJYTktE?=
+ =?utf-8?B?VjhoZzYzcUM2M1gzcXJqdUNRcnZDZjlud00xZ1B3V2hyLzJjR0c4clBLVThx?=
+ =?utf-8?B?ZmNlK0t5NkpqWmF2R2dSRnJkQmd3eVFackVtKzMxeWttUTdqUDlrN0VDSE5r?=
+ =?utf-8?B?Y1d5U2dkQ3l5d3lhVVhpWXdIZXRZWmdPNGtRVTQranVlaHcrRm03b3ljOWhS?=
+ =?utf-8?B?eTN0YUdGL1ZKSW5uSWdUT2hLdlc5TUdJeGROOWlRZVVvU3M5SnJtMDRZWkVW?=
+ =?utf-8?B?TzVJVEFFbE9KZTJ4dmtnQWdXTkhJQUQwME5jUFhSdjRjOHRWQ1NFRXZYUmdO?=
+ =?utf-8?B?WnVKZU12MGZGUUZYeFhJemZWOC9jaGpGWSt5Wi9GWFQyMUxGR0FYSjE1V0Rl?=
+ =?utf-8?B?eXF3K1NOQk0yYXNVM3J1a0NkL1dnWkhDNFhDK096eDlUeXQ1aE44cHNzdW5G?=
+ =?utf-8?B?TS9RRlAzQ3RzQmdRbElMVkZCWi9BTmRVSCtnM1RwZjIwZkNMWHd5OUJYZVE2?=
+ =?utf-8?B?dk15NUFpS1AxUTZIWnFiOXhCR3pmRC9qU0twV2xQbk5xTGtBVjVwVWpGbjNj?=
+ =?utf-8?B?MHJ3V2trZ3dCZEx6T2ZCbXp3OFV6aStOL1cyV3BPRXpqeHJid2dZdlJFZkdj?=
+ =?utf-8?B?cXAwNTlaRWpJOTB2VzVheS9zVEg2M3RLWEU1Z2trK2lVaEw3cGt2dExWMExX?=
+ =?utf-8?B?RjdEVHMzQWxPTkxwU0M4ZzFCcFp0c1hoLzUzZDF5eU9BaFJJaWprUXJyblFy?=
+ =?utf-8?B?UTNtUThKYnc1cDdRNTI0c3VRZy9wWTZmV2JzNEE3MzNBZU1wM3VPL3N6M3R5?=
+ =?utf-8?Q?+Z5M7s/RNx999tt8fVsAeFAC2IS2iRay72YBPPNPf8ty?=
+MIME-Version: 1.0
+X-TUID: HOl+VzVqwe3f
+
+------=_Part_543687_247483993.1622833690227
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+To view this mail in a browser, copy http://links.e.myecp.com/servlet/MailView?ms=MzM0MDU5MDgS1&r=MzMwNDU2MzcyNjYzS0&j=MTk2MzM1MDQ2NQS2&mt=1&rt=0 into your browser.
+
+<html>
+<head>
+	<title></title>
+	<meta http://links.e.myecp.com/els/v2/-LDmF~j6kdMr/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ e" content="text/html; charset=UTF-8">
+</head>
+<body>&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	<tbody>
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				<tbody>
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" name=" http://links.e.myecp.com/els/v2/j97zQXDwgrQy/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " spname=" http://links.e.myecp.com/els/v2/bx7YF-NpGwsd/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " src=" http://links.e.myecp.com/els/v2/Ape3F7vw0AsR/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " width="419" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#314B5B;" width="419">
+							<tbody>
+								<tr>
+									<td width="419">
+									<center><font color="#003d77"><span style="font-size: 25px;"><b>Father's Day Savings With MILITARY STAR<br />
+									<img border="0" contentid="2e6443d1-179d778c3fb-a7548a3fbbe3d9f8bac3b3472c6792ee" height="74.34" name="5MilitaryStarCard_Civilian.jpg" spname="5MilitaryStarCard_Civilian.jpg" src="5MilitaryStarCard_Civilian.jpg" width="118"  /></b></span></font><br />
+									<br />
+									Celebrate dad with something special.<br />
+									<br />
+									<a href=" http://links.e.myecp.com/els/v2/~N~PBR8ajqM2/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " name="Cologne" target="_blank" ><img border="0" contentid="2e6443d1-179d7820fe6-a7548a3fbbe3d9f8bac3b3472c6792ee" height="148" name="V 2421013_0000_alt1.jpg" spname="V 2421013_0000_alt1.jpg" src="V 2421013_0000_alt1.jpg" width="208"  /></a><br />
+									<br />
+									Get $15 off $100* purchase of fragrances and grooming products<br />
+									when you use MILITARY STAR Jun 4-20, 2021.<br />
+									Online code is <a href=" http://links.e.myecp.com/els/v2/PwvPFbYZgwJk/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " name="Hyperlink_20210506_085840496" target="_blank" >FATHER21</a>.<br />
+									<br />
+									<a href=" http://links.e.myecp.com/els/v2/PwvPFbYZgwJk/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " name="Apple" target="_blank" ><img border="0" contentid="2e6443d1-179d7820fd9-a7548a3fbbe3d9f8bac3b3472c6792ee" height="121" name="Apple.jpg" spname="Apple.jpg" src="Apple.jpg" width="375"  /></a><br />
+									Plus get 0% interest and make no payments** for 12 months on Apple purchases of $499 or more with MILITARY STAR.<br />
+									<br />
+									Shop Now At <a href=" http://links.e.myecp.com/els/v2/~N~PBR8ajqM2/Wk5HbXFGVmdTSEZnNExzOVk2VHNsVFFuUnM3b2czUXpRa0FqZUFwQzVJVUVWb3J1Y2VuLy9ocjZCVWFBTmpqNjhtK3lWTHREMmlmUzQxUUtRRFBYemVXamNTZGZua1NER0dtczhLME85OUk9S0/ " name="Hyperlink_20210506_090212266" target="_blank" >ShopMyExchange.com</a><br />
+									<br />
+									Happy Father's Day to all of our Exchange family.</center>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	<tbody>
+		<tr>
+			<td>*Valid June 4 &ndash; 20, 2021 at any Army &amp; Air Force Exchange Service facility or at shopmyexchange.com. Must be used in a single transaction. This offer is limited to cosmetics, fragrances, bath and body, hair care, skin care and nail products. Limit one coupon offer per customer per day. Cannot be combined with any other offer. No cash redemption value. Not valid on prior purchases. Limited quantities. Excludes layaway and clearance. Not valid at concessionaires, NEX, CGX or MCX facilities. Offer ends 2359 CT June 20, 2021.<br />
+			<br />
+			**Valid June 4 &ndash; 17, 2021 at any Army &amp; Air Force Exchange facility and shopmyexchange.com. Must be an Apple purchase of $499 or more in a single transaction. Limited to stock available. Excludes Apple smartphones, prior purchases, concessionaires, Exchange Online MarketPlace and NEX, MCX and CGX. Offer ends at 2359 CT on final day of promotion. MILITARY STAR promotions subject to credit approval. Standard account terms apply to non-promotional purchases and, after promotion ends, to promotional purchases. As of March 16, 2020, a variable 10.24% APR applies to retail plan purchases, and a variable 18.24% APR applies to accounts subject to penalty APR. Minimum interest charge: 50&cent;. See Exchange Credit Program agreement for more details.<br />
+			<br />
+			This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US.<br />
+			You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email.<br />
+			To unsubscribe from future marketing emails, <a href="#LPWEBFORMOPTIN" name="Opt Out" target="_blank" xt="LPWEBFORMOPTIN" xtwebform="9413601">click here</a>.</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom></body>
+</html>
+
+
+
+------=_Part_543687_247483993.1622833690227
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+	
+</head>
+<body><center><font size="1" color="#000000" face="ARIAL">This message contains graphics.  If you do not see the graphics, <a href="http://links.e.myecp.com/servlet/MailView?ms=MzM0MDU5MDgS1&amp;r=MzMwNDU2MzcyNjYzS0&amp;j=MTk2MzM1MDQ2NQS2&amp;mt=1&amp;rt=0">click here to view</a>.</font><font face="ARIAL" color="#808080" size="2"><br></font></center>&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" src="http://www.aafes.com/Emailimages/images/MilitaryStar/MyECPBANNER.jpg" width="419"></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#314B5B;" width="419">
+							
+								<tr>
+									<td width="419">
+									<center><font color="#003d77"><span style="font-size: 25px;"><b>Father's Day Savings With MILITARY STAR<br>
+									<img border="0" height="74.34" src="http://contentz.mkt10535.com/ra/2021/3496/06/33405908/5MilitaryStarCard_Civilian.jpg" width="118"></b></span></font><br>
+									<br>
+									Celebrate dad with something special.<br>
+									<br>
+									<a href="http://links.e.myecp.com/els/v2/~N~PBR8ajqM2/TlBCNWk4aFJqbXpES0RiNXdZVHlxWTYyUEEyRFFhVmpydmxvZ2h2UmVQRkdUWUdtS3Z4ZUROS0d5Z3JHd1pPckhvRDQzLzA2dktCTGJyd2cwZG91SHY5ME1wTG40UTA3clpkVy96OTQvR1k9S0/" name="Cologne" target="_blank"><img border="0" height="148" src="http://contentz.mkt10535.com/ra/2021/3496/06/33405908/V%202421013_0000_alt1.jpg" width="208"></a><br>
+									<br>
+									Get $15 off $100* purchase of fragrances and grooming products<br>
+									when you use MILITARY STAR Jun 4-20, 2021.<br>
+									Online code is <a href="http://links.e.myecp.com/els/v2/PwvPFbYZgwJk/TlBCNWk4aFJqbXpES0RiNXdZVHlxWTYyUEEyRFFhVmpydmxvZ2h2UmVQRkdUWUdtS3Z4ZUROS0d5Z3JHd1pPckhvRDQzLzA2dktCTGJyd2cwZG91SHY5ME1wTG40UTA3clpkVy96OTQvR1k9S0/" name="Hyperlink_20210506_085840496" target="_blank">FATHER21</a>.<br>
+									<br>
+									<a href="http://links.e.myecp.com/els/v2/k_7ZQ2AzY~Jm/TlBCNWk4aFJqbXpES0RiNXdZVHlxWTYyUEEyRFFhVmpydmxvZ2h2UmVQRkdUWUdtS3Z4ZUROS0d5Z3JHd1pPckhvRDQzLzA2dktCTGJyd2cwZG91SHY5ME1wTG40UTA3clpkVy96OTQvR1k9S0/" name="Apple" target="_blank"><img border="0" height="121" src="http://contentz.mkt10535.com/ra/2021/3496/06/33405908/Apple.jpg" width="375"></a><br>
+									Plus get 0% interest and make no payments** for 12 months on Apple purchases of $499 or more with MILITARY STAR.<br>
+									<br>
+									Shop Now At <a href="http://links.e.myecp.com/els/v2/rN~3BGDqKeMv/TlBCNWk4aFJqbXpES0RiNXdZVHlxWTYyUEEyRFFhVmpydmxvZ2h2UmVQRkdUWUdtS3Z4ZUROS0d5Z3JHd1pPckhvRDQzLzA2dktCTGJyd2cwZG91SHY5ME1wTG40UTA3clpkVy96OTQvR1k9S0/" name="Hyperlink_20210506_090212266" target="_blank">ShopMyExchange.com</a><br>
+									<br>
+									Happy Father's Day to all of our Exchange family.</center>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	
+		<tr>
+			<td>*Valid June 4 – 20, 2021 at any Army &amp; Air Force Exchange Service facility or at shopmyexchange.com. Must be used in a single transaction. This offer is limited to cosmetics, fragrances, bath and body, hair care, skin care and nail products. Limit one coupon offer per customer per day. Cannot be combined with any other offer. No cash redemption value. Not valid on prior purchases. Limited quantities. Excludes layaway and clearance. Not valid at concessionaires, NEX, CGX or MCX facilities. Offer ends 2359 CT June 20, 2021.<br>
+			<br>
+			**Valid June 4 – 17, 2021 at any Army &amp; Air Force Exchange facility and shopmyexchange.com. Must be an Apple purchase of $499 or more in a single transaction. Limited to stock available. Excludes Apple smartphones, prior purchases, concessionaires, Exchange Online MarketPlace and NEX, MCX and CGX. Offer ends at 2359 CT on final day of promotion. MILITARY STAR promotions subject to credit approval. Standard account terms apply to non-promotional purchases and, after promotion ends, to promotional purchases. As of March 16, 2020, a variable 10.24% APR applies to retail plan purchases, and a variable 18.24% APR applies to accounts subject to penalty APR. Minimum interest charge: 50¢. See Exchange Credit Program agreement for more details.<br>
+			<br>
+			This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US.<br>
+			You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email.<br>
+			To unsubscribe from future marketing emails, <a href="https://www.pages01.net/militarystar/optout/MktgOptOut?spMailingID=33405908&amp;spUserID=MzMwNDU2MzcyNjYzS0&amp;spJobID=MTk2MzM1MDQ2NQS2&amp;spReportId=MTk2MzM1MDQ2NQS2" name="Opt Out" target="_blank" xt="LPWEBFORMOPTIN" xtwebform="9413601">click here</a>.</td>
+		</tr>
+	
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom><img src="http://links.e.myecp.com/open/log/33405908/MzMwNDU2MzcyNjYzS0/0/MTk2MzM1MDQ2NQS2/1/0" style="display: none"></body>
+</html>
+
+
+
+------=_Part_543687_247483993.1622833690227--

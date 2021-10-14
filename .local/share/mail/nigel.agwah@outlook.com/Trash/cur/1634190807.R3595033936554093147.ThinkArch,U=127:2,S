@@ -1,0 +1,566 @@
+Received: from VI1EUR05HT139.eop-eur05.prod.protection.outlook.com
+ (2603:10b6:806:122::11) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7PR04CA0096.NAMPRD04.PROD.OUTLOOK.COM; Sun, 23 May 2021 22:31:38
+ +0000
+Received: from VI1EUR05FT057.eop-eur05.prod.protection.outlook.com
+ (2a01:111:e400:fc12::46) by
+ VI1EUR05HT139.eop-eur05.prod.protection.outlook.com (2a01:111:e400:fc12::305)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4129.25; Sun, 23 May
+ 2021 22:31:37 +0000
+Authentication-Results: spf=pass (sender IP is 68.232.199.217)
+ smtp.mailfrom=bounce.email1.geico.com; outlook.com; dkim=pass (signature was
+ verified) header.d=email1.geico.com;outlook.com; dmarc=pass action=none
+ header.from=email1.geico.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.email1.geico.com
+ designates 68.232.199.217 as permitted sender)
+ receiver=protection.outlook.com; client-ip=68.232.199.217;
+ helo=mta.email1.geico.com;
+Received: from mta.email1.geico.com (68.232.199.217) by
+ VI1EUR05FT057.mail.protection.outlook.com (10.233.242.213) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4129.25 via Frontend Transport; Sun, 23 May 2021 22:31:37 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:CC5B94D0E662CF115C39EDC55FE30CFEF3970EA5596C2AB067EEB3E03C2EBD2F;UpperCasedChecksum:6DB0A032D46481C151DE12D3776FE235444D3D76E0FA5638C09475DE252BE44F;SizeAsReceived:1470;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=email1.geico.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:List-ID:
+ X-CSA-Complaints:Message-ID:Content-Type; i=geico@email1.geico.com;
+ bh=IpV22CvXZz0u0k4Lql/6H8n81z/yEMy6q3I3XF5NiTc=;
+ b=nlSKxS3TRgxFSx+6XCpnqnS8TVzPutYeRzWi6Sr15h1vZm/+SLU3Y9grFmATLvM+6uOUOX7O9Zl0
+   Fr3TwDkL6R2lf7hvAGvdwoNapJi2vchAjxKq0LlLjJGxWMRxQ7P2D8Z7P2R6v66d9SgFptUBCvNI
+   Iv8JPfVFN4E0yutH0fE=
+Received: by mta.email1.geico.com id hlbbsi2fmd4o for <nigel.agwah@outlook.com>; Sun, 23 May 2021 22:31:35 +0000 (envelope-from <bounce-22_HTML-666105439-785802-1058498-1@bounce.email1.geico.com>)
+From: "GEICO" <geico@email1.geico.com>
+To: <nigel.agwah@outlook.com>
+Subject: It's time to update your GEICO policy
+Date: Sun, 23 May 2021 16:31:35 -0600
+List-Help: <https://click.email1.geico.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDU4NDk4IiwicyI6IjY2NjEwNTQzOSIsImxpZCI6IjIyIiwiaiI6Ijc4NTgwMiIsImpiIjoiMSIsImQiOiI0MDEyMCJ9.uRdX_0FFr2TsH2HA-JokJEan7fEnaf6WAbPgMfwdlIk>
+x-CSA-Compliance-Source: SFMC
+Reply-To: "GEICO" <reply-fec11378706c047f-22_HTML-666105439-1058498-1@email1.geico.com>
+List-ID: <1055280.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 4
+x-job: 1058498_785802
+Message-ID: <4f4f0d55-73d3-47fc-9262-dc0a3e871966@las1s04mta1287.xt.local>
+Content-Type: multipart/alternative;
+	boundary="50C9KjQ8EyGN=_?:"
+X-IncomingHeaderCount: 16
+Return-Path: bounce-22_HTML-666105439-785802-1058498-1@bounce.email1.geico.com
+X-MS-Exchange-Organization-ExpirationStartTime: 23 May 2021 22:31:37.6231
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 57138ee4-a31e-4054-419b-08d91e3a8748
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR05FT057.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 5/23/2021 10:29:43 PM
+X-MS-Office365-Filtering-Correlation-Id: 57138ee4-a31e-4054-419b-08d91e3a8748
+X-MS-TrafficTypeDiagnostic: VI1EUR05HT139:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 68.232.199.217
+X-SID-PRA: GEICO@EMAIL1.GEICO.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 May 2021 22:31:37.0924
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 57138ee4-a31e-4054-419b-08d91e3a8748
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR05FT057.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1EUR05HT139
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7066682
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4150.027
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100293)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6250099)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdc3DhKdJvoz2M5W90ODIcFd27aN52wUbgvjQEt514ySpLiBlXmy6En+kOspPRDems1yNsGtW3n+UIKKujnrhgPpTnPjx07mvj/N5Rc3IgpniOIa68AW97vr5RAiDs1MgJqmg3HDGz6duQh/hpwIE1CHq4JW2EbbR13Rc9bcO8IyEOukTbJTD2yS0RXK7BZJGkr84x3019IqnQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?ZNdZuRQ5AIq2WMzvdeovKu2V6b8HcW60Q19FmarBZE8oBb6vdE4IcOtBcVud?=
+ =?us-ascii?Q?VT/qX1miP74UghWFUcZfyqelj2/+tt0AA90HMCcjvQT/xquDTIIiKT9BUBYz?=
+ =?us-ascii?Q?UBqIpxbHpy/IOE8lMMq7ReB092rM28FBZ8hNz6fZcof6CN5eMYSBVYo87XK9?=
+ =?us-ascii?Q?fVN9XnYHMMaZeDf479Skw0Y4JrqJxevPwaFdyJRjEJkhB3uPkuogScw8Xkw4?=
+ =?us-ascii?Q?7rGZZMrUiqZs2nGG+yWUI3XsdXwrN+RNeKPzT+C4pyFl3z/CcoBkfaf0uCvW?=
+ =?us-ascii?Q?/OKuZuaksysc3whrrVLvHv6cVrh5/rln0c9mKBt38gVl1sv/fmgVWhFKYLN8?=
+ =?us-ascii?Q?VhBF5nGxCUG5sBTGpBAbsWLNlhvqWltbhqRkY4+Dx/04WUG/5klq2HsJOjmZ?=
+ =?us-ascii?Q?uJzWBFrw9ScZ2RcOrjM8X/SNtXyD1fc3Bi93QXXkTgRJqIzV+u6AH7hsJ6vU?=
+ =?us-ascii?Q?WlIh8e3fJcUNcn9q3yQRNkQAYmw84sjlKc0C2SjLtwbrbx5ulvNoxJIhgV8F?=
+ =?us-ascii?Q?jEMY0+qX3eVmU9mYgShdUxQK5nd3Av+xAb/ByVgCYsndZtaSWrPEqkbwnurs?=
+ =?us-ascii?Q?hATTwY6pE4+TwkgjXdVkpH0kGerzvY0KPmQe6+wePmlTE3kgtd+ak3sMkxGY?=
+ =?us-ascii?Q?fRj8wPel145PVdKiYEC+0GghiVuwV+JgQCYQNcl3mjX7ocDD6qkIG6jHOIv+?=
+ =?us-ascii?Q?EqyCCRM1EYlb32GmHlPeyfe4OZ7R5iikvHwgHBEvCL6/JKkLYmgOd08dmnYB?=
+ =?us-ascii?Q?fjCeNRfmNuCKKkVn7jp/XKhMPJAHpHciY9RGHIWsSq/x2BenOD89imRTrqhS?=
+ =?us-ascii?Q?o4FKHXrR0vI8MX5jZXAI4BiiLjERcZGK9yVX3G+w+k2PQDjGTlDlGBjxQ/pE?=
+ =?us-ascii?Q?Ds+3ufDYPeFIv8iApr7Rz2UTJz8C7esiWEmD7la1RWnMc0+4RqVbZuo89P2X?=
+ =?us-ascii?Q?2lz4O2uMDJp9v56Otd9ChDv9/q0ZNUNCv1mgYA5eTEIKtxIcE0XmqBHPs7dI?=
+ =?us-ascii?Q?YNomcvIX3hzJF9VV/Q91zdvs8TWr2dtn/tigZf+18WgmLMUEXrfZYOqcF9y/?=
+ =?us-ascii?Q?PmlSm95XEi4vb3d/j5vhaY7tULr55Dxpy0dKKIK0oX5JC//IAAmUPgO/NeJs?=
+ =?us-ascii?Q?Rv42kdWAsxnJeXwf0fhq+SVGfVxBbi7YgY5smfzaDNFxY5U/jIBsh2nY0yUg?=
+ =?us-ascii?Q?uVpx1/aTKnDEkLG792+ARIO1b8oatbAtN4m0HxOpL8gm6ZTj6IgnNWqf613Y?=
+ =?us-ascii?Q?hUVb1JDhFBcDIDRfOz47k9EaSLTGmA50DNX4IbcylgDONV6/uLpYdllPD2z6?=
+ =?us-ascii?Q?eH5wyaGTgJ/v8BDP+eI09yXoz94ilUMGGpvkihHrwptgUdTV/6BpvXntIU2z?=
+ =?us-ascii?Q?K52fDISsV/bdKlAB3IOZ33tXX6s2UkrvAwkrwSvgb9a1mQL3/5C3m8yKiLHA?=
+ =?us-ascii?Q?O6dGP00F8GYaa/PtdzDKJ0fNUNCH6LdonQ/XdpzelVQQQKWVfanM/hJVaJu+?=
+ =?us-ascii?Q?tY4wI/tJnE9CNKzxEn1KHwUPyRJVMrBeR2Cnr7BtdOFFM/3lnUkcnm4l/C9F?=
+ =?us-ascii?Q?wxjC44R8x1Vdl9TQgcvFdHTGyGqJsXNi79aT58396Kl/LvxzC8AczAZqHhn8?=
+ =?us-ascii?Q?xm+tt8rvVxJWi7A5kHinSflD1BRPLewfXsj7KS2iYSnZ?=
+MIME-Version: 1.0
+X-TUID: SuNaoiPVv62T
+
+--50C9KjQ8EyGN=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a94eeddc690263c887e1402cd5ad152dbea41585f9e6f4efdca1733e281c9fd78e3847ec0fff314993744fdb64528865e75 
+
+
+
+NIGEL AGWAH
+Policy Number: 4552666101
+
+Is your information up to date?
+Thank you for continuing to choose GEICO for your automobile insurance needs. Periodically, we ask you to confirm that your auto policy information is up to date so we may ensure we are providing you with the most accurate rate on your insurance.  For your convenience, you can do this online within the next 30 days.
+To access your policy renewal review, simply 
+https://click.email1.geico.com/?qs=ff6b4f13abde8a944948b67980920316fd18090f6df73eeadfc6027634235e0c311b4130819c887a68663cb3c6fc7cab4314e62e8f39c7db 
+log in  to your policy. 
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a944948b67980920316fd18090f6df73eeadfc6027634235e0c311b4130819c887a68663cb3c6fc7cab4314e62e8f39c7db 
+START MY POLICY REVIEW
+
+Thank you for trusting GEICO to provide the quality service you and your family deserve. We look forward to insuring you for many years to come.
+Sincerely,
+Your GEICO Service Team
+
+
+Please note that you cannot opt-out of email that is required to properly service your policy. To manage your email subscriptions, please click 
+https://click.email1.geico.com/?qs=ff6b4f13abde8a94a018862e8eaa1218f723e60383f25750b1877949e3192263e7a41c6adb9fef3c3a34f90e3cb863fdf384b778091f3016 
+here . 
+
+
+
+This email was sent to you at the following email address: 
+mailto:nigel.agwah@outlook.com 
+nigel.agwah@outlook.com 
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a94a018862e8eaa1218f723e60383f25750b1877949e3192263e7a41c6adb9fef3c3a34f90e3cb863fdf384b778091f3016 
+Manage Your Email Subscriptions 
+https://click.email1.geico.com/?qs=ff6b4f13abde8a94e1d8f1bdfd42dd2190dfe7cd676d7cdbd719e6fddc4e52d00207e6ec83909d5cc6e2dd5b59f5e9efc6ef935300c778c8 
+Contact Us 
+https://click.email1.geico.com/?qs=ff6b4f13abde8a94590c3fcfc54fc54ceba8d4c89027e0a95b5ba508c80e9f0424528537c5bb5014c53253f3bb8cdba1b4185e8f4e95e6b6 
+Privacy Policy 
+
+ Message ID: GE000088
+
+ Version Number: 806341934
+https://click.email1.geico.com/?qs=ff6b4f13abde8a942932ff077179b4342402ad403826873e4561d8d24c3f1291e49ebd076ef0aa75f9716758c837bb29f67fa3b06355eff9 
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a94241db3de984e0026b11aa17275299683b843391756cb146ace4c0baeaf74df4bfac8d307f77a491fa70fa6df48cb68e6 
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a946320d73385f25d5d920ce129738b9813763af0aa77e2d408bb48ade137aef9659baad6034719345abebbfc30eacd42fd 
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a942e4720ff28990748af3cb8653f110a2929104ca7448943dceae4e163a671470f757b7559de37254d98ed8fb1eb4a2097 
+
+https://click.email1.geico.com/?qs=ff6b4f13abde8a947f329e03bd838ca3aba3e74ee3eecdb60f78fba29235f88c2bf7658442c8fec20b0d197b17ad74ec136411146d8b5fda 
+
+
+ GEICO Casualty Company
+ 
+
+ One GEICO Plaza, Washington, D.C. 20076
+
+
+
+
+
+
+
+--50C9KjQ8EyGN=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head>
+<body style="margin: 0px; -webkit-text-size-adjust:none;" yahoo="fix">
+<style type="text/css">
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+line-height: 100%;
+}
+table td {
+border-collapse: collapse;
+}
+table tr td {
+mso-line-height-rule: exactly;
+}
+.appleLinks a {
+color: #000001;
+text-decoration: none;
+}
+.appleLinksWhite a {
+color: #ffffff;
+text-decoration: none;
+}
+.appleLinksDarkGray a {
+color: #60574A;
+text-decoration: none;
+}
+@-ms-viewport{
+    width: device-width;
+}
+@media only screen and (max-device-width: 1024px) {
+body[yahoo] .show {
+    display: block !important;
+	margin:0 !important;
+	padding:0 !important;
+	overflow: visible !important;
+	width: auto !important;
+	max-height:inherit !important;	
+	}
+
+}
+</style>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	  <td align="left" valign="top" bgcolor="#ffffff" style="padding-right:0px; padding-left:0px;">
+	  	<div align="center">
+			<table align="center" width="548" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<!-- Ampscript Section Starts From Here -->
+					<td align="left" style="padding-left:4px;"></td>
+					<!-- Ampscript Section Ends Here --> 
+				</tr>
+			</table>
+		</div>
+	  </td>
+  	</tr>
+	<tr>
+		<td width="100%" align="left" valign="top" bgcolor="#ffffff">
+		<div align="center">
+		<table align="center" width="548" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #bab4ab; min-width: 548px;">
+			<tr>
+				<td width="548" align="left" valign="middle" bgcolor="#f1f0ec" style="padding-left:0px; padding-right:0px;">
+				<div align="center">
+				<table align="center" width="548" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<!-- Pre-Header Section Starts From Here -->
+						<td width="340" align="left" valign="middle" style="padding-left:30px;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>
+									
+								</td>
+							</tr>
+						</table>
+						</td>
+						<!-- Pre-Header Section Ends Here --> 
+					</tr>
+				</table>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						 
+						<!-- Logo Section Starts From Here -->
+						<td width="150" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tbody>
+		<tr>
+			<td valign="top" align="left"><a style="color: #000001; text-decoration: none;" target="_blank" href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a94eeddc690263c887e1402cd5ad152dbea41585f9e6f4efdca1733e281c9fd78e3847ec0fff314993744fdb64528865e75"><img width="150" height="60" border="0" alt="GEICO Logo" src="https://media.geico.com/email/images/3.0/geico-logo.jpg" style="display: block;"></a></td>
+		</tr>
+	</tbody>
+</table>	
+								</td>
+							</tr>
+						</table>
+						</td>
+						<!-- Logo Section Ends Here --> 
+						<!-- Account info Section Starts From Here -->
+						<td style="padding-right:30px; background:#154995; color:#ffffff;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="right">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="right" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #ffffff; line-height:18px;">NIGEL AGWAH</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #ffffff; line-height:18px;"><span class="appleLinksWhite">Policy Number: 4552666101</span></td>
+		</tr>
+	</tbody>
+</table>
+								</td>
+						  </tr>
+						</table>
+						</td>
+						<!-- Account info Section Ends Here --> 
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size:0px;">
+         <tbody>
+                  <tr>
+                           <td bgcolor="#529dde" width="100%" height="8" style="background: #529dde;"></td>
+                  </tr>
+         </tbody>
+</table>
+
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left" valign="top" bgcolor="#ffffff" style="padding-top:0px; padding-right:30px; padding-bottom:30px; padding-left:30px;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<!-- Transactional Message Section Starts From Here -->
+								<td align="left" valign="top">
+									<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="padding-top: 60px; padding-right: 15px;"><img src="https://media.geico.com/email/images/3.0/icon-policy-review-POLICY.gif" width="30" style="width: 30px;" alt=""></td>
+			<td align="left" valign="top" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #529dde; line-height:24px; padding-bottom: 24px; padding-top: 60px;">Is your information up to date?</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Thank you for continuing to choose GEICO for your automobile insurance needs. Periodically, we ask you to confirm that your auto policy information is up to date so we may ensure we are providing you with the most accurate rate on your insurance.  For your convenience, you can do this online within the next 30 days.</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">  To access your policy renewal review, simply <a style="color: #154995;" href="https://click.email1.geico.com/?qs=ff6b4f13abde8a944948b67980920316fd18090f6df73eeadfc6027634235e0c311b4130819c887a68663cb3c6fc7cab4314e62e8f39c7db">log in</a> to your policy. </td>
+		</tr>
+
+
+	
+	</tbody>
+</table>
+
+<!-- START: BUTTON -->
+<table border="0" cellpadding="0" cellspacing="0">
+               <tbody>
+                              <tr>
+                                             <td bgcolor="#ff8800" background="https://media.geico.com/email/images/3.0/orange-button-left.jpg"><img alt="" src="https://media.geico.com/email/images/3.0/orange-button-left.jpg" width="24" height="40" border="0" style="display: block;"></td>
+                                             <td align="center" valign="middle" height="40px" bgcolor="#ff8800" background="https://media.geico.com/email/images/3.0/orange-button-bkgrd.jpg" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; background-repeat: repeat-x;"><a href="https://click.email1.geico.com/?qs=ff6b4f13abde8a944948b67980920316fd18090f6df73eeadfc6027634235e0c311b4130819c887a68663cb3c6fc7cab4314e62e8f39c7db" target="_blank" style="text-decoration: none; color: #ffffff;"><span style="color: #ffffff; text-transform:uppercase; font-weight:bold;">START MY POLICY REVIEW</span></a></td><td bgcolor="#ff8800" background="https://media.geico.com/email/images/3.0/orange-button-right.jpg">
+<img alt="" src="https://media.geico.com/email/images/3.0/orange-button-right.jpg" width="24" height="40" border="0" style="display: block;"></td>
+                              </tr>
+                              <!-- START: FORCE PROPER SPACING AFTER BUTTON -->
+                              <tr>
+                                             <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;"></td>
+                              </tr>
+                              <!-- END: FORCE PROPER SPACING AFTER BUTTON -->
+               </tbody>
+</table>
+<!-- END: BUTTON -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Thank you for trusting GEICO to provide the quality service you and your family deserve. We look forward to insuring you for many years to come.</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Sincerely,</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Your GEICO Service Team</td>
+		</tr>
+
+	</tbody>
+</table>
+
+
+
+
+
+								</td>
+								<!-- Transactional Message Section Ends Here --> 
+							</tr>
+							<tr>
+								<!-- Cross-Sell Section Starts From Here -->
+								<td align="left" valign="top"></td>
+								<!-- Cross-Sell Section Ends Here --> 
+							</tr>
+                            				<tr>
+								<!-- Mobile App Section Starts From Here -->
+								<td align="left" valign="top"></td>
+								<!-- Mobile App Section Ends Here --> 
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+																
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+									
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background: #bab4ab;">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; font-weight: normal; color: #ffffff; padding: 20px 30px; ">
+			Please note that you cannot opt-out of email that is required to properly service your policy. To manage your email subscriptions, please click <a style="text-decoration: underline; color:#ffffff;" href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a94a018862e8eaa1218f723e60383f25750b1877949e3192263e7a41c6adb9fef3c3a34f90e3cb863fdf384b778091f3016" target="_blank">here</a>. 
+			<br>
+			<br>
+			This email was sent to you at the following email address: <a href="mailto:nigel.agwah@outlook.com" mc-deep-link="false" style="color:#ffffff;">nigel.agwah@outlook.com</a>
+			<br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table width="100%" border="0" cellspacing="0" height="0" cellpadding="0" bgcolor="#ffffff" style="border-bottom: 1px solid #f2f0ec;">
+	<tbody>
+		<tr>
+			<td style="padding: 30px 0px 30px 30px;">
+				<a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a94a018862e8eaa1218f723e60383f25750b1877949e3192263e7a41c6adb9fef3c3a34f90e3cb863fdf384b778091f3016">Manage Your Email Subscriptions</a>
+			</td>
+			<td style="padding: 30px 0px 30px 30px;">
+				<a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a94e1d8f1bdfd42dd2190dfe7cd676d7cdbd719e6fddc4e52d00207e6ec83909d5cc6e2dd5b59f5e9efc6ef935300c778c8">Contact Us</a>
+			</td>
+			<td style="padding: 30px 0px 30px 30px;">
+				<a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a94590c3fcfc54fc54ceba8d4c89027e0a95b5ba508c80e9f0424528537c5bb5014c53253f3bb8cdba1b4185e8f4e95e6b6">Privacy Policy</a>
+			</td>
+			<td width="100">
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+    <tbody>
+        <tr>
+            <td width="390" style="padding:30px;">
+                     <span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #60574A; font-weight: bold;">
+                           Message ID: <span class="appleLinksDarkGray">GE000088</span>
+                           <br>
+                           Version Number: <span class="appleLinksDarkGray">806341934</span>
+                     </span>
+            </td>
+            <td valign="top" style="padding: 30px 5px 0px 0px;">
+                     <a href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a942932ff077179b4342402ad403826873e4561d8d24c3f1291e49ebd076ef0aa75f9716758c837bb29f67fa3b06355eff9"><img src="https://media.geico.com/email/images/g4/icon-facebook.gif" width="30" height="30" border="0" alt=""></a>
+            </td>
+            <td valign="top" style="padding: 30px 5px 0px 0px;">
+                     <a href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a94241db3de984e0026b11aa17275299683b843391756cb146ace4c0baeaf74df4bfac8d307f77a491fa70fa6df48cb68e6"><img src="https://media.geico.com/email/images/g4/icon-twitter.gif" width="30" height="30" border="0" alt=""></a>
+            </td>
+            <td valign="top" style="padding: 30px 5px 0px 0px;">
+                     <a href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a946320d73385f25d5d920ce129738b9813763af0aa77e2d408bb48ade137aef9659baad6034719345abebbfc30eacd42fd"><img src="https://media.geico.com/email/images/g4/icon-youtube.gif" width="30" height="30" border="0" alt=""></a>
+            </td>
+            <td valign="top" style="padding: 30px 5px 0px 0px;">
+                     <a href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a942e4720ff28990748af3cb8653f110a2929104ca7448943dceae4e163a671470f757b7559de37254d98ed8fb1eb4a2097"><img src="https://media.geico.com/email/images/g4/icon-instagram.gif" width="30" height="30" border="0" alt=""></a>
+            </td>
+            <td valign="top" style="padding: 30px 30px 0px 0px;">
+                     <a href="https://click.email1.geico.com/u/?qs=ff6b4f13abde8a947f329e03bd838ca3aba3e74ee3eecdb60f78fba29235f88c2bf7658442c8fec20b0d197b17ad74ec136411146d8b5fda"><img src="https://media.geico.com/email/images/g4/icon-tiktok.gif" width="30" height="30" border="0" alt=""></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+    <tbody>
+        <tr>
+        	<td style="padding:0px 30px 30px 30px;">
+           		<span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #bab4ab; font-weight: normal;">
+               		GEICO Casualty Company
+               		<br>
+               		One GEICO Plaza, Washington, D.C. 20076
+<img src="https://pixel.app.returnpath.net/pixel.gif?r=dd6018ab45e0617c5a2a2be3025ffccaaea33d25&amp;c=GE000088&amp;s=806341934 " width="1" height="1">
+               	</span>
+           	</td>
+        </tr>
+    </tbody>
+</table>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</div>
+		</td>
+	</tr>
+</table>
+<img src="https://click.email1.geico.com/open.aspx?ffcb10-fec11378706c047f-fe2f11787167017d751370-fe8c1570706c00747d-ff9b1672-fe27127673650478711779-ffce15&amp;d=40120&amp;bmt=0" width="1" height="1" alt="">
+</body></html>
+
+--50C9KjQ8EyGN=_?:--

@@ -1,0 +1,527 @@
+Received: from AM6EUR05HT080.eop-eur05.prod.protection.outlook.com
+ (2603:10b6:806:131::16) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0131.NAMPRD11.PROD.OUTLOOK.COM; Fri, 9 Jul 2021 02:34:47
+ +0000
+Received: from AM6EUR05FT067.eop-eur05.prod.protection.outlook.com
+ (2a01:111:e400:fc11::40) by
+ AM6EUR05HT080.eop-eur05.prod.protection.outlook.com (2a01:111:e400:fc11::350)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4308.20; Fri, 9 Jul
+ 2021 02:34:47 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.84.126)
+ smtp.mailfrom=amazonses.square.com; outlook.com; dkim=pass (signature was
+ verified) header.d=square.com;outlook.com; dmarc=pass action=none
+ header.from=square.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of amazonses.square.com
+ designates 54.240.84.126 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.84.126;
+ helo=a84-126.smtp-out.us-west-2.amazonses.com;
+Received: from a84-126.smtp-out.us-west-2.amazonses.com (54.240.84.126) by
+ AM6EUR05FT067.mail.protection.outlook.com (10.233.240.63) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4308.20 via Frontend Transport; Fri, 9 Jul 2021 02:34:46 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:CF722F54A4B5563B5D44631D766FDC365D71B44D409DA0C68C6523E676B74C25;UpperCasedChecksum:11B582F6046F314FB421422B282BDE92E44899E61FEDC411FF8258A630A57E66;SizeAsReceived:1482;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=j4ey24e2gjj35jy3sonan65bgdaduwny; d=square.com; t=1625798085;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=oTTVgJaVUZTIzcW1F9W2072XQGKmh8HCnSIWUq3VzyY=;
+	b=JweAHmr3xzyldd87Vi+ULv2yh2wmqxROUI9wFfVaC9BOoOPyJ2F1yQeWbdiU0Mlq
+	riFoOGC9EM1y9uXQrxccL6pIUgCcFOrkGQj4hRGE2D4dv3vsvP58uC8kM5z9Dt1k8sC
+	StwlLAolzAFpmT1H/t47Xcty1p3ZTVfMgXWLF7JY=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1625798085;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=oTTVgJaVUZTIzcW1F9W2072XQGKmh8HCnSIWUq3VzyY=;
+	b=f8yArYBk9/RW/SEjuDCvygAM9orhoWuX5jlLWA+TAbvQgQ1CsDP4btqEa2yopf5S
+	+350TSjsHpzTFYt4IfAqpzVkcMXOV4CFMHrko4wnKrxXpNcb3qrXCWw/TYM3033Bn4f
+	m6ycC2tmnGbo3z1lNn2KXJzjRzAlKKpxzO/2X9Fw=
+Date: Fri, 9 Jul 2021 02:34:44 +0000
+From: Cash App <cash@square.com>
+To: Nigel Agwah <nigel.agwah@outlook.com>
+Message-ID: <0101017a891e094f-b21de7e6-db33-455a-9c8b-29196a90f370-000000@us-west-2.amazonses.com>
+Subject: You received a direct deposit of $0.01
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9084575_1678630522.1625798084908"
+X-EMS-Request-ID: 200_a1d4d439-bc9d-4e94-abdc-cbc1366f5ce3
+X-ERS-Token: CD0QloLNxfeZ4PbzARj6jKSImfa13J4B
+Feedback-ID: 1.us-west-2.EF4Hd+uKJPJhWmZlVnJKCXQDkGNGjBpr4Wm4bmSPmbI=:AmazonSES
+X-SES-Outgoing: 2021.07.09-54.240.84.126
+X-IncomingHeaderCount: 13
+Return-Path:
+ 0101017a891e094f-b21de7e6-db33-455a-9c8b-29196a90f370-000000@amazonses.square.com
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Jul 2021 02:34:47.0890
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ af947a0e-ca93-457a-9350-08d942821e48
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM6EUR05FT067.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/7/2021 8:30:38 PM
+X-MS-Office365-Filtering-Correlation-Id: af947a0e-ca93-457a-9350-08d942821e48
+X-MS-TrafficTypeDiagnostic: AM6EUR05HT080:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.84.126
+X-SID-PRA: CASH@SQUARE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Jul 2021 02:34:46.6023
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: af947a0e-ca93-457a-9350-08d942821e48
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM6EUR05FT067.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6EUR05HT080
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3226773
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4308.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9050020)(9100313)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddhh69sIkKp9vIHCMbC1UsP+d/qsBCpfsXu8sixI6NGeoOfr1gSLRg2l1FrupAgjncOxkxuMclh/IL3M5tXX5zffe/jGUWCDITX7vUapcvvm6dj+qB30aYgJdeTlD9k1KTlZyxuLFLyTSd9ZV1QlXXbJoyStJW/bnHck50z0/1ry5WLBp32uIwXHbYu2B52BlDRVQwOYzCdhw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?dk8rOHhNR3BqRHBuUE1iSzJzNWtON2hQWmc4WDVOelFxRDN0ejFsbkd6VXpN?=
+ =?utf-8?B?dGJGK2dVWlVXNStoeFp5T2llUlMxNGQ1czNncC81OWJ6VkRzc0hrMnFYZ0Fu?=
+ =?utf-8?B?WnZ5QVFPY3ArZmlLaTdwUTdoOG4vQ2lROC9TRHQ5TnFTSUlUY2FDN0g0VVYr?=
+ =?utf-8?B?UTZ1QmpydDNFYitLNUQ1UE1kUVFFTmJLd3IvSC9uOElkOVAwMnV5cnZqSEFN?=
+ =?utf-8?B?YUpFNkM4RXVRcGg1M1lvTGEvekEwd2V3ZW01QnhWelRQdzcrSXBXQ0dMeXZs?=
+ =?utf-8?B?cmhiK1g2MlN0Q2tRZjJIUVdhaGVwdENPZlF6dTVGenFsVmRMN2pTczlxTjdR?=
+ =?utf-8?B?Mk5LcGxDdWhrWkJjUFRLeG1nZitpSGNYdWFiZVhjN0orWlcvS3Q5Ly93bDh0?=
+ =?utf-8?B?Q0J0YUZHcDUvaW9vOWtPR0lwUTRieVplbzdIcTdXc3d4TjFmcEFJdEhtaWla?=
+ =?utf-8?B?dHA1NG5NV2xwSXRWdmVSY1pyWGtSVUp2aWE2NTJZUlFYUy9VRllTUkF2UXZq?=
+ =?utf-8?B?UUxPY2ZnYjJHVkJOMUhVcEtTaUtkcU5vcWRuaVpKdzREK0Q1Q1NHaGwvdExH?=
+ =?utf-8?B?QW5mWFMyNE1UYVZvenNiMGMrU0ZaVjcyUTQrSUErbnFzenpRVU95ekhENmxF?=
+ =?utf-8?B?eW1MUUdJaUdpeCtLN3JYWEpjdThQZWx5M055TFJpT0FKU0JNMFBJK3ZNV0FS?=
+ =?utf-8?B?TjdWMEUvWW5SWlRySEdtblUwRkhmc0ZxWlBvUytFNG12QXZvd0hlQ3BtdHpk?=
+ =?utf-8?B?ckRQa3RlT0g1RzNCK25ZS283NGkxQnhEZjFVbUlzVU1GMFhiczJHRWlwWGJL?=
+ =?utf-8?B?QUhGUUdQSFpmNzhLTXlybWQ1RDBRMTZhNSs1cE1ZTEVrMUZrNGxneG45eXhW?=
+ =?utf-8?B?MVBsOFM3aUVTRlR3emRoNy9CR0kyYU5lNUhOZVJXVXExbTdmNjRQOWpDV3BJ?=
+ =?utf-8?B?aWtpOHJHZ2hRZWgrUkpQVEpxWngzNGJmN1g1MDZoRFlKY1NJU2R5a09jNjVi?=
+ =?utf-8?B?amgwdStsSDdkdzFxelkvUE04S1VRVUhzS0tjTnBzVEgrVkEwTWJyMFBLbWhP?=
+ =?utf-8?B?MkxLZEhhWmQyV25lWHRIODk0NC9PcSsva2UyaEFBNk9wRlZsT0ZVZ3NldTVt?=
+ =?utf-8?B?TmdTdEFoQThqS1lVakQ0R0NZbDlJQnFNZlJRVk5YalEwNGlXaG56NTYxOHZN?=
+ =?utf-8?B?TWdHTVFOVlc5QUpvWFMzelFSa0lXT2VmeDh0ZENZaW5sSjVrdmw5SlN2RUM2?=
+ =?utf-8?B?ZUVBLzVpWngxNmVPNjNXempLdEhheEVTTEdVKzF4UEVwZmxzNG9aWGdtS3FR?=
+ =?utf-8?B?SGY0R1dkUC8vUVJoWGZsazRxZCt0RFphTSs0OXVVVlFiOUUrWllIZzlVWDJa?=
+ =?utf-8?B?OFViYkpmeHVWYTBrWlhxUy9aSUhDRjVOMUFRa3JIeUVSY2tzQ2tEeDJmVjJp?=
+ =?utf-8?B?MG5FdlcwS1hJek9mMWZiTDh1UEFCb01hYzhjaTFuODhOeTlBRGRLSHQ1WGFI?=
+ =?utf-8?B?allOYmpBUmxDYWwwUEZDNFVFdjB5U0wvcXNiOU13d2xtWjQwREcrRlR3YjZJ?=
+ =?utf-8?B?QzJhYjR6YXU3QjRUQ05FMTd5ZkE1bXFNL0tnbDFJc3JJbU9yUGljTVRFelVN?=
+ =?utf-8?B?TC9MeC9Ibjl6dHIvYmV1NlNpRlJ2eDVTQjVMOVpqVXJrSDhxY2ZTZEFuaHlJ?=
+ =?utf-8?Q?cVr/tBBHGAtz/nvL7Cqq?=
+MIME-Version: 1.0
+X-TUID: BVgxyobEkmHq
+
+------=_Part_9084575_1678630522.1625798084908
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+You received a direct deposit of $0.01
+------=_Part_9084575_1678630522.1625798084908
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=20
+  <meta name=3D"viewport" content=3D"initial-scale=3D1.0, maximum-scale=3D1=
+.0"> =20
+  <style type=3D"text/css">
+    .email {
+      text-decoration: none;
+      color: #999999;
+      cursor: text;
+    }
+    .secondary-unlinkify a {
+      text-decoration: none !important;
+      color: #999 !important;
+    }
+    p {
+      margin: 1em 0;
+    }
+    @media screen and (min-width: 415px) {
+      .container {
+        width: 375px !important;
+      }
+    }
+    @media only screen and (max-width: 450px) {
+      /* Targets Gmail on iOS - Full width Fix */
+      u ~ div { min-width: 100vw; }
+      u ~ div .receipt-v4 {min-width: 100vw;}
+
+      /* Targets Gmail on Android - Full width Fix */
+      div > u ~ div .receipt-v4 {min-width: 100%;}
+    }
+  </style> =20
+ </head>=20
+ <body style=3D"margin:0;padding:0;min-width: 100%;background-color:#F7F7F7=
+;"> <!-- Max-width Table -->=20
+  <table class=3D"receipt-v4" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" bgcolor=3D"#F7F7F7">=20
+   <tbody>
+    <tr>=20
+     <td></td>=20
+     <td width=3D"415"> <!-- Max-width Table --> <!-- Padding Between Scree=
+n and Content Table -->=20
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+">=20
+       <tbody>
+        <tr>=20
+         <td width=3D"20"><img src=3D"https://cash-s.squarecdn.com/static/i=
+mages/alpha.gif" height=3D"1" width=3D"20" style=3D"display: block;"></td>=
+=20
+         <td width=3D"100%"> <!-- Padding Between Screen and Content Table =
+--> <!-- Content Column Table -->=20
+          <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=20
+           <tbody>
+            <tr>
+             <td height=3D"50"> <img src=3D"https://cash-s.squarecdn.com/st=
+atic/images/alpha.gif" width=3D"1" height=3D"50" style=3D"display: block;">=
+ </td>
+            </tr>=20
+            <tr>=20
+             <td align=3D"center"> <!-- Optional "Do Not Forward" message -=
+->=20
+              <table align=3D"center" class=3D"container" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" width=3D"100%" style=3D=
+"-webkit-border-radius: 24px;  -moz-border-radius: 24px;  -ms-border-radius=
+: 24px;  -o-border-radius: 24px;  border-radius: 24px;  overflow: hidden;  =
+table-layout: fixed;">=20
+               <tbody>
+                <tr>
+                 <td height=3D"48"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"48" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding: 0 48px">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                   <tbody>
+                    <tr>=20
+                     <td align=3D"center">=20
+                      <table align=3D"center" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"60" height=3D"60" class=3D"profile-avatar" sty=
+le=3D"width: 60px;  height: 60px;  border-radius: 30px;  display: block;  o=
+verflow: hidden;">=20
+                       <tbody>
+                        <tr>
+                         <td> <img height=3D"60" width=3D"60" style=3D"widt=
+h:60px;height:60px;display:block;display: block;" src=3D"https://images-pro=
+duction-s.squarecdn.com/unsafe/120x0/https://franklin-assets.s3.amazonaws.c=
+om/images/profile/transaction-avatar-v2.png"> </td>
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                    <tr>
+                     <td height=3D"16"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"16" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                    <tr>
+                     <td align=3D"center">=20
+                      <div class=3D"text profile-name" style=3D"overflow: h=
+idden;display: inline-block;  font-size: 18px;  font-weight: 500;  line-hei=
+ght: 24px;  letter-spacing: 0.2px;  color: #333;  font-family: -apple-syste=
+m, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;  verti=
+cal-align: middle;">
+                       Direct Deposit
+                      </div> </td>
+                    </tr>=20
+                    <tr>
+                     <td height=3D"84"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"84" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td height=3D"72" align=3D"center" valign=3D"middle" class=
+=3D"amount-text" style=3D"font-weight: 400;  letter-spacing: -1px;  font-fa=
+mily: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;"> <s=
+pan style=3D"line-height:72px;color:#333333;font-size:65px">$0.01</span> </=
+td>=20
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding: 0 48px">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                   <tbody>
+                    <tr>
+                     <td height=3D"84"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"84" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                    <tr>
+                     <td align=3D"center">=20
+                      <table align=3D"center" border=3D"0" cellspacing=3D"0=
+" width=3D"24" height=3D"24" class=3D"status-icon " bgcolor=3D"#00D64F" sty=
+le=3D"border-radius: 50%;">=20
+                       <tbody>
+                        <tr>
+                         <td> <img height=3D"24" style=3D"width:auto;height=
+:24px;display: block;" src=3D"https://cash-s.squarecdn.com/static/images/ic=
+on-receipt-status-checkmark.png"> </td>
+                        </tr>=20
+                       </tbody>
+                      </table> </td>
+                    </tr>=20
+                    <tr>
+                     <td height=3D"10"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"10" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                    <tr>
+                     <td align=3D"center" class=3D"title" style=3D"font-fam=
+ily: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, s=
+ans-serif;  font-size: 16px;  font-weight: 400;  letter-spacing: 0.2px;  li=
+ne-height: 22px;  color: #333;">
+                      <div class=3D"text" style=3D"overflow: hidden;">
+                       Completed
+                      </div></td>
+                    </tr>=20
+                    <tr>
+                     <td height=3D"16"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"16" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding: 0 48px">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                  </table> </td>=20
+                </tr>=20
+                <tr>
+                 <td height=3D"36"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"36" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+                <tr>
+                 <td height=3D"20"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"20" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" class=3D"divider-top detail-list-padd=
+ing" style=3D"padding: 0 40px;border-top: 1px solid #E5E5E5;">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                   <tbody>
+                    <tr>=20
+                     <td width=3D"265">=20
+                      <table align=3D"center" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%">=20
+                       <tbody>
+                        <tr>
+                         <td height=3D"40" colspan=3D"2"> <img src=3D"https=
+://cash-s.squarecdn.com/static/images/alpha.gif" width=3D"1" height=3D"40" =
+style=3D"display: block;"> </td>
+                        </tr>=20
+                        <tr class=3D"detail-row">=20
+                         <td align=3D"left" class=3D"detail-row-text" style=
+=3D"color: #999;  font-family: -apple-system, BlinkMacSystemFont, Helvetica=
+ Neue, Helvetica, Arial, sans-serif;  font-size: 14px;  line-height: 24px; =
+ font-weight: 300;  letter-spacing: 0.2px;">
+                          <div class=3D"label">
+                           Amount
+                          </div></td>=20
+                         <td align=3D"right" class=3D"detail-row-text" styl=
+e=3D"color: #999;  font-family: -apple-system, BlinkMacSystemFont, Helvetic=
+a Neue, Helvetica, Arial, sans-serif;  font-size: 14px;  line-height: 24px;=
+  font-weight: 300;  letter-spacing: 0.2px;">
+                          <div class=3D"value">
+                           $0.01
+                          </div></td>=20
+                        </tr>=20
+                        <tr class=3D"detail-row">=20
+                         <td align=3D"left" class=3D"detail-row-text" style=
+=3D"color: #999;  font-family: -apple-system, BlinkMacSystemFont, Helvetica=
+ Neue, Helvetica, Arial, sans-serif;  font-size: 14px;  line-height: 24px; =
+ font-weight: 300;  letter-spacing: 0.2px;">
+                          <div class=3D"label">
+                           Destination
+                          </div></td>=20
+                         <td align=3D"right" class=3D"detail-row-text" styl=
+e=3D"color: #999;  font-family: -apple-system, BlinkMacSystemFont, Helvetic=
+a Neue, Helvetica, Arial, sans-serif;  font-size: 14px;  line-height: 24px;=
+  font-weight: 300;  letter-spacing: 0.2px;">
+                          <div class=3D"value">
+                           Cash
+                          </div></td>=20
+                        </tr>=20
+                        <tr>
+                         <td height=3D"40" colspan=3D"2"> <img src=3D"https=
+://cash-s.squarecdn.com/static/images/alpha.gif" width=3D"1" height=3D"40" =
+style=3D"display: block;"> </td>
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+            <tr>
+             <td height=3D"32"><img src=3D"https://cash-s.squarecdn.com/sta=
+tic/images/alpha.gif" width=3D"1" height=3D"32" style=3D"display: block;"><=
+/td>
+            </tr>=20
+            <tr>=20
+             <td>=20
+              <table align=3D"center" class=3D"container first-time-footer"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" width=
+=3D"100%" style=3D"-webkit-border-radius: 24px;  -moz-border-radius: 24px; =
+ -ms-border-radius: 24px;  -o-border-radius: 24px;  border-radius: 24px;  o=
+verflow: hidden;  table-layout: fixed;table-layout: fixed;">=20
+               <tbody>=20
+                <tr>
+                 <td height=3D"28"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"28" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+                <tr>
+                 <td align=3D"center" class=3D"promo-image"> <img height=3D=
+"58" width=3D"58" style=3D"width:58px;height:58px;display:inline-block;disp=
+lay: block;" src=3D"https://cash-s.squarecdn.com/email/promos/cropped/bitco=
+in.png"> </td>
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding: 0 48px;">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%">=20
+                   <tbody>
+                    <tr>
+                     <td height=3D"12"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"12" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                    <tr>
+                     <td align=3D"center" class=3D"promo-secondary" style=
+=3D"font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helveti=
+ca, Arial, sans-serif;  font-size: 16px;  font-weight: 400;  line-height: 2=
+4px;  letter-spacing: 0.2px;  color: #999;  padding: 0 10px;">
+                      <div>
+                       Now you can buy and sell Bitcoin with your Cash App
+                      </div></td>
+                    </tr>=20
+                    <tr>
+                     <td height=3D"28"> <img src=3D"https://cash-s.squarecd=
+n.com/static/images/alpha.gif" width=3D"1" height=3D"28" style=3D"display: =
+block;"> </td>
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>
+                 <td align=3D"center">=20
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" bgcolor=3D"#ffffff" width=3D"100%">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D" divider-top" height=3D"64" width=3D"100%=
+" align=3D"center" valign=3D"middle" style=3D"border-top: 1px solid #E5E5E5=
+;"> <a class=3D"promo-link" href=3D"https://cash.app/launch/bitcoin/?emailF=
+lowToken=3D714bd226-648c-4c24-8f0f-dc82d26f601d&amp;buttonId=3D0" style=3D"=
+font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, =
+Arial, sans-serif;  width: 100%;  color: #00D64F;  font-weight: 400;  text-=
+decoration: none;  font-size: 18px;  letter-spacing: 0.22px;  line-height: =
+63px;  text-align: center;  display: block;"><span style=3D"color:#00C8FA">=
+Learn More</span></a> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>
+                </tr>=20
+               </tbody>=20
+              </table> </td>=20
+            </tr>=20
+            <tr>
+             <td height=3D"24"> <img src=3D"https://cash-s.squarecdn.com/st=
+atic/images/alpha.gif" width=3D"1" height=3D"24" style=3D"display: block;">=
+ </td>
+            </tr>=20
+            <tr>=20
+             <td align=3D"center" class=3D"footer" style=3D"font-size: 14px=
+;  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetic=
+a, Arial, sans-serif;  line-height: 24px;  font-weight: 300;  text-align: c=
+enter;  color: #999;"> <a href=3D"https://cash.app/support" class=3D"suppor=
+t-button" style=3D"color: #999;  text-decoration: none;  padding: 0 10px;">=
+Contact Support</a> </td>=20
+            </tr> <!-- Large Gap between content and footer text areas -->=
+=20
+            <tr>
+             <td>=20
+              <table align=3D"center" class=3D"container" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"280" style=3D"-webkit-border-radiu=
+s: 24px;  -moz-border-radius: 24px;  -ms-border-radius: 24px;  -o-border-ra=
+dius: 24px;  border-radius: 24px;  overflow: hidden;  table-layout: fixed;"=
+>=20
+               <tbody>
+                <tr>
+                 <td height=3D"24"> <img src=3D"https://cash-s.squarecdn.co=
+m/static/images/alpha.gif" width=3D"1" height=3D"24" style=3D"display: bloc=
+k;"> </td>
+                </tr>=20
+               </tbody>
+              </table> </td>
+            </tr>=20
+            <tr>
+             <td height=3D"1"> <img src=3D"https://cash.app/pixel-open/emai=
+l/tq609r8cmw1f09m7e5cm9faw2" width=3D"1" height=3D"1" style=3D"display: blo=
+ck;"> </td>
+            </tr>=20
+            <tr>
+             <td align=3D"center">=20
+              <div class=3D"footer" style=3D"font-size: 14px;  font-family:=
+ -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-=
+serif;  line-height: 24px;  font-weight: 300;  text-align: center;  color: =
+#999;"> <a href=3D"https://squareup.com" style=3D"color: #999;  text-decora=
+tion: none;  padding: 0 10px;">=C2=A9 Square Inc.</a>=20
+              </div> </td>
+            </tr>=20
+            <tr>
+             <td height=3D"70"> <img src=3D"https://cash-s.squarecdn.com/st=
+atic/images/alpha.gif" width=3D"1" height=3D"70" style=3D"display: block;">=
+ </td>
+            </tr>=20
+           </tbody>
+          </table> <!-- Content Column Table --> <!-- Padding Between Scree=
+n and Content Table --> </td>=20
+         <td width=3D"20"><img src=3D"https://cash-s.squarecdn.com/static/i=
+mages/alpha.gif" height=3D"1" width=3D"20" style=3D"display: block;"></td>=
+=20
+        </tr>=20
+       </tbody>
+      </table> <!-- Padding Between Screen and Content Table --> <!-- Max-w=
+idth Table --> </td>=20
+     <td></td>=20
+    </tr>=20
+   </tbody>
+  </table> <!-- Max-width Table --> =20
+ <img alt=3D"" src=3D"http://f5kbvc75.r.us-west-2.awstrack.me/I0/0101017a89=
+1e094f-b21de7e6-db33-455a-9c8b-29196a90f370-000000/enYbKjie3o27xUyUav9GYWJ2=
+kfY=3D226" style=3D"display: none; width: 1px; height: 1px;">
+</body>
+</html>=
+
+------=_Part_9084575_1678630522.1625798084908--

@@ -1,0 +1,236 @@
+Received: from CS1PR8401MB1286.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7514::9) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Fri, 1 Oct 2021 03:22:38 +0000
+Received: from AM6PR0202CA0053.eurprd02.prod.outlook.com
+ (2603:10a6:20b:3a::30) by CS1PR8401MB1286.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7514::9) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.15; Fri, 1 Oct
+ 2021 03:22:37 +0000
+Received: from AM6EUR05FT054.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:20b:3a:cafe::f6) by AM6PR0202CA0053.outlook.office365.com
+ (2603:10a6:20b:3a::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4566.15 via Frontend
+ Transport; Fri, 1 Oct 2021 03:22:36 +0000
+Authentication-Results: spf=pass (sender IP is 167.89.97.115)
+ smtp.mailfrom=mail.distrokid.com; outlook.com; dkim=pass (signature was
+ verified) header.d=distrokid.com;outlook.com; dmarc=pass action=none
+ header.from=distrokid.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.distrokid.com
+ designates 167.89.97.115 as permitted sender)
+ receiver=protection.outlook.com; client-ip=167.89.97.115;
+ helo=o1.mail.distrokid.com;
+Received: from o1.mail.distrokid.com (167.89.97.115) by
+ AM6EUR05FT054.mail.protection.outlook.com (10.233.240.85) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4566.14 via Frontend Transport; Fri, 1 Oct 2021 03:22:35 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:BD128CC1BA177D414BDE3A35795606D5383E28E5576FB98A3C51E2B5CDB190A6;UpperCasedChecksum:C358F6E65D4C684DE9E0C0FE54D57C5A308C5BF89E11ACF03A745683FAA3BB99;SizeAsReceived:1721;Count:15
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=distrokid.com;
+	h=from:subject:mime-version:content-type:content-transfer-encoding:
+	reply-to:to;
+	s=s1; bh=IAoEr0JW2kBeBmGdd4nQuR33LTBSCUO0ZgrBZdrTH+s=;
+	b=qP6l0WMkBqIhrpvQL2OyBYL1OWaGp4QaLsXDBbWCeFVKu7G3KOJlUIjLgJe52GSFB1s3
+	h6n0rApahyaFDLRwIC62MsjbsYoewHsCTV6JAq+lcd2l1SS/ufl6EQXHcB59W/zb0DV/HE
+	LkzIFx9rGTWu2FB4LeDD5pwJnEAjAsNwh4hmjuDcWPtQLU5yhH0F43tGbOozNky8NoRnT5
+	1cB0EB1aXyZFL2UQP48SMxx82yMK5/zfOzaB2JzIRwofA5SzIe+XedYvgkAG2qcbt61uVO
+	qnpBm2LFV4y23LcWV8z2iRi8eDlqfv2d7joHdYej27LprA+pdJbrguo5Q4b7WwmA==
+Received: by filterdrecv-55687c4df-mbbjt with SMTP id filterdrecv-55687c4df-mbbjt-1-61567EFB-6
+        2021-10-01 03:22:35.067375645 +0000 UTC m=+1481116.763249067
+Received: from 172.30.2.24 (unknown)
+	by geopod-ismtpd-5-2 (SG) with ESMTP
+	id RJ6hhgYETMGVliYG_-5B3A
+	for <nigel.agwah@outlook.com>;
+	Fri, 01 Oct 2021 03:22:35.030 +0000 (UTC)
+Date: Fri, 01 Oct 2021 03:22:35 +0000 (UTC)
+From: DistroKid <mailbot@distrokid.com>
+Message-ID: <1280621398.1266206.1633058555028@[172.30.2.24]>
+Subject: You're leaving money on the table
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Mailer: Lucee Mail
+Reply-To: support@distrokid.com
+X-SG-EID:
+ =?us-ascii?Q?ft1wsj5ZoL=2FEzIj=2Fn2dtSxO=2FSxUaXtsjxORGupm3zk2wOqwGn64y4O7VOyTto9?=
+ =?us-ascii?Q?djhFh4EQotIlbCLjBi3+a4MAJZapYNqCOtARDd0?=
+ =?us-ascii?Q?4Nl80JFBlX82k+1kEWFH7XWOu4LWccSuxaKhOTa?=
+ =?us-ascii?Q?eG4qP=2FcuZOxFOIJ+BLg0Nxt9nFHeZn=2FRvHtRx9s?=
+ =?us-ascii?Q?wOMT9XUd19pi9GOORkeg1ZiedK2GekbG5hVE3NI?=
+ =?us-ascii?Q?4XJcKH9v8pqBg5gK3pAcnCMIuPlZQliGumBJXq?=
+To: nigel.agwah@outlook.com
+X-Entity-ID: Lb5M07OMcCudFSDeHfZwwA==
+X-IncomingHeaderCount: 15
+Return-Path: bounces+2645412-38bc-nigel.agwah=outlook.com@mail.distrokid.com
+X-MS-Exchange-Organization-ExpirationStartTime: 01 Oct 2021 03:22:36.2905
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 3ba82e6a-71e4-41b8-faea-08d9848ab728
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM6EUR05FT054.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/29/2021 11:16:15 PM
+X-MS-Office365-Filtering-Correlation-Id: 3ba82e6a-71e4-41b8-faea-08d9848ab728
+X-MS-TrafficTypeDiagnostic: CS1PR8401MB1286:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 167.89.97.115
+X-SID-PRA: MAILBOT@DISTROKID.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Oct 2021 03:22:35.9767
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3ba82e6a-71e4-41b8-faea-08d9848ab728
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM6EUR05FT054.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CS1PR8401MB1286
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5352491
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4566.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90010023)(91010020)(91040095)(5061607266)(5061608174)(9050020)(9100336)(4900116)(8300001)(4910005)(9560002)(9320001)(4920091)(6383003)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeS6V+7VMJs1SQk5ky/1Ug7igIZ951c6g6Iuf73SoPxM9N9NBfihTScaALVqvKI5DjuCzkfVuasZho8ezt1/7aYmX+JumDO25P8jtLTTwL9EJHZ89fkZct1/foCgtBLqJOeVm7znYpCNSjuIbKYBH78fhvoMplVV+LQbtj59oZ5ACgKypu3xwYshxG3gdAfAt1u7Bx3UeaZSA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?nvtPcMTQYquwSY1imIq36VMry8F4pIkXPcmCjT68XNK4Hby7BoGN+PZT?=
+ =?Windows-1252?Q?96dKrneABS9JFPIH1SHJW0rGt8IcTnN5dIt3Jlfsjb1PuHKe9zxRxMRT?=
+ =?Windows-1252?Q?0KgtIBI2wKYmhs4n7HqKIqtC5Xg9HvJIxSzlPd6q0CW3tsyr6Pvk9Z/y?=
+ =?Windows-1252?Q?bv47Z+UbfCKPYUIVCbxFQuSxXWsTYOpNpo1b9KvHlIgxwEHwve89foYI?=
+ =?Windows-1252?Q?KtqRE2nVYD6mFaxpSAI/BJJUiWtwkcipPww8u9eRHfO4W6Fjxf30/QSN?=
+ =?Windows-1252?Q?jBfNTdzQgeeOxYFey6Zz5sgpoQBIH02A45SdZpT/cZPgtJbhJY63ZHgF?=
+ =?Windows-1252?Q?m2PebAA0yU2JgMs1EHlYRj/GUu9Mlq+pJ2jJrcrmitar4K4E6A2zhEsr?=
+ =?Windows-1252?Q?DliLJZn/xfXCCsmGHq97Z9aRhpW4xVJ6um21YLc81I2fw1nLoxqZZnZO?=
+ =?Windows-1252?Q?s1IIo3DJQovsy39M6PhqNoeyYw1w5dKqdUDdZle2H4aQI+gtk13vgG8g?=
+ =?Windows-1252?Q?KpgTQ0MweK1B2Qij+pP5BYFf3X8JUOZeq353k+d0C+wQrOGuxHVq6wH8?=
+ =?Windows-1252?Q?eGYw+7XAi/h6PEmo7oGkIVP0DXkgT6cryFmzEMxwEVV6EthrOYOKfrZZ?=
+ =?Windows-1252?Q?Xc64DV7vR3xGyb9j8OGZVG2f/q0H9fEA6AExUcMxkBxRvmsVM82lxoNe?=
+ =?Windows-1252?Q?nTJpHr9vXJeFUAOzAuP6t+jEVdVnYDm0xunpk0oQyL9E2Q00bW3Y1Kwq?=
+ =?Windows-1252?Q?Bj4DirukXs3Omof2ZMG+EDNjbM9E1NFDx3ObbmjJq5GsV9WTAzMbHTiH?=
+ =?Windows-1252?Q?W78KcscjXdEwT2Ylmi1ryHfI/AsHd3cARODs0kEqcZaPlsI4uqLFH2S8?=
+ =?Windows-1252?Q?nLukETJMT8HFoRuEVnnqZMGF79vlmdkFn28H1FCIWdBqPCUChEc47d7D?=
+ =?Windows-1252?Q?8+M5xHCOdEx5Rc3/vjg/LG2Zi7T1vEM/EalTyKLKTt7tNIgLqAzFBfP+?=
+ =?Windows-1252?Q?95kV//LZFX/N9zaGmHcUvvuicmaBJ1fc1lkNSJzwkIzwtVfQ0NtTxKGU?=
+ =?Windows-1252?Q?LWZisyYEk9iq8XR71C3KhJCyIegNqH3ojRT5xlkntJrC+eG+x6bRxYOk?=
+ =?Windows-1252?Q?ltp6oedgAyherwvlQjaC2DS6+BP5zPs02ampjCpegdxQDfCYW2Grky39?=
+ =?Windows-1252?Q?nmgu8qMnZhFuWbDvj10VzP9PieQWPcyqhvGbNS4DxQvJxkdJn58/6BPu?=
+ =?Windows-1252?Q?0KZ6XLzG2uROn4pXFrFcovLxlJaSvCaY1hljRO4k/Wd/0FsDB4/g4htU?=
+ =?Windows-1252?Q?oCHvE2hDrAe3ZCXCL7K7r62SYCyeGsQqMrmGSwTe5ULDtLo+0PsQqoCw?=
+ =?Windows-1252?Q?TCNeXs/nQzDl1GHjLuH/1aKjhCgQIe3DkQ7YcgQU78E6uIbIBZ5+recm?=
+ =?Windows-1252?Q?rq1sK/gp5AiZBACxC516MA=3D=3D?=
+MIME-Version: 1.0
+X-TUID: fbD63tIUYtV6
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head>
+<body bgcolor="EFEFEF" topmargin="0" leftmargin="1" rightmargin="1">
+<table border="0" width="100%" cellpadding="10">
+<tr>
+<td bgcolor="0071c7">
+<a href="https://distrokid.com">
+<img width="138" border="0" src="https://distrokid.com/images/small-trans-logo.png">
+</a>
+</td>
+</tr>
+<tr>
+<td bgcolor="EEEEEE">
+<font face="arial,helvetica">
+					Hi,
+					<br>
+<br>
+					
+					Looks like you checked out DistroKid&#8212;but never finished signing up. 
+					
+					<br>
+<br>
+					We really want you! And we know you'll love us. To prove it...
+					<br>
+<br>
+					<b>Here's a secret <strike>35%</strike> 40% discount for your first year's membership. Expires in 48 hours.</b>
+					<br>
+<br>
+<br>
+					<center>
+						<table cellpadding="10" cellspacing="0">
+							<tr>
+								<td align="center" bgcolor="#0F78B8">
+									<a style="text-decoration: none;" href="https://distrokid.com/plan/?c=comebackplskthx40213&amp;sc=6c9c80295a8da2eb80db43a5e54ff419&amp;ref=email_35_ac3">
+<font color="#FFFFFF">CLICK HERE TO SAVE 40%</font>
+</a>
+								</td>
+							</tr>
+						</table>
+					</center>
+					<br>
+<br>
+					Even if you're not ready to start uploading music
+					today, sign up now to lock in this rate for the entire
+					year. 
+					<br>
+<br>
+					There's no easier, faster, or more fun &amp; affordable way to get your music into 
+					Spotify, iTunes, Amazon, Google Play, and 150 other outlets. Over
+					1,000,000 artists in 170 countries rely on DistroKid for their distribution needs.
+					And we're growing fast.
+					<br>
+<br>
+					Still not sure? <a href="https://distrokid.com/love" target="_blank">Click here to see what people are saying about us</a>.
+					<br>
+<br>
+					They love us!
+					<br>
+<br>
+					The button below is mobile-friendly and won't ask for a password.
+					<br>
+<br>
+<br>
+					<center>
+						<table cellpadding="10" cellspacing="0">
+							<tr>
+								<td align="center" bgcolor="#0F78B8">
+									<a style="text-decoration: none;" href="https://distrokid.com/plan/?c=comebackplskthx40213&amp;sc=6c9c80295a8da2eb80db43a5e54ff419&amp;ref=email_35_ac4">
+<font color="#FFFFFF">CLICK HERE TO SAVE 40%</font>
+</a>
+								</td>
+							</tr>
+						</table>
+						<font size="-1" color="#666666">
+						<br>Hurry! Expires in 48 hours.
+						</font>
+					</center>
+					<br>
+<br>
+					Sincerely,<br>
+					DistroKid
+					<br>
+<br>
+					If you're having trouble clicking the buttons in this email, visit:<br>
+					https://distrokid.com/plan/?c=comebackplskthx40213&amp;sc=6c9c80295a8da2eb80db43a5e54ff419&amp;ref=email_35_ac3_text
+					<br>
+<br>
+					<font color="#999999" size="1">
+						You're getting this because you registered at
+						DistroKid.com with this email address. 
+						To stop receiving DistroKid emails,
+						<a href="https://distrokid.com/unsubscribe/?a=nigel%2Eagwah%40outlook%2Ecom&amp;b=3351934&amp;c=DC462DD8C60C0A7FDCFAD12B376EB5AA&amp;type=emailInvalidCard&amp;ref=email_abandonedCart2" style="color:#999999">unsubscribe here</a>. 
+					</font>
+					<br>
+<br>
+<br>
+				</font>
+</td>
+</tr>
+</table>
+<img src="http://url2734.distrokid.com/wf/open?upn=0mwXn0caUjhhJsla-2FkVFKCQlhJqD0AYaLKoZUbYGiHKd8iwQ0HH9Uza3Hd15n7bqZUgK9nNhHj5GpyLAT1qaYLoDljgiCRW-2B33IfomiPAvafi-2FmQZqjbGVOLwz7YqKSixESmYuC7O5NItWBp74i7bCVHrFhYMx0KRdcuAajcbwzMFw9XNZv6U8lKuWPa-2BSQbkw6Lwsql7jhnLPJXAyPdTwJVszCrnzy3ynbmTzjtyTc-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"></body>
+</html>
+			

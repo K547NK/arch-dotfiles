@@ -1,0 +1,2 @@
+#!/bin/bash
+MONITOR=HDMI-1 polybar -c ~/.config/polybar/solo/config.ini center 

@@ -1,0 +1,192 @@
+Received: from CO1NAM11HT146.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:806:122::28) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN7PR04CA0113.NAMPRD04.PROD.OUTLOOK.COM; Thu, 1 Jul 2021 17:41:22
+ +0000
+Received: from CO1NAM11FT034.eop-nam11.prod.protection.outlook.com
+ (2a01:111:e400:3861::53) by
+ CO1NAM11HT146.eop-nam11.prod.protection.outlook.com (2a01:111:e400:3861::235)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4287.22; Thu, 1 Jul
+ 2021 17:41:21 +0000
+Authentication-Results: spf=pass (sender IP is 208.85.50.18)
+ smtp.mailfrom=bounce.e.myecp.com; outlook.com; dkim=pass (signature was
+ verified) header.d=e.myecp.com;outlook.com; dmarc=pass action=none
+ header.from=e.myecp.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.e.myecp.com
+ designates 208.85.50.18 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.85.50.18; helo=mail9936.e.myecp.com;
+Received: from mail9936.e.myecp.com (208.85.50.18) by
+ CO1NAM11FT034.mail.protection.outlook.com (10.13.174.248) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4287.22 via Frontend Transport; Thu, 1 Jul 2021 17:41:21 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:78EB4521BE3D5CFFA3668476BA15324F126737AB8BB82010C607EFF3BC7F4E11;UpperCasedChecksum:F431B269F2AD878ECF82B4D4B24F459057CE7558639883B8683B078664145430;SizeAsReceived:1419;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=spop1024; d=e.myecp.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ X-CSA-Complaints:List-Unsubscribe; i=MilitaryStar@e.myecp.com;
+ bh=wpcFjRYQGqMeITTMgBUp/FAzcMduUo+ITvbGHBvuaGY=;
+ b=fJlqcEqjtdVr1bby6+wB0+x+TRTHMwZY4gmcT7vyNIFSs36fPrEKZ6OFtoG2eGUVU9IaTnBCFnkI
+   mX1p1IjRiataH1wMFs42Y+QYi+6rFNWi7HGKk0SxB5LSneCAe57qIiDCTvnePiRcDYWKxq7fzsho
+   LyIwoAvBoIECBJBhKk8=
+Received: by mail9936.e.myecp.com id hrnv422r7ao8 for <nigel.agwah@outlook.com>; Thu, 1 Jul 2021 17:41:11 +0000 (envelope-from <v-bpooann_empalmbflh_hgddjdpm_hgddjdpm_a@bounce.e.myecp.com>)
+Date: Thu, 1 Jul 2021 17:41:11 +0000 (GMT)
+From: Military Star <MilitaryStar@e.myecp.com>
+Reply-To: DoNotReply@e.myecp.com
+To: nigel.agwah@outlook.com
+Message-ID: <1320916157.103253801625161271717.JavaMail.app@rbg13.atlis1>
+Subject: Fill Up with MILITARY STAR
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_94966_102419390.1625161268957"
+x-mid: 33480925
+X-CSA-Complaints: csa-complaints@eco.de
+x-rpcampaign: sp33480925
+x-job: 33480925
+x-orgId: 3496
+List-Unsubscribe: <http://links.e.myecp.com/luoo/v1/cFJKdHRxMnV3R1REWTlydi8rVERPOXVsVkgxcFNGUEFOOE1HVnFqazBDajN3MmtSNVhxa040bDUreUZNOVFaNDI0TS9yQjVSdnBSeXlsSFlpWStnQXJ5Snl4aEgvSUNWS0>, <mailto:v-bpooann_empalmbflh_hgddjdpm_hgddjdpm_a@bounce.e.myecp.com?subject=Unsubscribe>
+X-IncomingHeaderCount: 16
+Return-Path: v-bpooann_empalmbflh_hgddjdpm_hgddjdpm_a@bounce.e.myecp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 01 Jul 2021 17:41:21.8241
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ d9ca084a-39a2-489d-76c5-08d93cb770c4
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ CO1NAM11FT034.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/1/2021 2:28:16 PM
+X-MS-Office365-Filtering-Correlation-Id: d9ca084a-39a2-489d-76c5-08d93cb770c4
+X-MS-TrafficTypeDiagnostic: CO1NAM11HT146:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.85.50.18
+X-SID-PRA: MILITARYSTAR@E.MYECP.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Jul 2021 17:41:21.5922
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d9ca084a-39a2-489d-76c5-08d93cb770c4
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ CO1NAM11FT034.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM11HT146
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.7826244
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4287.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(8300001)(4920090)(6383003)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdfBEqdebfZP510wVExEiEW+YJcoN5YTP7f6HmBE3ziOuxVYXgczYZj3Pxe4Zwy55AxPwmCiKvpbW7cIxKI35fSv6bED9NeqrXo7lZ3s2gquwspOyt4YTCmIbsdnR9bX5bT7CjB8QbfeDyQargMbB4c3QeaXh0/6LOlBnlPAdogX5h6ph0sHBy79STesiwri8XXQcSCEbdYHBA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bEovNFBUUmRQeWw4VEx5RkN6WUJNT1lrT2t6WStOa1RxNXllZXVkaTBpWkZi?=
+ =?utf-8?B?RERLMUJhVk1TSFlBMTg1TlphczR0QzRwc0pVb2xZNjF6ZVpUMlYvQ2dBbEhQ?=
+ =?utf-8?B?MmJoZnlzVGxCZW1BdVJXN3BSOUtScE04Z3lZQ2dNQTQyL0RwdmFjR0gydUtp?=
+ =?utf-8?B?Z3M4ZTl3RFdSRGJ5VFdyYllhbllCbnY3VE01bHp2WjkzYVVtTlozUCtiT2xa?=
+ =?utf-8?B?UVh2NnRrT20vMHFDOEloc0dsQWs0dklGNWFTaVhLeitsZGJuSUNwb1NPNXBT?=
+ =?utf-8?B?NXNFOXRsVmFQOGpnR1NCTjFvTnB6WUJyTGZMUG9PU1hCL3g3YXVkODlZK25U?=
+ =?utf-8?B?THAxQ2lwZ2hwK1dqekRIR1BER2VXQlFNaFkrOUNSQnJWT1hWSmw5bC9MMndZ?=
+ =?utf-8?B?RVVJT2NkR2ZJenp0Y2Z6MHVGbytSY0tJOGhOQWVlYVkybEl1RDcwL1pqbWIy?=
+ =?utf-8?B?cWJRdXpHaEdsaHRGaUk1QmMzYUFFaXF2RitIVFErV1RGUllDVitmMzlqT1VT?=
+ =?utf-8?B?Vzl6c2pyeGFPa0FvenBkVjk5Z3FTZ3hXWkdzVWRhSzA1Z3N0YmJZS2RhV2Ft?=
+ =?utf-8?B?c0I2WWlxbHN1eGhvbVJTVGtQYVdWK0Nna2JLN3lHSVhDTWlkVXdjYjNsSVFK?=
+ =?utf-8?B?bXJKVG56RjRzaXRKdjhMV3FGQjhvMmtuRGhJelNtMDArRllleDIwbUt6akFS?=
+ =?utf-8?B?UmJsUkxqTEpMS291WTRKYmRPZzVKTStwRnZKUnVnNnpuRVZ3SWdmRXkySDF5?=
+ =?utf-8?B?Y0VaNXlvYytvdjhHVkJZN2VlbWFndHoxUlJiMlVyVUNRSDdjWWJ4SGJKZjVH?=
+ =?utf-8?B?SzRjZlFQcUV1K1FKK1FYaFp4TitEamp3cGVyUzhwZXgvVHN6NjcyZ2QvMDFY?=
+ =?utf-8?B?dUVmbE1MWUJiRk5hWUhKM083Y0tLQ01pZkhvVXVwN1JHMEc0aFV5U2hPbWpK?=
+ =?utf-8?B?b0N4eExiVE56NzBHSFJMMkZrdXVzekw5ZEg2c2lXSzFRSVdJRUkzaWxrTmVy?=
+ =?utf-8?B?Ym9uV3ErTStaVFVBaFpzK3Y5TlRQQ2ExMy95MldRWGdPUnhVU2MrczMvN2N1?=
+ =?utf-8?B?dTFmV3BBaTk4STZ6SVYzaEh4WGpONVBrQnFLTVZkelBDRVJVR2NiNHRueHlH?=
+ =?utf-8?B?Z2VhRzBXaitzYjhFQ2hZQldKR0tkMmYrbTBleDdjR01pZDdaaW41K1dWaHc3?=
+ =?utf-8?B?KzErckxjZFFqSEFTZ0J5NzlsUFo4MTIvUG9CUVNpYk1oVEhVUFdvQng1VW1J?=
+ =?utf-8?B?eHRxOHUwVlpWMTR0alBWZ3E1eVVIUW1EaS96MVFHMlFxd1RZRmlVSUhnbFcx?=
+ =?utf-8?B?TzdOekFua1VmYy9LSFRBeS9iQnMrUkZhZHdCSFNmZUFVWkpsY2dJclhWSzgz?=
+ =?utf-8?B?eHZUaHBQWmw5dVR2ZncyT3BrcUtoblhpWDYzR3k1UlZzS3lLOTFRN2NIK242?=
+ =?utf-8?B?dmRubTFLaEgwUXZOVHZUaGdZR25JUmh5WlN6ZFZFdnFMUFVlSXg5c1Z4S1Nr?=
+ =?utf-8?B?cVl3V2MwT3hVbVZyQ2hiNHNFZmd1MFdtQ2xRZGJvNDJZcmxoWXJsN3hxSGNY?=
+ =?utf-8?B?c2NYTkVXbERLRUttNkZxZU43cVppa3ZQWm5wUXZrMDM0MXdBYTM0dVNQM1lJ?=
+ =?utf-8?B?c1NBbTl4NytLTW1jZVczbjFNMkQ5ajV2Rm1xR1RJUzdlS3FtYkkwZnhPQ1U4?=
+ =?utf-8?Q?ufEVzt+/qXTqBUAajDoM?=
+MIME-Version: 1.0
+X-TUID: AAWd+Xf3EMBc
+
+------=_Part_94966_102419390.1625161268957
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+	
+</head>
+<body><center><font size="1" color="#000000" face="ARIAL">This message contains graphics.  If you do not see the graphics, <a href="http://links.e.myecp.com/servlet/MailView?ms=MzM0ODA5MjUS1&amp;r=MzMwNDU2MzcyNjYzS0&amp;j=MTk4MzA5MTcwOAS2&amp;mt=1&amp;rt=0">click here to view</a>.</font><font face="ARIAL" color="#808080" size="2"><br></font></center>&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" src="http://www.aafes.com/Emailimages/images/MilitaryStar/MyECPBANNER.jpg" width="419"></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#314B5B;" width="419">
+							
+								<tr>
+									<td width="419">
+									<center><font color="#003d77"><span style="font-size: 25px;"><b>Fill Up<br>
+									With MILITARY STAR</b></span></font><br>
+									<br>
+									<img border="0" height="275.709" src="http://contentz.mkt10535.com/ra/2021/3496/07/33480925/fUEL%20IMAGE.png" width="300"><br>
+									<strong><font color="#003d77"><span style="font-size:25px;"><br>
+									<span style="color:003d77;">It's like savings 3.5% per gallon* when combining the fuel discount and rewards</span></span></font></strong></center>
+									<font color="#003d77"> </font></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	
+		<tr>
+			<td>*The 3.5% per gallon savings was calculated by dividing the total savings by the price per gallon. The fuel discount is 5¢ per gallon, the rewards benefit is 2% of the average price per gallon, 6¢, for a total savings of 11¢. The average price per gallon for June 2021 is $3.10.<br>
+			<br>
+			This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US.<br>
+			You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email.</td>
+		</tr>
+	
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom><img src="http://links.e.myecp.com/eos/v1/MkpQWXhFU29KaDV1MUU4WGRDdWgwZTdkTjEvZWRFZWhIRGJxUjhGcCt0cDJNd0xjdkZNR1hEUDNhSi9HZ0hXdUFSN3RRMkJZWGo0MGRyTHA1S3pjMkh2Syt6aGM4VllnWWxrbXdNcWdEeG8rRW10RDAxcHh1RENkLzJYQ094TWV3VFB1b09wVzNWMGxESUdxeFpCYXYrSWhIbTlzbHAwOGRhOGlVeXpSUFQwZVVNdU1JeG0vNXc9PQS2" style="display: none"></body>
+</html>
+
+
+
+------=_Part_94966_102419390.1625161268957--

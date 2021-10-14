@@ -1,0 +1,147 @@
+Received: from CS1PR8401MB0391.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7508::8) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Mon, 11 Oct 2021 16:33:07 +0000
+Received: from BN6PR12CA0047.namprd12.prod.outlook.com (2603:10b6:405:70::33)
+ by CS1PR8401MB0391.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7508::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.18; Mon, 11 Oct
+ 2021 16:33:06 +0000
+Received: from BN8NAM11FT029.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:405:70::4) by BN6PR12CA0047.outlook.office365.com
+ (2603:10b6:405:70::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.24 via Frontend
+ Transport; Mon, 11 Oct 2021 16:33:06 +0000
+Authentication-Results: spf=pass (sender IP is 208.117.49.205)
+ smtp.mailfrom=mail.snapchat.com; outlook.com; dkim=pass (signature was
+ verified) header.d=snapchat.com;outlook.com; dmarc=pass action=none
+ header.from=snapchat.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.snapchat.com
+ designates 208.117.49.205 as permitted sender)
+ receiver=protection.outlook.com; client-ip=208.117.49.205;
+ helo=o9.mail.snapchat.com;
+Received: from o9.mail.snapchat.com (208.117.49.205) by
+ BN8NAM11FT029.mail.protection.outlook.com (10.13.177.68) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4587.18 via Frontend Transport; Mon, 11 Oct 2021 16:33:06 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:14AF361A07E501DB5F928CB8FDA8CDA065A855B84289475447715DBFB30F34C9;UpperCasedChecksum:E8BB735463495145AFDC460F1770D687F65499E22F9607DA9A1765825B617C27;SizeAsReceived:1511;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=snapchat.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=m1; bh=FVK7nrkuqcuQF7FF4jFEumOecGQXQa2Ul6M3F+8EOCk=;
+	b=FizrT4+wh5BcC9y9+vy482fJ8dhs5SUGCLdH4X2HXY0F0x64X+Hg1uN1Vcdyvr4OuiOx
+	dUVNalRrEKrEBVtJeAXLV7e52UHQhz7cHGwist3fdoqefncvtglAJkkPpv+VN9jcuWXkgN
+	gTa5vcI0PVtl2P6A2TQcHndjBADOTxEVI=
+Received: by filterdrecv-69f76f4964-v9ptn with SMTP id filterdrecv-69f76f4964-v9ptn-1-61646742-3
+        2021-10-11 16:33:06.054975786 +0000 UTC m=+2392543.582962501
+Received: from NTA4NjAzNg (unknown)
+	by ismtpd0138p1iad2.sendgrid.net (SG)
+	with HTTP id sIV7HUdxSZWIU_VN36LhFw
+	for <nigel.agwah@outlook.com>;
+	Mon, 11 Oct 2021 16:33:06.023 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Mon, 11 Oct 2021 16:33:06 +0000 (UTC)
+From: Team Snapchat <no_reply@snapchat.com>
+Subject: Snapchat Account Deletion
+Message-ID: <sIV7HUdxSZWIU_VN36LhFw@ismtpd0138p1iad2.sendgrid.net>
+X-SG-EID:
+ =?us-ascii?Q?tZ5lMlOwv4qvkJKB+uUUpY97Xbef2YO8lP1XO6yQyMj3IQpB8HZOTAoMTsglDv?=
+ =?us-ascii?Q?oZcB2AQ8vWigjm=2FfzRAxNIBe3FH8XBkgXfL9uxG?=
+ =?us-ascii?Q?DTNaV2p=2FYopdgxgJ+K4rLETDSqqo6pBQcYrWwPR?=
+ =?us-ascii?Q?GR1UOB75G3TnUwA8q=2Facfn5Fm0OU6aGFyE29CZ5?=
+ =?us-ascii?Q?QVG5Evgq2w5pGZmO+s5ZUkTJjLIXI36Fz5Anc1S?=
+ =?us-ascii?Q?NpjhurwlGPM=2FjcdYx6f9nzCNLEvYCwDdUTQ5Zf?=
+To: Agwah Murage <nigel.agwah@outlook.com>
+X-Entity-ID: 6IR8Gz2NtZ2A9KpMfBMamw==
+X-IncomingHeaderCount: 13
+Return-Path: bounces+5086036-7362-nigel.agwah=outlook.com@mail.snapchat.com
+X-MS-Exchange-Organization-ExpirationStartTime: 11 Oct 2021 16:33:06.4682
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ da19e274-bbc8-4aea-3e59-08d98cd4cde1
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM11FT029.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/8/2021 2:42:16 PM
+X-MS-Office365-Filtering-Correlation-Id: da19e274-bbc8-4aea-3e59-08d98cd4cde1
+X-MS-TrafficTypeDiagnostic: CS1PR8401MB0391:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.117.49.205
+X-SID-PRA: NO_REPLY@SNAPCHAT.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Oct 2021 16:33:06.3509
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: da19e274-bbc8-4aea-3e59-08d98cd4cde1
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM11FT029.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CS1PR8401MB0391
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3020222
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4587.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100337)(4900116)(2008001134)(2008000189)(4910005)(9560002)(9320001)(4920091)(6515079)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeH43fybtGWgqX30sDequby5onaiY1uBQVgXF275YPx8mbIXkEKZ5rHT4ijrkXI6VEvxGH7ETRmzBsDp8lv3fe9Gw+w8KH3bkXwfHcQx6ZbjmdxoyF5ZtdfLgecF8FybjxR7FQbIucibMM9exToZYuwj9o8+WfB/pIR9rOH6U1BjFKipXPREEdMVFMMk1iVHLzCIjHTGqG8BQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?RlJiWlNLczZTL2s3ejJncFhZY1phNUIxdlN0TkNCbFEvbXZLK3JPTVUwbnhi?=
+ =?utf-8?B?cVI3cGxhS3BjMUx3R0JtcFdSZUI5U0xvc05xa0RZN0tLYm8zencwdjNRUGhO?=
+ =?utf-8?B?M2N1N2lGOHlPbHZmeGk4L2k0TTdWQ0dxQzkwRUI3VnBOVEt5VWxqeXJjMEtM?=
+ =?utf-8?B?WTdSYlJYZ3VnRVdJRUZtaHRoQXI5RmJiMWZuZWVmRGlKUm5DYzYwRG5hb0Yx?=
+ =?utf-8?B?cTJkZ0dQZi9xY1Z5UjAvdHBvWEVBUGhTVlpEMStHdjRZZklQcFg5NmZzWVBY?=
+ =?utf-8?B?ZHBTOVYzOEpTS2pzT1UxSVdRZlRRN1dXeHlXZFVzUlV3U2RlclJQMzJNQklJ?=
+ =?utf-8?B?Um83L21ISEE0amE2RzBLT1BmQ1MyeTlNdnY5Z1A0T3FvZXc3QTFzUXNkbnlG?=
+ =?utf-8?B?bnlBUmJOQ0RjNUR2Tmd0dElvb05jVVhKTHdsUDNOTHN1RTQ5QU1CVlZXVTAr?=
+ =?utf-8?B?bWlpTTRDRW41VnVnNFJLNENmVWQ5Z1Jjc3J6cWNJMTlVSGtNbklMT0tNSEkw?=
+ =?utf-8?B?VTVsQTJDWUZpdG4yNUFpdTVpS2RRRUd1bTU4ZHpWNm5GRDdQNE9wa1NidWhM?=
+ =?utf-8?B?M0NZcHMyMmFqeEdzbnlySm1SUTRoMzVtMGRRQmRmSHRzSHFDdWgyUGZnc2Nv?=
+ =?utf-8?B?L3htQ3FTRVZ3N1YzQnp1eDFjMkRSYXBmcEVvdkNXaWZld3hPR1JJN0ZOL3Ew?=
+ =?utf-8?B?VWdoTVlPTlA4TnZvT3pmQmVaSm1UaFl0dk5VdWQ3Qmo4Q1FFUkhmdi9tb1Fi?=
+ =?utf-8?B?U0xZVGtaTjVqaHRvYU9kamNvNDE4THFHNXViY3I1K3RyMkVvSTdWMUFDcTY0?=
+ =?utf-8?B?aGxsdHZ2RjZ2dVBESkVrMmhBdURWY2djdjJ5Sk1OdmprRmtBNUIzYXlqdmRJ?=
+ =?utf-8?B?V1k3NllHdTkyejhkUnBYSVlyOGZ6WVpNcG0zYTdFYWxDSGxnSkkwdUJEeHpm?=
+ =?utf-8?B?OGRXS3hoenE2L2pKRTJyTG84Ujk4WmNialBUNFF4RjV0K1QxQXZnblA4WHBW?=
+ =?utf-8?B?b0pNN0pML21tVGFQbXJRdjRia1orRDZ2MTVxNUpHMGNsYmFvcW0wWE56RHJU?=
+ =?utf-8?B?bjRpOXFTZDZ1MGMrR1ZSRlVyUGZFdSt5RnA4K0pMUXEwUDQ0eUJBR1ptOUR2?=
+ =?utf-8?B?eU92YmxENWZEcTBwTTB0Uzc3aW45QnlQWjlLN1lVUVFvRDhQNEc3Mzl0SmhO?=
+ =?utf-8?B?R0EvSlJDK0RSRkhPYVRRTHJESjRJdlFMQnZMRlRTMkFhbDJYUXVJcjBkdGxF?=
+ =?utf-8?B?T2d1Nksvd3RSZWpaRzk0WjRzNmRWYjZQZFdaQ3FhN3pSUTRpQXRyZ2s2Ny92?=
+ =?utf-8?B?SWZpL0NGbGdROWEveVZyOFFyNEdHUlQzMUJ3a205Q2JQOWpscVZtb21QN1Jj?=
+ =?utf-8?B?YWVVc2w0alIrRDJNMS9vMisxbDVjc20wbHZQbWNIdnFjaXBYYk9mVDdkdFRB?=
+ =?utf-8?B?ZWw5U1lmT3RRSkk3SUd4amxSdnlGWHdwamlxTEp0ak1LTnBqdzREemE0QzQz?=
+ =?utf-8?B?U2lVNy9sRi8xOFA2NnZNazcrcU1QckdvZDhPWGJHdDJjTjQ4T3IycGlXUDNl?=
+ =?utf-8?B?K2ZEODR1Y2c2NXVQQ0kwbXZ1bFhUWk5DYzNYemovbThadFFCR3JLMGNDOTlO?=
+ =?utf-8?B?NTUzeXZ5eXllTWxhaG9NR3V6SkoyY1VxeGNiMWE2aGl1eGp3bTJFRDdNT1ZE?=
+ =?utf-8?Q?LcwoYftIAroW7iZMC4d0?=
+MIME-Version: 1.0
+X-TUID: QrW9mFZR8V+j
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">De=
+ar Agwah Murage,<br><br>Here's a confirmation that you've chosen to delete =
+your Snapchat account k547nk.<br><br>For now, your Snapchat account has bee=
+n deactivated. In 30 days, your account will be deleted. If you'd like to r=
+eactivate your account before that happens, just log in to Snapchat =F0=9F=
+=98=89<br><br>Hope to see you again soon! =F0=9F=91=8F<br>Team Snapchat<img=
+ src=3D"https://u5086036.ct.sendgrid.net/wf/open?upn=3D0mwXn0caUjhhJsla-2Fk=
+VFKCQlhJqD0AYaLKoZUbYGiHJf12tPRlrLymTKRHkSIN66HnuoMNVGjaZQu-2FQJHauk4bwUoDp=
+-2FpYmJJxKPX7BaKB5WVJQOgEpsYkFA9WALxt42JIw5wPwMJ1c-2FXiyopAtEaD7DDwukdjZySz=
+zcvzv0ekLa1A9w8fYQsULx4RnoX0em4rRgluebSUybfClssJoS5A-2FgG-2FvT838pDL9VZ2QDz=
+IY-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !=
+important;width:1px !important;border-width:0 !important;margin-top:0 !impo=
+rtant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !i=
+mportant;padding-top:0 !important;padding-bottom:0 !important;padding-right=
+:0 !important;padding-left:0 !important;">

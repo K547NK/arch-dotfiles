@@ -1,0 +1,350 @@
+Received: from CO1NAM11HT142.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:806:131::28) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA0PR11CA0143.NAMPRD11.PROD.OUTLOOK.COM; Mon, 28 Jun 2021 23:37:00
+ +0000
+Received: from CO1NAM11FT047.eop-nam11.prod.protection.outlook.com
+ (2a01:111:e400:3861::50) by
+ CO1NAM11HT142.eop-nam11.prod.protection.outlook.com (2a01:111:e400:3861::261)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4264.18; Mon, 28 Jun
+ 2021 23:36:59 +0000
+Authentication-Results: spf=pass (sender IP is 136.147.186.53)
+ smtp.mailfrom=bounce.engage.windows.com; outlook.com; dkim=pass (signature
+ was verified) header.d=engage.windows.com;outlook.com; dmarc=pass action=none
+ header.from=engage.windows.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.engage.windows.com designates 136.147.186.53 as permitted sender)
+ receiver=protection.outlook.com; client-ip=136.147.186.53;
+ helo=mta2.engage.windows.com;
+Received: from mta2.engage.windows.com (136.147.186.53) by
+ CO1NAM11FT047.mail.protection.outlook.com (10.13.174.132) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4264.18 via Frontend Transport; Mon, 28 Jun 2021 23:36:58 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:072845265A9A524E247251FFFE5A5C4CCD102CA7EF25BF82A03399E82A3B003F;UpperCasedChecksum:9F9A9E3568E5AAA827D16104C16EBF4CFA166B1F03E116068854F10EF60128AF;SizeAsReceived:1711;Count:17
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=engage.windows.com;
+ h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:
+ Reply-To:List-ID:X-CSA-Complaints:Message-ID:Content-Type;
+ i=email@engage.windows.com;
+ bh=T5PzbEVf4pmsmPqDiJz1ffOkgrCEqqXADrl90fFiZ/8=;
+ b=Nkii6rki9Sds33kK9z8zXkU8s4xPSGyXsnkcrqFTu0DkYZLeIOcrL4RoIB6uml0znK0k9SeUPUoR
+   4PftV1c9hodGv+Xg+Q9qx67AEzhs08N0zaQ0jgk8nAzUFoHbNsW9o1dMisy4DZs4wULkXjvDThy+
+   ujJbjAsxwDBK+m46iCM=
+Received: by mta2.engage.windows.com id hr9ehm2fmd4o for <nigel.agwah@outlook.com>; Mon, 28 Jun 2021 23:36:58 +0000 (envelope-from <bounce-15_HTML-566311163-818256-7279955-47897@bounce.engage.windows.com>)
+From: "Windows" <email@engage.windows.com>
+To: <nigel.agwah@outlook.com>
+Subject: Introducing Windows 11
+Date: Mon, 28 Jun 2021 17:36:57 -0600
+List-Unsubscribe: <https://click.engage.windows.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI3Mjc5OTU1IiwicyI6IjU2NjMxMTE2MyIsImxpZCI6IjE1IiwiaiI6IjgxODI1NiIsImpiIjoiNDc4OTciLCJkIjoiNzAxNjMifQ.2U2Cd1I5U8v063ARwFyqffPfzs0V8awvKxMPbveBwFc>, <mailto:leave-fd8515751a3c402029-fe2f11767367057c741273-fec11c717d66017b-fe831372726d0d7870-feec10777d6d03@leave.engage.windows.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+Reply-To: "NoReply" <reply-fec11c717d66017b-15_HTML-566311163-7279955-47897@engage.windows.com>
+List-ID: <7279405.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 7
+x-job: 7279955_818256
+Message-ID: <d7e08f41-4a11-4e1d-810e-1f904e3edc26@atl1s07mta2720.xt.local>
+Content-Type: multipart/alternative;
+	boundary="JP5UNdiSFCW1=_?:"
+X-IncomingHeaderCount: 17
+Return-Path:
+ bounce-15_HTML-566311163-818256-7279955-47897@bounce.engage.windows.com
+X-MS-Exchange-Organization-ExpirationStartTime: 28 Jun 2021 23:36:59.2684
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ d0f829f4-d37f-4ae4-d58b-08d93a8d9fa2
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ CO1NAM11FT047.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/28/2021 5:28:00 AM
+X-MS-Office365-Filtering-Correlation-Id: d0f829f4-d37f-4ae4-d58b-08d93a8d9fa2
+X-MS-TrafficTypeDiagnostic: CO1NAM11HT142:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 136.147.186.53
+X-SID-PRA: EMAIL@ENGAGE.WINDOWS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Jun 2021 23:36:58.9716
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d0f829f4-d37f-4ae4-d58b-08d93a8d9fa2
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ CO1NAM11FT047.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM11HT142
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2585596
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4264.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9000001)(9050020)(9100313)(5061607266)(5061608174)(4900115)(2008001114)(2008000189)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddlo++0sEauIvlX6aCOYGO9Q4Dnk93yKDf1Ep0T7M8q24h9Y3/s8rUk/k0UHo5kedCJk4fGyTEzghn3tHVavoA0ZaN/16nFODoCRwXj44wGrUkpAv6cixhKWyT4TmcNmByFIiFKkdxMHHKZfo6zwSiFXqDu2UYysFtMpEdS+NOAlzm/63li8LDZSwpAXQv1JUU+ln/FN1afQA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?Z3NYQzBSY2F2cHp0SnhvZkNFRmpIMkhoeE5QZTRKSzdqanBySmV5SnhxVlNS?=
+ =?utf-8?B?YUZkeFYxM1pJc204QlhhN1lkdU1aQS9nRzJISkcrODlMUEltc0gzSUg5N0k4?=
+ =?utf-8?B?akNNQy9PTGxDTU54eGVkUkJxZzNSU0EyT2YrNmlVMUFyTjhFUkJQMGRFSWpS?=
+ =?utf-8?B?T2dyOFUvdkRlRGVRbDdYRzgvWjdnNEppQjNuc0YrbFo0R0hsNHVuTXlTSkJr?=
+ =?utf-8?B?dDR6eUFmM3BaK0tpLzNGc2M4K3k5MitKTjZ4REdhN2IwQ1VGcndicTBNSGEx?=
+ =?utf-8?B?L0Z2YjV2VFBvRlphMHVJM05wdS84TWpoaytoWmZOdXBnbXhkdHNoU3lhbGJD?=
+ =?utf-8?B?Vy9HZ0Nrb2tiRlpza3Rmd2FKMlp0ckZxZzcxWFE3VTM5R011RE92eTJtT1FG?=
+ =?utf-8?B?ZjNYR3AyMGc0b3h2V2l0dElsU0pqYlBGdGM5aW9lbkdQaHZET256dkdOTi9j?=
+ =?utf-8?B?QjRDUGVMK1VSYjZtL29uZHJyU1F3dWtMNW5oZUk0aG14bEMrNFh3UXU1aHR5?=
+ =?utf-8?B?Q2MxUVR6d0czVzVjSSt3UldaWlVVbUhJek13UmZmWEZYM0xSQW9waFF6WkJ6?=
+ =?utf-8?B?d3pLcHF0RFlKNDIxY0p1M1VOaDRSVjR3bVY4bS9hQk5WL1BXSExPYi9kZ2Jx?=
+ =?utf-8?B?V0F1RHRnWnZqT2p5K2VHV0lLdnQ0WDhKMmpHZW1pd2RVNnVlWmVKaEdxTG1Q?=
+ =?utf-8?B?YTNRMkdJN3lrSGVjZDBJV0hVZk12cGpTa1E0b1RQdmlkbE0rbXdyblZyQ09X?=
+ =?utf-8?B?aVVZR2JqWG4rR081ZWkzWjV1aUJOWktVbUQ0WTUzOFR0eEo4bCt5dHdySTFU?=
+ =?utf-8?B?cnQ0a2tyRVp6Yk9tYnJ4c2JkZXgyRVhEWlNpMEZtMVVsRW9lV3h6LzhPbnpB?=
+ =?utf-8?B?RXpuSFIwdXpOakpMeUlDb2IxYTk3a3VFMDlhK01sY2dBRDYzVXJoNW1rSndx?=
+ =?utf-8?B?YUxJbnc4ZEd5bmhaTlVFYiswcUYzWUdRVjl2TUNQaklHV2YyaUxjRmsvN2V3?=
+ =?utf-8?B?QU1YZ0lFaFJRYTF2TzlTdGdtQmVJNFpzUmhsdnVJcTZacmlibUxnMHZHYTVP?=
+ =?utf-8?B?U0k0NzRCL1Zqdk9QeFBrWlE4SEhYTEpKSVdxdGF6dkFFS2drZzBJVTFXUmNY?=
+ =?utf-8?B?Smx5VE1aeVZmQlpVbWNETjNUTE9jNUxkOU1HNmI2WWcxcE8xN3czUmVNRzdo?=
+ =?utf-8?B?VGd2UWEvNnhaNE5WQWtvQ1ZJTkthK1ltUHJkVlB1dEtBeGV1ZHNGeWlrMUl1?=
+ =?utf-8?B?YlVJTUNzQkZjSWxmQnczYVV3a3pEOEFPSDcwSDVEcUFwdXZBcTFwVDByS0xx?=
+ =?utf-8?B?Uy9vWTY5VStKRVEvMitRc1p2VEZ3YXVqNURCSHNad1FqQXEzSzNnMlp3SzJw?=
+ =?utf-8?B?Qkwwckp6bkRiZHhRa3dqYWFDOUVNaHJHZGxXNit4N2hvNTFaZ25pVWttYWJk?=
+ =?utf-8?B?OXMvckJLOHpHZXZKaVZXWHQydEhVbURXNGJ2OUw4SFI4ZncrSlROaDJYWU5T?=
+ =?utf-8?B?ZFRKZnY0VXkwNDJFVUhjSWlDeTVJa1liSTFJcUJTdGlLYVFMUlFoT1RJMGJY?=
+ =?utf-8?B?Q1h4WTRmdlJBU1VNOS8rQ1dUaktpRXlUWnU5MEFORDgxaWNuSHdFbnFKQ0xW?=
+ =?utf-8?B?bVFPNEwxZFhLZi9JMGNIVlZhdTJkU3c9PQ==?=
+MIME-Version: 1.0
+X-TUID: xamhs8raOndl
+
+--JP5UNdiSFCW1=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Windows 
+ 
+
+
+
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbcca1ea63030de1ba3033bddfae1e6036332f6dfc5307bf4bbe584b064f2c01b1655c49f209b04b68692550c361fadfff8e1bcd2c36bc1d8e 
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbcca1ea63030de1ba3033bddfae1e6036332f6dfc5307bf4bbe584b064f2c01b1655c49f209b04b68692550c361fadfff8e1bcd2c36bc1d8e 
+Introducing Windows 11 
+Windows 11 combines a rejuvenated Start menu with new ways to connect with the people, news, games, and content you love.
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbcca1ea63030de1ba3033bddfae1e6036332f6dfc5307bf4bbe584b064f2c01b1655c49f209b04b68692550c361fadfff8e1bcd2c36bc1d8e 
+ Learn more about Windows 11 
+
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbfbe601dedf0544f1260e962925abdbd0729f0ecbb52eed00144bc0d4af99279b3ee2d7f02b3360310ee2bcd6fea18dea11391cbcc88410e4 
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbfbe601dedf0544f1260e962925abdbd0729f0ecbb52eed00144bc0d4af99279b3ee2d7f02b3360310ee2bcd6fea18dea11391cbcc88410e4 
+Maximize your productivity 
+Access all the apps you need, stay organized, and multi-task easier with tools like Snap layouts and Desktops.
+
+
+https://click.engage.windows.com/?qs=a6df12996605e6db21e833f8cec14b9332a1af0a73168a4e8cd091ecc51462378d32b02c6efd1547c9226ddf975b5ab593aba310b5c205ac439629830e9a59b3 
+
+https://click.engage.windows.com/?qs=a6df12996605e6db21e833f8cec14b9332a1af0a73168a4e8cd091ecc51462378d32b02c6efd1547c9226ddf975b5ab593aba310b5c205ac439629830e9a59b3 
+New ways  to connect
+Call or chat with the people you care about instantly, for free, right from your desktop with Microsoft Teams.1
+
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbf9e721306611443b9ff9f3620e213480897c0146584bf3ca682f1dd9f83631541dc08fa36e603f2d7ee018ff8c24a62f5c18309e761e3ac5 
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbf9e721306611443b9ff9f3620e213480897c0146584bf3ca682f1dd9f83631541dc08fa36e603f2d7ee018ff8c24a62f5c18309e761e3ac5 
+Your content,  curated by you
+With Widgets, Microsoft Edge, and apps, you can quickly and easily stay up to date on what matters most to you.
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbf9e721306611443b9ff9f3620e213480897c0146584bf3ca682f1dd9f83631541dc08fa36e603f2d7ee018ff8c24a62f5c18309e761e3ac5 
+ Learn more about Windows 11 
+
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbd8b66566c301d06f502ac35dcaff263710c4d4a1e2ddfc42844945da61a939d887da5c766897dc70370e37b8e8f2564d3cbb558947515634 
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbd8b66566c301d06f502ac35dcaff263710c4d4a1e2ddfc42844945da61a939d887da5c766897dc70370e37b8e8f2564d3cbb558947515634 
+Sign up for Windows 11 news and updates
+
+
+https://click.engage.windows.com/?qs=a6df12996605e6db0e238f909e6907fe915a32f600db7e077dcb370736cb5a9820a9bd6cf2e45af48728a2a37444fa55bcde810cc9e87da8617509d658a04cf8 
+
+https://click.engage.windows.com/?qs=a6df12996605e6db1af8f81ac089ef5d22e6fefaaef797284d6637dd610a034ae8c48c6d356d7bbd485a57ebbfb895afb8a50f4e81911686a1fceaa240009dc5 
+
+https://click.engage.windows.com/?qs=a6df12996605e6dbcc39e0f2a9d003c2e472bb208fc0c0a9c7e434f597c078d35f723ada2bdb15521a9cbaed9645aa61bae9790709721351f6c1969eb2e91312 
+
+ 
+1 You can meet with anyone in a 1:1 call and speak up to 24 hours for free. For a group call (more than two people), you can meet with up to 100 participants and call up to 60 mins for free. We are waiving these limits in light of COVID-19 so that you can meet with up to 300 participants and speak up to 24 hours for free until further specified.
+
+https://click.engage.windows.com/?qs=a6df12996605e6dba32855ca35f1c79108a72c0cdec89ad747755a87b2c25effe25f89f4a46ab41029bc6817966e374b931b5a0c0fd5d17bc06f4ac1631a8ade 
+Unsubscribe  | 
+https://click.engage.windows.com/?qs=a6df12996605e6db08a17e11ccb30639fe3f9b7dde7636e403049034535347983572f4a06063d9ab2834f3b0d1eb942e08e70e8138da480d280f82083c33ead3 
+Privacy Statement  | 
+https://view.engage.windows.com/?qs=587b3a846b1bbd4bfbdca44968a8d28bf59f084e203691d30135b77e93e741156e39c759bc4d77e01da06991d7fbff54b705468b4d0a655e3a79b5adbc57601f3e17a514a465a5e4fbb04fa300a9071e 
+View as webpage 
+
+Microsoft Corporation
+
+One Microsoft Way
+
+Redmond, WA 98052
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+--JP5UNdiSFCW1=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html><html lang="en-us" mcdisabled-xmlns="https://www.w3.org/1999/xhtml" mcdisabled-xmlns:v="urn:schemas-microsoft-com:vml" mcdisabled-xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 9]><style type="text/css">sup { font-size: 100% !important; } li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}</style><![endif]--><!--[if gte mso 9]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> 
+<style type="text/css"> @font-face{font-family:'wf_segoe-ui_normal';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.svg#web')
+ format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'wf_segoe-ui_light';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web')
+ format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'wf_segoe-ui_semibold';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.eot');src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.eot?#iefix') format('embedded-opentype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.woff') format('woff'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.ttf') format('truetype'),url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.svg#web') format('svg');font-weight:normal;font-style:normal }@font-face{font-family:'wf_segoe-ui_semilight';src:url('https://i.s-microsoft.com/fonts/segoe-ui/west-european/semilight/latest.ttf')
+ format('truetype');font-weight:normal;font-style:normal }</style><![endif]--><!--[if !mso]><!-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge" style="-webkit-font-smoothing:antialiased;">
+    <!--<![endif]-->
+
+    
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Windows</title>
+
+<style type="text/css">
+
+                 html { width: 100%; min-width: 100%; overflow-x: hidden; padding: 0px; margin: 0px; } li {text-align:-webkit-match-parent; display:list-item;} body { width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #ffffff; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; } img { line-height: 100%; outline: none; text-decoration: none; border: none; height: auto; -ms-interpolation-mode: bicubic; } p { margin: 0 0 !important; } table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; } body, table, td, a { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; } .ReadMsgBody, .ExternalClass { width: 100%; background-color: #ffffff; }
+ .fullWidth { width: 500px; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } .ExternalClass a:visited, .ExternalClass span.ecxMsoHyperlinkFollowed { color: inherit; } div[style*="margin:16px 0"] { margin: 0 !important; } .phonefix, .phonefix a, .phonefix span a { color: #000000 !important; text-decoration: none; } .phonefix2 a, .phonefix2 span a { color: #717171 !important; text-decoration: none; } span.aBn { border: none; } button { display: block !important; } a { text-decoration: none; } a:visited { color: #0062b3 !important; } a > div { display: block !important; } a.fixLinkBlack:visited, .ExternalClass a.fixLinkBlack:visited { text-decoration: none !important; color: #100d0d !important; }
+ a.fixLinkGray:visited, .ExternalClass a.fixLinkGray:visited { text-decoration: none !important; color: #646464 !important; } a.fixLinkWhite:visited, .ExternalClass a.fixLinkWhite:visited { text-decoration: none !important; color: #ffffff !important; } a.fixLinkBlue:visited, .ExternalClass a.fixLinkBlue:visited { color: #0078d7 !important; } a.fixLinkDarkBLue, .ExternalClass a.fixLinkDarkBLue:visited { color: #2947a9 !important; }, a.fixLinkGreen, .ExternalClass a.fixLinkGreen:visited { color: #008272 !important; } a[x-apple-data-detectors] { text-decoration: none !important; color: inherit !important; } #outlook a { padding: 0; text-decoration: none !important; } span.MsoHyperlink { mso-style-priority: 99; color: inherit; } span.MsoHyperlinkFollowed { mso-style-priority: 99; color:
+ inherit; } .yshortcuts a { border-bottom: none !important; } span.MsoHyperlink { mso-style-priority: 99 !important; color: inherit !important; } span.MsoHyperlinkFollowed { mso-style-priority: 99 !important; color: inherit !important; } body.theme-main { font-family: SegoeUI, "Segoe UI", Segoe, "Helvetica Neue", "Helvetica","Arial","sans-serif"; font-size: 16px; line-height: 20px; background: #333; font-weight: 400; }
+                @media screen { @font-face { font-family: "SegoeUI"; src: local("Segoe UI"), local("Segoe"), local("Segoe WP"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.svg#web") format("svg"); } @font-face { font-family: "SegoeUI"; font-weight: 100; src: local("Segoe UI Light"), local("Segoe WP Light"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/light/latest.eot?#iefix") format("embedded-opentype"),
+ url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/light/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web") format("svg"); } @font-face { font-family: "SegoeUI"; font-weight: 200; src: local("Segoe UI Semilight"), local("Segoe WP Light"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/light/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/light/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web") format("svg"); } @font-face {
+ font-family: "SegoeUI"; font-weight: 500; src: local("Segoe UI"), local("Segoe"), local("Segoe WP"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.woff") format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/normal/latest.svg#web") format("svg"); } @font-face { font-family: "SegoeUI"; font-weight: 700; src: local("Segoe UI bold"), local("Segoe bold"), local("Segoe WP bold"), url("//i.s-microsoft.com/fonts/segoeui/west-european/bold/latest.eot?#iefix") format("embedded-opentype"), url("//i.s-microsoft.com/fonts/segoeui/west-european/bold/latest.woff")
+ format("woff"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/bold/latest.ttf") format("truetype"), url("//i.s-microsoft.com/fonts/segoe-ui/westeuropean/bold/latest.svg#web") format("svg"); } }
+                @media only screen and (max-width:599px) { .responsive-cont { width: 94.1% !important; min-width: 320px !important; max-width: 599px !important; } .ul-margin-20 {margin: 0.1vw !important;} .padding-top-00 { padding-top: 0vw !important; } .padding-top-04 { padding-top: 0.6vw !important; } .padding-top-08 { padding-top: 1.3vw !important; } .padding-top-12 { padding-top: 1.9vw !important; } .padding-top-16 { padding-top: 2.4vw !important; } .padding-top-20 { padding-top: 3.1vw !important; } .padding-top-24 { padding-top: 3.8vw !important; } .padding-top-28 { padding-top: 4.4vw !important; } .padding-top-32 { padding-top: 5vw !important; } .padding-top-36 { padding-top: 5.7vw !important; } .padding-top-40 { padding-top: 6.3vw !important; } .padding-top-44 { padding-top: 6.9vw
+ !important; } .padding-top-48 { padding-top: 7.5vw !important; } .padding-top-52 { padding-top: 8.1vw !important; } .padding-top-56 { padding-top: 8.7vw !important; } .padding-top-60 { padding-top: 9.4vw !important; } .padding-top-64 { padding-top: 10.1vw !important; } .padding-right-00 { padding-right: 0px !important; } .padding-right-04 { padding-right: 0.6vw !important; } .padding-right-08 { padding-right: 1.3vw !important; } .padding-right-12 { padding-right: 1.9vw !important; } .padding-right-16 { padding-right: 2.4vw !important; } .padding-right-20 { padding-right: 3.1vw !important; } .padding-right-24 { padding-right: 3.8vw !important; } .padding-right-28 { padding-right: 4.4vw !important; } .padding-right-32 { padding-right: 5vw !important; } .padding-right-36 { padding-right:
+ 5.7vw !important; } .padding-right-40 { padding-right: 6.2vw !important; } .padding-right-44 { padding-right: 6.9vw !important; } .padding-right-48 { padding-right: 7.5vw !important; } .padding-right-52 { padding-right: 8.1vw !important; } .padding-right-56 { padding-right: 8.7vw !important; } .padding-right-60 { padding-right: 9.4vw !important; } .padding-bottom-00 { padding-bottom: 0vw !important; } .padding-bottom-04 { padding-bottom: 0.6vw !important; } .padding-bottom-08 { padding-bottom: 1.3vw !important; } .padding-bottom-12 { padding-bottom: 1.9vw !important; } .padding-bottom-16 { padding-bottom: 2.4vw !important; } .padding-bottom-20 { padding-bottom: 3.1vw !important; } .padding-bottom-24 { padding-bottom: 3.8vw !important; } .padding-bottom-28 { padding-bottom: 4.4vw
+ !important; } .padding-bottom-32 { padding-bottom: 5vw !important; } .padding-bottom-36 { padding-bottom: 5.7vw !important; } .padding-bottom-40 { padding-bottom: 6.3vw !important; } .padding-bottom-44 { padding-bottom: 6.9vw !important; } .padding-bottom-48 { padding-bottom: 7.5vw !important; } .padding-bottom-52 { padding-bottom: 8.1vw !important; } .padding-bottom-56 { padding-bottom: 8.7vw !important; } .padding-bottom-60 { padding-bottom: 9.4vw !important; } .padding-left-00 { padding-left: 0vw !important; } .padding-left-04 { padding-left: 0.6vw!important; } .padding-left-08 { padding-left: 1.3vw !important; } .padding-left-12 { padding-left: 1.9vw !important; } .padding-left-16 { padding-left: 2.4vw !important; } .padding-left-20 { padding-left: 3.1vw !important; }
+ .padding-left-24 { padding-left: 3.8vw !important; } .padding-left-28 { padding-left: 4.4vw !important; } .padding-left-32 { padding-left: 5vw !important; } .padding-left-36 { padding-left: 5.7vw !important; } .padding-left-40 { padding-left: 6.2vw !important; } .padding-left-44 { padding-left: 6.9vw !important; } .padding-left-48 { padding-left: 7.5vw !important; } .padding-left-52 { padding-left: 8.1vw !important; } .padding-left-56 { padding-left: 8.7vw !important; } .padding-left-60 { padding-left: 9.4vw !important; } .padding-left-75 { padding-left: 13.9vw !important; } .height-20 { height: 3.4vw!important; } .height-15 { height: 4.3vw !important; } .height-30 { height: 5.1vw !important; } .height-35 { height: 5.9vw !important; } .height-40 { height: 6.8vw !important; } .height-45 {
+ height: 7.6vw !important; } .height-50 { height: 8.4vw !important; } .height-55 { height: 9.3vw !important; } .height-60 { height: 10.1vw !important; } .height-65 { height: 11vw !important; } .height-70 { height: 11.8vw !important; } .height-75 { height: 12.6vw !important; } .height-80 { height: 13.5vw !important; } .height-85 { height: 14.3vw !important; } .height-90 { height: 15.1vw !important; } .height-95 { height: 16vw !important; } .height-100 { height: 16.8vw !important; } .height-125 { height: 21vw !important; } .height-140 { height: 21.8vw !important; } .height-150 { height: 25.1vw !important; } .height-175 { height: 29.3vw !important; } .height-200 { height: 33.5vw !important; } .font-size-12 { font-size: 2.2vw !important; } .font-size-14 { font-size: 2.4vw !important; }
+ .font-size-16 { font-size: 2.6vw !important; } .font-size-18 { font-size: 3.0vw !important; } .font-size-20 { font-size: 3.3vw !important; } .font-size-22 { font-size: 3.6vw !important; } .font-size-24 { font-size: 4.0vw !important; } .font-size-26 { font-size: 4.3vw !important; } .font-size-28 { font-size: 4.6vw !important; } .font-size-30 { font-size: 4.9vw !important; } .font-size-32 { font-size: 5.2vw !important; } .font-size-34 { font-size: 5.5vw !important; } .font-size-36 { font-size: 5.9vw !important; } .font-size-38 { font-size: 6.2vw !important; } .font-size-40 { font-size: 6.5vw !important; } .font-size-42 { font-size: 6.8vw !important; } .font-size-44 { font-size: 7.1vw !important; } .font-size-46 { font-size: 7.3vw !important; } .font-size-48 { font-size: 7.7vw !important; }
+ .font-size-50 { font-size: 8.0vw !important; } .font-size-58 { font-size: 9.1vw !important; } .font-size-88 { font-size: 14.0vw !important;} .font-size-110 { font-size: 15.0vw !important; } .line-height-12 { line-height: 2.0vw !important; } .line-height-16 { line-height: 2.6vw !important; } .line-height-19 { line-height: 3.1vw !important; } .line-height-20 { line-height: 3.3vw !important; } .line-height-24 { line-height: 4vw !important; } .line-height-28 { line-height: 4.4vw !important; } .line-height-31 { line-height: 5.0vw !important; } .line-height-32 { line-height: 5vw !important; } .line-height-36 { line-height: 5.7vw !important; } .line-height-40 { line-height: 6.3vw !important; } .line-height-44 { line-height: 6.9vw !important; } .line-height-48 { line-height: 7.5vw !important; }
+ .line-height-50 { line-height: 8.0vw !important; } .line-height-52 { line-height: 8.1vw !important; } .line-height-56 { line-height: 8.7vw !important; } .line-height-60 { line-height: 9.3vw !important; } .line-height-72 { line-height: 11.4vw !important; } .line-height-92 { line-height: 14.3vw !important; } .line-height-131 { line-height: 16.3vw !important; }.responsive-table { width: 100% !important; min-width: 320px !important; max-width: 599px !important; } .responsive-img { width: 100% !important; max-width: 599px !important; display: block !important; height: auto !important; } .responsive-logo { width: 100% !important; max-width: 204px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 158px !important;
+ display: block !important; height: auto !important; } .responsive-line { width: 46px !important; height: 164px !important; vertical-align: middle !important; } .responsive-icon { width: 100% !important; max-width: 250px !important; display: block !important; height: auto !important; } .responsive-star { width: 18.7px !important; height: 18.7px !important; } responsive-image-size-01 { max-width: 112px !important; height: 112px !important; } .image-icon-01 { width: 46px !important; height: 46px !important; } .auto-height { height: 100% !important; } .cta-button-width-100 { width: 93.5px !important; } .cta-button-width-110 { width: 103px !important; } .cta-button-width-120 { width: 112.3px !important; } .cta-button-width-130 { width: 121.6px !important; } .cta-button-width-140 { width:
+ 131px !important; } .cta-button-width-150 { width: 140.3px !important; } .cta-button-width-160 { width: 149.7px !important; } .cta-button-width-170 { width: 159px !important; } .cta-button-width-180 { width: 168.5px !important; } .cta-button-width-190 { width: 177.8px !important; } .cta-button-width-200 { width: 187.1px !important; } .cta-button-width-210 { width: 196.5px !important; } .cta-button-width-220 { width: 206px !important; } .cta-button-width-230 { width: 215.2px !important; } .cta-button-width-240 { width: 224.6px !important; } .cta-button-width-250 { width: 234px !important; } .cta-button-width-260 { width: 243.3px !important; } .cta-button-width-270 { width: 252.7px !important; } .cta-button-width-280 { width: 262px !important; } .cta-button-width-290 { width: 271.4px
+ !important; } .cta-button-width-300 { width: 280.7px !important; } .cta-button-width-310 { width: 290px !important; } .cta-button-width-320 { width: 299.5px !important; } .cta-button-width-330 { width: 308.8px !important; } .cta-button-width-340 { width: 318.2px !important; } .cta-button-width-350 { width: 327px !important; } .cta-button-width-360 { width: 336px !important; } .cta-button-width-370 { width: 345px !important; } .cta-button-width-380 { width: 353px !important; } .cta-button-width-420 { width: 393px !important; } .cta-button-width-450 { width: 400px !important; } .responsive-arrow-01 { width: 7px !important; height: 12px !important; vertical-align: -0.6px !important; } .responsive-ls { letter-spacing: 9.3px !important; } .social-icon-size-01 { height: 22.5px !important;
+ width: 22.5px !important; } .cta-text{font-size:1.9vw !important;} .height-offer{height:29vw} }
+                @media only screen and (max-width:499px) { .responsive-logo { width: 100% !important; max-width: 170px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 130px !important; display: block !important; height: auto !important; } .responsive-line { width: 38px !important; height: 137px !important; vertical-align: middle !important; } .responsive-star { width: 15.6px !important; height: 15.6px !important; } .responsive-image-size-01 { max-width: 93px !important; height: 93px !important; } .image-icon-01 { width: 39px !important; height: 39px !important; } .cta-button-width-100 { width: 78px !important; } .cta-button-width-110 { width: 85.7px !important; } .cta-button-width-120 { width: 93.5px
+ !important; } .cta-button-width-130 { width: 101.3px !important; } .cta-button-width-140 { width: 109.1px !important; } .cta-button-width-150 { width: 117px !important; } .cta-button-width-160 { width: 124.7px !important; } .cta-button-width-170 { width: 132.5px !important; } .cta-button-width-180 { width: 140.3px !important; } .cta-button-width-190 { width: 148.1px !important; } .cta-button-width-200 { width: 156px !important; } .cta-button-width-210 { width: 163.7px !important; } .cta-button-width-220 { width: 171.5px !important; } .cta-button-width-230 { width: 179.3px !important; } .cta-button-width-240 { width: 187px !important; } .cta-button-width-250 { width: 195px !important; } .cta-button-width-260 { width: 202.7px !important; } .cta-button-width-270 { width: 210.5px !important;
+ } .cta-button-width-280 { width: 218.3px !important; } .cta-button-width-290 { width: 226.1px !important; } .cta-button-width-300 { width: 233.9px !important; } .cta-button-width-310 { width: 241.7px !important; } .cta-button-width-320 { width: 249.5px !important; } .cta-button-width-330 { width: 257.2px !important; } .cta-button-width-340 { width: 265px !important; } .cta-button-width-350 { width: 272px !important; } .cta-button-width-360 { width: 280px !important; } .cta-button-width-370 { width: 288px !important; } .cta-button-width-380 { width: 296px !important; } .cta-button-width-420 { width: 327px !important; } .cta-button-width-450 { width: 360px !important; }  .responsive-arrow-01 { width: 5px !important; height: 11px !important; vertical-align: -1.5px !important; }
+ .responsive-ls { letter-spacing: 7.8px !important; } .social-icon-size-01 { height: 18.7px !important; width: 18.7px !important; } }
+                @media only screen and (max-width:415px) { .responsive-logo { width: 100% !important; max-width: 142px !important; display: block !important; height: auto !important; } .responsive-logo-footer { width: 100% !important; max-width: 110px !important; display: block !important; height: auto !important; } .responsive-line { width: 31px !important; height: 114px !important; vertical-align: middle !important; } .responsive-star { width: 13px !important; height: 13px !important; } .responsive-image-size-01 { max-width: 78px !important; height: 78px !important; } .image-icon-01 { width: 32px !important; height: 32px !important; } .cta-button-width-100 { width: 64.8px !important; } .cta-button-width-110 { width: 71.3px !important; } .cta-button-width-120 { width: 77.8px !important;
+ } .cta-button-width-130 { width: 84.3px !important; } .cta-button-width-140 { width: 90.7px !important; } .cta-button-width-150 { width: 97.2px !important; } .cta-button-width-160 { width: 103.7px !important; } .cta-button-width-170 { width: 110.2px !important; } .cta-button-width-180 { width: 116.7px !important; } .cta-button-width-190 { width: 123.2px !important; } .cta-button-width-200 { width: 129.6px !important; } .cta-button-width-210 { width: 136.1px !important; } .cta-button-width-220 { width: 142.6px !important; } .cta-button-width-230 { width: 149.1px !important; } .cta-button-width-240 { width: 155.6px !important; } .cta-button-width-250 { width: 162.1px !important; } .cta-button-width-260 { width: 168.6px !important; } .cta-button-width-270 { width: 175px !important; }
+ .cta-button-width-280 { width: 181.5px !important; } .cta-button-width-290 { width: 188px !important; } .cta-button-width-300 { width: 194.5px !important; } .cta-button-width-310 { width: 201px !important; } .cta-button-width-320 { width: 207.5px !important; } .cta-button-width-330 { width: 214px !important; } .cta-button-width-340 { width: 220.4px !important; } .cta-button-width-350 { width: 227px !important; } .cta-button-width-360 { width: 233px !important; } .cta-button-width-370 { width: 240px !important; } .cta-button-width-380 { width: 246px !important; } .cta-button-width-420 { width: 272px !important; } .cta-button-width-450 { width: 340px !important; } .responsive-arrow-01 { width: 5px !important; height: 9px !important; vertical-align: -0.6px !important; } .responsive-ls {
+ letter-spacing: 6.5px !important; } .social-icon-size-01 { height: 15.5px !important; width: 15.5px !important; } .font-size-12 { font-size: 2.3vw !important; } .font-size-14 { font-size: 2.4vw !important; } .font-size-16 { font-size: 2.6vw !important; } .font-size-18 { font-size: 3vw !important; } .font-size-20 { font-size: 3.3vw !important; } .font-size-22 { font-size: 3.6vw !important; } .font-size-24 { font-size: 4vw !important; } .font-size-26 { font-size: 4.3vw !important; } .font-size-28 { font-size: 4.6vw !important; } .font-size-30 { font-size: 4.9vw !important; } .font-size-32 { font-size: 5.2vw !important; } .font-size-34 { font-size: 5.5vw !important; } .font-size-36 { font-size: 5.9vw !important; } .font-size-38 { font-size: 6.2vw !important; } .font-size-40 { font-size:
+ 6.5vw !important; } .font-size-42 { font-size: 6.8vw !important; } .font-size-44 { font-size: 7.1vw !important; } .font-size-46 { font-size: 7.4vw !important; } .font-size-48 { font-size: 7.7vw !important; } .font-size-50 { font-size: 8vw !important; } .font-size-58 { font-size: 9vw !important; } .font-size-88 { font-size: 14vw !important; } .font-size-110 { font-size: 15vw !important; }.line-height-12 { line-height: 2.4vw !important; } .line-height-16 { line-height: 2.9vw !important; } .line-height-20 { line-height: 3.6vw !important; } .line-height-24 { line-height: 4.3vw !important; } .line-height-28 { line-height: 4.9vw !important; } .line-height-32 { line-height: 5.5vw !important; } .line-height-36 { line-height: 6.2vw !important; } .line-height-40 { line-height: 6.8vw !important; }
+ .line-height-44 { line-height: 7.5vw !important; } .line-height-48 { line-height: 8vw !important; } .line-height-52 { line-height: 8.6vw !important; } .line-height-56 { line-height: 9.2vw !important; } .line-height-60 { line-height: 9.8vw !important; } .line-height-92 { line-height: 14.8vw !important; } .line-height-131 { line-height: 16.8vw !important; } }
+
+</style>
+    
+</head>
+<body><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Get closer to what you love.</div>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+        <tr>
+            <td style="background-color: #e2e2e2;">
+
+                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640" role="presentation" class="responsive-table">
+                                <tr>
+                                    <td align="center" style="padding: 0px 0px 0px 0px;"> 
+                                        <!--******* AmpScript to dynamically display emails using CADE framework *********-->
+<table border="0" cellpadding="0" cellspacing="0" width="640" style="min-width:640px;width:640px;padding:0px 0px 0px 0px;" class="responsive-table" role="presentation"><tr><td>
+
+
+<!-- Display the module as if it were a content block. -->
+<!-- HERO MODULE --><!-- Full_Image_First_640x640 --><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left"><a href="https://click.engage.windows.com/?qs=a6df12996605e6dbdcfd7261c058e09893fc38678867667d070f06b2b3c5ea6ee62abd45922c360e2b1b814a2940e6d33cbaa8aedd470b00a53b998441b6b766" target="_blank"><!--[if !mso]><!--><img src="https://cdn.eyemailinc.com/msftjune21/15-2.gif" width="640" height="640" alt="Video montage showing Windows 11 user interface." border="0" style="border-width: 0; display:block;width:640px;height:640px;" class="responsive-img"><!--<![endif]--><!--[if gte mso 9]>
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/47981cd6-af64-4dcd-9d02-3c037bd553b6.jpg" width="640" height="640" alt="Blue flowing fabric with text that reads brings you closer to what you love. Coming soon." border="0" style="border-width: 0; display:block;width:640px;height:640px;" class="responsive-img" /><![endif]--></a></td></tr><!--[if !mso]><!--><tr><td align="left"><img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/1d197096-e441-40f5-b105-c96b4083b6bd.png" width="640" height="60" border="0" style="border-width: 0; display:block;width:640px;height:60px;" class="responsive-img"></td></tr><!--<![endif]--><!-- end image --></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><tr>
+<td style="padding: 0px 40px 0px 40px; background-color: #F0F0F0;" class="padding-left-40 padding-right-40"><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;"><!-- title --><tr><td align="left" style="padding: 0px 35px 28px 35px;" class="padding-top-00 padding-right-34 padding-bottom-28 padding-left-34"><h1 style="margin: 0; padding: 0; font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 52px; font-weight: 600; line-height: 62px; color: #000000;" class="font-size-50 line-height-60"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db729d0f47150d250180a83e87cc7cefe83945a2a5a7f1112b0bf51df155747df0f0f16ffb60d7697ef3f2517624360fbf5cd84bebf13426ec" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">Introducing Windows 11</a></h1></td></tr>
+<!-- end title --><!-- text --><tr><td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight:normal; line-height:19px; color:#000000;padding:0px 35px 40px 35px;" class="font-size-18 line-height-24 padding-right-34 padding-bottom-40 padding-left-34">Windows 11 combines a rejuvenated Start menu with new ways to connect with the people, news, games, and content <span style="white-space: nowrap;">you&nbsp;love.</span></td></tr><!-- end text --><!-- button background --><tr><td style="padding: 0px 35px 0px 35px;" class="padding-right-34 padding-left-34"><table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation"><tr><td style="background-color: #0078d4;">
+<a href="https://click.engage.windows.com/?qs=a6df12996605e6db9c0caf3d6879cf73cbc99bca9913a4efbfc76d45d9d0d515ac1819cbc25e98ebde5f9499f835368bc07e7dfe3585c142aa787c7d1e1d6c91" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite"><span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px; background-color: #0078d4;border: 1px solid  #0078d4; display:inline-block;">&nbsp;Learn more about <span style="white-space: nowrap;">Windows&nbsp;11</span>&nbsp;</span></a></td></tr></table></td></tr><!-- button background end --></table></td></tr></table>
+<!-- end Full_Image_First_640x640 --><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left"><img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/87192043-9401-4354-9d63-6c9350b699c1.jpg" width="640" height="60" border="0" style="border-width: 0; display:block;width:640px;height:60px;" class="responsive-img"></td></tr><!-- end image --></table></td></tr><tr><td><!-- MODULE ONE --><!-- Full_Image_First_640x360 --><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db91fefcb32230dd710f5ef7cc86720a10f49a530cf5c452a3bbc4f76c9f91054f0955d50f979598f6eae69ac33b500d17e3d49c2fb24c4ff3" target="_blank">
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/ba123b15-c2fa-4e4c-b609-1f9c77f56c47.png" width="640" height="360" alt="Computer screen showing Windows 11 Snap layout." border="0" style="border-width: 0; display:block;width:640px;height:360px;" class="responsive-img"></a></td></tr><!-- end image --></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><tr><td style="padding: 0px 40px 0px 40px; background-color: #F0F0F0;" class="padding-left-40 padding-right-40"><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;"><!-- title --><tr>
+<td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 42px; font-weight: 600; line-height: 50px; color: #000000; padding: 30px 35px 28px 35px;" class="font-size-42 line-height-50 padding-top-30 padding-right-34 padding-bottom-28 padding-left-34"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db9b38ed6b662d0bd1d96a535e8cb82b7bef90f01638eef0998f80fa660a8a92d36f8429700f909c0984c17967546941e1a824b39eacab5541" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">Maximize your productivity</a></td></tr><!-- end title --><!-- text --><tr>
+<td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight:normal; line-height:19px; color:#000000;padding:0px 35px 0px 35px;" class="font-size-18 line-height-24 padding-right-34 padding-bottom-00 padding-left-34">Access all the apps you need, stay organized, and multi-task easier with tools like Snap layouts <span style="white-space: nowrap;">and&nbsp;Desktops.</span></td></tr><!-- end text --></table></td><!-- end Full_Image_First_640x360 --></tr></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left">
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/87192043-9401-4354-9d63-6c9350b699c1.jpg" width="640" height="60" border="0" style="border-width: 0; display:block;width:640px;height:60px;" class="responsive-img"></td></tr><!-- end image --></table></td></tr><tr><td><!-- MODULE TWO --><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db21e0452d1cbc33e24b9256f76c010ab1869d9f105071641b69fc35fb8505220cae3b47698a697afcf75db6f7d05cd8dd9299d0c378925e59" target="_blank">
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/dafa8c9e-690d-49cf-be98-7dcf0c4120f9.jpg" width="640" height="360" alt="Computer screen showing Microsoft Teams." border="0" style="border-width: 0; display:block;width:640px;height:360px;" class="responsive-img"></a></td></tr><!-- end image --></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><tr><td style="padding: 0px 40px 0px 40px; background-color: #F0F0F0;" class="padding-left-40 padding-right-40"><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;"><!-- title --><tr>
+<td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 42px; font-weight: 600; line-height: 50px; color: #000000; padding: 30px 35px 28px 35px;" class="font-size-42 line-height-50 padding-top-30 padding-right-34 padding-bottom-28 padding-left-34"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db2562dc0593e0e2d47410ef3a4b90782e67685ef8f254e2e78cbad3b71c63bdf1b9a0616ffd78759e99bc33dcaa888037fafdfce4356df624" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">New ways <span style="white-space: nowrap;">to&nbsp;connect</span></a></td></tr><!-- end title --><!-- text --><tr>
+<td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight:normal; line-height:19px; color:#000000;padding:0px 35px 0px 35px;" class="font-size-18 line-height-24 padding-right-34 padding-bottom-00 padding-left-34">Call or chat with the people you care about instantly, for free, right from your desktop with <span style="white-space: nowrap;">Microsoft&nbsp;Teams.<sup style="line-height: 0px; font-size: 70%;">1</sup></span></td></tr><!-- end text --></table></td><!-- end Full_Image_First_640x360 --></tr></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left">
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/87192043-9401-4354-9d63-6c9350b699c1.jpg" width="640" height="60" border="0" style="border-width: 0; display:block;width:640px;height:60px;" class="responsive-img"></td></tr><!-- end image --></table></td></tr><tr><td><!-- MODULE THREE --><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><!-- image --><tr><td align="left"><a href="https://click.engage.windows.com/?qs=a6df12996605e6dbdec412a1103d33b3162d2625651c677c098f3a2911eff23063b433d5e9409f7e795a961a61caa69fc61018f10d991af27504811e646e5532" target="_blank">
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/7600fd38-0d52-48cf-8316-1bfda359464c.jpg" width="640" height="360" alt="Computer screen showing Windows 11 Widgets." border="0" style="border-width: 0; display:block;width:640px;height:360px;" class="responsive-img"></a></td></tr><!-- end image --></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"><tr><td style="padding: 0px 40px 0px 40px; background-color: #F0F0F0;" class="padding-left-40 padding-right-40"><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #ffffff;"><!-- title --><tr>
+<td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; font-size: 42px; font-weight: 600; line-height: 50px; color: #000000; padding: 30px 35px 28px 35px;" class="font-size-42 line-height-50 padding-top-30 padding-right-34 padding-bottom-28 padding-left-34"><a href="https://click.engage.windows.com/?qs=a6df12996605e6dbdd9c9efae405a15b0d6cc1fcfdae70a5952a089d50d2ff4bdc561f2721fc5ac69db6fa1f6c8684dc6eb77feea1d69d2c7e3ba6f61b45ec38" target="_blank" style="color:#000000;text-decoration:none;" class="fixLinkBlack">Your content, <span style="white-space: nowrap;">curated&nbsp;by&nbsp;you</span></a></td></tr><!-- end title --><!-- text --><tr>
+<td align="left" style="font-family: 'Segoe UI', wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size:16px; font-weight:normal; line-height:19px; color:#000000;padding:0px 35px 0px 35px;" class="font-size-18 line-height-24 padding-right-34 padding-bottom-00 padding-left-34">With Widgets, <span style="white-space: nowrap;">Microsoft&nbsp;Edge,</span> and apps, you can quickly and easily stay up to date on what matters most <span style="white-space: nowrap;">to&nbsp;you.</span></td></tr><!-- end text --></table></td><!-- end Full_Image_First_640x360 --></tr></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #F0F0F0;"><!-- image --><tr>
+<td align="left" style="padding: 0px 0px 40px 0px;" class="padding-bottom-40"><img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/87192043-9401-4354-9d63-6c9350b699c1.jpg" width="640" height="60" border="0" style="border-width: 0; display:block;width:640px;height:60px;" class="responsive-img"></a></td></tr><!-- end image --></table><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #F0F0F0;"><tr><td style="padding: 0px 40px 24px 40px;" class="padding-bottom-24 padding-left-40 padding-right-40"><table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation"><tr><td style="padding: 0px 35px 0px 35px;" class="padding-right-34 padding-left-34">
+<table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation"><tr><td style="background-color: #0078d4;"><a href="https://click.engage.windows.com/?qs=a6df12996605e6dba6a019cd6edd631431d7986a261f73b6c5c833cb9f60c46bb815d57c5bdda868351ac7a6212a6f51debdbd0652cf7d6853b9b53e0b48fa24" target="_blank" style="text-align:center; display:inline-block; width:100%; color: #ffffff" class="fixLinkWhite"><span class="font-size-18 line-height-20 padding-top-12 padding-right-20 padding-bottom-12 padding-left-20 fixLinkWhite" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #ffffff; padding: 10px 20px 13px 20px; background-color: #0078d4;border: 1px solid  #0078d4; display:inline-block;">&nbsp;Learn more about <span style="white-space: nowrap;">Windows&nbsp;11</span>&nbsp;
+</span></a></td></tr></table></td></tr></td></tr></table><!-- button background end --></table></td></tr><tr><td><!-- MODULE FOUR --><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #F0F0F0;"><tr><td style="padding: 0px 40px 30px 40px;" class="padding-bottom-28 padding-right-40 padding-left-40"><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #F0F0F0;"><tr><td style="padding: 0px 35px 0px 35px;" class="padding-right-34 padding-left-34"><table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="background-color: #F0F0F0;"><tr><td width="8.5%" valign="middle" align="left" style="padding: 0px 0px 0px 0px;"><a href="https://click.engage.windows.com/?qs=a6df12996605e6dbba843ffa6c18c0655d7f9232a47e939daca202fa306083606a40e733bfec72f58ede1026dad53e8f201297f936ad2217c17d5ba823a2123c" target="_blank">
+<img src="https://image.engage.windows.com/lib/fe8613727d6d027871/m/1/eef6ef73-2bbc-4a84-a2a2-dc1a6abcad42.jpg" width="40" height="40" alt="Blue illustration of a newsletter." border="0" style="border-width: 0; display:block;width:40px;height:40px;" class="responsive-img"></a></td><td valign="top" align="left"><table cellpadding="0" border="0" align="left" cellspacing="0" role="presentation"><tr>
+<td align="left" class="font-size-18 line-height-20 padding-top-04 padding-bottom-04 padding-left-20 fixLinkBlue" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #0078d4; text-decoration: underline; padding: 10px 0px 10px 18px; background-color: #F0F0F0;border: 1px solid  #F0F0F0; display:inline-block;"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db041612f161da979457a4ebc9019f002b47d3c66fea2cc6370637b33a91d6d9f09584207941f19e0e7d8d4208bfbf9b8eeb77c48d63b95c20" target="_blank" style="text-align:left; display:inline-block; width:100%; color: #0078d4" class="fixLinkBlue">
+<span class="font-size-18 line-height-20 fixLinkBlue" style="font-family: 'Segoe UI Semibold', wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; line-height: 19px;font-weight: 500;font-size: 16px; color: #0078d4; text-decoration: underline; padding: 0px 0px 0px 0px; background-color: #F0F0F0;border: 1px solid  #F0F0F0; display:inline-block;">Sign up for Windows 11 news and updates</span></a></td></tr></table></td></tr><!-- button background end --></table></td></tr></table></td></tr></table></td></tr><tr><td></td></tr><tr><td><!-- 2_Social Bar --><table cellpadding="0" width="100%" border="0" align="center" cellspacing="0" style="background-color: #f0f0f0;" class="responsive-table" role="presentation"><tr><td style="padding:40px 40px;" class="padding-top-40 padding-right-40 padding-bottom-40 padding-left-40"><table cellpadding="0" border="0" align="center" cellspacing="0" width="100%" style="background-color: #f0f0f0;" role="presentation">
+<tr><td align="center" style="padding: 0% 11.7% 0% 11.7%;"><table cellpadding="0" border="0" align="center" cellspacing="0" role="presentation"><tr><td align="center" valign="middle" style="background-color: #f0f0f0;padding:0px 20px 0px 0px; text-align:left;" class="padding-right-20">
+<a href="https://click.engage.windows.com/?qs=a6df12996605e6db6eb39f9e617a76e80f9d62f72787b53ff57285b7fb978f0c08bccb46314ecb0f92106dbaecdf50100ba1343bed637db5f916452fe1e30a3d" style="text-decoration:none;" target="_blank"><img src="https://image.engage.surface.com/lib/fe821372726d0d7873/m/3/9c9a1b38-49b5-45e7-9abf-6edb7fb9eb88.png" width="24" height="24" alt="Facebook icon" style="border-width: 0;display:block;" border="0" class="social-icon-size-01"></a></td><td align="center" valign="middle" style="background-color: #f0f0f0;padding:0px 20px 0px 0px; text-align:left;" class="padding-right-20"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db81be22e0bafa99fcfba2e0fea726a1532d48e2d65f4319ad5769c8653a4b49e05c12e27433621bdd06d986110f840f440232751a4a98e1c2" style="text-decoration:none;" target="_blank">
+<img src="https://image.engage.surface.com/lib/fe821372726d0d7873/m/3/799287b7-801b-4e54-a4c2-a34ea7756824.png" width="24" height="24" alt="Twitter icon" style="border-width: 0;display:block;" border="0" class="social-icon-size-01"></a></td><td align="center" valign="middle" style="background-color: #f0f0f0;padding:0px 0px 0px 0px; text-align:left;" class="padding-right-00"><a href="https://click.engage.windows.com/?qs=a6df12996605e6db11c72fb35535a193fe20e63da4a43a3792cc4555e9124b598e06452677b61b3b84c04d4ba1f05bfab821d6c7b775726259a9f02971cd6b34" style="text-decoration:none;" target="_blank"><img src="https://image.engage.surface.com/lib/fe821372726d0d7873/m/3/5e1b8bfa-5e57-4bcb-acbc-c2f257c76c69.png" width="24" height="24" alt="Instagram icon" style="border-width: 0;display:block;" border="0" class="social-icon-size-01"></a></td></tr></table></td></tr></table></td></tr></table>
+<!-- end 2_Social Bar --></td></tr><tr><td> <!-- 3_Footer --><table cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;" class="responsive-table" role="presentation" style="background-color: #f0f0f0;"><tr><td align="center" style="background-color: #f0f0f0;"><table width="76.6%" cellpadding="0" cellspacing="0" border="0" style="width:76.6%;" class="responsive-table" role="presentation" style="background-color: #f0f0f0;"><tr><td align="left" style="padding: 0px 0px 28px 0px; font-size: 16px; line-height: 19px; text-decoration: none; background-color: #f0f0f0;" class="font-size-18 line-height-24 padding-left-40 padding-right-40 padding-bottom-28">
+<p style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif; font-size: 16px; line-height: 19px; font-weight: normal; color:#000000;" class="font-size-18 line-height-24"><sup style="line-height: 0px; font-size: 70%;">1</sup>&nbsp;You can meet with anyone in a 1:1 call and speak up to 24 hours for free. For a group call (more than two people), you can meet with up to 100 participants and call up to 60 mins for free. We are waiving these limits in light of COVID-19 so that you can meet with up to 300 participants and speak up to 24 hours for free until <span style="white-space: nowrap;">further&nbsp;specified.</span></p></td></tr><tr>
+<td align="center" style="font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_semibold, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: 600; color:#000000; padding: 0px 0px 8px 0px; text-decoration: none; background-color: #f0f0f0;" class="font-size-18 line-height-24 padding-bottom-08"><a href="https://click.engage.windows.com/?qs=a6df12996605e6dbca24e7f6f671273a95335a5a5d18bda25dadc7d091404bc24beb042e2c55d8456190fa0e74b7d86abec64dde018ad642eed0c11c30c5a198" style="text-decoration: underline; color:#000000;" class="fixLinkBlack" target="_blank">Unsubscribe</a>&nbsp;|&nbsp;<a href="https://click.engage.windows.com/?qs=a6df12996605e6db1f30caf4f2d7e68266425de388c19657e9acaead3adf0e542ffeb96a1d48a2ff3695eb7adaee91b11fefd9cbfe3948dc69e7a0c58a14ca29" style="text-decoration:underline; color:#000000;" class="fixLinkBlack" target="_blank">Privacy Statement</a>&nbsp;|&nbsp;
+<a href="https://view.engage.windows.com/?qs=587b3a846b1bbd4bfbdca44968a8d28bf59f084e203691d30135b77e93e741156e39c759bc4d77e01da06991d7fbff54b705468b4d0a655e3a79b5adbc57601ff7e321ef328d21e9ecf0eb9a9e970a2d" style="text-decoration: underline; color:#000000;" class="fixLinkBlack" target="_blank">View&nbsp;as&nbsp;webpage</a></td></tr><tr><td align="center" style="padding: 0px 0px 60px 0px; text-decoration: none; background-color: #f0f0f0;" class="font-size-18 line-height-24 padding-bottom-60"><p class="font-size-18 line-height-24" style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; ">Microsoft Corporation</p>
+<p class="font-size-18 line-height-24" style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000; ">One Microsoft Way</p><p class="font-size-18 line-height-24" style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Segoe WP', wf_segoe-ui_normal, Tahoma, Arial, sans-serif;font-size: 16px; line-height: 19px; font-weight: normal; color:#000000;">Redmond, WA 98052</p></td></tr></table></td></tr></table><!-- end 3_Footer --></td></tr></table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 0px 0px 0px 0px; background-color: #ffffff;">
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 0px 0px 0px 0px; background-color: #ffffff;">
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 0px 0px 0px 0px; background-color: #ffffff;">
+                                        
+                                    </td>
+                                </tr>
+
+                            </table>
+
+            </td>
+        </tr>
+    </table><!-- 100% table -->
+<img src="https://click.engage.windows.com/open.aspx?ffcb10-fec11c717d66017b-fe3916717364017e741474-fe831372726d0d7870-ff991575-fe2f11767367057c741273-feec10777d6d03&amp;d=70163&amp;bmt=0" width="1" height="1" alt="">
+</custom></body>
+</html>
+
+--JP5UNdiSFCW1=_?:--

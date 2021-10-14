@@ -1,0 +1,629 @@
+Received: from MW2NAM10HT100.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:803:2a::32) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SN4PR0401CA0046.NAMPRD04.PROD.OUTLOOK.COM; Sat, 14 Aug 2021
+ 18:13:05 +0000
+Received: from MW2NAM10FT047.eop-nam10.prod.protection.outlook.com
+ (2a01:111:e400:7e87::48) by
+ MW2NAM10HT100.eop-nam10.prod.protection.outlook.com (2a01:111:e400:7e87::312)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4415.16; Sat, 14 Aug
+ 2021 18:13:03 +0000
+Authentication-Results: spf=pass (sender IP is 149.72.241.206)
+ smtp.mailfrom=em.spotify.com; outlook.com; dkim=pass (signature was verified)
+ header.d=spotify.com;outlook.com; dmarc=pass action=none
+ header.from=spotify.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of em.spotify.com
+ designates 149.72.241.206 as permitted sender)
+ receiver=protection.outlook.com; client-ip=149.72.241.206;
+ helo=o26.em.spotify.com;
+Received: from o26.em.spotify.com (149.72.241.206) by
+ MW2NAM10FT047.mail.protection.outlook.com (10.13.155.35) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4415.16 via Frontend Transport; Sat, 14 Aug 2021 18:13:03 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:730D527400E3655828450B8964EF180CD465CED7E6E4AADFFBDCA419CE2CEC9C;UpperCasedChecksum:3AAC785D411B1936BCBB9CDCF704E3DDCDEB5D1D0FF17FB1C3F2F1CF0E009A5A;SizeAsReceived:1568;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=spotify.com; 
+	h=content-type:from:mime-version:to:subject; s=s2; 
+	bh=tgn+EdRGpOx4mXpuWX3kIwQxgBf9Kt4reze21KOJU2k=; b=rBHLG5KOJMTnv
+	YuEj8gqlURo0TW9cH93UemC3Fh2dA6zVQ2O5YRGpg7agaFgbn4S+DuEGIa0x8MXx
+	1VwdKy+X4T6itHRrVSrYrQa+ml4+yWR6n+Wd0hH09aLCcvZorip/bJQfXch7LNcH
+	WNbgC7fnHVSXf/dXb+8k9LfHK0qGAo=
+Received: by filter2834p1mdw1.sendgrid.net with SMTP id filter2834p1mdw1-2917-611807AE-3
+        2021-08-14 18:13:02.568643925 +0000 UTC m=+1383847.788368707
+Received: from MTUwODA5NDM (unknown)
+	by geopod-ismtpd-4-0 (SG) with HTTP id sCcaiYIgS8K7GYpToUMf8Q
+	Sat, 14 Aug 2021 18:13:02.366 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=bab21cd6fa1ec3840ed8a72a96fc002736ca8bb8c08d3b44487749a72a03
+Date: Sat, 14 Aug 2021 18:13:02 +0000 (UTC)
+From: "Spotify" <no-reply@spotify.com>
+To: nigel.agwah@outlook.com
+Message-ID: <sCcaiYIgS8K7GYpToUMf8Q@geopod-ismtpd-4-0>
+Subject: New login to Spotify
+X-SG-EID: RvBAp+ck36OqSjMHNBNYdA8CJuxJowuHleXMgHKcdJE8VJyiiyJ6Xdl3OTCwSx7ZC5BcJE/EBPBiHA
+ yTQURXwEblz5BqYf3J+neP/M3dlkIMWvMfug/rpwqYTSKnMq6uhrRoB29o/25S9GjiJrkCB1LJSw7C
+ 19C2DA+UrkTIbCHu8FFrxCSVWMuV5SE7b5GvouwmI0ovz/dG0AoozKQoH6cVvFPISz/Ov3+KlSXMs8
+ 8=
+X-SG-ID: mcTyqcYTtmn56LU3ATD1fwxnYrQ0tDNcTW6cUeVoEvQCNJmTWjo9cfXClLdvbrSj+l7JLSsXPZktC2
+ DklJtM2KxLzZsIwyTGPi33AaDLv1b8k3Ih/rKNJDfs3bxKoEgl/M7DRTnt2kggGeetWRcS2x0XQvr4
+ 1cJTHopzrZJKsKg221s9COi0pfs+ZsKql8Jv7uZy9HdRMwZMnTIb7OlyOluzw06aEyiyAqSwcfiAyo
+ zns5eY7wMSl4x/+sMq21Cl
+X-Entity-ID: vCoNoJhSrZfUTgxwuPCBqA==
+X-IncomingHeaderCount: 13
+Return-Path: bounces+15080943-1c64-nigel.agwah=outlook.com@em.spotify.com
+X-MS-Exchange-Organization-ExpirationStartTime: 14 Aug 2021 18:13:03.7121
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ c31f6ac2-a724-46f5-8b51-08d95f4f288e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM10FT047.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/12/2021 3:59:36 AM
+X-MS-Office365-Filtering-Correlation-Id: c31f6ac2-a724-46f5-8b51-08d95f4f288e
+X-MS-TrafficTypeDiagnostic: MW2NAM10HT100:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 149.72.241.206
+X-SID-PRA: NO-REPLY@SPOTIFY.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Aug 2021 18:13:03.3393
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c31f6ac2-a724-46f5-8b51-08d95f4f288e
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM10FT047.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW2NAM10HT100
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7324809
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4415.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(91045095)(9050020)(9100335)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkderkwTnsBGVWTuU1qMriomyy1Ntf7LFr93d6FwQO0XcfHpPEnXFXjqkY7QE1qJvaUnyhX540497rHOAX/FjAfWz600EtHaYQPMf8kueL0ihzKgjKCCgiY+lcmanBmCBDoGALX3eca29JbnHIXcTScdU7zL0XpoT/C7DMSU2eCiJEAzIAngKriIHouPcwTLaF8eYFGN54BlKsg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VlR2aktTSVdYWEtHMHU5NThyRmdqaXBJdHlHNnhPU3VDaWt4TmZnYzNiRlY3?=
+ =?utf-8?B?N21tejNzZVNSdDJNaTVkbnJSMWRIZ0tCdGlHS0tXN21Gbzh3Vmk1VldzMVUy?=
+ =?utf-8?B?dE1YdXBJS1VkZWRnMXg3NkZPNGxqQXM1Y0w3N2lpRExvcExRTHQrbUVEMUFh?=
+ =?utf-8?B?a1FmWFhQaXVMV0daNktCenIzMDRVcDhZUXVpTE4wUE1nTWM0cTNPbWtleVZ2?=
+ =?utf-8?B?RXpNdDRZd2VyelEvVzBwaVV0YjBrWU9WRGRDTCtIZ0JTTnZ6YXRNSnZwOXFD?=
+ =?utf-8?B?SjhrV2I0eEZObUJ3UGRHSVAxT3d6UllnK0JJc3lFaTdORERqc2ZWN1BSR2xN?=
+ =?utf-8?B?QU9Jb25oK1NlN0FSYWJpTEc0REtwcmkzdnc1RHg0MG9vYkN4Z3RqZk8rdW40?=
+ =?utf-8?B?TDJLUmFzOXBkemEyYm9rc2hlVDVYalJOV2xTOGFXelpLeVM0ekJiNnpDc0x6?=
+ =?utf-8?B?cE9qOVFLSFYyWEdGVEt6K2tPeFQxa2lBYmQxcnFHbW9UcGplYko5dkJzOGl6?=
+ =?utf-8?B?RUdMQlZ3OHJmdXZ6NWhzekxmdTV5YUJvRW1PeHQ5cVA5Z1VMRFdNOWNmMGdl?=
+ =?utf-8?B?dUVld3lXMHlOZ0JQY1ZaRVVvOG5Fdm5veFFqVDFsL0I4c3Zod29LajlWa09K?=
+ =?utf-8?B?SFBKMDZ3Wk5QeTlSdEZlZ205KzlNQzBVMmtKT0NxZUZ5ZmZDNC9TLzYrSWxn?=
+ =?utf-8?B?RENOaElVKzBGTXRhTUlUbDBTaVVwUHBRbXZybGdtSVdwaEhlcmdEZndNeE1X?=
+ =?utf-8?B?bFRVeGd1QUNnWWVQUVc0Q09JMEVCRHI1eGVQKzNRdmtpaStqcHpMLzFJYW16?=
+ =?utf-8?B?L0xUcUIvVHVWSkpPcWtCWlV6UU9DZVdTaXo0UHdJVkd0eVRVaFFxaUNrMlhw?=
+ =?utf-8?B?aVd5KzByS3VoTms2czIrVDhoaE5DNjdjTmNHd25VVEFvQ0E5OUFpYU9XMDB2?=
+ =?utf-8?B?OUpaZGxYQy9qVjRhWVhhVjMweFo5ZnNybHJ2ZXh6WlpxaUEyVnU4c2xHZHdZ?=
+ =?utf-8?B?OUdld2lwL245ZnFSMmt3VWNWYzVkOWdDVWwvZkNSWlpmVDh1NkFGOHJiSWYx?=
+ =?utf-8?B?WUovMGNuZG9lWDFZdmFnTkRVODRYZjJ5bGM1TjJaUjcwVEZaQWtvSkFCaXdn?=
+ =?utf-8?B?L2dCcWxDRmFaYmVkLzR3WG5NN1F2cUk0WjlzUnNCQVhEakpnYnlleWxqQUlN?=
+ =?utf-8?B?VmoxRjg3ZDQ0TWhBZTU0a0hqcWVRVDIrZjlCb3JUZ1BRdURYc2R6cTBjSFhR?=
+ =?utf-8?B?YzFPNlhMaG5DTFc1dmQ4bENxam5UUmlZbEUzWHpueDdyZ2Rhd0RNKzZKalhH?=
+ =?utf-8?B?QWZSTEppL0hqR1NTMmF3a1FIUG83ZEgvVGpEci9OMVlnYThuRnp3aDlZZTl1?=
+ =?utf-8?B?ZExwZUZ0azJoZERMZEkxcStVNFRFM29MU0xjbVg2NGg3RmpORitQWEVyRzFX?=
+ =?utf-8?B?QlJyTmtkbzRNbHNnblpWTDNSejh2YmZGbDZ4dGM0eVBrbkRsNnN5ZDlMYjkx?=
+ =?utf-8?B?eVpiWDVzV0JTOFEwRHYxOEsvR1BmQm5kUmJhSWQ2UWJYeWhLeElZQURYaE83?=
+ =?utf-8?B?OFdQQkxCSGNYWHRNYzJaZGw4WWhZMGFvVGNFK0FDQUpteWpYS3VvWm8wUkFS?=
+ =?utf-8?B?ZXBjME5jOHN0aDdnV08vYW5GOERoL2c9PQ==?=
+MIME-Version: 1.0
+X-TUID: uRa38AfVWWJ/
+
+--bab21cd6fa1ec3840ed8a72a96fc002736ca8bb8c08d3b44487749a72a03
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+
+
+New login to Spotify=20
+
+
+
+We noticed you logged in from a new device.
+If this was you, there=E2=80=99s nothing for you to do right now.
+
+
+
+Location *United States*
+
+
+Time *August 14, 2021 at 2:13:02 PM EDT*
+
+
+Not you?
+
+
+
+Take a few minutes to secure your account.
+
+
+
+SECURE ACCOUNT ( http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJ=
+ixaBJLgHzxt7ucpNDx7svMP-2FPKWPa5yNjbziwlVKnWvHgIjwHXTVlUCSfqRlAYDbg-3D-3DHt=
+XJ_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbd=
+lsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F=
+2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm=
+3NT7K0xJaZJVkB1-2BDvUJWZCig9B1yAn7oY2apytTnT3BqWohEE1cwSMyHsgZRCwxf9LHSqBUB=
+1cCkTSM29bUElM3-2BET8FSoR4CDNqM0LANSvumupkQfIEAvQqO-2Bu8df977ViWzQY7fQRe94-=
+2FuejpgG7Nz7HEe8lGO-2FTaIFLIi6CTv3CLjNDcVAjq9zXyA3qSLbO6sXadQMvbqIhsIqH5vJz=
+61Cr1GHj5BtcNAtlKJ-2BtSNJ0oK-2FOWkeXr-2BSjrs3uz2T4bpmfw-3D-3D )
+
+
+Make sure this email is from Spotify:=20
+support.spotify.com/article/suspicious-email/ ( //support.spotify.com/artic=
+le/suspicious-email/ )=20
+
+
+-------------
+
+Get Spotify for:
+  * iPhone (http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJvS69E=
+r-2FFVBoPR6bD9yBuWJ7zx3L84Sz4uVtOTJ9lnoW5CyBdfcRP5eSUxIzv6FpAw-3D-3Di9BD_7K=
+aMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6V=
+mh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P=
+-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K=
+0xNnVg5DghUdpCv7fVzdJ-2Bc0B-2FhmQheCwUtLm9AniRcQLv35cUdymQYE-2FuGO72XWnzYrj=
+YJV3qw-2Bwl0lqKIQZG6asNTJmJXtsIlut-2BHTF-2FoKzFSwKOS6KJvsJNB9BZvPuJrN2WIRQU=
+lplGthZ3lSVGkZNu6U5VM3-2BZEVlfoUmRL0VmmMdFifGXVmzwbtpRW3wgdsg-2Bj8V-2FvEayb=
+tE-2Bi6dSxUcyrktKG-2FPffe9-2BVAHNLQURFcHxrEhzFSXOgFFoW-2FFEQ-3D-3D
+  * iPad (http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJvS69Er-=
+2FFVBoPR6bD9yBuWJ7zx3L84Sz4uVtOTJ9lnoW5CyBdfcRP5eSUxIzv6FpAw-3D-3D9vv9_7KaM=
+wkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh=
+-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2=
+BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0x=
+PNFSyE5clW76yrIsOQ17UeHTlE5w5tTaJ6M4VfnF93aYn-2F4n7VKS2WAqKLl7RiS9k2xpH6fnH=
+jzVSe6-2BEQomZSpRHFCZBDIzfv09OtMNcw7EkUWM6JGEb-2FnoGIhLq1tlL3SSEn-2FWUwsOX-=
+2BLrrTQUSi8UHwQQlWb-2BCiXgr8zJIYoEa1LNhtV1-2BquUqAuMpKP7HYcyxvgKju7SbD0NwAa=
+3RX-2FghdkXVZtMzIY1PDrZHhGHBJ4eUrdAjWujnz2fi550A-3D-3D
+  * Android (http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJtMyo=
+FLjd-2FlEYLCmlYVYgFxVQNNN-2BUJklQkK1LshD1Ynga4NYnZpqYs1nV8wpRciylIrAV71zZ7i=
+CV4wJcM4eAo-3Dvoov_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY=
+3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSB=
+yO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1=
+KUeKCGbt2-2BKftm3NT7K0xOJ09XhgYdpLR9bDsQQE-2FekLUGd9zGSu-2FHF9qj6ugIjhMlAz2=
+1W4vBZS6mfFoeo29U2w0-2FF-2FuDPcht13uIASbEFlN79gAhGjdZNOQyj9S1TIh8EIHPVpC6gt=
+Y2n-2F094zjxnBpnbpzOTHNshZiQMR-2FTuyzxpt9qEpfig36p0C-2FuS1sOoUkYP0mVmJsLf-2=
+BOhjNPiBUXs7TdAP9it-2FIgA0X2ADQ6Bn6-2FRxcyKHk4mr5SyfSCWVmCmpMd7KnTmJasD5qrg=
+-3D-3D
+  * Other (http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJixaBJL=
+gHzxt7ucpNDx7svO90zcyWog0BN9JTegZPgFW8Vge_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQ=
+m6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM=
+2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTK=
+sp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xJTus2mYpo9cHG555vh0Z7E1ja4TnC=
+GCIUU-2Bi-2FXVZhjgxhkkykGMm3i2sh19UTFUXuMptggW4og-2BQ9cUFOM6Or4xP6ftxu9HO0K=
+5Tu4-2BGvpbWMEHhMXZOZX2-2F-2B0VXoUCn43Z-2F27Bqo72bLQfXKZ63wHg287igS4GwjhX7J=
+c6VJsqX5NFBwMKhdfcptH9WQdTHOIl2PbJgm06E-2Bhb9Mna6bphbsiF6rfuGUzmm59koHoN4ye=
+LLq1HUEDfBxO61WI4kQ-3D-3D
+
+This message was sent to nigel.agwah@outlook.com.
+If you don't want to receive these emails from Spotify in the future, you c=
+an edit your profile ( http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqh=
+f9HedJixaBJLgHzxt7ucpNDx7svOLcvlOQ-2B1sO8TfmQowIQsHOWF2Ye4R7hdmaSurWIrOlA-3=
+D-3DpJhl_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HE=
+Hrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL=
+5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-=
+2BKftm3NT7K0xH7kQ0jipq-2Fk3S0GZ4lKwyIF3Js-2FqunENxa5uhDKG2R16eqwUwRcPGwdmmo=
+Ba9tcBO5WeaQ4Kh-2B1hY6vJYmGWOVuRRPhI2SSHEMhmXQxG-2BRG1R-2FSxQsMwTf4heXS-2Fn=
+LCjJ-2BYqUQGJ6b9PPEdp-2BUVZfA5Rpq-2BpiK-2BTK0KeXXaoQzEx9YGRRE-2FobYJPxVug3u=
+F4lEtm6v5bcNF6XvxwoLbl4IpkIc0dYfSW1NT9zYvERVgHf-2FA0QOJx3zzfy3646AE9w-3D-3D=
+ ) or unsubscribe (  ).
+
+  * Terms of Use http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJ=
+ixaBJLgHzxt7ucpNDx7svN408hRpcuCVCgf7m6J6giwO-2F-2BUTNVMrFhLktjw5Ull5w-3D-3D=
+qmj3_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhv=
+bdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-=
+2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKf=
+tm3NT7K0xBDxpoL1LRNkmMoUZbys5xOfpsvNqR46McIhXrH-2By3Rx1n0h4R3CBwKxXs6gu9oOa=
+FduofSTiFUD3WyzKfM-2BP0Hwb0qzQjeIzO5IfTuxigxbmsgxeB0P-2B5k-2FHhlpfDXd7lhMsm=
+9K9zlIWiG0X-2BrXJiPPp-2BRblUoLp-2BZXmGWbJOKWCTzIMTTqak8AqmaLaf6TPUZRU9M9XNQ=
+8ajLJYJRu8T-2Fjiep6JL7Bt4qkt-2B7e0MSAlrgOzPoBmCbKP4EtnoIqBg-3D-3D
+  * Privacy Policy http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9He=
+dJixaBJLgHzxt7ucpNDx7svMMdiZZlhM5rwjOOro408fav139k-2F2dI6X9HZw2gFoClQ-3D-3D=
+Y2K5_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhv=
+bdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-=
+2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKf=
+tm3NT7K0xOCFNNNR1L6FvUzd6yD-2Bb6GLr895AINB3FrvdfIeL1L9nZQ1MHpe9OfnPzSmHVq6q=
+L-2Bf0LxDKCfUVNhI8zETukdqKXxAhcNgroad6AjHBzfg8jfpYJ5KYTWSUpv8G6OABJXBoi8-2B=
+rYoCEV62wyfWkUJ-2FksbRKMKEb8em5av2Mi2gmeUsqC236XTrStchsew-2B2vjYTbk-2BgUbHH=
+uY90sbUzUUC-2BSu-2FK3SxUR-2Bobo74q3bz56nQc-2F-2F5p3662dzbwnBktQ-3D-3D
+  * Contact Us http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJix=
+aBJLgHzxt7ucpNDx7svPz28De6B4OBdR-2F3HChg9HbY5lqcHGw0DqRdGtdY4DR-2FQ-3D-3Dqj=
+3Q_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbd=
+lsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F=
+2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm=
+3NT7K0xOxO-2FVdVk7PFHmxyL5tjCvHkwln5pNqLGCYvpg3OxEPtppIYL8hjthAl6QbIpaLniFB=
+LAVKx3uDIdvdjub-2BgW6AlD4jWA0gRv1-2FYJ9LWAVpWfawTDUMnSjhrZhNb6FLtMHN4BiGJIp=
+1VVic3AZ4oM14lmuA2dfpdkrKxJAL5dvRAQ6ByOp4gbvVCnRIt4tGbp4w8qn-2Bq4aGqUUkl4vL=
+Bn4tPvlHbKPlO6xYTkk5-2BhjsJHklGriyJlAETCK5C6sWZJg-3D-3D
+
+
+Spotify AB, Regeringsgatan 19, 111 53, Stockholm, Sweden
+
+--bab21cd6fa1ec3840ed8a72a96fc002736ca8bb8c08d3b44487749a72a03
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" style=3D"margin=
+: 0; padding: 0"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><m=
+eta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"><=
+title>New login to Spotify</title><style type=3D"text/css">@media only scre=
+en and (min-device-width: 481px) {div[id=3D"main"] {width: 480px !important=
+;}}</style><!--[if mso]><style>body, table, tr, td, h1, h2, h3, h4, h5, h6,=
+ center p, a, span, table.MsoNormalTable {font-family: "Helvetica Neue", "H=
+elvetica", "Arial", sans-serif !important}</style><![endif]--></head><body =
+topmargin=3D"0" leftmargin=3D"0" rightmargin=3D"0" bottommargin=3D"0" margi=
+nheight=3D"0" marginwidth=3D"0" style=3D"-webkit-font-smoothing: antialiase=
+d; width: 100% !important; -webkit-text-size-adjust: none; margin: 0; paddi=
+ng: 0"><!--TEST-FORM--><span style=3D"border:none;padding:0;margin:0;displa=
+y:none;font-size:1px"></span>
+<!--[if (mso) | (IE)]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" valign=3D"top" width=3D"480" align=3D"center"><tr><td valign=3D"top" ali=
+gn=3D"left" style=3D" word-break:normal; border-collapse:collapse; font-fam=
+ily:'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:1=
+2px; line-height:18px; color:#555555;"><![endif]--><table style=3D"border-c=
+ollapse:collapse;padding:0;max-width:480px;width:100%;border:0;background-c=
+olor:#ffffff;margin:0 auto;word-break:break-word" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody style=3D"border:none;padding:0;margin:0"><tr style=3D"bor=
+der:none;margin:0px;padding:0px"><td style=3D"border:none;padding:0;margin:=
+0"><div id=3D"main" style=3D"border:none;padding:0;margin:0"><table class=
+=3D"header-root" style=3D"border-collapse:collapse;padding:0;background-col=
+or:#ffffff;text-align:left;width:100%;height:50px"><tbody style=3D"border:n=
+one;padding:0;margin:0"><tr style=3D"border:none;margin:0px;padding:0px;hei=
+ght:24px" data-test=3D"table-padding-top"><td colspan=3D"3" style=3D"border=
+:none;padding:0;margin:0;height:24px"></td></tr><tr style=3D"border:none;ma=
+rgin:0px;padding:0px"><td data-test=3D"table-padding-left" style=3D"border:=
+none;padding:0;margin:0;width:24px"></td><td style=3D"border:none;padding:0=
+;margin:0"><a href=3D"http://wl.spotify.com/ls/click?upn=3DXAEfZ2hMeeJ6LbW1=
+-2B0kr4S-2Fu8cbYqXqXzqFraKZunCk-3DvzpO_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6w=
+bA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA=
+-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8=
+mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xA36GohOD8wOytijLe8EBo2pkzH4Cr-2F=
+pxR2I-2BIf5XRSQpZBGNBtfbdjFU8Q8o1MK9bKE1f9bUFAn6C-2FN9MkP97ZGIGnrW-2FqQojKe=
+uQzZbAy0Ytznv6zs6dKEkIAZvKgwA4hVltvMcfiDM5Ix4ZBPJYOPN34g83OQ3SD42QCECa2Eta0=
+u1Cc6gcH1Sgt7GUUckYkSa3txZveHlNHs4MYU1Jk1XbsDt68J50Cup1EGdJL3RgIcQYSoNlihwj=
+sD1dbYbw-3D-3D" style=3D"text-decoration:none;color:#1ed760"><img alt=3D"" =
+class=3D"logo" style=3D"display:block;max-width:100%;margin-right:auto;widt=
+h:122px;height:37px" src=3D"http://message-editor.scdn.co/newsletters/b2207=
+13a2d4ac7a75ebe1f9ee0c78549.png" height=3D"37"></a></td><td data-test=3D"ta=
+ble-padding-right" style=3D"border:none;padding:0;margin:0;width:24px"></td=
+></tr><tr style=3D"border:none;margin:0px;padding:0px;height:24px" data-tes=
+t=3D"table-padding-bottom"><td colspan=3D"3" style=3D"border:none;padding:0=
+;margin:0;height:24px"></td></tr></tbody></table><table style=3D"border-col=
+lapse:collapse;padding:0;width:100%;background-color:#ffffff;font-family:he=
+lvetica;font-size:48px" dir=3D"auto"><tbody style=3D"border:none;padding:0;=
+margin:0"><tr style=3D"border:none;margin:0px;padding:0px;height:24px" data=
+-test=3D"table-padding-top"><td colspan=3D"3" style=3D"border:none;padding:=
+0;margin:0;height:24px"></td></tr><tr style=3D"border:none;margin:0px;paddi=
+ng:0px"><td data-test=3D"table-padding-left" style=3D"border:none;padding:0=
+;margin:0;width:24px"></td><td style=3D"border:none;padding:0;margin:0"><p =
+style=3D"border:none;padding:0;margin:0;background-color:#ffffff;color:#000=
+000;font-size:48px;font-weight:400;letter-spacing:-0.36px;line-height:57.59=
+9999999999994px;text-align:left"><b style=3D"border:none;padding:0;margin:0=
+">New login to Spotify=20
+<b style=3D"border:none;padding:0;margin:0"></b></b></p></td><td data-test=
+=3D"table-padding-right" style=3D"border:none;padding:0;margin:0;width:24px=
+"></td></tr><tr style=3D"border:none;margin:0px;padding:0px;height:24px" da=
+ta-test=3D"table-padding-bottom"><td colspan=3D"3" style=3D"border:none;pad=
+ding:0;margin:0;height:24px"></td></tr></tbody></table><table style=3D"bord=
+er-collapse:collapse;padding:0;width:100%;background-color:#ffffff;font-fam=
+ily:helvetica;font-size:16px" dir=3D"auto"><tbody style=3D"border:none;padd=
+ing:0;margin:0"><tr style=3D"border:none;margin:0px;padding:0px;height:24px=
+" data-test=3D"table-padding-top"><td colspan=3D"3" style=3D"border:none;pa=
+dding:0;margin:0;height:24px"></td></tr><tr style=3D"border:none;margin:0px=
+;padding:0px"><td data-test=3D"table-padding-left" style=3D"border:none;pad=
+ding:0;margin:0;width:24px"></td><td style=3D"border:none;padding:0;margin:=
+0"><p style=3D"border:none;padding:0;margin:0;background-color:#ffffff;colo=
+r:#000000;font-size:16px;font-weight:400;letter-spacing:.15px;line-height:2=
+0px;text-align:left">We noticed you logged in from a new device.
+If this was you, there=E2=80=99s nothing for you to do right now.
+</p></td><td data-test=3D"table-padding-right" style=3D"border:none;padding=
+:0;margin:0;width:24px"></td></tr></tbody></table><table style=3D"border-co=
+llapse:collapse;padding:0;width:100%;background-color:#ffffff;font-family:h=
+elvetica;font-size:16px" dir=3D"auto"><tbody style=3D"border:none;padding:0=
+;margin:0"><tr style=3D"border:none;margin:0px;padding:0px;height:24px" dat=
+a-test=3D"table-padding-top"><td colspan=3D"3" style=3D"border:none;padding=
+:0;margin:0;height:24px"></td></tr><tr style=3D"border:none;margin:0px;padd=
+ing:0px"><td data-test=3D"table-padding-left" style=3D"border:none;padding:=
+0;margin:0;width:24px"></td><td style=3D"border:none;padding:0;margin:0"><p=
+ style=3D"border:none;padding:0;margin:0;background-color:#ffffff;color:#00=
+0000;font-size:16px;font-weight:400;letter-spacing:.15px;line-height:20px;t=
+ext-align:left">Location <b style=3D"border:none;padding:0;margin:0">United=
+ States</b></p></td><td data-test=3D"table-padding-right" style=3D"border:n=
+one;padding:0;margin:0;width:24px"></td></tr></tbody></table><table style=
+=3D"border-collapse:collapse;padding:0;width:100%;background-color:#ffffff;=
+font-family:helvetica;font-size:16px" dir=3D"auto"><tbody style=3D"border:n=
+one;padding:0;margin:0"><tr style=3D"border:none;margin:0px;padding:0px"><t=
+d data-test=3D"table-padding-left" style=3D"border:none;padding:0;margin:0;=
+width:24px"></td><td style=3D"border:none;padding:0;margin:0"><p style=3D"b=
+order:none;padding:0;margin:0;background-color:#ffffff;color:#000000;font-s=
+ize:16px;font-weight:400;letter-spacing:.15px;line-height:20px;text-align:l=
+eft">Time <b style=3D"border:none;padding:0;margin:0">August 14, 2021 at 2:=
+13:02 PM EDT</b></p></td><td data-test=3D"table-padding-right" style=3D"bor=
+der:none;padding:0;margin:0;width:24px"></td></tr><tr style=3D"border:none;=
+margin:0px;padding:0px;height:24px" data-test=3D"table-padding-bottom"><td =
+colspan=3D"3" style=3D"border:none;padding:0;margin:0;height:24px"></td></t=
+r></tbody></table><table style=3D"border-collapse:collapse;padding:0;width:=
+100%;background-color:#ffffff;font-family:helvetica;font-size:24px" dir=3D"=
+auto"><tbody style=3D"border:none;padding:0;margin:0"><tr style=3D"border:n=
+one;margin:0px;padding:0px;height:24px" data-test=3D"table-padding-top"><td=
+ colspan=3D"3" style=3D"border:none;padding:0;margin:0;height:24px"></td></=
+tr><tr style=3D"border:none;margin:0px;padding:0px"><td data-test=3D"table-=
+padding-left" style=3D"border:none;padding:0;margin:0;width:24px"></td><td =
+style=3D"border:none;padding:0;margin:0"><p style=3D"border:none;padding:0;=
+margin:0;background-color:#ffffff;color:#000000;font-size:24px;font-weight:=
+400;letter-spacing:-0.36px;line-height:28.799999999999997px;text-align:left=
+"><b style=3D"border:none;padding:0;margin:0">Not you?
+<b style=3D"border:none;padding:0;margin:0"></b></b></p></td><td data-test=
+=3D"table-padding-right" style=3D"border:none;padding:0;margin:0;width:24px=
+"></td></tr><tr style=3D"border:none;margin:0px;padding:0px;height:24px" da=
+ta-test=3D"table-padding-bottom"><td colspan=3D"3" style=3D"border:none;pad=
+ding:0;margin:0;height:24px"></td></tr></tbody></table><table style=3D"bord=
+er-collapse:collapse;padding:0;width:100%;background-color:#ffffff;font-fam=
+ily:helvetica;font-size:16px" dir=3D"auto"><tbody style=3D"border:none;padd=
+ing:0;margin:0"><tr style=3D"border:none;margin:0px;padding:0px"><td data-t=
+est=3D"table-padding-left" style=3D"border:none;padding:0;margin:0;width:24=
+px"></td><td style=3D"border:none;padding:0;margin:0"><p style=3D"border:no=
+ne;padding:0;margin:0;background-color:#ffffff;color:#000000;font-size:16px=
+;font-weight:400;letter-spacing:.15px;line-height:20px;text-align:left">Tak=
+e a few minutes to secure your account.
+</p></td><td data-test=3D"table-padding-right" style=3D"border:none;padding=
+:0;margin:0;width:24px"></td></tr><tr style=3D"border:none;margin:0px;paddi=
+ng:0px;height:24px" data-test=3D"table-padding-bottom"><td colspan=3D"3" st=
+yle=3D"border:none;padding:0;margin:0;height:24px"></td></tr></tbody></tabl=
+e><table class=3D"call-to-action-root" data-test=3D"call-to-action-root" st=
+yle=3D"border-collapse:collapse;padding:0;width:100%;background-color:#ffff=
+ff;text-align:left"><tbody style=3D"border:none;padding:0;margin:0"><tr sty=
+le=3D"border:none;margin:0px;padding:0px"><td data-test=3D"table-padding-le=
+ft" style=3D"border:none;padding:0;margin:0;width:24px"></td><td style=3D"b=
+order:none;padding:0;margin:0"><table style=3D"border-collapse:collapse;pad=
+ding:0;width:100%"><tbody style=3D"border:none;padding:0;margin:0"><tr styl=
+e=3D"border:none;margin:0px;padding:0px"><td class=3D"font" style=3D"border=
+:none;padding:0;margin:0;font-family:&quot;circular&quot;, &quot;helvetica =
+neue&quot;, &quot;helvetica&quot;, &quot;arial&quot;, sans-serif;font-weigh=
+t:700;line-height:1.1em;letter-spacing:0.15px;font-size:14px;text-decoratio=
+n:none;text-align:center;text-transform:uppercase"><div style=3D"border:non=
+e;padding:0;margin:0;text-align:left;line-height:0">
+<!--[if mso]><div style=3D"line-height:1em;"><v:roundrect xmlns:v=3D"urn:sc=
+hemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+href=3D"https://www.spotify.com/account/security/checkup" style=3D"v-text-a=
+nchor: middle; width: 240px; max-width: 240px; height: 48px; text-decoratio=
+n: none; color: '#ffffff'; font-family: 'Helvetica Neue', 'Helvetica', 'Ari=
+al', sans-serif; font-size: 13px; font-weight: bold; line-height: 48px" arc=
+size=3D"50%" fillcolor=3D"#1db954" strokecolor=3D"#1db954"><w:anchorlock />=
+<center style=3D"color: #ffffff; font-family: 'Helvetica Neue', 'Helvetica'=
+, 'Arial', sans-serif; font-size: 13px; font-weight: bold; line-height: 16p=
+x; text-transform:uppercase">SECURE ACCOUNT</center></v:roundrect></div><![=
+endif]-->
+<!--[if mso]><div style=3D"mso-hide: all"><![endif]--><a href=3D"http://wl.=
+spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJixaBJLgHzxt7ucpNDx7svMP-2FP=
+KWPa5yNjbziwlVKnWvHgIjwHXTVlUCSfqRlAYDbg-3D-3DSpqv_7KaMwkvSy4fTkKE-2By2MWNb=
+vDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1Nb=
+VI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD=
+1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xMNrd59E9P-2BTq-2Blpj=
+gu4hqdp1v9-2FOMSenD0hsncs-2F2u3ZXs1W2SXC2aeQtTecYdTAA7UMXfUZcpl92nhXlW2tEOn=
+boZC23aPQZjWSKWwJQLbtPHwXHH8TjwaI-2FMuLzjYm37AB4ZeGPAbIUfbV5bh4qFLBp3f4GpM-=
+2FxT4tyL4yqg54fRoT7UF-2F-2FlzYIy-2FtGUvmT3VPIeEd0w4QLjazFgHrggbQK-2B9NBGPh6=
+4ojcb3rygD55fc0-2F5f-2BCF3iedLjRX-2BUQ-3D-3D" clicktracking=3D"on" universa=
+l=3D"false" class=3D"call-to-action-button" style=3D"text-decoration:none;c=
+olor:#ffffff;margin-right:auto;max-width:240px;background-color:#1db954;bor=
+der-radius:24px;display:block" data-test=3D"call-to-action-button"><table c=
+lass=3D"call-to-action-container" style=3D"border-collapse:collapse;padding=
+:0;mso-hide:all;width:100%;max-width:240px;height:48px"><tbody style=3D"bor=
+der:none;padding:0;margin:0"><tr style=3D"border:none;margin:0px;padding:0p=
+x"><td class=3D"call-to-action-inner-padding" style=3D"border:none;padding:=
+0;margin:0;width:24px"></td><td style=3D"border:none;padding:0;margin:0;fon=
+t-family:&quot;circular&quot;, &quot;helvetica neue&quot;, &quot;helvetica&=
+quot;, &quot;arial&quot;, sans-serif;font-weight:700;line-height:1.1em;lett=
+er-spacing:0.15px;font-size:14px;text-decoration:none;text-align:center;tex=
+t-transform:uppercase;color:#ffffff" class=3D"font call-to-action-cell">SEC=
+URE ACCOUNT</td><td class=3D"call-to-action-inner-padding" style=3D"border:=
+none;padding:0;margin:0;width:24px"></td></tr></tbody></table></a>
+<!--[if mso]></div><![endif]--></div></td></tr></tbody></table></td></tr><t=
+r style=3D"border:none;margin:0px;padding:0px;height:32px" data-test=3D"tab=
+le-padding-bottom"><td colspan=3D"3" style=3D"border:none;padding:0;margin:=
+0;height:32px"></td></tr></tbody></table><table style=3D"border-collapse:co=
+llapse;padding:0;width:100%;background-color:#ffffff;font-family:helvetica;=
+font-size:16px" dir=3D"auto"><tbody style=3D"border:none;padding:0;margin:0=
+"><tr style=3D"border:none;margin:0px;padding:0px"><td data-test=3D"table-p=
+adding-left" style=3D"border:none;padding:0;margin:0;width:24px"></td><td s=
+tyle=3D"border:none;padding:0;margin:0"><p style=3D"border:none;padding:0;m=
+argin:0;background-color:#ffffff;color:#000000;font-size:16px;font-weight:4=
+00;letter-spacing:.15px;line-height:20px;text-align:left">Make sure this em=
+ail is from Spotify:=20
+<a href=3D"//support.spotify.com/article/suspicious-email/" style=3D"text-d=
+ecoration:none;color:#1ed760">support.spotify.com/article/suspicious-email/=
+</a> </p></td><td data-test=3D"table-padding-right" style=3D"border:none;pa=
+dding:0;margin:0;width:24px"></td></tr><tr style=3D"border:none;margin:0px;=
+padding:0px;height:24px" data-test=3D"table-padding-bottom"><td colspan=3D"=
+3" style=3D"border:none;padding:0;margin:0;height:24px"></td></tr></tbody><=
+/table><table style=3D"border-collapse:collapse;padding:0;background-color:=
+#f7f7f7;width:100%" class=3D"footer-root" dir=3D"auto"><tbody style=3D"bord=
+er:none;padding:0;margin:0"><tr style=3D"border:none;margin:0px;padding:0px=
+;height:25px"><td colspan=3D"3" style=3D"border:none;padding:6.25px;margin:=
+0;height:25px"></td></tr><tr style=3D"border:none;margin:0px;padding:0px"><=
+td style=3D"border:none;padding:0;margin:0;width:6.25%"></td><td style=3D"b=
+order:none;padding:0;margin:0"><img style=3D"display:block;max-width:100%;h=
+eight:23px" src=3D"http://message-editor.scdn.co/newsletter/images/logo_foo=
+ter.png" height=3D"23"></td><td style=3D"border:none;padding:0;margin:0;wid=
+th:6.25%"></td></tr><tr style=3D"border:none;margin:0px;padding:0px;height:=
+25px"><td colspan=3D"3" style=3D"border:none;padding:6.25px;margin:0;height=
+:25px"></td></tr><tr style=3D"border:none;margin:0px;padding:0px"><td style=
+=3D"border:none;padding:0;margin:0;width:6.25%"></td><td style=3D"border:no=
+ne;padding:0;margin:0"><hr style=3D"height:1px;background-color:#d1d5d9;bor=
+der:none;margin:0px;padding:0px"></td><td style=3D"border:none;padding:0;ma=
+rgin:0;width:6.25%"></td></tr><tr style=3D"border:none;margin:0px;padding:0=
+px;height:12px"><td colspan=3D"3" style=3D"border:none;padding:3px;margin:0=
+;height:12px"></td></tr><tr style=3D"border:none;margin:0px;padding:0px"><t=
+d style=3D"border:none;padding:0;margin:0;width:6.25%"></td><td class=3D"fo=
+nt" style=3D"border:none;padding:0;margin:0;font-family:&quot;circular&quot=
+;, &quot;helvetica neue&quot;, &quot;helvetica&quot;, &quot;arial&quot;, sa=
+ns-serif;font-weight:400;line-height:1.65em;letter-spacing:0.15px;font-size=
+:11px;text-decoration:none;color:#88898c">Get Spotify for: &nbsp;<a class=
+=3D"footer-separated-text" style=3D"text-decoration:none;color:#6d6d6d;disp=
+lay:inline-block;font-weight:700" href=3D"http://wl.spotify.com/ls/click?up=
+n=3D4eYBe7grRs48Zqhf9HedJvS69Er-2FFVBoPR6bD9yBuWJ7zx3L84Sz4uVtOTJ9lnoWJ9hFA=
+5sWR6I0pKzLx-2B2-2B2g-3D-3DTPQx_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1=
+w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98q=
+klnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHY=
+qipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xMFRrFUpbpkZ5A4dsB6uwyMg-2B5HDiRDfy7RhsR=
+mj2U5JDrUSgOS35AMRmNhViH8fVtkOI7HzQpjW9qUif5lTMtaS4xY2iolh4auiFCfNUK2Y-2BHi=
+D2g-2F0-2FiMFi9ODIhws6XL4YjWZwZReELIDLWKl4z-2BTzoN8LTw1arv6Fw5BqlDNbP4KIRUq=
+JtT0zLMQCgLIg9Di5odpMX-2BhkswxnsoB3MbWfxR-2BSsSMGZJdMA-2FUOgp8JYaFQ7zvq6-2B=
+oUSO3zbwIQg-3D-3D">iPhone</a><span style=3D"border:none;padding:4px 0;margi=
+n:0 7px;width:1px;border-left:solid 1px #c3c3c3;border-right:solid 1px tran=
+sparent">&nbsp;</span><a class=3D"footer-separated-text" style=3D"text-deco=
+ration:none;color:#6d6d6d;display:inline-block;font-weight:700" href=3D"htt=
+p://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJvS69Er-2FFVBoPR6bD9y=
+BuWJ7zx3L84Sz4uVtOTJ9lnoWJ9hFA5sWR6I0pKzLx-2B2-2B2g-3D-3DrQ-8_7KaMwkvSy4fTk=
+KE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165w=
+lwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9=
+FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xKci6cof-2=
+F-2B0Kwe0OpIz4cjJ-2B7IP6-2FjNOTeZI2Mh3Rr9qiLmqneeTy3HJg6gZ-2FVnBW68nXppHh-2=
+FfkKtNPFGNKC0JtUcpBkC5IikRQE431IZDNjdVNdTiMXIBJbLrVLqY5aQFLSF0l-2FlnypQIt3Y=
+A5lFL1Tjcurj0q1eRPmYdWmDvRjmpv75jlyF2orKk2S7ArlSsvdO0RuV90FdyXtdVWLZtMj4wj5=
+KNvdGnilm5YrkQVgE8pBx4zd052D5EXgPnL0g-3D-3D">iPad</a><span style=3D"border:=
+none;padding:4px 0;margin:0 7px;width:1px;border-left:solid 1px #c3c3c3;bor=
+der-right:solid 1px transparent">&nbsp;</span><a class=3D"footer-separated-=
+text" style=3D"text-decoration:none;color:#6d6d6d;display:inline-block;font=
+-weight:700" href=3D"http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9=
+HedJtMyoFLjd-2FlEYLCmlYVYgFxVQNNN-2BUJklQkK1LshD1Ynga4NYnZpqYs1nV8wpRciyleg=
+MH6voQ6INIk-2Fbw1JsZs-3D9Fov_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I=
+-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qkln=
+xDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqip=
+dD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xDZ7jtiNeWoCTsBLqUPDK8-2Bx81fbMN25yI7ZBIM1r=
+Dv3OjWuJbBezII4o-2F7WTHrwVbLKqV8X9LV9hV90toRT4CjLqOZIjl12FCj7XE6sn9ffO8t-2B=
+l3bhnhdI8i0lWawLVRPomt9xitbOrGDdavCw-2FP4TpVWGHzgwAfj2cSPtpm31QMcwXM2N5Wwrq=
+bcYDNp9it47YWto-2BQlagGD7DcSrHd8JRCVZk-2FmKHoi2cyQg2mvSJxymhB0TJ88ZlF4i3kO3=
+zg-3D-3D">Android</a><span style=3D"border:none;padding:4px 0;margin:0 7px;=
+width:1px;border-left:solid 1px #c3c3c3;border-right:solid 1px transparent"=
+>&nbsp;</span><a class=3D"footer-separated-text" style=3D"text-decoration:n=
+one;color:#6d6d6d;display:inline-block;font-weight:700" href=3D"http://wl.s=
+potify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJixaBJLgHzxt7ucpNDx7svN6liBB2=
+De3mzNywEUMwHfnJoKu_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCy=
+Y3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cS=
+ByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF=
+1KUeKCGbt2-2BKftm3NT7K0xCZ9U9uarsjG3RdzBQ3-2F3xkQbs7b3dX5c40oG6fhTzLJSHpxbO=
+IHpSwgmPVN-2FzHtE7MA2cMEWL2c7dmcjkImZe34RSnlmWevY3orh2ay6gwqKBlT1T8B9fit6Li=
+vI-2FO0SjqaMhaV-2FcYls55lmSP1dYnprhINUmgRYTS7SimAkwLfzlgbci2baQDZ80RQCljzFg=
+4oZ1WwztzraIq5yv09c-2FgWTzPraKIlRvOyLReyz-2Ft-2BXsSoVyzrWN2hvRq3-2FYNUtw-3D=
+-3D">Other</a></td><td style=3D"border:none;padding:0;margin:0;width:6.25%"=
+></td></tr><tr style=3D"border:none;margin:0px;padding:0px;height:12px"><td=
+ colspan=3D"3" style=3D"border:none;padding:3px;margin:0;height:12px"></td>=
+</tr><tr style=3D"border:none;margin:0px;padding:0px"><td style=3D"border:n=
+one;padding:0;margin:0;width:6.25%"></td><td style=3D"border:none;padding:0=
+;margin:0"><hr style=3D"height:1px;background-color:#d1d5d9;border:none;mar=
+gin:0px;padding:0px"></td><td style=3D"border:none;padding:0;margin:0;width=
+:6.25%"></td></tr><tr style=3D"border:none;margin:0px;padding:0px;height:25=
+px"><td colspan=3D"3" style=3D"border:none;padding:6.25px;margin:0;height:2=
+5px"></td></tr><tr style=3D"border:none;margin:0px;padding:0px"><td style=
+=3D"border:none;padding:0;margin:0;width:6.25%"></td><td class=3D"font" sty=
+le=3D"border:none;padding:0;margin:0;font-family:&quot;circular&quot;, &quo=
+t;helvetica neue&quot;, &quot;helvetica&quot;, &quot;arial&quot;, sans-seri=
+f;font-weight:400;line-height:1.65em;letter-spacing:0.15px;font-size:11px;t=
+ext-decoration:none;color:#88898c"> <span style=3D"border:none;padding:0;ma=
+rgin:0">This message was sent to nigel.agwah@outlook.com.</span> If you don=
+'t want to receive these emails from Spotify in the future, you can <a clas=
+s=3D"footer-link" href=3D"http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48=
+Zqhf9HedJixaBJLgHzxt7ucpNDx7svOLcvlOQ-2B1sO8TfmQowIQsHOWF2Ye4R7hdmaSurWIrOl=
+A-3D-3DQAG8_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks=
+5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl=
+7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGb=
+t2-2BKftm3NT7K0xNACiU8BAXjUnbI-2FxUdV3ONQgjWY1x7rAF3y0xL74ltXAuZzqmVBvq21t0=
+KjjRnWVkDHsvvgf-2FEn7jDl-2B0SIKFz9o-2F15ORsG8bSpDWQEFD7mR79-2B2R4-2FRC69rTy=
+2Jtxy2HStDb4U60CE7W1LaDnreDNYVkmgwDfKSSGmBa8HsCOBaPDiy0RPImludEVFnLKwBZgqsG=
+4lFdTUudbPeNHy1w5pTrIjHQHEAWOe7STPQ4habT2i8opAQXjOr-2BQUlzf4WA-3D-3D" style=
+=3D"text-decoration:none;color:rgb(109, 109, 109);border:none;margin:0px;pa=
+dding:0px;font-weight:bold">edit your profile</a> or <a class=3D"footer-lin=
+k" href=3D"" style=3D"text-decoration:none;color:rgb(109, 109, 109);border:=
+none;margin:0px;padding:0px;font-weight:bold">unsubscribe</a>.</td><td styl=
+e=3D"border:none;padding:0;margin:0;width:6.25%"></td></tr><tr style=3D"bor=
+der:none;margin:0px;padding:0px;height:33px"><td colspan=3D"3" style=3D"bor=
+der:none;padding:8.25px;margin:0;height:33px"></td></tr><tr style=3D"border=
+:none;margin:0px;padding:0px"><td style=3D"border:none;padding:0;margin:0;w=
+idth:6.25%"></td><td class=3D"font font-small" style=3D"border:none;padding=
+:0;margin:0;font-family:&quot;circular&quot;, &quot;helvetica neue&quot;, &=
+quot;helvetica&quot;, &quot;arial&quot;, sans-serif;font-weight:400;line-he=
+ight:1.65em;letter-spacing:0.15px;font-size:11px;text-decoration:none;color=
+:#88898c"><a class=3D"footer-separated-text" style=3D"text-decoration:none;=
+color:#6d6d6d;display:inline-block;font-weight:700" href=3D"http://wl.spoti=
+fy.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJixaBJLgHzxt7ucpNDx7svN408hRpcuCV=
+Cgf7m6J6giwO-2F-2BUTNVMrFhLktjw5Ull5w-3D-3DSEjF_7KaMwkvSy4fTkKE-2By2MWNbvDw=
+rLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI4=
+0GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1Po=
+eyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xE1j9pY6afO27vY3h2EEljCS=
+dRNb4pRS1VLzO-2BlpipURRV4euPMEl4vzn46yngmDMAMCSGvCQgve4jD2Gl4vFX25J7HVWV-2B=
+2c2ivoHUsaWl6IoyzIEPbKGyResQy0mEy-2F5myW9eU28a-2FcK9Q43ideha-2BtuBu-2B6kEpy=
+aeKg458RtzdpwlBTNBzNn4EOlcNK8hiPKzFU7yGbQoM2OOHQ-2FukaDh2Em01IRSMoW4vlJYhhG=
+9C5RXBgmPwNOuDMvVEE4mdQ-3D-3D">Terms of Use</a><span style=3D"border:none;p=
+adding:4px 0;margin:0 7px;width:1px;border-left:solid 1px #c3c3c3;border-ri=
+ght:solid 1px transparent">&nbsp;</span><a class=3D"footer-separated-text" =
+style=3D"text-decoration:none;color:#6d6d6d;display:inline-block;font-weigh=
+t:700" href=3D"http://wl.spotify.com/ls/click?upn=3D4eYBe7grRs48Zqhf9HedJix=
+aBJLgHzxt7ucpNDx7svMMdiZZlhM5rwjOOro408fav139k-2F2dI6X9HZw2gFoClQ-3D-3DzUcF=
+_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdls=
+h6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2n=
+U6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKsp8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3N=
+T7K0xJIJFR14wWOxH4iq-2FSgwaRSF5oYgXQ1o9fv5UhZh3z5poQTRc2jMC3YFh4N3NHA-2FQkK=
+depQ76Ox8J9Pf46Ul6pRElEwaAoOMEOLg2M5xIBxVb8ntNFFJw9n6hTcxrhYX0-2F7qimSR0sPa=
+EgqQcXIbssuJCndq-2F9r7n-2Frg-2BG-2BlahKXtSTnd53nvht40-2BRC0wKlR9j2-2Ff7rZXZ=
+7n90uI3Kiuo0bwz6-2FdbrxeKfT39Yv7laZE5F76R9mu22ovxs-2FmPQXtQ-3D-3D">Privacy =
+Policy</a><span style=3D"border:none;padding:4px 0;margin:0 7px;width:1px;b=
+order-left:solid 1px #c3c3c3;border-right:solid 1px transparent">&nbsp;</sp=
+an><a class=3D"footer-separated-text" style=3D"text-decoration:none;color:#=
+6d6d6d;display:inline-block;font-weight:700" href=3D"http://wl.spotify.com/=
+ls/click?upn=3D4eYBe7grRs48Zqhf9HedJixaBJLgHzxt7ucpNDx7svPz28De6B4OBdR-2F3H=
+Chg9HbY5lqcHGw0DqRdGtdY4DR-2FQ-3D-3D1eyf_7KaMwkvSy4fTkKE-2By2MWNbvDwrLHFxQm=
+6wbA-2FD1w5I-2BgxgFCyY3BFnmks5HEHrhvbdlsh6Vmh-2Bc0165wlwc6x2Ov1NbVI40GH6jM2=
+jA-2Br98qklnxDkKcZ8cSByO93aSl7yL5KZ-2F2nU6P-2BUa4QMbj9FViJHXd55rD1PoeyVuTKs=
+p8mjyomHYqipdD4sbXWiF1KUeKCGbt2-2BKftm3NT7K0xMwqOa6vDB5-2BahCUizBN-2FkF-2BP=
+NZDC6fXwRTkLTnvtc9oHy-2BHFoXBtNc8TH2ttU8LjGxn-2F9Tgh-2FUaPnd6w4drE5DA3wZbWQ=
+x2xn6V1lVSuLvJ8B4b1rkHC5zrhcqVqVR-2F0bjf-2BhwxpNCuENHHmnJQruNzF-2Ba09omzGIx=
+VxwB7ggJo8YzbsQDpNKEnukWzuj6zyboS2Up5KPX0Ef14SoDGkLkULgy3OyOyypnAIjnYMHt9li=
+rz4tUUfTqvWxCOFxtoAw-3D-3D">Contact Us</a></td><td style=3D"border:none;pad=
+ding:0;margin:0;width:6.25%"></td></tr><tr style=3D"border:none;margin:0px;=
+padding:0px;height:12px"><td colspan=3D"3" style=3D"border:none;padding:3px=
+;margin:0;height:12px"></td></tr><tr style=3D"border:none;margin:0px;paddin=
+g:0px"><td style=3D"border:none;padding:0;margin:0;width:6.25%"></td><td cl=
+ass=3D"font font-small" style=3D"border:none;padding:0;margin:0;font-family=
+:&quot;circular&quot;, &quot;helvetica neue&quot;, &quot;helvetica&quot;, &=
+quot;arial&quot;, sans-serif;font-weight:400;line-height:1.65em;letter-spac=
+ing:0.15px;font-size:11px;text-decoration:none;color:#88898c">Spotify AB, R=
+egeringsgatan 19, 111 53, Stockholm, Sweden</td><td style=3D"border:none;pa=
+dding:0;margin:0;width:6.25%"></td></tr><tr style=3D"border:none;margin:0px=
+;padding:0px;height:25px"><td colspan=3D"3" style=3D"border:none;padding:6.=
+25px;margin:0;height:25px"></td></tr></tbody></table></div></td></tr></tbod=
+y></table>
+<!--[if (mso) | (IE)]></td></tr></table><![endif]-->
+<img src=3D"http://wl.spotify.com/wf/open?upn=3D0mwXn0caUjhhJsla-2FkVFKCQlh=
+JqD0AYaLKoZUbYGiHIuArqzkoMsnxYY6UZyKCpJHZRuExAdLpYsc6ftVrvHcCTkVfHGYG8a0G-2=
+FiLh6fTmZ9CSuXLJg31wh1mvcQU28cqS54-2BBClI1KzpsnJ8oxuP0Jby170NEU8BvrPkZ8zPLl=
+xuc5dXs7iO-2Bva0WhXLnwdJxD8eJCowTZuF-2BgveL41dFDTFoGeKHhD4fk9zYY59jfqxlpx5l=
+tsyxkOqx8-2FMvXqB6fjLteeuQd4wC5b9-2FO7olQwiEIQrMXkJzxvk8RQKJd-2Fhwu8LGdbM8H=
+I9zMKdx-2BMPZEU7pwaN2Ppzr1lBnR7c290nuIXVHAFJZSpWYLabv-2Fw9y7aPXQtVqn1-2BnDZ=
+i09aGURZNQIFyTD4K-2BJcNblA9JfOlDTB6UpW2un9J06cRZqgBD6Uc-2FEPbfo7L90CsVphO-2=
+B7mmERy1iMe4HrGzy6IQOtU1zU7Uagk8zfA4tnGoaw-3D" alt=3D"" width=3D"1" height=
+=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !important;bor=
+der-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;m=
+argin-right:0 !important;margin-left:0 !important;padding-top:0 !important;=
+padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !impo=
+rtant;">
+</body></html>
+
+--bab21cd6fa1ec3840ed8a72a96fc002736ca8bb8c08d3b44487749a72a03--

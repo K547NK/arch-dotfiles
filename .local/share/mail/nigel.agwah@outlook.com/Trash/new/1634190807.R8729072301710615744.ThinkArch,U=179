@@ -1,0 +1,591 @@
+Received: from CS1PR8401MB0711.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7515::8) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Thu, 23 Sep 2021 20:20:59 +0000
+Received: from BN8PR03CA0028.namprd03.prod.outlook.com (2603:10b6:408:94::41)
+ by CS1PR8401MB0711.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7515::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.17; Thu, 23 Sep
+ 2021 20:20:57 +0000
+Received: from BN8NAM12FT010.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::c1) by BN8PR03CA0028.outlook.office365.com
+ (2603:10b6:408:94::41) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4544.13 via Frontend
+ Transport; Thu, 23 Sep 2021 20:20:57 +0000
+Authentication-Results: spf=pass (sender IP is 208.64.202.58)
+ smtp.mailfrom=steampowered.com; outlook.com; dkim=pass (signature was
+ verified) header.d=steampowered.com;outlook.com; dmarc=pass action=none
+ header.from=steampowered.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of steampowered.com
+ designates 208.64.202.58 as permitted sender)
+ receiver=protection.outlook.com; client-ip=208.64.202.58;
+ helo=smtp-14-tuk1.steampowered.com;
+Received: from smtp-14-tuk1.steampowered.com (208.64.202.58) by
+ BN8NAM12FT010.mail.protection.outlook.com (10.13.182.62) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4544.6 via Frontend Transport; Thu, 23 Sep 2021 20:20:57 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:DFBCB9C4605DC3FEEBC5D92342FC14588DB2E5D50459210AA60ACFA406138F81;UpperCasedChecksum:63D25CD73833005FB41B533BD94A0DE410D39B0F4FEA56CED8307E1161BB2C3A;SizeAsReceived:1350;Count:12
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject:
+	MIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=V5BIu0lilGOJUfRoIaa0tnqMAPTdbFmrUqaiROsg9G4=; b=FYBRxhZU1p0duOTshveCkJYx2+
+	7iLhRDx2y7ri+VtMJfXe6611BbAd9O8XLTkJgstI2Q/ueueq9JQXh+BcwTAiPYdJGucg8b/jWhZwN
+	KCxQfwepA6W/aKwZp4zUj6yOYTVWq/WxH38znaevg4dA3xgjh6vg4YCrx4AfwpCsiAc0=;
+Received: from [208.64.200.202] (helo=valvesoftware.com)
+	by smtp-14-tuk1.steampowered.com with smtp (Exim 4.93)
+	(envelope-from <noreply@steampowered.com>)
+	id 1mTVDE-001qTr-L2
+	for nigel.agwah@outlook.com; Thu, 23 Sep 2021 13:20:56 -0700
+To: nigel.agwah@outlook.com
+From: Steam <noreply@steampowered.com>
+Reply-To: <noreply@steampowered.com>
+Errors-To: <noreply@steampowered.com>
+X-Steam-Message-Type: CEmailWishlistItemOnSale
+Subject: Vanquish from your Steam wishlist is now on sale!
+Content-Type: multipart/alternative;
+ boundary="np614ce1a894495"
+Message-Id: <E1mTVDE-001qTr-L2@smtp-14-tuk1.steampowered.com>
+Date: Thu, 23 Sep 2021 13:20:56 -0700
+X-IncomingHeaderCount: 12
+Return-Path: noreply@steampowered.com
+X-MS-Exchange-Organization-ExpirationStartTime: 23 Sep 2021 20:20:57.6053
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 0ef9394c-ee6a-4e98-b948-08d97ecfa713
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM12FT010.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/23/2021 2:11:59 AM
+X-MS-Office365-Filtering-Correlation-Id: 0ef9394c-ee6a-4e98-b948-08d97ecfa713
+X-MS-TrafficTypeDiagnostic: CS1PR8401MB0711:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.64.202.58
+X-SID-PRA: NOREPLY@STEAMPOWERED.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Sep 2021 20:20:57.4924
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0ef9394c-ee6a-4e98-b948-08d97ecfa713
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM12FT010.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CS1PR8401MB0711
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5307914
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4544.015
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:1;pcwl:1;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:TrustedSenderList;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100336)(4900116)(98391031)(4910005)(9560002)(9415002)(9310003)(9240001)(4920091)(6515079)(4950132)(530109);
+X-Message-Info:
+	5vMbyqxGkddhh69sIkKp9ni0X74jJC4hxwwqpa4ezByhVxt7hMcRmPdhX7tVeJI9q49TpjTNKvGPFDg40tegg0JZACLqLp93k4UDOMK1Z4kQURvWjCun7ztWw+mI3vjrzaSg6IbkzASz7lD+w8th9jRASmblxkCuycEOOcpnj7CdpLpTjpUgv3HD5aTgnJIasA2zIWGav8Y3ECy5fNVOMg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?dGRjWjdMTXYxSXJrOWNqZnpRWWtvMFpWU2dEcWRlZkR6SGw0T3ZlK3dqanIv?=
+ =?utf-8?B?dXVGUW4wWHVPd0lBM0ovZFRaVk5iV3dONmVoRUNCeDJCNy9MM0d4KzR0RnNw?=
+ =?utf-8?B?a0NNaWs5b1RQZkw2Uy9pcktDekR0TFdiWDZ5WnZHeDA3ZTdicFhqeUc3S1dz?=
+ =?utf-8?B?RGhrMnVTenRxS05ReEJLMiszUTBsbE5ScmlobmdpdWp5RjFJTjBUZFAzdk8z?=
+ =?utf-8?B?RzZHenVrNmY5cmsvOVQ5djFrVENtdlhYUjBwcjRDVWhiVFBsekFhMlpZb3Jx?=
+ =?utf-8?B?TnZNY21Cc1Fod1l0MllMNTR0MU9DTlJMc3d5djd4bkFlb3VSa0Zjd3BuMVpV?=
+ =?utf-8?B?QUpyeW1XMTYvNkJDeUU3TEZYLytBVWZqUkh6aUVQZStiTGs1VzBxd3FjcEht?=
+ =?utf-8?B?bUZkMGc1WnJoYmxpdXc4NUN2eWovejNXMHVMK2FRTjhMeEhvYWpJcHd2dXdr?=
+ =?utf-8?B?WkpOaTkvVmRaQmJBMk8xWWthUVMyTW5UTXdaVGs0QU41UEhKVkxYKzhYQzJt?=
+ =?utf-8?B?WXVDSnQ4Z3ZnSDQ4anNlRzRFSkJsUlJPS011VEZiRXE2UHFJMTBvTnU3UHVF?=
+ =?utf-8?B?aEduNjh3WFZyVDI5Z0ZrbXFuUXh3SGFhWVd4ekV1QTl5RlpJalZlNjUySjl1?=
+ =?utf-8?B?Z0pjaW1XcTlPTXQrVUtPejdXUWNtUDJwQkQrVGNiVklSblZyT0NFUWtRSzRT?=
+ =?utf-8?B?dEVxd1Z6R1NranRmalRoSkh3Q2FYdW9WZVBVTnF5MVFUL1B6dHYveXlES3h0?=
+ =?utf-8?B?YVhKbmNLMFlPUGgyTkl1VXJBY2k5dXdieTArbDRFcVp5L1JUWG1EQXJ1QVFL?=
+ =?utf-8?B?UkNTSERWaTk2cVNydmdkNmRjS05kcFpscGdZanVKOUJTRkhyQlY2U2N3eVdi?=
+ =?utf-8?B?T0ltcitXNFBSZXVFQlFZU0ZXM3g5c0tuTEVlSzVPZmJjcjdrUGdCdUxUQXNz?=
+ =?utf-8?B?ZFQ5S0Izd2JMbkNOMEhJNDJ5ZmxtUThrZnpzc3RrVEdROWpnWWZnT1N4cGpk?=
+ =?utf-8?B?SmIxdG44VHh6VTdGZzBWSnVjaEorLzZteTNFUGF4blR1b1d2RWNCRmtpd0RQ?=
+ =?utf-8?B?TFREaG1JNGRZZmNSNmZUQVdzNjVKVGhZZjY1U1JNQU9tUjFPbjRDcXdQdkVE?=
+ =?utf-8?B?SlErdStXTzFNeFhvdVI4dUQ2YkYrbk10eFlnNC9ZTlZpa3FJUDcyTDYwa2Ri?=
+ =?utf-8?B?b1hxcXdqVFpTaG94dGw1bXV1ckI3MWVtRENLazVIMGJKOE5lSGZVTnhDSjZ1?=
+ =?utf-8?B?dURDNExvdmkvWXJjZjd5SWxvb0g1NXdrc1BmOWNEN3oxdGdRaGJDQy9NRito?=
+ =?utf-8?B?UDQ1dW5SY2dEaHVBd0Fjb1QweWM0emlJMmJ0Y2c0K1hHck9lZjFPZWQ5VkpT?=
+ =?utf-8?B?MW81aU50L2RVMjllcWxPNjBrb0gzUzJmd0ZLWmxnY0xVanNDT1lmTTBkOWh0?=
+ =?utf-8?B?WkUrdzc0RTdnM1NxYkg0MlZPK1B0Tk5XekZoV1dTVEJXbDdNT1VtVnZhVWhv?=
+ =?utf-8?B?dS93SVlEWEpKcnNRSWJnMnY2bzZOQzIyeVdIOHg0SkMwdXdwQ04xdnNqZW5y?=
+ =?utf-8?B?Ri83bGVzQ0pGT25yWWkzcFE2R1lQb3RoUmR4NzBUT0VES1JCM2oyY1RKVmdY?=
+ =?utf-8?B?NStnYVZOQUhDVUZzbDBTZXdoY1R1SGU4MlQyQ3UxOXN1cWNBYmxJT1FpYmcx?=
+ =?utf-8?B?d0RwMUFQQ3IzMjJ4Y2wrNVgrbGVja3NwRjdtOFFNWjlKeVE4RTBsMlBQVXB4?=
+ =?utf-8?B?N2sxd0p2RElNcnRtS3p2d1JJbDljYm9jNG5SRkxHR0Y4U0szNnZ0c2d5OUQ1?=
+ =?utf-8?B?eUlrTksrVEtMRThYVGdDT3hrTUZmdUpvNmdSN0VVNEFiYklnTzc2cFR2Z1Bo?=
+ =?utf-8?Q?vlmikU0je8wqp?=
+MIME-Version: 1.0
+X-TUID: y2uzoxYKAGED
+
+--np614ce1a894495
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+Hello K547NK!
+The following items on your wishlist are on sale:
+
+
+Vanquish - 75% off!
+<https://store.steampowered.com/app/460810/Vanquish/>
+
+
+
+
+Cheers,
+The Steam Team
+
+--
+
+This notification has been sent to the email address associated with your Steam account.
+
+This email message was auto-generated. Please do not respond. If you need additional help, please visit Steam Support.
+https://help.steampowered.com
+
+© Valve Corporation
+All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+
+--
+
+View this message on the web:
+https://store.steampowered.com/email/WishlistItemOnSale?sparams=eJxtULtuwzAM_BfPRSLJetiZsgfoEnQLENAWFQeRJUGiEQRF_71y4KFDN_LueDzyu_GwhHHCTK-EzaFhzUeTEfxc65uPA_gKpBztMlKAeZWcCWGuaFlSiplwhruv8NYey0qn-MSMdjfGP8pyp3V-IkrlcNlf9hP6tPtHv5kWDLTQWEe4boUUnVS6shTfLFibsZTKhvsN_Q5uT5iOcSEf42MzSphLDLAFPylpPk8VjomqjuIDw3oy7-xgFBqjhZVaO-tG0ztQzECrmJbCOOGUHKTTFpGhHfqOG86kQYdKczU6rqpKKCb6tq92Qpl-6Bl3mglRF0JKd7tGlZp1fP3xGJdA-VWhr_P7JgJ_rf-ZyzWGawG_Bm6bn1_xF4ZL
+
+--np614ce1a894495
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Vanquish from your Steam wishlist is now on sale!</title>
+    <!--[if gte mso 9]>
+    <style type="text/css" media="all">
+        sup { font-size: 100% !important; }
+    </style>
+    <![endif]-->
+
+    <!--[if !mso]><!-->
+    <style type="text/css" media="screen">
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Motiva Sans'), url('https://store.cloudflare.steamstatic.com/public/shared/fonts/email/MotivaSans-Light.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Motiva Sans'), url('https://store.cloudflare.steamstatic.com//public/shared/fonts/email/MotivaSans-Regular.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: bold;
+            src: local('Motiva Sans'), url('https://store.cloudflare.steamstatic.com//public/shared/fonts/email/MotivaSans-Bold.woff') format('woff');
+        }
+    </style>
+    <!--<![endif]-->
+
+    <style type="text/css" media="screen">
+        body { padding:0 !important; margin:0 auto !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none }
+        a { color:#3999ec; text-decoration:underline }
+        body a { color:#ffffff; text-decoration:underline }
+        img { margin: 0 !important; -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+
+        /* for recepits */
+            table { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+            img, a img{ border:0; outline:none; text-decoration:none; }
+            #outlook a { padding:0; }
+            .ReadMsgBody { width:100%; }
+            .ExternalClass { width:100%; }
+            div,p,a,li,td,blockquote { mso-line-height-rule:exactly; }
+            a[href^=tel],a[href^=sms] { color:inherit; text-decoration:none; }
+            .ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font { line-height:100%; }
+        /* END for recepits */
+
+        a[x-apple-data-detectors] { color: inherit !important; text-decoration: inherit !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+
+        .btn-18 a { display: block; padding: 13px 35px; text-decoration: none; }
+
+        .l-white a { color: #ffffff; }
+        .l-black a { color: #000001; }
+        .l-grey1 a { color: #dbdee2; }
+        .l-grey2 a { color: #a1a2a4; }
+        .l-grey3 a { color: #dadcdd; }
+        .l-grey4 a { color: #f1f1f1; }
+        .l-grey5 a { color: #dddedf; }
+        .l-grey6 a { color: #bfbfbf; }
+        .l-grey7 a { color: #dcdddd; }
+        .l-grey8 a { color: #8e96a4; }
+        .l-green a { color: #a4d007; }
+        .l-blue a { color: #6a7c96; }
+        .l-blue1 a { color: #3999ec; }
+        .l-blue2 a { color: #9eb8cc; }
+
+
+        /* Mobile styles */
+        @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+            .mpy-35 { padding-top: 35px !important; padding-bottom: 35px !important; }
+
+            .mpx-15 { padding-left: 15px !important; padding-right: 15px !important; }
+
+            .mpx-20 { padding-left: 20px !important; padding-right: 20px !important; }
+
+            .mpb-30 { padding-bottom: 30px !important; }
+
+            .mpb-10 { padding-bottom: 10px !important; }
+
+            .mpb-15 { padding-bottom: 15px !important; }
+
+            .mpb-20 { padding-bottom: 20px !important; }
+
+            .mpb-35 { padding-bottom: 35px !important; }
+
+            .mpb-40 { padding-bottom: 40px !important; }
+
+            .mpb-50 { padding-bottom: 50px !important; }
+
+            .mpb-60 { padding-bottom: 60px !important; }
+
+            .mpt-30 { padding-top: 30px !important; }
+
+            .mpt-40 { padding-top: 40px !important; }
+
+            .mpy-40 { padding-top: 40px !important; padding-bottom: 40px !important; }
+
+            .mpt-0 { padding-top: 0px !important; }
+
+            .mpr-0 { padding-right: 0px !important; }
+
+            .mfz-14 { font-size: 14px !important; }
+
+            .mfz-28 { font-size: 28px !important; }
+
+            .mfz-16 { font-size: 16px !important; }
+
+            .mfz-24 { font-size: 24px !important; }
+
+            .mlh-18 { line-height: 18px !important; }
+
+            u + body .gwfw { width:100% !important; width:100vw !important; }
+
+            .td,
+            .m-shell { width: 100% !important; min-width: 100% !important; }
+
+            .mt-left { text-align: left !important; }
+            .mt-center { text-align: center !important; }
+            .mt-right { text-align: right !important; }
+
+            .m-left { text-align: left !important; }
+            .me-left { margin-right: auto !important; }
+            .me-center { margin: 0 auto !important; }
+            .me-right { margin-left: auto !important; }
+
+            .mh-auto { height: auto !important; }
+            .mw-auto { width: auto !important; }
+
+            .fluid-img img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+
+            .column,
+            .column-top,
+            .column-dir,
+            .column-dir-top { float: left !important; width: 100% !important; display: block !important; }
+
+            .kmMobileStretch { float: left !important; width: 100% !important; display: block !important; padding-left: 0 !important; padding-right: 0 !important; }
+
+            .m-hide { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+            .m-block { display: block !important; }
+
+            .mw-15 { width: 15px !important; }
+
+            .mw-2p { width: 2% !important; }
+            .mw-32p { width: 32% !important; }
+            .mw-49p { width: 49% !important; }
+            .mw-50p { width: 50% !important; }
+            .mw-100p { width: 100% !important; }
+
+            .mbgs-200p { background-size: 200% auto !important; }
+        }
+    </style>
+</head>
+
+
+<body class="body" style="padding:0 !important; margin:0 auto !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none;">
+<center>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; width: 100%; height: 100%;" bgcolor="#ffffff" class="gwfw">
+        <tr>
+            <td style="margin: 0; padding: 0; width: 100%; height: 100%;" align="center" valign="top">
+                <table width="775" border="0" cellspacing="0" cellpadding="0" class="m-shell">
+                    <tr>
+                        <td class="td" style="width:775px; min-width:775px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <!-- Main -->
+                                <tr>
+                                    <td class="p-80 mpy-35 mpx-15" bgcolor="#212429" style="padding: 80px;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                            <!-- Logo -->
+                                            <tr>
+                                                <td class="img pb-45" style="font-size:0pt; line-height:0pt; text-align:left; padding-bottom: 45px;">
+                                                    <a href="https://store.steampowered.com/" target="_blank">
+                                                        <img src="https://store.cloudflare.steamstatic.com/public/shared/images/email/logo.png" width="615" height="88" border="0" alt="Steam">
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <!-- END Logo -->
+
+                                            <!-- All Content Exists within this table column -->
+                                            <tr>
+                                                <td>
+
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="title-28 c-white pb-30" style="font-size:28px; line-height:36px; font-family:'Motiva Sans', Helvetica, Arial, sans-serif; text-align:left; color:#ffffff; padding-bottom: 30px;">
+						<strong>1 GAME YOU’VE WISHED FOR IS ON SALE!</strong>
+					</td>
+				</tr>
+			</table>
+			        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="pb-60 mpb-40" style="padding-bottom: 60px;">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="fluid-img pb-10" style="font-size:0pt; line-height:0pt; text-align:left; padding-bottom: 10px;">
+							<a href="https://store.steampowered.com/app/460810/Vanquish/?snr=1_620_4_1400_45&amp;ser=1_0_" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/460810/capsule_616x353.jpg?t=1632305057" width="610" height="348" border="0" alt="Vanquish" title="Vanquish"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="pb-20" style="padding-bottom: 20px;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" dir="rtl" style="direction:rtl;">
+								<tr>
+									<th class="column-dir-top" width="220" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr; vertical-align:top;">
+
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td align="right">
+													<table border="0" cellspacing="0" cellpadding="0" class="me-left">
+														<tr>
+																															<td class="text-14 c-green py-1 px-8" bgcolor="#4c6b22" style="font-size:14px; line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align:left; min-width:auto !important; color:#A4D007; padding-top: 1px; padding-bottom: 1px; padding-left: 8px; padding-right: 8px;">
+																	-75%
+																</td>
+																<td class="text-14 c-blue py-1 px-8" bgcolor="#222032" style="font-size:14px; line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align:left; min-width:auto !important; color:#9eb8cc; padding-top: 1px; padding-bottom: 1px; padding-left: 8px; padding-right: 8px;">
+																	<span style="text-decoration: line-through;">$19.99</span>&nbsp; <span class="c-white" style="color:#ffffff;">$4.99</span>
+																</td>
+																													</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+									</th>
+									<th class="column mpb-10" width="25" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;"></th>
+									<th class="column-dir-top" width="365" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr; vertical-align:top;">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="text-14 lh-140p c-blue" style="font-size:14px; font-family:'Motiva Sans', Arial, sans-serif; text-align:left; min-width:auto !important; line-height:140%; color:#3999ec;">
+																												<strong>
+																WEEKEND DEAL! Offer ends Sep 30 10:00am PDT															</strong>
+																																							</td>
+											</tr>
+										</table>
+									</th>
+								</tr>
+							</table>
+						</td>
+					</tr>
+											<tr>
+							<td class="text-18 lh-140p c-lgrey mfz-16 pr-10 mpr-0" style="font-size:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align:left; min-width:auto !important; line-height:140%; color:#dedee1; padding-right: 10px;">
+								PlatinumGames’ revolutionary sci-fi action shooter slide-boosts onto PC. Battle legions of future-tech enemies using a vast arsenal of weapons, including all DLC. Fully unlocked framerate and gorgeous HD resolutions up to 4K. The definitive way to play: war has accelerated.							</td>
+						</tr>
+									</table>
+			</td>
+		</tr>
+        </table>
+	        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="px-30 pb-50 mpb-50" align="center" style="padding-left: 30px; padding-right: 30px; padding-bottom: 50px;">
+				<table width="325" border="0" cellspacing="0" cellpadding="0" class="mw-100p">
+					<tr>
+						<td>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-radius: 5px; background: #3a9bed; background: -moz-linear-gradient(left, #3a9bed 0%, #2f7edf 50%, #235ecf 100%); background: -webkit-linear-gradient(left, #3a9bed 0%,#2f7edf 50%,#235ecf 100%); background: linear-gradient(to right, #3a9bed 0%,#2f7edf 50%,#235ecf 100%);">
+								<tr>
+									<td class="btn-18 l-white mfz-14 mlh-18" style="font-size:18px; line-height:22px; mso-padding-alt:13px 10px; color:#000001; font-family:'Motiva Sans', Arial, sans-serif; text-align:center; min-width:auto !important;">
+										<a href="https://store.steampowered.com/wishlist/#discount_any=1" target="_blank" class="link c-white" style="display: block; padding: 13px 10px; text-decoration:none; color:#ffffff;">
+											<span class="link c-white" style="text-decoration:none; color:#ffffff;">View your Wishlist</span>
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+        </table>
+	
+                                                
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- END Main -->
+
+                                <!-- Footer -->
+                                <tr>
+                                    <td class="py-60 px-90 mpy-40 mpx-15" style="padding-top: 60px; padding-bottom: 60px; padding-left: 90px; padding-right: 90px;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                                                                            <tr>
+                                                    <td class="text-18 pb-60 mpb-40 fallback-font" style="font-size:18px; line-height:25px; color:#000001; font-family:'Motiva Sans', Helvetica, Arial, sans-serif; text-align:left; padding-bottom: 60px;">
+                                                        Specific pricing and discounts may be subject to change. Please check the Steam store page for details.                                                        <br><br>
+                                                        You are receiving this email because the above item is on your Steam Wishlist.                                                    </td>
+                                                </tr>
+                                            
+                                                                                        <!-- A -->
+                                            
+
+                                            <!-- B -->
+                                                                                            <tr>
+                                                    <td class="pb-50" style="padding-bottom: 50px;">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <th class="column" width="270" valign="top" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td class="img mpt-0" style="font-size:0pt; line-height:0pt; text-align:left;">
+                                                                                <a href="https://store.steampowered.com/" target="_blank"><img src="https://store.cloudflare.steamstatic.com/public/shared/images/email/logo_footer.png" width="165" height="50" border="0" alt=""></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </th>
+                                                                <th class="column-top mpb-40" width="15" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;"></th>
+                                                                <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                                                                    <tr>
+                                                                                <td class="text-12 pb-14" style="font-size:12px; line-height:16px; color:#000001; font-family:'Motiva Sans', Helvetica, Arial, sans-serif; text-align:left; min-width:auto !important; padding-bottom: 14px;">
+                                                                                    <strong>Email Preferences</strong>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="text-14 pb-12" style="font-size:14px; line-height:18px; color:#000001; font-family:'Motiva Sans', Helvetica, Arial, sans-serif; text-align:left; min-width:auto !important; padding-bottom: 12px;">
+                                                                                    Set your communication preferences so we can send you emails that matter.                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="text-12 pb-14" style="font-size:12px; line-height:16px; color:#000001; font-family:'Motiva Sans', Helvetica, Arial, sans-serif; text-align:left; min-width:auto !important; padding-bottom: 14px;">
+                                                                                    <strong>
+                                                                                        <a href="https://store.steampowered.com/account/emailoptout?token=018db75e7762d466fdfc79fa507a3506427f2f54b4f6dee0edb98171047efe5615cf15427250293918d2579b901f6022&amp;snr=1_620_4_1400&amp;ser=1_0_" target="_blank" class="link-u" style="color:#000001; text-decoration:underline;"><span class="link-u" style="color:#000001; text-decoration:underline;">Unsubscribe</span></a> | <a href="https://store.steampowered.com/account/emailoptout?token=018db75e7762d466fdfc79fa507a3506427f2f54b4f6dee0edb98171047efe5615cf15427250293918d2579b901f6022&amp;snr=1_620_4_1400&amp;ser=1_0_" target="_blank" class="link-u" style="color:#000001; text-decoration:underline;"><span class="link-u" style="color:#000001; text-decoration:underline;">Update My Preferences</span></a>
+                                                                                    </strong>
+                                                                                </td>
+                                                                            </tr>
+                                                                                                                                            </table>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                            
+
+                                            <!-- C -->
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <th class="column-top" valign="top" width="270" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td class="img" style="font-size:0pt; line-height:0pt; text-align:left;">
+                                                                            <a href="https://www.valvesoftware.com/en/" target="_blank">
+                                                                                                                                                                <img src="https://store.cloudflare.steamstatic.com/public/shared/images/email/logo_valve.jpg" width="165" height="48" border="0" alt="">
+                                                                                                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                            <th class="column-top mpb-40" valign="top" width="15" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;"></th>
+                                                            <th class="column-top" valign="top" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td class="text-12 pb-30 fallback-font" style="font-size:12px; line-height:18px; color:#000001; font-family:'Motiva Sans', Helvetica, Arial, sans-serif; text-align:left; padding-bottom: 30px;">
+	                                                                                                                                                        <strong>© Valve Corporation</strong>
+                                                                                <br>
+                                                                                <strong>PO Box 1688 Bellevue, WA 98009</strong>
+                                                                                <br><br>
+		                                                                        All rights reserved. All trademarks are property of their respective owners in the US and other countries.	                                                                                                                                                </td>
+                                                                    </tr>
+                                                                                                                                        <tr>
+                                                                        <td class="pb-48" align="left" style="padding-bottom: 48px;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td class="img" style="font-size:0pt; line-height:0pt; text-align:left;">
+                                                                                        <a href="https://twitter.com/steam" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/store/email/general/ico_twitter.png" width="33" height="28" border="0" alt="@steam"></a>
+                                                                                    </td>
+                                                                                    <td width="15"></td>
+                                                                                    <td class="text-12" style="font-size:12px; line-height:16px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-align:left; min-width:auto !important;">
+                                                                                        <a href="https://twitter.com/steam" target="_blank" class="link" style="color:#000001; text-decoration:none;"><span class="link" style="color:#000001; text-decoration:none;"><strong>Follow us on Twitter</strong></span></a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            <!-- END Footer -->
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+
+    <center style="font-family:'Motiva Sans', Helvetica, Arial, sans-serif; color: #000000; font-size: 11px; margin-bottom: 4px;">
+        Trouble viewing this message?        <a href="https://store.steampowered.com/email/WishlistItemOnSale?sparams=eJxtULtuwzAM_BfPRSLJetiZsgfoEnQLENAWFQeRJUGiEQRF_71y4KFDN_LueDzyu_GwhHHCTK-EzaFhzUeTEfxc65uPA_gKpBztMlKAeZWcCWGuaFlSiplwhruv8NYey0qn-MSMdjfGP8pyp3V-IkrlcNlf9hP6tPtHv5kWDLTQWEe4boUUnVS6shTfLFibsZTKhvsN_Q5uT5iOcSEf42MzSphLDLAFPylpPk8VjomqjuIDw3oy7-xgFBqjhZVaO-tG0ztQzECrmJbCOOGUHKTTFpGhHfqOG86kQYdKczU6rqpKKCb6tq92Qpl-6Bl3mglRF0JKd7tGlZp1fP3xGJdA-VWhr_P7JgJ_rf-ZyzWGawG_Bm6bn1_xF4ZL" style="font-family:'Motiva Sans', Helvetica, Arial, sans-serif; color: #000000; font-size: 11px; margin-bottom: 4px;">
+            Click here.        </a>
+    </center>
+
+</body>
+</html>
+
+    
+
+--np614ce1a894495--

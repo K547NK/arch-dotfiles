@@ -1,0 +1,1456 @@
+Received: from VI1EUR04HT009.eop-eur04.prod.protection.outlook.com
+ (2603:10b6:806:25::24) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS via SA9P221CA0019.NAMP221.PROD.OUTLOOK.COM; Fri, 2 Jul 2021 20:01:09
+ +0000
+Received: from VI1EUR04FT034.eop-eur04.prod.protection.outlook.com
+ (2a01:111:e400:7e0e::4f) by
+ VI1EUR04HT009.eop-eur04.prod.protection.outlook.com (2a01:111:e400:7e0e::142)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4287.22; Fri, 2 Jul
+ 2021 20:01:08 +0000
+Authentication-Results: spf=pass (sender IP is 91.208.28.24)
+ smtp.mailfrom=email.skrill.com; outlook.com; dkim=pass (signature was
+ verified) header.d=email.skrill.com;outlook.com; dmarc=pass action=none
+ header.from=email.skrill.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of email.skrill.com
+ designates 91.208.28.24 as permitted sender) receiver=protection.outlook.com;
+ client-ip=91.208.28.24; helo=smtp2.email.skrill.com;
+Received: from smtp2.email.skrill.com (91.208.28.24) by
+ VI1EUR04FT034.mail.protection.outlook.com (10.152.28.207) with Microsoft SMTP
+ Server id 15.20.4287.22 via Frontend Transport; Fri, 2 Jul 2021 20:01:08
+ +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:E87C4648C4B31B4E0F92B71808CEADFE76693B55B3D4AAEB924E622A45F7A0FF;UpperCasedChecksum:CAD506A10911C3AF5E9E5C5C27FADAA477625312E2AF3BDF2F28CFBE449D1343;SizeAsReceived:1415;Count:18
+Received: from strongmail2.moneybookers.net ([10.22.6.101])
+	by smtp2.email.skrill.com (-); Fri, 02 Jul 2021 22:01:04 +0200
+X-VirtualServer: Transactional, smtp2.email.skrill.com, 10.114.17.102
+X-VirtualServerGroup: Transactional
+X-MailingID: 33557446::172371::1604568435::26794::2_8393::8393_14732732_0__16555
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: nigel.agwah@outlook.com
+X-SMFBL: bmlnZWwuYWd3YWhAb3V0bG9vay5jb20=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=email.skrill.com; s=sm; i=@email.skrill.com; h=Content-Transfer-Encoding:
+	Content-Type:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:
+	To:Reply-To:From; bh=XZ8Cgn67VDa5rbdzPu90zgEFczY=; b=n3rQECK1XPx
+	bVjIegYGb2Gj68IbL874NBADhScIvM4GA5G8mmIOns8wfuWEyYiubhR22sDOF0Cw
+	QDHG/uVW/d9buSBXWXnLAslRB8krMPWxOxXW4TEJ3SvW4QcXj08QRye1BXBbKvfY
+	0j8HjYzh/KlUbvjevugvfDLrSvwUq0NI=
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_925_9558_10C43AA7.6309A457"
+Message-ID: <33557446.8393@email.skrill.com>
+X-ReportingKey: MJ1629M3H4N1F2083HOKL86VJJ144XJ5I0HG_27GP::nigel.agwah@outlook.com::2_8393
+Subject: =?UTF-8?Q?Skrill=20Visa=C2=AE=20Prepaid=20Card=20annual=20fee=20cannot=20be=20processed?=
+Date: Fri, 02 Jul 2021 22:01:04 +0200
+To: nigel.agwah@outlook.com
+Reply-To: <reply@email.skrill.com>
+From: =?UTF-8?Q?Skrill?= <no-reply@email.skrill.com>
+X-IncomingHeaderCount: 18
+Return-Path: bounce@email.skrill.com
+X-MS-Exchange-Organization-ExpirationStartTime: 02 Jul 2021 20:01:08.6093
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 0676ff87-345a-4caf-1586-08d93d942218
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR04FT034.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/1/2021 2:28:16 PM
+X-MS-Office365-Filtering-Correlation-Id: 0676ff87-345a-4caf-1586-08d93d942218
+X-MS-TrafficTypeDiagnostic: VI1EUR04HT009:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 91.208.28.24
+X-SID-PRA: NO-REPLY@EMAIL.SKRILL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:2;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Jul 2021 20:01:08.5653
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0676ff87-345a-4caf-1586-08d93d942218
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR04FT034.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1EUR04HT009
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2846357
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4287.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90005022)(91005020)(91035115)(91045095)(9050020)(9100313)(5061607266)(5061608174)(4900115)(98391011)(58390106)(98390106)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddhh69sIkKp9ipuZcBplPGVdgbY9NfArMq5ca2NTFHjLscTyGI6tOEsbEK1OI7f7FOPJ5JfdsHVEeNAb0Y07vZ/ca61SPjXC4wltrRL83LgRDVUw3VrSEmCce0CVbhDsIX3yWJc4UBOnFIFTbfqCKLHfaE5mD717WW/pgVVP4VAHrCl7qltxmZaAd0HSbTJXv8fi2TcNWFVfQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?RE51QzM5REM0VVFkdzlHUnYvUDl5QXZ3MjZHaVZHbzdWcWdJZlVKdHp1czM1?=
+ =?utf-8?B?T1JDTi9nNEFuYStYVEw4RmhQVWFDdlNPODZGZXFSQzBsY3NNcWJXZVJ6c0Y2?=
+ =?utf-8?B?Z3pLclUvSjNOSWxNTUo3SU1DVTF1eWpreG02TUJRTHM0cTlNOVMyeFJwQit3?=
+ =?utf-8?B?TjRHL1JwNXNPQWc4d0dWKzJrcWRyS1VTNnlQQTBzRXJ4SFdWR3Z4bkZzaTVi?=
+ =?utf-8?B?SDV3R0t3U3dvcFFFdWZFYzJjaTJncEZTcU1iZGxEL1dQQmJlYmhCS2tGMVNM?=
+ =?utf-8?B?UFRRVHBvSTFQZ3dyZVo3YVZpS3A2R0VERUVXWXVCMGFmTkx3Ty9HZ1FTTm1o?=
+ =?utf-8?B?WVVBdGk3d0t3UHFOVmRYRTNCZWJRR0JacWdTeXkrNGV6YjdCK0JndE14MlZh?=
+ =?utf-8?B?YlRFTFFzbzNxZjNiNEpiRGxrbXpHSFhvdGFwak1ZRVh3YkJ2QVZQdkVNaEt1?=
+ =?utf-8?B?UGJMa05HcS9sV2k0MDRscEIrck5OZWFXZTFPVkQwdnpWNUs5N01mWDU4Y2pG?=
+ =?utf-8?B?dWhUOFRjUGlqY1hsYzU2d2Y5MjViZStpQjRzQ0ZHYnlOYzd4RHk5YTkrRXZR?=
+ =?utf-8?B?NWVKOW5YOU5EQW9QTUEvdjR0Yk52T0VmbjVOVk90bGZNK2hUdDZoV3FEV3A2?=
+ =?utf-8?B?YUtWSTF0clBlY3h1Qng5M21xNDI1aHZTOGlOdURoRjFFVnRyQ1YxdHNtdkQx?=
+ =?utf-8?B?bC81bnozRGp3Uk1QeUdxVzVZb054TXUvd3pVaElhS1l1S004MXlvMWh0UVlI?=
+ =?utf-8?B?VzFOaDFPTjNKcHlEaUlpL1FvWTkrRGh6QnliWmFSSHQ3a2g5NVZtaElmZnRE?=
+ =?utf-8?B?N1VwV3U1YkxaaEN4dWVBdS80NHYzZmhXQUlDTVdYalEyOFkyaitvblVOeUpH?=
+ =?utf-8?B?ZE42a0w5emVaaXk1bkkxbFR5SlV4d3lvNVZNdTZyYUE2Tmk4TFFsZnAzV2NK?=
+ =?utf-8?B?Tjg0emI0akU5Mk5ZUElCbXhOLzRhcDRmMjFFZ0Y1cFR2eTlhb0N2cmVCT3U1?=
+ =?utf-8?B?QW9UTDR3dXFLUXZ1VW1Ha29zaUV3YnhmRnBybEZKTnBPVnpFa2RvSkRCdVhj?=
+ =?utf-8?B?VVlkV2kwWVNkTkN0eDRSNjRsazBtQ25uUjdJUFVWVThsY2preWFUbFBDNnl3?=
+ =?utf-8?B?dU5iZkJIUkNOTXhjdFkybGRKNTQ0WG9WNnJuK3dYSW9ranlISkR5Z3NJN1R3?=
+ =?utf-8?B?bjdvZmxzcmwrRDJMM05Da04vb3ZVS0JVeXRtQkFDVk1YcDRXM252N1ZIb0ds?=
+ =?utf-8?B?eStXWnpYZGwwbDZsVDhzWHJLZHpBME9ZN1lETnNTTGVPTHVkNHE0Wm41U0s0?=
+ =?utf-8?B?MXFlUnBWOG1iRjlhYXlMNVoyTUVNL0h3enRTcmRpQ2k4OUptYW4yMzBSSWt0?=
+ =?utf-8?B?UzVsZkY5TnNSQThXYlI5eGI4WUhpeitWVjhUeWVIUHZHb21iUEwxdm5ZVkdN?=
+ =?utf-8?B?TVJYV2lwblZ3REcvK25YVGg3VCs5WEpUamRlSGZQdTBuQUVqTWU4TXI3YVYy?=
+ =?utf-8?B?dVp2OVJJQ0NaVUMyV1c4QWIyeDVHQXQrZm85UWw4czFwaXNiTVk3OFJXcHZk?=
+ =?utf-8?B?aXROU1RTYWV4Q0xKQ3RMZ2NvNy95WVNWTFE1UXNob3cvZ1FIaXVxTFFwYmFF?=
+ =?utf-8?B?ZWtMNUlCZzhlbDJ6YlZCNXB5Q2V4WDRyZzJJeUd2aHI1TXVQaTBvTndYN1VY?=
+ =?utf-8?Q?eWM/ka/KilRoFDqEB9KG?=
+MIME-Version: 1.0
+X-TUID: XQ260U3OFEKY
+
+------=_NextPart_925_9558_10C43AA7.6309A457
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Skrill=0A------=0AView In Browser=0A=0Ahttp://smtp2.info.skrill.com/track=
+?t=3Dv&enid=3DZWFzPTImbXNpZD0xJmF1aWQ9MTQ3MzI3MzImbWlkPTE3MjM3MSZtc2dpZD0=
+yNjc5NCZkaWQ9MTYwNDU2ODQzNSZlZGlkPTE2MDQ1Njg0MzUmc249MzM1NTc0NDYmZWlkPW5p=
+Z2VsLmFnd2FoQG91dGxvb2suY29tJmVlaWQ9bmlnZWwuYWd3YWhAb3V0bG9vay5jb20mdWlkP=
+TJfODM5MyZ0YXJnZXRpZD0mbW49MTY1NTUmcmlkPTgzOTMmZXJpZD04MzkzJmZsPSZtdmlkPS=
+Z0Z2lkPSZleHRyYT0=3D&&&3000&eu=3D1&&&#=0A=0AHi Nigel,=0A=0AWe were unable=
+ to process your Skrill Visa=C2=AE Prepaid Card annual fee due to an insu=
+fficient balance in your account.=0A=0APlease make sure you have at least=
+ 10 USD in your Skrill account to cover the annual fee so you can continu=
+e to enjoy using your card.=0A=0AThank you for choosing Skrill,=0A=0APPCS=
+KRVIUSAGLO_SKRILL_ANNUAL_FEE_INSUFFICIENTFUNDS 172371=0A
+------=_NextPart_925_9558_10C43AA7.6309A457
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html=0A=
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xht=
+ml1/DTD/xhtml1-transitional.dtd"><html lang=3D"en" xmlns=3D"http://www.w3.o=
+rg/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:sch=
+emas-microsoft-com:office:office">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head>
+<img src=3D"http://smtp2.info.skrill.com/track?enid=3DZWFzPTImbXNpZD0xJmF1a=
+WQ9MTQ3MzI3MzImbWFpbGluZ2lkPTE3MjM3MSZtZXNzYWdlaWQ9MjY3OTQmZGF0YWJhc2VpZD0x=
+NjA0NTY4NDM1JnR5cGU9b3BlbiZzZXJpYWw9MzM1NTc0NDYmZW1haWxpZD1uaWdlbC5hZ3dhaEB=
+vdXRsb29rLmNvbSZ1c2VyaWQ9Ml84MzkzJnRhcmdldGlkPSZtbj0xNjU1NSZmbD0mbXZpZD0mZX=
+h0cmE9JiYm" width=3D"1" height=3D"1" style=3D"border:0px hidden transparent=
+ !important; display:none !important; overflow:hidden; max-height: 0;" alt=
+=3D"">=0A=
+=0A=
+<head>=0A=
+  =0A=
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width">=0A=
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A=
+  <meta name=3D"x-apple-disable-message-reformatting">=0A=
+  <meta name=3D"format-detection" content=3D"telephone=3Dno,address=3Dno,em=
+ail=3Dno,date=3Dno,url=3Dno">=0A=
+  <!-- Tell iOS not to automatically link certain text strings. -->=0A=
+  <title>Skrill</title>=0A=
+=0A=
+  <link href=3D"https://fonts.googleapis.com/css?family=3DOswald&amp;displa=
+y=3Dswap" rel=3D"stylesheet">=0A=
+=0A=
+=0A=
+  <!-- Desktop Outlook chokes on web font references and defaults to Times =
+New Roman, so we force a safe fallback font. -->=0A=
+  <!--[if mso]>=0A=
+  <style>=0A=
+     * {=0A=
+        font-family: sans-serif !important;=0A=
+       }=0A=
+   </style>=0A=
+<![endif]-->=0A=
+=0A=
+=0A=
+  <!--[if !mso]><!-->=0A=
+  <!-- insert web font reference, eg: <link href=3D'https://fonts.googleapi=
+s.com/css?family=3DRoboto:400,700' rel=3D'stylesheet' type=3D'text/css'> --=
+>=0A=
+=0A=
+  <link href=3D"https://fonts.googleapis.com/css?family=3DOswald:600,800" r=
+el=3D"stylesheet" type=3D"text/css">=0A=
+=0A=
+  <!--<![endif]-->=0A=
+=0A=
+  <!--[if mso]>=0A=
+<style type=3D"text/css">=0A=
+	body, table, td, a {font-family: Arial, Helvetica, sans-serif !important;}=
+=0A=
+	span {font-size: 30px !important; line-height: 30px !important;=0A=
+	</style>=0A=
+<![endif]-->=0A=
+=0A=
+  <!-- Web Font / @font-face : END -->=0A=
+=0A=
+  <!--  Makes background images in 72ppi Outlook render at correct size. --=
+>=0A=
+  <!--[if gte mso 9]>=0A=
+  <xml>=0A=
+      <o:OfficeDocumentSettings>=0A=
+            <o:AllowPNG/>=0A=
+            <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+      </o:OfficeDocumentSettings>=0A=
+	</xml>=0A=
+<![endif]-->=0A=
+=0A=
+  <!-- Progressive Enhancements : BEGIN -->=0A=
+=0A=
+  <!-- CSS BEGIN -->=0A=
+=0A=
+=0A=
+  <style>=0A=
+    /* Remove spaces around the email design added by some email clients. *=
+/=0A=
+    /* Beware: It can remove the padding / margin and add a background colo=
+r to the compose a reply window. */=0A=
+=0A=
+    html,=0A=
+    body {=0A=
+      margin: 0 !important;=0A=
+      padding: 0 !important;=0A=
+      height: 100% !important;=0A=
+      width: 100% !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /* Stops email clients resizing small text. */=0A=
+=0A=
+    * {=0A=
+      -ms-text-size-adjust: 100%;=0A=
+      -webkit-text-size-adjust: 100%;=0A=
+    }=0A=
+=0A=
+=0A=
+    /* Centers email on Android 4.4 */=0A=
+=0A=
+    div[style*=3D"margin: 16px 0"] {=0A=
+      margin: 0 !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /* Stops Outlook from adding extra spacing to tables. */=0A=
+=0A=
+    table,=0A=
+    td {=0A=
+      mso-table-lspace: 0pt !important;=0A=
+      mso-table-rspace: 0pt !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Replaces default bold style. */=0A=
+=0A=
+    th {=0A=
+      font-weight: normal;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Fixes webkit padding issue. */=0A=
+=0A=
+    table {=0A=
+      border-spacing: 0 !important;=0A=
+      border-collapse: collapse !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Prevents Windows 10 Mail from underlining links despite inline CSS.=
+ Styles for underlined links should be inline. */=0A=
+=0A=
+    a {=0A=
+      text-decoration: none;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Uses a better rendering method when resizing images in IE. */=0A=
+=0A=
+    img {=0A=
+      -ms-interpolation-mode: bicubic;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  A work-around for email clients meddling in triggered links. */=0A=
+=0A=
+    a[x-apple-data-detectors],=0A=
+=0A=
+    /* iOS */=0A=
+=0A=
+    .unstyle-auto-detected-links a,=0A=
+    .aBn {=0A=
+      border-bottom: 0 !important;=0A=
+      cursor: default !important;=0A=
+      color: inherit !important;=0A=
+      text-decoration: none !important;=0A=
+      font-size: inherit !important;=0A=
+      font-family: inherit !important;=0A=
+      font-weight: inherit !important;=0A=
+      line-height: inherit !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Prevents Gmail from changing the text color in conversation threads=
+. */=0A=
+=0A=
+    .im {=0A=
+      color: inherit !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Prevents Gmail from displaying a download button on large, non-link=
+ed images. */=0A=
+=0A=
+    .a6S {=0A=
+      display: none !important;=0A=
+      opacity: 0.01 !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /* If the above doesn't work, add a .g-img class to any image in questi=
+on. */=0A=
+=0A=
+    img.g-img+div {=0A=
+      display: none !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    /*  Removes right gutter in Gmail iOS app: https://github.com/TedGoas/C=
+erberus/issues/89  */=0A=
+    /* Create one of these media queries for each additional viewport size =
+you'd like to fix */=0A=
+=0A=
+    /* Media Queries 580px*/=0A=
+    @media only screen and (max-width:580px) {=0A=
+=0A=
+      /* Customer Table Styling */=0A=
+      table.main_table td {=0A=
+        border-top: solid 0px #eeeeee !important;=0A=
+        border-bottom: solid 0px #eeeeee !important;=0A=
+      }=0A=
+=0A=
+      table.main_table th {=0A=
+        border-bottom: solid 0px #eeeeee !important;=0A=
+      }=0A=
+=0A=
+      table.main_table_2#Value-col th {=0A=
+        border-bottom: solid 0px #ffffff !important;=0A=
+      }=0A=
+=0A=
+      #Value-col {=0A=
+        border-bottom: solid 0px #ffffff !important;=0A=
+      }=0A=
+=0A=
+      /* End Customer Table Styling */=0A=
+=0A=
+      .autoh {=0A=
+        height: auto !important;=0A=
+      }=0A=
+=0A=
+      .gmailfix-h {=0A=
+        display: none;=0A=
+        display: none !important;=0A=
+      }=0A=
+=0A=
+      .full_width {=0A=
+        width: 100% !important;=0A=
+      }=0A=
+=0A=
+      *[class].h {=0A=
+        display: none !important;=0A=
+      }=0A=
+=0A=
+      *[class].wr {=0A=
+        display: block !important;=0A=
+      }=0A=
+=0A=
+      *[class].w100pc {=0A=
+        width: 100% !important;=0A=
+      }=0A=
+=0A=
+      *[class].w320 {=0A=
+        width: 320px !important;=0A=
+      }=0A=
+=0A=
+      *[class].w20 {=0A=
+        width: 20px !important;=0A=
+      }=0A=
+=0A=
+      *[class].w30 {=0A=
+        width: 30px !important;=0A=
+      }=0A=
+=0A=
+      .bg-hero-resize {=0A=
+        background-image: url(https://www.skrill.com/fileadmin/content/Emai=
+ls_2015/STRONGVIEW/Images/Mobile_Hero_2.jpg) !important;=0A=
+        background-size: cover !important;=0A=
+        width: 100% !important;=0A=
+        height: auto !important;=0A=
+      }=0A=
+=0A=
+      .insert-div {=0A=
+        border-bottom: solid 1px #D3D3D3;=0A=
+      }=0A=
+=0A=
+      .header-bg-change {=0A=
+        background-color: #5c2358 !important;=0A=
+      }=0A=
+=0A=
+      .footer-bg-change {=0A=
+        background-color: #4b4558 !important;=0A=
+      }=0A=
+=0A=
+      div>u~div .show-fallback {=0A=
+        display: block !important;=0A=
+      }=0A=
+=0A=
+      /*Display Items in Mobile*/=0A=
+      *[class].mob-reveal {=0A=
+        width: 100% !important;=0A=
+        display: block !important;=0A=
+        height: auto !important;=0A=
+        max-height: none !important;=0A=
+        line-height: normal !important;=0A=
+        font-size: 12px !important;=0A=
+        visibility: visible !important;=0A=
+=0A=
+        overflow: visible !important;=0A=
+      }=0A=
+=0A=
+      body[data-outlook-cycle] .oa {=0A=
+        display: block !important;=0A=
+      }=0A=
+=0A=
+      body[data-outlook-cycle] .oa-hide {=0A=
+        display: none !important=0A=
+      }=0A=
+=0A=
+     /*BURGER STYLES*/=0A=
+  img {=0A=
+    /* Allow smoother rendering of resized image in Internet Explorer */=0A=
+    -ms-interpolation-mode: bicubic;=0A=
+  }=0A=
+  /* force styles of client inserted tel anchors */=0A=
+  a[href^=3Dtel] {=0A=
+    color: #295AA6;=0A=
+    font-weight: bold;=0A=
+  }=0A=
+  @media screen {=0A=
+    @font-face {=0A=
+      font-family: 'Arial, Helvetica, sans-serif';=0A=
+      font-style: normal;=0A=
+      font-weight: 400;=0A=
+      ;=0A=
+    }=0A=
+    @font-face {=0A=
+      font-family: 'Arial, Helvetica, sans-serif;';=0A=
+      font-style: normal;=0A=
+      font-weight: 700;=0A=
+      ;=0A=
+    }=0A=
+    @font-face {=0A=
+      font-family: 'Arial, Helvetica, sans-serif;';=0A=
+      font-style: normal;=0A=
+      font-weight: 700;=0A=
+      ;=0A=
+    }=0A=
+  }=0A=
+  @media all and ( max-width: 600px) {=0A=
+    *[id]#wrapper+table,=0A=
+    *[class].container,=0A=
+    *[class].menu {=0A=
+      min-width: 0 !important;=0A=
+      -moz-text-size-adjust: none;=0A=
+      -ms-text-size-adjust: none;=0A=
+      -webkit-text-size-adjust: none;=0A=
+      width: 100% !important;=0A=
+    }=0A=
+    *[id]#logo {=0A=
+      height: 58px;=0A=
+      width: 119px;=0A=
+    }=0A=
+    *[id]#skrill-logo-burger {=0A=
+      box-sizing: content-box;=0A=
+      background-image: url("https://www.skrill.com/fileadmin/content/Email=
+s_2015/Master_Images/SERVICE_EMAIL_IMAGES/Skrill_Logo.png");=0A=
+      width: 124px;=0A=
+      height: 58px;=0A=
+      display: block !important;=0A=
+      float: left;=0A=
+      background-repeat: no-repeat;=0A=
+    }=0A=
+    *[id]#powered-paysafe-logo-burger {=0A=
+      box-sizing: content-box;=0A=
+      background-image: url("https://www.skrill.com/fileadmin/content/Email=
+s_2015/STRONGVIEW/Images/powered_by_paysafe_white.png");=0A=
+      width: 110px;=0A=
+      height: 39px;=0A=
+      display: block !important;=0A=
+      float: left;=0A=
+      background-repeat: no-repeat;=0A=
+    }=0A=
+    /*The burger button*/=0A=
+    /*Top Burger Menu*/=0A=
+    *[id]#mobile-label {=0A=
+      box-sizing: content-box;=0A=
+      background-color: #ffffff;=0A=
+      cursor: pointer;=0A=
+      display: block !important;=0A=
+      float: right;=0A=
+      padding: 20px;=0A=
+      -webkit-tap-highlight-color: transparent;=0A=
+      width: 26px;=0A=
+    }=0A=
+    *[id]#mobile-label>b {=0A=
+      background-color: #592357;=0A=
+      -moz-border-radius: 2px;=0A=
+      -webkit-border-radius: 2px;=0A=
+      border-radius: 2px;=0A=
+      display: block;=0A=
+      height: 4px;=0A=
+    }=0A=
+    *[id]#mobile-label>b+b {=0A=
+      margin-top: 4px;=0A=
+    }=0A=
+    *[class].menu td {=0A=
+      padding: 0 !important;=0A=
+    }=0A=
+    /*Footer Burger Menu*/=0A=
+    *[id]#mobile-label-footer {=0A=
+      box-sizing: content-box;=0A=
+      background-color: #544c63;=0A=
+      cursor: pointer;=0A=
+      display: block !important;=0A=
+      float: right;=0A=
+      padding: 20px;=0A=
+      -webkit-tap-highlight-color: transparent;=0A=
+      width: 26px;=0A=
+    }=0A=
+    *[id]#mobile-label-footer>b {=0A=
+      background-color: #ffffff;=0A=
+      -moz-border-radius: 2px;=0A=
+      -webkit-border-radius: 2px;=0A=
+      border-radius: 2px;=0A=
+      display: block;=0A=
+      height: 4px;=0A=
+    }=0A=
+    *[id]#mobile-label-footer>b+b {=0A=
+      margin-top: 4px;=0A=
+    }=0A=
+    *[class].menu td {=0A=
+      padding: 0 !important;=0A=
+    }=0A=
+    /*Top Burger Menu Wrapper*/=0A=
+    *[id]#menu-wrapper {=0A=
+      background-color: #e5e5e5;=0A=
+      max-height: 0;=0A=
+      overflow: hidden;=0A=
+      -moz-transition: max-height .25s linear;=0A=
+      -ms-transition: max-height .25s linear;=0A=
+      -o-transition: max-height .25s linear;=0A=
+      -webkit-transition: max-height .25s linear;=0A=
+      transition: max-height .25s linear;=0A=
+    }=0A=
+    *[id]#mobile-checkbox:checked+table #menu-wrapper {=0A=
+      max-height: 232px;=0A=
+    }=0A=
+    /*Footer Burger Menu Wrapper*/=0A=
+    *[id]#menu-wrapper-footer {=0A=
+      background-color: #4b4558;=0A=
+      max-height: 0;=0A=
+      overflow: hidden;=0A=
+      -moz-transition: max-height .25s linear;=0A=
+      -ms-transition: max-height .25s linear;=0A=
+      -o-transition: max-height .25s linear;=0A=
+      -webkit-transition: max-height .25s linear;=0A=
+      transition: max-height .25s linear;=0A=
+    }=0A=
+    *[id]#mobile-checkbox1:checked+table #menu-wrapper-footer {=0A=
+      max-height: 232px;=0A=
+    }=0A=
+    *[class].menu+.menu {=0A=
+      border-top: 1px solid #FFFFFF;=0A=
+    }=0A=
+=0A=
+       *[class].menu-item {=0A=
+      color: #592357 !important;=0A=
+      display: block;=0A=
+      padding: 12px;=0A=
+      text-align: center;=0A=
+    }=0A=
+=0A=
+        *[id]#hero {=0A=
+          font-size: 14px !important;=0A=
+          height: auto !important;=0A=
+          min-height: 50px !important;=0A=
+          width: 100% !important;=0A=
+        }=0A=
+=0A=
+        td[class].content {=0A=
+          padding-left: 10px !important;=0A=
+          padding-right: 10px !important;=0A=
+        }=0A=
+=0A=
+        *[class].mobile-hide {=0A=
+          display: none;=0A=
+        }=0A=
+      }=0A=
+    }=0A=
+=0A=
+=0A=
+    /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */=0A=
+=0A=
+    @media only screen and (min-device-width: 320px) and (max-device-width:=
+ 374px) {=0A=
+      u~div .email-container {=0A=
+        min-width: 320px !important;=0A=
+      }=0A=
+=0A=
+      .table-w-a {=0A=
+        min-width: 280px !important;=0A=
+      }=0A=
+    }=0A=
+=0A=
+=0A=
+    /* iPhone 6, 6S, 7, 8, and X */=0A=
+=0A=
+    @media only screen and (min-device-width: 375px) and (max-device-width:=
+ 410px) {=0A=
+      u~div .email-container {=0A=
+        min-width: 375px !important;=0A=
+      }=0A=
+=0A=
+      .table-w-a {=0A=
+        min-width: 300px !important;=0A=
+      }=0A=
+    }=0A=
+=0A=
+=0A=
+    /* iPhone 6+, 7+, and 8+ */=0A=
+=0A=
+    @media only screen and (min-device-width: 411px) and (max-device-width:=
+ 500px) {=0A=
+      u~div .email-container {=0A=
+        min-width: 411px !important;=0A=
+      }=0A=
+=0A=
+      .table-w-a {=0A=
+        min-width: 340px !important;=0A=
+      }=0A=
+    }=0A=
+  </style>=0A=
+=0A=
+  <style>=0A=
+    /*  Hover styles for buttons */=0A=
+=0A=
+    .button-td,=0A=
+    .button-a {=0A=
+      transition: all 100ms ease-in;=0A=
+    }=0A=
+=0A=
+    .button-td-primary:hover,=0A=
+    .button-a-primary:hover {=0A=
+      background: #555555 !important;=0A=
+      border-color: #555555 !important;=0A=
+      color: #E7E7E7 !important;=0A=
+    }=0A=
+=0A=
+    .button-a-copy:hover {=0A=
+      color: #E7E7E7 !important;=0A=
+    }=0A=
+=0A=
+    /* Media Queries 600px*/=0A=
+=0A=
+    @media screen and (max-width: 600px) {=0A=
+      .f38 {=0A=
+        font-size: 38px !important;=0A=
+        line-height: 48px !important;=0A=
+      }=0A=
+=0A=
+      .f40 {=0A=
+        font-size: 40px !important;=0A=
+        line-height: 50px !important;=0A=
+      }=0A=
+=0A=
+      .insert-div {=0A=
+        border-bottom: solid 1px #D3D3D3;=0A=
+      }=0A=
+=0A=
+      .footer-bg-change {=0A=
+        background-color: #4b4558 !important;=0A=
+      }=0A=
+=0A=
+      div>u~div .show-fallback {=0A=
+        display: block !important;=0A=
+      }=0A=
+=0A=
+      .email-container {=0A=
+        width: 100% !important;=0A=
+        margin: auto !important;=0A=
+      }=0A=
+=0A=
+      /*  Forces table cells into full-width rows. */=0A=
+      .stack-column,=0A=
+      .stack-column-center {=0A=
+        display: block !important;=0A=
+        width: 100% !important;=0A=
+        max-width: 100% !important;=0A=
+        direction: ltr !important;=0A=
+      }=0A=
+=0A=
+      /* And center justify these ones. */=0A=
+      .text-center {=0A=
+        text-align: center !important;=0A=
+      }=0A=
+=0A=
+      .fw {=0A=
+        width: 100% !important;=0A=
+        max-width: 100% !important;=0A=
+      }=0A=
+=0A=
+      .stack-items {=0A=
+        display: block !important;=0A=
+      }=0A=
+=0A=
+      .table-padding {=0A=
+        padding: 20px 10px !important;=0A=
+      }=0A=
+=0A=
+      /*  Generic utility class for centering. Useful for images, buttons, =
+and nested tables. */=0A=
+      .center-on-narrow {=0A=
+        text-align: center !important;=0A=
+        display: block !important;=0A=
+        margin-left: auto !important;=0A=
+        margin-right: auto !important;=0A=
+        float: none !important;=0A=
+      }=0A=
+=0A=
+      table.center-on-narrow {=0A=
+        display: inline-block !important;=0A=
+      }=0A=
+=0A=
+      /*  Adjust typography on small screens to improve readability */=0A=
+      .email-container p {=0A=
+        font-size: 17px !important;=0A=
+      }=0A=
+    }=0A=
+  </style>=0A=
+  <!-- Progressive Enhancements : END -->=0A=
+</head>=0A=
+=0A=
+  <center style=3D"width: 100%; background-color: #ebeff0;">
+    <!--[if mso | IE]>
+    <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"background-color: #ebeff0;">
+      <tr>
+        <td>
+          <![endif]-->
+          <!-- Create white space after the desired preview text so email c=
+lients don=E2=80=99t pull other distracting text into the inbox preview. Ex=
+tend as necessary. -->
+          <!-- Preview Text Spacing Hack : BEGIN -->
+          <div style=3D"display: none; font-size: 1px; line-height: 1px; ma=
+x-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all;=
+ font-family: sans-serif;">
+            =E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;
+          </div>
+          <!-- Preview Text Spacing Hack : END -->
+          <!-- Email Body : BEGIN -->
+          <table align=3D"center" role=3D"presentation" cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" width=3D"640" style=3D"margin: auto;" class=
+=3D"email-container">
+          <tr>
+            <td><table width=3D"640" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" class=3D"fw" style=3D"border-collapse: collapse; width: 640px;" =
+bgcolor=3D"#ffffff">
+              <tr></tr>
+            </table>
+              <table align=3D"center" role=3D"presentation" cellspacing=3D"=
+0" cellpadding=3D"0" border=3D"0" width=3D"640" style=3D"margin: auto;" cla=
+ss=3D"email-container">=0A=
+  <!-----=3D=3D=3D=3D VIB, PREHEADER LOGO WHITE MODULE =3D=3D=3D=3D------>
+  <tr>
+    <td><table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" class=3D"fw" style=3D"border-collapse: collapse; width: 640px;" bgcolor=
+=3D"#ffffff">
+      <tr>
+        <td width=3D"20" style=3D"font-size:1px; line-height:1px; width: 20=
+px;" class=3D"h">&nbsp;</td>
+        <td class=3D""><!------ container ------>
+          <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#ffffff" style=3D"border-collapse: collapse;">
+            <!--- spacer --->
+            <tr>
+              <td height=3D"30" style=3D"height: 30px;">&nbsp;</td>
+            </tr>
+            <!--- spacer end --->
+            <tr>
+              <td><!------ VIB ------>
+                <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"w100pc" style=3D"width: 600px;border-collapse: collaps=
+e;" bgcolor=3D"#ffffff">
+                  <tr>
+ <td class=3D"h"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" bgcolor=3D"#ffffff">
+                      <tr>
+                        <td style=3D"letter-spacing:1px; font-family:Arial;=
+font-size:11px;line-height:19px;color:#68136a;text-align:left;font-stretch:=
+extra-condensed " class=3D"text_center"><a href=3D"http://smtp2.info.skrill=
+.com/track?t=3Dv&amp;enid=3DZWFzPTImbXNpZD0xJmF1aWQ9MTQ3MzI3MzImbWlkPTE3MjM=
+3MSZtc2dpZD0yNjc5NCZkaWQ9MTYwNDU2ODQzNSZlZGlkPTE2MDQ1Njg0MzUmc249MzM1NTc0ND=
+YmZWlkPW5pZ2VsLmFnd2FoQG91dGxvb2suY29tJmVlaWQ9bmlnZWwuYWd3YWhAb3V0bG9vay5jb=
+20mdWlkPTJfODM5MyZ0YXJnZXRpZD0mbW49MTY1NTUmcmlkPTgzOTMmZXJpZD04MzkzJmZsPSZt=
+dmlkPSZ0Z2lkPSZleHRyYT0=3D&amp;&amp;&amp;172371&amp;eu=3D1&amp;&amp;&amp;#"=
+ target=3D"_blank" style=3D"color:#68136a;text-decoration:none;" class=3D"f=
+9">View In Browser</a> | <a href=3D"https://account.skrill.com/login?locale=
+=3Den-us&amp;utm_source=3Dstrongview&amp;utm_medium=3Demail&amp;utm_campaig=
+n=3D172371" target=3D"_blank" style=3D"color:#68136a;text-decoration:none;"=
+ class=3D"f9">Log in</a></td>
+                      </tr>
+ </table></td>
+                    <td width=3D"20" style=3D"font-size:1px; line-height:1p=
+x;" class=3D"h"><img alt=3D"" src=3D"https://www.skrill.com/fileadmin/conte=
+nt/Emails_2015/Master_Images/spacer.gif" width=3D"20" height=3D"1" style=3D=
+"display: block; width: 20px;" class=3D"h"></td>
+                    <td class=3D"wr padlr20"><table width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff">
+                      <tr>
+                        <td style=3D"letter-spacing:1px; font-family:Arial;=
+font-size:11px;line-height:19px;color:#68136a;text-align:right;font-stretch=
+:extra-condensed;" class=3D"text_center">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table>
+                <!------ VIB END------></td>
+            </tr>
+            <tr>
+              <td><!-- Burger Menu Module -->
+                <table width=3D"600" height=3D"58" class=3D"fw autoh wr" ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#ffffff" style=3D=
+"width: 600px;height: 1px;display: none;">
+                  <tr>
+                    <td bgcolor=3D"#ffffff" valign=3D"top" class=3D"wr w100=
+pc autoh" width=3D"1" height=3D"1" style=3D"width:1px; height: 1px;"><!---m=
+obile reveal---->
+                      <!--[if !mso]><!-->
+                      <div style=3D"display:none; font-size:0; line-height:=
+0; max-height:0; mso-hide:all !important; visibility:hidden; overflow:hidde=
+n;" class=3D"mob-reveal">
+                        <form style=3D"border-style: none;border-width: 0px=
+;" class=3D"formbg">
+                          <div id=3D"wrapper" style=3D"background-color: #f=
+fffff;">
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"border-collapse: collapse; border-spacing: 0; table-layou=
+t: fixed; ; border-bottom-color: #ffffff; border-bottom: 1px solid #ffffff"=
+ width=3D"100%" class=3D"formbg">
+                              <tr>
+                                <td><!--[if mso]>
+                  <p style=3D"display: none;">
+                    <![endif]-->
+                                  <input id=3D"mobile-checkbox" style=3D"di=
+splay: none!important; max-height: 0; visibility: hidden;" type=3D"checkbox=
+">
+                                  <!--[if mso]>
+                  </p>
+                  <![endif]-->
+                                  <table align=3D"center" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"container formbg" style=3D"border-=
+collapse: collapse; border-spacing: 0; margin: auto; min-width: 600px;" wid=
+th=3D"600">
+                                    <tr>
+                                      <td></td>
+                                      <td><a href=3D"https://www.skrill.com=
+/$lowercase(lookup(LANG_LOCALE))$" style=3D"color: #fffffe; text-decoration=
+: none; display: block;padding-left: 10px;" target=3D"_blank"><img alt=3D"S=
+krill logo" src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Mas=
+ter_Images/IMAGES_SER_2020/SKRILL_LOGO.jpg" width=3D"134" height=3D"56" bor=
+der=3D"0" style=3D"display: block;border: none; float: left;"></a>
+                                        <label for=3D"mobile-checkbox" id=
+=3D"mobile-label" style=3D"display: none;" class=3D"formbg"> <b></b> <b></b=
+> <b></b> </label>
+                                        <!--[if mso]>
+                      </td>
+                      <td>
+                        <![endif]-->
+                                        <table width=3D"100%" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"menu formbg">
+                                          <tr>
+                                            <td style=3D"padding-left: 80px=
+;" class=3D"pdl0"><div id=3D"menu-wrapper">
+                                              <!--[if mso]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0">
+                                  <tr>
+                                    <td>
+                                      <![endif]-->
+                                              <table align=3D"left" border=
+=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=3D"menu" style=3D"border-=
+collapse: collapse; border-spacing: 0;">
+                                                <tr>
+                                                  <td nowrap=3D"" style=3D"=
+font-family: Arial, sans-serif; font-size: 13px; line-height: 1; text-trans=
+form: uppercase;letter-spacing: 2px;"><a href=3D"https://account.skrill.com=
+/login?locale=3D$lowercase(lookup(LANG_LOCALE))$" target=3D"_blank" class=
+=3D"menu-item" style=3D"color: #731e5e; line-height: 1; text-decoration: no=
+ne;">My ACCOUNT</a></td>
+                                                </tr>
+                                              </table>
+                                              <!--[if mso]>
+                                    </td>
+                                    <td>
+                                      <![endif]-->
+                                              <table align=3D"left" border=
+=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=3D"menu" style=3D"border-=
+collapse: collapse; border-spacing: 0;">
+                                                <tr>
+                                                  <td nowrap=3D"" style=3D"=
+font-family: Arial, sans-serif; font-size: 13px; line-height: 1; text-trans=
+form: uppercase;letter-spacing: 2px;"><a href=3D"https://www.skrill.com/$lo=
+wercase(lookup(LANG_LOCALE))$/skrill-app/" target=3D"_blank" class=3D"menu-=
+item" style=3D"color: #731e5e; line-height: 1; text-decoration: none;">GET =
+THE APP</a></td>
+                                                </tr>
+                                              </table>
+                                              <!--[if mso]>
+                                    </td>
+                                    <td>
+                                      <![endif]-->
+                                              <table align=3D"left" border=
+=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=3D"menu" style=3D"border-=
+collapse: collapse; border-spacing: 0;">
+                                                <tr>
+                                                  <td nowrap=3D"" style=3D"=
+font-family: Arial, sans-serif; font-size: 13px; line-height: 1; text-trans=
+form: uppercase;letter-spacing: 2px;"><a href=3D"https://www.skrill.com/$lo=
+wercase(lookup(LANG_LOCALE))$/support" target=3D"_blank" class=3D"menu-item=
+" style=3D"color: #731e5e; line-height: 1; text-decoration: none;">SUPPORT<=
+/a></td>
+                                                </tr>
+                                              </table>
+                                              <!--[if mso]>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <![endif]-->
+                                            </div></td>
+                                          </tr>
+                                        </table></td>
+                                    </tr>
+                                  </table></td>
+                              </tr>
+                            </table>
+                          </div>
+                        </form>
+                      </div>
+                      <!--<![endif]-->
+                      <!---mobile reveal end----></td>
+                  </tr>
+                </table>
+                <!---burger end---></td>
+            </tr>
+            <!------ SPACER ------>
+            <tr>
+              <td><img src=3D"https://www.skrill.com/fileadmin/content/Emai=
+ls_2015/Master_Images/spacer.gif" alt=3D"" width=3D"600" height=3D"30" styl=
+e=3D"display: block; height: 30px;" border=3D"0" class=3D"w100pc"></td>
+            </tr>
+            <!------ SPACER END------>
+            <tr>
+              <td align=3D"center"><!------ LOGO ------>
+                <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" class=3D"w280 h" style=3D"width: 600px;" bgcolor=3D"#ffffff">
+                  <tr>
+                    <td align=3D"left"><a href=3D"https://www.skrill.com/en=
+-us/?utm_source=3Dstrongview&amp;utm_medium=3Demail&amp;utm_campaign=3D1723=
+71" style=3D"color: #fffffe; text-decoration: none; display: block;" target=
+=3D"_blank"><img alt=3D"Skrill logo" src=3D"https://www.skrill.com/fileadmi=
+n/content/Emails_2015/STRONGVIEW/Images/Skrill_logo_em.png" width=3D"108" h=
+eight=3D"38" border=3D"0" style=3D"display: block;border: none"></a></td>
+                    <td style=3D"letter-spacing:1px; padding-top:15px;font-=
+family:Arial;font-size:16px;line-height:24px;color:#68136a;text-align:right=
+;"><strong>Money movers &amp; makers</strong></td>
+                  </tr>
+                </table>
+                <!------ LOGO END------></td>
+            </tr>
+            <!---- spacer ---->
+            <tr>
+              <td><img src=3D"https://www.skrill.com/fileadmin/content/Emai=
+ls_2015/Master_Images/spacer.gif" alt=3D"" width=3D"600" height=3D"30" styl=
+e=3D"display: block; height: 30px;" border=3D"0" class=3D"w100pc"></td>
+            </tr>
+            <!---- spacer end ---->
+          </table>
+          <!------ container end ------></td>
+        <td width=3D"20" style=3D"font-size:1px; line-height:1px; width: 20=
+px;" class=3D"h">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <!-----=3D=3D=3D=3D VIB, PREHEADER LOGO MODULE WHITE END=3D=3D=3D=3D-----=
+->=0A=
+=0A=
+<!---- PPCSKRVIUSAGLO_SKRILL_ANNUAL_FEE_INSUFFICIENTFUNDS 172371 #79356e --=
+--->=0A=
+=0A=
+<!--=3D=3D=3D=3D BODY COPY MODULE =3D=3D=3D--->=0A=
+<tr>=0A=
+  <td>=0A=
+    <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" width=3D"640" bgcolor=3D"#ffffff" style=3D"width: 640px; background-=
+color: #ffffff;" class=3D"fw">=0A=
+      <tbody>=0A=
+      <tr>=0A=
+        <td class=3D"table_text" style=3D"padding: 24px 30px; font-weight: =
+300; font-size: 20px; line-height: 24px; text-align: center;">=0A=
+          Hi Nigel,=0A=
+        </td>=0A=
+      </tr>=0A=
+      </tbody>=0A=
+    </table>=0A=
+  </td>=0A=
+</tr>=0A=
+<!--=3D=3D=3D=3D BODY COPY MODULE =D0=95ND =3D=3D=3D--->=0A=
+=0A=
+<!--=3D=3D=3D=3D BODY COPY MODULE =3D=3D=3D--->=0A=
+<tr>=0A=
+  <td style=3D"background-color: #ffffff;">=0A=
+    <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" width=3D"100%">=0A=
+      <tr>=0A=
+        <td style=3D"padding: 20px 30px 0; font-family: Airal, sans-serif; =
+font-size: 15px; line-height: 20px;">=0A=
+          We were unable to process your Skrill Visa=C2=AE Prepaid Card ann=
+ual fee due to an insufficient balance in your account.=0A=
+        </td>=0A=
+      </tr>=0A=
+    </table>=0A=
+  </td>=0A=
+</tr>=0A=
+<!--=3D=3D=3D=3D BODY COPY MODULE =D0=95ND =3D=3D=3D--->=0A=
+=0A=
+<!--=3D=3D=3D=3D BODY COPY MODULE =3D=3D=3D--->=0A=
+<tr>=0A=
+  <td style=3D"background-color: #ffffff;">=0A=
+    <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" width=3D"100%">=0A=
+      <tr>=0A=
+        <td style=3D"padding: 20px 30px; font-family: Airal, sans-serif; fo=
+nt-size: 15px; line-height: 20px;">=0A=
+          Please make sure you have at least 10 USD in your Skrill account =
+to cover the annual fee so you can continue to enjoy using your card.=0A=
+        </td>=0A=
+      </tr>=0A=
+    </table>=0A=
+  </td>=0A=
+</tr>=0A=
+<!--=3D=3D=3D=3D BODY COPY MODULE =D0=95ND =3D=3D=3D--->=0A=
+=0A=
+=0A=
+<!-- SIGN OFF -->=0A=
+<tr>=0A=
+  <td>=0A=
+    <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" width=3D"100%" style=3D"background-color: #ffffff;">=0A=
+      <tr>=0A=
+        <td style=3D"padding: 20px 30px 10px 30px; font-family: Airal, sans=
+-serif; font-size: 16px; line-height: 20px; color: #000000;">=0A=
+          Thank you for choosing Skrill,=0A=
+        </td>=0A=
+      </tr>=0A=
+    </table>=0A=
+  </td>=0A=
+</tr>=0A=
+<!-- SIGN OFF END -->            =0A=
+=0A=
+            =0A=
+  <!-- Skrill Logo Sign Off: BEGIN -->
+  <tr>
+    <td style=3D"background-color: #ffffff;"><table role=3D"presentation" c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%">
+      <tr>
+        <td align=3D"left" style=3D"padding: 20px 30px; font-family: Airal,=
+ sans-serif; color: #555555;"><img src=3D"https://www.skrill.com/fileadmin/=
+content/Emails_2015/STRONGVIEW/Images/SKRILL_LOGO_SIGNOFF.png" width=3D"80"=
+ height=3D"26" alt=3D"Skrill" border=3D"0" style=3D"display: block;"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <!-- Skrill Logo Sign Off: END --> =0A=
+				<!------=3D=3D=3D=3D SOCIAL & APP BUTTON MODULE =3D=3D=3D=3D------>=09
+<tr><td>
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"fw" style=3D"width: 640px;" bgcolor=3D"#ffffff">
+    <tr>
+      <td width=3D"20" style=3D"font-size:1px; line-height:1px;width: 20px;=
+" class=3D"w15" align=3D"left">&nbsp;</td>
+     =20
+      <!---Paysafe logo--->
+      <th style=3D"font-weight:normal;" class=3D"wr" align=3D"center">
+        <table width=3D"290" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF" style=3D"width: 290px;">
+          <tr>
+            <td>
+			<a href=3D"https://play.google.com/store/apps/details?id=3Dcom.moneybook=
+ers.skrillpayments&amp;referrer=3Dutm_source%3Dgoogle%26utm_medium%3Demail%=
+26utm_term%3Drm_non_registered%26utm_campaign%3Drm_non_registered%26anid%3D=
+admob" style=3D"color: #fffffe; text-decoration: none; display: block;" tar=
+get=3D"_blank"><img alt=3D"play store" src=3D"https://www.skrill.com/filead=
+min/content/Emails_2015/Campaigns/2017_Master_Email_Templates/Skrill/Footer=
+s/app_buttons/google/app_btn-google-en.png" width=3D"135" height=3D"40" bor=
+der=3D"0" style=3D"display: block;"></a>
+			</td>
+
+  			<td width=3D"10" style=3D"font-size:1px; line-height:1px;"><img alt=3D=
+"" src=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Modular_Temp=
+lates/spacer.gif" width=3D"10" height=3D"1" style=3D"display: block;"></td>
+
+			<td>
+			<a href=3D"https://apps.apple.com/app/apple-store/id718248239?pt=3D50218=
+00&amp;ct=3Drm_non_registered&amp;mt=3D8" style=3D"color: #fffffe; text-dec=
+oration: none; display: block;" target=3D"_blank"><img alt=3D"app store" sr=
+c=3D"https://www.skrill.com/fileadmin/content/Emails_2015/Campaigns/2017_Ma=
+ster_Email_Templates/Skrill/Footers/app_buttons/apple/app_btn-apple-en.png"=
+ width=3D"135" height=3D"40" border=3D"0" style=3D"display: block;"></a>
+			</td>		=09
+          </tr>
+        </table>
+      </th>
+      <!---Paysafe logo End--->
+      <td width=3D"20" style=3D"font-size:1px; line-height:1px;width: 20x;"=
+ class=3D"w15">&nbsp;
+		  </td>
+    </tr>
+  </table>=09
+</td></tr>
+<!------=3D=3D=3D=3D SOCIAL & APP BUTTON MODULE END =3D=3D=3D=3D------>		 =
+=20
+				  =0A=
+=0A=
+  <!-- Email Footer : BEGIN -->
+  <tr>
+    <td><table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" width=3D"100%" style=3D"width: margin: auto;" bgcolor=3D"#ffffff=
+">
+      <tr>
+        <td style=3D"padding: 20px 30px 0px 30px; font-family: Arial,sans-s=
+erif; font-size: 9px; line-height: 15px; text-align: left; color: #666666;"=
+><strong>The Skrill Visa=C2=AE Prepaid Card is issued by Community Federal =
+Savings Bank, member FDIC, pursuant to a license from Visa USA Inc.<br><br>=
+ Fraud Warning:</strong></td>
+      </tr>
+      <tr>
+        <td style=3D"padding: 0px 30px; font-family: Arial,sans-serif; font=
+-size: 9px; line-height: 15px; text-align: left; color: #666666;"><table ro=
+le=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=
+=3D"100%" style=3D"width: margin: auto;">
+          <tr>
+          <tr>
+            <td style=3D"font-family: Arial,sans-serif; font-size: 9px; lin=
+e-height: 15px; text-align: left; color: #666666; text-align:left; " width=
+=3D"5" valign=3D"top" align=3D"left">=E2=80=A2</td>
+            <td align=3D"left" style=3D"font-family: Arial,sans-serif; font=
+-size: 9px; line-height: 15px; text-align: left; color: #666666;"> Your Skr=
+ill login email or password has been compromised; or </td>
+          </tr>
+          <tr>
+            <td style=3D"font-family: Arial,sans-serif; font-size: 9px; lin=
+e-height: 15px; text-align: left; color: #666666; text-align:left; " width=
+=3D"5" valign=3D"top" align=3D"left">=E2=80=A2</td>
+            <td align=3D"left" style=3D"font-family: Arial,sans-serif; font=
+-size: 9px; line-height: 15px; text-align: left; color: #666666;"> Someone =
+has made (or will make) an unauthorized transfer of funds using your Skrill=
+ account; or </td>
+          </tr>
+          <tr>
+            <td style=3D"font-family: Arial,sans-serif; font-size: 9px; lin=
+e-height: 15px; text-align: left; color: #666666; text-align:left; " width=
+=3D"5" valign=3D"top" align=3D"left">=E2=80=A2</td>
+            <td align=3D"left" style=3D"font-family: Arial,sans-serif; font=
+-size: 9px; line-height: 15px; text-align: left; color: #666666;"> You othe=
+rwise have reasonable grounds to suspect that your Skrill account has been =
+subject to fraudulent activity. </td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td style=3D"padding: 20px 30px 0px; font-family: Arial,sans-serif;=
+ font-size: 9px; line-height: 15px; text-align: left; color: #666666;"> In =
+any of these cases, please contact our <a href=3D"https://www.skrill.com/su=
+pport/?utm_source=3Dstrongview&amp;utm_medium=3Demail&amp;utm_campaign=3D17=
+2371" style=3D"color:#862165;text-decoration:underline;">Skrill Help Team</=
+a>.<br>
+          <br>
+          <strong>Error resolution and cancellation disclosure for internat=
+ional fund transfers of $15 or more:</strong><br>
+          You have a right to dispute errors in any transactions you make. =
+If you sent over $15 from your registered Skrill Account to a foreign recip=
+ient and you think there is an error, let us know within 180 days by using =
+our <a href=3D"https://www.skrill.com/contact-us/?utm_source=3Dstrongview&a=
+mp;utm_medium=3Demail&amp;utm_campaign=3D172371" style=3D"color:#862165;tex=
+t-decoration:underline;">contact method</a>.<br>
+          <br>
+          You can also contact us for a written explanation of your rights.=
+ 1-855-719-2087 2 S. Biscayne Blvd Suite 2630 Miami, FL 33131, USA<br>
+          <br>
+          Consumer Financial Protection Bureau, 1-855-411-2372, 1-855-729-2=
+372 (TTY/TDD), <a href=3D"https://www.consumerfinance.gov/" style=3D"color:=
+#862165;text-decoration:underline;">www.consumerfinance.gov</a><br>
+          <br>
+          <strong>Customer Service:</strong><br>
+          For inquiries, complaints or information on refunds/cancellation =
+of transactions, you can contact our <a href=3D"https://www.skrill.com/supp=
+ort/?utm_source=3Dstrongview&amp;utm_medium=3Demail&amp;utm_campaign=3D1723=
+71" style=3D"color:#862165;text-decoration:underline;">Skrill Help Team</a>=
+ online, call us, or contact us by mail.<br>
+          <br>
+          Phone: 1-855-719-2087. Address: 2 S. Biscayne Blvd Suite 2630 Mia=
+mi, FL 33131, USA.  =C2=A9 Copyright 2017-2021 Skrill USA, Inc. All Rights =
+Reserved.<br>
+          <br>
+          Limitation of liability: except as otherwise provided by law, in =
+no event shall Skrill be liable for damages for delay, nondelivery, nonpaym=
+ent or underpayment of a payment transaction, whether caused by an act or o=
+mission of Skrill, its employees, agents or otherwise. The sole remedy agai=
+nst Skrill shall be limited to refund to sender of the principal of the pay=
+ment transaction amount plus fees and charges, except as otherwise provided=
+ by law. In no event shall Skrill be liable for special, indirect, incident=
+al, consequential, exemplary or punitive damages except as otherwise provid=
+ed by law.<br>
+          <br>
+          U.S. states. Unresolved consumer complaints may be mailed to the =
+relevant State Banking Department. Please use the contact information <a hr=
+ef=3D"https://www.skrill.com/en-us/footer/statelicensing" target=3D"blank_"=
+ style=3D"color:#862165;text-decoration:underline;">here</a> to locate your=
+ State=E2=80=99s Banking Department.<br>
+          <br>
+          Skrill USA, Inc. is registered with FinCEN and duly licensed as a=
+ money transmitter in various U.S. states.<br>
+          <br>
+          <strong>Is this email from Skrill?</strong><br>
+          Emails from Skrill will always address you by your first and last=
+ name. If the email does not include your first and last name, it=E2=80=99s=
+ not from Skrill. Spoof or =E2=80=98phishing=E2=80=99 emails usually have g=
+eneric greetings such as &quot;Dear Skrill member&quot; or &quot;Dear Skril=
+l&quot;. Find out more <a href=3D"https://www.skrill.com/phishing/?utm_sour=
+ce=3Dstrongview&amp;utm_medium=3Demail&amp;utm_campaign=3D172371" style=3D"=
+color:#862165;text-decoration:underline;">here</a>.<br>
+          <br>
+          <strong> Keep yourself safe.</strong><br>
+          Please note that Skrill and its representatives will never ask yo=
+u to reveal your password by phone or by email. Please also ensure that you=
+ only enter your username and password on the genuine Skrill website at <a =
+href=3D"https://www.skrill.com/en-us/?utm_source=3Dstrongview&amp;utm_mediu=
+m=3Demail&amp;utm_campaign=3D172371#" target=3D"_blank" style=3D"color:#862=
+165;text-decoration:underline;">www.skrill.com</a>. If you see anything sus=
+picious please contact our <a href=3D"https://www.skrill.com/support/?utm_s=
+ource=3Dstrongview&amp;utm_medium=3Demail&amp;utm_campaign=3D172371" style=
+=3D"color:#862165;text-decoration:underline;">Skrill Help Team</a>. <br>
+          <br>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <!-- Email Footer : End -->=0A=
+<tr>
+  <td>
+        <!---SDR STATES---->
+         <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" width=3D"100%" style=3D"width: margin: auto;" bgcolor=3D"#fffff=
+f">
+                 <tr>
+                  <td style=3D"padding: 0px 30px 0px; font-family: Arial,sa=
+ns-serif; font-size: 9px; line-height: 15px; text-align: left; color: #6666=
+66;">
+						Submit complaints through <a href=3D"https://www.skrill.com/en-us/foo=
+ter/statelicensing" style=3D"color:#862165;text-decoration:underline;" targ=
+et=3D"_blank">https://www.skrill.com/en-us/footer/statelicensing.</a><br><b=
+r>=20
+
+Statute: Sale of Checks Law<br>
+Regulatory agency: Missouri Division of Finance<br>
+<a href=3D"https://finance.mo.gov/" style=3D"color:#862165;text-decoration:=
+underline;" target=3D"_blank">https://finance.mo.gov/</a>	=09
+                  Division of Finance, P.O. Box 716, Jefferson City, MO 651=
+02-0716 Phone Number: 573-751-3242<br><br>
+
+For your state banking department, <a href=3D"https://www.skrill.com/en-us/=
+footer/statelicensing" style=3D"color:#862165;text-decoration:underline;">p=
+lease click here</a>.
+                    <br><br>
+                  </td>
+                </tr>
+          </table>
+	</td>
+  </tr>
+  <!----SDR STATES END---->  =0A=
+=0A=
+<tr>
+  <td>
+        <!---FOOTER ---->
+         <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" width=3D"100%" style=3D"width: margin: auto;" bgcolor=3D"#fffff=
+f">
+                 <tr>
+                  <td style=3D"padding: 0px 30px 20px; font-family: Arial,s=
+ans-serif; font-size: 9px; line-height: 15px; text-align: left; color: #666=
+666;">
+						          To ensure that Skrill emails reach your inbox, please add <=
+a href=3D"mailto:no-reply@email.skrill.com" style=3D" font-family: Arial,sa=
+ns-serif; font-size: 9px; line-height: 15px; text-align: left; color: #6666=
+66; text-decoration:none;"><strong>no-reply@email.skrill.com</strong></a> t=
+o your email safe list.
+
+                  </td>
+                </tr>
+          </table>
+	</td>
+  </tr>
+  <!----FOOTER END---->  =0A=
+            <!-- Footer Nav Module  -->=20
+            <tr>
+              <td style=3D"background-color: #ffffff; padding-left: 25px; p=
+adding-bottom: 20px;" class=3D"h oa">
+                <table role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" width=3D"100%">
+                  <tr>
+                    <!-- Column : BEGIN -->
+                    <th valign=3D"middle" align=3D"center" class=3D"stack-i=
+tems oa show-fallback stack-column-center">
+                      <table role=3D"presentation" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" class=3D"w100pc" width=3D"100%">
+                        <tr>
+                          <td align=3D"left">
+                            <img alt=3D"Box-D" src=3D"https://www.skrill.co=
+m/fileadmin/content/Emails_2015/Master_Images/IMAGES_SER_2020/desktop_Paysa=
+fe-logo.png" width=3D"118" height=3D"45" border=3D"0">
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                    <!-- Column : END -->
+                    <!-- Column : BEGIN -->
+                    <th valign=3D"middle" align=3D"center" class=3D"stack-i=
+tems oa footer-bg-change show-fallback stack-column-center">
+                      <table role=3D"presentation" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" width=3D"100%">
+                        <tr>
+                          <th class=3D"h gmailfix-h stack-column-center" he=
+ight=3D"20" width=3D"60" style=3D"width: 60px;">&nbsp;</th>
+                          <th class=3D"stack-items oa stack-column-center">
+                            <table role=3D"presentation" cellspacing=3D"0" =
+cellpadding=3D"0" border=3D"0" width=3D"100%">
+                              <tr>
+											<th style=3D"font-family: Arial, Helvetica, sans-serif; font-siz=
+e: 12px; line-height: 18px; color: #ffffff; text-align:center; letter-spaci=
+ng: 0px;" class=3D"stack-items insert-div oa insert-div show-fallback stack=
+-column-center"><a href=3D"https://www.paysafe.com/about-us/" target=3D"_bl=
+ank" style=3D"font-family:Arial;font-size:12px;line-height:18px;color:#811e=
+68;text-decoration:none;">About</a></th>
+                                <th class=3D"stack-items oa show-fallback s=
+tack-column-center" height=3D"8" width=3D"20" style=3D"color:#e5e5e5;width:=
+ 20px;">|</th>
+											<th style=3D"font-family: Arial, Helvetica, sans-serif; font-siz=
+e: 12px; line-height: 18px; color: #ffffff; text-align:center; letter-spaci=
+ng: 0px;" class=3D"stack-items oa insert-div show-fallback stack-column-cen=
+ter"><a href=3D"https://www.skrill.com/contact-us/?utm_source=3Dstrongview&=
+amp;utm_medium=3Demail&amp;utm_campaign=3D172371" target=3D"_blank" style=
+=3D"font-family:Arial;font-size:12px;line-height:18px;color:#811e68;text-de=
+coration:none;">Support</a></th>
+                                <th class=3D"stack-items oa show-fallback s=
+tack-column-center" height=3D"8" width=3D"20" style=3D"color:#e5e5e5;width:=
+ 20px;">|</th>
+											<th style=3D"font-family: Arial, Helvetica, sans-serif; font-siz=
+e: 12px; line-height: 18px; color: #ffffff; text-align:center; letter-spaci=
+ng: 0px;" class=3D"stack-items oa insert-div show-fallback stack-column-cen=
+ter"><a href=3D"https://www.skrill.com/security-faq/?utm_source=3Dstrongvie=
+w&amp;utm_medium=3Demail&amp;utm_campaign=3D172371" target=3D"_blank" style=
+=3D"font-family:Arial;font-size:12px;line-height:18px;color:#811e68;text-de=
+coration:none;">Security</a></th>
+                                <th class=3D"stack-items oa show-fallback s=
+tack-column-center" height=3D"8" width=3D"20" style=3D"color:#e5e5e5;width:=
+ 20px; ">|</th>
+											<th style=3D"font-family: Arial, Helvetica, sans-serif; font-siz=
+e: 12px; line-height: 18px; color: #ffffff; text-align:center; letter-spaci=
+ng: 0px;" class=3D"stack-items oa insert-div show-fallback stack-column-cen=
+ter"><a href=3D"https://www.skrill.com/privacy/?utm_source=3Dstrongview&amp=
+;utm_medium=3Demail&amp;utm_campaign=3D172371" target=3D"_blank" style=3D"f=
+ont-family:Arial;font-size:12px;line-height:18px;color:#811e68;text-decorat=
+ion:none;">Privacy</a></th>
+                                <th class=3D"stack-items oa show-fallback s=
+tack-column-center" height=3D"8" width=3D"20" style=3D"color:#e5e5e5;width:=
+ 20px;">|</th>
+											<th style=3D"font-family: Arial, Helvetica, sans-serif; font-siz=
+e: 12px; line-height: 18px; color: #ffffff; text-align:center; letter-spaci=
+ng: 0px;" class=3D"stack-items oa show-fallback stack-column-center"><a hre=
+f=3D"https://www.skrill.com/termsofuse/?utm_source=3Dstrongview&amp;utm_med=
+ium=3Demail&amp;utm_campaign=3D172371" target=3D"_blank" style=3D"font-fami=
+ly:Arial;font-size:12px;line-height:18px;color:#811e68;text-decoration:none=
+;">Terms</a></th>
+                              </tr>
+                            </table>
+                          </th>
+                          <th class=3D"h gmailfix-h stack-column-center" he=
+ight=3D"20" width=3D"20" style=3D"width: 20px;">&nbsp;</th>
+                        </tr>
+                      </table>
+                    </th>
+                    <!-- Column : END -->
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- Footer Nav Module End -->=20
+				 =0A=
+=0A=
+<span style=3D"font-size: 6px; color: #f4f4f4;margin: auto;">PPCSKRVIUSAGLO=
+_SKRILL_ANNUAL_FEE_INSUFFICIENTFUNDS 172371</span>=0A=
+=0A=
+              </table>
+              <table width=3D"640" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" class=3D"fw" style=3D"border-collapse: collapse; width: 640px;" bg=
+color=3D"#ffffff">
+            </table></td></tr>
+          </table>
+          <!-- Email Body : END -->
+	 =20
+	 =20
+=09
+          <!--[if mso | IE]>
+        </td>
+      </tr>
+    </table>
+    <![endif]-->
+  </center>
+</body>
+</html>=
+
+------=_NextPart_925_9558_10C43AA7.6309A457--

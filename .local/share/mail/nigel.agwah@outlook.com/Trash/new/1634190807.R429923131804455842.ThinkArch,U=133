@@ -1,0 +1,205 @@
+Received: from AT5PR8401MB1315.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7423::12) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Wed, 22 Sep 2021 18:25:48 +0000
+Received: from BN6PR22CA0040.namprd22.prod.outlook.com (2603:10b6:404:37::26)
+ by AT5PR8401MB1315.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7423::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4544.13; Wed, 22 Sep
+ 2021 18:25:47 +0000
+Received: from BN8NAM12FT023.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:404:37:cafe::a1) by BN6PR22CA0040.outlook.office365.com
+ (2603:10b6:404:37::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4544.15 via Frontend
+ Transport; Wed, 22 Sep 2021 18:25:47 +0000
+Authentication-Results: spf=pass (sender IP is 208.85.50.18)
+ smtp.mailfrom=bounce.e.myecp.com; outlook.com; dkim=pass (signature was
+ verified) header.d=e.myecp.com;outlook.com; dmarc=pass action=none
+ header.from=e.myecp.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.e.myecp.com
+ designates 208.85.50.18 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.85.50.18; helo=mail9936.e.myecp.com;
+Received: from mail9936.e.myecp.com (208.85.50.18) by
+ BN8NAM12FT023.mail.protection.outlook.com (10.13.183.93) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4544.6 via Frontend Transport; Wed, 22 Sep 2021 18:25:47 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:E80C2A850FAF22A314D087996C63E54FAE110374D7B7D569A848005307D4054F;UpperCasedChecksum:97C251EAA81E088ADAD1FB94282760687D52EC256552F6DC150A6375CA049470;SizeAsReceived:1449;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=spop1024; d=e.myecp.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ X-CSA-Complaints:List-Unsubscribe; i=MilitaryStar@e.myecp.com;
+ bh=uJio39w+Jl1tKGF3eCmpNWWB6nSnJMJqeJIJMMi/rPw=;
+ b=SiA2OyMCLoWwGwbGjBXI3rTUCX0SfzlNlMADAxu68ih4AkkgIYiFcMuGoV20g3kYkBiYv/meungu
+   VY3GlrokaNN+1HSDAadcBkFlu8FDd6mkjDUdyRwu8ywnDmOkdkBf7Qeh7W0muGqdeY28/MEKnR0Y
+   1CeCDOwY0xC1D2NpVzE=
+Received: by mail9936.e.myecp.com id h9dqim2r7ao7 for <nigel.agwah@outlook.com>; Wed, 22 Sep 2021 18:24:32 +0000 (envelope-from <v-cachpha_empalmbflh_hilcpopp_hilcpopp_a@bounce.e.myecp.com>)
+Date: Wed, 22 Sep 2021 18:24:32 +0000 (GMT)
+From: Military Star <MilitaryStar@e.myecp.com>
+Reply-To: DoNotReply@e.myecp.com
+To: nigel.agwah@outlook.com
+Message-ID: <2061285737.51951751632335072134.JavaMail.app@rbg11.atlis1>
+Subject: Win a FREE Vacation with Military Star and AFRC Resorts
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30552_139063339.1632335069558"
+x-mid: 33718128
+X-CSA-Complaints: csa-complaints@eco.de
+x-rpcampaign: sp33718128
+x-job: 33718128
+x-orgId: 3496
+List-Unsubscribe: <http://links.e.myecp.com/luoo/v1/MWdiMEN4TTk1WThyT0FnNnZGNW9EZjJsVDNqcEhBem1qMDJocFJkRXVEQnhmSE1YVWR5VHllZ25WTDE4dEwrZ2dCRDlYdE01aUczdWlzUG9pQkR4RW8vcTB5YmxQNHNMS0>, <mailto:v-cachpha_empalmbflh_hilcpopp_hilcpopp_a@bounce.e.myecp.com?subject=Unsubscribe>
+X-IncomingHeaderCount: 16
+Return-Path: v-cachpha_empalmbflh_hilcpopp_hilcpopp_a@bounce.e.myecp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2021 18:25:47.8761
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ f52b6ab1-5452-4ae6-f89a-08d97df66624
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM12FT023.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/21/2021 7:33:57 PM
+X-MS-Office365-Filtering-Correlation-Id: f52b6ab1-5452-4ae6-f89a-08d97df66624
+X-MS-TrafficTypeDiagnostic: AT5PR8401MB1315:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.85.50.18
+X-SID-PRA: MILITARYSTAR@E.MYECP.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Sep 2021 18:25:47.7892
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f52b6ab1-5452-4ae6-f89a-08d97df66624
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM12FT023.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AT5PR8401MB1315
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.9345822
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4544.014
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100336)(4900116)(8300001)(4910005)(9560002)(9320001)(4920091)(6383003)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdfun/gh9f1vLOhYNSDbnU1YayKGblEdsO5Ge/uACOT+sjaTClekQsxR2i+JkcD/pRmHIzYgMPBEM8W7g+KbXTan3WTLbpw1flskqdvxCjkj+DUsUfj75ht0cKDK6A9bTDe3pjWtr5XjN70vNOPTHuM4vOLhXGnVuyuTraUmx+OD/wEpsf/yl+Z24yBUSKGDPCy0uzKTm9mjxg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YUh5eFBOVE5uV2htZnMzd2d0SmVETFZ2eDRNNUlDeU5pRzcwK2dpd0k3akZr?=
+ =?utf-8?B?MXFsdkVoUktrTnFNWTY1Mngwakt5YWRlVlJod3dGUTU0aVdJRDh6cHRCNFND?=
+ =?utf-8?B?dXk3dnJSTmtZRUxkNUdtNUEvL3ZjM3BmZDAvOVVSOC9ENlBJbDNTanZkV2Ey?=
+ =?utf-8?B?THZ0OTFMeTJCZUp4ZE03dHlWWUJieStuRmQ3dldjUC8yUFU2RU9GS0dNemxJ?=
+ =?utf-8?B?VzN1NTZnMHJyV1Rsb1QrTFpyU0huNUMwbkZXN0ZMWHYremN3YVR0cVdjUlJJ?=
+ =?utf-8?B?ZnlYK3ppWlYza0gwVHFuUm9EcFJZa1ZNeVJOMjhPbnM3ZjRrOWpXU2s3N1BQ?=
+ =?utf-8?B?YUlySkkrL0JjOUFESjVSOG9QTk1XZzllN08vdmpOQ3d5NUxBL05ybE1zVXBV?=
+ =?utf-8?B?UHpaTUFDS2J0TDJMYTRlV25HOHR2RHl5dVQ5UXV0aUtaZHBkY0ZpUEdkaWE3?=
+ =?utf-8?B?K0FweDFNTGtDcElsREZqb3B2REFDc1dUOEpjalBVeFhsalkzNWZJN2NpeXhi?=
+ =?utf-8?B?Tkx3QU5CcUFCTHlla21PTkVQekpjRkUrR1N4RGxTdERzNkpRVEJHMklUSTAy?=
+ =?utf-8?B?cDcwVjV2b1F1eHh1TXRnQmRvczB6RUZ6NG5rVVRRbGZrSG9PNHJPbG5SclNZ?=
+ =?utf-8?B?Z0s0RzNid01SQ3lKVVAwUkw5U3RCRWgrMDNZdmhuZWs2TjU2V2ZPTTFXbzZ5?=
+ =?utf-8?B?MjBNd2JpUXhZYW1LbVdkUjJGRUg1eldqN0NFSnFHQUlaK2ZCdzFsR0FuWlZN?=
+ =?utf-8?B?T1Z1ZlJEczRWQ0tFVC9FM1l6amNzbVlJT3lCZjFTMXcwUkR5a2J2M21FQWVX?=
+ =?utf-8?B?TWNZVTZDOGN5LzdHak9YN1Q0YXN1K011R0svcmxzSXpVUndHRGVxeDh0Z3FY?=
+ =?utf-8?B?TjZSS0k2d3ZESks5dEJBMVJEVlN2SFZSS0NZNnVlK0krV01GcmZkeXJvcFAy?=
+ =?utf-8?B?ZkVxaG9HUUJpTkdDMjVTamhFTFJFZm52andFMDdSV2cyS1cyQURyaHFRK01U?=
+ =?utf-8?B?VEszUFd1RFA2SWF0YTNCRWhGOFZ5SzJEdWVUczBNa3NhWXB1dVZVaUx0bFdt?=
+ =?utf-8?B?cEdDVTdxekV5MXpaaXhVUjc5b2JnZEF4R0s1YmE2cFNibEorYk9aK25xRS9C?=
+ =?utf-8?B?bTVvZ1ludXVBTnlMT1FoL1VrWVl6NVJrSzZsQVlNWkZiL2ZhNVd0VTF4YVpl?=
+ =?utf-8?B?UVNaYm04M1M4VkljUTdTRzJseCtWbDZTWFhqVlJpYi9sak8wUDRvWVRxemNI?=
+ =?utf-8?B?dFhlVnVuRmhSYzR6ZlFUNGM2SWtjcXV6VlBQMkNYZVg0YkVqOHl1SVBCdnBL?=
+ =?utf-8?B?WnFOV0F3djZSK29Yb1FrWmxxMm96VDhUUkxGdVJpSWg1U3o4NTRCWEFXR2s3?=
+ =?utf-8?B?MndqTXNZZFlOQ28zNjU1OWFnQTcvQ3d4OWlBeUNXbUtJTUdkKzhEMkdhR3h2?=
+ =?utf-8?B?ZEtadjc3b0Zta3kzWG5pcGc5ekZrNXJPampPSlp4djlyT2w3NFhJOVpRcWlH?=
+ =?utf-8?B?a0I5eUgvSmRpTW1wN01oOUhmc1BxU1dlYnQwRVBCN3FEaHFzNGI5aGFxeEE3?=
+ =?utf-8?B?VDBIeGxQVS81R29wTGtUZ08rcGNsajBldmxCN0lqVnBJRTZmaVpVSkVxcUxY?=
+ =?utf-8?B?Z0RiVm82TFhISlJPblM5aVF6YVkzK1JzZmlkVlRmUU1RaU5DV215dTI0bWdu?=
+ =?utf-8?B?eUhIV29DOFV1VmY4UFlmYnB6M3kwMFFZaUhlZHNVakJKTXdKMHdQUlh6V0tq?=
+ =?utf-8?Q?EWz4N6n1c470vR9g8w=3D?=
+MIME-Version: 1.0
+X-TUID: enY9h/E7JsXS
+
+------=_Part_30552_139063339.1632335069558
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+	
+</head>
+<body><center><font size="1" color="#000000" face="ARIAL">This message contains graphics.  If you do not see the graphics, <a href="http://links.e.myecp.com/servlet/MailView?ms=MzM3MTgxMjgS1&amp;r=MzMwNDU2MzcyNjYzS0&amp;j=MjAyNDk5NjYwNwS2&amp;mt=1&amp;rt=0">click here to view</a>.</font><font face="ARIAL" color="#808080" size="2"><br></font></center>&nbsp;
+<div align="center">
+<table bgcolor="#111111" border="0" bordercolor="#111111" cellspacing="0" style="border-collapse: collapse" width="419">
+	
+		<tr>
+			<td width="100%">
+			<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" width="100%">
+				
+					<tr>
+						<td width="100%">
+						<table bgcolor="#003d77" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+							
+								<tr>
+									<td align="center" height="65" width="100%"><img alt="MyECP.com" border="0" height="90" src="http://www.aafes.com/Emailimages/images/MilitaryStar/MyECPBANNER.jpg" width="419"></td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="419">
+						<table border="0" cellpadding="10" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#314B5B;" width="419">
+							
+								<tr>
+									<td width="419">
+									<center style="text-align: center;"><font color="#003d77"><span style="font-size: 25px;"><b>WIN A FREE VACATION WITH<br>
+									MILITARY STAR and<br>
+									AFRC RESORTS</b></span></font><br>
+									&nbsp;</center>
+
+									<center style="text-align: center;"><img border="0" height="244.463" src="http://contentz.mkt10535.com/ra/2021/3496/09/33718128/AFRC%20Resorts%20Getaway%20graphic2.png" width="300"><br>
+									&nbsp;</center>
+
+									<div style="text-align: center;">Enter for your chance to win online at: <a href="http://links.e.myecp.com/els/v2/x_~PQv~kRRH4/VHlaS2lKdEtiQktJYllVR3o3MlZjL0JMQXZmUmltWnhnVllmZjVPMHdVYzFYdTFZV00yenhNdFcrV0p4cUxHWkZtbGc1aUs3elhyQ2ZCZy9UQXpWejVGbFdQS1VvSFZJbVhGalNaMTNRc3c9S0/" name="Hyperlink_20210922_081827106" target="_blank">http://www.shopmyexchange.com/sweepstakes</a>.<br>
+									<br>
+									Plus, earn 2% in rewards with every stay paid for with MILITARY STAR.&nbsp;The more you stay, the more you earn.</div>
+
+									<div><br>
+									Also, sign up for AFRC Resorts Email Newsletter to receive exclusive vacation offers at <a href="http://links.e.myecp.com/els/v2/9zkpFpGW66Fe/VHlaS2lKdEtiQktJYllVR3o3MlZjL0JMQXZmUmltWnhnVllmZjVPMHdVYzFYdTFZV00yenhNdFcrV0p4cUxHWkZtbGc1aUs3elhyQ2ZCZy9UQXpWejVGbFdQS1VvSFZJbVhGalNaMTNRc3c9S0/" name="Hyperlink_20210922_082139526" target="_blank">https://elr.typeform.com/to/XBFADZ1Y</a>.</div>
+
+									<div style="text-align: center;"><br>
+									Happy Travels!</div>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<table border="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;" width="419">
+	
+		<tr>
+			<td>This email was sent by: Army &amp; Air Force Exchange Service (AAFES), Exchange Credit Program, 3911 S. Walton Walker Blvd., Dallas, TX 75236 US.<br>
+			You may receive account servicing emails even if you are not registered to receive marketing, statements, or other documents by email.<br>
+			To unsubscribe from future marketing emails&nbsp;<a href="https://www.pages01.net/militarystar/optout/MktgOptOut?spMailingID=33718128&amp;spUserID=MzMwNDU2MzcyNjYzS0&amp;spJobID=MjAyNDk5NjYwNwS2&amp;spReportId=MjAyNDk5NjYwNwS2" name="Hyperlink_20210726_111047970" target="_blank" xt="LPWEBFORMOPTIN" xtwebform="9413601">click here</a>.</td>
+		</tr>
+	
+</table>
+</div>
+<custom name="opencounter" type="tracking"> </custom><img src="http://links.e.myecp.com/eos/v1/em5MM3VpNlJiRjR6NG90bUcvM2RGWitLQnFVc3YxanI5Q0ZHS3lyQzdrVVJvNGRqNnlVWlFuU04rVG9zZWs3RGhITDZBcGZhTUdhaXVUZnoyWmRJRC9xS2dUR1BpUlY4Q1EyZnlaTE1mOW9sYlE0ZytNNi9HWk43TFpxc0crZ0NZNnpqRnZzajlkV1BPUGc2anVrY20vdzlrbGFrclFUVXJabTVxWldtYWRnL1VxN1ovYUFhblE9PQS2" style="display: none"></body>
+</html>
+
+
+
+------=_Part_30552_139063339.1632335069558--

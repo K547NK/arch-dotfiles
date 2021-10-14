@@ -1,0 +1,153 @@
+Received: from DF4PR8401MB0507.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7605::17) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Mon, 11 Oct 2021 16:28:52 +0000
+Received: from AM5P194CA0010.EURP194.PROD.OUTLOOK.COM (2603:10a6:203:8f::20)
+ by DF4PR8401MB0507.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7605::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.20; Mon, 11 Oct
+ 2021 16:28:51 +0000
+Received: from VI1EUR06FT037.eop-eur06.prod.protection.outlook.com
+ (2603:10a6:203:8f:cafe::44) by AM5P194CA0010.outlook.office365.com
+ (2603:10a6:203:8f::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.21 via Frontend
+ Transport; Mon, 11 Oct 2021 16:28:51 +0000
+Authentication-Results: spf=pass (sender IP is 50.31.58.52)
+ smtp.mailfrom=mail.snapchat.com; outlook.com; dkim=pass (signature was
+ verified) header.d=snapchat.com;outlook.com; dmarc=pass action=none
+ header.from=snapchat.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.snapchat.com
+ designates 50.31.58.52 as permitted sender) receiver=protection.outlook.com;
+ client-ip=50.31.58.52; helo=o10.mail.snapchat.com;
+Received: from o10.mail.snapchat.com (50.31.58.52) by
+ VI1EUR06FT037.mail.protection.outlook.com (10.13.6.249) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4587.18 via Frontend Transport; Mon, 11 Oct 2021 16:28:50 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:373A985F00B3E1ACF47D7877DB21D7734EFF7D7C66D4302C6AA38B02C2FF0BCF;UpperCasedChecksum:1B841B88DD17B72C8754E5DAF243C3DADF11B26124B5246E833B650A3F93C838;SizeAsReceived:1819;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=snapchat.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=m1; bh=1AJN8KuLXef4reVTQnJmZ4C1kVRNVOFhZOmu+OlCPdI=;
+	b=KqBgGMFRrR+V+njQOKWUYodykdaa4VLwXO3k9nrWc0toYwO3I085T6SD9jc+mCfE5oZ6
+	grEJt9MqCbcee2wzZ342Ru3YfOOFImI6Mxj+lpeoqET62IvrRx+rAfzeOTK/KvAYSI2xR4
+	N3aTmg1tuymi5QQhxfktH1x0bgtb8DuFk=
+Received: by filterdrecv-7c94f5678f-8vjzk with SMTP id filterdrecv-7c94f5678f-8vjzk-1-61646640-6E
+        2021-10-11 16:28:49.008400706 +0000 UTC m=+2392268.201106774
+Received: from NTA4NjAzNg (unknown)
+	by geopod-ismtpd-5-1 (SG) with HTTP
+	id QzYRJzJJQKKAraOM01G-Cg
+	Mon, 11 Oct 2021 16:28:48.979 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Date: Mon, 11 Oct 2021 16:28:49 +0000 (UTC)
+From: Team Snapchat <no_reply@snapchat.com>
+Message-ID: <QzYRJzJJQKKAraOM01G-Cg@geopod-ismtpd-5-1>
+Subject: Your Snapchat data is ready for download
+X-SG-EID:
+ =?us-ascii?Q?tZ5lMlOwv4qvkJKB+uUUpY97Xbef2YO8lP1XO6yQyMj3IQpB8HZOTAoMTsglDv?=
+ =?us-ascii?Q?oZcB2AQ8vWigjm=2FfzRAxNIBdVVqBx+OAIp+agiL?=
+ =?us-ascii?Q?JkJogb6CxNOvKL9h0XBRgQtCwJJ4H1Jeo9M9DSC?=
+ =?us-ascii?Q?EsxyXKoGEkiSM+LeQGikVMcdTUwxZu5Uc7gIxyV?=
+ =?us-ascii?Q?MQWxhsmeKI=2F8=2FyxL3APtPT3QJuaI=2FSQ0mhaQHqz?=
+ =?us-ascii?Q?YzNMin8CgMZfpHVaRy80D9ueaWtCFX9XTZ8wsU?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb=2F4ZRdM9AOGp4dMQ0sg0eEh8Bv58+Tbx8JqsFbbC4C?=
+ =?us-ascii?Q?GcRXicuxkQJjH5ZmCKjwo6TwEUj5ul2OVjXtmDF?=
+ =?us-ascii?Q?v3PgX8GRD3cfREETOqJPvdROLWP3EKSokZd4hNn?=
+ =?us-ascii?Q?NJK9yTgKxwoLxyRWqikxv3LULGmTEI2GS4FBVw+?=
+ =?us-ascii?Q?6n33Igual1DSXlgIr2e7tVTtnDvQWII0svNd7a+?=
+ =?us-ascii?Q?+u+97ukYx3VIJzv=2Fo=3D?=
+To: nigel.agwah@outlook.com
+X-Entity-ID: 6IR8Gz2NtZ2A9KpMfBMamw==
+X-IncomingHeaderCount: 14
+Return-Path: bounces+5086036-7362-nigel.agwah=outlook.com@mail.snapchat.com
+X-MS-Exchange-Organization-ExpirationStartTime: 11 Oct 2021 16:28:51.4241
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 4a2122cf-d39d-48e9-9d99-08d98cd435dc
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR06FT037.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/8/2021 2:42:16 PM
+X-MS-Office365-Filtering-Correlation-Id: 4a2122cf-d39d-48e9-9d99-08d98cd435dc
+X-MS-TrafficTypeDiagnostic: DF4PR8401MB0507:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 50.31.58.52
+X-SID-PRA: NO_REPLY@SNAPCHAT.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Oct 2021 16:28:50.7505
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4a2122cf-d39d-48e9-9d99-08d98cd435dc
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR06FT037.eop-eur06.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DF4PR8401MB0507
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.1228971
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4587.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100337)(4900116)(2008001134)(2008000189)(4910005)(9560002)(9320001)(4920091)(6515079)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdeFFkMRl0guZpNIICeypoozF/0LgBq0koB8e8fsA95HCyKsnGPC0Mu4Ur59MwSQdqV8njZbtBLGn/OnJyCe+SX/cvgPc2XCOjgQOLN+2JJViNklkws4mqUf95Vd20Hz2n0u9m52l1qj9RCc0Q9tIKdAP/hdp5BDi4YXKTY7elIZ5eJRpVFg+G2S8K1zxHhfhKSNmd986W0NIg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?QDWDRffuuaaT49xwNeMyC+JMGzesS+Ol6aJvTJESnWSJCBtgm/90m076iCC7?=
+ =?us-ascii?Q?HC9klp0i/dBebogBQmYH1wNUyy22NGA+B1ZaOooo5rJ0hLYvo/zAs5ua68lN?=
+ =?us-ascii?Q?6KgFDADWk/+XFyKx4eQiz62NG87gjl7l/p2k97g9CCRlHlmJeHJ/gsVQWg+6?=
+ =?us-ascii?Q?U2JVEx+BfAtNeMamH5K2SRfOZZdQeHCuFcQ0xEjFaVmM7IwYgap1oiiyX9La?=
+ =?us-ascii?Q?siu5obDFYcxaN0B90c2Tmru3wCm89YMYB8Ncc3iC9NS/KQZWJ35O8fXxMJ6G?=
+ =?us-ascii?Q?t90Ru7LJvcbRQ9OdsQtz7nY6QAJ9JvHWa6+q1bWJQiC1tkqpYPXp5BTsD5Ft?=
+ =?us-ascii?Q?syLADNzSgAMK1aHMH9Mxr0zTYoL/rntryPDO4oOyU9EfanP2YZ6Yh/3vlemx?=
+ =?us-ascii?Q?Y2qcLojOJAVLDvoH4yKwEhZzQXwjPovVlt5iZbaNipKBFi+1Fl1o+1wdqMbH?=
+ =?us-ascii?Q?B64kibl70gSlRl5qqQk7GG0TneA6D6pGGAe6tjWQt4o3xJL64F8fC8LOJyMP?=
+ =?us-ascii?Q?pHRh9YsdP/Uo8MRHjLlvHt7tzPw5J76rJ3QZVLp8qvESDsSi+jC/EHV43zN5?=
+ =?us-ascii?Q?CLFIbG8cvPxDpKbVu58zAzjUf3Jda3SJqYSHmr+RciJpqXxSJqN4MlQU4nsF?=
+ =?us-ascii?Q?DT1G0Nf5VoFEI6moPcjeQ9AuPJxoWSWI38Yx13f0jbvw9nVRZGH+p1GZA4tL?=
+ =?us-ascii?Q?20sVHtdY3ey6zvz3HkQ/wgRmSWwXuOLKTQScNtbIlQpAZMA0ZE4L5LkTSPEW?=
+ =?us-ascii?Q?510mAiE0pxjqnZ6eY5iTHzabXCu4p5J8Qe4NfERSI+QLhaozMRZBH3pZ8sq8?=
+ =?us-ascii?Q?loZnah43va5Y9yT7SiglzRyLUejM3coCBwCzaxHZ2nMtzItrQEdEHlVZoZX6?=
+ =?us-ascii?Q?8ZSPYX+OViEkMtpThwKSvcoBFpSWEaUEiKkStoQP52+F3U1r4ZGvENuRuJUx?=
+ =?us-ascii?Q?1yP65f+nepZajur37IcRezYu1iC7FDkizUHxp0dXw0MQWtmyVm3qw/t1eLM2?=
+ =?us-ascii?Q?wu5eptlquuCNMIKC7hkYYcCke5n69ZwZwHtzARx8KBup7JykR/07tQAtHFnV?=
+ =?us-ascii?Q?at3KES9nJ7Msyoc8VKSOt9lYCdvGGIi8NUXBN6zKcolAOqeswZj/xVAMfWDY?=
+ =?us-ascii?Q?fy9fSf5q53BsXhDIBpeAibieIgwX9h4Vbol7Kp1gQLj5913VRg4lntQueMCu?=
+ =?us-ascii?Q?ekkH5CIOtOkdnwblTRQcFLV502E3DnpeLNsq95NclSSOwDV1PhiO3+WRMoDy?=
+ =?us-ascii?Q?yw5/h3n/zr32udAwZQlJHB7aMpRM4IXXiZDV9JnVvOhjCTDCzSYVmJweRKr9?=
+ =?us-ascii?Q?itnxSztOATfoKJ/xn1K/gwUAhE+JcMgupa23vjA4MM5ing=3D=3D?=
+MIME-Version: 1.0
+X-TUID: 4agCMaN02xEU
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>Hi there!<br><br>Please <a href=3D"https://accounts.snapchat.com/accounts/=
+downloadmydata" target=3D"_blank">click here</a> to access the data you req=
+uested. Then, click the link next to &quot;Your Data is Ready&quot; to down=
+load your data!<br><br>If you didn't request a copy of your Snapchat data, =
+please <a href=3D"https://accounts.snapchat.com/accounts/password_reset_req=
+uest" target=3D"_blank">reset your password</a> as soon as possible. If you=
+ think your account has been compromised, please <a href=3D"https://support=
+.snapchat.com/a/hacked-howto" target=3D"_blank">go here</a> for more info o=
+n what to do!<br><br>Thanks!<br>Team Snapchat<br>Snap Inc., 3000 31st Stree=
+t, Santa Monica, CA 90405<img src=3D"https://u5086036.ct.sendgrid.net/wf/op=
+en?upn=3D0mwXn0caUjhhJsla-2FkVFKCQlhJqD0AYaLKoZUbYGiHIpEfiNGChqoxdjh2bh4Xcb=
+HQBHZeea8XKYe74lgnx-2BSq9oiX5CwuEVGWOMAHwc7GGjGvviopabm6MjnYVtiTEGC0GNh7Qqj=
+kypGVXS-2FjzEEMSGG1-2BPp9J53nOdqsXKPFRP1U3TKBU8ZN0eG-2FvKGFt8MqDvHj4O-2B8a2=
+riSmRISBH9O5DY0u04htbmH7-2FFlTjng-2BVEUbdHvsDTFRo1H1oSosGiKaUbaoSNC5c-2B-2F=
+HyJns2FGREUFnu3eiCIIzfZwNvLBAgCn2UhU19VI44k76qLZzOpIan4ZeEEuglEyPIieQq8FJgB=
+ESQh9s94fVtvAGaOU93TKFqy-2FGzWGp0HETy7g1gpq5ZCF-2B4cXpN8-2FQzz-2FcPsMcQpdP1=
+QFvLPo9Bs4FoufuZpRy5NYD1cU4uv57TBxU" alt=3D"" width=3D"1" height=3D"1" bord=
+er=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0=
+ !important;margin-top:0 !important;margin-bottom:0 !important;margin-right=
+:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bot=
+tom:0 !important;padding-right:0 !important;padding-left:0 !important;">

@@ -1,0 +1,308 @@
+Received: from CS1PR8401MB1207.NAMPRD84.PROD.OUTLOOK.COM
+ (2a01:111:e400:7515::11) by TU4PR8401MB1325.NAMPRD84.PROD.OUTLOOK.COM with
+ HTTPS; Sun, 19 Sep 2021 03:25:56 +0000
+Received: from BN8PR16CA0022.namprd16.prod.outlook.com (2603:10b6:408:4c::35)
+ by CS1PR8401MB1207.NAMPRD84.PROD.OUTLOOK.COM (2a01:111:e400:7515::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.14; Sun, 19 Sep
+ 2021 03:25:55 +0000
+Received: from BN1NAM02FT025.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:408:4c:cafe::b7) by BN8PR16CA0022.outlook.office365.com
+ (2603:10b6:408:4c::35) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4523.14 via Frontend
+ Transport; Sun, 19 Sep 2021 03:25:55 +0000
+Authentication-Results: spf=pass (sender IP is 69.171.232.139)
+ smtp.mailfrom=facebookmail.com; outlook.com; dkim=pass (signature was
+ verified) header.d=facebookmail.com;outlook.com; dmarc=pass action=none
+ header.from=facebookmail.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of facebookmail.com
+ designates 69.171.232.139 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.171.232.139;
+ helo=69-171-232-139.mail-mail.facebook.com;
+Received: from 69-171-232-139.mail-mail.facebook.com (69.171.232.139) by
+ BN1NAM02FT025.mail.protection.outlook.com (10.13.2.139) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4523.14 via Frontend Transport; Sun, 19 Sep 2021 03:25:55 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:CC2AC3BF33EDED2D5037F09D79CB262E1808BE9630121034CFBB0F17D5344D4D;UpperCasedChecksum:F69AB8DEDD5F926E4BD9E627824B9915F99B0905E5CE0CF20F81B8B2645B83A2;SizeAsReceived:1330;Count:19
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1632021952;
+	bh=jbtvbbN4+n7F4+0p8qVgNrFlEDKFdN737A2PCyPMo34=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=vzBz7obvwQSjBDIJiRVVtHDaNuDbbHlG5yMhw+QIae07S9tx0YlkvGsSYFD1fZRCw
+	 qbX4Q2Y1XeBl9ntC/7hmMwdATw0Q8DrWADq1AbjubV5sqjbbUHIxoqJb8gryoUb+XJ
+	 0KtDwhEviyFdO1HF9cnLWqIxk0VjIQ1H3dFUL64A=
+X-Facebook: from 2401:db00:241c:e24:face:0:1ce:0 ([MTI3LjAuMC4x]) 
+	by www.facebook.com with HTTPS (ZuckMail);
+Date: Sat, 18 Sep 2021 20:25:52 -0700
+To: Agwah Murage <nigel.agwah@outlook.com>
+Subject: Your account is scheduled for permanent deletion
+X-Mailer: ZuckMail [version 1.00]
+Return-Path: security@facebookmail.com
+From: "Facebook" <security@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Errors-To: security@facebookmail.com
+X-Facebook-Notify: account_deletion; mailid=U1U5cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8f
+Feedback-ID: 0:account_deletion:Facebook
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+Require-Recipient-Valid-Since: nigel.agwah@outlook.com; Tuesday, 13 Oct 2015 04:17:14 +0000
+Content-Type: multipart/alternative;
+	boundary="b1_721dbdabd215d867c632e68ad4178d43"
+Message-ID: <4ad99a6e-18f9-11ec-b488-2f29529e2a3f@facebookmail.com>
+X-IncomingHeaderCount: 19
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Sep 2021 03:25:55.3124
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 321631b3-e196-4442-4fa0-08d97b1d30d4
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN1NAM02FT025.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/18/2021 7:39:58 PM
+X-MS-Office365-Filtering-Correlation-Id: 321631b3-e196-4442-4fa0-08d97b1d30d4
+X-MS-TrafficTypeDiagnostic: CS1PR8401MB1207:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 69.171.232.139
+X-SID-PRA: SECURITY@FACEBOOKMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Sep 2021 03:25:55.2414
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 321631b3-e196-4442-4fa0-08d97b1d30d4
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN1NAM02FT025.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CS1PR8401MB1207
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5944249
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4523.018
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000284)(90000117)(90005022)(91005020)(91035115)(5061607266)(5061608174)(9050020)(9100336)(4900116)(98392012)(98393011)(98391011)(98390106)(4910003)(9560001)(4920091)(6250099)(4950132)(4990091);
+X-Message-Info:
+	5vMbyqxGkdfEYp2cHbQwfW07/M7G9RkUZQudVL7WICfsMWdZQoDTO9P4r5Dmi9/nkj82FNNevysuWHlg6NNHmhxx5IQuRJIxs1Vkp/qrvrgVof6cQNllvu7SmakweJ+NeTKMHe7B9uXkpaHHnjbKBbD3xYSSc54j+QLdQMq7nU6k6wUmf5laik7djqH/QYp4q9JjQaLClSysddpIMMvuJg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YVM4aWlMTThMWVI3U2kvK2xCRE9DVDc0OVBUejk0WGdzdnJJS2RUYkN5dkN1?=
+ =?utf-8?B?Z1pYc1ZTa2lZRXlFTllZa3RWdWhNVkc5MDIvdUh0OEE0anoxemtoWFIrS0w4?=
+ =?utf-8?B?bCtxSFFUR3hpNVB6V0tjVHNNVC8zR1oySEovWXFmencvQXhQd0hQeStQSU5V?=
+ =?utf-8?B?Tm9wWVk1eW5KRy9mVXZPTi9lclp0WnFYZG1ZYVBPQ0lUVDJuSWNIM2kvdnlK?=
+ =?utf-8?B?NCtmcFNKelhVSHUzVk9RUWJCbFhtOVY1YmV0c2tqeXNFQ1VObVllMW1xVHFn?=
+ =?utf-8?B?UVJWNFErakZqR1ZMWG9FUkF4K0UwRG1GMGhCOHBiK2MyWUpObFl6L0VlK1Nm?=
+ =?utf-8?B?WGRwOFowc1lKMmFjbHZoSTFqYVZ5MjlBUzdYUlFwR2pUZUtObFVUb2F0QjU1?=
+ =?utf-8?B?Q3FXWWFadmh4TGphUy9BSnFXZXBKbTVzQk03U2ZyKzVyb1IvbTNraFFPeURT?=
+ =?utf-8?B?R0tEcEl5cU9HYU1wcWhZMlUvdTBEOE4xSjA0R01hQ2VyZFduZm9rSDQ3U1VX?=
+ =?utf-8?B?YXo4OU9PdWwrVXEyVFNPYTV1V1UyUzJIZlBIaEhSdkVSSnk4Y0RWdldKLzB3?=
+ =?utf-8?B?blFDZ0UwRlpENjVDSlpQMmt3RjlMbURTUkFmeVRjeFB2WHhVM0NlazdKQTV0?=
+ =?utf-8?B?NWh2eXloSWhEVURQOXQ1MTB0TktMbXV6WllIaGUrRHQ1dGhueDRXTTgwaG94?=
+ =?utf-8?B?ZWxkN1VTbWMxZE9oWFpOT045c25vWHdadGl1bU1rNnFzNC90anBiTFNmeWYx?=
+ =?utf-8?B?L1FvK0kyNUZEVWV2aytoaFp3Q3VscmRVb2NGWk9WcTRVVUdxZDVlMldLTXRE?=
+ =?utf-8?B?bVM4djArb0krUHRsZHp3Q1lJZ2srSTJGVEdUa2xadjhDMDI5REo3djBHU3do?=
+ =?utf-8?B?NVFuMmN2ZngwT09KQXY1TktneVVoWnNlaTFpcHFia3puZ293eVF4enBLdS9Y?=
+ =?utf-8?B?ZlF2R20zQzQ4dXJMUiszdldCWk9HakNTYTFCVi8rbTZIZFB5RzRHUFFyTjha?=
+ =?utf-8?B?K21DNWwxTTBHWDVBaVJuWklkdmVnZDRpblN0TU1teTNOK2xUYTNGRTNrY0ZB?=
+ =?utf-8?B?cW1XQjhocTIrWHFGekcxbDd2SnFtTS8yZjdrdTh0VHYyUUZRZDQwdVF5a29C?=
+ =?utf-8?B?eEw3ejd6bC8rREhWL2dXNW5kbUQ3dzlwa0FsQSt5OXZlcExoVVdDVytyZGhF?=
+ =?utf-8?B?bDAwZ2RNZllBM0JJcDRuOTlNTHg3YXJxZlc3SEtLem5EazBkVFV3eGxCUytX?=
+ =?utf-8?B?T2lJeFVJcFdnWWJQZXlzREN3OHQ3ajBXSTdhalpabzgxVWV2TG9oUlYva3kw?=
+ =?utf-8?B?UFFRcXpKN1hGRU5yVm4rV3VnRStFb0hZZVpmNVRiVlREMnc3TGp1MWF3MURr?=
+ =?utf-8?B?ZWJFS0tRSGRsVVZERDlnY3RhUkN6L3pVbU1SakFkV2Fxb0VRWFYxUXdNQkh6?=
+ =?utf-8?B?NTFyQnpDaTZER2NnbDQ0M1VGbVRXNk1aUlRTY1FWZ0pZczJhSGRmaU5WR1U2?=
+ =?utf-8?B?UUFjSWVCZjYrVnEvNCt6SW9uQ1hjUDZmVUREenFYelErOFF2MlF1U21uZHZn?=
+ =?utf-8?B?SVkxSGd1cUFEbGxqM0R5YnJJV2Y5QnQ2ajN6WGY3MS8rUERJZnFLM09SdUFu?=
+ =?utf-8?B?KzNsbENvY3dLaVd2NE9FTjZFYW5WOTRwOW9ieHkyNWl4dFFFUSs3UTd6S2FQ?=
+ =?utf-8?B?T3F1N1ZUUUZNVnRIbUYvYVNxelBQM1FlZTJCR1FvK1k1SWNnY0lYYTJ6QUtt?=
+ =?utf-8?Q?70HfYcA8SVRcoxlrPE=3D?=
+MIME-Version: 1.0
+X-TUID: DwglXIw06Bbl
+
+--b1_721dbdabd215d867c632e68ad4178d43
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+GO TO FACEBOOK
+https://www.facebook.com/n/?aref=3D1632021952088973&medium=3Demail&mid=3D5=
+cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8f&bcode=3D2.1632021952.Aby1SFAt_=
+cN5N5JH5PI&n_m=3Dnigel.agwah%40outlook.com&rms=3Dv2
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Hi Agwah,
+
+Agwah,
+
+Your account is scheduled for permanent deletion.
+
+Facebook will start deleting your account in 30 days. After Oct 18, 2021, =
+you won't be able to access the account or any of the content you added.
+
+To cancel the deletion of your account and retrieve any of the content or =
+information you have added, go to Facebook.
+
+Thanks,
+The Facebook team
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+This message was sent to nigel.agwah@outlook.com at your request.
+Facebook, Inc., Attention: Community Support, 1 Facebook Way, Menlo Park, =
+CA 94025
+To help keep your account secure, please don't forward this email. Follow =
+the link below to learn more.
+https://www.facebook.com/email_forward_notice/?mid=3D5cc506f2248bbG5af5421=
+b870dG5cc50b8b84b8dGb8f
+
+
+--b1_721dbdabd215d867c632e68ad4178d43
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional //EN"><html><head=
+>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Facebook</title><style nonce=3D"TQJ1ZzYv">@media all and (max-width: 4=
+80px){*[class].ib_t{min-width:100% !important}*[class].ib_row{display:block=
+ !important}*[class].ib_ext{display:block !important;padding:10px 0 5px 0;v=
+ertical-align:top !important;width:100% !important}*[class].ib_img,*[class]=
+.ib_mid{vertical-align:top !important}*[class].mb_blk{display:block !import=
+ant;padding-bottom:10px;width:100% !important}*[class].mb_hide{display:none=
+ !important}*[class].mb_inl{display:inline !important}*[class].d_mb_flex{di=
+splay:block !important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@me=
+dia only screen and (max-device-width: 480px){.d_mb_hide{display:none !impo=
+rtant}.d_mb_show{display:block !important}.d_mb_flex{display:block !importa=
+nt}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text h5,.mb_text h6=
+{line-height:normal}.mb_work_text h1{font-size:18px;line-height:normal;marg=
+in-top:4px}.mb_work_text h2,.mb_work_text h3{font-size:16px;line-height:nor=
+mal;margin-top:4px}.mb_work_text h4,.mb_work_text h5,.mb_work_text h6{font-=
+size:14px;line-height:normal}.mb_work_text a{color:#1270e9}.mb_work_text p{=
+margin-top:4px}</style></head><body style=3D"margin:0;padding:0;" dir=3D"lt=
+r" bgcolor=3D"#ffffff"><table border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" id=3D"email_table" style=3D"border-collapse:collapse;"=
+><tr><td id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica=
+,Lucida Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"bo=
+rder-collapse:collapse;"><tr style=3D""><td height=3D"20" style=3D"line-hei=
+ght:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td height=3D"1" colspan=3D"3"=
+ style=3D"line-height:1px;"><span style=3D"color:#FFFFFF;font-size:1px;opac=
+ity:0;">&nbsp; Agwah, &nbsp; Your account is scheduled for permanent deleti=
+on. &nbsp; Facebook will start deleting your account in 30 days. After Oct =
+18, 2021, you won't be able to access the account or any of the content you=
+ added. &nbsp; To cancel the deletion of your account and retrieve any of t=
+he content or information you have added, go to Facebook. &nbsp;</span></td=
+></tr><tr><td width=3D"15" style=3D"display:block;width:15px;">&nbsp;&nbsp;=
+&nbsp;</td><td style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><t=
+d height=3D"15" style=3D"line-height:15px;" colspan=3D"3">&nbsp;</td></tr><=
+tr><td width=3D"32" align=3D"left" valign=3D"middle" style=3D"height:32;lin=
+e-height:0px;"><a href=3D"https://www.facebook.com/n/?aref=3D16320219520889=
+73&amp;medium=3Demail&amp;mid=3D5cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8=
+f&amp;bcode=3D2.1632021952.Aby1SFAt_cN5N5JH5PI&amp;n_m=3Dnigel.agwah%40outl=
+ook.com" style=3D"color:#3b5998;text-decoration:none;"><img src=3D"https://=
+static.xx.fbcdn.net/rsrc.php/v3/yP/r/nblMrq1jYuK.png" width=3D"32" height=
+=3D"32" style=3D"border:0;"></a></td><td width=3D"15" style=3D"display:bloc=
+k;width:15px;">&nbsp;&nbsp;&nbsp;</td><td width=3D"100%" style=3D""><a href=
+=3D"https://www.facebook.com/n/?aref=3D1632021952088973&amp;medium=3Demail&=
+amp;mid=3D5cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8f&amp;bcode=3D2.163202=
+1952.Aby1SFAt_cN5N5JH5PI&amp;n_m=3Dnigel.agwah%40outlook.com" style=3D"colo=
+r:#3b5998;text-decoration:none;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;font-size:19px;line-height:32px;">Fa=
+cebook</a></td></tr><tr style=3D"border-bottom:solid 1px #e5e5e5;"><td heig=
+ht=3D"15" style=3D"line-height:15px;" colspan=3D"3">&nbsp;</td></tr></table=
+></td><td width=3D"15" style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbs=
+p;</td></tr><tr><td width=3D"15" style=3D"display:block;width:15px;">&nbsp;=
+&nbsp;&nbsp;</td><td style=3D""><table border=3D"0" width=3D"100%" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=
+=3D""><td height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td=
+ style=3D""><span class=3D"mb_text" style=3D"font-family:Helvetica Neue,Hel=
+vetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-he=
+ight:21px;color:#141823;">Agwah,</span></td></tr><tr style=3D""><td height=
+=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td style=3D""><spa=
+n class=3D"mb_text" style=3D"font-family:Helvetica Neue,Helvetica,Lucida Gr=
+ande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;color:=
+#141823;">Your account is scheduled for permanent deletion.</span></td></tr=
+><tr style=3D""><td height=3D"28" style=3D"line-height:28px;">&nbsp;</td></=
+tr><tr><td style=3D""><span class=3D"mb_text" style=3D"font-family:Helvetic=
+a Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16=
+px;line-height:21px;color:#141823;">Facebook will start deleting your accou=
+nt in 30 days. After Oct 18, 2021, you won't be able to access the account =
+or any of the content you added.</span></td></tr><tr style=3D""><td height=
+=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td style=3D""><spa=
+n class=3D"mb_text" style=3D"font-family:Helvetica Neue,Helvetica,Lucida Gr=
+ande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;color:=
+#141823;">To cancel the deletion of your account and retrieve any of the co=
+ntent or information you have added, go to Facebook.</span></td></tr><tr st=
+yle=3D""><td height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr></ta=
+ble></td><td width=3D"15" style=3D"display:block;width:15px;">&nbsp;&nbsp;&=
+nbsp;</td></tr><tr><td width=3D"15" style=3D"display:block;width:15px;">&nb=
+sp;&nbsp;&nbsp;</td><td style=3D""><table border=3D"0" width=3D"100%" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr styl=
+e=3D""><td height=3D"2" style=3D"line-height:2px;" colspan=3D"3">&nbsp;</td=
+></tr><tr><td class=3D"mb_blk" style=3D""><a href=3D"https://www.facebook.c=
+om/n/?aref=3D1632021952088973&amp;medium=3Demail&amp;mid=3D5cc506f2248bbG5a=
+f5421b870dG5cc50b8b84b8dGb8f&amp;bcode=3D2.1632021952.Aby1SFAt_cN5N5JH5PI&a=
+mp;n_m=3Dnigel.agwah%40outlook.com&amp;rms=3Dv2" style=3D"color:#3b5998;tex=
+t-decoration:none;"><table border=3D"0" width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td style=3D"border=
+-collapse:collapse;border-radius:2px;text-align:center;display:block;border=
+:solid 1px #344c80;box-shadow:inset 0 1px 1px rgba(255, 255, 255, 0.1),0 1p=
+x 0 rgba(0, 0, 0, 0.1);background:#4c649b;padding:7px 16px 11px 16px;"><a h=
+ref=3D"https://www.facebook.com/n/?aref=3D1632021952088973&amp;medium=3Dema=
+il&amp;mid=3D5cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8f&amp;bcode=3D2.163=
+2021952.Aby1SFAt_cN5N5JH5PI&amp;n_m=3Dnigel.agwah%40outlook.com&amp;rms=3Dv=
+2" style=3D"color:#3b5998;text-decoration:none;display:block;"><center><fon=
+t size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Lucida Gra=
+nde,tahoma,verdana,arial,sans-serif;white-space:nowrap;font-weight:bold;ver=
+tical-align:middle;color:#ffffff;text-shadow:0 -1px 0 #415686;font-size:14p=
+x;line-height:14px;">GO&nbsp;TO&nbsp;FACEBOOK</span></font></center></a></t=
+d></tr></table></a></td><td width=3D"100%" class=3D"mb_hide" style=3D""></t=
+d></tr><tr style=3D""><td height=3D"32" style=3D"line-height:32px;" colspan=
+=3D"3">&nbsp;</td></tr></table></td><td width=3D"15" style=3D"display:block=
+;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td width=3D"15" style=3D"dis=
+play:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td style=3D""><table border=
+=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" st=
+yle=3D"border-collapse:collapse;"><tr style=3D"border-top:solid 1px #e5e5e5=
+;"><td height=3D"19" style=3D"line-height:19px;">&nbsp;</td></tr><tr><td st=
+yle=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,ar=
+ial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16px;">This message=
+ was sent to <a href=3D"mailto:nigel.agwah@outlook.com" style=3D"color:#3b5=
+998;text-decoration:none;">nigel.agwah@outlook.com</a> at your request.<br>=
+Facebook, Inc., Attention: Community Support, 1 Facebook Way, Menlo Park, C=
+A 94025</td></tr></table></td><td width=3D"15" style=3D"display:block;width=
+:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td width=3D"15" style=3D"display:b=
+lock;width:15px;">&nbsp;&nbsp;&nbsp;</td><td style=3D""><table border=3D"0"=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collaps=
+e:collapse;"><tr><td style=3D"font-family:Helvetica Neue,Helvetica,Lucida G=
+rande,tahoma,verdana,arial,sans-serif;font-size:11px;color:#aaaaaa;line-hei=
+ght:16px;"><span class=3D"mb_text" style=3D"font-family:Helvetica Neue,Helv=
+etica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-hei=
+ght:21px;color:#141823;;font-family:Helvetica Neue,Helvetica,Lucida Grande,=
+tahoma,verdana,arial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16=
+px;">To help keep your account secure, please don't forward this email. <a =
+style=3D"color:#3b5998;text-decoration:none;" href=3D"https://www.facebook.=
+com/email_forward_notice/?mid=3D5cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8=
+f">Learn More</a></span></td></tr></table></td><td width=3D"15" style=3D"di=
+splay:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr style=3D""><td hei=
+ght=3D"20" style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr></tabl=
+e><span style=3D""><img src=3D"https://www.facebook.com/email_open_log_pic.=
+php?mid=3D5cc506f2248bbG5af5421b870dG5cc50b8b84b8dGb8f" style=3D"border:0;w=
+idth:1px;height:1px;"></span></td></tr></table></body></html>
+
+
+
+--b1_721dbdabd215d867c632e68ad4178d43--
