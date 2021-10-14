@@ -4,4 +4,4 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ..
-yay -S polybar-git
+yay -S polybar-git zathura-pdf-mupdf
