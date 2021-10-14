@@ -1,0 +1,7 @@
+#!/bin/sh
+sudo pacman -S imagemagick networkmanager pass msmtp isync notmuch mpv ranger rofi i3-gaps vim i3lock alsa alsa-utils alsa-firmware tlp arandr ladspa git base-devel &&
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ..
+yay -S polybar-git
