@@ -1,5 +1,6 @@
 #!/bin/sh
-sudo pacman -S imagemagick networkmanager pass msmtp isync notmuch mpv ranger rofi vim i3lock alsa alsa-utils alsa-firmware tlp cmus arandr pulseaudio pavucontrol ladspa git base-devel &&
+sudo pacman -S imagemagick networkmanager pass msmtp isync notmuch mpv \
+ranger rofi vim i3lock alsa alsa-utils alsa-firmware tlp cmus arandr pulseaudio pavucontrol ladspa git base-devel &&
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
